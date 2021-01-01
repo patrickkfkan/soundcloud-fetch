@@ -1,0 +1,15 @@
+{
+  "name": "soundcloud-fetch",
+  "version": "0.1.0-a",
+  "description": "Fetch SoundCloud public resources through API v2",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Kan",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "soundcloud-key-fetch": "^1.0.11"
+  }
+}
