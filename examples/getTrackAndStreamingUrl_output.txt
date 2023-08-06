@@ -1,0 +1,105 @@
+
+> soundcloud-fetch@1.0.0 example
+> func() { npx ts-node -P ./tsconfig-esm.json --esm ./examples/${1}.ts; }; func "getTrackAndStreamingUrl"
+
+{
+  type: 'track',
+  id: 9723380,
+  texts: { title: 'Executioners Ensemble', description: '', caption: null },
+  dates: {
+    created: '2011-01-28T01:24:46Z',
+    released: null,
+    modified: '2011-01-28T01:24:46Z',
+    display: '2011-01-28T01:24:46Z'
+  },
+  downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+  socialData: {
+    commentable: true,
+    commentCount: 0,
+    likesCount: 2,
+    repostsCount: 1
+  },
+  sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+  playbackData: { playbackCount: 37, policy: 'ALLOW' },
+  isBlocked: false,
+  isSnipped: false,
+  mediaInfo: {
+    trackFormat: 'single-track',
+    encodingState: 'finished',
+    transcodings: [
+      {
+        type: 'media-transcoding',
+        url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:9723380/fa534907-2a47-4719-ad34-73d9dad39139/stream/hls',
+        preset: 'mp3_0_0',
+        duration: 170017,
+        isSnipped: false,
+        protocol: 'hls',
+        mimeType: 'audio/mpeg',
+        quality: 'sq'
+      },
+      {
+        type: 'media-transcoding',
+        url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:9723380/fa534907-2a47-4719-ad34-73d9dad39139/stream/progressive',
+        preset: 'mp3_0_0',
+        duration: 170017,
+        isSnipped: false,
+        protocol: 'progressive',
+        mimeType: 'audio/mpeg',
+        quality: 'sq'
+      }
+    ]
+  },
+  permalink: {
+    basic: 'executioners-ensemble',
+    full: 'https://soundcloud.com/grimfictionrlk/executioners-ensemble'
+  },
+  apiInfo: {
+    streamable: true,
+    uri: 'https://api.soundcloud.com/tracks/9723380',
+    urn: 'soundcloud:tracks:9723380'
+  },
+  purchaseInfo: { title: null, url: null },
+  publisher: null,
+  durations: { full: 170017, playback: 170017 },
+  genre: 'Decapitation',
+  license: 'all-rights-reserved',
+  isPublic: true,
+  tags: '',
+  label: '',
+  artwork: null,
+  waveform: 'https://wave.sndcdn.com/bKfXNLtfMM09_m.json',
+  user: {
+    type: 'user',
+    id: 2910865,
+    names: {
+      full: 'Paul Butler',
+      first: 'Paul',
+      last: 'Butler',
+      username: 'GrimFictionRLK'
+    },
+    lastModified: '2014-10-28T23:25:32Z',
+    permalink: {
+      basic: 'grimfictionrlk',
+      full: 'https://soundcloud.com/grimfictionrlk'
+    },
+    apiInfo: {
+      uri: 'https://api.soundcloud.com/users/2910865',
+      urn: 'soundcloud:users:2910865'
+    },
+    location: { city: 'Pasadena', country: 'US' },
+    isVerified: false,
+    avatar: {
+      default: 'https://i1.sndcdn.com/avatars-000002543362-5ll1ft-large.jpg',
+      t500x500: 'https://i1.sndcdn.com/avatars-000002543362-5ll1ft-t500x500.jpg',
+      crop: 'https://i1.sndcdn.com/avatars-000002543362-5ll1ft-crop.jpg',
+      t300x300: 'https://i1.sndcdn.com/avatars-000002543362-5ll1ft-t300x300.jpg',
+      large: 'https://i1.sndcdn.com/avatars-000002543362-5ll1ft-large.jpg',
+      badge: 'https://i1.sndcdn.com/avatars-000002543362-5ll1ft-badge.jpg',
+      small: 'https://i1.sndcdn.com/avatars-000002543362-5ll1ft-small.jpg',
+      tiny: 'https://i1.sndcdn.com/avatars-000002543362-5ll1ft-tiny.jpg',
+      mini: 'https://i1.sndcdn.com/avatars-000002543362-5ll1ft-mini.jpg'
+    },
+    badges: { pro: false, proUnlimited: false, verified: false }
+  }
+}
+Streaming URL: https://cf-hls-media.sndcdn.com/playlist/bKfXNLtfMM09.128.mp3/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLWhscy1tZWRpYS5zbmRjZG4uY29tL3BsYXlsaXN0L2JLZlhOTHRmTU0wOS4xMjgubXAzL3BsYXlsaXN0Lm0zdTgqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkxMzM1NzE4fX19XX0_&Signature=QQqa0z1HfUbHxABQHnUe4~5XOuNmUg~gJUCupBz5Wd0liHwyD-TVm2PP3FCF0yb2PlJZNPKzA-LljeEU5e8vIee2b33B8YetgYjoeAYhST2SozNHobxnref0zLDGwreAptO51eQ17S4nXZeulZCsKOCUsx6ntrDV7gVCvPsizvn4INon9vkALZW9V5AcSLdQBBIy-zCENnHTNmOknWHgYfTzzxEiP~qmjGTxScnDGCfCB6FQR7pS7iJNq4sqmxrNxXUr~upnjngx7GH~LRHjA6up8Mh8mjsiNKiKp0abSTlx~K-v-RgGhftycZz83QTDyh5JKd4VT91NGcRzxPARYg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ

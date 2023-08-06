@@ -1,0 +1,706 @@
+
+> soundcloud-fetch@1.0.0 example
+> func() { npx ts-node -P ./tsconfig-esm.json --esm ./examples/${1}.ts; }; func "getPlaylistsByUser"
+
+{
+  type: 'unknown-collection',
+  items: [
+    {
+      type: 'playlist',
+      id: 1613819257,
+      user: {
+        type: 'user',
+        id: 1179174835,
+        names: {
+          full: '',
+          first: '',
+          last: '',
+          username: 'Discovery Playlists'
+        },
+        lastModified: '2023-05-17T14:09:23Z',
+        permalink: {
+          basic: 'sc-playlists',
+          full: 'https://soundcloud.com/sc-playlists'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1179174835',
+          urn: 'soundcloud:users:1179174835'
+        },
+        location: { city: 'Global', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'wildhearts',
+        full: 'https://soundcloud.com/sc-playlists/sets/wildhearts'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1613819257' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-mini.jpg'
+      },
+      setType: '',
+      duration: 8308767,
+      dates: {
+        created: '2023-05-02T12:28:25Z',
+        published: '2023-05-22T11:34:21Z',
+        modified: '2023-08-02T11:35:55Z',
+        display: '2023-05-22T11:34:21Z'
+      },
+      sharingData: { shareability: 'public', secretToken: null },
+      texts: {
+        title: 'Wildhearts',
+        description: 'Carefree country music to uplift and let loose. Updates every Wednesday.'
+      },
+      trackCount: 40,
+      socialData: { likesCount: 478, repostsCount: 27, managedByFeeds: false }
+    },
+    {
+      type: 'playlist',
+      id: 1613819254,
+      user: {
+        type: 'user',
+        id: 1179174835,
+        names: {
+          full: '',
+          first: '',
+          last: '',
+          username: 'Discovery Playlists'
+        },
+        lastModified: '2023-05-17T14:09:23Z',
+        permalink: {
+          basic: 'sc-playlists',
+          full: 'https://soundcloud.com/sc-playlists'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1179174835',
+          urn: 'soundcloud:users:1179174835'
+        },
+        location: { city: 'Global', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'synth-city',
+        full: 'https://soundcloud.com/sc-playlists/sets/synth-city'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1613819254' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-mini.jpg'
+      },
+      setType: '',
+      duration: 10706783,
+      dates: {
+        created: '2023-05-02T12:28:25Z',
+        published: '2023-05-22T11:34:21Z',
+        modified: '2023-08-02T11:37:13Z',
+        display: '2023-05-22T11:34:21Z'
+      },
+      sharingData: { shareability: 'public', secretToken: null },
+      texts: { title: 'Synth City', description: '' },
+      trackCount: 38,
+      socialData: { likesCount: 1076, repostsCount: 55, managedByFeeds: false }
+    },
+    {
+      type: 'playlist',
+      id: 1613819251,
+      user: {
+        type: 'user',
+        id: 1179174835,
+        names: {
+          full: '',
+          first: '',
+          last: '',
+          username: 'Discovery Playlists'
+        },
+        lastModified: '2023-05-17T14:09:23Z',
+        permalink: {
+          basic: 'sc-playlists',
+          full: 'https://soundcloud.com/sc-playlists'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1179174835',
+          urn: 'soundcloud:users:1179174835'
+        },
+        location: { city: 'Global', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'saturday-night-fever',
+        full: 'https://soundcloud.com/sc-playlists/sets/saturday-night-fever'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1613819251' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-mini.jpg'
+      },
+      setType: '',
+      duration: 14354024,
+      dates: {
+        created: '2023-05-02T12:28:25Z',
+        published: '2023-05-22T11:34:20Z',
+        modified: '2023-08-02T11:36:53Z',
+        display: '2023-05-22T11:34:20Z'
+      },
+      sharingData: { shareability: 'public', secretToken: null },
+      texts: {
+        title: 'Saturday Night Fever',
+        description: 'Freshly uploaded disco beats and funky rhythms to transport you back to the golden age. Updates every Wednesday.'
+      },
+      trackCount: 40,
+      socialData: { likesCount: 2300, repostsCount: 57, managedByFeeds: false }
+    },
+    {
+      type: 'playlist',
+      id: 1613819248,
+      user: {
+        type: 'user',
+        id: 1179174835,
+        names: {
+          full: '',
+          first: '',
+          last: '',
+          username: 'Discovery Playlists'
+        },
+        lastModified: '2023-05-17T14:09:23Z',
+        permalink: {
+          basic: 'sc-playlists',
+          full: 'https://soundcloud.com/sc-playlists'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1179174835',
+          urn: 'soundcloud:users:1179174835'
+        },
+        location: { city: 'Global', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'pop-roadtrip',
+        full: 'https://soundcloud.com/sc-playlists/sets/pop-roadtrip'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1613819248' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-mini.jpg'
+      },
+      setType: '',
+      duration: 7911341,
+      dates: {
+        created: '2023-05-02T12:28:24Z',
+        published: '2023-05-22T11:34:20Z',
+        modified: '2023-08-02T11:36:08Z',
+        display: '2023-05-22T11:34:20Z'
+      },
+      sharingData: { shareability: 'public', secretToken: null },
+      texts: {
+        title: 'Pop Roadtrip',
+        description: 'Pop songs fit for the thrill of the open road. Updates every Wednesday.'
+      },
+      trackCount: 40,
+      socialData: { likesCount: 464, repostsCount: 20, managedByFeeds: false }
+    },
+    {
+      type: 'playlist',
+      id: 1613819242,
+      user: {
+        type: 'user',
+        id: 1179174835,
+        names: {
+          full: '',
+          first: '',
+          last: '',
+          username: 'Discovery Playlists'
+        },
+        lastModified: '2023-05-17T14:09:23Z',
+        permalink: {
+          basic: 'sc-playlists',
+          full: 'https://soundcloud.com/sc-playlists'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1179174835',
+          urn: 'soundcloud:users:1179174835'
+        },
+        location: { city: 'Global', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'funktastic',
+        full: 'https://soundcloud.com/sc-playlists/sets/funktastic'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1613819242' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-mini.jpg'
+      },
+      setType: '',
+      duration: 9602978,
+      dates: {
+        created: '2023-05-02T12:28:24Z',
+        published: '2023-05-22T11:34:20Z',
+        modified: '2023-08-02T11:36:47Z',
+        display: '2023-05-22T11:34:20Z'
+      },
+      sharingData: { shareability: 'public', secretToken: null },
+      texts: {
+        title: 'Funktastic',
+        description: 'Freshly uplaoded feel good Funk tunes. Updates every Wednesday.'
+      },
+      trackCount: 40,
+      socialData: { likesCount: 436, repostsCount: 16, managedByFeeds: false }
+    },
+    {
+      type: 'playlist',
+      id: 1613819239,
+      user: {
+        type: 'user',
+        id: 1179174835,
+        names: {
+          full: '',
+          first: '',
+          last: '',
+          username: 'Discovery Playlists'
+        },
+        lastModified: '2023-05-17T14:09:23Z',
+        permalink: {
+          basic: 'sc-playlists',
+          full: 'https://soundcloud.com/sc-playlists'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1179174835',
+          urn: 'soundcloud:users:1179174835'
+        },
+        location: { city: 'Global', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'fruit-loops',
+        full: 'https://soundcloud.com/sc-playlists/sets/fruit-loops'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1613819239' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-mini.jpg'
+      },
+      setType: '',
+      duration: 7745857,
+      dates: {
+        created: '2023-05-02T12:28:24Z',
+        published: '2023-05-22T11:34:20Z',
+        modified: '2023-08-02T11:36:59Z',
+        display: '2023-05-22T11:34:20Z'
+      },
+      sharingData: { shareability: 'public', secretToken: null },
+      texts: {
+        title: 'Fruit Loops',
+        description: 'Get a burst of flavour from these feel-good downtempo and lofi rhythms. Updates every. Wednesday.'
+      },
+      trackCount: 39,
+      socialData: { likesCount: 181, repostsCount: 8, managedByFeeds: false }
+    },
+    {
+      type: 'playlist',
+      id: 1613819236,
+      user: {
+        type: 'user',
+        id: 1179174835,
+        names: {
+          full: '',
+          first: '',
+          last: '',
+          username: 'Discovery Playlists'
+        },
+        lastModified: '2023-05-17T14:09:23Z',
+        permalink: {
+          basic: 'sc-playlists',
+          full: 'https://soundcloud.com/sc-playlists'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1179174835',
+          urn: 'soundcloud:users:1179174835'
+        },
+        location: { city: 'Global', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'feel-good-flows',
+        full: 'https://soundcloud.com/sc-playlists/sets/feel-good-flows'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1613819236' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-mini.jpg'
+      },
+      setType: '',
+      duration: 7243571,
+      dates: {
+        created: '2023-05-02T12:28:24Z',
+        published: '2023-05-22T11:34:20Z',
+        modified: '2023-08-02T11:36:04Z',
+        display: '2023-05-22T11:34:20Z'
+      },
+      sharingData: { shareability: 'public', secretToken: null },
+      texts: {
+        title: 'Feel Good Flows',
+        description: 'Quirky rap and trap to boost your mood. Updates every Wednesday.'
+      },
+      trackCount: 40,
+      socialData: { likesCount: 251, repostsCount: 8, managedByFeeds: false }
+    },
+    {
+      type: 'playlist',
+      id: 1613819233,
+      user: {
+        type: 'user',
+        id: 1179174835,
+        names: {
+          full: '',
+          first: '',
+          last: '',
+          username: 'Discovery Playlists'
+        },
+        lastModified: '2023-05-17T14:09:23Z',
+        permalink: {
+          basic: 'sc-playlists',
+          full: 'https://soundcloud.com/sc-playlists'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1179174835',
+          urn: 'soundcloud:users:1179174835'
+        },
+        location: { city: 'Global', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'elevated-frequencies',
+        full: 'https://soundcloud.com/sc-playlists/sets/elevated-frequencies'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1613819233' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-mini.jpg'
+      },
+      setType: '',
+      duration: 8466909,
+      dates: {
+        created: '2023-05-02T12:28:24Z',
+        published: '2023-05-22T11:34:20Z',
+        modified: '2023-08-02T11:37:05Z',
+        display: '2023-05-22T11:34:20Z'
+      },
+      sharingData: { shareability: 'public', secretToken: null },
+      texts: {
+        title: 'Elevated Frequencies',
+        description: 'Find your frequency with this selection of euphoric pop songs. Updates every Wednesday.'
+      },
+      trackCount: 39,
+      socialData: { likesCount: 655, repostsCount: 11, managedByFeeds: false }
+    },
+    {
+      type: 'playlist',
+      id: 1613819227,
+      user: {
+        type: 'user',
+        id: 1179174835,
+        names: {
+          full: '',
+          first: '',
+          last: '',
+          username: 'Discovery Playlists'
+        },
+        lastModified: '2023-05-17T14:09:23Z',
+        permalink: {
+          basic: 'sc-playlists',
+          full: 'https://soundcloud.com/sc-playlists'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1179174835',
+          urn: 'soundcloud:users:1179174835'
+        },
+        location: { city: 'Global', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'electric-energy',
+        full: 'https://soundcloud.com/sc-playlists/sets/electric-energy'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1613819227' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-mini.jpg'
+      },
+      setType: '',
+      duration: 7381683,
+      dates: {
+        created: '2023-05-02T12:28:24Z',
+        published: '2023-05-22T11:34:20Z',
+        modified: '2023-08-02T11:36:40Z',
+        display: '2023-05-22T11:34:20Z'
+      },
+      sharingData: { shareability: 'public', secretToken: null },
+      texts: {
+        title: 'Electric Energy',
+        description: 'Electrifying selection of Pop music to get charged up. Updates every Wednesday.'
+      },
+      trackCount: 40,
+      socialData: { likesCount: 320, repostsCount: 13, managedByFeeds: false }
+    },
+    {
+      type: 'playlist',
+      id: 1613819221,
+      user: {
+        type: 'user',
+        id: 1179174835,
+        names: {
+          full: '',
+          first: '',
+          last: '',
+          username: 'Discovery Playlists'
+        },
+        lastModified: '2023-05-17T14:09:23Z',
+        permalink: {
+          basic: 'sc-playlists',
+          full: 'https://soundcloud.com/sc-playlists'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1179174835',
+          urn: 'soundcloud:users:1179174835'
+        },
+        location: { city: 'Global', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-LMr31nEYcBBwZUgJ-UnPnDw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'edm-uplift',
+        full: 'https://soundcloud.com/sc-playlists/sets/edm-uplift'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1613819221' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-mini.jpg'
+      },
+      setType: '',
+      duration: 7389466,
+      dates: {
+        created: '2023-05-02T12:28:24Z',
+        published: '2023-05-22T11:34:19Z',
+        modified: '2023-08-02T11:36:12Z',
+        display: '2023-05-22T11:34:19Z'
+      },
+      sharingData: { shareability: 'public', secretToken: null },
+      texts: {
+        title: 'EDM Uplift',
+        description: 'Elevate your day with this high energy EDM playlist. Updates every Wednesday.'
+      },
+      trackCount: 40,
+      socialData: { likesCount: 639, repostsCount: 16, managedByFeeds: false }
+    }
+  ]
+}
