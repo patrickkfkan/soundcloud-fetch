@@ -9,6 +9,6 @@ scfetch.getPlaylist(1585151710).then(async (playlist) => {
 
     const tracks = await playlist.getTracks();
     console.log('--- TRACKS ---');
-    tracks.forEach((track) => print(track.toPlainObject()));
+    tracks?.forEach((track) => print(track.toPlainObject()));
   }
 });

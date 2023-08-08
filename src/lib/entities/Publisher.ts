@@ -76,47 +76,47 @@ export default class Publisher extends Entity {
   }
 
   #getId() {
-    return this.getJSON('id');
+    return this.getJSON<number>('id');
   }
 
   #getArtist() {
-    return this.getJSON('artist');
+    return this.getJSON<string>('artist');
   }
 
   #getAlbumTitle() {
-    return this.getJSON('album_title');
+    return this.getJSON<string>('album_title');
   }
 
   #containsMusic() {
-    return this.getJSON('contains_music');
+    return this.getJSON<boolean>('contains_music');
   }
 
   #getUPCOrEAN() {
-    return this.getJSON('upc_or_ean');
+    return this.getJSON<string>('upc_or_ean');
   }
 
   #getISRC() {
-    return this.getJSON('isrc');
+    return this.getJSON<string>('isrc');
   }
 
   #isExplicit() {
-    return this.getJSON('explicit');
+    return this.getJSON<boolean>('explicit');
   }
 
   #getReleaseTitle() {
-    return this.getJSON('release_title');
+    return this.getJSON<string>('release_title');
   }
 
   #getCopyrightText() {
     return this.lazyGet('copyright', () => {
       return {
         general: {
-          p: this.getJSON('p_line'),
-          c: this.getJSON('c_line')
+          p: this.getJSON<string>('p_line'),
+          c: this.getJSON<string>('c_line')
         },
         display: {
-          p: this.getJSON('p_line_for_display'),
-          c: this.getJSON('c_line_for_display')
+          p: this.getJSON<string>('p_line_for_display'),
+          c: this.getJSON<string>('c_line_for_display')
         }
       };
     });
@@ -125,7 +125,7 @@ export default class Publisher extends Entity {
   #getApiInfo() {
     return this.lazyGet('api', () => {
       return {
-        urn: this.getJSON('urn')
+        urn: this.getJSON<string>('urn')
       };
     });
   }

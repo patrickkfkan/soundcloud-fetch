@@ -9,6 +9,6 @@ scfetch.getAlbum(1602102004).then(async (album) => {
 
     const tracks = await album.getTracks();
     console.log('--- TRACKS ---');
-    tracks.forEach((track) => print(track.toPlainObject()));
+    tracks?.forEach((track) => print(track.toPlainObject()));
   }
 });

@@ -40,21 +40,25 @@ export default class Selection extends Entity {
   }
 
   #getId() {
-    return this.getJSON('id');
+    return this.getJSON<string>('id');
   }
 
   #getTitle() {
-    return this.getJSON('title');
+    return this.getJSON<string>('title');
   }
 
   #getNextUri() {
-    return this.getJSON('items').next_href;
+    return this.getJSON<any>('items')?.next_href as string | null | undefined;
   }
 
   #getItems() {
     return this.lazyGet('items', () => {
-      return CollectionBuilder.build(this.getJSON('items'), this.getClient()).items;
-    });
+      const itemsData = this.getJSON<any>('items');
+      if (itemsData) {
+        return CollectionBuilder.build(itemsData, this.getClient()).items;
+      }
+      return undefined;
+    }) || [];
   }
 
   get id() {

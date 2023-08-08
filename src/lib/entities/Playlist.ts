@@ -1,7 +1,7 @@
 import SoundCloud from '../SoundCloud.js';
 import PlaylistBase from './PlaylistBase.js';
 
-export default class Playlist extends PlaylistBase {
+export default class Playlist extends PlaylistBase<number> {
 
   constructor(json: any, client: SoundCloud) {
     super(json, client);
@@ -75,36 +75,36 @@ export default class Playlist extends PlaylistBase {
   }
 
   #isPublic() {
-    return this.getJSON('public');
+    return this.getJSON<boolean>('public');
   }
 
   #getApiInfo() {
     return this.lazyGet('api', () => {
       return {
-        uri: this.getJSON('uri')
+        uri: this.getJSON<string>('uri')
       };
     });
   }
 
   #getArtwork() {
-    return this.getImageUrls(this.getJSON('artwork_url'));
+    return this.getImageUrls(this.getJSON<string>('artwork_url'));
   }
 
   #getSetType() {
-    return this.getJSON('set_type');
+    return this.getJSON<string>('set_type');
   }
 
   #getDuration() {
-    return this.getJSON('duration');
+    return this.getJSON<number>('duration');
   }
 
   protected getDates() {
     return this.lazyGet('dates', () => {
       return {
-        created: this.getJSON('created_at'),
-        published: this.getJSON('published_at'),
-        modified: this.getJSON('last_modified'),
-        display: this.getJSON('display_date')
+        created: this.getJSON<string>('created_at'),
+        published: this.getJSON<string>('published_at'),
+        modified: this.getJSON<string>('last_modified'),
+        display: this.getJSON<string>('display_date')
       };
     });
   }
@@ -112,31 +112,38 @@ export default class Playlist extends PlaylistBase {
   protected getSharingData() {
     return this.lazyGet('sharing', () => {
       return {
-        shareability: this.getJSON('sharing'),
-        secretToken: this.getJSON('secret_token')
+        shareability: this.getJSON<string>('sharing'),
+        secretToken: this.getJSON<string>('secret_token')
       };
     });
+  }
+
+  protected getFullPlaylist() {
+    if (this.id) {
+      return this.getClient().getPlaylist(this.id);
+    }
+    return Promise.resolve(null);
   }
 
   #getTexts() {
     return this.lazyGet('texts', () => {
       return {
-        title: this.getJSON('title'),
-        description: this.getJSON('description')
+        title: this.getJSON<string>('title'),
+        description: this.getJSON<string>('description')
       };
     });
   }
 
   #getTrackCount() {
-    return this.getJSON('track_count');
+    return this.getJSON<number>('track_count');
   }
 
   #getSocialData() {
     return this.lazyGet('social', () => {
       return {
-        likesCount: this.getJSON('likes_count'),
-        repostsCount: this.getJSON('reposts_count'),
-        managedByFeeds: this.getJSON('managed_by_feeds')
+        likesCount: this.getJSON<number>('likes_count'),
+        repostsCount: this.getJSON<number>('reposts_count'),
+        managedByFeeds: this.getJSON<boolean>('managed_by_feeds')
       };
     });
   }

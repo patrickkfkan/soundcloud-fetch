@@ -47,48 +47,55 @@ export default class Album extends Playlist {
   protected getSharingData() {
     return this.lazyGet('sharing', () => {
       return {
-        shareability: this.getJSON('sharing'),
-        embeddableBy: this.getJSON('embeddable_by'),
-        secretToken: this.getJSON('secret_token')
+        shareability: this.getJSON<string>('sharing'),
+        embeddableBy: this.getJSON<String>('embeddable_by'),
+        secretToken: this.getJSON<string>('secret_token')
       };
     });
+  }
+
+  protected getFullPlaylist() {
+    if (this.id) {
+      return this.getClient().getAlbum(this.id);
+    }
+    return Promise.resolve(null);
   }
 
   protected getDates() {
     return this.lazyGet('dates', () => {
       return {
-        created: this.getJSON('created_at'),
-        published: this.getJSON('published_at'),
-        modified: this.getJSON('last_modified'),
-        display: this.getJSON('display_date'),
-        release: this.getJSON('release_date')
+        created: this.getJSON<string>('created_at'),
+        published: this.getJSON<string>('published_at'),
+        modified: this.getJSON<string>('last_modified'),
+        display: this.getJSON<string>('display_date'),
+        release: this.getJSON<string>('release_date')
       };
     });
   }
 
   #getGenre() {
-    return this.getJSON('genre');
+    return this.getJSON<string>('genre');
   }
 
   #getLabel() {
-    return this.getJSON('label_name');
+    return this.getJSON<string>('label_name');
   }
 
   #getLicense() {
-    return this.getJSON('license');
+    return this.getJSON<string>('license');
   }
 
   #getPurchaseData() {
     return this.lazyGet('purchase', () => {
       return {
-        title: this.getJSON('purchase_title'),
-        url: this.getJSON('purchase_url')
+        title: this.getJSON<string>('purchase_title'),
+        url: this.getJSON<string>('purchase_url')
       };
     });
   }
 
   #getTags() {
-    return this.getJSON('tag_list');
+    return this.getJSON<string>('tag_list');
   }
 
   get genre() {

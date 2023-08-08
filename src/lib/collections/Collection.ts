@@ -42,11 +42,13 @@ export default abstract class Collection<T extends EntityType> {
   /**
    * @internal
    */
-  getJSON(prop: string) {
+  getJSON<T extends string>(prop?: string): T | null | undefined;
+  getJSON<T>(prop?: string): T | undefined;
+  getJSON<T>(prop?: string): T | undefined {
     if (!prop) {
       return this.#json;
     }
-    return this.#json[prop] !== undefined ? this.#json[prop] : null;
+    return this.#json[prop] !== undefined ? this.#json[prop] : undefined;
   }
 
   protected getClient() {
@@ -54,7 +56,7 @@ export default abstract class Collection<T extends EntityType> {
   }
 
   get nextUri() {
-    return this.getJSON('next_href');
+    return this.getJSON<string>('next_href');
   }
 
   protected lazyGet<T>(key: string, getValue: () => T): T {

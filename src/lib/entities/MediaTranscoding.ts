@@ -57,39 +57,39 @@ export default class MediaTranscoding extends Entity {
   }
 
   #getUrl() {
-    return this.getJSON('url');
+    return this.getJSON<string>('url');
   }
 
   #getPreset() {
-    return this.getJSON('preset');
+    return this.getJSON<string>('preset');
   }
 
   #getDuration() {
-    return this.getJSON('duration');
+    return this.getJSON<number>('duration');
   }
 
   #isSnipped() {
-    return this.getJSON('snipped');
+    return this.getJSON<boolean>('snipped');
   }
 
   #getProtocol() {
-    const format = this.getJSON('format');
+    const format = this.getJSON<any>('format');
     if (format) {
-      return format.protocol;
+      return format.protocol as string;
     }
-    return null;
+    return undefined;
   }
 
   #getMimeType() {
-    const format = this.getJSON('format');
+    const format = this.getJSON<any>('format');
     if (format) {
-      return format.mime_type;
+      return format.mime_type as string;
     }
-    return null;
+    return undefined;
   }
 
   #getQuality() {
-    return this.getJSON('quality');
+    return this.getJSON<'sq' | 'hq'>('quality');
   }
 
   get url() {

@@ -1,8 +1,8 @@
 export const API_BASE_URL = 'https://api-v2.soundcloud.com';
 
-export const ARTWORK_FORMATS = [ 't500x500', 'crop', 't300x300', 'large', 't67x67', 'badge', 'small', 'tiny', 'mini' ];
+export const ARTWORK_FORMATS = [ 't500x500', 'crop', 't300x300', 'large', 't67x67', 'badge', 'small', 'tiny', 'mini' ] as const;
 
-export const ARTWORK_FORMAT_SIZES = {
+export const ARTWORK_FORMAT_SIZES: Record<typeof ARTWORK_FORMATS[number], string> = {
   't500x500': '500x500',
   'crop': '400x400',
   't300x300': '300x300',
@@ -14,9 +14,9 @@ export const ARTWORK_FORMAT_SIZES = {
   'mini': '16x16'
 };
 
-export const AVATAR_FORMATS = [ 't500x500', 'crop', 't300x300', 'large', 'badge', 'small', 'tiny', 'mini' ];
+export const AVATAR_FORMATS = [ 't500x500', 'crop', 't300x300', 'large', 'badge', 'small', 'tiny', 'mini' ] as const;
 
-export const AVATAR_FORMAT_SIZES = {
+export const AVATAR_FORMAT_SIZES: Record<typeof AVATAR_FORMATS[number], string> = {
   't500x500': '500x500',
   'crop': '400x400',
   't300x300': '300x300',

@@ -1,9 +1,9 @@
-import SoundCloud from '../SoundCloud.js';
+import SoundCloud, { SoundCloudPageOptions } from '../SoundCloud.js';
 import Entity from './Entity.js';
 import Track from './Track.js';
 import User from './User.js';
 
-export default abstract class PlaylistBase extends Entity {
+export default abstract class PlaylistBase<ID extends string | number> extends Entity {
 
   constructor(json: any, client: SoundCloud) {
     super(json, client);
@@ -31,18 +31,26 @@ export default abstract class PlaylistBase extends Entity {
   }
 
   #getId() {
-    return this.getJSON('id');
+    return this.getJSON<ID>('id');
   }
 
   #getUser() {
-    return this.lazyGet('user', () => new User(this.getJSON('user'), this.getClient()));
+    return this.lazyGet('user', () => {
+      const userData = this.getJSON<any>('user');
+      if (!userData) {
+        return undefined;
+      }
+      return new User(userData, this.getClient());
+    });
   }
 
   #getPermalink() {
-    return {
-      basic: this.getJSON('permalink'),
-      full: this.getJSON('permalink_url')
-    };
+    return this.lazyGet('permalink', () => {
+      return {
+        basic: this.getJSON<string>('permalink'),
+        full: this.getJSON<string>('permalink_url')
+      };
+    });
   }
 
   get id() {
@@ -57,33 +65,35 @@ export default abstract class PlaylistBase extends Entity {
     return this.#getPermalink();
   }
 
-  async getTracks(options?: { offset: number, limit: number }) {
+  async getTracks(options?: SoundCloudPageOptions) {
     const offset = options?.offset || 0;
     let keySuffix = `_${offset}`;
     if (options?.limit) {
       keySuffix += `-${offset + options.limit}`;
     }
     return this.lazyGetAsync(`tracks${keySuffix}`, async () => {
-      let trackIds = await this.#getTrackIds();
-      if (options?.limit) {
-        trackIds = trackIds.slice(offset, options.limit + offset);
-      }
-      else if (offset) {
-        trackIds = trackIds.slice(offset);
-      }
-      const tracks = await this.getClient().getTracks(trackIds);
-      // Tracks do not appear in the same order as trackIds, so
-      // We need to sort them ourselves
-      const orderedTracks: Track[] = [];
-      tracks.forEach((track) => {
-        const trackIndex = trackIds.indexOf(track.id);
-        if (trackIndex >= 0) {
-          orderedTracks[trackIndex] = track;
+      const trackIds = await this.#getTrackIds();
+      if (trackIds) {
+        let useIds = trackIds;
+        if (options?.limit) {
+          useIds = trackIds.slice(offset, options.limit + offset);
         }
-      });
-      // Make sure there are no 'gaps' in the array
-      return orderedTracks.filter((t) => t !== undefined);
-      return orderedTracks;
+        else if (offset) {
+          useIds = trackIds.slice(offset);
+        }
+        const tracks = await this.getClient().getTracks(trackIds);
+        // Tracks do not appear in the same order as trackIds, so
+        // We need to sort them ourselves
+        const orderedTracks: Track[] = [];
+        tracks.forEach((track) => {
+          const trackIndex = useIds.indexOf(track.id);
+          if (trackIndex >= 0) {
+            orderedTracks[trackIndex] = track;
+          }
+        });
+        // Make sure there are no 'gaps' in the array
+        return orderedTracks.filter((t) => t);
+      }
     });
   }
 
@@ -92,13 +102,13 @@ export default abstract class PlaylistBase extends Entity {
       // Check if we already have tracks in JSON data.
       // If not, we need to refetch the playlist with full
       // Representation
-      const tracks = this.getJSON('tracks');
+      const tracks = this.getJSON<any>('tracks');
       if (Array.isArray(tracks)) {
         return tracks.map((track) => track.id);
       }
 
-      const fullPlaylist = await this.getClient().getPlaylist(this.id);
-      const plTracks = fullPlaylist?.getJSON('tracks');
+      const fullPlaylist = await this.getFullPlaylist();
+      const plTracks = fullPlaylist?.getJSON<any>('tracks');
       if (Array.isArray(plTracks)) {
         return plTracks.map((track) => track.id);
       }
@@ -106,4 +116,6 @@ export default abstract class PlaylistBase extends Entity {
       return [];
     });
   }
+
+  protected abstract getFullPlaylist(): Promise<PlaylistBase<string | number> | null>;
 }

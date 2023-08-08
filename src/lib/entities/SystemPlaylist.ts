@@ -1,7 +1,8 @@
 import SoundCloud from '../SoundCloud.js';
 import PlaylistBase from './PlaylistBase.js';
+import User from './User.js';
 
-export default class SystemPlaylist extends PlaylistBase {
+export default class SystemPlaylist extends PlaylistBase<string> {
 
   constructor(json: any, client: SoundCloud) {
     super(json, client);
@@ -56,51 +57,66 @@ export default class SystemPlaylist extends PlaylistBase {
     return 'system-playlist';
   }
 
+  protected getFullPlaylist() {
+    if (this.id) {
+      return this.getClient().getSystemPlaylist(this.id);
+    }
+    return Promise.resolve(null);
+  }
+
   #isPublic() {
-    return this.getJSON('is_public');
+    return this.getJSON<boolean>('is_public');
   }
 
   #getApiInfo() {
     return this.lazyGet('api', () => {
       return {
-        urn: this.getJSON('urn'),
-        queryUrn: this.getJSON('query_urn')
+        urn: this.getJSON<string>('urn'),
+        queryUrn: this.getJSON<string>('query_urn')
       };
     });
   }
 
   #getArtwork() {
-    return {
-      original: this.getImageUrls(this.getJSON('artwork_url')),
-      calculated: this.getImageUrls(this.getJSON('calculated_artwork_url'))
-    };
+    return this.lazyGet('artwork', () => {
+      return {
+        original: this.getImageUrls(this.getJSON<string>('artwork_url')),
+        calculated: this.getImageUrls(this.getJSON<string>('calculated_artwork_url'))
+      };
+    });
   }
 
   #getMadeFor() {
-    return this.getJSON('made_for');
+    return this.lazyGet('madeFor', () => {
+      const userData = this.getJSON<any>('made_for');
+      if (!userData) {
+        return undefined;
+      }
+      return new User(userData, this.getClient());
+    });
   }
 
   #getLastUpdated() {
-    return this.getJSON('last_updated');
+    return this.getJSON<string>('last_updated');
   }
 
   #getTexts() {
     return this.lazyGet('texts', () => {
       return {
         title: {
-          full: this.getJSON('title'),
-          short: this.getJSON('short_title')
+          full: this.getJSON<string>('title'),
+          short: this.getJSON<string>('short_title')
         },
         description: {
-          full: this.getJSON('description'),
-          short: this.getJSON('short_description')
+          full: this.getJSON<string>('description'),
+          short: this.getJSON<string>('short_description')
         }
       };
     });
   }
 
   #getTrackCount() {
-    const tracks = this.getJSON('tracks');
+    const tracks = this.getJSON<any>('tracks');
     if (Array.isArray(tracks)) {
       return tracks.length;
     }

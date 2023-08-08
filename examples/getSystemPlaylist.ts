@@ -9,6 +9,6 @@ scfetch.getSystemPlaylist('soundcloud:system-playlists:charts-top:all-music').th
 
     const tracks = await playlist.getTracks();
     console.log('--- TRACKS ---');
-    tracks.forEach((track) => print(track.toPlainObject()));
+    tracks?.forEach((track) => print(track.toPlainObject()));
   }
 });

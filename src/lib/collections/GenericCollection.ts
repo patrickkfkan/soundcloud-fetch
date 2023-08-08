@@ -27,7 +27,7 @@ export default class GenericCollection<T extends EntityType> extends Collection<
   }
 
   protected getType() {
-    return this.getJSON('kind') || 'unknown-collection';
+    return this.getJSON<string>('kind') || 'unknown-collection';
   }
 
   protected getItems(): T[] {

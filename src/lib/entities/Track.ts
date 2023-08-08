@@ -156,15 +156,15 @@ export default class Track extends Entity {
   }
 
   #getId() {
-    return this.getJSON('id');
+    return this.getJSON<number>('id');
   }
 
   #getTexts() {
     return this.lazyGet('texts', () => {
       return {
-        title: this.getJSON('title'),
-        description: this.getJSON('description'),
-        caption: this.getJSON('caption')
+        title: this.getJSON<string>('title'),
+        description: this.getJSON<string>('description'),
+        caption: this.getJSON<string>('caption')
       };
     });
   }
@@ -172,10 +172,10 @@ export default class Track extends Entity {
   #getDates() {
     return this.lazyGet('dates', () => {
       return {
-        created: this.getJSON('created_at'),
-        released: this.getJSON('release_date'),
-        modified: this.getJSON('last_modified'),
-        display: this.getJSON('display_date')
+        created: this.getJSON<string>('created_at'),
+        released: this.getJSON<string>('release_date'),
+        modified: this.getJSON<string>('last_modified'),
+        display: this.getJSON<string>('display_date')
       };
     });
   }
@@ -183,9 +183,9 @@ export default class Track extends Entity {
   #getDownloadData() {
     return this.lazyGet('download', () => {
       return {
-        downloadable: this.getJSON('downloadable'),
-        downloadCount: this.getJSON('download_count'),
-        hasDownloadsLeft: this.getJSON('has_downloads_left')
+        downloadable: this.getJSON<boolean>('downloadable'),
+        downloadCount: this.getJSON<number>('download_count'),
+        hasDownloadsLeft: this.getJSON<number>('has_downloads_left')
       };
     });
   }
@@ -193,10 +193,10 @@ export default class Track extends Entity {
   #getSocialData() {
     return this.lazyGet('social', () => {
       return {
-        commentable: this.getJSON('commentable'),
-        commentCount: this.getJSON('comment_count'),
-        likesCount: this.getJSON('likes_count'),
-        repostsCount: this.getJSON('reposts_count')
+        commentable: this.getJSON<boolean>('commentable'),
+        commentCount: this.getJSON<number>('comment_count'),
+        likesCount: this.getJSON<number>('likes_count'),
+        repostsCount: this.getJSON<number>('reposts_count')
       };
     });
   }
@@ -204,9 +204,9 @@ export default class Track extends Entity {
   #getSharingData() {
     return this.lazyGet('sharing', () => {
       return {
-        shareability: this.getJSON('sharing'),
-        embeddableBy: this.getJSON('embeddable_by'),
-        secretToken: this.getJSON('secret_token')
+        shareability: this.getJSON<string>('sharing'),
+        embeddableBy: this.getJSON<string>('embeddable_by'),
+        secretToken: this.getJSON<string>('secret_token')
       };
     });
   }
@@ -214,26 +214,32 @@ export default class Track extends Entity {
   #getPlaybackData() {
     return this.lazyGet('playback', () => {
       return {
-        playbackCount: this.getJSON('playback_count'),
-        policy: this.getJSON('policy')
+        playbackCount: this.getJSON<number>('playback_count'),
+        policy: this.getJSON<string>('policy')
       };
     });
   }
 
   #isBlocked() {
+    if (!this.playbackData?.policy) {
+      return undefined;
+    }
     return this.playbackData.policy === 'BLOCK';
   }
 
   #isSnipped() {
-    return this.playbackData.policy === 'SNIP';
+    if (!this.playbackData?.policy) {
+      return undefined;
+    }
+    return this.playbackData?.policy === 'SNIP';
   }
 
   #getMediaInfo() {
     return this.lazyGet('media', () => {
       return {
-        trackFormat: this.getJSON('track_format'),
-        encodingState: this.getJSON('state'),
-        transcodings: this.#parseTranscodings(this.getJSON('media').transcodings)
+        trackFormat: this.getJSON<string>('track_format'),
+        encodingState: this.getJSON<string>('state'),
+        transcodings: this.#parseTranscodings(this.getJSON<any>('media').transcodings)
       };
     });
   }
@@ -241,8 +247,8 @@ export default class Track extends Entity {
   #getPermalink() {
     return this.lazyGet('permalink', () => {
       return {
-        basic: this.getJSON('permalink'),
-        full: this.getJSON('permalink_url')
+        basic: this.getJSON<string>('permalink'),
+        full: this.getJSON<string>('permalink_url')
       };
     });
   }
@@ -250,9 +256,9 @@ export default class Track extends Entity {
   #getApiInfo() {
     return this.lazyGet('api', () => {
       return {
-        streamable: this.getJSON('streamable'),
-        uri: this.getJSON('uri'),
-        urn: this.getJSON('urn')
+        streamable: this.getJSON<boolean>('streamable'),
+        uri: this.getJSON<string>('uri'),
+        urn: this.getJSON<string>('urn')
       };
     });
   }
@@ -260,16 +266,17 @@ export default class Track extends Entity {
   #getPurchaseInfo() {
     return this.lazyGet('purchase', () => {
       return {
-        title: this.getJSON('purchase_title'),
-        url: this.getJSON('purchase_url')
+        title: this.getJSON<string>('purchase_title'),
+        url: this.getJSON<string>('purchase_url')
       };
     });
   }
 
   #getPublisher() {
     return this.lazyGet('publisher', () => {
-      if (this.getJSON('publisher_metadata')) {
-        return new Publisher(this.getJSON('publisher_metadata'), this.getClient());
+      const publisherData = this.getJSON<any>('publisher_metadata');
+      if (publisherData) {
+        return new Publisher(publisherData, this.getClient());
       }
 
       return null;
@@ -280,43 +287,47 @@ export default class Track extends Entity {
   #getDurations() {
     return this.lazyGet('durations', () => {
       return {
-        full: this.getJSON('full_duration'),
-        playback: this.getJSON('duration')
+        full: this.getJSON<number>('full_duration'),
+        playback: this.getJSON<number>('duration')
       };
     });
   }
 
   #getGenre() {
-    return this.getJSON('genre');
+    return this.getJSON<string>('genre');
   }
 
   #getLicense() {
-    return this.getJSON('license');
+    return this.getJSON<string>('license');
   }
 
   #isPublic() {
-    return this.getJSON('public');
+    return this.getJSON<boolean>('public');
   }
 
   #getTags() {
-    return this.getJSON('tag_list');
+    return this.getJSON<string>('tag_list');
   }
 
   #getLabel() {
-    return this.getJSON('label_name');
+    return this.getJSON<string>('label_name');
   }
 
   #getArtwork() {
-    return this.getImageUrls(this.getJSON('artwork_url'));
+    return this.getImageUrls(this.getJSON<string>('artwork_url'));
   }
 
   #getWaveform() {
-    return this.getJSON('waveform_url');
+    return this.getJSON<string>('waveform_url');
   }
 
   #getUser() {
     return this.lazyGet('user', () => {
-      return new User(this.getJSON('user'), this.getClient());
+      const userData = this.getJSON<any>('user');
+      if (userData) {
+        return new User(userData, this.getClient());
+      }
+      return undefined;
     });
   }
 

@@ -69,58 +69,68 @@ export default class User extends Entity {
   }
 
   #getId() {
-    return this.getJSON('id');
+    return this.getJSON<number>('id');
   }
 
   #getNames() {
-    return {
-      full: this.getJSON('full_name'),
-      first: this.getJSON('first_name'),
-      last: this.getJSON('last_name'),
-      username: this.getJSON('username')
-    };
+    return this.lazyGet('names', () => {
+      return {
+        full: this.getJSON<string>('full_name'),
+        first: this.getJSON<string>('first_name'),
+        last: this.getJSON<string>('last_name'),
+        username: this.getJSON<string>('username')
+      };
+    });
   }
 
   #getLastModified() {
-    return this.getJSON('last_modified');
+    return this.getJSON<string>('last_modified');
   }
 
   #getPermalink() {
-    return {
-      basic: this.getJSON('permalink'),
-      full: this.getJSON('permalink_url')
-    };
+    return this.lazyGet('permalink', () => {
+      return {
+        basic: this.getJSON<string>('permalink'),
+        full: this.getJSON<string>('permalink_url')
+      };
+    });
   }
 
   #getApiInfo() {
-    return {
-      uri: this.getJSON('uri'),
-      urn: this.getJSON('urn')
-    };
+    return this.lazyGet('api', () => {
+      return {
+        uri: this.getJSON<string>('uri'),
+        urn: this.getJSON<string>('urn')
+      };
+    });
   }
 
   #getLocation() {
-    return {
-      city: this.getJSON('city'),
-      country: this.getJSON('country_code')
-    };
+    return this.lazyGet('location', () => {
+      return {
+        city: this.getJSON<string>('city'),
+        country: this.getJSON<string>('country_code')
+      };
+    });
   }
 
   #isVerified() {
-    return this.getJSON('verified');
+    return this.getJSON<boolean>('verified');
   }
 
   #getAvatar() {
-    return this.getImageUrls(this.getJSON('avatar_url'), 'avatar');
+    return this.getImageUrls(this.getJSON<string>('avatar_url'), 'avatar');
   }
 
   #getBadges() {
-    const badges = this.getJSON('badges');
-    return {
-      pro: badges.pro,
-      proUnlimited: badges.pro_unlimited,
-      verified: badges.verified
-    };
+    return this.lazyGet('badges', () => {
+      const badges = this.getJSON<any>('badges');
+      return {
+        pro: badges.pro as boolean | undefined,
+        proUnlimited: badges.pro_unlimited as boolean | undefined,
+        verified: badges.verified as boolean | undefined
+      };
+    });
   }
 
   get id() {
