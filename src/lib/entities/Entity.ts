@@ -50,7 +50,7 @@ export default abstract class Entity {
       this.#lazyValues[key] = getValue();
     }
     const value = this.#lazyValues[key];
-    if (typeof value === 'object' && Object.entries(value).length === 0) {
+    if (value && typeof value === 'object' && Object.entries(value).length === 0) {
       return undefined;
     }
     return this.#lazyValues[key];
@@ -61,7 +61,7 @@ export default abstract class Entity {
       this.#lazyValues[key] = await getValueAsync();
     }
     const value = this.#lazyValues[key];
-    if (typeof value === 'object' && Object.entries(value).length === 0) {
+    if (value && typeof value === 'object' && Object.entries(value).length === 0) {
       return undefined;
     }
     return this.#lazyValues[key];
