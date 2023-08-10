@@ -194,6 +194,12 @@ export default class SoundCloud {
     return this.#fetchEntity(endpoint, params, User);
   }
 
+  async getFollowing(userId: number, options?: SoundCloudPageOptions) {
+    const params = await this.#getCommonParams(options);
+    const endpoint = `/users/${userId}/followings`;
+    return this.#fetchCollection(endpoint, params, {requireTypes: User});
+  }
+
   /************************************************************/
   /* Search                                                   */
   /************************************************************/
