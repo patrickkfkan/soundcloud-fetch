@@ -5,14 +5,14 @@ import Selection from '../entities/Selection.js';
 import SystemPlaylist from '../entities/SystemPlaylist.js';
 import Track from '../entities/Track.js';
 import User from '../entities/User.js';
-import { EntityConstructor, EntityType } from './EntityTypes.js';
+import { EntityClasses, EntityClassesToTypes, EntityConstructor, EntityType } from './EntityTypes.js';
 
 export default class EntityBuilder {
 
-  static buildByKind<T extends EntityType[] = EntityType[]>(
+  static build<T extends EntityType, K extends EntityClasses<T>> (
     json: any & { kind?: string },
     client: SoundCloud,
-    requireTypes?: EntityConstructor<T[number]> | Array<EntityConstructor<T[number]>>): T[number] | null {
+    requireTypes?: K): EntityClassesToTypes<T, K> | null {
 
     let entity: any;
     switch (json.kind) {
@@ -49,5 +49,9 @@ export default class EntityBuilder {
       }
     }
     return null;
+  }
+
+  static buildAs<T extends EntityType>(json: any & { kind?: string }, client: SoundCloud, type: EntityConstructor<T>): T {
+    return new type(json, client);
   }
 }

@@ -1,7 +1,7 @@
 import SoundCloud from '../SoundCloud.js';
-import { EntityType } from '../utils/EntityTypes.js';
+import { EntityClasses, EntityClassesToTypes, EntityType } from '../utils/EntityTypes.js';
 
-export default abstract class Collection<T extends EntityType> {
+export default abstract class Collection<T extends EntityType, K extends EntityClasses<T>> {
 
   #json: any;
   #client: SoundCloud;
@@ -24,18 +24,28 @@ export default abstract class Collection<T extends EntityType> {
         get() {
           return this.getItems();
         }
+      },
+      nextUri: {
+        enumerable: true,
+        get() {
+          return this.#getNextUri();
+        }
       }
     });
   }
 
   protected abstract getType(): string;
-  protected abstract getItems(): T[];
+  protected abstract getItems(): EntityClassesToTypes<T, K>[];
+
+  #getNextUri() {
+    return this.getJSON<string>('next_href');
+  }
 
   get type(): string {
     return this.getType();
   }
 
-  get items(): T[] {
+  get items(): EntityClassesToTypes<T, K>[] {
     return this.getItems();
   }
 
@@ -56,7 +66,7 @@ export default abstract class Collection<T extends EntityType> {
   }
 
   get nextUri() {
-    return this.getJSON<string>('next_href');
+    return this.#getNextUri();
   }
 
   protected lazyGet<T>(key: string, getValue: () => T): T {

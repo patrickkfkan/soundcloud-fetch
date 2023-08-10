@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import fetch, { Headers } from 'node-fetch';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import sckey from 'soundcloud-key-fetch';
@@ -10,27 +10,32 @@ import User from './entities/User.js';
 import Album from './entities/Album.js';
 import Collection from './collections/Collection.js';
 import Selection from './entities/Selection.js';
-import { EntityConstructor, EntityType } from './utils/EntityTypes.js';
+import { EntityClasses, EntityClassesToTypes, EntityConstructor, EntityType } from './utils/EntityTypes.js';
 import CollectionBuilder from './utils/CollectionBuilder.js';
 import EntityBuilder from './utils/EntityBuilder.js';
+import PlayedTrack from './entities/library/PlayedTrack.js';
+import PlayedSet from './entities/library/PlayedSet.js';
 
 export interface SoundCloudInitArgs {
   clientId?: string;
+  accessToken?: string;
   locale?: string;
 }
 
 export interface SoundCloudPageOptions {
   limit?: number;
-  offset?: number;
+  offset?: number | string;
 }
 
 export default class SoundCloud {
 
   #clientId?: string;
+  #accessToken?: string;
   #locale?: string;
 
   constructor(args?: SoundCloudInitArgs) {
     if (args?.clientId) this.#clientId = args.clientId;
+    if (args?.accessToken) this.#accessToken = args.accessToken;
     if (args?.locale) this.#locale = args.locale;
   }
 
@@ -53,6 +58,21 @@ export default class SoundCloud {
     this.#locale = locale;
   }
 
+  #getFetchHeaders(): Headers {
+    const headers = new Headers({
+      Origin: 'https://soundcloud.com',
+      Referer: 'https://soundcloud.com/',
+      'User-Agent':
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67'
+    });
+
+    if (this.#accessToken) {
+      headers.set('Authorization', `OAuth ${this.#accessToken}`);
+    }
+
+    return headers;
+  }
+
   /************************************************************/
   /* Selection                                                */
   /************************************************************/
@@ -60,7 +80,7 @@ export default class SoundCloud {
   async getMixedSelections(options?: SoundCloudPageOptions) {
     const params = await this.#getCommonParams(options);
     const endpoint = '/mixed-selections';
-    return this.#fetchCollection(endpoint, params, Selection);
+    return this.#fetchCollection(endpoint, params, { requireTypes: Selection });
   }
 
   /************************************************************/
@@ -92,7 +112,7 @@ export default class SoundCloud {
   async getPlaylistsByUser(id: number, options?: SoundCloudPageOptions) {
     const params = await this.#getCommonParams(options);
     const endpoint = `/users/${id}/playlists_without_albums`;
-    return this.#fetchCollection(endpoint, params, Playlist);
+    return this.#fetchCollection(endpoint, params, {requireTypes: Playlist});
   }
 
   async getAlbum(id: number) {
@@ -102,7 +122,7 @@ export default class SoundCloud {
   async getAlbumsByUser(id: number, options?: SoundCloudPageOptions) {
     const params = await this.#getCommonParams(options);
     const endpoint = `/users/${id}/albums`;
-    return this.#fetchCollection(endpoint, params, Album);
+    return this.#fetchCollection(endpoint, params, {requireTypes: Album});
   }
 
   /************************************************************/
@@ -113,7 +133,7 @@ export default class SoundCloud {
     const params = await this.#getCommonParams(options);
     const genre = options?.genre || 'all-music';
     const endpoint = `/featured_tracks/top/${genre}`;
-    return this.#fetchCollection(endpoint, params, Track);
+    return this.#fetchCollection(endpoint, params, {requireTypes: Track});
   }
 
   async getTracks(ids: number | number[]): Promise<Track[]> {
@@ -123,7 +143,7 @@ export default class SoundCloud {
     const endpoint = '/tracks';
     if (!Array.isArray(ids) || ids.length <= limit) {
       params.ids = Array.isArray(ids) ? ids.join(',') : ids;
-      const collection = await this.#fetchCollection(endpoint, params, Track);
+      const collection = await this.#fetchCollection(endpoint, params, {requireTypes: Track});
       return collection.items;
     }
 
@@ -146,7 +166,7 @@ export default class SoundCloud {
     const params = await this.#getCommonParams(options);
     params.representation = 'full';
     const endpoint = `/users/${id}/tracks`;
-    return this.#fetchCollection(endpoint, params, Track);
+    return this.#fetchCollection(endpoint, params, {requireTypes: Track});
   }
 
   async getTrack(id: number): Promise<Track | null> {
@@ -178,11 +198,11 @@ export default class SoundCloud {
   /* Search                                                   */
   /************************************************************/
 
-  async search(q: string, options: SoundCloudPageOptions & { type: 'playlist' }): Promise<Collection<Playlist>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'album' }): Promise<Collection<Album>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'track' }): Promise<Collection<Track>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'user' }): Promise<Collection<User>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'playlist' | 'album' | 'track' | 'user'}) {
+  async search(q: string, options: SoundCloudPageOptions & { type: 'playlist' }): Promise<Collection<Playlist, EntityClasses<Playlist>>>;
+  async search(q: string, options: SoundCloudPageOptions & { type: 'album' }): Promise<Collection<Album, EntityClasses<Album>>>;
+  async search(q: string, options: SoundCloudPageOptions & { type: 'track' }): Promise<Collection<Track, EntityClasses<Track>>>;
+  async search(q: string, options: SoundCloudPageOptions & { type: 'user' }): Promise<Collection<User, EntityClasses<User>>>;
+  async search(q: string, options: SoundCloudPageOptions & { type: 'playlist' | 'album' | 'track' | 'user' }): Promise<Collection<EntityType, EntityClasses<EntityType>>> {
     const params = await this.#getCommonParams(options);
     params.q = q;
     let type = 'all';
@@ -193,19 +213,43 @@ export default class SoundCloud {
     switch (type) {
       case 'playlist':
         endpoint += '/playlists_without_albums';
-        return this.#fetchCollection(endpoint, params, Playlist);
+        return this.#fetchCollection(endpoint, params, {requireTypes: Playlist});
       case 'album':
         endpoint += '/albums';
-        return this.#fetchCollection(endpoint, params, Album);
+        return this.#fetchCollection(endpoint, params, {requireTypes: Album});
       case 'track':
         endpoint += '/tracks';
-        return this.#fetchCollection(endpoint, params, Track);
+        return this.#fetchCollection(endpoint, params, {requireTypes: Track});
       case 'user':
         endpoint += '/users';
-        return this.#fetchCollection(endpoint, params, User);
+        return this.#fetchCollection(endpoint, params, {requireTypes: User});
       default:
         throw Error(`Unknown search type ${type}`);
     }
+  }
+
+  /************************************************************/
+  /* My Library                                               */
+  /************************************************************/
+
+  async getRecentlyPlayed(type: 'set', options?: SoundCloudPageOptions): Promise<Collection<PlayedSet, EntityClasses<PlayedSet>>>;
+  async getRecentlyPlayed(type: 'track', options?: SoundCloudPageOptions): Promise<Collection<PlayedTrack, EntityClasses<PlayedTrack>>>;
+  async getRecentlyPlayed(type: 'track' | 'set', options: SoundCloudPageOptions = {}) {
+    const params = await this.#getCommonParams(options);
+    if (type === 'track') {
+      const endpoint = '/me/play-history/tracks';
+      return this.#fetchCollection(endpoint, params, {asType: PlayedTrack});
+    }
+    else if (type === 'set') {
+      const endpoint = '/me/play-history/contexts';
+      return this.#fetchCollection(endpoint, params, {asType: PlayedSet});
+    }
+  }
+
+  async getMyProfile() {
+    const params = await this.#getCommonParams();
+    const endpoint = '/me';
+    return this.#fetchEntity(endpoint, params, User);
   }
 
   /************************************************************/
@@ -227,21 +271,30 @@ export default class SoundCloud {
     return params;
   }
 
-  async #fetchCollection<T extends EntityType>(endpoint: string, params: Record<string, any>, requireTypes?: EntityConstructor<T> | Array<EntityConstructor<T>>): Promise<Collection<T>>;
-  async #fetchCollection(endpoint: string, params: Record<string, any>, requireTypes?: undefined): Promise<Collection<EntityType>>;
-  async #fetchCollection<T extends EntityType>(endpoint: string, params: Record<string, any>, requireTypes?: EntityConstructor<T> | Array<EntityConstructor<T>>) {
+  async #fetchCollection<T extends EntityType, K extends EntityClasses<T>>(
+    endpoint: string,
+    params: Record<string, any>,
+    options: { requireTypes?: K; } | { asType: EntityConstructor<T>; } = {}): Promise<Collection<T, K>>{
+
     if (params.linked_partitioning === undefined) {
       params.linked_partitioning = 1;
     }
     const json = await this.#fetchEndpoint(endpoint, params);
-    return CollectionBuilder.build(json, this, requireTypes);
+
+    if (Reflect.has(options, 'asType')) {
+      return CollectionBuilder.buildAs(json, this, Reflect.get(options, 'asType'));
+    }
+
+    return CollectionBuilder.build(json, this, Reflect.get(options, 'requireTypes'));
   }
 
-  async #fetchEntity<T extends EntityType>(endpoint: string, params: Record<string, any>, requireTypes: EntityConstructor<T> | Array<EntityConstructor<T>>): Promise<T | null>;
-  async #fetchEntity(endpoint: string, params: Record<string, any>, requireTypes?: undefined): Promise<EntityType | null>;
-  async #fetchEntity<T extends EntityType>(endpoint: string, params: Record<string, any>, requireTypes?: EntityConstructor<T> | Array<EntityConstructor<T>>) {
+  async #fetchEntity<T extends EntityType, K extends EntityClasses<T>>(
+    endpoint: string,
+    params: Record<string, any>,
+    requireTypes?: K): Promise<EntityClassesToTypes<T, K> | null> {
+
     const json = await this.#fetchEndpoint(endpoint, params);
-    return EntityBuilder.buildByKind(json, this, requireTypes);
+    return EntityBuilder.build(json, this, requireTypes);
   }
 
   async #fetchEndpoint(endpoint: string, params: Record<string, any>) {
@@ -249,6 +302,9 @@ export default class SoundCloud {
     for (const [ key, value ] of Object.entries(params)) {
       url.searchParams.set(key, value);
     }
-    return fetch(url).then((res) => res.json());
+    const res = await fetch(url, {
+      headers: this.#getFetchHeaders()
+    });
+    return res.json();
   }
 }

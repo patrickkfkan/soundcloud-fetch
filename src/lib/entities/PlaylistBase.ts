@@ -66,7 +66,7 @@ export default abstract class PlaylistBase<ID extends string | number> extends E
   }
 
   async getTracks(options?: SoundCloudPageOptions) {
-    const offset = options?.offset || 0;
+    const offset = Number(options?.offset) || 0;
     let keySuffix = `_${offset}`;
     if (options?.limit) {
       keySuffix += `-${offset + options.limit}`;

@@ -1,14 +1,21 @@
 import SoundCloud from '../SoundCloud.js';
 import EntityBuilder from '../utils/EntityBuilder.js';
-import { EntityConstructor, EntityType } from '../utils/EntityTypes.js';
+import { EntityClasses, EntityClassesToTypes, EntityConstructor, EntityType } from '../utils/EntityTypes.js';
 import Collection from './Collection.js';
 
-export default class GenericCollection<T extends EntityType> extends Collection<T> {
+export type GenericCollectionOptions<T extends EntityType, K extends EntityClasses<T>> = {
+  requireTypes?: K
+} | {
+  asType?: EntityConstructor<T>
+};
+
+export default class GenericCollection<T extends EntityType, K extends EntityClasses<T>> extends Collection<T, K> {
 
   #items: any[];
-  #requireTypes?: Array<EntityConstructor<T>>;
+  #requireTypes?: K;
+  #asType?: EntityConstructor<T>;
 
-  constructor(json: any, client: SoundCloud, requireTypes?: EntityConstructor<T> | Array<EntityConstructor<T>>) {
+  constructor(json: any, client: SoundCloud, options: GenericCollectionOptions<T, K> = {}) {
     super(json, client);
 
     if (Array.isArray(json)) {
@@ -21,8 +28,11 @@ export default class GenericCollection<T extends EntityType> extends Collection<
       this.#items = [];
     }
 
-    if (requireTypes) {
-      this.#requireTypes = Array.isArray(requireTypes) ? requireTypes : [ requireTypes ];
+    if (Reflect.has(options, 'requireTypes')) {
+      this.#requireTypes = Reflect.get(options, 'requireTypes');
+    }
+    else if (Reflect.has(options, 'asType')) {
+      this.#asType = Reflect.get(options, 'asType');
     }
   }
 
@@ -30,11 +40,13 @@ export default class GenericCollection<T extends EntityType> extends Collection<
     return this.getJSON<string>('kind') || 'unknown-collection';
   }
 
-  protected getItems(): T[] {
+  protected getItems(): EntityClassesToTypes<T, K>[] {
     const client = this.getClient();
     return this.lazyGet('items', () => {
       return this.#items.reduce((result, item) => {
-        const entity = EntityBuilder.buildByKind(item, client, this.#requireTypes);
+        const entity = this.#asType ?
+          EntityBuilder.buildAs(item, client, this.#asType) :
+          EntityBuilder.build(item, client, this.#requireTypes);
         if (entity !== null) {
           result.push(entity);
         }
