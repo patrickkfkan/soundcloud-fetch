@@ -13,9 +13,8 @@ import Selection from './entities/Selection.js';
 import { EntityClasses, EntityClassesToTypes, EntityConstructor, EntityType } from './utils/EntityTypes.js';
 import CollectionBuilder from './utils/CollectionBuilder.js';
 import EntityBuilder from './utils/EntityBuilder.js';
-import PlayedTrack from './entities/library/PlayedTrack.js';
-import PlayedSet from './entities/library/PlayedSet.js';
 import LibraryItem from './entities/library/LibraryItem.js';
+import HistoryItem from './entities/library/HistoryItem.js';
 
 export interface SoundCloudInitArgs {
   clientId?: string;
@@ -239,18 +238,21 @@ export default class SoundCloud {
   /* My Library                                               */
   /************************************************************/
 
-  async getRecentlyPlayed(type: 'set', options?: SoundCloudPageOptions): Promise<Collection<PlayedSet, EntityClasses<PlayedSet>>>;
-  async getRecentlyPlayed(type: 'track', options?: SoundCloudPageOptions): Promise<Collection<PlayedTrack, EntityClasses<PlayedTrack>>>;
-  async getRecentlyPlayed(type: 'track' | 'set', options: SoundCloudPageOptions = {}) {
+  async getHistory(type: 'track' | 'set', options: SoundCloudPageOptions = {}) {
     const params = await this.#getCommonParams(options);
-    if (type === 'track') {
-      const endpoint = '/me/play-history/tracks';
-      return this.#fetchCollection(endpoint, params, {asType: PlayedTrack});
+    let endpoint;
+    switch (type) {
+      case 'track':
+        endpoint = '/me/play-history/tracks';
+        break;
+      case 'set':
+        endpoint = '/me/play-history/contexts';
+        break;
+      default:
+        throw Error(`Unknown history type ${type}`);
     }
-    else if (type === 'set') {
-      const endpoint = '/me/play-history/contexts';
-      return this.#fetchCollection(endpoint, params, {asType: PlayedSet});
-    }
+
+    return this.#fetchCollection(endpoint, params, {asType: HistoryItem});
   }
 
   async getMyProfile() {
