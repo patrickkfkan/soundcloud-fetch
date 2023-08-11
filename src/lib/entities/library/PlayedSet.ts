@@ -11,7 +11,7 @@ export default class PlayedSet extends PlayedEntity<Album | Playlist | SystemPla
   }
 
   protected getItem(): Album | Playlist | SystemPlaylist | null {
-    return this.lazyGet('set', () => {
+    return this.lazyGet('item', () => {
       const plData = this.getJSON<any>('system_playlist') || this.getJSON<any>('playlist');
       if (plData) {
         return EntityBuilder.build(plData, this.getClient(), [ Album, Playlist, SystemPlaylist ]);

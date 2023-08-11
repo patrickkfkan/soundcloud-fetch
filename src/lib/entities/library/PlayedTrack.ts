@@ -26,7 +26,7 @@ export default class PlayedTrack extends PlayedEntity<Track> {
   }
 
   protected getItem(): Track | null {
-    return this.lazyGet('track', () => {
+    return this.lazyGet('item', () => {
       const trackData = this.getJSON<any>('track');
       if (trackData) {
         return new Track(trackData, this.getClient());

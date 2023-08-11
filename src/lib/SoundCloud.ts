@@ -15,6 +15,7 @@ import CollectionBuilder from './utils/CollectionBuilder.js';
 import EntityBuilder from './utils/EntityBuilder.js';
 import PlayedTrack from './entities/library/PlayedTrack.js';
 import PlayedSet from './entities/library/PlayedSet.js';
+import LibraryItem from './entities/library/LibraryItem.js';
 
 export interface SoundCloudInitArgs {
   clientId?: string;
@@ -256,6 +257,12 @@ export default class SoundCloud {
     const params = await this.#getCommonParams();
     const endpoint = '/me';
     return this.#fetchEntity(endpoint, params, User);
+  }
+
+  async getLibrary(options?: SoundCloudPageOptions) {
+    const params = await this.#getCommonParams(options);
+    const endpoint = '/me/library/all';
+    return this.#fetchCollection(endpoint, params, {asType: LibraryItem});
   }
 
   /************************************************************/
