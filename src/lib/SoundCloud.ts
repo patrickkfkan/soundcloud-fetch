@@ -64,6 +64,7 @@ export default class SoundCloud {
   }
 
   #getFetchHeaders(): Headers {
+    // From soundcloud.ts (https://github.com/Tenpi/soundcloud.ts)
     const headers = new Headers({
       Origin: 'https://soundcloud.com',
       Referer: 'https://soundcloud.com/',
