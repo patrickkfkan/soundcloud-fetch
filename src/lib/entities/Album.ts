@@ -54,11 +54,4 @@ export default class Album extends Playlist {
 
     this.tags = this.getJSON<string>('tag_list');
   }
-
-  protected getFullPlaylist() {
-    if (this.id) {
-      return this.getClient().getAlbum(this.id);
-    }
-    return Promise.resolve(null);
-  }
 }

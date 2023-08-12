@@ -87,20 +87,11 @@ export default class SoundCloud {
   /* Playlist / Album                                         */
   /************************************************************/
 
-  async #getPlaylist(id: number, asAlbum: true): Promise<Album | null>;
-  async #getPlaylist(id: number, asAlbum?: false | undefined): Promise<Playlist | null>;
-  async #getPlaylist(id: number, asAlbum = false) {
+  async getPlaylistOrAlbum(id: number): Promise<Album | Playlist | null> {
     const params = await this.#getCommonParams();
     params.representation = 'full';
     const endpoint = `/playlists/${id}`;
-    if (!asAlbum) {
-      return this.#fetchEntity(endpoint, params, Playlist);
-    }
-    return this.#fetchEntity(endpoint, params, Album);
-  }
-
-  async getPlaylist(id: number) {
-    return this.#getPlaylist(id);
+    return this.#fetchEntity(endpoint, params, [ Album, Playlist ]);
   }
 
   async getSystemPlaylist(id: string) {
@@ -113,10 +104,6 @@ export default class SoundCloud {
     const params = await this.#getCommonParams(options);
     const endpoint = `/users/${id}/playlists_without_albums`;
     return this.#fetchCollection(endpoint, params, {requireTypes: Playlist});
-  }
-
-  async getAlbum(id: number) {
-    return this.#getPlaylist(id, true);
   }
 
   async getAlbumsByUser(id: number, options?: SoundCloudPageOptions) {

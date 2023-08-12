@@ -75,7 +75,7 @@ export default class Playlist extends Set<number> {
 
   protected getFullPlaylist() {
     if (this.id) {
-      return this.getClient().getPlaylist(this.id);
+      return this.getClient().getPlaylistOrAlbum(this.id);
     }
     return Promise.resolve(null);
   }
