@@ -5,6 +5,6 @@ const scfetch = new SoundCloud();
 
 scfetch.getUser(9723380).then((user) => {
   if (user) {
-    print(user.toPlainObject());
+    print(user);
   }
 });

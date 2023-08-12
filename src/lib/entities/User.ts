@@ -1,171 +1,75 @@
 import SoundCloud from '../SoundCloud.js';
-import Entity from './Entity.js';
+import Entity, { AvatarImageUrls } from './Entity.js';
 
 export default class User extends Entity {
+
+  static type = 'User';
+
+  id?: number;
+  names: {
+    full?: string | null;
+    first?: string | null;
+    last?: string | null;
+    username?: string | null;
+  };
+  lastModified?: string | null;
+  permalink: {
+    basic?: string | null;
+    full?: string | null;
+  };
+  apiInfo: {
+    uri?: string | null;
+    urn?: string | null;
+  };
+  location: {
+    city?: string | null;
+    country?: string | null;
+  };
+  isVerified?: boolean;
+  avatar?: AvatarImageUrls;
+  badges: {
+    pro?: boolean;
+    proUnlimited?: boolean;
+    verified?: boolean;
+  };
 
   constructor(json: any, client: SoundCloud) {
     super(json, client);
 
-    Object.defineProperties(this, {
-      id: {
-        enumerable: true,
-        get() {
-          return this.#getId();
-        }
-      },
-      names: {
-        enumerable: true,
-        get() {
-          return this.#getNames();
-        }
-      },
-      lastModified: {
-        enumerable: true,
-        get() {
-          return this.#getLastModified();
-        }
-      },
-      permalink: {
-        enumerable: true,
-        get() {
-          return this.#getPermalink();
-        }
-      },
-      apiInfo: {
-        enumerable: true,
-        get() {
-          return this.#getApiInfo();
-        }
-      },
-      location: {
-        enumerable: true,
-        get() {
-          return this.#getLocation();
-        }
-      },
-      isVerified: {
-        enumerable: true,
-        get() {
-          return this.#isVerified();
-        }
-      },
-      avatar: {
-        enumerable: true,
-        get() {
-          return this.#getAvatar();
-        }
-      },
-      badges: {
-        enumerable: true,
-        get() {
-          return this.#getBadges();
-        }
-      }
-    });
-  }
+    this.id = this.getJSON<number>('id');
 
-  protected getType() {
-    return 'user';
-  }
+    this.names = {
+      full: this.getJSON<string>('full_name'),
+      first: this.getJSON<string>('first_name'),
+      last: this.getJSON<string>('last_name'),
+      username: this.getJSON<string>('username')
+    };
 
-  #getId() {
-    return this.getJSON<number>('id');
-  }
+    this.lastModified = this.getJSON<string>('last_modified');
 
-  #getNames() {
-    return this.lazyGet('names', () => {
-      return {
-        full: this.getJSON<string>('full_name'),
-        first: this.getJSON<string>('first_name'),
-        last: this.getJSON<string>('last_name'),
-        username: this.getJSON<string>('username')
-      };
-    });
-  }
+    this.permalink = {
+      basic: this.getJSON<string>('permalink'),
+      full: this.getJSON<string>('permalink_url')
+    };
 
-  #getLastModified() {
-    return this.getJSON<string>('last_modified');
-  }
+    this.apiInfo = {
+      uri: this.getJSON<string>('uri'),
+      urn: this.getJSON<string>('urn')
+    };
 
-  #getPermalink() {
-    return this.lazyGet('permalink', () => {
-      return {
-        basic: this.getJSON<string>('permalink'),
-        full: this.getJSON<string>('permalink_url')
-      };
-    });
-  }
+    this.location = {
+      city: this.getJSON<string>('city'),
+      country: this.getJSON<string>('country_code')
+    };
 
-  #getApiInfo() {
-    return this.lazyGet('api', () => {
-      return {
-        uri: this.getJSON<string>('uri'),
-        urn: this.getJSON<string>('urn')
-      };
-    });
-  }
+    this.isVerified = this.getJSON<boolean>('verified');
+    this.avatar = this.getImageUrls(this.getJSON<string>('avatar_url'), 'avatar');
 
-  #getLocation() {
-    return this.lazyGet('location', () => {
-      return {
-        city: this.getJSON<string>('city'),
-        country: this.getJSON<string>('country_code')
-      };
-    });
-  }
-
-  #isVerified() {
-    return this.getJSON<boolean>('verified');
-  }
-
-  #getAvatar() {
-    return this.getImageUrls(this.getJSON<string>('avatar_url'), 'avatar');
-  }
-
-  #getBadges() {
-    return this.lazyGet('badges', () => {
-      const badges = this.getJSON<any>('badges');
-      return {
-        pro: badges.pro as boolean | undefined,
-        proUnlimited: badges.pro_unlimited as boolean | undefined,
-        verified: badges.verified as boolean | undefined
-      };
-    });
-  }
-
-  get id() {
-    return this.#getId();
-  }
-
-  get names() {
-    return this.#getNames();
-  }
-
-  get lastModified() {
-    return this.#getLastModified();
-  }
-
-  get permalink() {
-    return this.#getPermalink();
-  }
-
-  get apiInfo() {
-    return this.#getApiInfo();
-  }
-
-  get location() {
-    return this.#getLocation();
-  }
-
-  get isVerified() {
-    return this.#isVerified();
-  }
-
-  get avatar() {
-    return this.#getAvatar();
-  }
-
-  get badges() {
-    return this.#getBadges();
+    const badges = this.getJSON<any>('badges');
+    this.badges = {
+      pro: badges?.pro,
+      proUnlimited: badges?.pro_unlimited,
+      verified: badges?.verified
+    };
   }
 }

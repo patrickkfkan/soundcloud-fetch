@@ -1,40 +1,29 @@
 import SoundCloud from '../SoundCloud.js';
 import { ARTWORK_FORMATS, AVATAR_FORMATS } from '../utils/Constants.js';
+import { EntityConstructor, EntityType } from '../utils/EntityTypes.js';
 
 export type AvatarImageUrls = Record<'default' | typeof AVATAR_FORMATS[number], string>;
 export type ArtworkImageUrls = Record<'default' | typeof ARTWORK_FORMATS[number], string>;
 
 export default abstract class Entity {
 
+  static readonly type: string = 'Entity';
+  readonly type: string;
+
   #json: any;
   #client: SoundCloud;
-  #lazyValues: Record<string, any>;
 
   constructor(json: any, client: SoundCloud) {
     this.#json = json;
     this.#client = client;
-    this.#lazyValues = {};
 
-    Object.defineProperty(this, 'type', {
-      enumerable: true,
-      get() {
-        return this.getType();
-      }
-    });
+    this.type = (this.constructor as EntityConstructor<EntityType>).type;
   }
 
-  protected abstract getType(): string;
-
-  get type() {
-    return this.getType();
-  }
-
-  /**
-   * @internal
-   */
-  getJSON<T extends string>(prop?: string): T | null | undefined;
-  getJSON<T>(prop?: string): T | undefined;
-  getJSON<T>(prop?: string): T | undefined {
+  getJSON(prop?: undefined): any;
+  getJSON<T extends string>(prop: string): T | null | undefined;
+  getJSON<T>(prop: string): T | undefined;
+  getJSON(prop?: string): any {
     if (!prop) {
       return this.#json;
     }
@@ -44,29 +33,6 @@ export default abstract class Entity {
   protected getClient() {
     return this.#client;
   }
-
-  protected lazyGet<T>(key: string, getValue: () => T): T | undefined {
-    if (this.#lazyValues[key] === undefined) {
-      this.#lazyValues[key] = getValue();
-    }
-    const value = this.#lazyValues[key];
-    if (value && typeof value === 'object' && Object.entries(value).length === 0) {
-      return undefined;
-    }
-    return this.#lazyValues[key];
-  }
-
-  protected async lazyGetAsync<T>(key: string, getValueAsync: () => Promise<T>): Promise<T | undefined> {
-    if (this.#lazyValues[key] === undefined) {
-      this.#lazyValues[key] = await getValueAsync();
-    }
-    const value = this.#lazyValues[key];
-    if (value && typeof value === 'object' && Object.entries(value).length === 0) {
-      return undefined;
-    }
-    return this.#lazyValues[key];
-  }
-
 
   protected getImageUrls(defaultImageUrl: string | null | undefined, type: 'avatar'): AvatarImageUrls | undefined;
   protected getImageUrls(defaultImageUrl: string | null | undefined, type?: 'artwork' | undefined): ArtworkImageUrls | undefined;
@@ -88,9 +54,5 @@ export default abstract class Entity {
       formatUrls[format] = defaultImageUrl.replace('large.jpg', `${format}.jpg`);
     });
     return formatUrls;
-  }
-
-  toPlainObject() {
-    return JSON.parse(JSON.stringify(this));
   }
 }

@@ -1,121 +1,76 @@
 import SoundCloud from '../SoundCloud.js';
-import PlaylistBase from './PlaylistBase.js';
+import { ArtworkImageUrls } from './Entity.js';
+import Set from './Set.js';
 
-export default class Playlist extends PlaylistBase<number> {
+export default class Playlist extends Set<number> {
+
+  static type = 'Playlist';
+
+  isPublic?: boolean;
+  apiInfo: {
+    uri?: string | null;
+  };
+  artwork?: ArtworkImageUrls;
+  setType?: string | null;
+  duration?: number;
+  dates: {
+    created?: string | null;
+    published?: string | null;
+    modified?: string | null;
+    display?: string | null;
+  };
+  sharingData: {
+    shareability?: string | null;
+    secretToken?: string | null;
+  };
+  texts: {
+    title?: string | null;
+    description?: string | null;
+  };
+  trackCount?: number;
+  socialData: {
+    likesCount?: number;
+    repostsCount?: number;
+    managedByFeeds?: boolean;
+  };
 
   constructor(json: any, client: SoundCloud) {
     super(json, client);
 
-    Object.defineProperties(this, {
-      isPublic: {
-        enumerable: true,
-        get() {
-          return this.#isPublic();
-        }
-      },
-      apiInfo: {
-        enumerable: true,
-        get() {
-          return this.#getApiInfo();
-        }
-      },
-      artwork: {
-        enumerable: true,
-        get() {
-          return this.#getArtwork();
-        }
-      },
-      setType: {
-        enumerable: true,
-        get() {
-          return this.#getSetType();
-        }
-      },
-      duration: {
-        enumerable: true,
-        get() {
-          return this.#getDuration();
-        }
-      },
-      dates: {
-        enumerable: true,
-        get() {
-          return this.getDates();
-        }
-      },
-      sharingData: {
-        enumerable: true,
-        get() {
-          return this.getSharingData();
-        }
-      },
-      texts: {
-        enumerable: true,
-        get() {
-          return this.#getTexts();
-        }
-      },
-      trackCount: {
-        enumerable: true,
-        get() {
-          return this.#getTrackCount();
-        }
-      },
-      socialData: {
-        enumerable: true,
-        get() {
-          return this.#getSocialData();
-        }
-      }
-    });
-  }
+    this.isPublic = this.getJSON<boolean>('public');
 
-  protected getType() {
-    return 'playlist';
-  }
+    this.apiInfo = {
+      uri: this.getJSON<string>('uri')
+    };
 
-  #isPublic() {
-    return this.getJSON<boolean>('public');
-  }
+    this.artwork = this.getImageUrls(this.getJSON<string>('artwork_url'));
+    this.setType = this.getJSON<string>('set_type');
+    this.duration = this.getJSON<number>('duration');
 
-  #getApiInfo() {
-    return this.lazyGet('api', () => {
-      return {
-        uri: this.getJSON<string>('uri')
-      };
-    });
-  }
+    this.dates = {
+      created: this.getJSON<string>('created_at'),
+      published: this.getJSON<string>('published_at'),
+      modified: this.getJSON<string>('last_modified'),
+      display: this.getJSON<string>('display_date')
+    };
 
-  #getArtwork() {
-    return this.getImageUrls(this.getJSON<string>('artwork_url'));
-  }
+    this.sharingData = {
+      shareability: this.getJSON<string>('sharing'),
+      secretToken: this.getJSON<string>('secret_token')
+    };
 
-  #getSetType() {
-    return this.getJSON<string>('set_type');
-  }
+    this.texts = {
+      title: this.getJSON<string>('title'),
+      description: this.getJSON<string>('description')
+    };
 
-  #getDuration() {
-    return this.getJSON<number>('duration');
-  }
+    this.trackCount = this.getJSON<number>('track_count');
 
-  protected getDates() {
-    return this.lazyGet('dates', () => {
-      return {
-        created: this.getJSON<string>('created_at'),
-        published: this.getJSON<string>('published_at'),
-        modified: this.getJSON<string>('last_modified'),
-        display: this.getJSON<string>('display_date')
-      };
-    });
-  }
-
-  protected getSharingData() {
-    return this.lazyGet('sharing', () => {
-      return {
-        shareability: this.getJSON<string>('sharing'),
-        secretToken: this.getJSON<string>('secret_token')
-      };
-    });
+    this.socialData = {
+      likesCount: this.getJSON<number>('likes_count'),
+      repostsCount: this.getJSON<number>('reposts_count'),
+      managedByFeeds: this.getJSON<boolean>('managed_by_feeds')
+    };
   }
 
   protected getFullPlaylist() {
@@ -123,68 +78,5 @@ export default class Playlist extends PlaylistBase<number> {
       return this.getClient().getPlaylist(this.id);
     }
     return Promise.resolve(null);
-  }
-
-  #getTexts() {
-    return this.lazyGet('texts', () => {
-      return {
-        title: this.getJSON<string>('title'),
-        description: this.getJSON<string>('description')
-      };
-    });
-  }
-
-  #getTrackCount() {
-    return this.getJSON<number>('track_count');
-  }
-
-  #getSocialData() {
-    return this.lazyGet('social', () => {
-      return {
-        likesCount: this.getJSON<number>('likes_count'),
-        repostsCount: this.getJSON<number>('reposts_count'),
-        managedByFeeds: this.getJSON<boolean>('managed_by_feeds')
-      };
-    });
-  }
-
-  get isPublic() {
-    return this.#isPublic();
-  }
-
-  get apiInfo() {
-    return this.#getApiInfo();
-  }
-
-  get artwork() {
-    return this.#getArtwork();
-  }
-
-  get setType() {
-    return this.#getSetType();
-  }
-
-  get duration() {
-    return this.#getDuration();
-  }
-
-  get dates() {
-    return this.getDates();
-  }
-
-  get sharingData() {
-    return this.getSharingData();
-  }
-
-  get texts() {
-    return this.#getTexts();
-  }
-
-  get trackCount() {
-    return this.#getTrackCount();
-  }
-
-  get socialData() {
-    return this.#getSocialData();
   }
 }

@@ -4,8 +4,8 @@ import Selection from '../entities/Selection.js';
 import SystemPlaylist from '../entities/SystemPlaylist.js';
 import Track from '../entities/Track.js';
 import User from '../entities/User.js';
-import HistoryItem from '../entities/library/HistoryItem.js';
-import LibraryItem from '../entities/library/LibraryItem.js';
+import PlayHistoryItem from '../entities/PlayHistoryItem.js';
+import LibraryItem from '../entities/LibraryItem.js';
 
 export type EntityType =
     Album |
@@ -14,10 +14,13 @@ export type EntityType =
     SystemPlaylist |
     Track |
     User |
-    HistoryItem |
+    PlayHistoryItem |
     LibraryItem;
 
-export type EntityConstructor<T extends EntityType> = new (...args: any) => T;
+export interface EntityConstructor<T extends EntityType> {
+  new (...args: any): T;
+  type: string;
+}
 
 export type EntityClasses<T extends EntityType> = EntityConstructor<T> | EntityConstructor<T>[];
 

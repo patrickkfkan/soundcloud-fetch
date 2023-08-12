@@ -5,10 +5,10 @@ const scfetch = new SoundCloud();
 
 scfetch.getSystemPlaylist('soundcloud:system-playlists:charts-top:all-music').then(async (playlist) => {
   if (playlist) {
-    print(playlist.toPlainObject());
+    print(playlist);
 
     const tracks = await playlist.getTracks();
     console.log('--- TRACKS ---');
-    tracks?.forEach((track) => print(track.toPlainObject()));
+    tracks?.forEach((track) => print(track));
   }
 });

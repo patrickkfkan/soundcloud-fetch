@@ -3,120 +3,31 @@ import Entity from './Entity.js';
 
 export default class MediaTranscoding extends Entity {
 
+  static type = 'MediaTranscoding';
+
+  url?: string | null;
+  preset?: string | null;
+  duration?: number;
+  isSnipped?: boolean;
+  protocol?: string | null;
+  mimeType?: string | null;
+  quality?: 'sq' | 'hq' | null;
+
+
   constructor(json: any, client: SoundCloud) {
     super(json, client);
 
-    Object.defineProperties(this, {
-      url: {
-        enumerable: true,
-        get() {
-          return this.#getUrl();
-        }
-      },
-      preset: {
-        enumerable: true,
-        get() {
-          return this.#getPreset();
-        }
-      },
-      duration: {
-        enumerable: true,
-        get() {
-          return this.#getDuration();
-        }
-      },
-      isSnipped: {
-        enumerable: true,
-        get() {
-          return this.#isSnipped();
-        }
-      },
-      protocol: {
-        enumerable: true,
-        get() {
-          return this.#getProtocol();
-        }
-      },
-      mimeType: {
-        enumerable: true,
-        get() {
-          return this.#getMimeType();
-        }
-      },
-      quality: {
-        enumerable: true,
-        get() {
-          return this.#getQuality();
-        }
-      }
-    });
-  }
+    this.url = this.getJSON<string>('url');
+    this.preset = this.getJSON<string>('preset');
+    this.duration = this.getJSON<number>('duration');
+    this.isSnipped = this.getJSON<boolean>('snipped');
 
-  protected getType() {
-    return 'media-transcoding';
-  }
-
-  #getUrl() {
-    return this.getJSON<string>('url');
-  }
-
-  #getPreset() {
-    return this.getJSON<string>('preset');
-  }
-
-  #getDuration() {
-    return this.getJSON<number>('duration');
-  }
-
-  #isSnipped() {
-    return this.getJSON<boolean>('snipped');
-  }
-
-  #getProtocol() {
     const format = this.getJSON<any>('format');
     if (format) {
-      return format.protocol as string;
+      this.protocol = format.protocol;
+      this.mimeType = format.mime_type;
     }
-    return undefined;
-  }
 
-  #getMimeType() {
-    const format = this.getJSON<any>('format');
-    if (format) {
-      return format.mime_type as string;
-    }
-    return undefined;
-  }
-
-  #getQuality() {
-    return this.getJSON<'sq' | 'hq'>('quality');
-  }
-
-  get url() {
-    return this.#getUrl();
-  }
-
-  get preset() {
-    return this.#getPreset();
-  }
-
-  get duration() {
-    return this.#getDuration();
-  }
-
-  get isSnipped() {
-    return this.#isSnipped();
-  }
-
-  get protocol() {
-    return this.#getProtocol();
-  }
-
-  get mimeType() {
-    return this.#getMimeType();
-  }
-
-  get quality() {
-    return this.#getQuality();
+    this.quality = this.getJSON<'sq' | 'hq'>('quality');
   }
 }

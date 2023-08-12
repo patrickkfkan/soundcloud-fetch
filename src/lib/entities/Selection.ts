@@ -1,79 +1,30 @@
 import SoundCloud from '../SoundCloud.js';
 import CollectionBuilder from '../utils/CollectionBuilder.js';
+import { EntityType } from '../utils/EntityTypes.js';
 import Entity from './Entity.js';
 
 export default class Selection extends Entity {
 
+  static type = 'Selection';
+
+  id?: string | null;
+  title?: string | null;
+  nextUri?: string | null;
+  items: EntityType[];
+
   constructor(json: any, client: SoundCloud) {
     super(json, client);
 
-    Object.defineProperties(this, {
-      id: {
-        enumerable: true,
-        get() {
-          return this.#getId();
-        }
-      },
-      title: {
-        enumerable: true,
-        get() {
-          return this.#getTitle();
-        }
-      },
-      nextUri: {
-        enumerable: true,
-        get() {
-          return this.#getNextUri();
-        }
-      },
-      items: {
-        enumerable: true,
-        get() {
-          return this.#getItems();
-        }
-      }
-    });
-  }
+    this.id = this.getJSON<string>('id');
+    this.title = this.getJSON<string>('title');
+    this.nextUri = this.getJSON<any>('items')?.next_href;
 
-  protected getType() {
-    return 'selection';
-  }
-
-  #getId() {
-    return this.getJSON<string>('id');
-  }
-
-  #getTitle() {
-    return this.getJSON<string>('title');
-  }
-
-  #getNextUri() {
-    return this.getJSON<any>('items')?.next_href as string | null | undefined;
-  }
-
-  #getItems() {
-    return this.lazyGet('items', () => {
-      const itemsData = this.getJSON<any>('items');
-      if (itemsData) {
-        return CollectionBuilder.build(itemsData, this.getClient()).items;
-      }
-      return undefined;
-    }) || [];
-  }
-
-  get id() {
-    return this.#getId();
-  }
-
-  get title() {
-    return this.#getTitle();
-  }
-
-  get nextUri() {
-    return this.#getNextUri();
-  }
-
-  get items() {
-    return this.#getItems();
+    const itemsData = this.getJSON<any>('items');
+    if (itemsData) {
+      this.items = CollectionBuilder.build(itemsData, this.getClient()).items;
+    }
+    else {
+      this.items = [];
+    }
   }
 }

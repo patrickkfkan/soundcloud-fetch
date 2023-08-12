@@ -1,60 +1,74 @@
 import SoundCloud from '../SoundCloud.js';
-import PlaylistBase from './PlaylistBase.js';
+import { ArtworkImageUrls } from './Entity.js';
+import Set from './Set.js';
 import User from './User.js';
 
-export default class SystemPlaylist extends PlaylistBase<string> {
+export default class SystemPlaylist extends Set<string> {
+
+  static type = 'SystemPlaylist';
+
+  isPublic?: boolean;
+  apiInfo: {
+    urn?: string | null;
+    queryUrn?: string | null;
+  };
+  artwork: {
+    original?: ArtworkImageUrls;
+    calculated?: ArtworkImageUrls;
+  };
+  madeFor?: User;
+  lastUpdated?: string | null;
+  texts: {
+    title: {
+      full?: string | null;
+      short?: string | null;
+    },
+    description: {
+      full?: string | null;
+      short?: string | null;
+    }
+  };
+  trackCount: number;
 
   constructor(json: any, client: SoundCloud) {
     super(json, client);
 
-    Object.defineProperties(this, {
-      isPublic: {
-        enumerable: true,
-        get() {
-          return this.#isPublic();
-        }
-      },
-      apiInfo: {
-        enumerable: true,
-        get() {
-          return this.#getApiInfo();
-        }
-      },
-      artwork: {
-        enumerable: true,
-        get() {
-          return this.#getArtwork();
-        }
-      },
-      madeFor: {
-        enumerable: true,
-        get() {
-          return this.#getMadeFor();
-        }
-      },
-      lastUpdated: {
-        enumerable: true,
-        get() {
-          return this.#getLastUpdated();
-        }
-      },
-      texts: {
-        enumerable: true,
-        get() {
-          return this.#getTexts();
-        }
-      },
-      trackCount: {
-        enumerable: true,
-        get() {
-          return this.#getTrackCount();
-        }
-      }
-    });
-  }
+    this.isPublic = this.getJSON<boolean>('is_public');
 
-  protected getType() {
-    return 'system-playlist';
+    this.apiInfo = {
+      urn: this.getJSON<string>('urn'),
+      queryUrn: this.getJSON<string>('query_urn')
+    };
+
+    this.artwork = {
+      original: this.getImageUrls(this.getJSON<string>('artwork_url')),
+      calculated: this.getImageUrls(this.getJSON<string>('calculated_artwork_url'))
+    };
+
+    const userData = this.getJSON<any>('made_for');
+    if (userData) {
+      this.madeFor = new User(userData, this.getClient());
+    }
+
+    this.lastUpdated = this.getJSON<string>('last_updated');
+    this.texts = {
+      title: {
+        full: this.getJSON<string>('title'),
+        short: this.getJSON<string>('short_title')
+      },
+      description: {
+        full: this.getJSON<string>('description'),
+        short: this.getJSON<string>('short_description')
+      }
+    };
+
+    const tracks = this.getJSON<any>('tracks');
+    if (Array.isArray(tracks)) {
+      this.trackCount = tracks.length;
+    }
+    else {
+      this.trackCount = 0;
+    }
   }
 
   protected getFullPlaylist() {
@@ -62,92 +76,5 @@ export default class SystemPlaylist extends PlaylistBase<string> {
       return this.getClient().getSystemPlaylist(this.id);
     }
     return Promise.resolve(null);
-  }
-
-  #isPublic() {
-    return this.getJSON<boolean>('is_public');
-  }
-
-  #getApiInfo() {
-    return this.lazyGet('api', () => {
-      return {
-        urn: this.getJSON<string>('urn'),
-        queryUrn: this.getJSON<string>('query_urn')
-      };
-    });
-  }
-
-  #getArtwork() {
-    return this.lazyGet('artwork', () => {
-      return {
-        original: this.getImageUrls(this.getJSON<string>('artwork_url')),
-        calculated: this.getImageUrls(this.getJSON<string>('calculated_artwork_url'))
-      };
-    });
-  }
-
-  #getMadeFor() {
-    return this.lazyGet('madeFor', () => {
-      const userData = this.getJSON<any>('made_for');
-      if (!userData) {
-        return undefined;
-      }
-      return new User(userData, this.getClient());
-    });
-  }
-
-  #getLastUpdated() {
-    return this.getJSON<string>('last_updated');
-  }
-
-  #getTexts() {
-    return this.lazyGet('texts', () => {
-      return {
-        title: {
-          full: this.getJSON<string>('title'),
-          short: this.getJSON<string>('short_title')
-        },
-        description: {
-          full: this.getJSON<string>('description'),
-          short: this.getJSON<string>('short_description')
-        }
-      };
-    });
-  }
-
-  #getTrackCount() {
-    const tracks = this.getJSON<any>('tracks');
-    if (Array.isArray(tracks)) {
-      return tracks.length;
-    }
-    return 0;
-  }
-
-  get isPublic() {
-    return this.#isPublic();
-  }
-
-  get apiInfo() {
-    return this.#getApiInfo();
-  }
-
-  get artwork() {
-    return this.#getArtwork();
-  }
-
-  get madeFor() {
-    return this.#getMadeFor();
-  }
-
-  get lastUpdated() {
-    return this.#getLastUpdated();
-  }
-
-  get texts() {
-    return this.#getTexts();
-  }
-
-  get trackCount() {
-    return this.#getTrackCount();
   }
 }

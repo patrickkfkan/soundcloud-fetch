@@ -1,4 +1,3 @@
-import SoundCloud from '../SoundCloud.js';
 import EntityBuilder from '../utils/EntityBuilder.js';
 import { EntityClasses, EntityClassesToTypes, EntityConstructor, EntityType } from '../utils/EntityTypes.js';
 import Collection from './Collection.js';
@@ -9,52 +8,41 @@ export type GenericCollectionOptions<T extends EntityType, K extends EntityClass
   asType?: EntityConstructor<T>
 };
 
-export default class GenericCollection<T extends EntityType, K extends EntityClasses<T>> extends Collection<T, K> {
+export default class GenericCollection<T extends EntityType, K extends EntityClasses<T>> extends Collection<T, K, GenericCollectionOptions<T, K>> {
 
-  #items: any[];
-  #requireTypes?: K;
-  #asType?: EntityConstructor<T>;
+  static type = 'GenericCollection';
 
-  constructor(json: any, client: SoundCloud, options: GenericCollectionOptions<T, K> = {}) {
-    super(json, client);
-
+  protected getItems(opts: GenericCollectionOptions<T, K>): EntityClassesToTypes<T, K>[] {
+    const json = this.getJSON();
+    let itemsData: any[];
     if (Array.isArray(json)) {
-      this.#items = json;
+      itemsData = json;
     }
-    else if (Array.isArray(json.collection)) {
-      this.#items = json.collection;
+    else if (Reflect.has(json, 'collection') && Array.isArray(json.collection)) {
+      itemsData = json.collection;
     }
     else {
-      this.#items = [];
+      itemsData = [];
     }
 
-    if (Reflect.has(options, 'requireTypes')) {
-      this.#requireTypes = Reflect.get(options, 'requireTypes');
+    let requireTypes: K;
+    let asType: EntityConstructor<T>;
+    if (Reflect.has(opts, 'requireTypes')) {
+      requireTypes = Reflect.get(opts, 'requireTypes');
     }
-    else if (Reflect.has(options, 'asType')) {
-      this.#asType = Reflect.get(options, 'asType');
+    else if (Reflect.has(opts, 'asType')) {
+      asType = Reflect.get(opts, 'asType');
     }
-  }
 
-  protected getType() {
-    return this.getJSON<string>('kind') || 'unknown-collection';
-  }
-
-  protected getItems(): EntityClassesToTypes<T, K>[] {
     const client = this.getClient();
-    return this.lazyGet('items', () => {
-      return this.#items.reduce((result, item) => {
-        const entity = this.#asType ?
-          EntityBuilder.buildAs(item, client, this.#asType) :
-          EntityBuilder.build(item, client, this.#requireTypes);
-        if (entity !== null) {
-          result.push(entity);
-        }
-        return result;
-      }, []);
-    });
+    return itemsData.reduce((result, item) => {
+      const entity = asType ?
+        EntityBuilder.buildAs(item, client, asType) :
+        EntityBuilder.build(item, client, requireTypes);
+      if (entity !== null) {
+        result.push(entity);
+      }
+      return result;
+    }, []);
   }
 }
-
-[ 'type', 'items' ].forEach((prop) => Object.defineProperty(GenericCollection.prototype,
-  prop, {enumerable: true}));

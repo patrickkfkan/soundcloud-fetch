@@ -3,55 +3,56 @@ import Playlist from './Playlist.js';
 
 export default class Album extends Playlist {
 
+  static type = 'Album';
+
+  sharingData: {
+    shareability?: string | null;
+    embeddableBy?: string | null;
+    secretToken?: string | null;
+  };
+  dates: {
+    created?: string | null;
+    published?: string | null;
+    modified?: string | null;
+    display?: string | null;
+    release?: string | null;
+  };
+  genre?: string | null;
+  label?: string | null;
+  license?: string | null;
+  purchaseData: {
+    title?: string | null;
+    url?: string | null;
+  };
+  tags?: string | null;
+
   constructor(json: any, client: SoundCloud) {
     super(json, client);
 
-    Object.defineProperties(this, {
-      genre: {
-        enumerable: true,
-        get() {
-          return this.#getGenre();
-        }
-      },
-      label: {
-        enumerable: true,
-        get() {
-          return this.#getLabel();
-        }
-      },
-      license: {
-        enumerable: true,
-        get() {
-          return this.#getLicense();
-        }
-      },
-      purchaseData: {
-        enumerable: true,
-        get() {
-          return this.#getPurchaseData();
-        }
-      },
-      tags: {
-        enumerable: true,
-        get() {
-          return this.#getTags();
-        }
-      }
-    });
-  }
+    this.sharingData = {
+      shareability: this.getJSON<string>('sharing'),
+      embeddableBy: this.getJSON<string>('embeddable_by'),
+      secretToken: this.getJSON<string>('secret_token')
+    };
 
-  protected getType() {
-    return 'album';
-  }
+    this.dates = {
+      created: this.getJSON<string>('created_at'),
+      published: this.getJSON<string>('published_at'),
+      modified: this.getJSON<string>('last_modified'),
+      display: this.getJSON<string>('display_date'),
+      release: this.getJSON<string>('release_date')
+    };
 
-  protected getSharingData() {
-    return this.lazyGet('sharing', () => {
-      return {
-        shareability: this.getJSON<string>('sharing'),
-        embeddableBy: this.getJSON<String>('embeddable_by'),
-        secretToken: this.getJSON<string>('secret_token')
-      };
-    });
+    this.genre = this.getJSON<string>('genre');
+    this.label = this.getJSON<string>('label_name');
+    this.license = this.getJSON<string>('license');
+
+    this.purchaseData = {
+      title: this.getJSON<string>('purchase_title'),
+      url: this.getJSON<string>('purchase_url')
+    };
+
+    this.tags = this.getJSON<string>('tag_list');
   }
 
   protected getFullPlaylist() {
@@ -59,62 +60,5 @@ export default class Album extends Playlist {
       return this.getClient().getAlbum(this.id);
     }
     return Promise.resolve(null);
-  }
-
-  protected getDates() {
-    return this.lazyGet('dates', () => {
-      return {
-        created: this.getJSON<string>('created_at'),
-        published: this.getJSON<string>('published_at'),
-        modified: this.getJSON<string>('last_modified'),
-        display: this.getJSON<string>('display_date'),
-        release: this.getJSON<string>('release_date')
-      };
-    });
-  }
-
-  #getGenre() {
-    return this.getJSON<string>('genre');
-  }
-
-  #getLabel() {
-    return this.getJSON<string>('label_name');
-  }
-
-  #getLicense() {
-    return this.getJSON<string>('license');
-  }
-
-  #getPurchaseData() {
-    return this.lazyGet('purchase', () => {
-      return {
-        title: this.getJSON<string>('purchase_title'),
-        url: this.getJSON<string>('purchase_url')
-      };
-    });
-  }
-
-  #getTags() {
-    return this.getJSON<string>('tag_list');
-  }
-
-  get genre() {
-    return this.#getGenre();
-  }
-
-  get label() {
-    return this.#getLabel();
-  }
-
-  get license() {
-    return this.#getLicense();
-  }
-
-  get purchaseData() {
-    return this.#getPurchaseData();
-  }
-
-  get tags() {
-    return this.#getTags();
   }
 }

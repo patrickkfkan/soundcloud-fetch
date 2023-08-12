@@ -4,5 +4,5 @@ import { print } from './output.js';
 const scfetch = new SoundCloud();
 
 scfetch.search('Hello', { type: 'album' }).then((albums) => {
-  print(albums.toPlainObject());
+  print(albums);
 });
