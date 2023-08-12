@@ -1,15 +1,10 @@
-
-> soundcloud-fetch@1.0.0 example
-> func() { npx ts-node -P ./tsconfig-esm.json --esm ./examples/${1}.ts; }; func "getPlaylistsByUser"
-
-{
-  type: 'unknown-collection',
+GenericCollection {
   items: [
-    {
-      type: 'playlist',
+    Playlist {
+      type: 'Playlist',
       id: 1613819257,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 1179174835,
         names: {
           full: '',
@@ -60,11 +55,11 @@
         mini: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-mini.jpg'
       },
       setType: '',
-      duration: 8308767,
+      duration: 7705837,
       dates: {
         created: '2023-05-02T12:28:25Z',
         published: '2023-05-22T11:34:21Z',
-        modified: '2023-08-02T11:35:55Z',
+        modified: '2023-08-09T09:05:09Z',
         display: '2023-05-22T11:34:21Z'
       },
       sharingData: { shareability: 'public', secretToken: null },
@@ -72,14 +67,14 @@
         title: 'Wildhearts',
         description: 'Carefree country music to uplift and let loose. Updates every Wednesday.'
       },
-      trackCount: 40,
-      socialData: { likesCount: 478, repostsCount: 27, managedByFeeds: false }
+      trackCount: 39,
+      socialData: { likesCount: 505, repostsCount: 29, managedByFeeds: false }
     },
-    {
-      type: 'playlist',
+    Playlist {
+      type: 'Playlist',
       id: 1613819254,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 1179174835,
         names: {
           full: '',
@@ -130,23 +125,23 @@
         mini: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-mini.jpg'
       },
       setType: '',
-      duration: 10706783,
+      duration: 10276730,
       dates: {
         created: '2023-05-02T12:28:25Z',
         published: '2023-05-22T11:34:21Z',
-        modified: '2023-08-02T11:37:13Z',
+        modified: '2023-08-09T09:05:05Z',
         display: '2023-05-22T11:34:21Z'
       },
       sharingData: { shareability: 'public', secretToken: null },
       texts: { title: 'Synth City', description: '' },
       trackCount: 38,
-      socialData: { likesCount: 1076, repostsCount: 55, managedByFeeds: false }
+      socialData: { likesCount: 1171, repostsCount: 56, managedByFeeds: false }
     },
-    {
-      type: 'playlist',
+    Playlist {
+      type: 'Playlist',
       id: 1613819251,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 1179174835,
         names: {
           full: '',
@@ -197,11 +192,11 @@
         mini: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-mini.jpg'
       },
       setType: '',
-      duration: 14354024,
+      duration: 12232983,
       dates: {
         created: '2023-05-02T12:28:25Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-02T11:36:53Z',
+        modified: '2023-08-09T09:05:08Z',
         display: '2023-05-22T11:34:20Z'
       },
       sharingData: { shareability: 'public', secretToken: null },
@@ -210,13 +205,13 @@
         description: 'Freshly uploaded disco beats and funky rhythms to transport you back to the golden age. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialData: { likesCount: 2300, repostsCount: 57, managedByFeeds: false }
+      socialData: { likesCount: 2512, repostsCount: 61, managedByFeeds: false }
     },
-    {
-      type: 'playlist',
+    Playlist {
+      type: 'Playlist',
       id: 1613819248,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 1179174835,
         names: {
           full: '',
@@ -267,11 +262,11 @@
         mini: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-mini.jpg'
       },
       setType: '',
-      duration: 7911341,
+      duration: 7814949,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-02T11:36:08Z',
+        modified: '2023-08-09T09:05:34Z',
         display: '2023-05-22T11:34:20Z'
       },
       sharingData: { shareability: 'public', secretToken: null },
@@ -280,13 +275,13 @@
         description: 'Pop songs fit for the thrill of the open road. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialData: { likesCount: 464, repostsCount: 20, managedByFeeds: false }
+      socialData: { likesCount: 503, repostsCount: 20, managedByFeeds: false }
     },
-    {
-      type: 'playlist',
+    Playlist {
+      type: 'Playlist',
       id: 1613819242,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 1179174835,
         names: {
           full: '',
@@ -337,11 +332,11 @@
         mini: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-mini.jpg'
       },
       setType: '',
-      duration: 9602978,
+      duration: 9280259,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-02T11:36:47Z',
+        modified: '2023-08-09T09:05:19Z',
         display: '2023-05-22T11:34:20Z'
       },
       sharingData: { shareability: 'public', secretToken: null },
@@ -350,13 +345,13 @@
         description: 'Freshly uplaoded feel good Funk tunes. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialData: { likesCount: 436, repostsCount: 16, managedByFeeds: false }
+      socialData: { likesCount: 467, repostsCount: 16, managedByFeeds: false }
     },
-    {
-      type: 'playlist',
+    Playlist {
+      type: 'Playlist',
       id: 1613819239,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 1179174835,
         names: {
           full: '',
@@ -407,11 +402,11 @@
         mini: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-mini.jpg'
       },
       setType: '',
-      duration: 7745857,
+      duration: 8240197,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-02T11:36:59Z',
+        modified: '2023-08-09T09:05:35Z',
         display: '2023-05-22T11:34:20Z'
       },
       sharingData: { shareability: 'public', secretToken: null },
@@ -419,14 +414,14 @@
         title: 'Fruit Loops',
         description: 'Get a burst of flavour from these feel-good downtempo and lofi rhythms. Updates every. Wednesday.'
       },
-      trackCount: 39,
-      socialData: { likesCount: 181, repostsCount: 8, managedByFeeds: false }
+      trackCount: 40,
+      socialData: { likesCount: 191, repostsCount: 8, managedByFeeds: false }
     },
-    {
-      type: 'playlist',
+    Playlist {
+      type: 'Playlist',
       id: 1613819236,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 1179174835,
         names: {
           full: '',
@@ -477,11 +472,11 @@
         mini: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-mini.jpg'
       },
       setType: '',
-      duration: 7243571,
+      duration: 6881541,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-02T11:36:04Z',
+        modified: '2023-08-09T09:06:01Z',
         display: '2023-05-22T11:34:20Z'
       },
       sharingData: { shareability: 'public', secretToken: null },
@@ -490,13 +485,13 @@
         description: 'Quirky rap and trap to boost your mood. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialData: { likesCount: 251, repostsCount: 8, managedByFeeds: false }
+      socialData: { likesCount: 274, repostsCount: 8, managedByFeeds: false }
     },
-    {
-      type: 'playlist',
+    Playlist {
+      type: 'Playlist',
       id: 1613819233,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 1179174835,
         names: {
           full: '',
@@ -547,11 +542,11 @@
         mini: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-mini.jpg'
       },
       setType: '',
-      duration: 8466909,
+      duration: 8007835,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-02T11:37:05Z',
+        modified: '2023-08-09T09:05:48Z',
         display: '2023-05-22T11:34:20Z'
       },
       sharingData: { shareability: 'public', secretToken: null },
@@ -559,14 +554,14 @@
         title: 'Elevated Frequencies',
         description: 'Find your frequency with this selection of euphoric pop songs. Updates every Wednesday.'
       },
-      trackCount: 39,
-      socialData: { likesCount: 655, repostsCount: 11, managedByFeeds: false }
+      trackCount: 40,
+      socialData: { likesCount: 707, repostsCount: 12, managedByFeeds: false }
     },
-    {
-      type: 'playlist',
+    Playlist {
+      type: 'Playlist',
       id: 1613819227,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 1179174835,
         names: {
           full: '',
@@ -617,11 +612,11 @@
         mini: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-mini.jpg'
       },
       setType: '',
-      duration: 7381683,
+      duration: 7511355,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-02T11:36:40Z',
+        modified: '2023-08-09T09:06:16Z',
         display: '2023-05-22T11:34:20Z'
       },
       sharingData: { shareability: 'public', secretToken: null },
@@ -630,13 +625,13 @@
         description: 'Electrifying selection of Pop music to get charged up. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialData: { likesCount: 320, repostsCount: 13, managedByFeeds: false }
+      socialData: { likesCount: 348, repostsCount: 15, managedByFeeds: false }
     },
-    {
-      type: 'playlist',
+    Playlist {
+      type: 'Playlist',
       id: 1613819221,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 1179174835,
         names: {
           full: '',
@@ -687,11 +682,11 @@
         mini: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-mini.jpg'
       },
       setType: '',
-      duration: 7389466,
+      duration: 7501478,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:19Z',
-        modified: '2023-08-02T11:36:12Z',
+        modified: '2023-08-09T09:05:27Z',
         display: '2023-05-22T11:34:19Z'
       },
       sharingData: { shareability: 'public', secretToken: null },
@@ -699,8 +694,9 @@
         title: 'EDM Uplift',
         description: 'Elevate your day with this high energy EDM playlist. Updates every Wednesday.'
       },
-      trackCount: 40,
-      socialData: { likesCount: 639, repostsCount: 16, managedByFeeds: false }
+      trackCount: 39,
+      socialData: { likesCount: 682, repostsCount: 16, managedByFeeds: false }
     }
-  ]
+  ],
+  nextUri: 'https://api-v2.soundcloud.com/users/1179174835/playlists_without_albums?offset=10&limit=10'
 }

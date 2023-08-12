@@ -1,15 +1,10 @@
-
-> soundcloud-fetch@1.0.0 example
-> func() { npx ts-node -P ./tsconfig-esm.json --esm ./examples/${1}.ts; }; func "getAlbumsByUser"
-
-{
-  type: 'unknown-collection',
+GenericCollection {
   items: [
-    {
-      type: 'album',
+    Album {
+      type: 'Album',
       id: 1602102004,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -17,7 +12,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -85,18 +80,18 @@
           '© ℗ 2023 Peeleh • https://peeleh.com'
       },
       trackCount: 12,
-      socialData: { likesCount: 24083, repostsCount: 1180, managedByFeeds: false },
+      socialData: { likesCount: 24220, repostsCount: 1182, managedByFeeds: false },
       genre: 'Hip-hop & Rap',
       label: 'Peeleh',
       license: 'all-rights-reserved',
       purchaseData: { title: 'دریافت از ایران', url: 'https://peeleh.com/khodha' },
       tags: 'Experimental "Hip Hop"'
     },
-    {
-      type: 'album',
+    Album {
+      type: 'Album',
       id: 1018563193,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -104,7 +99,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -151,7 +146,7 @@
       dates: {
         created: '2020-03-25T14:49:10Z',
         published: '2020-03-22T00:00:00Z',
-        modified: '2022-08-01T02:45:23Z',
+        modified: '2023-08-10T10:12:30Z',
         display: '2020-03-22T00:00:00Z',
         release: '2020-03-22T00:00:00Z'
       },
@@ -164,18 +159,19 @@
         title: 'Gozaar',
         description: 'Music Producers: @Ashkanmousavi , @Peymandegar , @Nesaazadikhah\n' +
           'Mixing & Mastering Engineer: @Ashkanmousavi\n' +
-          'Artwork: Setareh Malekzadeh [https://setarehmalekzadeh.com]\n' +
+          'Artwork: Setareh Malekzadeh https://ghogha.me\n' +
           '©℗  2020 - @Peeleh\n' +
           '\n' +
           '#alternative #hiphop #Iran #Bahram'
       },
       trackCount: 5,
-      socialData: { likesCount: 4161, repostsCount: 206, managedByFeeds: true },
+      socialData: { likesCount: 4205, repostsCount: 206, managedByFeeds: true },
       genre: 'Hip Hop/Rap',
       label: null,
       license: 'all-rights-reserved',
       purchaseData: { title: 'Buy', url: 'http://www.peeleh.com/gozaar' },
       tags: ''
     }
-  ]
+  ],
+  nextUri: null
 }

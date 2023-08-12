@@ -1,9 +1,5 @@
-
-> soundcloud-fetch@1.0.0 example
-> func() { npx ts-node -P ./tsconfig-esm.json --esm ./examples/${1}.ts; }; func "getTrackAndStreamingUrl"
-
-{
-  type: 'track',
+Track {
+  type: 'Track',
   id: 9723380,
   texts: { title: 'Executioners Ensemble', description: '', caption: null },
   dates: {
@@ -27,8 +23,8 @@
     trackFormat: 'single-track',
     encodingState: 'finished',
     transcodings: [
-      {
-        type: 'media-transcoding',
+      MediaTranscoding {
+        type: 'MediaTranscoding',
         url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:9723380/fa534907-2a47-4719-ad34-73d9dad39139/stream/hls',
         preset: 'mp3_0_0',
         duration: 170017,
@@ -37,8 +33,8 @@
         mimeType: 'audio/mpeg',
         quality: 'sq'
       },
-      {
-        type: 'media-transcoding',
+      MediaTranscoding {
+        type: 'MediaTranscoding',
         url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:9723380/fa534907-2a47-4719-ad34-73d9dad39139/stream/progressive',
         preset: 'mp3_0_0',
         duration: 170017,
@@ -59,17 +55,16 @@
     urn: 'soundcloud:tracks:9723380'
   },
   purchaseInfo: { title: null, url: null },
-  publisher: null,
   durations: { full: 170017, playback: 170017 },
   genre: 'Decapitation',
   license: 'all-rights-reserved',
   isPublic: true,
   tags: '',
   label: '',
-  artwork: null,
+  artwork: undefined,
   waveform: 'https://wave.sndcdn.com/bKfXNLtfMM09_m.json',
-  user: {
-    type: 'user',
+  user: User {
+    type: 'User',
     id: 2910865,
     names: {
       full: 'Paul Butler',
@@ -102,4 +97,5 @@
     badges: { pro: false, proUnlimited: false, verified: false }
   }
 }
-Streaming URL: https://cf-hls-media.sndcdn.com/playlist/bKfXNLtfMM09.128.mp3/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLWhscy1tZWRpYS5zbmRjZG4uY29tL3BsYXlsaXN0L2JLZlhOTHRmTU0wOS4xMjgubXAzL3BsYXlsaXN0Lm0zdTgqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkxMzM1NzE4fX19XX0_&Signature=QQqa0z1HfUbHxABQHnUe4~5XOuNmUg~gJUCupBz5Wd0liHwyD-TVm2PP3FCF0yb2PlJZNPKzA-LljeEU5e8vIee2b33B8YetgYjoeAYhST2SozNHobxnref0zLDGwreAptO51eQ17S4nXZeulZCsKOCUsx6ntrDV7gVCvPsizvn4INon9vkALZW9V5AcSLdQBBIy-zCENnHTNmOknWHgYfTzzxEiP~qmjGTxScnDGCfCB6FQR7pS7iJNq4sqmxrNxXUr~upnjngx7GH~LRHjA6up8Mh8mjsiNKiKp0abSTlx~K-v-RgGhftycZz83QTDyh5JKd4VT91NGcRzxPARYg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ
+--------------
+Streaming URL: https://cf-hls-media.sndcdn.com/playlist/bKfXNLtfMM09.128.mp3/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLWhscy1tZWRpYS5zbmRjZG4uY29tL3BsYXlsaXN0L2JLZlhOTHRmTU0wOS4xMjgubXAzL3BsYXlsaXN0Lm0zdTgqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkxODYxMzI4fX19XX0_&Signature=f8la3CErovYgNhmH3JylSbPl98-YGOchvAw00c9VRRkKkWfOTtvlGslW-hCXImQuUlsYi4EkJ2cWPs52erpa-AV~prPjjMo~5yxTJUfEBOwAUF7kBfxKvnZ-yZEsZl3d4F9Q34XHjxPFifm89yQa4iq9IeJeMDVIx1qlXCdW4L-c8yXU-iTT~CYe7l8Y1maI8GyECyl8~fHzjbCbSvcoMRvrOQYWNNZoDuxWp0UEk95wm2BcEJ3ACKuQnQUnblJwiM~S-1R-X2pbKHHMEsLwEHnrSNkvcxzYQlQuvHdFN3P6TnSLFGV9aQ02vPHi3cf1VMuuKVqLGHU0x2a1v7vGMw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ

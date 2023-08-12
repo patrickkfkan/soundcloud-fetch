@@ -1,9 +1,5 @@
-
-> soundcloud-fetch@1.0.0 example
-> func() { npx ts-node -P ./tsconfig-esm.json --esm ./examples/${1}.ts; }; func "getUser"
-
-{
-  type: 'user',
+User {
+  type: 'User',
   id: 9723380,
   names: {
     full: 'Bahram Nouraei',
@@ -11,7 +7,7 @@
     last: 'Nouraei',
     username: 'Bahram'
   },
-  lastModified: '2023-08-03T17:55:24Z',
+  lastModified: '2023-08-08T13:26:04Z',
   permalink: {
     basic: 'bahramnouraei',
     full: 'https://soundcloud.com/bahramnouraei'

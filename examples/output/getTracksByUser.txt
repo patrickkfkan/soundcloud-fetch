@@ -1,12 +1,7 @@
-
-> soundcloud-fetch@1.0.0 example
-> func() { npx ts-node -P ./tsconfig-esm.json --esm ./examples/${1}.ts; }; func "getTracksByUser"
-
-{
-  type: 'unknown-collection',
+GenericCollection {
   items: [
-    {
-      type: 'track',
+    Track {
+      type: 'Track',
       id: 1575133567,
       texts: {
         title: 'DAAGH [Prod. by Holly]',
@@ -68,7 +63,7 @@
       dates: {
         created: '2023-07-26T17:41:02Z',
         released: '2023-08-03T00:00:00Z',
-        modified: '2023-08-06T07:45:49Z',
+        modified: '2023-08-12T09:19:51Z',
         display: '2023-08-03T17:24:01Z'
       },
       downloadData: {
@@ -78,24 +73,24 @@
       },
       socialData: {
         commentable: true,
-        commentCount: 6580,
-        likesCount: 23688,
-        repostsCount: 937
+        commentCount: 9006,
+        likesCount: 30670,
+        repostsCount: 1206
       },
       sharingData: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackData: { playbackCount: 262716, policy: 'ALLOW' },
+      playbackData: { playbackCount: 548028, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1575133567/1a312574-bb23-4531-9783-35af4b4502b8/stream/hls',
             preset: 'mp3_1_0',
             duration: 150047,
@@ -104,8 +99,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1575133567/1a312574-bb23-4531-9783-35af4b4502b8/stream/progressive',
             preset: 'mp3_1_0',
             duration: 150047,
@@ -114,8 +109,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1575133567/f7f968d7-9c32-491f-b113-3925e3030102/stream/hls',
             preset: 'opus_0_0',
             duration: 150007,
@@ -135,23 +130,20 @@
         uri: 'https://api.soundcloud.com/tracks/1575133567',
         urn: 'soundcloud:tracks:1575133567'
       },
-      purchaseInfo: {
-        title: 'BandCamp',
-        url: 'https://peeleh.bandcamp.com/track/daagh'
-      },
-      publisher: {
-        type: 'publisher',
+      purchaseInfo: { title: null, url: 'https://peeleh.bandcamp.com/track/daagh' },
+      publisher: Publisher {
+        type: 'Publisher',
         id: 1575133567,
-        artist: 'Bahram',
-        albumTitle: null,
+        artist: 'Bahram, Holly',
+        albumTitle: undefined,
         containsMusic: true,
         UPCOrEAN: '7316219712034',
         ISRC: 'SE6XW2381500',
         isExplicit: false,
         releaseTitle: 'DAAGH',
         copyrightText: {
-          general: { p: '2023 Peeleh', c: null },
-          display: { p: '℗ 2023 Peeleh', c: null }
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
         },
         apiInfo: { urn: 'soundcloud:tracks:1575133567' }
       },
@@ -174,8 +166,8 @@
         mini: 'https://i1.sndcdn.com/artworks-M3nqwyAdCMyF2cma-hooEcg-mini.jpg'
       },
       waveform: 'https://wave.sndcdn.com/Z1nYZi3x0jNa_m.json',
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -183,7 +175,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -208,8 +200,8 @@
         badges: { pro: false, proUnlimited: true, verified: true }
       }
     },
-    {
-      type: 'track',
+    Track {
+      type: 'Track',
       id: 1491745327,
       texts: {
         title: 'KHODHA [Prod. by Ashkan Mousavi]',
@@ -263,24 +255,24 @@
       },
       socialData: {
         commentable: true,
-        commentCount: 3004,
-        likesCount: 19662,
-        repostsCount: 403
+        commentCount: 3020,
+        likesCount: 19851,
+        repostsCount: 407
       },
       sharingData: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackData: { playbackCount: 844501, policy: 'ALLOW' },
+      playbackData: { playbackCount: 865809, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745327/392eaa82-4202-407d-8a9c-2875f8670f85/stream/hls',
             preset: 'mp3_1_0',
             duration: 102034,
@@ -289,8 +281,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745327/392eaa82-4202-407d-8a9c-2875f8670f85/stream/progressive',
             preset: 'mp3_1_0',
             duration: 102034,
@@ -299,8 +291,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745327/39919fb3-726b-47b5-a68a-f517b9064add/stream/hls',
             preset: 'opus_0_0',
             duration: 102007,
@@ -321,19 +313,19 @@
         urn: 'soundcloud:tracks:1491745327'
       },
       purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
-      publisher: {
-        type: 'publisher',
+      publisher: Publisher {
+        type: 'Publisher',
         id: 1491745327,
         artist: 'Bahram',
         albumTitle: 'KHODHA',
         containsMusic: true,
-        UPCOrEAN: null,
+        UPCOrEAN: undefined,
         ISRC: 'SE6HN2398549',
         isExplicit: false,
         releaseTitle: 'KHODHA',
         copyrightText: {
-          general: { p: '2023 Peeleh', c: null },
-          display: { p: '℗ 2023 Peeleh', c: null }
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
         },
         apiInfo: { urn: 'soundcloud:tracks:1491745327' }
       },
@@ -356,8 +348,8 @@
         mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
       },
       waveform: 'https://wave.sndcdn.com/tsoCvNC02oT3_m.json',
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -365,7 +357,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -390,8 +382,8 @@
         badges: { pro: false, proUnlimited: true, verified: true }
       }
     },
-    {
-      type: 'track',
+    Track {
+      type: 'Track',
       id: 1491745306,
       texts: {
         title: 'NAADIDEH [Prod. by Ashkan Mousavi]',
@@ -477,8 +469,8 @@
       },
       socialData: {
         commentable: true,
-        commentCount: 3377,
-        likesCount: 17901,
+        commentCount: 3397,
+        likesCount: 18031,
         repostsCount: 326
       },
       sharingData: {
@@ -486,15 +478,15 @@
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackData: { playbackCount: 636023, policy: 'ALLOW' },
+      playbackData: { playbackCount: 646481, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745306/e2ff87c0-ed15-4442-90e3-8c0105556f33/stream/hls',
             preset: 'mp3_1_0',
             duration: 236042,
@@ -503,8 +495,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745306/e2ff87c0-ed15-4442-90e3-8c0105556f33/stream/progressive',
             preset: 'mp3_1_0',
             duration: 236042,
@@ -513,8 +505,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745306/0a411f49-2a62-4e40-a543-29a05cd3d807/stream/hls',
             preset: 'opus_0_0',
             duration: 236007,
@@ -535,19 +527,19 @@
         urn: 'soundcloud:tracks:1491745306'
       },
       purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
-      publisher: {
-        type: 'publisher',
+      publisher: Publisher {
+        type: 'Publisher',
         id: 1491745306,
         artist: 'Bahram',
         albumTitle: 'KHODHA',
         containsMusic: true,
-        UPCOrEAN: null,
+        UPCOrEAN: undefined,
         ISRC: 'SE6HN2398550',
         isExplicit: false,
         releaseTitle: 'NAADIDEH',
         copyrightText: {
-          general: { p: '2023 Peeleh', c: null },
-          display: { p: '℗ 2023 Peeleh', c: null }
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
         },
         apiInfo: { urn: 'soundcloud:tracks:1491745306' }
       },
@@ -570,8 +562,8 @@
         mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
       },
       waveform: 'https://wave.sndcdn.com/MOBXionDYCg9_m.json',
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -579,7 +571,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -604,8 +596,8 @@
         badges: { pro: false, proUnlimited: true, verified: true }
       }
     },
-    {
-      type: 'track',
+    Track {
+      type: 'Track',
       id: 1491745270,
       texts: {
         title: 'YE CHIZI MORD [Prod. by Peymandegar]',
@@ -686,24 +678,24 @@
       },
       socialData: {
         commentable: true,
-        commentCount: 2219,
-        likesCount: 15637,
-        repostsCount: 263
+        commentCount: 2225,
+        likesCount: 15731,
+        repostsCount: 266
       },
       sharingData: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackData: { playbackCount: 582043, policy: 'ALLOW' },
+      playbackData: { playbackCount: 590504, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745270/f4cc5779-fda6-4246-83d3-be6ec8cc39ee/stream/hls',
             preset: 'mp3_1_0',
             duration: 208039,
@@ -712,8 +704,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745270/f4cc5779-fda6-4246-83d3-be6ec8cc39ee/stream/progressive',
             preset: 'mp3_1_0',
             duration: 208039,
@@ -722,8 +714,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745270/b12148da-a7f2-42af-b215-e4ca575c05e6/stream/hls',
             preset: 'opus_0_0',
             duration: 208007,
@@ -744,19 +736,19 @@
         urn: 'soundcloud:tracks:1491745270'
       },
       purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
-      publisher: {
-        type: 'publisher',
+      publisher: Publisher {
+        type: 'Publisher',
         id: 1491745270,
         artist: 'Bahram',
         albumTitle: 'KHODHA',
         containsMusic: true,
-        UPCOrEAN: null,
+        UPCOrEAN: undefined,
         ISRC: 'SE6HN2398551',
         isExplicit: false,
         releaseTitle: 'YE CHIZI MORD',
         copyrightText: {
-          general: { p: '2023 Peeleh', c: null },
-          display: { p: '℗ 2023 Peeleh', c: null }
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
         },
         apiInfo: { urn: 'soundcloud:tracks:1491745270' }
       },
@@ -779,8 +771,8 @@
         mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
       },
       waveform: 'https://wave.sndcdn.com/OpLmVFTOspgw_m.json',
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -788,7 +780,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -813,8 +805,8 @@
         badges: { pro: false, proUnlimited: true, verified: true }
       }
     },
-    {
-      type: 'track',
+    Track {
+      type: 'Track',
       id: 1491745243,
       texts: {
         title: 'KHOON [Prod. by Ashkan Mousavi]',
@@ -907,24 +899,24 @@
       },
       socialData: {
         commentable: true,
-        commentCount: 1829,
-        likesCount: 12813,
-        repostsCount: 195
+        commentCount: 1832,
+        likesCount: 12880,
+        repostsCount: 197
       },
       sharingData: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackData: { playbackCount: 458089, policy: 'ALLOW' },
+      playbackData: { playbackCount: 464116, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745243/8139308e-0e0e-4015-986d-0e7ecbf3f22d/stream/hls',
             preset: 'mp3_1_0',
             duration: 202031,
@@ -933,8 +925,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745243/8139308e-0e0e-4015-986d-0e7ecbf3f22d/stream/progressive',
             preset: 'mp3_1_0',
             duration: 202031,
@@ -943,8 +935,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745243/3eb0ba7e-53f3-48b4-90db-bd63676fbffe/stream/hls',
             preset: 'opus_0_0',
             duration: 202007,
@@ -965,19 +957,19 @@
         urn: 'soundcloud:tracks:1491745243'
       },
       purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
-      publisher: {
-        type: 'publisher',
+      publisher: Publisher {
+        type: 'Publisher',
         id: 1491745243,
         artist: 'Bahram',
         albumTitle: 'KHODHA',
         containsMusic: true,
-        UPCOrEAN: null,
+        UPCOrEAN: undefined,
         ISRC: 'SE6HN2398552',
         isExplicit: false,
         releaseTitle: 'KHOON',
         copyrightText: {
-          general: { p: '2023 Peeleh', c: null },
-          display: { p: '℗ 2023 Peeleh', c: null }
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
         },
         apiInfo: { urn: 'soundcloud:tracks:1491745243' }
       },
@@ -1000,8 +992,8 @@
         mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
       },
       waveform: 'https://wave.sndcdn.com/pYpbcMIinwI9_m.json',
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -1009,7 +1001,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -1034,8 +1026,8 @@
         badges: { pro: false, proUnlimited: true, verified: true }
       }
     },
-    {
-      type: 'track',
+    Track {
+      type: 'Track',
       id: 1491745210,
       texts: {
         title: 'GOM [Prod. by Ashkan Mousavi]',
@@ -1124,24 +1116,24 @@
       },
       socialData: {
         commentable: true,
-        commentCount: 1825,
-        likesCount: 13126,
-        repostsCount: 230
+        commentCount: 1828,
+        likesCount: 13203,
+        repostsCount: 232
       },
       sharingData: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackData: { playbackCount: 499421, policy: 'ALLOW' },
+      playbackData: { playbackCount: 505742, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745210/23e4f061-c688-40fd-a180-e464532bdcf4/stream/hls',
             preset: 'mp3_1_0',
             duration: 190041,
@@ -1150,8 +1142,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745210/23e4f061-c688-40fd-a180-e464532bdcf4/stream/progressive',
             preset: 'mp3_1_0',
             duration: 190041,
@@ -1160,8 +1152,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745210/158dc298-2973-4647-b6fb-66741aab59b5/stream/hls',
             preset: 'opus_0_0',
             duration: 190007,
@@ -1182,19 +1174,19 @@
         urn: 'soundcloud:tracks:1491745210'
       },
       purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
-      publisher: {
-        type: 'publisher',
+      publisher: Publisher {
+        type: 'Publisher',
         id: 1491745210,
         artist: 'Bahram',
         albumTitle: 'KHODHA',
         containsMusic: true,
-        UPCOrEAN: null,
+        UPCOrEAN: undefined,
         ISRC: 'SE6HN2398553',
         isExplicit: false,
         releaseTitle: 'GOM',
         copyrightText: {
-          general: { p: '2023 Peeleh', c: null },
-          display: { p: '℗ 2023 Peeleh', c: null }
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
         },
         apiInfo: { urn: 'soundcloud:tracks:1491745210' }
       },
@@ -1217,8 +1209,8 @@
         mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
       },
       waveform: 'https://wave.sndcdn.com/5Szk8mxTkd4R_m.json',
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -1226,7 +1218,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -1251,8 +1243,8 @@
         badges: { pro: false, proUnlimited: true, verified: true }
       }
     },
-    {
-      type: 'track',
+    Track {
+      type: 'Track',
       id: 1491745195,
       texts: {
         title: 'BALA OFTADAN [Prod. by Nesa Azadikhah]',
@@ -1340,24 +1332,24 @@
       },
       socialData: {
         commentable: true,
-        commentCount: 2130,
-        likesCount: 11793,
-        repostsCount: 178
+        commentCount: 2133,
+        likesCount: 11847,
+        repostsCount: 181
       },
       sharingData: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackData: { playbackCount: 423612, policy: 'ALLOW' },
+      playbackData: { playbackCount: 428811, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745195/36c8c10c-c381-41bd-a5b6-8a15df41f9ef/stream/hls',
             preset: 'mp3_1_0',
             duration: 351530,
@@ -1366,8 +1358,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745195/36c8c10c-c381-41bd-a5b6-8a15df41f9ef/stream/progressive',
             preset: 'mp3_1_0',
             duration: 351530,
@@ -1376,8 +1368,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745195/e2f22dca-f9b4-40f1-a727-76d8dd777169/stream/hls',
             preset: 'opus_0_0',
             duration: 351507,
@@ -1398,19 +1390,19 @@
         urn: 'soundcloud:tracks:1491745195'
       },
       purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
-      publisher: {
-        type: 'publisher',
+      publisher: Publisher {
+        type: 'Publisher',
         id: 1491745195,
         artist: 'Bahram',
         albumTitle: 'KHODHA',
         containsMusic: true,
-        UPCOrEAN: null,
+        UPCOrEAN: undefined,
         ISRC: 'SE6HN2398554',
         isExplicit: false,
         releaseTitle: 'BALA OFTADAN',
         copyrightText: {
-          general: { p: '2023 Peeleh', c: null },
-          display: { p: '℗ 2023 Peeleh', c: null }
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
         },
         apiInfo: { urn: 'soundcloud:tracks:1491745195' }
       },
@@ -1433,8 +1425,8 @@
         mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
       },
       waveform: 'https://wave.sndcdn.com/jXOw7Sj9sBQh_m.json',
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -1442,7 +1434,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -1467,8 +1459,8 @@
         badges: { pro: false, proUnlimited: true, verified: true }
       }
     },
-    {
-      type: 'track',
+    Track {
+      type: 'Track',
       id: 1491745162,
       texts: {
         title: 'AYNEH [Prod. by Peymandegar]',
@@ -1559,24 +1551,24 @@
       },
       socialData: {
         commentable: true,
-        commentCount: 2066,
-        likesCount: 14570,
-        repostsCount: 267
+        commentCount: 2073,
+        likesCount: 14662,
+        repostsCount: 270
       },
       sharingData: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackData: { playbackCount: 516069, policy: 'ALLOW' },
+      playbackData: { playbackCount: 522483, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745162/26ee60c9-0533-48bd-9a99-e316bbafc126/stream/hls',
             preset: 'mp3_1_0',
             duration: 196049,
@@ -1585,8 +1577,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745162/26ee60c9-0533-48bd-9a99-e316bbafc126/stream/progressive',
             preset: 'mp3_1_0',
             duration: 196049,
@@ -1595,8 +1587,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745162/91e9e854-d74b-4aaa-b7c0-860f0aebe2c5/stream/hls',
             preset: 'opus_0_0',
             duration: 196007,
@@ -1617,19 +1609,19 @@
         urn: 'soundcloud:tracks:1491745162'
       },
       purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
-      publisher: {
-        type: 'publisher',
+      publisher: Publisher {
+        type: 'Publisher',
         id: 1491745162,
         artist: 'Bahram',
         albumTitle: 'KHODHA',
         containsMusic: true,
-        UPCOrEAN: null,
+        UPCOrEAN: undefined,
         ISRC: 'SE6HN2398555',
         isExplicit: false,
         releaseTitle: 'AYNEH',
         copyrightText: {
-          general: { p: '2023 Peeleh', c: null },
-          display: { p: '℗ 2023 Peeleh', c: null }
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
         },
         apiInfo: { urn: 'soundcloud:tracks:1491745162' }
       },
@@ -1652,8 +1644,8 @@
         mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
       },
       waveform: 'https://wave.sndcdn.com/Q4TMO5D4HLIk_m.json',
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -1661,7 +1653,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -1686,8 +1678,8 @@
         badges: { pro: false, proUnlimited: true, verified: true }
       }
     },
-    {
-      type: 'track',
+    Track {
+      type: 'Track',
       id: 1491745138,
       texts: {
         title: 'PEYDA [Prod. by Peymandegar]',
@@ -1778,24 +1770,24 @@
       },
       socialData: {
         commentable: true,
-        commentCount: 1828,
-        likesCount: 12268,
-        repostsCount: 218
+        commentCount: 1835,
+        likesCount: 12331,
+        repostsCount: 221
       },
       sharingData: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackData: { playbackCount: 458236, policy: 'ALLOW' },
+      playbackData: { playbackCount: 464142, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745138/79f420a1-f554-497e-a19b-ac5da7894992/stream/hls',
             preset: 'mp3_1_0',
             duration: 168046,
@@ -1804,8 +1796,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745138/79f420a1-f554-497e-a19b-ac5da7894992/stream/progressive',
             preset: 'mp3_1_0',
             duration: 168046,
@@ -1814,8 +1806,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745138/3f05df45-dee7-444f-ae86-7612b40b271a/stream/hls',
             preset: 'opus_0_0',
             duration: 168007,
@@ -1836,19 +1828,19 @@
         urn: 'soundcloud:tracks:1491745138'
       },
       purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
-      publisher: {
-        type: 'publisher',
+      publisher: Publisher {
+        type: 'Publisher',
         id: 1491745138,
         artist: 'Bahram',
         albumTitle: 'KHODHA',
         containsMusic: true,
-        UPCOrEAN: null,
+        UPCOrEAN: undefined,
         ISRC: 'SE6HN2398556',
         isExplicit: false,
         releaseTitle: 'PEYDA',
         copyrightText: {
-          general: { p: '2023 Peeleh', c: null },
-          display: { p: '℗ 2023 Peeleh', c: null }
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
         },
         apiInfo: { urn: 'soundcloud:tracks:1491745138' }
       },
@@ -1871,8 +1863,8 @@
         mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
       },
       waveform: 'https://wave.sndcdn.com/Zl9l81WdduVo_m.json',
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -1880,7 +1872,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -1905,8 +1897,8 @@
         badges: { pro: false, proUnlimited: true, verified: true }
       }
     },
-    {
-      type: 'track',
+    Track {
+      type: 'Track',
       id: 1491745102,
       texts: {
         title: 'BIROKH [Prod. by Peymandegar]',
@@ -2013,24 +2005,24 @@
       },
       socialData: {
         commentable: true,
-        commentCount: 2129,
-        likesCount: 15522,
-        repostsCount: 292
+        commentCount: 2134,
+        likesCount: 15682,
+        repostsCount: 295
       },
       sharingData: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackData: { playbackCount: 563301, policy: 'ALLOW' },
+      playbackData: { playbackCount: 574403, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745102/62a54a4a-3eaf-4299-b486-59576fcc3ae0/stream/hls',
             preset: 'mp3_1_0',
             duration: 180036,
@@ -2039,8 +2031,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745102/62a54a4a-3eaf-4299-b486-59576fcc3ae0/stream/progressive',
             preset: 'mp3_1_0',
             duration: 180036,
@@ -2049,8 +2041,8 @@
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
-          {
-            type: 'media-transcoding',
+          MediaTranscoding {
+            type: 'MediaTranscoding',
             url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745102/78de9696-65b5-4d48-bf90-ff6c7f008cbe/stream/hls',
             preset: 'opus_0_0',
             duration: 180007,
@@ -2071,19 +2063,19 @@
         urn: 'soundcloud:tracks:1491745102'
       },
       purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
-      publisher: {
-        type: 'publisher',
+      publisher: Publisher {
+        type: 'Publisher',
         id: 1491745102,
         artist: 'Bahram',
         albumTitle: 'KHODHA',
         containsMusic: true,
-        UPCOrEAN: null,
+        UPCOrEAN: undefined,
         ISRC: 'SE6HN2398557',
         isExplicit: false,
         releaseTitle: 'BIROKH',
         copyrightText: {
-          general: { p: '2023 Peeleh', c: null },
-          display: { p: '℗ 2023 Peeleh', c: null }
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
         },
         apiInfo: { urn: 'soundcloud:tracks:1491745102' }
       },
@@ -2106,8 +2098,8 @@
         mini: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-mini.jpg'
       },
       waveform: 'https://wave.sndcdn.com/lnpczJYalpry_m.json',
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 9723380,
         names: {
           full: 'Bahram Nouraei',
@@ -2115,7 +2107,7 @@
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-03T17:55:24Z',
+        lastModified: '2023-08-08T13:26:04Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
@@ -2140,5 +2132,6 @@
         badges: { pro: false, proUnlimited: true, verified: true }
       }
     }
-  ]
+  ],
+  nextUri: 'https://api-v2.soundcloud.com/users/9723380/tracks?offset=2023-04-13T17%3A45%3A54.000Z%2Ctracks%2C01491745102&limit=10&representation=full'
 }

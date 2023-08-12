@@ -1,15 +1,10 @@
-
-> soundcloud-fetch@1.0.0 example
-> func() { npx ts-node -P ./tsconfig-esm.json --esm ./examples/${1}.ts; }; func "search"
-
-{
-  type: 'unknown-collection',
+GenericCollection {
   items: [
-    {
-      type: 'album',
+    Album {
+      type: 'Album',
       id: 787169598,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 75050710,
         names: { full: '', first: '', last: '', username: 'kevinoliveiraa' },
         lastModified: '2019-05-23T15:36:56Z',
@@ -42,7 +37,7 @@
       },
       isPublic: true,
       apiInfo: { uri: 'https://api.soundcloud.com/playlists/787169598' },
-      artwork: null,
+      artwork: undefined,
       setType: 'album',
       duration: 1614481,
       dates: {
@@ -62,18 +57,18 @@
         description: ''
       },
       trackCount: 9,
-      socialData: { likesCount: 3495, repostsCount: 154, managedByFeeds: false },
+      socialData: { likesCount: 3508, repostsCount: 155, managedByFeeds: false },
       genre: 'Extra Funky',
       label: null,
       license: 'cc-',
       purchaseData: { title: null, url: null },
       tags: ''
     },
-    {
-      type: 'album',
+    Album {
+      type: 'Album',
       id: 1606407340,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 1243664368,
         names: { full: '', first: '', last: '', username: 'Malibka' },
         lastModified: '2023-04-20T10:32:00Z',
@@ -128,11 +123,11 @@
       purchaseData: { title: null, url: null },
       tags: ''
     },
-    {
-      type: 'album',
+    Album {
+      type: 'Album',
       id: 1411981309,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 15118561,
         names: {
           full: 'LAYA | ORA',
@@ -195,18 +190,18 @@
       },
       texts: { title: 'Um, Hello', description: null },
       trackCount: 11,
-      socialData: { likesCount: 324, repostsCount: 20, managedByFeeds: true },
+      socialData: { likesCount: 326, repostsCount: 20, managedByFeeds: true },
       genre: 'R&B',
       label: null,
       license: 'all-rights-reserved',
       purchaseData: { title: null, url: null },
       tags: ''
     },
-    {
-      type: 'album',
+    Album {
+      type: 'Album',
       id: 19531434,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 56069430,
         names: { full: '', first: '', last: '', username: '454LifeEnt' },
         lastModified: '2015-02-06T06:33:40Z',
@@ -272,18 +267,18 @@
           'Executive Produced by: Chris Luu, Andrew Kelly, and Sefo "Bigg Seff" Latu'
       },
       trackCount: 16,
-      socialData: { likesCount: 2069, repostsCount: 708, managedByFeeds: false },
+      socialData: { likesCount: 2073, repostsCount: 708, managedByFeeds: false },
       genre: '454',
       label: '',
       license: 'all-rights-reserved',
       purchaseData: { title: null, url: null },
       tags: 'Life Entertainment Adough A-Dough Drew Deezy Cam Nitty Cutthroat Mode Clic Latasha Lee uce nation'
     },
-    {
-      type: 'album',
+    Album {
+      type: 'Album',
       id: 264012989,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 155526231,
         names: { full: '', first: '', last: '', username: 'laura les' },
         lastModified: '2023-04-14T06:17:00Z',
@@ -347,18 +342,18 @@
           'download at https://osno1.bandcamp.com/releases'
       },
       trackCount: 5,
-      socialData: { likesCount: 3491, repostsCount: 228, managedByFeeds: false },
+      socialData: { likesCount: 3501, repostsCount: 229, managedByFeeds: false },
       genre: 'Alternative Rock',
       label: null,
       license: 'all-rights-reserved',
       purchaseData: { title: null, url: null },
       tags: 'emo trans garbage'
     },
-    {
-      type: 'album',
+    Album {
+      type: 'Album',
       id: 579182871,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 279013358,
         names: { full: '', first: '', last: '', username: 'PLOHOYPAREN' },
         lastModified: '2019-12-14T01:22:08Z',
@@ -426,11 +421,11 @@
       purchaseData: { title: null, url: null },
       tags: ''
     },
-    {
-      type: 'album',
+    Album {
+      type: 'Album',
       id: 1647845899,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 228231713,
         names: { full: '', first: '', last: '', username: 'why hello' },
         lastModified: '2023-05-31T13:33:01Z',
@@ -506,11 +501,11 @@
       purchaseData: { title: null, url: null },
       tags: ''
     },
-    {
-      type: 'album',
+    Album {
+      type: 'Album',
       id: 1446935461,
-      user: {
-        type: 'user',
+      user: User {
+        type: 'User',
         id: 14138477,
         names: {
           full: 'Arin Ray',
@@ -573,75 +568,64 @@
       },
       texts: { title: 'Hello Poison', description: null },
       trackCount: 15,
-      socialData: { likesCount: 432, repostsCount: 35, managedByFeeds: true },
+      socialData: { likesCount: 434, repostsCount: 34, managedByFeeds: true },
       genre: 'R & B',
       label: null,
       license: 'all-rights-reserved',
       purchaseData: { title: null, url: null },
       tags: ''
     },
-    {
-      type: 'album',
-      id: 754480386,
-      user: {
-        type: 'user',
-        id: 7028881,
+    Album {
+      type: 'Album',
+      id: 1567609861,
+      user: User {
+        type: 'User',
+        id: 823991752,
         names: {
-          full: 'Book Talk',
-          first: 'Book',
-          last: 'Talk',
-          username: 'Scottish Book Trust'
+          full: 'Eadaoin McCauley',
+          first: 'Eadaoin',
+          last: 'McCauley',
+          username: '☆HelloKittyGirl2011♡'
         },
-        lastModified: '2019-07-08T12:55:55Z',
+        lastModified: '2022-10-30T14:38:04Z',
         permalink: {
-          basic: 'scottishbooktrust',
-          full: 'https://soundcloud.com/scottishbooktrust'
+          basic: 'eadaoin-mccauley',
+          full: 'https://soundcloud.com/eadaoin-mccauley'
         },
         apiInfo: {
-          uri: 'https://api.soundcloud.com/users/7028881',
-          urn: 'soundcloud:users:7028881'
+          uri: 'https://api.soundcloud.com/users/823991752',
+          urn: 'soundcloud:users:823991752'
         },
-        location: { city: 'Edinburgh', country: null },
+        location: { city: 'Maghera and UK', country: 'IE' },
         isVerified: false,
         avatar: {
-          default: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-mini.jpg'
+          default: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-mini.jpg'
         },
-        badges: { pro: false, proUnlimited: true, verified: false }
+        badges: { pro: false, proUnlimited: false, verified: false }
       },
       permalink: {
-        basic: 'hello-baby',
-        full: 'https://soundcloud.com/scottishbooktrust/sets/hello-baby'
+        basic: 'precure-transformation-ost',
+        full: 'https://soundcloud.com/eadaoin-mccauley/sets/precure-transformation-ost'
       },
       isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/754480386' },
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-large.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-t67x67.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-mini.jpg'
-      },
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1567609861' },
+      artwork: undefined,
       setType: 'album',
-      duration: 2128215,
+      duration: 3648443,
       dates: {
-        created: '2019-04-15T15:57:31Z',
-        published: '2019-04-15T15:57:31Z',
-        modified: '2019-04-15T15:57:32Z',
-        display: '2019-04-15T15:57:31Z',
-        release: '2019-04-16T00:00:00Z'
+        created: '2023-02-08T20:01:23Z',
+        published: '2023-02-08T20:01:23Z',
+        modified: '2023-06-29T14:52:57Z',
+        display: '2023-02-08T20:01:23Z',
+        release: '2023-02-08T00:00:00Z'
       },
       sharingData: {
         shareability: 'public',
@@ -649,16 +633,17 @@
         secretToken: null
       },
       texts: {
-        title: 'Hello Baby!',
-        description: "Bookbug's songs, rhymes and music for singing, dancing and playing with little ones."
+        title: 'Precure Transformation OST',
+        description: "Let's Transform Girls"
       },
-      trackCount: 27,
-      socialData: { likesCount: 175, repostsCount: 3, managedByFeeds: false },
-      genre: 'World',
-      label: null,
+      trackCount: 38,
+      socialData: { likesCount: 12, repostsCount: 0, managedByFeeds: false },
+      genre: 'Soundtrack',
+      label: '',
       license: 'all-rights-reserved',
       purchaseData: { title: null, url: null },
-      tags: '"Nursery Rhyme" Baby Rhymes Bookbug Scotland Scottish Family'
+      tags: 'Orchestral'
     }
-  ]
+  ],
+  nextUri: 'https://api-v2.soundcloud.com/search/albums?query_urn=soundcloud%3Asearch%3A9ab6d1cc452a47eeb1d8765cc167aab2&limit=10&offset=10&q=Hello'
 }
