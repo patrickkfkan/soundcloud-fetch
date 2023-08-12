@@ -1,4 +1,4 @@
-import fetch, { Headers } from 'node-fetch';
+import fetch, { Headers, Response } from 'node-fetch';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import sckey from 'soundcloud-key-fetch';
@@ -15,6 +15,7 @@ import CollectionBuilder from './utils/CollectionBuilder.js';
 import EntityBuilder from './utils/EntityBuilder.js';
 import LibraryItem from './entities/LibraryItem.js';
 import PlayHistoryItem from './entities/PlayHistoryItem.js';
+import FetchError from './utils/FetchError.js';
 
 export interface SoundCloudInitArgs {
   clientId?: string;
@@ -56,6 +57,10 @@ export default class SoundCloud {
 
   setLocale(locale?: string) {
     this.#locale = locale;
+  }
+
+  setAccessToken(value?: string) {
+    this.#accessToken = value;
   }
 
   #getFetchHeaders(): Headers {
@@ -161,14 +166,19 @@ export default class SoundCloud {
     return tracks[0] || null;
   }
 
-  async getStreamingUrl(transcodingUrl: string): Promise<string> {
+  async getStreamingUrl(transcodingUrl: string): Promise<string | null> {
     const params = await this.#getCommonParams();
     const url = new URL(transcodingUrl);
     for (const [ key, value ] of Object.entries(params)) {
       url.searchParams.set(key, value);
     }
-    const json = await fetch(url).then((res) => res.json());
-    return json.url;
+    const res = await fetch(url);
+    this.#validateFetchResponse(res);
+    const json = await res.json();
+    if (json && Reflect.has(json, 'url') && typeof json.url === 'string') {
+      return json.url;
+    }
+    return null;
   }
 
   /************************************************************/
@@ -217,7 +227,7 @@ export default class SoundCloud {
         endpoint += '/users';
         return this.#fetchCollection(endpoint, params, {requireTypes: User});
       default:
-        throw Error(`Unknown search type ${type}`);
+        throw new TypeError(`Invalid type ${type}`);
     }
   }
 
@@ -225,7 +235,14 @@ export default class SoundCloud {
   /* 'Me' stuff                                               */
   /************************************************************/
 
+  #ensureAccessToken() {
+    if (!this.#accessToken) {
+      throw new Error('Access token not provided');
+    }
+  }
+
   async getPlayHistory(type: 'track' | 'set', options: SoundCloudPageOptions = {}) {
+    this.#ensureAccessToken();
     const params = await this.#getCommonParams(options);
     let endpoint;
     switch (type) {
@@ -236,19 +253,21 @@ export default class SoundCloud {
         endpoint = '/me/play-history/contexts';
         break;
       default:
-        throw Error(`Unknown history type ${type}`);
+        throw new TypeError(`Invalid type '${type}'`);
     }
 
     return this.#fetchCollection(endpoint, params, {asType: PlayHistoryItem});
   }
 
   async getMyProfile() {
+    this.#ensureAccessToken();
     const params = await this.#getCommonParams();
     const endpoint = '/me';
     return this.#fetchEntity(endpoint, params, User);
   }
 
   async getLibraryItems(options?: SoundCloudPageOptions) {
+    this.#ensureAccessToken();
     const params = await this.#getCommonParams(options);
     const endpoint = '/me/library/all';
     return this.#fetchCollection(endpoint, params, {asType: LibraryItem});
@@ -307,6 +326,14 @@ export default class SoundCloud {
     const res = await fetch(url, {
       headers: this.#getFetchHeaders()
     });
+    this.#validateFetchResponse(res);
     return res.json();
+  }
+
+  #validateFetchResponse(res: Response) {
+    if (res.ok) {
+      return true;
+    }
+    throw new FetchError(res.status, res.statusText);
   }
 }
