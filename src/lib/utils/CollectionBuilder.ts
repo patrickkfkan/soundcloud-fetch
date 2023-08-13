@@ -1,6 +1,5 @@
 import SoundCloud from '../SoundCloud.js';
 import Collection from '../collections/Collection.js';
-import GenericCollection from '../collections/GenericCollection.js';
 import { EntityClasses, EntityConstructor, EntityType } from './EntityTypes.js';
 
 export default class CollectionBuilder {
@@ -10,7 +9,7 @@ export default class CollectionBuilder {
     client: SoundCloud,
     requireTypes?: K): Collection<T, K> {
 
-    return new GenericCollection(json, client, { requireTypes });
+    return new Collection(json, client, { requireTypes });
   }
 
   static buildAs<T extends EntityType, K extends EntityConstructor<T>>(
@@ -18,6 +17,6 @@ export default class CollectionBuilder {
     client: SoundCloud,
     type: K): Collection<T, K> {
 
-    return new GenericCollection(json, client, { asType: type });
+    return new Collection(json, client, { asType: type });
   }
 }

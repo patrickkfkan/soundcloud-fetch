@@ -8,7 +8,7 @@ import Track from './entities/Track.js';
 import SystemPlaylist from './entities/SystemPlaylist.js';
 import User from './entities/User.js';
 import Album from './entities/Album.js';
-import Collection from './collections/Collection.js';
+import Collection, { CollectionContinuation, CollectionOptions } from './collections/Collection.js';
 import Selection from './entities/Selection.js';
 import { EntityClasses, EntityClassesToTypes, EntityConstructor, EntityType } from './utils/EntityTypes.js';
 import CollectionBuilder from './utils/CollectionBuilder.js';
@@ -275,6 +275,16 @@ export default class SoundCloud {
   }
 
   /************************************************************/
+  /* Misc                                                     */
+  /************************************************************/
+
+  async getContinuation<T extends EntityType, K extends EntityClasses<T>>(continuation: CollectionContinuation<T, K>) {
+    const params = await this.#getCommonParams();
+    const { uri, opts } = continuation;
+    return this.#fetchCollection(uri, params, opts);
+  }
+
+  /************************************************************/
   /* Internal                                                 */
   /************************************************************/
 
@@ -296,7 +306,7 @@ export default class SoundCloud {
   async #fetchCollection<T extends EntityType, K extends EntityClasses<T>>(
     endpoint: string,
     params: Record<string, any>,
-    options: { requireTypes?: K; } | { asType: EntityConstructor<T>; } = {}): Promise<Collection<T, K>>{
+    options: CollectionOptions<T, K> = {}): Promise<Collection<T, K>>{
 
     if (params.linked_partitioning === undefined) {
       params.linked_partitioning = 1;
