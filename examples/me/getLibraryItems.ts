@@ -10,7 +10,7 @@ const scfetch = new SoundCloud({
   accessToken
 });
 
-scfetch.getLibraryItems().then((items) => {
+scfetch.me.getLibraryItems().then((items) => {
   print(items);
 })
   .catch((error) => {

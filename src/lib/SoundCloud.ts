@@ -30,6 +30,12 @@ export interface SoundCloudPageOptions {
 
 export default class SoundCloud {
 
+  me: {
+    getProfile: SoundCloud['getMyProfile'];
+    getPlayHistory: SoundCloud['getPlayHistory'];
+    getLibraryItems: SoundCloud['getLibraryItems'];
+  };
+
   #clientId?: string;
   #accessToken?: string;
   #locale?: string;
@@ -38,6 +44,12 @@ export default class SoundCloud {
     if (args?.clientId) this.#clientId = args.clientId;
     if (args?.accessToken) this.#accessToken = args.accessToken;
     if (args?.locale) this.#locale = args.locale;
+
+    this.me = {
+      getProfile: this.getMyProfile.bind(this),
+      getPlayHistory: this.getPlayHistory.bind(this),
+      getLibraryItems: this.getLibraryItems.bind(this)
+    };
   }
 
   async getClientId(): Promise<string> {
@@ -242,7 +254,7 @@ export default class SoundCloud {
     }
   }
 
-  async getPlayHistory(type: 'track' | 'set', options: SoundCloudPageOptions = {}) {
+  protected async getPlayHistory(type: 'track' | 'set', options: SoundCloudPageOptions = {}) {
     this.#ensureAccessToken();
     const params = await this.#getCommonParams(options);
     let endpoint;
@@ -260,14 +272,14 @@ export default class SoundCloud {
     return this.#fetchCollection(endpoint, params, {asType: PlayHistoryItem});
   }
 
-  async getMyProfile() {
+  protected async getMyProfile() {
     this.#ensureAccessToken();
     const params = await this.#getCommonParams();
     const endpoint = '/me';
     return this.#fetchEntity(endpoint, params, User);
   }
 
-  async getLibraryItems(options?: SoundCloudPageOptions) {
+  protected async getLibraryItems(options?: SoundCloudPageOptions) {
     this.#ensureAccessToken();
     const params = await this.#getCommonParams(options);
     const endpoint = '/me/library/all';

@@ -10,7 +10,7 @@ const scfetch = new SoundCloud({
   accessToken
 });
 
-scfetch.getMyProfile().then((me) => {
+scfetch.me.getProfile().then((me) => {
   if (me) {
     print(me);
   }
