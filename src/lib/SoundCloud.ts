@@ -16,6 +16,7 @@ import EntityBuilder from './utils/EntityBuilder.js';
 import LibraryItem from './entities/LibraryItem.js';
 import PlayHistoryItem from './entities/PlayHistoryItem.js';
 import FetchError from './utils/FetchError.js';
+import Like from './entities/Like.js';
 
 export interface SoundCloudInitArgs {
   clientId?: string;
@@ -34,6 +35,7 @@ export default class SoundCloud {
     getProfile: SoundCloud['getMyProfile'];
     getPlayHistory: SoundCloud['getPlayHistory'];
     getLibraryItems: SoundCloud['getLibraryItems'];
+    getLikes: SoundCloud['getMyLikes'];
   };
 
   #clientId?: string;
@@ -48,7 +50,8 @@ export default class SoundCloud {
     this.me = {
       getProfile: this.getMyProfile.bind(this),
       getPlayHistory: this.getPlayHistory.bind(this),
-      getLibraryItems: this.getLibraryItems.bind(this)
+      getLibraryItems: this.getLibraryItems.bind(this),
+      getLikes: this.getMyLikes.bind(this)
     };
   }
 
@@ -245,6 +248,28 @@ export default class SoundCloud {
   }
 
   /************************************************************/
+  /* Likes                                                    */
+  /************************************************************/
+
+  async getLikesByUser(userId: number, options: SoundCloudPageOptions & {type: 'track' | 'playlistAndAlbum'}) {
+    const params = await this.#getCommonParams(options);
+    const { type } = options;
+    let endpoint;
+    switch (type) {
+      case 'track':
+        endpoint = `/users/${userId}/track_likes`;
+        break;
+      case 'playlistAndAlbum':
+        endpoint = `/users/${userId}/playlist_likes`;
+        break;
+      default:
+        throw new TypeError(`Invalid type '${type}'`);
+    }
+
+    return this.#fetchCollection(endpoint, params, { requireTypes: Like });
+  }
+
+  /************************************************************/
   /* 'Me' stuff                                               */
   /************************************************************/
 
@@ -286,6 +311,23 @@ export default class SoundCloud {
     return this.#fetchCollection(endpoint, params, {asType: LibraryItem});
   }
 
+  protected async getMyLikes(options: SoundCloudPageOptions & {type: 'track' | 'playlistAndAlbum' | 'systemPlaylist'}) {
+    const params = await this.#getCommonParams(options);
+    const { type } = options;
+    if (type === 'systemPlaylist') {
+      const endpoint = '/me/library/stations';
+      return this.#fetchCollection(endpoint, params, {asType: LibraryItem});
+    }
+    else if (type === 'track' || type === 'playlistAndAlbum') {
+      const myProfile = await this.getMyProfile();
+      if (myProfile?.id !== undefined) {
+        return this.getLikesByUser(myProfile.id, { ...options, type });
+      }
+      throw Error('Profile or ID not found');
+    }
+    throw new TypeError(`Invalid type '${type}'`);
+  }
+
   /************************************************************/
   /* Misc                                                     */
   /************************************************************/
@@ -313,6 +355,18 @@ export default class SoundCloud {
       params.app_locale = this.#locale;
     }
     return params;
+  }
+
+  async getCommonParams(options: SoundCloudPageOptions) {
+    return this.#getCommonParams(options);
+  }
+
+  async fetchCollection<T extends EntityType>(
+    endpoint: string,
+    params: Record<string, any>,
+    options: CollectionOptions<T> = {}): Promise<Collection<T>>{
+
+    return this.#fetchCollection(endpoint, params, options);
   }
 
   async #fetchCollection<T extends EntityType>(

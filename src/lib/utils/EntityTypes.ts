@@ -6,6 +6,7 @@ import Track from '../entities/Track.js';
 import User from '../entities/User.js';
 import PlayHistoryItem from '../entities/PlayHistoryItem.js';
 import LibraryItem from '../entities/LibraryItem.js';
+import Like from '../entities/Like.js';
 
 export type EntityType =
     Album |
@@ -14,6 +15,7 @@ export type EntityType =
     SystemPlaylist |
     Track |
     User |
+    Like |
     PlayHistoryItem |
     LibraryItem;
 

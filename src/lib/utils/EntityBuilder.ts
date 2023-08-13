@@ -1,5 +1,6 @@
 import SoundCloud from '../SoundCloud.js';
 import Album from '../entities/Album.js';
+import Like from '../entities/Like.js';
 import Playlist from '../entities/Playlist.js';
 import Selection from '../entities/Selection.js';
 import SystemPlaylist from '../entities/SystemPlaylist.js';
@@ -35,6 +36,9 @@ export default class EntityBuilder {
         break;
       case 'user':
         entity = new User(json, client);
+        break;
+      case 'like':
+        entity = new Like(json, client);
         break;
       default:
         entity = null;
