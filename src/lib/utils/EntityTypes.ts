@@ -25,7 +25,7 @@ export interface EntityConstructor<T extends EntityType> {
 export type EntityClasses<T extends EntityType> = EntityConstructor<T> | EntityConstructor<T>[];
 
 // Use this as return type instead of T to prevent upcasting to `EntityType`
-export type EntityClassesToTypes<T extends EntityType, K extends EntityClasses<T>> =
+export type EntityClassesToTypes<K> =
   K extends EntityConstructor<infer U> ? U :
   K extends EntityConstructor<infer U>[] ? U :
   never;

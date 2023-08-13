@@ -202,11 +202,11 @@ export default class SoundCloud {
   /* Search                                                   */
   /************************************************************/
 
-  async search(q: string, options: SoundCloudPageOptions & { type: 'playlist' }): Promise<Collection<Playlist, EntityClasses<Playlist>>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'album' }): Promise<Collection<Album, EntityClasses<Album>>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'track' }): Promise<Collection<Track, EntityClasses<Track>>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'user' }): Promise<Collection<User, EntityClasses<User>>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'playlist' | 'album' | 'track' | 'user' }): Promise<Collection<EntityType, EntityClasses<EntityType>>> {
+  async search(q: string, options: SoundCloudPageOptions & { type: 'playlist' }): Promise<Collection<Playlist>>;
+  async search(q: string, options: SoundCloudPageOptions & { type: 'album' }): Promise<Collection<Album>>;
+  async search(q: string, options: SoundCloudPageOptions & { type: 'track' }): Promise<Collection<Track>>;
+  async search(q: string, options: SoundCloudPageOptions & { type: 'user' }): Promise<Collection<User>>;
+  async search(q: string, options: SoundCloudPageOptions & { type: 'playlist' | 'album' | 'track' | 'user' }): Promise<Collection<EntityType>> {
     const params = await this.#getCommonParams(options);
     params.q = q;
     let type = 'all';
@@ -278,7 +278,7 @@ export default class SoundCloud {
   /* Misc                                                     */
   /************************************************************/
 
-  async getContinuation<T extends EntityType, K extends EntityClasses<T>>(continuation: CollectionContinuation<T, K>) {
+  async getContinuation<T extends EntityType>(continuation: CollectionContinuation<T>) {
     const params = await this.#getCommonParams();
     const { uri, opts } = continuation;
     return this.#fetchCollection(uri, params, opts);
@@ -303,10 +303,10 @@ export default class SoundCloud {
     return params;
   }
 
-  async #fetchCollection<T extends EntityType, K extends EntityClasses<T>>(
+  async #fetchCollection<T extends EntityType>(
     endpoint: string,
     params: Record<string, any>,
-    options: CollectionOptions<T, K> = {}): Promise<Collection<T, K>>{
+    options: CollectionOptions<T> = {}): Promise<Collection<T>>{
 
     if (params.linked_partitioning === undefined) {
       params.linked_partitioning = 1;
@@ -323,7 +323,7 @@ export default class SoundCloud {
   async #fetchEntity<T extends EntityType, K extends EntityClasses<T>>(
     endpoint: string,
     params: Record<string, any>,
-    requireTypes?: K): Promise<EntityClassesToTypes<T, K> | null> {
+    requireTypes?: K): Promise<EntityClassesToTypes<K> | null> {
 
     const json = await this.#fetchEndpoint(endpoint, params);
     return EntityBuilder.build(json, this, requireTypes);

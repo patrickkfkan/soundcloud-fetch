@@ -2,31 +2,31 @@ import SoundCloud from '../SoundCloud.js';
 import EntityBuilder from '../utils/EntityBuilder.js';
 import { EntityClasses, EntityClassesToTypes, EntityConstructor, EntityType } from '../utils/EntityTypes.js';
 
-export type CollectionOptions<T extends EntityType, K extends EntityClasses<T>> = {
-  requireTypes?: K
+export type CollectionOptions<T extends EntityType> = {
+  requireTypes?: EntityClasses<T>
 } | {
   asType: EntityConstructor<T>
 };
 
-export interface CollectionContinuation<T extends EntityType, K extends EntityClasses<T>> {
+export interface CollectionContinuation<T extends EntityType> {
   uri: string;
-  opts: CollectionOptions<T, K>;
+  opts: CollectionOptions<T>;
 }
 
-export default class Collection<T extends EntityType, K extends EntityClasses<T>> {
+export default class Collection<T extends EntityType> {
 
   static readonly type: string = 'Collection';
   readonly type: string;
 
-  items: EntityClassesToTypes<T, K>[];
+  items: EntityClassesToTypes<EntityClasses<T>>[];
   nextUri?: string | null;
-  continuation: CollectionContinuation<T, K> | null;
+  continuation: CollectionContinuation<T> | null;
 
   #json: any;
   #client: SoundCloud;
-  #opts: CollectionOptions<T, K>;
+  #opts: CollectionOptions<T>;
 
-  constructor(json: any, client: SoundCloud, opts: CollectionOptions<T, K>) {
+  constructor(json: any, client: SoundCloud, opts: CollectionOptions<T>) {
     this.#json = json;
     this.#client = client;
     this.#opts = opts;
@@ -45,7 +45,7 @@ export default class Collection<T extends EntityType, K extends EntityClasses<T>
     }
   }
 
-  protected getItems(): EntityClassesToTypes<T, K>[] {
+  protected getItems(): EntityClassesToTypes<EntityClasses<T>>[] {
     const opts = this.#opts;
     const json = this.getJSON();
     let itemsData: any[];
@@ -59,7 +59,7 @@ export default class Collection<T extends EntityType, K extends EntityClasses<T>
       itemsData = [];
     }
 
-    let requireTypes: K;
+    let requireTypes: EntityClasses<T>;
     let asType: EntityConstructor<T>;
     if (Reflect.has(opts, 'requireTypes')) {
       requireTypes = Reflect.get(opts, 'requireTypes');

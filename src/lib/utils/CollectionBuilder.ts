@@ -4,18 +4,18 @@ import { EntityClasses, EntityConstructor, EntityType } from './EntityTypes.js';
 
 export default class CollectionBuilder {
 
-  static build<T extends EntityType, K extends EntityClasses<T>>(
+  static build<T extends EntityType>(
     json: any,
     client: SoundCloud,
-    requireTypes?: K): Collection<T, K> {
+    requireTypes?: EntityClasses<T>): Collection<T> {
 
     return new Collection(json, client, { requireTypes });
   }
 
-  static buildAs<T extends EntityType, K extends EntityConstructor<T>>(
+  static buildAs<T extends EntityType>(
     json: any,
     client: SoundCloud,
-    type: K): Collection<T, K> {
+    type: EntityConstructor<T>): Collection<T> {
 
     return new Collection(json, client, { asType: type });
   }

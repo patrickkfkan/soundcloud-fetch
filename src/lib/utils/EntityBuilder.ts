@@ -12,7 +12,7 @@ export default class EntityBuilder {
   static build<T extends EntityType, K extends EntityClasses<T>> (
     json: any & { kind?: string },
     client: SoundCloud,
-    requireTypes?: K): EntityClassesToTypes<T, K> | null {
+    requireTypes?: K): EntityClassesToTypes<K> | null {
 
     let entity: any;
     switch (json.kind) {
