@@ -279,9 +279,10 @@ export default class SoundCloud {
     }
   }
 
-  protected async getPlayHistory(type: 'track' | 'set', options: SoundCloudPageOptions = {}) {
+  protected async getPlayHistory(options: SoundCloudPageOptions & {type: 'track' | 'set'}) {
     this.#ensureAccessToken();
     const params = await this.#getCommonParams(options);
+    const { type } = options;
     let endpoint;
     switch (type) {
       case 'track':

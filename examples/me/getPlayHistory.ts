@@ -10,7 +10,7 @@ const scfetch = new SoundCloud({
   accessToken
 });
 
-scfetch.me.getPlayHistory('track').then((tracks) => {
+scfetch.me.getPlayHistory({type: 'track'}).then((tracks) => {
   console.log('===== Recently played tracks =====');
   print(tracks);
 })
@@ -18,7 +18,7 @@ scfetch.me.getPlayHistory('track').then((tracks) => {
     console.log('Caught error: ', error);
   });
 
-scfetch.me.getPlayHistory('set').then((sets) => {
+scfetch.me.getPlayHistory({type: 'set'}).then((sets) => {
   console.log('===== Recently played sets =====');
   print(sets);
 })
