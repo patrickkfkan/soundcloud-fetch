@@ -10,3 +10,5 @@ export { default as Set } from './Set.js';
 export { default as SystemPlaylist } from './SystemPlaylist.js';
 export { default as Track } from './Track.js';
 export { default as User } from './User.js';
+
+export * from './Entity.js';
