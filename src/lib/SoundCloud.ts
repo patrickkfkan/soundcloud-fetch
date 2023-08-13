@@ -10,7 +10,7 @@ import User from './entities/User.js';
 import Album from './entities/Album.js';
 import Collection, { CollectionContinuation, CollectionOptions } from './collections/Collection.js';
 import Selection from './entities/Selection.js';
-import { EntityClasses, EntityClassesToTypes, EntityConstructor, EntityType } from './utils/EntityTypes.js';
+import { EntityClasses, EntityClassesToTypes, EntityType } from './utils/EntityTypes.js';
 import CollectionBuilder from './utils/CollectionBuilder.js';
 import EntityBuilder from './utils/EntityBuilder.js';
 import LibraryItem from './entities/LibraryItem.js';

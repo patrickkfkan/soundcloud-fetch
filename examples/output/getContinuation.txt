@@ -1,0 +1,2582 @@
+Collection {
+  items: [
+    Track {
+      type: 'Track',
+      id: 1576315756,
+      texts: {
+        title: 'Travis Scott feat. Drake - MELTDOWN',
+        description: null,
+        caption: null
+      },
+      dates: {
+        created: '2023-07-28T05:43:40Z',
+        released: '2023-07-27T00:00:00Z',
+        modified: '2023-08-10T18:00:00Z',
+        display: '2023-07-27T00:00:00Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 2047,
+        likesCount: 69973,
+        repostsCount: 2301
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 2362963, policy: 'BLOCK' },
+      isBlocked: true,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: []
+      },
+      permalink: {
+        basic: 'travis-scott-meltdown',
+        full: 'https://soundcloud.com/travisscott-2/travis-scott-meltdown'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1576315756',
+        urn: 'soundcloud:tracks:1576315756'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1576315756,
+        artist: 'Travis Scott feat. Drake',
+        albumTitle: 'MELTDOWN',
+        containsMusic: true,
+        UPCOrEAN: '196871357012',
+        ISRC: 'USSM12305021',
+        isExplicit: true,
+        releaseTitle: 'Travis Scott feat. Drake - MELTDOWN',
+        copyrightText: {
+          general: {
+            p: '(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          },
+          display: {
+            p: '℗ 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1576315756' }
+      },
+      durations: { full: 246178, playback: 246178 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: 'Cactus Jack/Epic',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-xhc3TK5ZG9D2-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-xhc3TK5ZG9D2-0-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-xhc3TK5ZG9D2-0-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-xhc3TK5ZG9D2-0-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-xhc3TK5ZG9D2-0-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-xhc3TK5ZG9D2-0-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-xhc3TK5ZG9D2-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-xhc3TK5ZG9D2-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-xhc3TK5ZG9D2-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-xhc3TK5ZG9D2-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/LsbkJCLagiO3_m.json',
+      user: User {
+        type: 'User',
+        id: 40174345,
+        names: { full: '', first: '', last: '', username: 'Travis Scott' },
+        lastModified: '2021-11-04T19:36:26Z',
+        permalink: {
+          basic: 'travisscott-2',
+          full: 'https://soundcloud.com/travisscott-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/40174345',
+          urn: 'soundcloud:users:40174345'
+        },
+        location: { city: 'Houston, TX', country: 'US' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1542832267,
+      texts: {
+        title: '‎⁨نص سيطو مني ( احنا صحاب بلدنا ) عصام صاصا الكروان ⁩',
+        description: '',
+        caption: null
+      },
+      dates: {
+        created: '2023-06-17T10:23:03Z',
+        released: null,
+        modified: '2023-06-17T10:23:13Z',
+        display: '2023-06-17T10:23:03Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 1000,
+        likesCount: 230247,
+        repostsCount: 1236
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 5035343, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1542832267/4e5ebd20-6d95-4381-8b01-6169d641e3a8/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 269270,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1542832267/4e5ebd20-6d95-4381-8b01-6169d641e3a8/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 269270,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1542832267/1f0a0ada-d414-4a8c-b52d-c6ad517b22ff/stream/hls',
+            preset: 'opus_0_0',
+            duration: 269251,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'uaemyrtlzetu',
+        full: 'https://soundcloud.com/mohamed-nader-546454137/uaemyrtlzetu'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1542832267',
+        urn: 'soundcloud:tracks:1542832267'
+      },
+      purchaseInfo: { title: null, url: null },
+      durations: { full: 269270, playback: 269270 },
+      genre: '',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: null,
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-57DEiNQ8KRGK64iS-46w4jQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-57DEiNQ8KRGK64iS-46w4jQ-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-57DEiNQ8KRGK64iS-46w4jQ-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-57DEiNQ8KRGK64iS-46w4jQ-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-57DEiNQ8KRGK64iS-46w4jQ-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-57DEiNQ8KRGK64iS-46w4jQ-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-57DEiNQ8KRGK64iS-46w4jQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-57DEiNQ8KRGK64iS-46w4jQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-57DEiNQ8KRGK64iS-46w4jQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-57DEiNQ8KRGK64iS-46w4jQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/tKBLkfWANAtc_m.json',
+      user: User {
+        type: 'User',
+        id: 1255377334,
+        names: {
+          full: 'MOHAMED NADER',
+          first: 'MOHAMED',
+          last: 'NADER',
+          username: 'NaDeR✨🥷🏾'
+        },
+        lastModified: '2023-07-19T20:52:14Z',
+        permalink: {
+          basic: 'mohamed-nader-546454137',
+          full: 'https://soundcloud.com/mohamed-nader-546454137'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1255377334',
+          urn: 'soundcloud:users:1255377334'
+        },
+        location: { city: 'Port Said', country: 'EG' },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-Z6VPGm1PsiNgOrNX-WAMyGg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-Z6VPGm1PsiNgOrNX-WAMyGg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-Z6VPGm1PsiNgOrNX-WAMyGg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-Z6VPGm1PsiNgOrNX-WAMyGg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-Z6VPGm1PsiNgOrNX-WAMyGg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-Z6VPGm1PsiNgOrNX-WAMyGg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-Z6VPGm1PsiNgOrNX-WAMyGg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-Z6VPGm1PsiNgOrNX-WAMyGg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-Z6VPGm1PsiNgOrNX-WAMyGg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1497689122,
+      texts: { title: 'مخصماك', description: null, caption: null },
+      dates: {
+        created: '2023-04-21T16:25:42Z',
+        released: '2022-02-14T00:00:00Z',
+        modified: '2023-04-21T16:33:40Z',
+        display: '2022-02-14T00:00:00Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 895,
+        likesCount: 234906,
+        repostsCount: 1389
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 4049582, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1497689122/2e647634-0c53-4d0c-9672-2fa3d77db6f2/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 198060,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1497689122/2e647634-0c53-4d0c-9672-2fa3d77db6f2/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 198060,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1497689122/ea4fdd30-f967-4b80-8636-81ef264d8883/stream/hls',
+            preset: 'opus_0_0',
+            duration: 198026,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'gauzsmhdz7yx',
+        full: 'https://soundcloud.com/nawal-official/gauzsmhdz7yx'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1497689122',
+        urn: 'soundcloud:tracks:1497689122'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1497689122,
+        artist: 'Nawal',
+        albumTitle: 'مخصماك',
+        containsMusic: true,
+        UPCOrEAN: '6221117103154',
+        ISRC: 'EGA010551905',
+        isExplicit: false,
+        releaseTitle: 'مخصماك',
+        copyrightText: {
+          general: { p: '2022 Nawal Abdechaffi', c: '2022 Digisay Music' },
+          display: { p: '℗ 2022 Nawal Abdechaffi', c: '© 2022 Digisay Music' }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1497689122' }
+      },
+      durations: { full: 198060, playback: 198060 },
+      genre: 'Folk',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Mahraganat',
+      label: 'Nawal Abdechaffi',
+      artwork: 'https://i1.sndcdn.com/artworks-WRePrKAzZ2IY-0-large.png',
+      waveform: 'https://wave.sndcdn.com/xPUexnH94ftK_m.json',
+      user: User {
+        type: 'User',
+        id: 203416051,
+        names: { full: '', first: '', last: '', username: 'Nawal' },
+        lastModified: '2016-03-25T19:08:36Z',
+        permalink: {
+          basic: 'nawal-official',
+          full: 'https://soundcloud.com/nawal-official'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/203416051',
+          urn: 'soundcloud:users:203416051'
+        },
+        location: { city: null, country: null },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: false }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1576315789,
+      texts: {
+        title: 'Travis Scott - I KNOW ?',
+        description: null,
+        caption: null
+      },
+      dates: {
+        created: '2023-07-28T05:43:42Z',
+        released: '2023-07-28T00:00:00Z',
+        modified: '2023-08-10T18:02:27Z',
+        display: '2023-07-28T04:00:00Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 1365,
+        likesCount: 53866,
+        repostsCount: 2047
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 1893366, policy: 'BLOCK' },
+      isBlocked: true,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: []
+      },
+      permalink: {
+        basic: 'travis-scott-i-know',
+        full: 'https://soundcloud.com/travisscott-2/travis-scott-i-know'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1576315789',
+        urn: 'soundcloud:tracks:1576315789'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1576315789,
+        artist: 'Travis Scott',
+        albumTitle: 'UTOPIA',
+        containsMusic: true,
+        UPCOrEAN: '196871341882',
+        ISRC: 'USSM12305012',
+        isExplicit: true,
+        releaseTitle: 'Travis Scott - I KNOW ?',
+        copyrightText: {
+          general: {
+            p: '(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          },
+          display: {
+            p: '℗ 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1576315789' }
+      },
+      durations: { full: 211618, playback: 211618 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: 'Cactus Jack/Epic',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-aH25dupSyn4N-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-aH25dupSyn4N-0-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-aH25dupSyn4N-0-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-aH25dupSyn4N-0-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-aH25dupSyn4N-0-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-aH25dupSyn4N-0-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-aH25dupSyn4N-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-aH25dupSyn4N-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-aH25dupSyn4N-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-aH25dupSyn4N-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/fnZre0KWiekr_m.json',
+      user: User {
+        type: 'User',
+        id: 40174345,
+        names: { full: '', first: '', last: '', username: 'Travis Scott' },
+        lastModified: '2021-11-04T19:36:26Z',
+        permalink: {
+          basic: 'travisscott-2',
+          full: 'https://soundcloud.com/travisscott-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/40174345',
+          urn: 'soundcloud:users:40174345'
+        },
+        location: { city: 'Houston, TX', country: 'US' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1570556857,
+      texts: {
+        title: 'NANANA x COLA - Ian Asher Edit (Montner Flip)',
+        description: 'Ian asher mashup remade by me Montner, hope you enjoy!\n' +
+          'OBS - You can only use this mashup for private use, this is not meant to be distributed or released in any commercial way!!!',
+        caption: null
+      },
+      dates: {
+        created: '2023-07-20T21:45:43Z',
+        released: null,
+        modified: '2023-08-02T16:24:56Z',
+        display: '2023-07-20T21:45:43Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 587,
+        likesCount: 102995,
+        repostsCount: 720
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 1877410, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1570556857/d9f934e5-1409-44a1-b63b-33ecc1a8feec/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 224836,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1570556857/d9f934e5-1409-44a1-b63b-33ecc1a8feec/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 224836,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1570556857/3add5eec-0d26-4d72-8216-0745b69d83ff/stream/hls',
+            preset: 'opus_0_0',
+            duration: 224795,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'cola-x-nanana',
+        full: 'https://soundcloud.com/montner/cola-x-nanana'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1570556857',
+        urn: 'soundcloud:tracks:1570556857'
+      },
+      purchaseInfo: {
+        title: 'Free Download',
+        url: 'https://hypeddit.com/montner/colaxnanana'
+      },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1570556857,
+        artist: undefined,
+        albumTitle: undefined,
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: undefined,
+        isExplicit: undefined,
+        releaseTitle: undefined,
+        copyrightText: {
+          general: { p: undefined, c: undefined },
+          display: { p: undefined, c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1570556857' }
+      },
+      durations: { full: 224836, playback: 224836 },
+      genre: 'House',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'cola camelphat Remix Mashup nanana "peggy gou" "camelphat cola nanana peggy gou" "cola nanana" mix House trend tiktok "tiktok remix" "tiktok mashup" 2023',
+      label: null,
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/6x3szbCvIdr4_m.json',
+      user: User {
+        type: 'User',
+        id: 83101689,
+        names: {
+          full: 'DJ & Producer',
+          first: 'DJ &',
+          last: 'Producer',
+          username: 'MONTNER'
+        },
+        lastModified: '2023-08-09T21:27:50Z',
+        permalink: { basic: 'montner', full: 'https://soundcloud.com/montner' },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/83101689',
+          urn: 'soundcloud:users:83101689'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: false }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1568642614,
+      texts: {
+        title: 'مهرجان قـلبي يالـي كلامي عندك 💔😔 ( حوده بندق ) ~ لسه منزلٓش / افشه A18',
+        description: '',
+        caption: null
+      },
+      dates: {
+        created: '2023-07-19T00:18:03Z',
+        released: null,
+        modified: '2023-07-19T00:19:48Z',
+        display: '2023-07-19T00:18:03Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 366,
+        likesCount: 113628,
+        repostsCount: 638
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 2329473, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1568642614/07578f6e-21a7-4936-a1ca-3237dc17ec9f/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 201378,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1568642614/07578f6e-21a7-4936-a1ca-3237dc17ec9f/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 201378,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1568642614/56565259-3109-42f6-a6ea-4c95b3996b8e/stream/hls',
+            preset: 'opus_0_0',
+            duration: 201358,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'farkgdhq2j5o',
+        full: 'https://soundcloud.com/abdalla-tarek-5/farkgdhq2j5o'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1568642614',
+        urn: 'soundcloud:tracks:1568642614'
+      },
+      purchaseInfo: { title: null, url: null },
+      durations: { full: 201378, playback: 201378 },
+      genre: '',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: null,
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/Mn72rQkgirQh_m.json',
+      user: User {
+        type: 'User',
+        id: 123562926,
+        names: {
+          full: 'Abdalla Tarek',
+          first: 'Abdalla',
+          last: 'Tarek',
+          username: 'ᗩ.ᗩfshāā18🚂..!'
+        },
+        lastModified: '2023-07-23T00:58:46Z',
+        permalink: {
+          basic: 'abdalla-tarek-5',
+          full: 'https://soundcloud.com/abdalla-tarek-5'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/123562926',
+          urn: 'soundcloud:users:123562926'
+        },
+        location: { city: 'Giza', country: 'EG' },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1576316332,
+      texts: {
+        title: 'Travis Scott feat. SZA & Future - TELEKINESIS',
+        description: null,
+        caption: null
+      },
+      dates: {
+        created: '2023-07-28T05:44:09Z',
+        released: '2023-07-28T00:00:00Z',
+        modified: '2023-08-10T17:57:43Z',
+        display: '2023-07-28T04:00:00Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 1518,
+        likesCount: 52194,
+        repostsCount: 2039
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 1650309, policy: 'BLOCK' },
+      isBlocked: true,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: []
+      },
+      permalink: {
+        basic: 'travis-scott-telekinesis',
+        full: 'https://soundcloud.com/travisscott-2/travis-scott-telekinesis'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1576316332',
+        urn: 'soundcloud:tracks:1576316332'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1576316332,
+        artist: 'Travis Scott feat. SZA & Future',
+        albumTitle: 'UTOPIA',
+        containsMusic: true,
+        UPCOrEAN: '196871341882',
+        ISRC: 'USSM12305019',
+        isExplicit: true,
+        releaseTitle: 'Travis Scott feat. SZA & Future - TELEKINESIS',
+        copyrightText: {
+          general: {
+            p: '(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          },
+          display: {
+            p: '℗ 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1576316332' }
+      },
+      durations: { full: 353802, playback: 353802 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: 'Cactus Jack/Epic',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-IxBxa0wNjL0S-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-IxBxa0wNjL0S-0-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-IxBxa0wNjL0S-0-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-IxBxa0wNjL0S-0-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-IxBxa0wNjL0S-0-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-IxBxa0wNjL0S-0-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-IxBxa0wNjL0S-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-IxBxa0wNjL0S-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-IxBxa0wNjL0S-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-IxBxa0wNjL0S-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/nbbvQAWDpoYX_m.json',
+      user: User {
+        type: 'User',
+        id: 40174345,
+        names: { full: '', first: '', last: '', username: 'Travis Scott' },
+        lastModified: '2021-11-04T19:36:26Z',
+        permalink: {
+          basic: 'travisscott-2',
+          full: 'https://soundcloud.com/travisscott-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/40174345',
+          urn: 'soundcloud:users:40174345'
+        },
+        location: { city: 'Houston, TX', country: 'US' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1451935549,
+      texts: {
+        title: 'Maha Ftouni   El Sabr Gamil  مها فتوني  الصبر جميل',
+        description: '',
+        caption: null
+      },
+      dates: {
+        created: '2023-02-21T10:53:33Z',
+        released: null,
+        modified: '2023-02-21T10:53:43Z',
+        display: '2023-02-21T10:53:33Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 3509,
+        likesCount: 448509,
+        repostsCount: 3892
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 13590283, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1451935549/b46a83a4-2e11-4f44-9d64-774157c9c754/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 299520,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1451935549/b46a83a4-2e11-4f44-9d64-774157c9c754/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 299520,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1451935549/08124374-c94a-4488-93c9-7bee57fd147a/stream/hls',
+            preset: 'opus_0_0',
+            duration: 299497,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'maha-ftouni-el-sabr-gamil',
+        full: 'https://soundcloud.com/tera-byte-man/maha-ftouni-el-sabr-gamil'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1451935549',
+        urn: 'soundcloud:tracks:1451935549'
+      },
+      purchaseInfo: { title: null, url: null },
+      durations: { full: 299520, playback: 299520 },
+      genre: '',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: null,
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/dXSrzCY8P2Yg_m.json',
+      user: User {
+        type: 'User',
+        id: 365939600,
+        names: { full: '', first: '', last: '', username: 'ɤ -A- ɤ' },
+        lastModified: '2023-08-12T04:48:10Z',
+        permalink: {
+          basic: 'tera-byte-man',
+          full: 'https://soundcloud.com/tera-byte-man'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/365939600',
+          urn: 'soundcloud:users:365939600'
+        },
+        location: { city: '', country: 'EG' },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1564224652,
+      texts: {
+        title: 'Prada - Cassö Edit (Valexus Remix)',
+        description: '',
+        caption: null
+      },
+      dates: {
+        created: '2023-07-13T17:56:50Z',
+        released: null,
+        modified: '2023-07-13T17:56:51Z',
+        display: '2023-07-13T17:56:50Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 762,
+        likesCount: 120723,
+        repostsCount: 1078
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 2806422, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1564224652/21908d5b-2f88-46aa-9bfd-6d75d7b09051/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 143177,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1564224652/21908d5b-2f88-46aa-9bfd-6d75d7b09051/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 143177,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1564224652/1105671e-5151-42f7-92e1-83ed63e59e89/stream/hls',
+            preset: 'opus_0_0',
+            duration: 143132,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'prada-casso-edit-valexus-remix',
+        full: 'https://soundcloud.com/user-467741183/prada-casso-edit-valexus-remix'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1564224652',
+        urn: 'soundcloud:tracks:1564224652'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1564224652,
+        artist: undefined,
+        albumTitle: undefined,
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: undefined,
+        isExplicit: undefined,
+        releaseTitle: undefined,
+        copyrightText: {
+          general: { p: undefined, c: undefined },
+          display: { p: undefined, c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1564224652' }
+      },
+      durations: { full: 143177, playback: 143177 },
+      genre: 'Techno',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Valexus Prada "Prada Cassö Edit" "Prada TikTok" Remix',
+      label: null,
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-bzEsxvsqQHbixgMz-0vm4EQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-bzEsxvsqQHbixgMz-0vm4EQ-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-bzEsxvsqQHbixgMz-0vm4EQ-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-bzEsxvsqQHbixgMz-0vm4EQ-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-bzEsxvsqQHbixgMz-0vm4EQ-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-bzEsxvsqQHbixgMz-0vm4EQ-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-bzEsxvsqQHbixgMz-0vm4EQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-bzEsxvsqQHbixgMz-0vm4EQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-bzEsxvsqQHbixgMz-0vm4EQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-bzEsxvsqQHbixgMz-0vm4EQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/Uw8C6jwkBGHh_m.json',
+      user: User {
+        type: 'User',
+        id: 1085546944,
+        names: { full: '', first: '', last: '', username: 'Valexus' },
+        lastModified: '2023-07-21T10:07:29Z',
+        permalink: {
+          basic: 'user-467741183',
+          full: 'https://soundcloud.com/user-467741183'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1085546944',
+          urn: 'soundcloud:users:1085546944'
+        },
+        location: { city: null, country: null },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-mzkGcyzOiPQnnyzt-0FWPSA-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-mzkGcyzOiPQnnyzt-0FWPSA-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-mzkGcyzOiPQnnyzt-0FWPSA-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-mzkGcyzOiPQnnyzt-0FWPSA-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-mzkGcyzOiPQnnyzt-0FWPSA-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-mzkGcyzOiPQnnyzt-0FWPSA-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-mzkGcyzOiPQnnyzt-0FWPSA-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-mzkGcyzOiPQnnyzt-0FWPSA-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-mzkGcyzOiPQnnyzt-0FWPSA-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1576315936,
+      texts: {
+        title: 'Travis Scott feat. Rob49 & 21 Savage - TOPIA TWINS',
+        description: null,
+        caption: null
+      },
+      dates: {
+        created: '2023-07-28T05:43:49Z',
+        released: '2023-07-28T00:00:00Z',
+        modified: '2023-08-10T18:03:33Z',
+        display: '2023-07-28T04:00:00Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 1274,
+        likesCount: 46772,
+        repostsCount: 1867
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 1649101, policy: 'BLOCK' },
+      isBlocked: true,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: []
+      },
+      permalink: {
+        basic: 'travis-scott-topia-twins',
+        full: 'https://soundcloud.com/travisscott-2/travis-scott-topia-twins'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1576315936',
+        urn: 'soundcloud:tracks:1576315936'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1576315936,
+        artist: 'Travis Scott feat. Rob49 & 21 Savage',
+        albumTitle: 'UTOPIA',
+        containsMusic: true,
+        UPCOrEAN: '196871341882',
+        ISRC: 'USSM12305013',
+        isExplicit: true,
+        releaseTitle: 'Travis Scott feat. Rob49 & 21 Savage - TOPIA TWINS',
+        copyrightText: {
+          general: {
+            p: '(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          },
+          display: {
+            p: '℗ 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1576315936' }
+      },
+      durations: { full: 223216, playback: 223216 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: 'Cactus Jack/Epic',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-lR2und8NSU6j-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-lR2und8NSU6j-0-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-lR2und8NSU6j-0-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-lR2und8NSU6j-0-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-lR2und8NSU6j-0-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-lR2und8NSU6j-0-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-lR2und8NSU6j-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-lR2und8NSU6j-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-lR2und8NSU6j-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-lR2und8NSU6j-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/NB9LaK29oPDD_m.json',
+      user: User {
+        type: 'User',
+        id: 40174345,
+        names: { full: '', first: '', last: '', username: 'Travis Scott' },
+        lastModified: '2021-11-04T19:36:26Z',
+        permalink: {
+          basic: 'travisscott-2',
+          full: 'https://soundcloud.com/travisscott-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/40174345',
+          urn: 'soundcloud:users:40174345'
+        },
+        location: { city: 'Houston, TX', country: 'US' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    }
+  ],
+  nextUri: 'https://api-v2.soundcloud.com/featured_tracks/top/all-music?offset=15&limit=10',
+  continuation: {
+    uri: 'https://api-v2.soundcloud.com/featured_tracks/top/all-music?offset=15&limit=10',
+    opts: { requireTypes: [class Track extends Entity] { type: 'Track' } }
+  }
+}
+--- CONTINUATION ---
+Collection {
+  items: [
+    Track {
+      type: 'Track',
+      id: 1576316275,
+      texts: {
+        title: 'Travis Scott - MY EYES',
+        description: null,
+        caption: null
+      },
+      dates: {
+        created: '2023-07-28T05:44:06Z',
+        released: '2023-07-28T00:00:00Z',
+        modified: '2023-08-10T17:55:35Z',
+        display: '2023-07-28T04:00:00Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 1644,
+        likesCount: 39509,
+        repostsCount: 1870
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 1555919, policy: 'BLOCK' },
+      isBlocked: true,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: []
+      },
+      permalink: {
+        basic: 'travis-scott-my-eyes',
+        full: 'https://soundcloud.com/travisscott-2/travis-scott-my-eyes'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1576316275',
+        urn: 'soundcloud:tracks:1576316275'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1576316275,
+        artist: 'Travis Scott',
+        albumTitle: 'UTOPIA',
+        containsMusic: true,
+        UPCOrEAN: '196871341882',
+        ISRC: 'USSM12305007',
+        isExplicit: true,
+        releaseTitle: 'Travis Scott - MY EYES',
+        copyrightText: {
+          general: {
+            p: '(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          },
+          display: {
+            p: '℗ 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1576316275' }
+      },
+      durations: { full: 251298, playback: 251298 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: 'Cactus Jack/Epic',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-lvStBFJXxXwX-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-lvStBFJXxXwX-0-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-lvStBFJXxXwX-0-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-lvStBFJXxXwX-0-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-lvStBFJXxXwX-0-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-lvStBFJXxXwX-0-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-lvStBFJXxXwX-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-lvStBFJXxXwX-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-lvStBFJXxXwX-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-lvStBFJXxXwX-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/NImbjr8UZffi_m.json',
+      user: User {
+        type: 'User',
+        id: 40174345,
+        names: { full: '', first: '', last: '', username: 'Travis Scott' },
+        lastModified: '2021-11-04T19:36:26Z',
+        permalink: {
+          basic: 'travisscott-2',
+          full: 'https://soundcloud.com/travisscott-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/40174345',
+          urn: 'soundcloud:users:40174345'
+        },
+        location: { city: 'Houston, TX', country: 'US' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1576315753,
+      texts: {
+        title: 'Travis Scott - THANK GOD',
+        description: null,
+        caption: null
+      },
+      dates: {
+        created: '2023-07-28T05:43:40Z',
+        released: '2023-07-28T00:00:00Z',
+        modified: '2023-08-10T18:00:21Z',
+        display: '2023-07-28T04:00:00Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 1356,
+        likesCount: 40292,
+        repostsCount: 1890
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 1559426, policy: 'BLOCK' },
+      isBlocked: true,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: []
+      },
+      permalink: {
+        basic: 'travis-scott-thank-god',
+        full: 'https://soundcloud.com/travisscott-2/travis-scott-thank-god'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1576315753',
+        urn: 'soundcloud:tracks:1576315753'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1576315753,
+        artist: 'Travis Scott',
+        albumTitle: 'UTOPIA',
+        containsMusic: true,
+        UPCOrEAN: '196871341882',
+        ISRC: 'USSM12305005',
+        isExplicit: true,
+        releaseTitle: 'Travis Scott - THANK GOD',
+        copyrightText: {
+          general: {
+            p: '(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          },
+          display: {
+            p: '℗ 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1576315753' }
+      },
+      durations: { full: 184921, playback: 184921 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: 'Cactus Jack/Epic',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-4ZlxRy8fwp9g-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-4ZlxRy8fwp9g-0-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-4ZlxRy8fwp9g-0-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-4ZlxRy8fwp9g-0-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-4ZlxRy8fwp9g-0-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-4ZlxRy8fwp9g-0-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-4ZlxRy8fwp9g-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-4ZlxRy8fwp9g-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-4ZlxRy8fwp9g-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-4ZlxRy8fwp9g-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/BefjW1JrQUPE_m.json',
+      user: User {
+        type: 'User',
+        id: 40174345,
+        names: { full: '', first: '', last: '', username: 'Travis Scott' },
+        lastModified: '2021-11-04T19:36:26Z',
+        permalink: {
+          basic: 'travisscott-2',
+          full: 'https://soundcloud.com/travisscott-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/40174345',
+          urn: 'soundcloud:users:40174345'
+        },
+        location: { city: 'Houston, TX', country: 'US' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1410124660,
+      texts: {
+        title: 'Ymken Kher [2023] |  يمكن خير',
+        description: 'Ramy Sabry - Ymken Kher [Official Song 2023] | رامي صبري - يمكن خير\n' +
+          '\n' +
+          'Lyrics: Ahmed Aly Moussa.\n' +
+          'Composed by: Ramy Sabry\n' +
+          'Arrangement, Mix & Master: Tarek Tawakol\n' +
+          'Strings: Tamer Ghoniem\n' +
+          'Guitar: Ahmed Hussein \n' +
+          'Bouzok: Ossama Hassan\n' +
+          'Nay: Aly Almazbouh\n' +
+          'Digital Distribution: ArpuPlus\n' +
+          '\n' +
+          'Listen on:\n' +
+          '- Anghami: https://bit.ly/3FTHHXd\n' +
+          '- Spotify: https://spoti.fi/3I3zbro\n' +
+          '& use the sound on TikTok: https://vm.tiktok.com/ZMF7SY9Q9/\n' +
+          '\n' +
+          ':كلمات الاغنيه\n' +
+          '\n' +
+          'ولا وقته اننا نتحاسب ولا وقته إني ألوم ولا اعاتب\n' +
+          ' إيه إيه هيفيد \n' +
+          '\n' +
+          'على اد ماقلبي وجعني وانا شايفك جاي تودعني  و ماشي  ماشي بعيد \n' +
+          'يمكن خير \n' +
+          'ومين يندم على اللي يبيع سنين ويهد أحلامه في يومين ويبيع اوام\n' +
+          'هنساك واعيش واهو حب راح وخلاص مفيش لهواك مكان ميهمنيش\n' +
+          'خلص الكلام \n' +
+          '\n' +
+          'ولا وقته اننا نتحاسب…..\n' +
+          '\n' +
+          'يمكن خير عشان كان لازم ابعد من زمان\n' +
+          'انا وانت ميسعناش مكان والبركة فيك \n' +
+          'موضوعنا مات مبقاش خلاص في معجزات وبلاش نقلب في اللي فات راح عليه….\n' +
+          '\n' +
+          'ولا وقته اننا نتحاسب\n' +
+          '\n' +
+          '\n' +
+          '#Ramysabry \n' +
+          '#YmkenKher\n' +
+          '#يمكن_خير',
+        caption: null
+      },
+      dates: {
+        created: '2022-12-25T23:07:27Z',
+        released: '2022-12-25T00:00:00Z',
+        modified: '2022-12-27T13:34:04Z',
+        display: '2022-12-25T23:07:27Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 2045,
+        likesCount: 540777,
+        repostsCount: 3967
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 17226452, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1410124660/aa110c00-3c9a-484d-b8e2-f50a134001bf/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 216451,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1410124660/aa110c00-3c9a-484d-b8e2-f50a134001bf/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 216451,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1410124660/5934ad04-d589-4c39-b8d4-0ca1a2a60460/stream/hls',
+            preset: 'opus_0_0',
+            duration: 216416,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'ramy-sabry-ymken-kher-2023',
+        full: 'https://soundcloud.com/ramy_sabry_official2023/ramy-sabry-ymken-kher-2023'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1410124660',
+        urn: 'soundcloud:tracks:1410124660'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1410124660,
+        artist: undefined,
+        albumTitle: undefined,
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: undefined,
+        isExplicit: undefined,
+        releaseTitle: undefined,
+        copyrightText: {
+          general: { p: undefined, c: undefined },
+          display: { p: undefined, c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1410124660' }
+      },
+      durations: { full: 216451, playback: 216451 },
+      genre: '',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Ramy Sabry - Ymken Kher [2023] | رامي صبري يمكن خير',
+      label: null,
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-ibnwUqjlGcM6WXba-J559JQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-ibnwUqjlGcM6WXba-J559JQ-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-ibnwUqjlGcM6WXba-J559JQ-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-ibnwUqjlGcM6WXba-J559JQ-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-ibnwUqjlGcM6WXba-J559JQ-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-ibnwUqjlGcM6WXba-J559JQ-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-ibnwUqjlGcM6WXba-J559JQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-ibnwUqjlGcM6WXba-J559JQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-ibnwUqjlGcM6WXba-J559JQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-ibnwUqjlGcM6WXba-J559JQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/PNGik6ic1dG3_m.json',
+      user: User {
+        type: 'User',
+        id: 935858011,
+        names: {
+          full: 'Ramy Sabry',
+          first: 'Ramy',
+          last: 'Sabry',
+          username: 'Ramy Sabry | رامي صبري'
+        },
+        lastModified: '2022-12-23T03:48:55Z',
+        permalink: {
+          basic: 'ramy_sabry_official2023',
+          full: 'https://soundcloud.com/ramy_sabry_official2023'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/935858011',
+          urn: 'soundcloud:users:935858011'
+        },
+        location: { city: '', country: 'EG' },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-yK15IIhm6mwmtLaf-6St98g-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-yK15IIhm6mwmtLaf-6St98g-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-yK15IIhm6mwmtLaf-6St98g-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-yK15IIhm6mwmtLaf-6St98g-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-yK15IIhm6mwmtLaf-6St98g-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-yK15IIhm6mwmtLaf-6St98g-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-yK15IIhm6mwmtLaf-6St98g-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-yK15IIhm6mwmtLaf-6St98g-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-yK15IIhm6mwmtLaf-6St98g-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1576315711,
+      texts: {
+        title: 'Travis Scott - SIRENS',
+        description: null,
+        caption: null
+      },
+      dates: {
+        created: '2023-07-28T05:43:38Z',
+        released: '2023-07-28T00:00:00Z',
+        modified: '2023-08-10T18:02:06Z',
+        display: '2023-07-28T04:00:00Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 1690,
+        likesCount: 38686,
+        repostsCount: 1825
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 1487475, policy: 'BLOCK' },
+      isBlocked: true,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: []
+      },
+      permalink: {
+        basic: 'travis-scott-sirens',
+        full: 'https://soundcloud.com/travisscott-2/travis-scott-sirens'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1576315711',
+        urn: 'soundcloud:tracks:1576315711'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1576315711,
+        artist: 'Travis Scott',
+        albumTitle: 'UTOPIA',
+        containsMusic: true,
+        UPCOrEAN: '196871341882',
+        ISRC: 'USSM12305009',
+        isExplicit: true,
+        releaseTitle: 'Travis Scott - SIRENS',
+        copyrightText: {
+          general: {
+            p: '(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          },
+          display: {
+            p: '℗ 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1576315711' }
+      },
+      durations: { full: 204487, playback: 204487 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: 'Cactus Jack/Epic',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-j8PYA4KgXJSI-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-j8PYA4KgXJSI-0-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-j8PYA4KgXJSI-0-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-j8PYA4KgXJSI-0-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-j8PYA4KgXJSI-0-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-j8PYA4KgXJSI-0-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-j8PYA4KgXJSI-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-j8PYA4KgXJSI-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-j8PYA4KgXJSI-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-j8PYA4KgXJSI-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/Az1pG85xoi1r_m.json',
+      user: User {
+        type: 'User',
+        id: 40174345,
+        names: { full: '', first: '', last: '', username: 'Travis Scott' },
+        lastModified: '2021-11-04T19:36:26Z',
+        permalink: {
+          basic: 'travisscott-2',
+          full: 'https://soundcloud.com/travisscott-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/40174345',
+          urn: 'soundcloud:users:40174345'
+        },
+        location: { city: 'Houston, TX', country: 'US' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1576316290,
+      texts: {
+        title: "Travis Scott - GOD'S COUNTRY",
+        description: null,
+        caption: null
+      },
+      dates: {
+        created: '2023-07-28T05:44:07Z',
+        released: '2023-07-28T00:00:00Z',
+        modified: '2023-08-10T17:59:29Z',
+        display: '2023-07-28T04:00:00Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 1323,
+        likesCount: 35704,
+        repostsCount: 1831
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 1493673, policy: 'BLOCK' },
+      isBlocked: true,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: []
+      },
+      permalink: {
+        basic: 'travis-scott-gods-country',
+        full: 'https://soundcloud.com/travisscott-2/travis-scott-gods-country'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1576316290',
+        urn: 'soundcloud:tracks:1576316290'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1576316290,
+        artist: 'Travis Scott',
+        albumTitle: 'UTOPIA',
+        containsMusic: true,
+        UPCOrEAN: '196871341882',
+        ISRC: 'USSM12305008',
+        isExplicit: true,
+        releaseTitle: "Travis Scott - GOD'S COUNTRY",
+        copyrightText: {
+          general: {
+            p: '(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          },
+          display: {
+            p: '℗ 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1576316290' }
+      },
+      durations: { full: 128026, playback: 128026 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: 'Cactus Jack/Epic',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-3gLXt1VpSjiu-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-3gLXt1VpSjiu-0-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-3gLXt1VpSjiu-0-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-3gLXt1VpSjiu-0-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-3gLXt1VpSjiu-0-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-3gLXt1VpSjiu-0-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-3gLXt1VpSjiu-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-3gLXt1VpSjiu-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-3gLXt1VpSjiu-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-3gLXt1VpSjiu-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/R8O4DTgt1GJk_m.json',
+      user: User {
+        type: 'User',
+        id: 40174345,
+        names: { full: '', first: '', last: '', username: 'Travis Scott' },
+        lastModified: '2021-11-04T19:36:26Z',
+        permalink: {
+          basic: 'travisscott-2',
+          full: 'https://soundcloud.com/travisscott-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/40174345',
+          urn: 'soundcloud:users:40174345'
+        },
+        location: { city: 'Houston, TX', country: 'US' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1576315639,
+      texts: {
+        title: 'Travis Scott - HYAENA',
+        description: null,
+        caption: null
+      },
+      dates: {
+        created: '2023-07-28T05:43:34Z',
+        released: '2023-07-28T00:00:00Z',
+        modified: '2023-08-10T18:00:28Z',
+        display: '2023-07-28T04:00:00Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 1787,
+        likesCount: 39645,
+        repostsCount: 1828
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 1556491, policy: 'BLOCK' },
+      isBlocked: true,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: []
+      },
+      permalink: {
+        basic: 'travis-scott-hyaena',
+        full: 'https://soundcloud.com/travisscott-2/travis-scott-hyaena'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1576315639',
+        urn: 'soundcloud:tracks:1576315639'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1576315639,
+        artist: 'Travis Scott',
+        albumTitle: 'UTOPIA',
+        containsMusic: true,
+        UPCOrEAN: '196871341882',
+        ISRC: 'USSM12305004',
+        isExplicit: true,
+        releaseTitle: 'Travis Scott - HYAENA',
+        copyrightText: {
+          general: {
+            p: '(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          },
+          display: {
+            p: '℗ 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1576315639' }
+      },
+      durations: { full: 222119, playback: 222119 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: 'Cactus Jack/Epic',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-h6QwMsVPsFI1-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-h6QwMsVPsFI1-0-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-h6QwMsVPsFI1-0-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-h6QwMsVPsFI1-0-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-h6QwMsVPsFI1-0-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-h6QwMsVPsFI1-0-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-h6QwMsVPsFI1-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-h6QwMsVPsFI1-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-h6QwMsVPsFI1-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-h6QwMsVPsFI1-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/KLptiKjNQ2zl_m.json',
+      user: User {
+        type: 'User',
+        id: 40174345,
+        names: { full: '', first: '', last: '', username: 'Travis Scott' },
+        lastModified: '2021-11-04T19:36:26Z',
+        permalink: {
+          basic: 'travisscott-2',
+          full: 'https://soundcloud.com/travisscott-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/40174345',
+          urn: 'soundcloud:users:40174345'
+        },
+        location: { city: 'Houston, TX', country: 'US' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1562717131,
+      texts: {
+        title: 'Guli Mata - Saad Lamjarred  Shreya Ghoshal  Jennifer Winget  Anshul Garg.mp3',
+        description: '',
+        caption: null
+      },
+      dates: {
+        created: '2023-07-12T09:28:46Z',
+        released: null,
+        modified: '2023-07-12T09:29:01Z',
+        display: '2023-07-12T09:28:46Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 1180,
+        likesCount: 106713,
+        repostsCount: 1144
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 2006210, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1562717131/ad93cb2f-b510-47b8-b59c-799c5a3929cf/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 290612,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1562717131/ad93cb2f-b510-47b8-b59c-799c5a3929cf/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 290612,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1562717131/78d36d07-c62b-4424-bd67-68f272adabe0/stream/hls',
+            preset: 'opus_0_0',
+            duration: 290569,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'guli-mata-saad-lamjarred',
+        full: 'https://soundcloud.com/maya-faryal-605429895/guli-mata-saad-lamjarred'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1562717131',
+        urn: 'soundcloud:tracks:1562717131'
+      },
+      purchaseInfo: { title: null, url: null },
+      durations: { full: 290612, playback: 290612 },
+      genre: '',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: null,
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-s1vkqKBJZKAEZiKl-PcHOYw-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-s1vkqKBJZKAEZiKl-PcHOYw-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-s1vkqKBJZKAEZiKl-PcHOYw-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-s1vkqKBJZKAEZiKl-PcHOYw-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-s1vkqKBJZKAEZiKl-PcHOYw-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-s1vkqKBJZKAEZiKl-PcHOYw-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-s1vkqKBJZKAEZiKl-PcHOYw-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-s1vkqKBJZKAEZiKl-PcHOYw-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-s1vkqKBJZKAEZiKl-PcHOYw-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-s1vkqKBJZKAEZiKl-PcHOYw-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/p9kFQjTHMW04_m.json',
+      user: User {
+        type: 'User',
+        id: 207742882,
+        names: { full: '', first: '', last: '', username: 'FaryaL Shah' },
+        lastModified: '2021-03-04T12:37:29Z',
+        permalink: {
+          basic: 'maya-faryal-605429895',
+          full: 'https://soundcloud.com/maya-faryal-605429895'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/207742882',
+          urn: 'soundcloud:users:207742882'
+        },
+        location: { city: 'Rawalpindi', country: null },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000300492807-5xl4xg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000300492807-5xl4xg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000300492807-5xl4xg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000300492807-5xl4xg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000300492807-5xl4xg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000300492807-5xl4xg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000300492807-5xl4xg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000300492807-5xl4xg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000300492807-5xl4xg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1411097455,
+      texts: {
+        title: 'مسلم و مليكة - مخصماك (انتى حد معندوش قلب)(Hany alarbiy',
+        description: '',
+        caption: null
+      },
+      dates: {
+        created: '2022-12-27T17:56:24Z',
+        released: null,
+        modified: '2022-12-27T17:56:32Z',
+        display: '2022-12-27T17:56:24Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 441,
+        likesCount: 151367,
+        repostsCount: 919
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 4837630, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1411097455/567df2f7-4979-47c4-9cb3-bb1ae4c16785/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 198139,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1411097455/567df2f7-4979-47c4-9cb3-bb1ae4c16785/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 198139,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1411097455/1cf95134-64d2-46e8-bd17-af6cc1aed0ce/stream/hls',
+            preset: 'opus_0_0',
+            duration: 198115,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'hany-alarbiy',
+        full: 'https://soundcloud.com/hany-alarbiy/hany-alarbiy'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1411097455',
+        urn: 'soundcloud:tracks:1411097455'
+      },
+      purchaseInfo: { title: null, url: null },
+      durations: { full: 198139, playback: 198139 },
+      genre: '',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: null,
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-7XLVkyn1iTTwV1r1-wyuU0g-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-7XLVkyn1iTTwV1r1-wyuU0g-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-7XLVkyn1iTTwV1r1-wyuU0g-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-7XLVkyn1iTTwV1r1-wyuU0g-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-7XLVkyn1iTTwV1r1-wyuU0g-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-7XLVkyn1iTTwV1r1-wyuU0g-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-7XLVkyn1iTTwV1r1-wyuU0g-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-7XLVkyn1iTTwV1r1-wyuU0g-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-7XLVkyn1iTTwV1r1-wyuU0g-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-7XLVkyn1iTTwV1r1-wyuU0g-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/PQaOo9y2Z4sQ_m.json',
+      user: User {
+        type: 'User',
+        id: 1102876426,
+        names: {
+          full: 'Hany Alarbiy',
+          first: 'Hany',
+          last: 'Alarbiy',
+          username: 'Hany Alarbiy'
+        },
+        lastModified: '2022-12-26T15:55:09Z',
+        permalink: {
+          basic: 'hany-alarbiy',
+          full: 'https://soundcloud.com/hany-alarbiy'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1102876426',
+          urn: 'soundcloud:users:1102876426'
+        },
+        location: { city: null, country: null },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-yYnrm8drbK5q5AeW-zjG7vQ-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-yYnrm8drbK5q5AeW-zjG7vQ-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-yYnrm8drbK5q5AeW-zjG7vQ-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-yYnrm8drbK5q5AeW-zjG7vQ-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-yYnrm8drbK5q5AeW-zjG7vQ-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-yYnrm8drbK5q5AeW-zjG7vQ-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-yYnrm8drbK5q5AeW-zjG7vQ-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-yYnrm8drbK5q5AeW-zjG7vQ-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-yYnrm8drbK5q5AeW-zjG7vQ-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1565713585,
+      texts: {
+        title: 'اختياراتي احمد سعد ahmed saad  .mp3',
+        description: '',
+        caption: null
+      },
+      dates: {
+        created: '2023-07-15T11:00:24Z',
+        released: null,
+        modified: '2023-07-15T11:00:31Z',
+        display: '2023-07-15T11:00:24Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 264,
+        likesCount: 103790,
+        repostsCount: 535
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 1419369, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1565713585/fc96f821-092e-4e8f-8727-0a458ba18d51/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 186018,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1565713585/fc96f821-092e-4e8f-8727-0a458ba18d51/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 186018,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1565713585/7788b712-d349-417a-985e-708b6ae7d58d/stream/hls',
+            preset: 'opus_0_0',
+            duration: 185975,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'ahmed-saad-mp3',
+        full: 'https://soundcloud.com/user128090063/ahmed-saad-mp3'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1565713585',
+        urn: 'soundcloud:tracks:1565713585'
+      },
+      purchaseInfo: { title: null, url: null },
+      durations: { full: 186018, playback: 186018 },
+      genre: '',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: null,
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-tPexSIFHGqpSL9k1-9HdsfA-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-tPexSIFHGqpSL9k1-9HdsfA-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-tPexSIFHGqpSL9k1-9HdsfA-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-tPexSIFHGqpSL9k1-9HdsfA-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-tPexSIFHGqpSL9k1-9HdsfA-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-tPexSIFHGqpSL9k1-9HdsfA-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-tPexSIFHGqpSL9k1-9HdsfA-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-tPexSIFHGqpSL9k1-9HdsfA-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-tPexSIFHGqpSL9k1-9HdsfA-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-tPexSIFHGqpSL9k1-9HdsfA-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/AzW4iEUOSV5u_m.json',
+      user: User {
+        type: 'User',
+        id: 166374672,
+        names: { full: '', first: '', last: '', username: 'Mohamed Elansari' },
+        lastModified: '2023-04-07T01:14:21Z',
+        permalink: {
+          basic: 'user128090063',
+          full: 'https://soundcloud.com/user128090063'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/166374672',
+          urn: 'soundcloud:users:166374672'
+        },
+        location: { city: 'Alexandria', country: 'EG' },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-BzvqhP8tuuan6wzG-FRvDeA-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-BzvqhP8tuuan6wzG-FRvDeA-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-BzvqhP8tuuan6wzG-FRvDeA-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-BzvqhP8tuuan6wzG-FRvDeA-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-BzvqhP8tuuan6wzG-FRvDeA-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-BzvqhP8tuuan6wzG-FRvDeA-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-BzvqhP8tuuan6wzG-FRvDeA-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-BzvqhP8tuuan6wzG-FRvDeA-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-BzvqhP8tuuan6wzG-FRvDeA-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1576316062,
+      texts: {
+        title: 'Travis Scott feat. Young Thug - SKITZO',
+        description: null,
+        caption: null
+      },
+      dates: {
+        created: '2023-07-28T05:43:55Z',
+        released: '2023-07-28T00:00:00Z',
+        modified: '2023-08-10T17:57:45Z',
+        display: '2023-07-28T04:00:00Z'
+      },
+      downloadData: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialData: {
+        commentable: true,
+        commentCount: 1234,
+        likesCount: 39659,
+        repostsCount: 1844
+      },
+      sharingData: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackData: { playbackCount: 1356100, policy: 'BLOCK' },
+      isBlocked: true,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: []
+      },
+      permalink: {
+        basic: 'travis-scott-skitzo',
+        full: 'https://soundcloud.com/travisscott-2/travis-scott-skitzo'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1576316062',
+        urn: 'soundcloud:tracks:1576316062'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1576316062,
+        artist: 'Travis Scott feat. Young Thug',
+        albumTitle: 'UTOPIA',
+        containsMusic: true,
+        UPCOrEAN: '196871341882',
+        ISRC: 'USSM12305016',
+        isExplicit: true,
+        releaseTitle: 'Travis Scott feat. Young Thug - SKITZO',
+        copyrightText: {
+          general: {
+            p: '(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          },
+          display: {
+            p: '℗ 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
+            c: undefined
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1576316062' }
+      },
+      durations: { full: 366629, playback: 366629 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: 'Cactus Jack/Epic',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-sQ2cwXqmRBPl-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-sQ2cwXqmRBPl-0-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-sQ2cwXqmRBPl-0-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-sQ2cwXqmRBPl-0-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/artworks-sQ2cwXqmRBPl-0-large.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-sQ2cwXqmRBPl-0-t67x67.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-sQ2cwXqmRBPl-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-sQ2cwXqmRBPl-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-sQ2cwXqmRBPl-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-sQ2cwXqmRBPl-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/pXe9QeNagfMz_m.json',
+      user: User {
+        type: 'User',
+        id: 40174345,
+        names: { full: '', first: '', last: '', username: 'Travis Scott' },
+        lastModified: '2021-11-04T19:36:26Z',
+        permalink: {
+          basic: 'travisscott-2',
+          full: 'https://soundcloud.com/travisscott-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/40174345',
+          urn: 'soundcloud:users:40174345'
+        },
+        location: { city: 'Houston, TX', country: 'US' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    }
+  ],
+  nextUri: 'https://api-v2.soundcloud.com/featured_tracks/top/all-music?offset=25&limit=10',
+  continuation: {
+    uri: 'https://api-v2.soundcloud.com/featured_tracks/top/all-music?offset=25&limit=10',
+    opts: { requireTypes: [class Track extends Entity] { type: 'Track' } }
+  }
+}
