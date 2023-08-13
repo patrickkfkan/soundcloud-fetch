@@ -1,45 +1,37 @@
-[soundcloud-fetch](../README.md) / Publisher
+[soundcloud-fetch](../README.md) / PlayHistoryItem
 
-# Class: Publisher
+# Class: PlayHistoryItem
 
 ## Hierarchy
 
 - [`Entity`](Entity.md)
 
-  ↳ **`Publisher`**
+  ↳ **`PlayHistoryItem`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Publisher.md#constructor)
+- [constructor](PlayHistoryItem.md#constructor)
 
 ### Properties
 
-- [ISRC](Publisher.md#isrc)
-- [UPCOrEAN](Publisher.md#upcorean)
-- [albumTitle](Publisher.md#albumtitle)
-- [apiInfo](Publisher.md#apiinfo)
-- [artist](Publisher.md#artist)
-- [containsMusic](Publisher.md#containsmusic)
-- [copyrightText](Publisher.md#copyrighttext)
-- [id](Publisher.md#id)
-- [isExplicit](Publisher.md#isexplicit)
-- [releaseTitle](Publisher.md#releasetitle)
-- [type](Publisher.md#type)
-- [type](Publisher.md#type-1)
+- [item](PlayHistoryItem.md#item)
+- [playedAt](PlayHistoryItem.md#playedat)
+- [type](PlayHistoryItem.md#type)
+- [type](PlayHistoryItem.md#type-1)
 
 ### Methods
 
-- [getClient](Publisher.md#getclient)
-- [getImageUrls](Publisher.md#getimageurls)
-- [getJSON](Publisher.md#getjson)
+- [getClient](PlayHistoryItem.md#getclient)
+- [getImageUrls](PlayHistoryItem.md#getimageurls)
+- [getJSON](PlayHistoryItem.md#getjson)
 
 ## Constructors
 
 ### constructor
 
-• **new Publisher**(`json`, `client`)
+• **new PlayHistoryItem**(`json`, `client`)
 
 #### Parameters
 
@@ -54,124 +46,27 @@
 
 #### Defined in
 
-[lib/entities/Publisher.ts:30](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L30)
+[lib/entities/PlayHistoryItem.ts:16](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/PlayHistoryItem.ts#L16)
 
 ## Properties
 
-### ISRC
+### item
 
-• `Optional` **ISRC**: ``null`` \| `string`
+• **item**: ``null`` \| [`Album`](Album.md) \| [`Playlist`](Playlist.md) \| [`Track`](Track.md) \| [`SystemPlaylist`](SystemPlaylist.md)
 
 #### Defined in
 
-[lib/entities/Publisher.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L13)
+[lib/entities/PlayHistoryItem.ts:14](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/PlayHistoryItem.ts#L14)
 
 ___
 
-### UPCOrEAN
+### playedAt
 
-• `Optional` **UPCOrEAN**: ``null`` \| `string`
-
-#### Defined in
-
-[lib/entities/Publisher.ts:12](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L12)
-
-___
-
-### albumTitle
-
-• `Optional` **albumTitle**: ``null`` \| `string`
+• `Optional` **playedAt**: `number`
 
 #### Defined in
 
-[lib/entities/Publisher.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L10)
-
-___
-
-### apiInfo
-
-• **apiInfo**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `urn?` | ``null`` \| `string` |
-
-#### Defined in
-
-[lib/entities/Publisher.ts:26](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L26)
-
-___
-
-### artist
-
-• `Optional` **artist**: ``null`` \| `string`
-
-#### Defined in
-
-[lib/entities/Publisher.ts:9](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L9)
-
-___
-
-### containsMusic
-
-• `Optional` **containsMusic**: `boolean`
-
-#### Defined in
-
-[lib/entities/Publisher.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L11)
-
-___
-
-### copyrightText
-
-• **copyrightText**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `display` | { `c?`: ``null`` \| `string` ; `p?`: ``null`` \| `string`  } |
-| `display.c?` | ``null`` \| `string` |
-| `display.p?` | ``null`` \| `string` |
-| `general` | { `c?`: ``null`` \| `string` ; `p?`: ``null`` \| `string`  } |
-| `general.c?` | ``null`` \| `string` |
-| `general.p?` | ``null`` \| `string` |
-
-#### Defined in
-
-[lib/entities/Publisher.ts:16](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L16)
-
-___
-
-### id
-
-• `Optional` **id**: `number`
-
-#### Defined in
-
-[lib/entities/Publisher.ts:8](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L8)
-
-___
-
-### isExplicit
-
-• `Optional` **isExplicit**: `boolean`
-
-#### Defined in
-
-[lib/entities/Publisher.ts:14](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L14)
-
-___
-
-### releaseTitle
-
-• `Optional` **releaseTitle**: ``null`` \| `string`
-
-#### Defined in
-
-[lib/entities/Publisher.ts:15](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L15)
+[lib/entities/PlayHistoryItem.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/PlayHistoryItem.ts#L13)
 
 ___
 
@@ -191,7 +86,7 @@ ___
 
 ### type
 
-▪ `Static` **type**: `string` = `'Publisher'`
+▪ `Static` **type**: `string` = `'PlayHistoryItem'`
 
 #### Overrides
 
@@ -199,7 +94,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Publisher.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Publisher.ts#L6)
+[lib/entities/PlayHistoryItem.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/PlayHistoryItem.ts#L11)
 
 ## Methods
 

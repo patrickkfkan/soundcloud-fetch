@@ -21,74 +21,47 @@
 
 #### Defined in
 
-[lib/utils/Constants.ts:1](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/utils/Constants.ts#L1)
+[lib/utils/Constants.ts:1](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/utils/Constants.ts#L1)
 
 ___
 
 ### ARTWORK\_FORMATS
 
-• `Const` **ARTWORK\_FORMATS**: `string`[]
+• `Const` **ARTWORK\_FORMATS**: readonly [``"t500x500"``, ``"crop"``, ``"t300x300"``, ``"large"``, ``"t67x67"``, ``"badge"``, ``"small"``, ``"tiny"``, ``"mini"``]
 
 #### Defined in
 
-[lib/utils/Constants.ts:3](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/utils/Constants.ts#L3)
+[lib/utils/Constants.ts:3](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/utils/Constants.ts#L3)
 
 ___
 
 ### ARTWORK\_FORMAT\_SIZES
 
-• `Const` **ARTWORK\_FORMAT\_SIZES**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `badge` | `string` |
-| `crop` | `string` |
-| `large` | `string` |
-| `mini` | `string` |
-| `small` | `string` |
-| `t300x300` | `string` |
-| `t500x500` | `string` |
-| `t67x67` | `string` |
-| `tiny` | `string` |
+• `Const` **ARTWORK\_FORMAT\_SIZES**: `Record`<typeof [`ARTWORK_FORMATS`](Constants.md#artwork_formats)[`number`], `string`\>
 
 #### Defined in
 
-[lib/utils/Constants.ts:5](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/utils/Constants.ts#L5)
+[lib/utils/Constants.ts:5](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/utils/Constants.ts#L5)
 
 ___
 
 ### AVATAR\_FORMATS
 
-• `Const` **AVATAR\_FORMATS**: `string`[]
+• `Const` **AVATAR\_FORMATS**: readonly [``"t500x500"``, ``"crop"``, ``"t300x300"``, ``"large"``, ``"badge"``, ``"small"``, ``"tiny"``, ``"mini"``]
 
 #### Defined in
 
-[lib/utils/Constants.ts:17](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/utils/Constants.ts#L17)
+[lib/utils/Constants.ts:17](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/utils/Constants.ts#L17)
 
 ___
 
 ### AVATAR\_FORMAT\_SIZES
 
-• `Const` **AVATAR\_FORMAT\_SIZES**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `badge` | `string` |
-| `crop` | `string` |
-| `large` | `string` |
-| `mini` | `string` |
-| `small` | `string` |
-| `t300x300` | `string` |
-| `t500x500` | `string` |
-| `tiny` | `string` |
+• `Const` **AVATAR\_FORMAT\_SIZES**: `Record`<typeof [`AVATAR_FORMATS`](Constants.md#avatar_formats)[`number`], `string`\>
 
 #### Defined in
 
-[lib/utils/Constants.ts:19](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/utils/Constants.ts#L19)
+[lib/utils/Constants.ts:19](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/utils/Constants.ts#L19)
 
 ___
 
@@ -98,4 +71,4 @@ ___
 
 #### Defined in
 
-[lib/utils/Constants.ts:30](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/utils/Constants.ts#L30)
+[lib/utils/Constants.ts:30](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/utils/Constants.ts#L30)

@@ -6,10 +6,21 @@
 
 ### Properties
 
+- [accessToken](SoundCloudInitArgs.md#accesstoken)
 - [clientId](SoundCloudInitArgs.md#clientid)
 - [locale](SoundCloudInitArgs.md#locale)
 
 ## Properties
+
+### accessToken
+
+• `Optional` **accessToken**: `string`
+
+#### Defined in
+
+[lib/SoundCloud.ts:22](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/SoundCloud.ts#L22)
+
+___
 
 ### clientId
 
@@ -17,7 +28,7 @@
 
 #### Defined in
 
-[lib/SoundCloud.ts:18](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/SoundCloud.ts#L18)
+[lib/SoundCloud.ts:21](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/SoundCloud.ts#L21)
 
 ___
 
@@ -27,4 +38,4 @@ ___
 
 #### Defined in
 
-[lib/SoundCloud.ts:19](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/SoundCloud.ts#L19)
+[lib/SoundCloud.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/SoundCloud.ts#L23)

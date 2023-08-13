@@ -17,14 +17,14 @@
 
 #### Defined in
 
-[lib/SoundCloud.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/SoundCloud.ts#L23)
+[lib/SoundCloud.ts:27](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/SoundCloud.ts#L27)
 
 ___
 
 ### offset
 
-• `Optional` **offset**: `number`
+• `Optional` **offset**: `string` \| `number`
 
 #### Defined in
 
-[lib/SoundCloud.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/SoundCloud.ts#L24)
+[lib/SoundCloud.ts:28](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/SoundCloud.ts#L28)

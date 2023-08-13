@@ -14,7 +14,7 @@
 
 - [constructor](Track.md#constructor)
 
-### Accessors
+### Properties
 
 - [apiInfo](Track.md#apiinfo)
 - [artwork](Track.md#artwork)
@@ -40,15 +40,13 @@
 - [type](Track.md#type)
 - [user](Track.md#user)
 - [waveform](Track.md#waveform)
+- [type](Track.md#type-1)
 
 ### Methods
 
 - [getClient](Track.md#getclient)
 - [getImageUrls](Track.md#getimageurls)
-- [getType](Track.md#gettype)
-- [lazyGet](Track.md#lazyget)
-- [lazyGetAsync](Track.md#lazygetasync)
-- [toPlainObject](Track.md#toplainobject)
+- [getJSON](Track.md#getjson)
 
 ## Constructors
 
@@ -69,411 +67,351 @@
 
 #### Defined in
 
-[lib/entities/Track.ts:9](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L9)
+[lib/entities/Track.ts:77](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L77)
 
-## Accessors
+## Properties
 
 ### apiInfo
 
-• `get` **apiInfo**(): `Object`
+• **apiInfo**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `streamable` | `any` |
-| `uri` | `any` |
-| `urn` | `any` |
+| `streamable?` | `boolean` |
+| `uri?` | ``null`` \| `string` |
+| `urn?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/Track.ts:367](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L367)
+[lib/entities/Track.ts:54](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L54)
 
 ___
 
 ### artwork
 
-• `get` **artwork**(): ``null`` \| `string` \| `Record`<`string`, `string`\>
-
-#### Returns
-
-``null`` \| `string` \| `Record`<`string`, `string`\>
+• `Optional` **artwork**: [`ArtworkImageUrls`](../README.md#artworkimageurls)
 
 #### Defined in
 
-[lib/entities/Track.ts:403](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L403)
+[lib/entities/Track.ts:73](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L73)
 
 ___
 
 ### dates
 
-• `get` **dates**(): `Object`
+• **dates**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `created` | `any` |
-| `display` | `any` |
-| `modified` | `any` |
-| `released` | `any` |
+| `created?` | ``null`` \| `string` |
+| `display?` | ``null`` \| `string` |
+| `modified?` | ``null`` \| `string` |
+| `released?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/Track.ts:331](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L331)
+[lib/entities/Track.ts:17](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L17)
 
 ___
 
 ### downloadData
 
-• `get` **downloadData**(): `Object`
+• **downloadData**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `downloadCount` | `any` |
-| `downloadable` | `any` |
-| `hasDownloadsLeft` | `any` |
+| `downloadCount?` | `number` |
+| `downloadable?` | `boolean` |
+| `hasDownloadsLeft?` | `boolean` |
 
 #### Defined in
 
-[lib/entities/Track.ts:335](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L335)
+[lib/entities/Track.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L23)
 
 ___
 
 ### durations
 
-• `get` **durations**(): `Object`
+• **durations**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `full` | `any` |
-| `playback` | `any` |
+| `full?` | `number` |
+| `playback?` | `number` |
 
 #### Defined in
 
-[lib/entities/Track.ts:379](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L379)
+[lib/entities/Track.ts:64](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L64)
 
 ___
 
 ### genre
 
-• `get` **genre**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **genre**: ``null`` \| `string`
 
 #### Defined in
 
-[lib/entities/Track.ts:383](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L383)
+[lib/entities/Track.ts:68](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L68)
 
 ___
 
 ### id
 
-• `get` **id**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **id**: `number`
 
 #### Defined in
 
-[lib/entities/Track.ts:323](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L323)
+[lib/entities/Track.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L11)
 
 ___
 
 ### isBlocked
 
-• `get` **isBlocked**(): `boolean`
-
-#### Returns
-
-`boolean`
+• `Optional` **isBlocked**: `boolean`
 
 #### Defined in
 
-[lib/entities/Track.ts:351](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L351)
+[lib/entities/Track.ts:43](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L43)
 
 ___
 
 ### isPublic
 
-• `get` **isPublic**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **isPublic**: `boolean`
 
 #### Defined in
 
-[lib/entities/Track.ts:391](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L391)
+[lib/entities/Track.ts:70](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L70)
 
 ___
 
 ### isSnipped
 
-• `get` **isSnipped**(): `boolean`
-
-#### Returns
-
-`boolean`
+• `Optional` **isSnipped**: `boolean`
 
 #### Defined in
 
-[lib/entities/Track.ts:355](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L355)
+[lib/entities/Track.ts:44](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L44)
 
 ___
 
 ### label
 
-• `get` **label**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **label**: ``null`` \| `string`
 
 #### Defined in
 
-[lib/entities/Track.ts:399](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L399)
+[lib/entities/Track.ts:72](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L72)
 
 ___
 
 ### license
 
-• `get` **license**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **license**: ``null`` \| `string`
 
 #### Defined in
 
-[lib/entities/Track.ts:387](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L387)
+[lib/entities/Track.ts:69](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L69)
 
 ___
 
 ### mediaInfo
 
-• `get` **mediaInfo**(): `Object`
+• **mediaInfo**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `encodingState` | `any` |
-| `trackFormat` | `any` |
+| `encodingState?` | ``null`` \| `string` |
+| `trackFormat?` | ``null`` \| `string` |
 | `transcodings` | [`MediaTranscoding`](MediaTranscoding.md)[] |
 
 #### Defined in
 
-[lib/entities/Track.ts:359](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L359)
+[lib/entities/Track.ts:45](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L45)
 
 ___
 
 ### permalink
 
-• `get` **permalink**(): `Object`
+• **permalink**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `basic` | `any` |
-| `full` | `any` |
+| `basic?` | ``null`` \| `string` |
+| `full?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/Track.ts:363](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L363)
+[lib/entities/Track.ts:50](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L50)
 
 ___
 
 ### playbackData
 
-• `get` **playbackData**(): `Object`
+• **playbackData**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `playbackCount` | `any` |
-| `policy` | `any` |
+| `playbackCount?` | `number` |
+| `policy?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/Track.ts:347](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L347)
+[lib/entities/Track.ts:39](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L39)
 
 ___
 
 ### publisher
 
-• `get` **publisher**(): ``null`` \| [`Publisher`](Publisher.md)
-
-#### Returns
-
-``null`` \| [`Publisher`](Publisher.md)
+• `Optional` **publisher**: [`Publisher`](Publisher.md)
 
 #### Defined in
 
-[lib/entities/Track.ts:375](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L375)
+[lib/entities/Track.ts:63](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L63)
 
 ___
 
 ### purchaseInfo
 
-• `get` **purchaseInfo**(): `Object`
+• **purchaseInfo**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `title` | `any` |
-| `url` | `any` |
+| `title?` | ``null`` \| `string` |
+| `url?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/Track.ts:371](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L371)
+[lib/entities/Track.ts:59](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L59)
 
 ___
 
 ### sharingData
 
-• `get` **sharingData**(): `Object`
+• **sharingData**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `embeddableBy` | `any` |
-| `secretToken` | `any` |
-| `shareability` | `any` |
+| `embeddableBy?` | ``null`` \| `string` |
+| `secretToken?` | ``null`` \| `string` |
+| `shareability?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/Track.ts:343](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L343)
+[lib/entities/Track.ts:34](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L34)
 
 ___
 
 ### socialData
 
-• `get` **socialData**(): `Object`
+• **socialData**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `commentCount` | `any` |
-| `commentable` | `any` |
-| `likesCount` | `any` |
-| `repostsCount` | `any` |
+| `commentCount?` | `number` |
+| `commentable?` | `boolean` |
+| `likesCount?` | `number` |
+| `repostsCount?` | `number` |
 
 #### Defined in
 
-[lib/entities/Track.ts:339](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L339)
+[lib/entities/Track.ts:28](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L28)
 
 ___
 
 ### tags
 
-• `get` **tags**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **tags**: ``null`` \| `string`
 
 #### Defined in
 
-[lib/entities/Track.ts:395](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L395)
+[lib/entities/Track.ts:71](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L71)
 
 ___
 
 ### texts
 
-• `get` **texts**(): `Object`
+• **texts**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `caption` | `any` |
-| `description` | `any` |
-| `title` | `any` |
+| `caption?` | ``null`` \| `string` |
+| `description?` | ``null`` \| `string` |
+| `title?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/Track.ts:327](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L327)
+[lib/entities/Track.ts:12](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L12)
 
 ___
 
 ### type
 
-• `get` **type**(): `string`
-
-#### Returns
-
-`string`
+• `Readonly` **type**: `string`
 
 #### Inherited from
 
-Entity.type
+[Entity](Entity.md).[type](Entity.md#type)
 
 #### Defined in
 
-[lib/entities/Entity.ts:25](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L25)
+[lib/entities/Entity.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L11)
 
 ___
 
 ### user
 
-• `get` **user**(): [`User`](User.md)
-
-#### Returns
-
-[`User`](User.md)
+• `Optional` **user**: [`User`](User.md)
 
 #### Defined in
 
-[lib/entities/Track.ts:411](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L411)
+[lib/entities/Track.ts:75](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L75)
 
 ___
 
 ### waveform
 
-• `get` **waveform**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **waveform**: ``null`` \| `string`
 
 #### Defined in
 
-[lib/entities/Track.ts:407](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L407)
+[lib/entities/Track.ts:74](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L74)
+
+___
+
+### type
+
+▪ `Static` **type**: `string` = `'Track'`
+
+#### Overrides
+
+[Entity](Entity.md).[type](Entity.md#type-1)
+
+#### Defined in
+
+[lib/entities/Track.ts:9](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Track.ts#L9)
 
 ## Methods
 
@@ -491,24 +429,24 @@ ___
 
 #### Defined in
 
-[lib/entities/Entity.ts:39](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L39)
+[lib/entities/Entity.ts:33](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L33)
 
 ___
 
 ### getImageUrls
 
-▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type?`): ``null`` \| `string` \| `Record`<`string`, `string`\>
+▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type`): `undefined` \| [`AvatarImageUrls`](../README.md#avatarimageurls)
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `defaultImageUrl` | `string` | `undefined` |
-| `type` | ``"artwork"`` \| ``"avatar"`` | `'artwork'` |
+| Name | Type |
+| :------ | :------ |
+| `defaultImageUrl` | `undefined` \| ``null`` \| `string` |
+| `type` | ``"avatar"`` |
 
 #### Returns
 
-``null`` \| `string` \| `Record`<`string`, `string`\>
+`undefined` \| [`AvatarImageUrls`](../README.md#avatarimageurls)
 
 #### Inherited from
 
@@ -516,93 +454,40 @@ ___
 
 #### Defined in
 
-[lib/entities/Entity.ts:57](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L57)
+[lib/entities/Entity.ts:37](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L37)
 
-___
-
-### getType
-
-▸ `Protected` **getType**(): `string`
-
-#### Returns
-
-`string`
-
-#### Overrides
-
-[Entity](Entity.md).[getType](Entity.md#gettype)
-
-#### Defined in
-
-[lib/entities/Track.ts:154](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Track.ts#L154)
-
-___
-
-### lazyGet
-
-▸ `Protected` **lazyGet**<`T`\>(`key`, `getValue`): `T`
-
-#### Type parameters
-
-| Name |
-| :------ |
-| `T` |
+▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type?`): `undefined` \| [`ArtworkImageUrls`](../README.md#artworkimageurls)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `key` | `string` |
-| `getValue` | () => `T` |
+| `defaultImageUrl` | `undefined` \| ``null`` \| `string` |
+| `type?` | ``"artwork"`` |
 
 #### Returns
 
-`T`
+`undefined` \| [`ArtworkImageUrls`](../README.md#artworkimageurls)
 
 #### Inherited from
 
-[Entity](Entity.md).[lazyGet](Entity.md#lazyget)
+[Entity](Entity.md).[getImageUrls](Entity.md#getimageurls)
 
 #### Defined in
 
-[lib/entities/Entity.ts:43](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L43)
+[lib/entities/Entity.ts:38](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L38)
 
 ___
 
-### lazyGetAsync
+### getJSON
 
-▸ `Protected` **lazyGetAsync**<`T`\>(`key`, `getValueAsync`): `Promise`<`T`\>
-
-#### Type parameters
-
-| Name |
-| :------ |
-| `T` |
+▸ **getJSON**(`prop?`): `any`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `key` | `string` |
-| `getValueAsync` | () => `Promise`<`T`\> |
-
-#### Returns
-
-`Promise`<`T`\>
-
-#### Inherited from
-
-[Entity](Entity.md).[lazyGetAsync](Entity.md#lazygetasync)
-
-#### Defined in
-
-[lib/entities/Entity.ts:50](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L50)
-
-___
-
-### toPlainObject
-
-▸ **toPlainObject**(): `any`
+| `prop?` | `undefined` |
 
 #### Returns
 
@@ -610,8 +495,60 @@ ___
 
 #### Inherited from
 
-[Entity](Entity.md).[toPlainObject](Entity.md#toplainobject)
+[Entity](Entity.md).[getJSON](Entity.md#getjson)
 
 #### Defined in
 
-[lib/entities/Entity.ts:76](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L76)
+[lib/entities/Entity.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L23)
+
+▸ **getJSON**<`T`\>(`prop`): `undefined` \| ``null`` \| `T`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | extends `string` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `prop` | `string` |
+
+#### Returns
+
+`undefined` \| ``null`` \| `T`
+
+#### Inherited from
+
+[Entity](Entity.md).[getJSON](Entity.md#getjson)
+
+#### Defined in
+
+[lib/entities/Entity.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L24)
+
+▸ **getJSON**<`T`\>(`prop`): `undefined` \| `T`
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `prop` | `string` |
+
+#### Returns
+
+`undefined` \| `T`
+
+#### Inherited from
+
+[Entity](Entity.md).[getJSON](Entity.md#getjson)
+
+#### Defined in
+
+[lib/entities/Entity.ts:25](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L25)

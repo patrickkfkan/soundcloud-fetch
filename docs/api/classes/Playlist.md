@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- [`PlaylistBase`](PlaylistBase.md)
+- [`Set`](Set.md)<`number`\>
 
   ↳ **`Playlist`**
 
@@ -16,7 +16,7 @@
 
 - [constructor](Playlist.md#constructor)
 
-### Accessors
+### Properties
 
 - [apiInfo](Playlist.md#apiinfo)
 - [artwork](Playlist.md#artwork)
@@ -32,18 +32,15 @@
 - [trackCount](Playlist.md#trackcount)
 - [type](Playlist.md#type)
 - [user](Playlist.md#user)
+- [type](Playlist.md#type-1)
 
 ### Methods
 
 - [getClient](Playlist.md#getclient)
-- [getDates](Playlist.md#getdates)
+- [getFullPlaylist](Playlist.md#getfullplaylist)
 - [getImageUrls](Playlist.md#getimageurls)
-- [getSharingData](Playlist.md#getsharingdata)
+- [getJSON](Playlist.md#getjson)
 - [getTracks](Playlist.md#gettracks)
-- [getType](Playlist.md#gettype)
-- [lazyGet](Playlist.md#lazyget)
-- [lazyGetAsync](Playlist.md#lazygetasync)
-- [toPlainObject](Playlist.md#toplainobject)
 
 ## Constructors
 
@@ -60,255 +57,225 @@
 
 #### Overrides
 
-[PlaylistBase](PlaylistBase.md).[constructor](PlaylistBase.md#constructor)
+[Set](Set.md).[constructor](Set.md#constructor)
 
 #### Defined in
 
-[lib/entities/Playlist.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L6)
+[lib/entities/Playlist.ts:37](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L37)
 
-## Accessors
+## Properties
 
 ### apiInfo
 
-• `get` **apiInfo**(): `Object`
+• **apiInfo**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `uri` | `any` |
+| `uri?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/Playlist.ts:148](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L148)
+[lib/entities/Playlist.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L10)
 
 ___
 
 ### artwork
 
-• `get` **artwork**(): ``null`` \| `string` \| `Record`<`string`, `string`\>
-
-#### Returns
-
-``null`` \| `string` \| `Record`<`string`, `string`\>
+• `Optional` **artwork**: [`ArtworkImageUrls`](../README.md#artworkimageurls)
 
 #### Defined in
 
-[lib/entities/Playlist.ts:152](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L152)
+[lib/entities/Playlist.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L13)
 
 ___
 
 ### dates
 
-• `get` **dates**(): `Object`
+• **dates**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `created` | `any` |
-| `display` | `any` |
-| `modified` | `any` |
-| `published` | `any` |
+| `created?` | ``null`` \| `string` |
+| `display?` | ``null`` \| `string` |
+| `modified?` | ``null`` \| `string` |
+| `published?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/Playlist.ts:164](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L164)
+[lib/entities/Playlist.ts:16](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L16)
 
 ___
 
 ### duration
 
-• `get` **duration**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **duration**: `number`
 
 #### Defined in
 
-[lib/entities/Playlist.ts:160](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L160)
+[lib/entities/Playlist.ts:15](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L15)
 
 ___
 
 ### id
 
-• `get` **id**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **id**: `number`
 
 #### Inherited from
 
-PlaylistBase.id
+[Set](Set.md).[id](Set.md#id)
 
 #### Defined in
 
-[lib/entities/PlaylistBase.ts:48](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/PlaylistBase.ts#L48)
+[lib/entities/Set.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L10)
 
 ___
 
 ### isPublic
 
-• `get` **isPublic**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **isPublic**: `boolean`
 
 #### Defined in
 
-[lib/entities/Playlist.ts:144](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L144)
+[lib/entities/Playlist.ts:9](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L9)
 
 ___
 
 ### permalink
 
-• `get` **permalink**(): `Object`
+• **permalink**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `basic` | `any` |
-| `full` | `any` |
+| `basic?` | ``null`` \| `string` |
+| `full?` | ``null`` \| `string` |
 
 #### Inherited from
 
-PlaylistBase.permalink
+[Set](Set.md).[permalink](Set.md#permalink)
 
 #### Defined in
 
-[lib/entities/PlaylistBase.ts:56](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/PlaylistBase.ts#L56)
+[lib/entities/Set.ts:12](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L12)
 
 ___
 
 ### setType
 
-• `get` **setType**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **setType**: ``null`` \| `string`
 
 #### Defined in
 
-[lib/entities/Playlist.ts:156](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L156)
+[lib/entities/Playlist.ts:14](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L14)
 
 ___
 
 ### sharingData
 
-• `get` **sharingData**(): `Object`
+• **sharingData**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `secretToken` | `any` |
-| `shareability` | `any` |
+| `secretToken?` | ``null`` \| `string` |
+| `shareability?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/Playlist.ts:168](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L168)
+[lib/entities/Playlist.ts:22](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L22)
 
 ___
 
 ### socialData
 
-• `get` **socialData**(): `Object`
+• **socialData**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `likesCount` | `any` |
-| `managedByFeeds` | `any` |
-| `repostsCount` | `any` |
+| `likesCount?` | `number` |
+| `managedByFeeds?` | `boolean` |
+| `repostsCount?` | `number` |
 
 #### Defined in
 
-[lib/entities/Playlist.ts:180](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L180)
+[lib/entities/Playlist.ts:31](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L31)
 
 ___
 
 ### texts
 
-• `get` **texts**(): `Object`
+• **texts**: `Object`
 
-#### Returns
-
-`Object`
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `description` | `any` |
-| `title` | `any` |
+| `description?` | ``null`` \| `string` |
+| `title?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/Playlist.ts:172](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L172)
+[lib/entities/Playlist.ts:26](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L26)
 
 ___
 
 ### trackCount
 
-• `get` **trackCount**(): `any`
-
-#### Returns
-
-`any`
+• `Optional` **trackCount**: `number`
 
 #### Defined in
 
-[lib/entities/Playlist.ts:176](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L176)
+[lib/entities/Playlist.ts:30](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L30)
 
 ___
 
 ### type
 
-• `get` **type**(): `string`
-
-#### Returns
-
-`string`
+• `Readonly` **type**: `string`
 
 #### Inherited from
 
-PlaylistBase.type
+[Set](Set.md).[type](Set.md#type)
 
 #### Defined in
 
-[lib/entities/Entity.ts:25](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L25)
+[lib/entities/Entity.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L11)
 
 ___
 
 ### user
 
-• `get` **user**(): [`User`](User.md)
-
-#### Returns
-
-[`User`](User.md)
+• `Optional` **user**: [`User`](User.md)
 
 #### Inherited from
 
-PlaylistBase.user
+[Set](Set.md).[user](Set.md#user)
 
 #### Defined in
 
-[lib/entities/PlaylistBase.ts:52](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/PlaylistBase.ts#L52)
+[lib/entities/Set.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L11)
+
+___
+
+### type
+
+▪ `Static` **type**: `string` = `'Playlist'`
+
+#### Overrides
+
+[Set](Set.md).[type](Set.md#type-1)
+
+#### Defined in
+
+[lib/entities/Playlist.ts:7](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L7)
 
 ## Methods
 
@@ -322,76 +289,151 @@ PlaylistBase.user
 
 #### Inherited from
 
-[PlaylistBase](PlaylistBase.md).[getClient](PlaylistBase.md#getclient)
+[Set](Set.md).[getClient](Set.md#getclient)
 
 #### Defined in
 
-[lib/entities/Entity.ts:39](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L39)
+[lib/entities/Entity.ts:33](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L33)
 
 ___
 
-### getDates
+### getFullPlaylist
 
-▸ `Protected` **getDates**(): `Object`
+▸ `Protected` **getFullPlaylist**(): `Promise`<``null`` \| [`Album`](Album.md) \| [`Playlist`](Playlist.md)\>
 
 #### Returns
 
-`Object`
+`Promise`<``null`` \| [`Album`](Album.md) \| [`Playlist`](Playlist.md)\>
 
-| Name | Type |
-| :------ | :------ |
-| `created` | `any` |
-| `display` | `any` |
-| `modified` | `any` |
-| `published` | `any` |
+#### Overrides
+
+[Set](Set.md).[getFullPlaylist](Set.md#getfullplaylist)
 
 #### Defined in
 
-[lib/entities/Playlist.ts:101](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L101)
+[lib/entities/Playlist.ts:76](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L76)
 
 ___
 
 ### getImageUrls
 
-▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type?`): ``null`` \| `string` \| `Record`<`string`, `string`\>
+▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type`): `undefined` \| [`AvatarImageUrls`](../README.md#avatarimageurls)
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `defaultImageUrl` | `string` | `undefined` |
-| `type` | ``"artwork"`` \| ``"avatar"`` | `'artwork'` |
+| Name | Type |
+| :------ | :------ |
+| `defaultImageUrl` | `undefined` \| ``null`` \| `string` |
+| `type` | ``"avatar"`` |
 
 #### Returns
 
-``null`` \| `string` \| `Record`<`string`, `string`\>
+`undefined` \| [`AvatarImageUrls`](../README.md#avatarimageurls)
 
 #### Inherited from
 
-[PlaylistBase](PlaylistBase.md).[getImageUrls](PlaylistBase.md#getimageurls)
+[Set](Set.md).[getImageUrls](Set.md#getimageurls)
 
 #### Defined in
 
-[lib/entities/Entity.ts:57](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L57)
+[lib/entities/Entity.ts:37](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L37)
 
-___
+▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type?`): `undefined` \| [`ArtworkImageUrls`](../README.md#artworkimageurls)
 
-### getSharingData
-
-▸ `Protected` **getSharingData**(): `Object`
-
-#### Returns
-
-`Object`
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `secretToken` | `any` |
-| `shareability` | `any` |
+| `defaultImageUrl` | `undefined` \| ``null`` \| `string` |
+| `type?` | ``"artwork"`` |
+
+#### Returns
+
+`undefined` \| [`ArtworkImageUrls`](../README.md#artworkimageurls)
+
+#### Inherited from
+
+[Set](Set.md).[getImageUrls](Set.md#getimageurls)
 
 #### Defined in
 
-[lib/entities/Playlist.ts:112](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L112)
+[lib/entities/Entity.ts:38](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L38)
+
+___
+
+### getJSON
+
+▸ **getJSON**(`prop?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `prop?` | `undefined` |
+
+#### Returns
+
+`any`
+
+#### Inherited from
+
+[Set](Set.md).[getJSON](Set.md#getjson)
+
+#### Defined in
+
+[lib/entities/Entity.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L23)
+
+▸ **getJSON**<`T`\>(`prop`): `undefined` \| ``null`` \| `T`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | extends `string` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `prop` | `string` |
+
+#### Returns
+
+`undefined` \| ``null`` \| `T`
+
+#### Inherited from
+
+[Set](Set.md).[getJSON](Set.md#getjson)
+
+#### Defined in
+
+[lib/entities/Entity.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L24)
+
+▸ **getJSON**<`T`\>(`prop`): `undefined` \| `T`
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `prop` | `string` |
+
+#### Returns
+
+`undefined` \| `T`
+
+#### Inherited from
+
+[Set](Set.md).[getJSON](Set.md#getjson)
+
+#### Defined in
+
+[lib/entities/Entity.ts:25](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L25)
 
 ___
 
@@ -403,9 +445,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | `Object` |
-| `options.limit` | `number` |
-| `options.offset` | `number` |
+| `options?` | [`SoundCloudPageOptions`](../interfaces/SoundCloudPageOptions.md) |
 
 #### Returns
 
@@ -413,106 +453,8 @@ ___
 
 #### Inherited from
 
-[PlaylistBase](PlaylistBase.md).[getTracks](PlaylistBase.md#gettracks)
+[Set](Set.md).[getTracks](Set.md#gettracks)
 
 #### Defined in
 
-[lib/entities/PlaylistBase.ts:60](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/PlaylistBase.ts#L60)
-
-___
-
-### getType
-
-▸ `Protected` **getType**(): `string`
-
-#### Returns
-
-`string`
-
-#### Overrides
-
-[PlaylistBase](PlaylistBase.md).[getType](PlaylistBase.md#gettype)
-
-#### Defined in
-
-[lib/entities/Playlist.ts:73](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Playlist.ts#L73)
-
-___
-
-### lazyGet
-
-▸ `Protected` **lazyGet**<`T`\>(`key`, `getValue`): `T`
-
-#### Type parameters
-
-| Name |
-| :------ |
-| `T` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `getValue` | () => `T` |
-
-#### Returns
-
-`T`
-
-#### Inherited from
-
-[PlaylistBase](PlaylistBase.md).[lazyGet](PlaylistBase.md#lazyget)
-
-#### Defined in
-
-[lib/entities/Entity.ts:43](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L43)
-
-___
-
-### lazyGetAsync
-
-▸ `Protected` **lazyGetAsync**<`T`\>(`key`, `getValueAsync`): `Promise`<`T`\>
-
-#### Type parameters
-
-| Name |
-| :------ |
-| `T` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `getValueAsync` | () => `Promise`<`T`\> |
-
-#### Returns
-
-`Promise`<`T`\>
-
-#### Inherited from
-
-[PlaylistBase](PlaylistBase.md).[lazyGetAsync](PlaylistBase.md#lazygetasync)
-
-#### Defined in
-
-[lib/entities/Entity.ts:50](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L50)
-
-___
-
-### toPlainObject
-
-▸ **toPlainObject**(): `any`
-
-#### Returns
-
-`any`
-
-#### Inherited from
-
-[PlaylistBase](PlaylistBase.md).[toPlainObject](PlaylistBase.md#toplainobject)
-
-#### Defined in
-
-[lib/entities/Entity.ts:76](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L76)
+[lib/entities/Set.ts:41](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L41)

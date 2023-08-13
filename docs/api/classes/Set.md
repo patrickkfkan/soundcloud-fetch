@@ -1,42 +1,56 @@
-[soundcloud-fetch](../README.md) / MediaTranscoding
+[soundcloud-fetch](../README.md) / Set
 
-# Class: MediaTranscoding
+# Class: Set<ID\>
+
+## Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ID` | extends `string` \| `number` |
 
 ## Hierarchy
 
 - [`Entity`](Entity.md)
 
-  ↳ **`MediaTranscoding`**
+  ↳ **`Set`**
+
+  ↳↳ [`Playlist`](Playlist.md)
+
+  ↳↳ [`SystemPlaylist`](SystemPlaylist.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](MediaTranscoding.md#constructor)
+- [constructor](Set.md#constructor)
 
 ### Properties
 
-- [duration](MediaTranscoding.md#duration)
-- [isSnipped](MediaTranscoding.md#issnipped)
-- [mimeType](MediaTranscoding.md#mimetype)
-- [preset](MediaTranscoding.md#preset)
-- [protocol](MediaTranscoding.md#protocol)
-- [quality](MediaTranscoding.md#quality)
-- [type](MediaTranscoding.md#type)
-- [url](MediaTranscoding.md#url)
-- [type](MediaTranscoding.md#type-1)
+- [id](Set.md#id)
+- [permalink](Set.md#permalink)
+- [type](Set.md#type)
+- [user](Set.md#user)
+- [type](Set.md#type-1)
 
 ### Methods
 
-- [getClient](MediaTranscoding.md#getclient)
-- [getImageUrls](MediaTranscoding.md#getimageurls)
-- [getJSON](MediaTranscoding.md#getjson)
+- [getClient](Set.md#getclient)
+- [getFullPlaylist](Set.md#getfullplaylist)
+- [getImageUrls](Set.md#getimageurls)
+- [getJSON](Set.md#getjson)
+- [getTracks](Set.md#gettracks)
 
 ## Constructors
 
 ### constructor
 
-• **new MediaTranscoding**(`json`, `client`)
+• **new Set**<`ID`\>(`json`, `client`)
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ID` | extends `string` \| `number` |
 
 #### Parameters
 
@@ -51,67 +65,34 @@
 
 #### Defined in
 
-[lib/entities/MediaTranscoding.ts:17](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/MediaTranscoding.ts#L17)
+[lib/entities/Set.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L23)
 
 ## Properties
 
-### duration
+### id
 
-• `Optional` **duration**: `number`
+• `Optional` **id**: `ID`
 
 #### Defined in
 
-[lib/entities/MediaTranscoding.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/MediaTranscoding.ts#L10)
+[lib/entities/Set.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L10)
 
 ___
 
-### isSnipped
+### permalink
 
-• `Optional` **isSnipped**: `boolean`
+• **permalink**: `Object`
 
-#### Defined in
+#### Type declaration
 
-[lib/entities/MediaTranscoding.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/MediaTranscoding.ts#L11)
-
-___
-
-### mimeType
-
-• `Optional` **mimeType**: ``null`` \| `string`
+| Name | Type |
+| :------ | :------ |
+| `basic?` | ``null`` \| `string` |
+| `full?` | ``null`` \| `string` |
 
 #### Defined in
 
-[lib/entities/MediaTranscoding.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/MediaTranscoding.ts#L13)
-
-___
-
-### preset
-
-• `Optional` **preset**: ``null`` \| `string`
-
-#### Defined in
-
-[lib/entities/MediaTranscoding.ts:9](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/MediaTranscoding.ts#L9)
-
-___
-
-### protocol
-
-• `Optional` **protocol**: ``null`` \| `string`
-
-#### Defined in
-
-[lib/entities/MediaTranscoding.ts:12](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/MediaTranscoding.ts#L12)
-
-___
-
-### quality
-
-• `Optional` **quality**: ``null`` \| ``"sq"`` \| ``"hq"``
-
-#### Defined in
-
-[lib/entities/MediaTranscoding.ts:14](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/MediaTranscoding.ts#L14)
+[lib/entities/Set.ts:12](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L12)
 
 ___
 
@@ -129,27 +110,27 @@ ___
 
 ___
 
-### url
+### user
 
-• `Optional` **url**: ``null`` \| `string`
+• `Optional` **user**: [`User`](User.md)
 
 #### Defined in
 
-[lib/entities/MediaTranscoding.ts:8](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/MediaTranscoding.ts#L8)
+[lib/entities/Set.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L11)
 
 ___
 
 ### type
 
-▪ `Static` **type**: `string` = `'MediaTranscoding'`
+▪ `Static` `Readonly` **type**: `string` = `'Entity'`
 
-#### Overrides
+#### Inherited from
 
 [Entity](Entity.md).[type](Entity.md#type-1)
 
 #### Defined in
 
-[lib/entities/MediaTranscoding.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/MediaTranscoding.ts#L6)
+[lib/entities/Entity.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L10)
 
 ## Methods
 
@@ -168,6 +149,20 @@ ___
 #### Defined in
 
 [lib/entities/Entity.ts:33](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L33)
+
+___
+
+### getFullPlaylist
+
+▸ `Protected` `Abstract` **getFullPlaylist**(): `Promise`<``null`` \| [`Set`](Set.md)<`string` \| `number`\>\>
+
+#### Returns
+
+`Promise`<``null`` \| [`Set`](Set.md)<`string` \| `number`\>\>
+
+#### Defined in
+
+[lib/entities/Set.ts:108](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L108)
 
 ___
 
@@ -290,3 +285,23 @@ ___
 #### Defined in
 
 [lib/entities/Entity.ts:25](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L25)
+
+___
+
+### getTracks
+
+▸ **getTracks**(`options?`): `Promise`<[`Track`](Track.md)[]\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `options?` | [`SoundCloudPageOptions`](../interfaces/SoundCloudPageOptions.md) |
+
+#### Returns
+
+`Promise`<[`Track`](Track.md)[]\>
+
+#### Defined in
+
+[lib/entities/Set.ts:41](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L41)

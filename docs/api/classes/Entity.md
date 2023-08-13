@@ -6,13 +6,17 @@
 
 - **`Entity`**
 
-  ↳ [`MediaTranscoding`](MediaTranscoding.md)
+  ↳ [`PlayHistoryItem`](PlayHistoryItem.md)
 
-  ↳ [`PlaylistBase`](PlaylistBase.md)
+  ↳ [`LibraryItem`](LibraryItem.md)
+
+  ↳ [`MediaTranscoding`](MediaTranscoding.md)
 
   ↳ [`Publisher`](Publisher.md)
 
   ↳ [`Selection`](Selection.md)
+
+  ↳ [`Set`](Set.md)
 
   ↳ [`Track`](Track.md)
 
@@ -24,18 +28,16 @@
 
 - [constructor](Entity.md#constructor)
 
-### Accessors
+### Properties
 
 - [type](Entity.md#type)
+- [type](Entity.md#type-1)
 
 ### Methods
 
 - [getClient](Entity.md#getclient)
 - [getImageUrls](Entity.md#getimageurls)
-- [getType](Entity.md#gettype)
-- [lazyGet](Entity.md#lazyget)
-- [lazyGetAsync](Entity.md#lazygetasync)
-- [toPlainObject](Entity.md#toplainobject)
+- [getJSON](Entity.md#getjson)
 
 ## Constructors
 
@@ -52,21 +54,27 @@
 
 #### Defined in
 
-[lib/entities/Entity.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L10)
+[lib/entities/Entity.ts:16](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L16)
 
-## Accessors
+## Properties
 
 ### type
 
-• `get` **type**(): `string`
-
-#### Returns
-
-`string`
+• `Readonly` **type**: `string`
 
 #### Defined in
 
-[lib/entities/Entity.ts:25](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L25)
+[lib/entities/Entity.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L11)
+
+___
+
+### type
+
+▪ `Static` `Readonly` **type**: `string` = `'Entity'`
+
+#### Defined in
+
+[lib/entities/Entity.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L10)
 
 ## Methods
 
@@ -80,102 +88,57 @@
 
 #### Defined in
 
-[lib/entities/Entity.ts:39](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L39)
+[lib/entities/Entity.ts:33](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L33)
 
 ___
 
 ### getImageUrls
 
-▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type?`): ``null`` \| `string` \| `Record`<`string`, `string`\>
-
-#### Parameters
-
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `defaultImageUrl` | `string` | `undefined` |
-| `type` | ``"artwork"`` \| ``"avatar"`` | `'artwork'` |
-
-#### Returns
-
-``null`` \| `string` \| `Record`<`string`, `string`\>
-
-#### Defined in
-
-[lib/entities/Entity.ts:57](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L57)
-
-___
-
-### getType
-
-▸ `Protected` `Abstract` **getType**(): `string`
-
-#### Returns
-
-`string`
-
-#### Defined in
-
-[lib/entities/Entity.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L23)
-
-___
-
-### lazyGet
-
-▸ `Protected` **lazyGet**<`T`\>(`key`, `getValue`): `T`
-
-#### Type parameters
-
-| Name |
-| :------ |
-| `T` |
+▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type`): `undefined` \| [`AvatarImageUrls`](../README.md#avatarimageurls)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `key` | `string` |
-| `getValue` | () => `T` |
+| `defaultImageUrl` | `undefined` \| ``null`` \| `string` |
+| `type` | ``"avatar"`` |
 
 #### Returns
 
-`T`
+`undefined` \| [`AvatarImageUrls`](../README.md#avatarimageurls)
 
 #### Defined in
 
-[lib/entities/Entity.ts:43](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L43)
+[lib/entities/Entity.ts:37](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L37)
 
-___
-
-### lazyGetAsync
-
-▸ `Protected` **lazyGetAsync**<`T`\>(`key`, `getValueAsync`): `Promise`<`T`\>
-
-#### Type parameters
-
-| Name |
-| :------ |
-| `T` |
+▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type?`): `undefined` \| [`ArtworkImageUrls`](../README.md#artworkimageurls)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `key` | `string` |
-| `getValueAsync` | () => `Promise`<`T`\> |
+| `defaultImageUrl` | `undefined` \| ``null`` \| `string` |
+| `type?` | ``"artwork"`` |
 
 #### Returns
 
-`Promise`<`T`\>
+`undefined` \| [`ArtworkImageUrls`](../README.md#artworkimageurls)
 
 #### Defined in
 
-[lib/entities/Entity.ts:50](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L50)
+[lib/entities/Entity.ts:38](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L38)
 
 ___
 
-### toPlainObject
+### getJSON
 
-▸ **toPlainObject**(): `any`
+▸ **getJSON**(`prop?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `prop?` | `undefined` |
 
 #### Returns
 
@@ -183,4 +146,48 @@ ___
 
 #### Defined in
 
-[lib/entities/Entity.ts:76](https://github.com/patrickkfkan/soundcloud-fetch/blob/cbc4996/src/lib/entities/Entity.ts#L76)
+[lib/entities/Entity.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L23)
+
+▸ **getJSON**<`T`\>(`prop`): `undefined` \| ``null`` \| `T`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | extends `string` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `prop` | `string` |
+
+#### Returns
+
+`undefined` \| ``null`` \| `T`
+
+#### Defined in
+
+[lib/entities/Entity.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L24)
+
+▸ **getJSON**<`T`\>(`prop`): `undefined` \| `T`
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `prop` | `string` |
+
+#### Returns
+
+`undefined` \| `T`
+
+#### Defined in
+
+[lib/entities/Entity.ts:25](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L25)
