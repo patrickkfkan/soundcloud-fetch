@@ -1,9 +1,33 @@
 import SoundCloud from '../SoundCloud.js';
-import { ARTWORK_FORMATS, AVATAR_FORMATS } from '../utils/Constants.js';
 import { EntityConstructor, EntityType } from '../utils/EntityTypes.js';
 
-export type AvatarImageUrls = Record<'default' | typeof AVATAR_FORMATS[number], string>;
-export type ArtworkImageUrls = Record<'default' | typeof ARTWORK_FORMATS[number], string>;
+const ARTWORK_FORMATS = [ 't500x500', 't300x300', 't67x67' ] as const;
+const ARTWORK_EXTENDED_FORMATS = [ ...ARTWORK_FORMATS, 'crop', 'large', 'badge', 'small', 'tiny', 'mini' ] as const;
+const AVATAR_FORMATS = [ 't500x500', 'crop', 't300x300', 'large', 'badge', 'small', 'tiny', 'mini' ] as const;
+
+export type AvatarImageUrls = {
+  default: string;
+  t500x500?: string; // 500x500
+  crop?: string; // 400x400
+  t300x300?: string; // 300300
+  large?: string; // 100x100
+  badge?: string; // 47x47
+  small?: string; // 32x32
+  tiny?: string; // 18x18
+  mini?: string; // 16x16
+};
+export type ArtworkImageUrls = {
+  default: string;
+  t500x500?: string; // 500x500
+  crop?: string; // 400x400
+  t300x300?: string; // 300300
+  large?: string; // 100x100
+  t67x67?: string; // 67x67
+  badge?: string; // 47x47
+  small?: string; // 32x32
+  tiny?: string; // 20x20
+  mini?: string; // 16x16
+};
 
 export default abstract class Entity {
 
@@ -35,23 +59,36 @@ export default abstract class Entity {
   }
 
   protected getImageUrls(defaultImageUrl: string | null | undefined, type: 'avatar'): AvatarImageUrls | undefined;
-  protected getImageUrls(defaultImageUrl: string | null | undefined, type?: 'artwork' | undefined): ArtworkImageUrls | undefined;
-  protected getImageUrls(defaultImageUrl: string | null | undefined, type: 'artwork' | 'avatar' = 'artwork') {
+  protected getImageUrls(defaultImageUrl: string | null | undefined, type?: 'artwork' | 'artistStation' | undefined): ArtworkImageUrls | undefined;
+  protected getImageUrls(defaultImageUrl: string | null | undefined, type: 'artwork' | 'artistStation' | 'avatar' = 'artwork') {
 
     if (!defaultImageUrl) {
       return undefined;
     }
-    else if (defaultImageUrl.indexOf('large.jpg') < 0) {
-      return defaultImageUrl;
-    }
 
-    const formats = type === 'avatar' ? AVATAR_FORMATS : ARTWORK_FORMATS;
+    let formats;
+    switch (type) {
+      case 'avatar':
+        formats = AVATAR_FORMATS;
+        break;
+      case 'artistStation':
+        formats = ARTWORK_FORMATS;
+        break;
+      default:
+        formats = ARTWORK_EXTENDED_FORMATS;
+    }
 
     const formatUrls: Record<string, string> = {
       default: defaultImageUrl
     };
+
+    const replaceFormat = formats.find((format) => defaultImageUrl.includes(`${format}.jpg`));
+    if (!replaceFormat) {
+      return formatUrls;
+    }
+
     formats.forEach((format) => {
-      formatUrls[format] = defaultImageUrl.replace('large.jpg', `${format}.jpg`);
+      formatUrls[format] = defaultImageUrl.replace(`${replaceFormat}.jpg`, `${format}.jpg`);
     });
     return formatUrls;
   }

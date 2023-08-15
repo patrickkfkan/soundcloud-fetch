@@ -8,6 +8,7 @@ export default class SystemPlaylist extends Set<string> {
   static type = 'SystemPlaylist';
 
   isPublic?: boolean;
+  playlistType?: 'artistStation' | 'playlist' | String | null;
   apiInfo: {
     urn?: string | null;
     queryUrn?: string | null;
@@ -54,9 +55,10 @@ export default class SystemPlaylist extends Set<string> {
       queryUrn: this.getJSON<string>('query_urn')
     };
 
+    const artworkType = this.playlistType === 'artistStation' ? 'artistStation' : 'artwork';
     this.artwork = {
-      original: this.getImageUrls(this.getJSON<string>('artwork_url')),
-      calculated: this.getImageUrls(this.getJSON<string>('calculated_artwork_url'))
+      original: this.getImageUrls(this.getJSON<string>('artwork_url'), artworkType),
+      calculated: this.getImageUrls(this.getJSON<string>('calculated_artwork_url'), artworkType)
     };
 
     const userData = this.getJSON<any>('made_for');
