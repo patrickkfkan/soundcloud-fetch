@@ -35,6 +35,20 @@ export default class SystemPlaylist extends Set<string> {
 
     this.isPublic = this.getJSON<boolean>('is_public');
 
+    const playlistType = this.getJSON<string>('playlist_type');
+    if (playlistType === null) {
+      this.playlistType = null;
+    }
+    else if (playlistType === 'ARTIST_STATION') {
+      this.playlistType = 'artistStation';
+    }
+    else if (playlistType === 'PLAYLIST') {
+      this.playlistType = 'playlist';
+    }
+    else {
+      this.playlistType = playlistType?.toString();
+    }
+
     this.apiInfo = {
       urn: this.getJSON<string>('urn'),
       queryUrn: this.getJSON<string>('query_urn')
