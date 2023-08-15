@@ -37,6 +37,7 @@ export default class SoundCloud {
     getLibraryItems: SoundCloud['getLibraryItems'];
     getLikes: SoundCloud['getMyLikes'];
     getStations: SoundCloud['getMyStations'];
+    addToPlayHistory: SoundCloud['addToPlayHistory'];
   };
 
   #clientId?: string;
@@ -54,6 +55,7 @@ export default class SoundCloud {
       getLibraryItems: this.getLibraryItems.bind(this),
       getLikes: this.getMyLikes.bind(this),
       getStations: this.getMyStations.bind(this),
+      addToPlayHistory: this.addToPlayHistory.bind(this)
     };
   }
 
@@ -80,7 +82,7 @@ export default class SoundCloud {
     this.#accessToken = value;
   }
 
-  #getFetchHeaders(): Headers {
+  #getFetchHeaders(method: 'POST' | 'GET' = 'GET'): Headers {
     // From soundcloud.ts (https://github.com/Tenpi/soundcloud.ts)
     const headers = new Headers({
       Origin: 'https://soundcloud.com',
@@ -88,6 +90,10 @@ export default class SoundCloud {
       'User-Agent':
           'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67'
     });
+
+    if (method === 'POST') {
+      headers.set('Content-Type', 'application/json');
+    }
 
     if (this.#accessToken) {
       headers.set('Authorization', `OAuth ${this.#accessToken}`);
@@ -333,6 +339,34 @@ export default class SoundCloud {
     throw new TypeError(`Invalid type '${type}'`);
   }
 
+  protected async addToPlayHistory(trackOrUrn: Track | string, setOrUrn?: Album | Playlist | SystemPlaylist | string) {
+    const trackUrn = trackOrUrn instanceof Track ? trackOrUrn.apiInfo.urn : trackOrUrn;
+    let contextUrn;
+    if (typeof setOrUrn === 'string') {
+      contextUrn = setOrUrn;
+    }
+    else if (setOrUrn instanceof SystemPlaylist) {
+      contextUrn = setOrUrn.apiInfo.urn;
+    }
+    else if ((setOrUrn instanceof Album || setOrUrn instanceof Playlist) && setOrUrn.id) {
+      contextUrn = `soundcloud:playlists:${setOrUrn.id}`;
+    }
+    else {
+      contextUrn = null;
+    }
+    if (trackUrn) {
+      const params = this.#getCommonParams();
+      const endpoint = '/me/play-history';
+      const payload: Record<string, any> = {
+        track_urn: trackUrn
+      };
+      if (contextUrn) {
+        payload.context_urn = contextUrn;
+      }
+      return this.#postToEndpoint(endpoint, params, payload);
+    }
+  }
+
   /************************************************************/
   /* Misc                                                     */
   /************************************************************/
@@ -350,7 +384,8 @@ export default class SoundCloud {
   async #getCommonParams(options: SoundCloudPageOptions = {}): Promise<Record<string, any>> {
     const clientId = await this.getClientId();
     const params: Record<string, any> = {
-      client_id: clientId
+      client_id: clientId,
+      app_version: '1692105952'
     };
     if (options) {
       if (options.limit) params.limit = options.limit;
@@ -401,15 +436,32 @@ export default class SoundCloud {
   }
 
   async #fetchEndpoint(endpoint: string, params: Record<string, any>) {
-    const url = new URL(endpoint, API_BASE_URL);
-    for (const [ key, value ] of Object.entries(params)) {
-      url.searchParams.set(key, value);
-    }
-    const res = await fetch(url, {
+    const res = await fetch(this.#buildEndpointURL(endpoint, params), {
       headers: this.#getFetchHeaders()
     });
     this.#validateFetchResponse(res);
     return res.json();
+  }
+
+  async #postToEndpoint(endpoint: string, params: Record<string, any>, payload: Record<string, any>) {
+    const res = await fetch(this.#buildEndpointURL(endpoint, params), {
+      headers: this.#getFetchHeaders('POST'),
+      method: 'POST',
+      body: JSON.stringify(payload)
+    });
+    this.#validateFetchResponse(res);
+    if (res.status === 204) {
+      return true;
+    }
+    return res.json();
+  }
+
+  #buildEndpointURL(endpoint: string, params: Record<string, any>) {
+    const url = new URL(endpoint, API_BASE_URL);
+    for (const [ key, value ] of Object.entries(params)) {
+      url.searchParams.set(key, value);
+    }
+    return url;
   }
 
   #validateFetchResponse(res: Response) {
