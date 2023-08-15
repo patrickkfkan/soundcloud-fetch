@@ -12,8 +12,3 @@ scfetch.me.getLikes({ type: 'playlistAndAlbum'}).then((playlistsAndAlbums) => {
   console.log('--- Liked playlists / albums ---');
   print(playlistsAndAlbums);
 });
-
-scfetch.me.getLikes({ type: 'systemPlaylist'}).then((stations) => {
-  console.log('--- Liked stations ---');
-  print(stations);
-});

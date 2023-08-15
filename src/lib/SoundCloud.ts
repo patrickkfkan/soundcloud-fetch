@@ -36,6 +36,7 @@ export default class SoundCloud {
     getPlayHistory: SoundCloud['getPlayHistory'];
     getLibraryItems: SoundCloud['getLibraryItems'];
     getLikes: SoundCloud['getMyLikes'];
+    getStations: SoundCloud['getMyStations'];
   };
 
   #clientId?: string;
@@ -51,7 +52,8 @@ export default class SoundCloud {
       getProfile: this.getMyProfile.bind(this),
       getPlayHistory: this.getPlayHistory.bind(this),
       getLibraryItems: this.getLibraryItems.bind(this),
-      getLikes: this.getMyLikes.bind(this)
+      getLikes: this.getMyLikes.bind(this),
+      getStations: this.getMyStations.bind(this),
     };
   }
 
@@ -312,14 +314,16 @@ export default class SoundCloud {
     return this.#fetchCollection(endpoint, params, {asType: LibraryItem});
   }
 
-  protected async getMyLikes(options: SoundCloudPageOptions & {type: 'track' | 'playlistAndAlbum' | 'systemPlaylist'}) {
+  protected async getMyStations(options?: SoundCloudPageOptions) {
+    this.#ensureAccessToken();
     const params = await this.#getCommonParams(options);
+    const endpoint = '/me/library/stations';
+    return this.#fetchCollection(endpoint, params, {asType: LibraryItem});
+  }
+
+  protected async getMyLikes(options: SoundCloudPageOptions & {type: 'track' | 'playlistAndAlbum'}) {
     const { type } = options;
-    if (type === 'systemPlaylist') {
-      const endpoint = '/me/library/stations';
-      return this.#fetchCollection(endpoint, params, {asType: LibraryItem});
-    }
-    else if (type === 'track' || type === 'playlistAndAlbum') {
+    if (type === 'track' || type === 'playlistAndAlbum') {
       const myProfile = await this.getMyProfile();
       if (myProfile?.id !== undefined) {
         return this.getLikesByUser(myProfile.id, { ...options, type });
