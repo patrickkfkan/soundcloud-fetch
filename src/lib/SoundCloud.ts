@@ -397,18 +397,6 @@ export default class SoundCloud {
     return params;
   }
 
-  async getCommonParams(options: SoundCloudPageOptions) {
-    return this.#getCommonParams(options);
-  }
-
-  async fetchCollection<T extends EntityType>(
-    endpoint: string,
-    params: Record<string, any>,
-    options: CollectionOptions<T> = {}): Promise<Collection<T>>{
-
-    return this.#fetchCollection(endpoint, params, options);
-  }
-
   async #fetchCollection<T extends EntityType>(
     endpoint: string,
     params: Record<string, any>,
