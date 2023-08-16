@@ -43,10 +43,10 @@ Album {
   artwork: {
     default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
     t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-    crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
     t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-    large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
     t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+    crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+    large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
     badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
     small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
     tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
@@ -61,7 +61,7 @@ Album {
     display: '2023-04-13T17:46:04Z',
     release: '2023-04-13T00:00:00Z'
   },
-  sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+  sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
   texts: {
     title: 'KHODHA',
     description: 'Lyrics & Vocals: Bahram\n' +
@@ -74,11 +74,11 @@ Album {
       '© ℗ 2023 Peeleh • https://peeleh.com'
   },
   trackCount: 12,
-  socialData: { likesCount: 24220, repostsCount: 1182, managedByFeeds: false },
+  socialInfo: { likesCount: 24261, repostsCount: 1184, managedByFeeds: false },
   genre: 'Hip-hop & Rap',
   label: 'Peeleh',
   license: 'all-rights-reserved',
-  purchaseData: { title: 'دریافت از ایران', url: 'https://peeleh.com/khodha' },
+  purchaseInfo: { title: 'دریافت از ایران', url: 'https://peeleh.com/khodha' },
   tags: 'Experimental "Hip Hop"'
 }
 --- TRACKS ---
@@ -131,15 +131,15 @@ Album {
       modified: '2023-07-21T14:00:20Z',
       display: '2023-04-13T17:46:03Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
-      commentCount: 3020,
-      likesCount: 19851,
-      repostsCount: 407
+      commentCount: 3023,
+      likesCount: 19917,
+      repostsCount: 408
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 865808, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 873158, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -213,10 +213,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
@@ -337,15 +337,15 @@ Album {
       modified: '2023-07-21T14:00:20Z',
       display: '2023-04-13T17:46:01Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
-      commentCount: 3397,
-      likesCount: 18031,
-      repostsCount: 326
+      commentCount: 3402,
+      likesCount: 18071,
+      repostsCount: 327
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 646480, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 650783, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -419,10 +419,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
@@ -538,15 +538,15 @@ Album {
       modified: '2023-07-21T14:00:21Z',
       display: '2023-04-13T17:46:00Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
-      commentCount: 2225,
-      likesCount: 15731,
+      commentCount: 2238,
+      likesCount: 15770,
       repostsCount: 266
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 590503, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 594462, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -620,10 +620,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
@@ -751,15 +751,15 @@ Album {
       modified: '2023-07-21T14:00:20Z',
       display: '2023-04-13T17:45:59Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
-      commentCount: 1832,
-      likesCount: 12880,
+      commentCount: 1834,
+      likesCount: 12906,
       repostsCount: 197
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 464115, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 466949, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -833,10 +833,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
@@ -960,15 +960,15 @@ Album {
       modified: '2023-07-21T14:00:21Z',
       display: '2023-04-13T17:45:58Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
-      commentCount: 1828,
-      likesCount: 13203,
+      commentCount: 1832,
+      likesCount: 13230,
       repostsCount: 232
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 505742, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 508832, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1042,10 +1042,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
@@ -1168,15 +1168,15 @@ Album {
       modified: '2023-07-21T14:00:21Z',
       display: '2023-04-13T17:45:58Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
-      commentCount: 2133,
-      likesCount: 11847,
+      commentCount: 2135,
+      likesCount: 11867,
       repostsCount: 181
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 428810, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 431357, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1250,10 +1250,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
@@ -1379,15 +1379,15 @@ Album {
       modified: '2023-07-21T14:00:21Z',
       display: '2023-04-13T17:45:57Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
-      commentCount: 2073,
-      likesCount: 14662,
-      repostsCount: 270
+      commentCount: 2074,
+      likesCount: 14690,
+      repostsCount: 269
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 522482, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 525761, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1461,10 +1461,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
@@ -1590,15 +1590,15 @@ Album {
       modified: '2023-07-21T14:00:21Z',
       display: '2023-04-13T17:45:56Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
-      commentCount: 1835,
-      likesCount: 12331,
+      commentCount: 1841,
+      likesCount: 12366,
       repostsCount: 221
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 464141, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 467182, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1672,10 +1672,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
@@ -1817,15 +1817,15 @@ Album {
       modified: '2023-07-21T14:07:08Z',
       display: '2023-04-13T17:45:54Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
-      commentCount: 2134,
-      likesCount: 15682,
+      commentCount: 2135,
+      likesCount: 15732,
       repostsCount: 295
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 574403, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 579293, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1899,10 +1899,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-tiny.jpg',
@@ -2019,15 +2019,15 @@ Album {
       modified: '2023-07-21T14:00:21Z',
       display: '2023-04-13T17:45:53Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
-      commentCount: 1302,
-      likesCount: 10112,
-      repostsCount: 164
+      commentCount: 1306,
+      likesCount: 10117,
+      repostsCount: 165
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 391826, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 393821, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2101,10 +2101,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
@@ -2222,15 +2222,15 @@ Album {
       modified: '2023-07-21T14:00:21Z',
       display: '2023-04-13T17:45:52Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
-      commentCount: 1621,
-      likesCount: 12904,
+      commentCount: 1623,
+      likesCount: 12927,
       repostsCount: 273
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 451693, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 454382, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2304,10 +2304,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
@@ -2436,15 +2436,15 @@ Album {
       modified: '2023-07-21T14:00:21Z',
       display: '2023-04-13T17:45:51Z'
     },
-    downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-    socialData: {
+    downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+    socialInfo: {
       commentable: true,
       commentCount: 1720,
-      likesCount: 11742,
+      likesCount: 11757,
       repostsCount: 239
     },
-    sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackData: { playbackCount: 399656, policy: 'ALLOW' },
+    sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+    playbackInfo: { playbackCount: 401847, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2518,10 +2518,10 @@ Album {
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
       t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
       small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
       tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',

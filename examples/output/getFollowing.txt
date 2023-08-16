@@ -1,4 +1,4 @@
-GenericCollection {
+Collection {
   items: [
     User {
       type: 'User',
@@ -42,7 +42,7 @@ GenericCollection {
         last: 'Producer',
         username: 'Chris Luno'
       },
-      lastModified: '2023-08-12T10:12:40Z',
+      lastModified: '2023-08-15T11:36:08Z',
       permalink: { basic: 'chrisluno', full: 'https://soundcloud.com/chrisluno' },
       apiInfo: {
         uri: 'https://api.soundcloud.com/users/28353360',
@@ -100,7 +100,7 @@ GenericCollection {
         last: '',
         username: 'Enrico & Carmo'
       },
-      lastModified: '2023-04-12T20:37:29Z',
+      lastModified: '2023-08-14T20:06:03Z',
       permalink: {
         basic: 'enricoecarmo',
         full: 'https://soundcloud.com/enricoecarmo'
@@ -219,5 +219,6 @@ GenericCollection {
       badges: { pro: false, proUnlimited: true, verified: true }
     }
   ],
-  nextUri: null
+  nextUri: null,
+  continuation: null
 }

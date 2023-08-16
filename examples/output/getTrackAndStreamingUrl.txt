@@ -8,15 +8,15 @@ Track {
     modified: '2011-01-28T01:24:46Z',
     display: '2011-01-28T01:24:46Z'
   },
-  downloadData: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
-  socialData: {
+  downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+  socialInfo: {
     commentable: true,
     commentCount: 0,
     likesCount: 2,
     repostsCount: 1
   },
-  sharingData: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-  playbackData: { playbackCount: 37, policy: 'ALLOW' },
+  sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+  playbackInfo: { playbackCount: 37, policy: 'ALLOW' },
   isBlocked: false,
   isSnipped: false,
   mediaInfo: {
@@ -98,4 +98,4 @@ Track {
   }
 }
 --------------
-Streaming URL: https://cf-hls-media.sndcdn.com/playlist/bKfXNLtfMM09.128.mp3/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLWhscy1tZWRpYS5zbmRjZG4uY29tL3BsYXlsaXN0L2JLZlhOTHRmTU0wOS4xMjgubXAzL3BsYXlsaXN0Lm0zdTgqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkxODYxMzI4fX19XX0_&Signature=f8la3CErovYgNhmH3JylSbPl98-YGOchvAw00c9VRRkKkWfOTtvlGslW-hCXImQuUlsYi4EkJ2cWPs52erpa-AV~prPjjMo~5yxTJUfEBOwAUF7kBfxKvnZ-yZEsZl3d4F9Q34XHjxPFifm89yQa4iq9IeJeMDVIx1qlXCdW4L-c8yXU-iTT~CYe7l8Y1maI8GyECyl8~fHzjbCbSvcoMRvrOQYWNNZoDuxWp0UEk95wm2BcEJ3ACKuQnQUnblJwiM~S-1R-X2pbKHHMEsLwEHnrSNkvcxzYQlQuvHdFN3P6TnSLFGV9aQ02vPHi3cf1VMuuKVqLGHU0x2a1v7vGMw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ
+Streaming URL: https://cf-hls-media.sndcdn.com/playlist/bKfXNLtfMM09.128.mp3/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLWhscy1tZWRpYS5zbmRjZG4uY29tL3BsYXlsaXN0L2JLZlhOTHRmTU0wOS4xMjgubXAzL3BsYXlsaXN0Lm0zdTgqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkyMTg4MjI2fX19XX0_&Signature=P4QFA4oTfO599S~KcNZaysUyhRtdyp26AP1Lmiz8iCsz17iYVgVkSYBE7QMV68UoL61KE7PjilNsGgqBxu1HO~Ezj9h7vGTW1oDzTMfIhiLtIH9fwIwSoVs7MyIZwMrjel0pVbtddotdP1U0jyWxG~GqQUtPPk6Zi~codQYfV-kDbVXL6iPvo5mRtqgr8ntmtxttSIuMbbszSdvDoJojOU~kSYuxDaS9als3pmdbqcWMSlC1AMb-SZ5Kk4ByR-fbeJKv7EPJ4AIt-6-NUdupD~oCTobT5AbMFTp04p2vQF1-Q-gl6ZgauP5yubYk8iYVID6u~nnp5jGXLUl~D6QLWw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ

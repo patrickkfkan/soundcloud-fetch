@@ -1,4 +1,4 @@
-GenericCollection {
+Collection {
   items: [
     Album {
       type: 'Album',
@@ -47,7 +47,7 @@ GenericCollection {
         display: '2019-05-23T15:48:31Z',
         release: '2019-04-14T00:00:00Z'
       },
-      sharingData: {
+      sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
@@ -57,11 +57,11 @@ GenericCollection {
         description: ''
       },
       trackCount: 9,
-      socialData: { likesCount: 3508, repostsCount: 155, managedByFeeds: false },
+      socialInfo: { likesCount: 3511, repostsCount: 156, managedByFeeds: false },
       genre: 'Extra Funky',
       label: null,
       license: 'cc-',
-      purchaseData: { title: null, url: null },
+      purchaseInfo: { title: null, url: null },
       tags: ''
     },
     Album {
@@ -79,7 +79,9 @@ GenericCollection {
         },
         location: { city: null, country: null },
         isVerified: false,
-        avatar: 'https://a1.sndcdn.com/images/default_avatar_large.png',
+        avatar: {
+          default: 'https://a1.sndcdn.com/images/default_avatar_large.png'
+        },
         badges: { pro: false, proUnlimited: false, verified: false }
       },
       permalink: {
@@ -91,10 +93,10 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-tiny.jpg',
@@ -109,18 +111,18 @@ GenericCollection {
         display: '2021-02-08T00:00:00Z',
         release: '2021-02-08T00:00:00Z'
       },
-      sharingData: {
+      sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
       texts: { title: 'Hello Together', description: null },
       trackCount: 10,
-      socialData: { likesCount: 9, repostsCount: 0, managedByFeeds: true },
+      socialInfo: { likesCount: 10, repostsCount: 0, managedByFeeds: true },
       genre: 'Pop',
       label: null,
       license: 'all-rights-reserved',
-      purchaseData: { title: null, url: null },
+      purchaseInfo: { title: null, url: null },
       tags: ''
     },
     Album {
@@ -165,10 +167,10 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-tiny.jpg',
@@ -183,18 +185,18 @@ GenericCollection {
         display: '2022-04-08T00:00:00Z',
         release: '2022-04-08T00:00:00Z'
       },
-      sharingData: {
+      sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
       texts: { title: 'Um, Hello', description: null },
       trackCount: 11,
-      socialData: { likesCount: 326, repostsCount: 20, managedByFeeds: true },
+      socialInfo: { likesCount: 328, repostsCount: 20, managedByFeeds: true },
       genre: 'R&B',
       label: null,
       license: 'all-rights-reserved',
-      purchaseData: { title: null, url: null },
+      purchaseInfo: { title: null, url: null },
       tags: ''
     },
     Album {
@@ -237,10 +239,10 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-tiny.jpg',
@@ -255,7 +257,7 @@ GenericCollection {
         display: '2014-01-09T10:59:22Z',
         release: null
       },
-      sharingData: {
+      sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
@@ -267,11 +269,11 @@ GenericCollection {
           'Executive Produced by: Chris Luu, Andrew Kelly, and Sefo "Bigg Seff" Latu'
       },
       trackCount: 16,
-      socialData: { likesCount: 2073, repostsCount: 708, managedByFeeds: false },
+      socialInfo: { likesCount: 2074, repostsCount: 708, managedByFeeds: false },
       genre: '454',
       label: '',
       license: 'all-rights-reserved',
-      purchaseData: { title: null, url: null },
+      purchaseInfo: { title: null, url: null },
       tags: 'Life Entertainment Adough A-Dough Drew Deezy Cam Nitty Cutthroat Mode Clic Latasha Lee uce nation'
     },
     Album {
@@ -311,10 +313,10 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-tiny.jpg',
@@ -329,7 +331,7 @@ GenericCollection {
         display: '2016-10-02T09:12:34Z',
         release: '2016-10-01T00:00:00Z'
       },
-      sharingData: {
+      sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
@@ -342,11 +344,11 @@ GenericCollection {
           'download at https://osno1.bandcamp.com/releases'
       },
       trackCount: 5,
-      socialData: { likesCount: 3501, repostsCount: 229, managedByFeeds: false },
+      socialInfo: { likesCount: 3502, repostsCount: 229, managedByFeeds: false },
       genre: 'Alternative Rock',
       label: null,
       license: 'all-rights-reserved',
-      purchaseData: { title: null, url: null },
+      purchaseInfo: { title: null, url: null },
       tags: 'emo trans garbage'
     },
     Album {
@@ -389,10 +391,10 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-tiny.jpg',
@@ -407,18 +409,18 @@ GenericCollection {
         display: '2018-08-09T19:01:45Z',
         release: '2018-08-09T00:00:00Z'
       },
-      sharingData: {
+      sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
       texts: { title: 'HELLO MY NAME', description: '' },
       trackCount: 9,
-      socialData: { likesCount: 1444, repostsCount: 109, managedByFeeds: false },
+      socialInfo: { likesCount: 1447, repostsCount: 109, managedByFeeds: false },
       genre: 'Trap',
       label: null,
       license: 'all-rights-reserved',
-      purchaseData: { title: null, url: null },
+      purchaseInfo: { title: null, url: null },
       tags: ''
     },
     Album {
@@ -461,10 +463,10 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-tiny.jpg',
@@ -479,7 +481,7 @@ GenericCollection {
         display: '2023-07-10T19:02:42Z',
         release: '2023-07-10T00:00:00Z'
       },
-      sharingData: {
+      sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
@@ -494,11 +496,77 @@ GenericCollection {
           'New album, this summer'
       },
       trackCount: 5,
-      socialData: { likesCount: 31, repostsCount: 7, managedByFeeds: false },
+      socialInfo: { likesCount: 31, repostsCount: 7, managedByFeeds: false },
       genre: '',
       label: '',
       license: 'all-rights-reserved',
-      purchaseData: { title: null, url: null },
+      purchaseInfo: { title: null, url: null },
+      tags: ''
+    },
+    Album {
+      type: 'Album',
+      id: 1669925975,
+      user: User {
+        type: 'User',
+        id: 327669468,
+        names: {
+          full: '54 Swagga',
+          first: '54',
+          last: 'Swagga',
+          username: '54 Swagga'
+        },
+        lastModified: '2023-04-06T06:58:09Z',
+        permalink: {
+          basic: 'vivswagga',
+          full: 'https://soundcloud.com/vivswagga'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/327669468',
+          urn: 'soundcloud:users:327669468'
+        },
+        location: { city: 'Durban', country: 'ZA' },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      },
+      permalink: {
+        basic: 'hellowin-1',
+        full: 'https://soundcloud.com/vivswagga/sets/hellowin-1'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1669925975' },
+      artwork: undefined,
+      setType: 'ep',
+      duration: 1638139,
+      dates: {
+        created: '2023-08-11T19:32:15Z',
+        published: '2023-08-11T19:36:37Z',
+        modified: '2023-08-11T19:36:37Z',
+        display: '2023-08-11T19:36:37Z',
+        release: '2023-08-12T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: { title: "HELL'O'WIN", description: '' },
+      trackCount: 10,
+      socialInfo: { likesCount: 12, repostsCount: 2, managedByFeeds: false },
+      genre: 'Hip-hop & Rap',
+      label: '',
+      license: 'all-rights-reserved',
+      purchaseInfo: { title: null, url: null },
       tags: ''
     },
     Album {
@@ -543,10 +611,10 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-tiny.jpg',
@@ -561,89 +629,24 @@ GenericCollection {
         display: '2022-06-03T00:00:00Z',
         release: '2022-06-03T00:00:00Z'
       },
-      sharingData: {
+      sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
       texts: { title: 'Hello Poison', description: null },
       trackCount: 15,
-      socialData: { likesCount: 434, repostsCount: 34, managedByFeeds: true },
+      socialInfo: { likesCount: 436, repostsCount: 34, managedByFeeds: true },
       genre: 'R & B',
       label: null,
       license: 'all-rights-reserved',
-      purchaseData: { title: null, url: null },
+      purchaseInfo: { title: null, url: null },
       tags: ''
-    },
-    Album {
-      type: 'Album',
-      id: 1567609861,
-      user: User {
-        type: 'User',
-        id: 823991752,
-        names: {
-          full: 'Eadaoin McCauley',
-          first: 'Eadaoin',
-          last: 'McCauley',
-          username: '☆HelloKittyGirl2011♡'
-        },
-        lastModified: '2022-10-30T14:38:04Z',
-        permalink: {
-          basic: 'eadaoin-mccauley',
-          full: 'https://soundcloud.com/eadaoin-mccauley'
-        },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/823991752',
-          urn: 'soundcloud:users:823991752'
-        },
-        location: { city: 'Maghera and UK', country: 'IE' },
-        isVerified: false,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-cUU76jDUtnOuLog6-SI3UXQ-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: false, verified: false }
-      },
-      permalink: {
-        basic: 'precure-transformation-ost',
-        full: 'https://soundcloud.com/eadaoin-mccauley/sets/precure-transformation-ost'
-      },
-      isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1567609861' },
-      artwork: undefined,
-      setType: 'album',
-      duration: 3648443,
-      dates: {
-        created: '2023-02-08T20:01:23Z',
-        published: '2023-02-08T20:01:23Z',
-        modified: '2023-06-29T14:52:57Z',
-        display: '2023-02-08T20:01:23Z',
-        release: '2023-02-08T00:00:00Z'
-      },
-      sharingData: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      texts: {
-        title: 'Precure Transformation OST',
-        description: "Let's Transform Girls"
-      },
-      trackCount: 38,
-      socialData: { likesCount: 12, repostsCount: 0, managedByFeeds: false },
-      genre: 'Soundtrack',
-      label: '',
-      license: 'all-rights-reserved',
-      purchaseData: { title: null, url: null },
-      tags: 'Orchestral'
     }
   ],
-  nextUri: 'https://api-v2.soundcloud.com/search/albums?query_urn=soundcloud%3Asearch%3A9ab6d1cc452a47eeb1d8765cc167aab2&limit=10&offset=10&q=Hello'
+  nextUri: 'https://api-v2.soundcloud.com/search/albums?query_urn=soundcloud%3Asearch%3Afacac1902dcc42c59d3891cd456d1b26&limit=10&offset=10&q=Hello',
+  continuation: CollectionContinuation {
+    uri: 'https://api-v2.soundcloud.com/search/albums?query_urn=soundcloud%3Asearch%3Afacac1902dcc42c59d3891cd456d1b26&limit=10&offset=10&q=Hello',
+    opts: { requireTypes: [class Album extends Playlist] { type: 'Album' } }
+  }
 }

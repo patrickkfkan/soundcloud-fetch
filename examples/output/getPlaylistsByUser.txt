@@ -1,4 +1,4 @@
-GenericCollection {
+Collection {
   items: [
     Playlist {
       type: 'Playlist',
@@ -45,30 +45,30 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-tiny.jpg',
         mini: 'https://i1.sndcdn.com/artworks-TXuZUXLZFcyhLsIj-ile2Dw-mini.jpg'
       },
       setType: '',
-      duration: 7705837,
+      duration: 7931745,
       dates: {
         created: '2023-05-02T12:28:25Z',
         published: '2023-05-22T11:34:21Z',
-        modified: '2023-08-09T09:05:09Z',
+        modified: '2023-08-16T09:46:15Z',
         display: '2023-05-22T11:34:21Z'
       },
-      sharingData: { shareability: 'public', secretToken: null },
+      sharingInfo: { shareability: 'public', secretToken: null },
       texts: {
         title: 'Wildhearts',
         description: 'Carefree country music to uplift and let loose. Updates every Wednesday.'
       },
-      trackCount: 39,
-      socialData: { likesCount: 505, repostsCount: 29, managedByFeeds: false }
+      trackCount: 40,
+      socialInfo: { likesCount: 518, repostsCount: 30, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -115,27 +115,27 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-tiny.jpg',
         mini: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-mini.jpg'
       },
       setType: '',
-      duration: 10276730,
+      duration: 10267744,
       dates: {
         created: '2023-05-02T12:28:25Z',
         published: '2023-05-22T11:34:21Z',
-        modified: '2023-08-09T09:05:05Z',
+        modified: '2023-08-16T09:46:11Z',
         display: '2023-05-22T11:34:21Z'
       },
-      sharingData: { shareability: 'public', secretToken: null },
+      sharingInfo: { shareability: 'public', secretToken: null },
       texts: { title: 'Synth City', description: '' },
-      trackCount: 38,
-      socialData: { likesCount: 1171, repostsCount: 56, managedByFeeds: false }
+      trackCount: 40,
+      socialInfo: { likesCount: 1238, repostsCount: 58, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -182,30 +182,30 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-tiny.jpg',
         mini: 'https://i1.sndcdn.com/artworks-IUtJNffRHO9OnoL1-RvqknQ-mini.jpg'
       },
       setType: '',
-      duration: 12232983,
+      duration: 13216651,
       dates: {
         created: '2023-05-02T12:28:25Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-09T09:05:08Z',
+        modified: '2023-08-16T09:46:14Z',
         display: '2023-05-22T11:34:20Z'
       },
-      sharingData: { shareability: 'public', secretToken: null },
+      sharingInfo: { shareability: 'public', secretToken: null },
       texts: {
         title: 'Saturday Night Fever',
         description: 'Freshly uploaded disco beats and funky rhythms to transport you back to the golden age. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialData: { likesCount: 2512, repostsCount: 61, managedByFeeds: false }
+      socialInfo: { likesCount: 2639, repostsCount: 62, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -252,30 +252,30 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-tiny.jpg',
         mini: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-mini.jpg'
       },
       setType: '',
-      duration: 7814949,
+      duration: 7678643,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-09T09:05:34Z',
+        modified: '2023-08-16T09:46:38Z',
         display: '2023-05-22T11:34:20Z'
       },
-      sharingData: { shareability: 'public', secretToken: null },
+      sharingInfo: { shareability: 'public', secretToken: null },
       texts: {
         title: 'Pop Roadtrip',
         description: 'Pop songs fit for the thrill of the open road. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialData: { likesCount: 503, repostsCount: 20, managedByFeeds: false }
+      socialInfo: { likesCount: 528, repostsCount: 20, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -322,30 +322,30 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-tiny.jpg',
         mini: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-mini.jpg'
       },
       setType: '',
-      duration: 9280259,
+      duration: 9366437,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-09T09:05:19Z',
+        modified: '2023-08-16T09:46:24Z',
         display: '2023-05-22T11:34:20Z'
       },
-      sharingData: { shareability: 'public', secretToken: null },
+      sharingInfo: { shareability: 'public', secretToken: null },
       texts: {
         title: 'Funktastic',
         description: 'Freshly uplaoded feel good Funk tunes. Updates every Wednesday.'
       },
-      trackCount: 40,
-      socialData: { likesCount: 467, repostsCount: 16, managedByFeeds: false }
+      trackCount: 39,
+      socialInfo: { likesCount: 489, repostsCount: 16, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -392,30 +392,30 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-tiny.jpg',
         mini: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-mini.jpg'
       },
       setType: '',
-      duration: 8240197,
+      duration: 8228649,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-09T09:05:35Z',
+        modified: '2023-08-16T09:46:38Z',
         display: '2023-05-22T11:34:20Z'
       },
-      sharingData: { shareability: 'public', secretToken: null },
+      sharingInfo: { shareability: 'public', secretToken: null },
       texts: {
         title: 'Fruit Loops',
         description: 'Get a burst of flavour from these feel-good downtempo and lofi rhythms. Updates every. Wednesday.'
       },
       trackCount: 40,
-      socialData: { likesCount: 191, repostsCount: 8, managedByFeeds: false }
+      socialInfo: { likesCount: 201, repostsCount: 8, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -462,30 +462,30 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-tiny.jpg',
         mini: 'https://i1.sndcdn.com/artworks-xJTTT6CNqVxTNMAN-S2kJCQ-mini.jpg'
       },
       setType: '',
-      duration: 6881541,
+      duration: 6437017,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-09T09:06:01Z',
+        modified: '2023-08-16T09:47:02Z',
         display: '2023-05-22T11:34:20Z'
       },
-      sharingData: { shareability: 'public', secretToken: null },
+      sharingInfo: { shareability: 'public', secretToken: null },
       texts: {
         title: 'Feel Good Flows',
         description: 'Quirky rap and trap to boost your mood. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialData: { likesCount: 274, repostsCount: 8, managedByFeeds: false }
+      socialInfo: { likesCount: 288, repostsCount: 8, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -532,30 +532,30 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-tiny.jpg',
         mini: 'https://i1.sndcdn.com/artworks-ekO90lnrPHXHkOyy-HlPT4g-mini.jpg'
       },
       setType: '',
-      duration: 8007835,
+      duration: 7711162,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-09T09:05:48Z',
+        modified: '2023-08-16T09:46:50Z',
         display: '2023-05-22T11:34:20Z'
       },
-      sharingData: { shareability: 'public', secretToken: null },
+      sharingInfo: { shareability: 'public', secretToken: null },
       texts: {
         title: 'Elevated Frequencies',
         description: 'Find your frequency with this selection of euphoric pop songs. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialData: { likesCount: 707, repostsCount: 12, managedByFeeds: false }
+      socialInfo: { likesCount: 746, repostsCount: 12, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -602,30 +602,30 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-tiny.jpg',
         mini: 'https://i1.sndcdn.com/artworks-laOHlG3CYX2zpLqr-Qzd3Hg-mini.jpg'
       },
       setType: '',
-      duration: 7511355,
+      duration: 7815785,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
-        modified: '2023-08-09T09:06:16Z',
+        modified: '2023-08-16T09:47:15Z',
         display: '2023-05-22T11:34:20Z'
       },
-      sharingData: { shareability: 'public', secretToken: null },
+      sharingInfo: { shareability: 'public', secretToken: null },
       texts: {
         title: 'Electric Energy',
         description: 'Electrifying selection of Pop music to get charged up. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialData: { likesCount: 348, repostsCount: 15, managedByFeeds: false }
+      socialInfo: { likesCount: 369, repostsCount: 15, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -672,31 +672,35 @@ GenericCollection {
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-crop.jpg',
         t300x300: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-large.jpg',
         t67x67: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-large.jpg',
         badge: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-badge.jpg',
         small: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-small.jpg',
         tiny: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-tiny.jpg',
         mini: 'https://i1.sndcdn.com/artworks-ez7huOYlnkP8slzA-c0JDtw-mini.jpg'
       },
       setType: '',
-      duration: 7501478,
+      duration: 7097495,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:19Z',
-        modified: '2023-08-09T09:05:27Z',
+        modified: '2023-08-16T09:46:30Z',
         display: '2023-05-22T11:34:19Z'
       },
-      sharingData: { shareability: 'public', secretToken: null },
+      sharingInfo: { shareability: 'public', secretToken: null },
       texts: {
         title: 'EDM Uplift',
         description: 'Elevate your day with this high energy EDM playlist. Updates every Wednesday.'
       },
-      trackCount: 39,
-      socialData: { likesCount: 682, repostsCount: 16, managedByFeeds: false }
+      trackCount: 40,
+      socialInfo: { likesCount: 728, repostsCount: 16, managedByFeeds: false }
     }
   ],
-  nextUri: 'https://api-v2.soundcloud.com/users/1179174835/playlists_without_albums?offset=10&limit=10'
+  nextUri: 'https://api-v2.soundcloud.com/users/1179174835/playlists_without_albums?offset=10&limit=10',
+  continuation: CollectionContinuation {
+    uri: 'https://api-v2.soundcloud.com/users/1179174835/playlists_without_albums?offset=10&limit=10',
+    opts: { requireTypes: [class Playlist extends Set] { type: 'Playlist' } }
+  }
 }
