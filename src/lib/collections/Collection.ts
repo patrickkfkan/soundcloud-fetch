@@ -1,17 +1,15 @@
 import SoundCloud from '../SoundCloud.js';
 import EntityBuilder from '../utils/EntityBuilder.js';
 import { EntityClasses, EntityClassesToTypes, EntityConstructor, EntityType } from '../utils/EntityTypes.js';
+import CollectionContinuation from './CollectionContinuation.js';
 
 export type CollectionOptions<T extends EntityType> = {
   requireTypes?: EntityClasses<T>
+  asType?: undefined;
 } | {
+  requireTypes?: undefined;
   asType: EntityConstructor<T>
 };
-
-export interface CollectionContinuation<T extends EntityType> {
-  uri: string;
-  opts: CollectionOptions<T>;
-}
 
 export default class Collection<T extends EntityType> {
 
@@ -35,10 +33,7 @@ export default class Collection<T extends EntityType> {
     this.nextUri = this.getJSON<string>('next_href');
 
     if (this.nextUri) {
-      this.continuation = {
-        uri: this.nextUri,
-        opts
-      };
+      this.continuation = new CollectionContinuation(this.nextUri, opts);
     }
     else {
       this.continuation = null;
@@ -59,14 +54,8 @@ export default class Collection<T extends EntityType> {
       itemsData = [];
     }
 
-    let requireTypes: EntityClasses<T>;
-    let asType: EntityConstructor<T>;
-    if (Reflect.has(opts, 'requireTypes')) {
-      requireTypes = Reflect.get(opts, 'requireTypes');
-    }
-    else if (Reflect.has(opts, 'asType')) {
-      asType = Reflect.get(opts, 'asType');
-    }
+    const requireTypes = opts.requireTypes;
+    const asType = opts.asType;
 
     const client = this.getClient();
     return itemsData.reduce((result, item) => {

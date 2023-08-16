@@ -31,3 +31,37 @@ export type EntityClassesToTypes<K> =
   K extends EntityConstructor<infer U> ? U :
   K extends EntityConstructor<infer U>[] ? U :
   never;
+
+function getEntityClassMap() {
+  return {
+    'Album': Album,
+    'Playlist': Playlist,
+    'Selection': Selection,
+    'SystemPlaylist': SystemPlaylist,
+    'Track': Track,
+    'User': User,
+    'Like': Like,
+    'PlayHistoryItem': PlayHistoryItem,
+    'LibraryItem': LibraryItem
+  };
+}
+
+export function getEntityClassName<T extends EntityType>(value: EntityConstructor<T>) {
+  const map = getEntityClassMap();
+  for (const [ name, cl ] of Object.entries(map)) {
+    if (cl === value) {
+      return name;
+    }
+  }
+  return null;
+}
+
+export function getEntityClassByName(name: string) {
+  const map = getEntityClassMap();
+  for (const [ clName, cl ] of Object.entries(map)) {
+    if (clName === name) {
+      return cl;
+    }
+  }
+  return null;
+}

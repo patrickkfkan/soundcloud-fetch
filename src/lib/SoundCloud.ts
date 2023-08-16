@@ -8,7 +8,7 @@ import Track from './entities/Track.js';
 import SystemPlaylist from './entities/SystemPlaylist.js';
 import User from './entities/User.js';
 import Album from './entities/Album.js';
-import Collection, { CollectionContinuation, CollectionOptions } from './collections/Collection.js';
+import Collection, { CollectionOptions } from './collections/Collection.js';
 import Selection from './entities/Selection.js';
 import { EntityClasses, EntityClassesToTypes, EntityType } from './utils/EntityTypes.js';
 import CollectionBuilder from './utils/CollectionBuilder.js';
@@ -17,6 +17,7 @@ import LibraryItem from './entities/LibraryItem.js';
 import PlayHistoryItem from './entities/PlayHistoryItem.js';
 import FetchError from './utils/FetchError.js';
 import Like from './entities/Like.js';
+import CollectionContinuation from './collections/CollectionContinuation.js';
 
 export interface SoundCloudInitArgs {
   clientId?: string;
@@ -407,11 +408,11 @@ export default class SoundCloud {
     }
     const json = await this.#fetchEndpoint(endpoint, params);
 
-    if (Reflect.has(options, 'asType')) {
-      return CollectionBuilder.buildAs(json, this, Reflect.get(options, 'asType'));
+    if (options.asType) {
+      return CollectionBuilder.buildAs(json, this, options.asType);
     }
 
-    return CollectionBuilder.build(json, this, Reflect.get(options, 'requireTypes'));
+    return CollectionBuilder.build(json, this, options.requireTypes);
   }
 
   async #fetchEntity<T extends EntityType, K extends EntityClasses<T>>(
