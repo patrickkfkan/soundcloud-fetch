@@ -2,7 +2,7 @@ import fetch, { Headers, Response } from 'node-fetch';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import sckey from 'soundcloud-key-fetch';
-import { API_BASE_URL, QUERY_MAX_LIMIT } from './utils/Constants.js';
+import { API_BASE_URL, LOCALES, QUERY_MAX_LIMIT } from './utils/Constants.js';
 import Playlist from './entities/Playlist.js';
 import Track from './entities/Track.js';
 import SystemPlaylist from './entities/SystemPlaylist.js';
@@ -22,7 +22,7 @@ import CollectionContinuation from './collections/CollectionContinuation.js';
 export interface SoundCloudInitArgs {
   clientId?: string;
   accessToken?: string;
-  locale?: string;
+  locale?: typeof LOCALES[number];
 }
 
 export interface GetCollectionOptions {
