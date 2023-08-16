@@ -153,6 +153,9 @@ export default class SoundCloud {
   }
 
   async getTracks(ids: number | number[]): Promise<Track[]> {
+    if (Array.isArray(ids) && ids.length === 0) {
+      return [];
+    }
     const limit = QUERY_MAX_LIMIT;
     const params = await this.#getCommonParams();
     params.linked_partitioning = 0;

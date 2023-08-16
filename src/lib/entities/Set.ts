@@ -50,7 +50,7 @@ export default abstract class Set<ID extends string | number> extends Entity {
 
     const trackIds = await this.#getTrackIds();
     let result: Track[] | null = null;
-    if (trackIds) {
+    if (trackIds && trackIds.length > 0) {
       let useIds = trackIds;
       if (limit) {
         useIds = trackIds.slice(offset, limit + offset);
