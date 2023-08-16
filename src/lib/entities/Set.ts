@@ -1,4 +1,4 @@
-import SoundCloud, { SoundCloudPageOptions } from '../SoundCloud.js';
+import SoundCloud from '../SoundCloud.js';
 import Entity from './Entity.js';
 import Track from './Track.js';
 import User from './User.js';
@@ -38,8 +38,8 @@ export default abstract class Set<ID extends string | number> extends Entity {
     this.#cache = {};
   }
 
-  async getTracks(options?: SoundCloudPageOptions) {
-    const offset = Number(options?.offset) || 0;
+  async getTracks(options?: { offset?: number; limit?: number; }) {
+    const offset = options?.offset || 0;
     const limit = options?.limit;
     const cacheKey: TracksCacheKey = limit ?
       `tracks.${offset}.${limit}` : `tracks.${offset}`;

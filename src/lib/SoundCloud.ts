@@ -25,9 +25,8 @@ export interface SoundCloudInitArgs {
   locale?: string;
 }
 
-export interface SoundCloudPageOptions {
+export interface GetCollectionOptions {
   limit?: number;
-  offset?: number | string;
 }
 
 export default class SoundCloud {
@@ -107,7 +106,7 @@ export default class SoundCloud {
   /* Selection                                                */
   /************************************************************/
 
-  async getMixedSelections(options?: SoundCloudPageOptions) {
+  async getMixedSelections(options?: GetCollectionOptions) {
     const params = await this.#getCommonParams(options);
     const endpoint = '/mixed-selections';
     return this.#fetchCollection(endpoint, params, { requireTypes: Selection });
@@ -130,13 +129,13 @@ export default class SoundCloud {
     return this.#fetchEntity(endpoint, params, SystemPlaylist);
   }
 
-  async getPlaylistsByUser(id: number, options?: SoundCloudPageOptions) {
+  async getPlaylistsByUser(id: number, options?: GetCollectionOptions) {
     const params = await this.#getCommonParams(options);
     const endpoint = `/users/${id}/playlists_without_albums`;
     return this.#fetchCollection(endpoint, params, {requireTypes: Playlist});
   }
 
-  async getAlbumsByUser(id: number, options?: SoundCloudPageOptions) {
+  async getAlbumsByUser(id: number, options?: GetCollectionOptions) {
     const params = await this.#getCommonParams(options);
     const endpoint = `/users/${id}/albums`;
     return this.#fetchCollection(endpoint, params, {requireTypes: Album});
@@ -146,7 +145,7 @@ export default class SoundCloud {
   /* Track                                                    */
   /************************************************************/
 
-  async getTopFeaturedTracks(options?: SoundCloudPageOptions & { genre?: string }) {
+  async getTopFeaturedTracks(options?: GetCollectionOptions & { genre?: string }) {
     const params = await this.#getCommonParams(options);
     const genre = options?.genre || 'all-music';
     const endpoint = `/featured_tracks/top/${genre}`;
@@ -179,7 +178,7 @@ export default class SoundCloud {
 
   }
 
-  async getTracksByUser(id: number, options?: SoundCloudPageOptions) {
+  async getTracksByUser(id: number, options?: GetCollectionOptions) {
     const params = await this.#getCommonParams(options);
     params.representation = 'full';
     const endpoint = `/users/${id}/tracks`;
@@ -216,7 +215,7 @@ export default class SoundCloud {
     return this.#fetchEntity(endpoint, params, User);
   }
 
-  async getFollowing(userId: number, options?: SoundCloudPageOptions) {
+  async getFollowing(userId: number, options?: GetCollectionOptions) {
     const params = await this.#getCommonParams(options);
     const endpoint = `/users/${userId}/followings`;
     return this.#fetchCollection(endpoint, params, {requireTypes: User});
@@ -226,11 +225,11 @@ export default class SoundCloud {
   /* Search                                                   */
   /************************************************************/
 
-  async search(q: string, options: SoundCloudPageOptions & { type: 'playlist' }): Promise<Collection<Playlist>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'album' }): Promise<Collection<Album>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'track' }): Promise<Collection<Track>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'user' }): Promise<Collection<User>>;
-  async search(q: string, options: SoundCloudPageOptions & { type: 'playlist' | 'album' | 'track' | 'user' }): Promise<Collection<EntityType>> {
+  async search(q: string, options: GetCollectionOptions & { type: 'playlist' }): Promise<Collection<Playlist>>;
+  async search(q: string, options: GetCollectionOptions & { type: 'album' }): Promise<Collection<Album>>;
+  async search(q: string, options: GetCollectionOptions & { type: 'track' }): Promise<Collection<Track>>;
+  async search(q: string, options: GetCollectionOptions & { type: 'user' }): Promise<Collection<User>>;
+  async search(q: string, options: GetCollectionOptions & { type: 'playlist' | 'album' | 'track' | 'user' }): Promise<Collection<EntityType>> {
     const params = await this.#getCommonParams(options);
     params.q = q;
     let type = 'all';
@@ -260,7 +259,7 @@ export default class SoundCloud {
   /* Likes                                                    */
   /************************************************************/
 
-  async getLikesByUser(userId: number, options: SoundCloudPageOptions & {type: 'track' | 'playlistAndAlbum'}) {
+  async getLikesByUser(userId: number, options: GetCollectionOptions & {type: 'track' | 'playlistAndAlbum'}) {
     const params = await this.#getCommonParams(options);
     const { type } = options;
     let endpoint;
@@ -288,7 +287,7 @@ export default class SoundCloud {
     }
   }
 
-  protected async getPlayHistory(options: SoundCloudPageOptions & {type: 'track' | 'set'}) {
+  protected async getPlayHistory(options: GetCollectionOptions & {type: 'track' | 'set'}) {
     this.#ensureAccessToken();
     const params = await this.#getCommonParams(options);
     const { type } = options;
@@ -314,21 +313,21 @@ export default class SoundCloud {
     return this.#fetchEntity(endpoint, params, User);
   }
 
-  protected async getLibraryItems(options?: SoundCloudPageOptions) {
+  protected async getLibraryItems(options?: GetCollectionOptions) {
     this.#ensureAccessToken();
     const params = await this.#getCommonParams(options);
     const endpoint = '/me/library/all';
     return this.#fetchCollection(endpoint, params, {asType: LibraryItem});
   }
 
-  protected async getMyStations(options?: SoundCloudPageOptions) {
+  protected async getMyStations(options?: GetCollectionOptions) {
     this.#ensureAccessToken();
     const params = await this.#getCommonParams(options);
     const endpoint = '/me/library/stations';
     return this.#fetchCollection(endpoint, params, {asType: LibraryItem});
   }
 
-  protected async getMyLikes(options: SoundCloudPageOptions & {type: 'track' | 'playlistAndAlbum'}) {
+  protected async getMyLikes(options: GetCollectionOptions & {type: 'track' | 'playlistAndAlbum'}) {
     const { type } = options;
     if (type === 'track' || type === 'playlistAndAlbum') {
       const myProfile = await this.getMyProfile();
@@ -382,15 +381,14 @@ export default class SoundCloud {
   /* Internal                                                 */
   /************************************************************/
 
-  async #getCommonParams(options: SoundCloudPageOptions = {}): Promise<Record<string, any>> {
+  async #getCommonParams(options: GetCollectionOptions = {}): Promise<Record<string, any>> {
     const clientId = await this.getClientId();
     const params: Record<string, any> = {
       client_id: clientId,
       app_version: '1692105952'
     };
-    if (options) {
-      if (options.limit) params.limit = options.limit;
-      if (options.offset) params.offset = options.offset;
+    if (options.limit) {
+      params.limit = options.limit;
     }
     if (this.#locale !== undefined) {
       params.app_locale = this.#locale;
