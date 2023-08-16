@@ -37,6 +37,7 @@ export default class SoundCloud {
     getLibraryItems: SoundCloud['getLibraryItems'];
     getLikes: SoundCloud['getMyLikes'];
     getStations: SoundCloud['getMyStations'];
+    getFollowing: SoundCloud['getMyFollowing'];
     addToPlayHistory: SoundCloud['addToPlayHistory'];
   };
 
@@ -55,6 +56,7 @@ export default class SoundCloud {
       getLibraryItems: this.getLibraryItems.bind(this),
       getLikes: this.getMyLikes.bind(this),
       getStations: this.getMyStations.bind(this),
+      getFollowing: this.getMyFollowing.bind(this),
       addToPlayHistory: this.addToPlayHistory.bind(this)
     };
   }
@@ -340,6 +342,14 @@ export default class SoundCloud {
       throw Error('Profile or ID not found');
     }
     throw new TypeError(`Invalid type '${type}'`);
+  }
+
+  protected async getMyFollowing(options?: GetCollectionOptions) {
+    const myProfile = await this.getMyProfile();
+    if (myProfile?.id !== undefined) {
+      return this.getFollowing(myProfile.id, options);
+    }
+    throw Error('Profile or ID not found');
   }
 
   protected async addToPlayHistory(trackOrUrn: Track | string, setOrUrn?: Album | Playlist | SystemPlaylist | string) {
