@@ -20,23 +20,23 @@ export default class Track extends Entity {
     modified?: string | null;
     display?: string | null;
   };
-  downloadData: {
+  downloadInfo: {
     downloadable?: boolean;
     downloadCount?: number;
     hasDownloadsLeft?: boolean;
   };
-  socialData: {
+  socialInfo: {
     commentable?: boolean;
     commentCount?: number;
     likesCount?: number;
     repostsCount?: number;
   };
-  sharingData: {
+  sharingInfo: {
     shareability?: string | null;
     embeddableBy?: string | null;
     secretToken?: string | null;
   };
-  playbackData: {
+  playbackInfo: {
     playbackCount?: number;
     policy?: string | null;
   };
@@ -92,32 +92,32 @@ export default class Track extends Entity {
       display: this.getJSON<string>('display_date')
     };
 
-    this.downloadData = {
+    this.downloadInfo = {
       downloadable: this.getJSON<boolean>('downloadable'),
       downloadCount: this.getJSON<number>('download_count'),
       hasDownloadsLeft: this.getJSON<boolean>('has_downloads_left')
     };
 
-    this.socialData = {
+    this.socialInfo = {
       commentable: this.getJSON<boolean>('commentable'),
       commentCount: this.getJSON<number>('comment_count'),
       likesCount: this.getJSON<number>('likes_count'),
       repostsCount: this.getJSON<number>('reposts_count')
     };
 
-    this.sharingData = {
+    this.sharingInfo = {
       shareability: this.getJSON<string>('sharing'),
       embeddableBy: this.getJSON<string>('embeddable_by'),
       secretToken: this.getJSON<string>('secret_token')
     };
 
-    this.playbackData = {
+    this.playbackInfo = {
       playbackCount: this.getJSON<number>('playback_count'),
       policy: this.getJSON<string>('policy')
     };
 
-    this.isBlocked = this.playbackData.policy === 'BLOCK';
-    this.isSnipped = this.playbackData?.policy === 'SNIP';
+    this.isBlocked = this.playbackInfo.policy === 'BLOCK';
+    this.isSnipped = this.playbackInfo?.policy === 'SNIP';
 
     const transcodingData = this.getJSON<any>('media').transcodings;
     this.mediaInfo = {

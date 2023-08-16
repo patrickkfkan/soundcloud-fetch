@@ -5,7 +5,7 @@ export default class Album extends Playlist {
 
   static type = 'Album';
 
-  sharingData: {
+  sharingInfo: {
     shareability?: string | null;
     embeddableBy?: string | null;
     secretToken?: string | null;
@@ -20,7 +20,7 @@ export default class Album extends Playlist {
   genre?: string | null;
   label?: string | null;
   license?: string | null;
-  purchaseData: {
+  purchaseInfo: {
     title?: string | null;
     url?: string | null;
   };
@@ -29,7 +29,7 @@ export default class Album extends Playlist {
   constructor(json: any, client: SoundCloud) {
     super(json, client);
 
-    this.sharingData = {
+    this.sharingInfo = {
       shareability: this.getJSON<string>('sharing'),
       embeddableBy: this.getJSON<string>('embeddable_by'),
       secretToken: this.getJSON<string>('secret_token')
@@ -47,7 +47,7 @@ export default class Album extends Playlist {
     this.label = this.getJSON<string>('label_name');
     this.license = this.getJSON<string>('license');
 
-    this.purchaseData = {
+    this.purchaseInfo = {
       title: this.getJSON<string>('purchase_title'),
       url: this.getJSON<string>('purchase_url')
     };

@@ -19,7 +19,7 @@ export default class Playlist extends Set<number> {
     modified?: string | null;
     display?: string | null;
   };
-  sharingData: {
+  sharingInfo: {
     shareability?: string | null;
     secretToken?: string | null;
   };
@@ -28,7 +28,7 @@ export default class Playlist extends Set<number> {
     description?: string | null;
   };
   trackCount?: number;
-  socialData: {
+  socialInfo: {
     likesCount?: number;
     repostsCount?: number;
     managedByFeeds?: boolean;
@@ -54,7 +54,7 @@ export default class Playlist extends Set<number> {
       display: this.getJSON<string>('display_date')
     };
 
-    this.sharingData = {
+    this.sharingInfo = {
       shareability: this.getJSON<string>('sharing'),
       secretToken: this.getJSON<string>('secret_token')
     };
@@ -66,7 +66,7 @@ export default class Playlist extends Set<number> {
 
     this.trackCount = this.getJSON<number>('track_count');
 
-    this.socialData = {
+    this.socialInfo = {
       likesCount: this.getJSON<number>('likes_count'),
       repostsCount: this.getJSON<number>('reposts_count'),
       managedByFeeds: this.getJSON<boolean>('managed_by_feeds')
