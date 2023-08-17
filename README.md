@@ -31,7 +31,7 @@ Constructs an instance of the SoundCloud API.
 
 `args`: (*optional*)
 - `clientId`: (string) (*optional*) Client ID for making API requests. If not specified, value will be obtained from SoundCloud website.
-- `accessToken`: (string) (*optional*) Token for accessing your private resources.
+- `accessToken`: (string) (*optional*) Token for accessing your private resources. See [How to obtain an access token](./wiki/How-to-obtain-an-access-token).
 - `locale`: (string) (*optional*) Locale code as defined in [Constants](./docs/api/modules/Constants.md).
 
 ### Config
@@ -507,13 +507,13 @@ soundcloud:playlists:<id>
 ---
 </details>
 
-### Fetching Tracks of Playlists, Albums and System Playlists
+### Fetching tracks of playlists, albums and system playlists
 
 You will note that the `Playlist`, `Album` and `SystemPlaylist` classes do not define a `tracks` property. To obtain the tracks of these items, call the `getTracks()` method:
 
 ```
 const api = new SoundCloud();
-const playlist = api.getPlaylistOrAlbum...);
+const playlist = api.getPlaylistOrAlbum(...);
 if (playlist) {
   const tracks = await playlist.getTracks();
   ...
@@ -521,6 +521,22 @@ if (playlist) {
 ```
 
 In the above example, `getTracks()` returns an array of `Track` objects.
+
+### Accessing underlying data
+
+Call `getJSON()` to access the underlying data of a fetched item:
+
+```
+const api = new SoundCloud();
+const track = await api.getTrack(...);
+if (track) {
+  // Gets the 'track_authorization' field of underlying data
+  const trackAuthorization = track.getJSON<string>('track_authorization');
+
+  // Gets the full underlying data
+  const fullData = track.getJSON();
+}
+```
 
 ## Collections
 
