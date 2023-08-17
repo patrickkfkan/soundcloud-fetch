@@ -17,7 +17,6 @@ export default class Collection<T extends EntityType> {
   readonly type: string;
 
   items: EntityClassesToTypes<EntityClasses<T>>[];
-  nextUri?: string | null;
   continuation: CollectionContinuation<T> | null;
 
   #json: any;
@@ -30,10 +29,10 @@ export default class Collection<T extends EntityType> {
     this.#opts = opts;
 
     this.items = this.getItems();
-    this.nextUri = this.getJSON<string>('next_href');
 
-    if (this.nextUri) {
-      this.continuation = new CollectionContinuation(this.nextUri, opts);
+    const nextUri = this.getJSON<string>('next_href');
+    if (nextUri) {
+      this.continuation = new CollectionContinuation(nextUri, opts);
     }
     else {
       this.continuation = null;
