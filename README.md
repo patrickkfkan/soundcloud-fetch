@@ -31,7 +31,7 @@ Constructs an instance of the SoundCloud API.
 
 `args`: (*optional*)
 - `clientId`: (string) (*optional*) Client ID for making API requests. If not specified, value will be obtained from SoundCloud website.
-- `accessToken`: (string) (*optional*) Token for accessing your private resources. See [How to obtain an access token](./wiki/How-to-obtain-an-access-token).
+- `accessToken`: (string) (*optional*) Token for accessing your private resources. See [How to obtain an access token](https://github.com/patrickkfkan/soundcloud-fetch/wiki/How-to-obtain-an-access-token).
 - `locale`: (string) (*optional*) Locale code as defined in [Constants](./docs/api/modules/Constants.md).
 
 ### Config
