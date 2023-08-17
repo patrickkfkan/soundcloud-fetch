@@ -1,39 +1,38 @@
-[soundcloud-fetch](../README.md) / Selection
+[soundcloud-fetch](../README.md) / Like
 
-# Class: Selection
+# Class: Like
 
 ## Hierarchy
 
 - [`Entity`](Entity.md)
 
-  ↳ **`Selection`**
+  ↳ **`Like`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Selection.md#constructor)
+- [constructor](Like.md#constructor)
 
 ### Properties
 
-- [id](Selection.md#id)
-- [items](Selection.md#items)
-- [nextUri](Selection.md#nexturi)
-- [title](Selection.md#title)
-- [type](Selection.md#type)
-- [type](Selection.md#type-1)
+- [createdAt](Like.md#createdat)
+- [item](Like.md#item)
+- [itemType](Like.md#itemtype)
+- [type](Like.md#type)
+- [type](Like.md#type-1)
 
 ### Methods
 
-- [getClient](Selection.md#getclient)
-- [getImageUrls](Selection.md#getimageurls)
-- [getJSON](Selection.md#getjson)
+- [getClient](Like.md#getclient)
+- [getImageUrls](Like.md#getimageurls)
+- [getJSON](Like.md#getjson)
 
 ## Constructors
 
 ### constructor
 
-• **new Selection**(`json`, `client`)
+• **new Like**(`json`, `client`)
 
 #### Parameters
 
@@ -48,47 +47,37 @@
 
 #### Defined in
 
-[lib/entities/Selection.ts:15](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L15)
+[lib/entities/Like.ts:16](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Like.ts#L16)
 
 ## Properties
 
-### id
+### createdAt
 
-• `Optional` **id**: ``null`` \| `string`
+• `Optional` **createdAt**: ``null`` \| `string`
 
 #### Defined in
 
-[lib/entities/Selection.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L10)
+[lib/entities/Like.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Like.ts#L13)
 
 ___
 
-### items
+### item
 
-• **items**: [`EntityType`](../README.md#entitytype)[]
+• **item**: ``null`` \| [`Album`](Album.md) \| [`Playlist`](Playlist.md) \| [`Track`](Track.md)
 
 #### Defined in
 
-[lib/entities/Selection.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L13)
+[lib/entities/Like.ts:14](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Like.ts#L14)
 
 ___
 
-### nextUri
+### itemType
 
-• `Optional` **nextUri**: ``null`` \| `string`
-
-#### Defined in
-
-[lib/entities/Selection.ts:12](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L12)
-
-___
-
-### title
-
-• `Optional` **title**: ``null`` \| `string`
+• **itemType**: ``null`` \| ``"Playlist"`` \| ``"Album"`` \| ``"Track"``
 
 #### Defined in
 
-[lib/entities/Selection.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L11)
+[lib/entities/Like.ts:12](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Like.ts#L12)
 
 ___
 
@@ -108,7 +97,7 @@ ___
 
 ### type
 
-▪ `Static` **type**: `string` = `'Selection'`
+▪ `Static` **type**: `string` = `'Like'`
 
 #### Overrides
 
@@ -116,7 +105,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Selection.ts:8](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L8)
+[lib/entities/Like.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Like.ts#L10)
 
 ## Methods
 

@@ -2,7 +2,7 @@
   "name": "soundcloud-fetch",
   "version": "1.0.0-dev",
   "type": "module",
-  "description": "Fetch SoundCloud public resources through API v2",
+  "description": "Fetch SoundCloud resources through API v2",
   "scripts": {
     "build": "npm run prepare",
     "build:esm": "npx tsc -p tsconfig-esm.json",

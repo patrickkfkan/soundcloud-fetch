@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[lib/utils/EntityTypes.ts:21](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/utils/EntityTypes.ts#L21)
+[lib/utils/EntityTypes.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/utils/EntityTypes.ts#L23)
 
 ## Properties
 
@@ -42,4 +42,4 @@
 
 #### Defined in
 
-[lib/utils/EntityTypes.ts:22](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/utils/EntityTypes.ts#L22)
+[lib/utils/EntityTypes.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/utils/EntityTypes.ts#L24)

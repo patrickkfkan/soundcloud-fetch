@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[lib/SoundCloud.ts:22](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/SoundCloud.ts#L22)
+[lib/SoundCloud.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L24)
 
 ___
 
@@ -28,14 +28,14 @@ ___
 
 #### Defined in
 
-[lib/SoundCloud.ts:21](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/SoundCloud.ts#L21)
+[lib/SoundCloud.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L23)
 
 ___
 
 ### locale
 
-• `Optional` **locale**: `string`
+• `Optional` **locale**: ``"de"`` \| ``"en"`` \| ``"es"`` \| ``"fr"`` \| ``"it"`` \| ``"nl"`` \| ``"pt_BR"`` \| ``"pl"`` \| ``"sv"``
 
 #### Defined in
 
-[lib/SoundCloud.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/SoundCloud.ts#L23)
+[lib/SoundCloud.ts:25](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L25)

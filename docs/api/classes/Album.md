@@ -26,10 +26,10 @@
 - [label](Album.md#label)
 - [license](Album.md#license)
 - [permalink](Album.md#permalink)
-- [purchaseData](Album.md#purchasedata)
+- [purchaseInfo](Album.md#purchaseinfo)
 - [setType](Album.md#settype)
-- [sharingData](Album.md#sharingdata)
-- [socialData](Album.md#socialdata)
+- [sharingInfo](Album.md#sharinginfo)
+- [socialInfo](Album.md#socialinfo)
 - [tags](Album.md#tags)
 - [texts](Album.md#texts)
 - [trackCount](Album.md#trackcount)
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[lib/entities/Album.ts:29](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Album.ts#L29)
+[lib/entities/Album.ts:29](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Album.ts#L29)
 
 ## Properties
 
@@ -84,7 +84,7 @@
 
 #### Defined in
 
-[lib/entities/Playlist.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L10)
+[lib/entities/Playlist.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Playlist.ts#L10)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Playlist.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L13)
+[lib/entities/Playlist.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Playlist.ts#L13)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Album.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Album.ts#L13)
+[lib/entities/Album.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Album.ts#L13)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Playlist.ts:15](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L15)
+[lib/entities/Playlist.ts:15](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Playlist.ts#L15)
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Album.ts:20](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Album.ts#L20)
+[lib/entities/Album.ts:20](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Album.ts#L20)
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Set.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L10)
+[lib/entities/Set.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Set.ts#L10)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Playlist.ts:9](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L9)
+[lib/entities/Playlist.ts:9](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Playlist.ts#L9)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Album.ts:21](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Album.ts#L21)
+[lib/entities/Album.ts:21](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Album.ts#L21)
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Album.ts:22](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Album.ts#L22)
+[lib/entities/Album.ts:22](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Album.ts#L22)
 
 ___
 
@@ -215,13 +215,13 @@ ___
 
 #### Defined in
 
-[lib/entities/Set.ts:12](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L12)
+[lib/entities/Set.ts:12](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Set.ts#L12)
 
 ___
 
-### purchaseData
+### purchaseInfo
 
-• **purchaseData**: `Object`
+• **purchaseInfo**: `Object`
 
 #### Type declaration
 
@@ -232,7 +232,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Album.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Album.ts#L23)
+[lib/entities/Album.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Album.ts#L23)
 
 ___
 
@@ -246,13 +246,13 @@ ___
 
 #### Defined in
 
-[lib/entities/Playlist.ts:14](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L14)
+[lib/entities/Playlist.ts:14](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Playlist.ts#L14)
 
 ___
 
-### sharingData
+### sharingInfo
 
-• **sharingData**: `Object`
+• **sharingInfo**: `Object`
 
 #### Type declaration
 
@@ -264,17 +264,17 @@ ___
 
 #### Overrides
 
-[Playlist](Playlist.md).[sharingData](Playlist.md#sharingdata)
+[Playlist](Playlist.md).[sharingInfo](Playlist.md#sharinginfo)
 
 #### Defined in
 
-[lib/entities/Album.ts:8](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Album.ts#L8)
+[lib/entities/Album.ts:8](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Album.ts#L8)
 
 ___
 
-### socialData
+### socialInfo
 
-• **socialData**: `Object`
+• **socialInfo**: `Object`
 
 #### Type declaration
 
@@ -286,11 +286,11 @@ ___
 
 #### Inherited from
 
-[Playlist](Playlist.md).[socialData](Playlist.md#socialdata)
+[Playlist](Playlist.md).[socialInfo](Playlist.md#socialinfo)
 
 #### Defined in
 
-[lib/entities/Playlist.ts:31](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L31)
+[lib/entities/Playlist.ts:31](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Playlist.ts#L31)
 
 ___
 
@@ -300,7 +300,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Album.ts:27](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Album.ts#L27)
+[lib/entities/Album.ts:27](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Album.ts#L27)
 
 ___
 
@@ -321,7 +321,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Playlist.ts:26](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L26)
+[lib/entities/Playlist.ts:26](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Playlist.ts#L26)
 
 ___
 
@@ -335,7 +335,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Playlist.ts:30](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L30)
+[lib/entities/Playlist.ts:30](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Playlist.ts#L30)
 
 ___
 
@@ -349,7 +349,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Entity.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L11)
+[lib/entities/Entity.ts:35](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L35)
 
 ___
 
@@ -363,7 +363,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Set.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L11)
+[lib/entities/Set.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Set.ts#L11)
 
 ___
 
@@ -377,7 +377,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Album.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Album.ts#L6)
+[lib/entities/Album.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Album.ts#L6)
 
 ## Methods
 
@@ -395,7 +395,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Entity.ts:33](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L33)
+[lib/entities/Entity.ts:57](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L57)
 
 ___
 
@@ -413,7 +413,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Playlist.ts:76](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Playlist.ts#L76)
+[lib/entities/Playlist.ts:76](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Playlist.ts#L76)
 
 ___
 
@@ -438,7 +438,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Entity.ts:37](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L37)
+[lib/entities/Entity.ts:61](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L61)
 
 ▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type?`): `undefined` \| [`ArtworkImageUrls`](../README.md#artworkimageurls)
 
@@ -447,7 +447,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `defaultImageUrl` | `undefined` \| ``null`` \| `string` |
-| `type?` | ``"artwork"`` |
+| `type?` | ``"artwork"`` \| ``"artistStation"`` |
 
 #### Returns
 
@@ -459,7 +459,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Entity.ts:38](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L38)
+[lib/entities/Entity.ts:62](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L62)
 
 ___
 
@@ -483,7 +483,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Entity.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L23)
+[lib/entities/Entity.ts:47](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L47)
 
 ▸ **getJSON**<`T`\>(`prop`): `undefined` \| ``null`` \| `T`
 
@@ -509,7 +509,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Entity.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L24)
+[lib/entities/Entity.ts:48](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L48)
 
 ▸ **getJSON**<`T`\>(`prop`): `undefined` \| `T`
 
@@ -535,7 +535,7 @@ ___
 
 #### Defined in
 
-[lib/entities/Entity.ts:25](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Entity.ts#L25)
+[lib/entities/Entity.ts:49](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L49)
 
 ___
 
@@ -547,7 +547,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`SoundCloudPageOptions`](../interfaces/SoundCloudPageOptions.md) |
+| `options?` | `Object` |
+| `options.limit?` | `number` |
+| `options.offset?` | `number` |
 
 #### Returns
 
@@ -559,4 +561,4 @@ ___
 
 #### Defined in
 
-[lib/entities/Set.ts:41](https://github.com/patrickkfkan/soundcloud-fetch/blob/365f7b2/src/lib/entities/Set.ts#L41)
+[lib/entities/Set.ts:41](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Set.ts#L41)
