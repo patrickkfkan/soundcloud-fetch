@@ -1,6 +1,6 @@
 {
   "name": "soundcloud-fetch",
-  "version": "1.0.0-dev",
+  "version": "1.0.0",
   "type": "module",
   "description": "Fetch SoundCloud resources through API v2",
   "scripts": {
