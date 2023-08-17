@@ -1,0 +1,178 @@
+Collection {
+  items: [
+    Album {
+      type: 'Album',
+      id: 1602102004,
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'khodha',
+        full: 'https://soundcloud.com/bahramnouraei/sets/khodha'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1602102004' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
+      },
+      setType: 'album',
+      duration: 2375497,
+      dates: {
+        created: '2023-04-13T17:46:04Z',
+        published: '2023-04-13T17:46:04Z',
+        modified: '2023-07-21T13:58:35Z',
+        display: '2023-04-13T17:46:04Z',
+        release: '2023-04-13T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: {
+        title: 'KHODHA',
+        description: 'Lyrics & Vocals: Bahram\n' +
+          'Music Producers: \n' +
+          '@AshkanMousavi, @Peymandegar @NesaAzadikhah\n' +
+          'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+          'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg \n' +
+          'Art Director: Setareh Malekzadeh • https://ghogha.me \n' +
+          'Release date: April 13, 2023 \n' +
+          '© ℗ 2023 Peeleh • https://peeleh.com'
+      },
+      trackCount: 12,
+      socialInfo: { likesCount: 24261, repostsCount: 1184, managedByFeeds: false },
+      genre: 'Hip-hop & Rap',
+      label: 'Peeleh',
+      license: 'all-rights-reserved',
+      purchaseInfo: { title: 'دریافت از ایران', url: 'https://peeleh.com/khodha' },
+      tags: 'Experimental "Hip Hop"'
+    },
+    Album {
+      type: 'Album',
+      id: 1018563193,
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'eiz8ykd6t6rk',
+        full: 'https://soundcloud.com/bahramnouraei/sets/eiz8ykd6t6rk'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1018563193' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-mini.jpg'
+      },
+      setType: 'ep',
+      duration: 1344836,
+      dates: {
+        created: '2020-03-25T14:49:10Z',
+        published: '2020-03-22T00:00:00Z',
+        modified: '2023-08-10T10:12:30Z',
+        display: '2020-03-22T00:00:00Z',
+        release: '2020-03-22T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: {
+        title: 'Gozaar',
+        description: 'Music Producers: @Ashkanmousavi , @Peymandegar , @Nesaazadikhah\n' +
+          'Mixing & Mastering Engineer: @Ashkanmousavi\n' +
+          'Artwork: Setareh Malekzadeh https://ghogha.me\n' +
+          '©℗  2020 - @Peeleh\n' +
+          '\n' +
+          '#alternative #hiphop #Iran #Bahram'
+      },
+      trackCount: 5,
+      socialInfo: { likesCount: 4220, repostsCount: 205, managedByFeeds: true },
+      genre: 'Hip Hop/Rap',
+      label: null,
+      license: 'all-rights-reserved',
+      purchaseInfo: { title: 'Buy', url: 'http://www.peeleh.com/gozaar' },
+      tags: ''
+    }
+  ],
+  nextUri: null,
+  continuation: null
+}

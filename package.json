@@ -1,15 +1,66 @@
 {
   "name": "soundcloud-fetch",
-  "version": "0.1.0a-20210103",
-  "description": "Fetch SoundCloud public resources through API v2",
-  "main": "./lib/index.js",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Fetch SoundCloud resources through API v2",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run prepare",
+    "build:esm": "npx tsc -p tsconfig-esm.json",
+    "build:cjs": "npx tsc -p tsconfig.json",
+    "prepare": "rm -rf dist && npm run build:esm && npm run build:cjs && bash fixup.sh",
+    "lint": "npx eslint ./src && npx eslint ./examples",
+    "lint:fix": "npx eslint ./src --fix && npx eslint ./examples --fix",
+    "doc": "npx typedoc",
+    "example": "func() { npx ts-node -P ./tsconfig-esm.json --esm ./examples/${1}.ts; }; func"
   },
-  "author": "Patrick Kan",
-  "license": "GPL-3.0",
+  "main": "./dist/cjs/index-cjs.js",
+  "module": "./dist/mjs/index.js",
+  "types": "./dist/mjs/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/mjs/index.d.ts",
+        "default": "./dist/mjs/index.js"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.ts",
+        "default": "./dist/cjs/index-cjs.js"
+      }
+    }
+  },
+  "author": "Patrick Kan <patrickkfkan@gmail.com> (https://github.com/patrickkfkan)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickkfkan/soundcloud-fetch.git"
+  },
+  "license": "MIT",
+  "directories": {
+    "dist": "./dist"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.38",
+    "@types/node-fetch": "^2.6.4",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.24.0",
+    "typedoc-plugin-markdown": "^3.14.0",
+    "typedoc-plugin-rename-defaults": "^0.6.4",
+    "typescript": "^4.9.5"
+  },
   "dependencies": {
-    "node-fetch": "^2.6.1",
-    "soundcloud-key-fetch": "^1.0.11"
-  }
+    "node-fetch": "^2.6.9",
+    "soundcloud-key-fetch": "^1.0.13"
+  },
+  "keywords": [
+    "soundcloud",
+    "scrape",
+    "scraper",
+    "api"
+  ]
 }

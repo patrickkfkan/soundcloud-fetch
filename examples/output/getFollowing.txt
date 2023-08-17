@@ -1,0 +1,224 @@
+Collection {
+  items: [
+    User {
+      type: 'User',
+      id: 5214156,
+      names: {
+        full: 'Marisa Monte',
+        first: 'Marisa',
+        last: 'Monte',
+        username: 'marisamonte'
+      },
+      lastModified: '2020-12-16T20:57:58Z',
+      permalink: {
+        basic: 'marisamonte',
+        full: 'https://soundcloud.com/marisamonte'
+      },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/users/5214156',
+        urn: 'soundcloud:users:5214156'
+      },
+      location: { city: 'Rio de Janeiro', country: 'BR' },
+      isVerified: true,
+      avatar: {
+        default: 'https://i1.sndcdn.com/avatars-000092630550-buhn93-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-000092630550-buhn93-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-000092630550-buhn93-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-000092630550-buhn93-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-000092630550-buhn93-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-000092630550-buhn93-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-000092630550-buhn93-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-000092630550-buhn93-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-000092630550-buhn93-mini.jpg'
+      },
+      badges: { pro: false, proUnlimited: true, verified: true }
+    },
+    User {
+      type: 'User',
+      id: 28353360,
+      names: {
+        full: 'DJ / Producer',
+        first: 'DJ /',
+        last: 'Producer',
+        username: 'Chris Luno'
+      },
+      lastModified: '2023-08-15T11:36:08Z',
+      permalink: { basic: 'chrisluno', full: 'https://soundcloud.com/chrisluno' },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/users/28353360',
+        urn: 'soundcloud:users:28353360'
+      },
+      location: { city: 'berlin', country: null },
+      isVerified: true,
+      avatar: {
+        default: 'https://i1.sndcdn.com/avatars-YYyKlEwECkgmMkze-GJkUHw-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-YYyKlEwECkgmMkze-GJkUHw-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-YYyKlEwECkgmMkze-GJkUHw-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-YYyKlEwECkgmMkze-GJkUHw-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-YYyKlEwECkgmMkze-GJkUHw-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-YYyKlEwECkgmMkze-GJkUHw-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-YYyKlEwECkgmMkze-GJkUHw-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-YYyKlEwECkgmMkze-GJkUHw-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-YYyKlEwECkgmMkze-GJkUHw-mini.jpg'
+      },
+      badges: { pro: false, proUnlimited: true, verified: true }
+    },
+    User {
+      type: 'User',
+      id: 739668256,
+      names: { full: '', first: '', last: '', username: 'Zeen._.ktk 🐻❤️' },
+      lastModified: '2023-07-24T21:18:15Z',
+      permalink: {
+        basic: 'user-399073128',
+        full: 'https://soundcloud.com/user-399073128'
+      },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/users/739668256',
+        urn: 'soundcloud:users:739668256'
+      },
+      location: { city: '', country: 'PK' },
+      isVerified: false,
+      avatar: {
+        default: 'https://i1.sndcdn.com/avatars-Tpho1uXWHyVoUHNT-QffJvQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-Tpho1uXWHyVoUHNT-QffJvQ-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-Tpho1uXWHyVoUHNT-QffJvQ-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-Tpho1uXWHyVoUHNT-QffJvQ-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-Tpho1uXWHyVoUHNT-QffJvQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-Tpho1uXWHyVoUHNT-QffJvQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-Tpho1uXWHyVoUHNT-QffJvQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-Tpho1uXWHyVoUHNT-QffJvQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-Tpho1uXWHyVoUHNT-QffJvQ-mini.jpg'
+      },
+      badges: { pro: false, proUnlimited: false, verified: false }
+    },
+    User {
+      type: 'User',
+      id: 830818072,
+      names: {
+        full: 'Enrico & Carmo',
+        first: 'Enrico & Carmo',
+        last: '',
+        username: 'Enrico & Carmo'
+      },
+      lastModified: '2023-08-14T20:06:03Z',
+      permalink: {
+        basic: 'enricoecarmo',
+        full: 'https://soundcloud.com/enricoecarmo'
+      },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/users/830818072',
+        urn: 'soundcloud:users:830818072'
+      },
+      location: { city: 'São Paulo', country: 'BR' },
+      isVerified: false,
+      avatar: {
+        default: 'https://i1.sndcdn.com/avatars-TyMaVSNhp8Mlq8br-IlajXQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-TyMaVSNhp8Mlq8br-IlajXQ-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-TyMaVSNhp8Mlq8br-IlajXQ-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-TyMaVSNhp8Mlq8br-IlajXQ-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-TyMaVSNhp8Mlq8br-IlajXQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-TyMaVSNhp8Mlq8br-IlajXQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-TyMaVSNhp8Mlq8br-IlajXQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-TyMaVSNhp8Mlq8br-IlajXQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-TyMaVSNhp8Mlq8br-IlajXQ-mini.jpg'
+      },
+      badges: { pro: false, proUnlimited: true, verified: false }
+    },
+    User {
+      type: 'User',
+      id: 124286,
+      names: { full: '', first: '', last: '', username: 'Above & Beyond' },
+      lastModified: '2023-05-25T09:36:05Z',
+      permalink: {
+        basic: 'aboveandbeyond',
+        full: 'https://soundcloud.com/aboveandbeyond'
+      },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/users/124286',
+        urn: 'soundcloud:users:124286'
+      },
+      location: { city: 'London', country: null },
+      isVerified: true,
+      avatar: {
+        default: 'https://i1.sndcdn.com/avatars-q1s0W6UWSL3ChyFy-pFz70w-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-q1s0W6UWSL3ChyFy-pFz70w-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-q1s0W6UWSL3ChyFy-pFz70w-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-q1s0W6UWSL3ChyFy-pFz70w-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-q1s0W6UWSL3ChyFy-pFz70w-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-q1s0W6UWSL3ChyFy-pFz70w-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-q1s0W6UWSL3ChyFy-pFz70w-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-q1s0W6UWSL3ChyFy-pFz70w-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-q1s0W6UWSL3ChyFy-pFz70w-mini.jpg'
+      },
+      badges: { pro: false, proUnlimited: true, verified: true }
+    },
+    User {
+      type: 'User',
+      id: 163507674,
+      names: {
+        full: 'Beyond Radio',
+        first: 'Beyond',
+        last: 'Radio',
+        username: 'TheBeyondRadio'
+      },
+      lastModified: '2018-08-05T16:46:40Z',
+      permalink: {
+        basic: 'thebeyondradio',
+        full: 'https://soundcloud.com/thebeyondradio'
+      },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/users/163507674',
+        urn: 'soundcloud:users:163507674'
+      },
+      location: { city: 'Frankfurt am Main', country: 'DE' },
+      isVerified: false,
+      avatar: {
+        default: 'https://i1.sndcdn.com/avatars-000187153658-y2n20z-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-000187153658-y2n20z-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-000187153658-y2n20z-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-000187153658-y2n20z-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-000187153658-y2n20z-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-000187153658-y2n20z-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-000187153658-y2n20z-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-000187153658-y2n20z-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-000187153658-y2n20z-mini.jpg'
+      },
+      badges: { pro: false, proUnlimited: false, verified: false }
+    },
+    User {
+      type: 'User',
+      id: 7860284,
+      names: {
+        full: 'Bastian  Lee Jones',
+        first: 'Bastian',
+        last: ' Lee Jones',
+        username: 'Bastian Lee Jones'
+      },
+      lastModified: '2023-05-05T13:31:36Z',
+      permalink: {
+        basic: 'bastianleejones',
+        full: 'https://soundcloud.com/bastianleejones'
+      },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/users/7860284',
+        urn: 'soundcloud:users:7860284'
+      },
+      location: { city: 'Berlin/Carrick on Shannon/Bandung', country: 'DE' },
+      isVerified: true,
+      avatar: {
+        default: 'https://i1.sndcdn.com/avatars-C3yzG9fCFEoxWdVv-7p9oSA-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-C3yzG9fCFEoxWdVv-7p9oSA-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-C3yzG9fCFEoxWdVv-7p9oSA-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-C3yzG9fCFEoxWdVv-7p9oSA-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-C3yzG9fCFEoxWdVv-7p9oSA-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-C3yzG9fCFEoxWdVv-7p9oSA-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-C3yzG9fCFEoxWdVv-7p9oSA-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-C3yzG9fCFEoxWdVv-7p9oSA-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-C3yzG9fCFEoxWdVv-7p9oSA-mini.jpg'
+      },
+      badges: { pro: false, proUnlimited: true, verified: true }
+    }
+  ],
+  nextUri: null,
+  continuation: null
+}

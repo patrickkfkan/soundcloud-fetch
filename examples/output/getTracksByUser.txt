@@ -1,0 +1,2141 @@
+Collection {
+  items: [
+    Track {
+      type: 'Track',
+      id: 1575133567,
+      texts: {
+        title: 'DAAGH [Prod. by Holly]',
+        description: 'Lyrics & Vocals: Bahram\n' +
+          'Music Producer: Holly • @hollyhollys\n' +
+          'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+          'Visual Artist: Setareh Malekzadeh • https://ghogha.me\n' +
+          '© ℗ 2023 Peeleh • https://peeleh.com\n' +
+          '\n' +
+          'یه نگاه تو به ما بندا لااقل بعد بکنمون قضاوت\n' +
+          'ببین همه حزب بادن جام بودی نصف راهم نمی اوردی طاقت\n' +
+          'من میگم اون که تهش زنده موند تو زمستون\n' +
+          'داغ این زندگی تو دلش موند\n' +
+          'اینجوری دلمون گرمه که نگرفتیم خفه خون\n' +
+          '\n' +
+          'آب جاری نمی گنده\n' +
+          'آبشار میشه اگه نترسه از دره\n' +
+          'پشتم گذاشت صفحه\n' +
+          'حیثیتم رفته؟ نه\n' +
+          'شعورت معلومه از کیفیت نقدت\n' +
+          'من خوابیدم تو فکرم\n' +
+          'خیالم تخته\n' +
+          'می خاری چه داری تو چنته\n' +
+          'اونجام که قد نمی ده عقلت\n' +
+          'نفسم می کنه زخمت\n' +
+          'می کنن شب تا روز چوب لای چرخت\n' +
+          'می فروشن شخصیت بت تو یه جعبه\n' +
+          'کنترلت کو؟ از دستت رفته\n' +
+          'چی میدن کی کجا نشون کانال چنده؟\n' +
+          'حرف دارم کلی\n' +
+          'بگم که چی شه؟\n' +
+          'نمی شه آشتی داد سنگو با شیشه\n' +
+          'از هر کی بپرسی اسمم تو لیسته\n' +
+          'من تکم و دوتا شم می ریزه سیستم\n' +
+          'آخ میزنم داد فساد زد به ریشه\n' +
+          'بالاست اونی که با سران قوم و خویشه\n' +
+          'بذا صدام تو کوچه بپیچه\n' +
+          'عمیق شدم اونقدر توم می زنن شیرجه\n' +
+          'میگن ارشاد\n' +
+          'میگیم به کی چه ربطی داره زندگیمون چه شکلیشه\n' +
+          'قضیه نه پوله نه پرستیژه\n' +
+          'بلکه حق آدم رو زندگیشه\n' +
+          'من میخوام که یادم بمونه\n' +
+          'بعضی قانونا سازنده بوده\n' +
+          'بعضی ناعادلانه ان \n' +
+          'بدون که نباید آدم بش پایبند بمونه\n' +
+          'ببین بازی رو بردم بدون بودجه\n' +
+          'تکتون ریزه و جفتتون پوچه\n' +
+          'هیبت شیر دارم همت مورچه\n' +
+          'خوندم اینو که بازی باز پشت و رو شه مثل همیشه\n' +
+          '\n' +
+          'یه نگاه تو به ما بندا لااقل بعد بکنمون قضاوت\n' +
+          'ببین همه حزب بادن جام بودی نصف راهم نمی اوردی طاقت\n' +
+          'من میگم اون که تهش زنده موند تو زمستون\n' +
+          'داغ این زندگی تو دلش موند\n' +
+          'اینجوری دلمون گرمه که نگرفتیم خفه خون',
+        caption: null
+      },
+      dates: {
+        created: '2023-07-26T17:41:02Z',
+        released: '2023-08-03T00:00:00Z',
+        modified: '2023-08-12T09:19:51Z',
+        display: '2023-08-03T17:24:01Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 9501,
+        likesCount: 32230,
+        repostsCount: 1242
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 622910, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1575133567/1a312574-bb23-4531-9783-35af4b4502b8/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 150047,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1575133567/1a312574-bb23-4531-9783-35af4b4502b8/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 150047,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1575133567/f7f968d7-9c32-491f-b113-3925e3030102/stream/hls',
+            preset: 'opus_0_0',
+            duration: 150007,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'daagh',
+        full: 'https://soundcloud.com/bahramnouraei/daagh'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1575133567',
+        urn: 'soundcloud:tracks:1575133567'
+      },
+      purchaseInfo: { title: null, url: 'https://peeleh.bandcamp.com/track/daagh' },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1575133567,
+        artist: 'Bahram, Holly',
+        albumTitle: undefined,
+        containsMusic: true,
+        UPCOrEAN: '7316219712034',
+        ISRC: 'SE6XW2381500',
+        isExplicit: false,
+        releaseTitle: 'DAAGH',
+        copyrightText: {
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1575133567' }
+      },
+      durations: { full: 150047, playback: 150047 },
+      genre: 'Hip-hop & Rap',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '"Hip Hop" Bahram Holly Iran',
+      label: 'Peeleh',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-M3nqwyAdCMyF2cma-hooEcg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-M3nqwyAdCMyF2cma-hooEcg-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-M3nqwyAdCMyF2cma-hooEcg-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-M3nqwyAdCMyF2cma-hooEcg-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-M3nqwyAdCMyF2cma-hooEcg-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-M3nqwyAdCMyF2cma-hooEcg-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-M3nqwyAdCMyF2cma-hooEcg-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-M3nqwyAdCMyF2cma-hooEcg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-M3nqwyAdCMyF2cma-hooEcg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-M3nqwyAdCMyF2cma-hooEcg-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/Z1nYZi3x0jNa_m.json',
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1491745327,
+      texts: {
+        title: 'KHODHA [Prod. by Ashkan Mousavi]',
+        description: 'Lyrics & Vocals: Bahram\n' +
+          'Music Producer: @Ashkanmousavi\n' +
+          'Mixing & Mastering Engineer: @Ashkanmousavi\n' +
+          'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg \n' +
+          'Art Director: Setareh Malekzadeh • https://ghogha.me \n' +
+          'Release date: April 13, 2023 \n' +
+          '© ℗ 2023 Peeleh • https://peeleh.com\n' +
+          '\n' +
+          '\n' +
+          'تو یکی از این اتاقای تاریک ذهنت\n' +
+          'یه خودی نشسته که نمی خوای بدونی هست\n' +
+          'وقتی خوابی میاد بیرون آروم از پشت پلکت\n' +
+          'نگاه می کنه با دقت به جسم خوابیده ت\n' +
+          'جنس بدنش از سایه ست\n' +
+          'رو گردنبندش یه تیکه شکسته آینه ست در حال تابیدن\n' +
+          'تا یه کمی نزدیک میشه بهت می زنی غلت\n' +
+          'انگار داری روتو می کنی به سمت تاریک تر\n' +
+          'همه تو این قضیه ن\n' +
+          'یه خودی تو ذهن بقیه ن\n' +
+          'انتخاب می کنن ببیننت یا که نه\n' +
+          'ولی من تو تاریکی نشستم\n' +
+          'خیره به آینه تو دستم از تیرگی سایه ها تنم سرد\n' +
+          'تصویرم هم محو\n' +
+          'نشستم منتظرتم\n' +
+          'سایه ها رو سیاهن آینه ها مکمل هم\n' +
+          'آینه مو میگیرم می زنم تنها به دل شب\n' +
+          'که تو تاریکی وجودم بشه حل\n' +
+          'این آینه همسنگر من تو این مبارزه ست\n' +
+          'تصویرم معجون زهرآگین حس و حادثه ست\n' +
+          'این آینه ست که می زنم به استنادش حرف\n' +
+          'مهم ترین خلق انسان بعد از اختراع چرخ\n' +
+          'با کلید این کلمه ها وا میشن قفلا\n' +
+          'ذهن بزرگ می خواد تصمیم کبری\n' +
+          'بین این همه رفیق و غریب و گمراه\n' +
+          'ذهنتو پیدا کن تو اجتماع خودها',
+        caption: null
+      },
+      dates: {
+        created: '2023-04-13T17:46:03Z',
+        released: '2023-04-13T00:00:00Z',
+        modified: '2023-07-21T14:00:20Z',
+        display: '2023-04-13T17:46:03Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 3023,
+        likesCount: 19917,
+        repostsCount: 408
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 873160, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745327/392eaa82-4202-407d-8a9c-2875f8670f85/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 102034,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745327/392eaa82-4202-407d-8a9c-2875f8670f85/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 102034,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745327/39919fb3-726b-47b5-a68a-f517b9064add/stream/hls',
+            preset: 'opus_0_0',
+            duration: 102007,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: '01-khodha-prod-by-ashkan',
+        full: 'https://soundcloud.com/bahramnouraei/01-khodha-prod-by-ashkan'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1491745327',
+        urn: 'soundcloud:tracks:1491745327'
+      },
+      purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1491745327,
+        artist: 'Bahram',
+        albumTitle: 'KHODHA',
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: 'SE6HN2398549',
+        isExplicit: false,
+        releaseTitle: 'KHODHA',
+        copyrightText: {
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1491745327' }
+      },
+      durations: { full: 102034, playback: 102034 },
+      genre: 'Hip-hop & Rap',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Experimental "Hip Hop"',
+      label: 'PEELEH',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/tsoCvNC02oT3_m.json',
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1491745306,
+      texts: {
+        title: 'NAADIDEH [Prod. by Ashkan Mousavi]',
+        description: 'Lyrics & Vocals: Bahram\n' +
+          'Music Producer: @Ashkanmousavi\n' +
+          'Mixing & Mastering Engineer: @Ashkanmousavi\n' +
+          'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg \n' +
+          'Art Director: Setareh Malekzadeh • https://ghogha.me \n' +
+          'Release date: April 13, 2023 \n' +
+          '© ℗ 2023 Peeleh • https://peeleh.com\n' +
+          '\n' +
+          '\n' +
+          'بیهوشم از درد\n' +
+          'میجوشه تو خونم میل به بودن\n' +
+          'سلولم سرد\n' +
+          'تنمو با سرما سوزوندن\n' +
+          'تاریکی کورم کرد\n' +
+          'اما تنهایی صبورم کرد\n' +
+          'هم گس هم شور هم تلخن حرفام\n' +
+          'تا تو غیب بمونم\n' +
+          'من ساکن شهر صدام\n' +
+          'بی سهمم از اسم و صورت\n' +
+          'می تابه از پنجره ماه\n' +
+          'روی جای شلاق رو شونه م\n' +
+          'حتی اگه یک روزی بخوام \n' +
+          'که بیرون باشم نمی تونم\n' +
+          'فرو رفتم و زمزمه هام همه فقط شدن اسباب کدورت\n' +
+          'منم لذت بردم از این\n' +
+          'رفتم روی اعصاب حکومت\n' +
+          'قاضی و مردم تو کمین\n' +
+          'قانون شده ابزار خشونت\n' +
+          'از نیمه تاریک زمین می زنه بیرون چرک و عفونت\n' +
+          'نادیده رو نادیده می گیرن تا وقتی که می کنه تو ذهن سکونت\n' +
+          'ولی حسم بهم میگه نادیده بمون \n' +
+          'بذا فکر کنن موندی تو حاشیه به زور\n' +
+          'این اتاقا دورت پر حذف شده هان\n' +
+          'حتی زنده موندنت هم کافیه بدون\n' +
+          'اگه کسی اینورا ندیدتت\n' +
+          'به این معنی نیست که مرده حقیقتت\n' +
+          'به این معنی نیست کسی نمی گزه ککش\n' +
+          'بعضی وقتا تنفست هم مقاومته\n' +
+          'زنده بمونی بسه\n' +
+          'یه روزی باز میشه میله ها\n' +
+          'شاخک و بال می زنه بیرون از پیله ها\n' +
+          'هرچند که دست نیافتیه رویا\n' +
+          'اما حرکت جهت می خواد و ایده آل\n' +
+          'ولی کم کم عوض میشه مسیر رات\n' +
+          'می زنی پرسه تو شب رها به زیر ماه\n' +
+          'بدون شک تش لگد می کنی زیر پات\n' +
+          'اونا که شکنجه ت کردن بی دفاع\n' +
+          '\n' +
+          'نفس بکش\n' +
+          'پاشو برگرد\n' +
+          'درد بودنو دوباره حس کن\n' +
+          'پاشو نفس بکش\n' +
+          'پاشو قد خم نکن همه لحظه ها رو بشمر\n' +
+          'پاشو نفس بکش\n' +
+          'حتی اگه مجبوری به انتقام فکر کن\n' +
+          'اگه نمی تونی بگذری ولش کن\n' +
+          'فقط تو می تونی بشکنی طلسمو\n' +
+          'پس پاشو نفس بکش\n' +
+          'پاشو برگرد\n' +
+          'درد بودنو دوباره حس کن\n' +
+          'پاشو نفس بکش\n' +
+          'پاشو قد خم نکن همه لحظه ها رو بشمر\n' +
+          'پاشو نفس بکش\n' +
+          'حتی اگه مجبوری به انتقام فکر کن\n' +
+          'اگه نمی تونی بگذری ولش کن\n' +
+          'فقط تو می تونی بشکنی طلسمو\n' +
+          'پاشو نفس بکش',
+        caption: null
+      },
+      dates: {
+        created: '2023-04-13T17:46:01Z',
+        released: '2023-04-13T00:00:00Z',
+        modified: '2023-07-21T14:00:20Z',
+        display: '2023-04-13T17:46:01Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 3402,
+        likesCount: 18071,
+        repostsCount: 327
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 650783, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745306/e2ff87c0-ed15-4442-90e3-8c0105556f33/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 236042,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745306/e2ff87c0-ed15-4442-90e3-8c0105556f33/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 236042,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745306/0a411f49-2a62-4e40-a543-29a05cd3d807/stream/hls',
+            preset: 'opus_0_0',
+            duration: 236007,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: '02-naadideh-prod-by-ashkan',
+        full: 'https://soundcloud.com/bahramnouraei/02-naadideh-prod-by-ashkan'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1491745306',
+        urn: 'soundcloud:tracks:1491745306'
+      },
+      purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1491745306,
+        artist: 'Bahram',
+        albumTitle: 'KHODHA',
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: 'SE6HN2398550',
+        isExplicit: false,
+        releaseTitle: 'NAADIDEH',
+        copyrightText: {
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1491745306' }
+      },
+      durations: { full: 236042, playback: 236042 },
+      genre: 'Hip-hop & Rap',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Experimental "Hip Hop"',
+      label: 'Peeleh',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/MOBXionDYCg9_m.json',
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1491745270,
+      texts: {
+        title: 'YE CHIZI MORD [Prod. by Peymandegar]',
+        description: 'Lyrics & Vocals: Bahram\n' +
+          'Music Producer: @Peymandegar\n' +
+          'Mixing & Mastering Engineer: @Ashkanmousavi\n' +
+          'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg \n' +
+          'Art Director: Setareh Malekzadeh • https://ghogha.me \n' +
+          'Release date: April 13, 2023 \n' +
+          '© ℗ 2023 Peeleh • https://peeleh.com\n' +
+          '\n' +
+          '\n' +
+          'یه چیزی مرد اون روز توم \n' +
+          'با فرضم از جامعه دشمن شدم\n' +
+          'نه می تونم جلوی دهنمو بگیرم\n' +
+          'نه می تونم راجع بهش صحبت کنم\n' +
+          'یه چیزی مرد اون روز توم \n' +
+          'که سرمای تنهایی تنمو سوزوند\n' +
+          'اونوقت بود که دیدم نه می تونم ازش بترسم\n' +
+          'نه می تونم جرأت کنم\n' +
+          'یه چیزی مرد اون روز توم\n' +
+          'که کردم از ساقه سقوط\n' +
+          'گندیدم توی باغ سکوت\n' +
+          'گوشتمو خورد تا ته\n' +
+          'حتی هسته هامو ربود\n' +
+          'من هم درگیر نشدم و کردم عبور\n' +
+          'دادم هرچی کردن تو حلقمو قورت\n' +
+          'شده سینه خیز میرم اگه جامعه پامو شکوند\n' +
+          'اگه دستمو خوند\n' +
+          'یه حس میگه بخون\n' +
+          'بگو چی گذشت بهتون\n' +
+          'بمون\n' +
+          'بمون نذا همه بشن یه جور\n' +
+          'به زور شده آدما رو بده تکون از تو\n' +
+          'اما نده ضعفتو نشون\n' +
+          'یه روز شاید تقی بخوره به توق\n' +
+          'حسرت انتقامو نبری به گور\n' +
+          'رخ روزگارو با خون کلمه بشور\n' +
+          'اینو به کسی نگفته بودم ولی بدون\n' +
+          'یه چیزی مرد اون روز توم\n' +
+          'یه چیزی مرد اون روز توم\n' +
+          'یه چیزی مرد اون روز توم\n' +
+          'یه چیزی مرد اون روز توم هی\n' +
+          '\n' +
+          'همه تو جستجوی معنان\n' +
+          'نمی خوان بپذیرن که فقط یه ذره ان تو ذرات\n' +
+          'پی دلیلن که نمیرن امروزو بکنن فردا\n' +
+          'یه سری بلند کنن وسط سرها \n' +
+          'بقیه فقط گوش به فرمان\n' +
+          'مرض ما لاعلاجه به انتخاب نه واسه نبودن درمان\n' +
+          'من واسه بردن جنگ بزرگتر حاضرم ببازم چند تا دعوا\n' +
+          'گنده ام و طماع\n' +
+          'تف به جامعه\n' +
+          'تف به هنر، به شعر \n' +
+          'کشتی ما نشسته کلا به گل\n' +
+          'تو هم کافیه ببینی از این زاویه\n' +
+          'محاله زندگیت دیگه مثل قبل بشه\n' +
+          'کافیه یه بار بگی نه جای بله\n' +
+          'تا ببینی چقدر زور داری جلو گله\n' +
+          'شاید اونروز ممنون باشی ازم\n' +
+          'که توت کشتم یه خود متوهم\n' +
+          'یه چیزی مرد امروز توت\n' +
+          'یه چیزی مرد امروز توت\n' +
+          'یه چیزی مرد امروز توت\n' +
+          'یه چیزی مرد اون روز توم هی',
+        caption: null
+      },
+      dates: {
+        created: '2023-04-13T17:46:00Z',
+        released: '2023-04-13T00:00:00Z',
+        modified: '2023-07-21T14:00:21Z',
+        display: '2023-04-13T17:46:00Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 2238,
+        likesCount: 15770,
+        repostsCount: 266
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 594462, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745270/f4cc5779-fda6-4246-83d3-be6ec8cc39ee/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 208039,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745270/f4cc5779-fda6-4246-83d3-be6ec8cc39ee/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 208039,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745270/b12148da-a7f2-42af-b215-e4ca575c05e6/stream/hls',
+            preset: 'opus_0_0',
+            duration: 208007,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: '03-ye-chizi-mord-prod-by',
+        full: 'https://soundcloud.com/bahramnouraei/03-ye-chizi-mord-prod-by'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1491745270',
+        urn: 'soundcloud:tracks:1491745270'
+      },
+      purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1491745270,
+        artist: 'Bahram',
+        albumTitle: 'KHODHA',
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: 'SE6HN2398551',
+        isExplicit: false,
+        releaseTitle: 'YE CHIZI MORD',
+        copyrightText: {
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1491745270' }
+      },
+      durations: { full: 208039, playback: 208039 },
+      genre: 'Hip-hop & Rap',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Experimental "Hip Hop"',
+      label: 'Peeleh',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/OpLmVFTOspgw_m.json',
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1491745243,
+      texts: {
+        title: 'KHOON [Prod. by Ashkan Mousavi]',
+        description: 'Lyrics & Vocals: Bahram\n' +
+          'Music Producer: @Ashkanmousavi\n' +
+          'Mixing & Mastering Engineer: @Ashkanmousavi\n' +
+          'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg \n' +
+          'Art Director: Setareh Malekzadeh • https://ghogha.me \n' +
+          'Release date: April 13, 2023 \n' +
+          '© ℗ 2023 Peeleh • https://peeleh.com\n' +
+          '\n' +
+          '\n' +
+          'ما با کل بنا مشکل داشتیم زدیم به بن\n' +
+          'نه با بره ها چریدیم نخوردیم فریب گرگ\n' +
+          'نوشتیم واسه روشنایی و نسیم صلح \n' +
+          'واسه هرکی خودی بود و به مرور غریبه شد\n' +
+          'دهنامون بسته نموند با نرم و با زور و قفل\n' +
+          'و زیر فشار عرف دلمون هرچی خواست گفت\n' +
+          'جلوی ریز و درشت\n' +
+          'شوخی یا جدی و خشک \n' +
+          'از اشکامون آب شرب گرفتیم هرکی خواست خورد\n' +
+          'گردنم درد گرفت انقدر اومدم سربلند بیرون\n' +
+          'دیگه گول نمی خورم من بعد\n' +
+          'بالا آوردم هر چی بود\n' +
+          'اکثریت همه هم شکلن\n' +
+          'لعنت به فرهنگ جمعیتون\n' +
+          'دل میشکونن و می خورن مغز\n' +
+          'گند می زنن و نمی شن پشیمون\n' +
+          'از دوست یه نشون بده بهمون زود\n' +
+          'دشمن فراوون اطرافمون\n' +
+          'خون میچکه از دندون\n' +
+          'کو انگیزه و آرزو؟\n' +
+          'تو جنگیم هر روز\n' +
+          'جون میدیم ساکت و مرموز\n' +
+          'خنجر تو کمر، توی پهلو\n' +
+          'ول و بی ملت و علت و معلول\n' +
+          '\n' +
+          'خون \n' +
+          'می پاشه رو صورت هر روز \n' +
+          'می چکه پایین از ابروم\n' +
+          'زمین خون می کنه گریه\n' +
+          'خون\n' +
+          'پریم از نفرت و اندوه \n' +
+          'وسط میدون اسب خشممون می کشه شیهه\n' +
+          '\n' +
+          'ما ریز میدیدیم گنده رو\n' +
+          'تا تغییر خواستیم بهمون گفتن تند نرو\n' +
+          'که حفظ کنن سلطه رو\n' +
+          'دامنه لیز شد تا بیخیال شیم قله رو\n' +
+          'کلمه رو از معنی تهی کردن\n' +
+          'عقیم کردن جمله رو\n' +
+          'با شیر کفتار خر می کردن کرّه رو\n' +
+          'بش یاد میدادن اخم صورت های مهربون ضربه خورده رو\n' +
+          'بزرگ که می شد قورت می داد خوک درسته رو\n' +
+          'حق می خورد میشد تپل تر و درشت ترو\n' +
+          'من لال نمی میرم تا بشم از بند فکرت آزاد\n' +
+          'بیام از پشت پلکت بیرون\n' +
+          'تا بشم نقض ادعاهات\n' +
+          'نیاز ندارم حتی\n' +
+          'باشم تو متن اتفاقات\n' +
+          'آوازم کافیه تا بکنم ملک فکرو آباد\n' +
+          'از دور انگار یه لکه کم نور\n' +
+          'می زنه سو سو\n' +
+          'می کشه تم تو، تو\n' +
+          'پاک می کن صورتمو از چرک از اندوه\n' +
+          'از این سیاهی ملعون\n' +
+          'می سازم قافیه و مضمون\n' +
+          'آینه مو میگیرم رو به نور\n' +
+          'خودمو می کشم بیرون از\n' +
+          '\n' +
+          'خون\n' +
+          'می پاشه رو صورت هر روز \n' +
+          'می چکه پایین از ابروم\n' +
+          'زمین خون می کنه گریه\n' +
+          'خون\n' +
+          'پریم از نفرت و اندوه \n' +
+          'وسط میدون اسب خشممون می کشه شیهه',
+        caption: null
+      },
+      dates: {
+        created: '2023-04-13T17:45:59Z',
+        released: '2023-04-13T00:00:00Z',
+        modified: '2023-07-21T14:00:20Z',
+        display: '2023-04-13T17:45:59Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 1834,
+        likesCount: 12906,
+        repostsCount: 197
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 466949, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745243/8139308e-0e0e-4015-986d-0e7ecbf3f22d/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 202031,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745243/8139308e-0e0e-4015-986d-0e7ecbf3f22d/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 202031,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745243/3eb0ba7e-53f3-48b4-90db-bd63676fbffe/stream/hls',
+            preset: 'opus_0_0',
+            duration: 202007,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: '04-khoon-prod-by-ashkan',
+        full: 'https://soundcloud.com/bahramnouraei/04-khoon-prod-by-ashkan'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1491745243',
+        urn: 'soundcloud:tracks:1491745243'
+      },
+      purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1491745243,
+        artist: 'Bahram',
+        albumTitle: 'KHODHA',
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: 'SE6HN2398552',
+        isExplicit: false,
+        releaseTitle: 'KHOON',
+        copyrightText: {
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1491745243' }
+      },
+      durations: { full: 202031, playback: 202031 },
+      genre: 'Hip-hop & Rap',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Experimental "Hip Hop"',
+      label: 'Peeleh',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/pYpbcMIinwI9_m.json',
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1491745210,
+      texts: {
+        title: 'GOM [Prod. by Ashkan Mousavi]',
+        description: 'Lyrics & Vocals: Bahram\n' +
+          'Background Vocals: Ghogha\n' +
+          'Music Producer: @Ashkanmousavi\n' +
+          'Mixing & Mastering Engineer: @Ashkanmousavi\n' +
+          'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg \n' +
+          'Art Director: Setareh Malekzadeh • https://ghogha.me \n' +
+          'Release date: April 13, 2023 \n' +
+          '© ℗ 2023 Peeleh • https://peeleh.com\n' +
+          '\n' +
+          '\n' +
+          'صبح زود آفتاب درومد از پشت کوه\n' +
+          'دیدم تیکه تیکه افتاده رو زمین گوشت خوک\n' +
+          'بوی باروت آسمون مه آلود\n' +
+          'پوکه پوکه گلوله ها رو زمین\n' +
+          'رو آینه ها قطره های خون\n' +
+          'خس و خاشاک خاک و خل\n' +
+          'عنکبوتا در حال خوردن زنبورا رو گل\n' +
+          'هرچی نور رخنه کرد این سیاهی تاب آورد\n' +
+          'هرچی گور شد بکن\n' +
+          'هر چقدر شد تو جا بکن\n' +
+          'هر چقدر شد توش جا بکن\n' +
+          'من داشتم گورو می کندم دیدم یه چیزی زیر زمینه\n' +
+          'جسد خوک اعظم پاره شده از وسط سینه\n' +
+          'منم دنبال تن می گشتم\n' +
+          'رفتم توش کسی نبینه \n' +
+          'از این رو سیاهی خسته ام\n' +
+          'می پوشم هر چی تو تنم میره\n' +
+          'دیدم تنم جا میشه\n' +
+          'جفت دستام داره پا میشه\n' +
+          'کله شو پوشیدم و دیدم چشمام داره بینا میشه\n' +
+          'توش پنهان کردم هستی مو\n' +
+          'فراموش کردم همه چیمو\n' +
+          'رو یه پا می چرخم\n' +
+          'می رقصم می خونم بلند اینو\n' +
+          '\n' +
+          'کمک کنین\n' +
+          'کمک کنین من کشتم همه رو\n' +
+          'از نظرها پنهان شدیم همه تو این بدنا\n' +
+          'پیدام کنین هم برمیگردم گم میشم از نو\n' +
+          'من برمیگردم برمیگردم گم میشم از نو\n' +
+          '\n' +
+          'من بی نیاز از افشای پشت پرده هام\n' +
+          'چون حقیقت تو سکوت عمیق درّه هاست\n' +
+          'من میگم از این به بعد مرز من و شما کجاست\n' +
+          'نعره تنها راه گفتگو با درّنده هاست\n' +
+          'خسته ام از این لعنتی\n' +
+          'از دنیای صنعتی\n' +
+          'خسته ام از فرو شدن لای چرخ دنده هاش\n' +
+          'از خودی و اجنبی\n' +
+          'از زمان و از زمین\n' +
+          'خسته ام از این که باشم جز شرمنده هاش\n' +
+          'از راه کردنم به در\n' +
+          'از در کردنم برون\n' +
+          'فریاد هی زدن بلند\n' +
+          'نرفت در سرم فرو\n' +
+          'خورشید مونده پشت ابر\n' +
+          'تا تهش، تا دم غروب\n' +
+          'سایه های رو سیاهو جمع کردم زود تو یک گروه\n' +
+          'گفتم که ما بی بدن کلا نداریم وجود\n' +
+          'به ازای هر سایه یک جسد هست اگه کنیم این خاک و زیر و رو\n' +
+          'با لبه تیز آینه هاتون\n' +
+          'بشکافید دونه دونه خوک\n' +
+          'تنها بدن مشروع\n' +
+          'تنها بدن موجود\n' +
+          '\n' +
+          'کمک کنین\n' +
+          'کمک کنین من کشتم همه رو\n' +
+          'از نظرها پنهان شدیم همه تو این بدنا\n' +
+          'پیدام کنین هم برمیگردم گم میشم از نو\n' +
+          'من برمیگردم برمیگردم گم میشم از نو',
+        caption: null
+      },
+      dates: {
+        created: '2023-04-13T17:45:58Z',
+        released: '2023-04-13T00:00:00Z',
+        modified: '2023-07-21T14:00:21Z',
+        display: '2023-04-13T17:45:58Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 1832,
+        likesCount: 13230,
+        repostsCount: 232
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 508832, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745210/23e4f061-c688-40fd-a180-e464532bdcf4/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 190041,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745210/23e4f061-c688-40fd-a180-e464532bdcf4/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 190041,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745210/158dc298-2973-4647-b6fb-66741aab59b5/stream/hls',
+            preset: 'opus_0_0',
+            duration: 190007,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: '05-gom-prod-by-ashkan-mousavi',
+        full: 'https://soundcloud.com/bahramnouraei/05-gom-prod-by-ashkan-mousavi'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1491745210',
+        urn: 'soundcloud:tracks:1491745210'
+      },
+      purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1491745210,
+        artist: 'Bahram',
+        albumTitle: 'KHODHA',
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: 'SE6HN2398553',
+        isExplicit: false,
+        releaseTitle: 'GOM',
+        copyrightText: {
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1491745210' }
+      },
+      durations: { full: 190041, playback: 190041 },
+      genre: 'Hip-hop & Rap',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Experimental "Hip Hop"',
+      label: 'Peeleh',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/5Szk8mxTkd4R_m.json',
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1491745195,
+      texts: {
+        title: 'BALA OFTADAN [Prod. by Nesa Azadikhah]',
+        description: 'Lyrics & Vocals: Bahram\n' +
+          'Music Producer: @Nesaazadikhah\n' +
+          'Mixing & Mastering Engineer: @Ashkanmousavi\n' +
+          'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg \n' +
+          'Art Director: Setareh Malekzadeh • https://ghogha.me \n' +
+          'Release date: April 13, 2023 \n' +
+          '© ℗ 2023 Peeleh • https://peeleh.com\n' +
+          '\n' +
+          '\n' +
+          'خرجین چرم رو الاغ کور\n' +
+          'مردم مرعوب پادشاه زور\n' +
+          'محفظه تنگه و تعدادمون زیاده نمونده بینمون حتی جای مو\n' +
+          'همه روییدن از خاک و خون\n' +
+          'کسی وصل نیست به جایی تو آسمون\n' +
+          'علف هرزه که می پیچه به ساقمون و کند شده دیگه قیچی باغبون\n' +
+          'ببین همه ترسیدن\n' +
+          'منم ترسیدم ولی کنجکاوم\n' +
+          'می خواستم ترسامو طعمه کنم\n' +
+          'ببینم چی می چسبه ته قلابم\n' +
+          'صیدم سنگین بود منو کشید تو\n' +
+          'منم شل کردم و افتادم\n' +
+          'من تا وقتی می ترسم هستم\n' +
+          'من تا وقتی می ترسم آزادم\n' +
+          'من تا وقتی می ترسم آزادم\n' +
+          '\t\n' +
+          'آینه مو برعکس میگیرم\n' +
+          'دنیا رو تو دستم می بینم\n' +
+          'کوه ها دره های آسمونن\n' +
+          'درختا آویزونن\n' +
+          'من دارم بالا می افتم\n' +
+          'من دارم بالا می افتم\n' +
+          '\n' +
+          'زمانو پیش میرم مکانو برمی گردم\n' +
+          'می بینم مردممو فاسد میشن می گندن\n' +
+          'همه تو جاشونن تکرار باباهاشونن\n' +
+          'هرچیزی غیر این بودن اونا رو درک می کردم\n' +
+          'من دارم بالا می افتم\n' +
+          'من دارم بالا می افتم\n' +
+          '\n' +
+          'صاعقه جوونه زد زمین ابر شد\n' +
+          'آینه مو چرخوندم بارون تگرگ شد\n' +
+          'چه شنا نابلدایی تن به آب زدن\n' +
+          'تو اشکی که تو چشای زمین جمع شد\n' +
+          'من دارم بالا می افتم\n' +
+          'من دارم بالا می افتم \n' +
+          'من دارم بالا می افتم\n' +
+          'من دارم بالا می افتم\n' +
+          '\n' +
+          'من از ترس نترسیدم\n' +
+          'از ترس انگیزه میگیرم اصن\n' +
+          'با من از واهمه هات حرف نزن\n' +
+          'بترس از هر چیزی که به سمتش میری\n' +
+          'که این ترس نیست که تورو داره می کشه عقب\n' +
+          'نه من گم کردم مرز سیستم و آدما رو \n' +
+          'ذهنتو بگرد پیدا می کنی مارو\n' +
+          'چون ما همه مون تهش به فکر منفعتیم پس\n' +
+          'باید بریزیم تو خودمون ببندیم دهنا رو\n' +
+          'تو هم وانمود کن به هر چیزی که نیستی\n' +
+          'منم وانمود می کنم که باورت کردم\n' +
+          'اقلا اینجوری یه جایی تو ذهن هم داریم \n' +
+          'پشت ویترینی که ساختیم از دروغ و فرهنگ\n' +
+          'اما له له می زنن همه تو سطح شهر واسه یه مدرک\n' +
+          'یه نشونه یه دونه سند \n' +
+          'که بفهمن کی ان و کجان و چی فکر می کنن قلبا\n' +
+          'راجع به هر چی که نمی فهمن\n' +
+          'منم فکرامو کردم رفتم دورامو زدم\n' +
+          'حرفمو می زنم بعدم میرم تهش به درک\n' +
+          'اگه نمی ترسی بدون داری می ری سمت غلط\n' +
+          'اگه نمی ترسی بدون داری میری سمت غلط',
+        caption: null
+      },
+      dates: {
+        created: '2023-04-13T17:45:58Z',
+        released: '2023-04-13T00:00:00Z',
+        modified: '2023-07-21T14:00:21Z',
+        display: '2023-04-13T17:45:58Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 2135,
+        likesCount: 11867,
+        repostsCount: 181
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 431357, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745195/36c8c10c-c381-41bd-a5b6-8a15df41f9ef/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 351530,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745195/36c8c10c-c381-41bd-a5b6-8a15df41f9ef/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 351530,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745195/e2f22dca-f9b4-40f1-a727-76d8dd777169/stream/hls',
+            preset: 'opus_0_0',
+            duration: 351507,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: '06-bala-oftadan-prod-by-nesa',
+        full: 'https://soundcloud.com/bahramnouraei/06-bala-oftadan-prod-by-nesa'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1491745195',
+        urn: 'soundcloud:tracks:1491745195'
+      },
+      purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1491745195,
+        artist: 'Bahram',
+        albumTitle: 'KHODHA',
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: 'SE6HN2398554',
+        isExplicit: false,
+        releaseTitle: 'BALA OFTADAN',
+        copyrightText: {
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1491745195' }
+      },
+      durations: { full: 351530, playback: 351530 },
+      genre: 'Hip-hop & Rap',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Experimental "Hip Hop"',
+      label: 'Peeleh',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/jXOw7Sj9sBQh_m.json',
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1491745162,
+      texts: {
+        title: 'AYNEH [Prod. by Peymandegar]',
+        description: 'Lyrics & Vocals: Bahram\n' +
+          'Music Producer: @Peymandegar\n' +
+          'Mixing & Mastering Engineer: @Ashkanmousavi\n' +
+          'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg \n' +
+          'Art Director: Setareh Malekzadeh • https://ghogha.me \n' +
+          'Release date: April 13, 2023 \n' +
+          '© ℗ 2023 Peeleh • https://peeleh.com\n' +
+          '\n' +
+          '\n' +
+          'آینه به من بگو بازی دست کیه اینبار؟\n' +
+          'دشمنام کیان؟\n' +
+          'ضربه به کی زدم از من شدن بیزار؟\n' +
+          'آینه به من بگو اینبار پروروندم تو کدوم آستین مار؟\n' +
+          'رو سینه دیوار کی قاب عکس و کی پنجره می خواد؟\n' +
+          'آینه به من بگو اینبار از دوستام کیو بندازم دور؟\n' +
+          'کیو نشناختم خوب؟\n' +
+          'کجا سر خوردم؟ کی میسازه از کاهم کوه؟\n' +
+          'از آهم روح می بخشم \n' +
+          'از نگاهم نور\n' +
+          'دلو می زنم به دریا \n' +
+          'توش میندازم تور\n' +
+          'جای اینکه بخوام باشم این یا باشم اون\n' +
+          'دنیامو می سازم توم\n' +
+          'بی کاستیو کمبود\n' +
+          'با شکوه تر از بابل نمرود\n' +
+          'می زنم با نیش افعی زهر زنبور\n' +
+          'شیرین شده عقلم تو عمق بکر کندو\n' +
+          'نمی کنه ولم این فکره هر روز \n' +
+          'که چجوری بشم تو چهره معلوم\n' +
+          'وجودمو قرض می گیرم از فردا\n' +
+          'تنمو گم می کنم وسط تنها\n' +
+          'اگه سرم به تنم نیارزه حتی\n' +
+          'رها میشم و میرم تو امنیت شب راه\n' +
+          'خسته ام از ولی و اگر و اما\n' +
+          'خسته ام از معلم و دلقک و مداح\n' +
+          'از رهبر و رئیس و اون مردک حراف\n' +
+          'از پول و زور و دروغ و دوز و دغل و دلال\n' +
+          'جیغ کفتار و غرش خوک\n' +
+          'پیر محل و موعظه گو\n' +
+          'روضه بخون\n' +
+          'فقط کود بخور غنچه بمون\n' +
+          'صاحابتو دیدی دم بتکون گنده بمون\n' +
+          'شهر پره \n' +
+          'پر ظاهر خوب\n' +
+          'بابا طاهر لخت تو حافظمون\n' +
+          'آینه به من بگو بگو واضح بگو\n' +
+          'چجوری می مونه یه نام نکو؟ ها؟\n' +
+          '\n' +
+          'از خود بشو بیخود\n' +
+          'قلب و مغزتو یکی کن\n' +
+          'خوک باشو زندگی کن یا زیر پا بمیر\n' +
+          '\n' +
+          'نه این آینه من نی\n' +
+          'بگو کی بوده صاحب قبلیت\n' +
+          'باید شهرو خبر کرد\n' +
+          'باید از همه گیر شدن این حادثه ترسید\n' +
+          'نه من نمی تونم محو بشم از دید\n' +
+          'نمی شه هی از یه بدن برم بعدی\n' +
+          'فقط می خوام بشم تو پوست خودم پیر\n' +
+          'تو خودم باشم و با خودم درگیر\n' +
+          'اقلا یه چیز تازه بگو\n' +
+          'فقط ساده و رک و اندازه بگو\n' +
+          'اگه فرض من غلطه از ذهن بشر\n' +
+          'اگه واست معنا نمی سازه بگو\n' +
+          'ولی نخواه ازم برم تو قالب خوک\n' +
+          'نخواه تبدیل بشم به کاسب خون\n' +
+          'اگه رمز جاودانگی اینه نمی خوام اصن ازم بمونه نام نکو\n' +
+          'خب؟\n' +
+          '\n' +
+          'از خود بشو بیخود\n' +
+          'قلب و مغزتو یکی کن\n' +
+          'خوک باشو زندگی کن یا زیر پا بمیر',
+        caption: null
+      },
+      dates: {
+        created: '2023-04-13T17:45:57Z',
+        released: '2023-04-13T00:00:00Z',
+        modified: '2023-07-21T14:00:21Z',
+        display: '2023-04-13T17:45:57Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 2074,
+        likesCount: 14690,
+        repostsCount: 269
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 525761, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745162/26ee60c9-0533-48bd-9a99-e316bbafc126/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 196049,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745162/26ee60c9-0533-48bd-9a99-e316bbafc126/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 196049,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745162/91e9e854-d74b-4aaa-b7c0-860f0aebe2c5/stream/hls',
+            preset: 'opus_0_0',
+            duration: 196007,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: '07-ayneh-prod-by-peymandegar',
+        full: 'https://soundcloud.com/bahramnouraei/07-ayneh-prod-by-peymandegar'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1491745162',
+        urn: 'soundcloud:tracks:1491745162'
+      },
+      purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1491745162,
+        artist: 'Bahram',
+        albumTitle: 'KHODHA',
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: 'SE6HN2398555',
+        isExplicit: false,
+        releaseTitle: 'AYNEH',
+        copyrightText: {
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1491745162' }
+      },
+      durations: { full: 196049, playback: 196049 },
+      genre: 'Hip-hop & Rap',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Experimental "Hip Hop"',
+      label: 'Peeleh',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/Q4TMO5D4HLIk_m.json',
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1491745138,
+      texts: {
+        title: 'PEYDA [Prod. by Peymandegar]',
+        description: 'Lyrics & Vocals: Bahram\n' +
+          'Music Producer: @Peymandegar\n' +
+          'Mixing & Mastering Engineer: @Ashkanmousavi\n' +
+          'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg \n' +
+          'Art Director: Setareh Malekzadeh • https://ghogha.me \n' +
+          'Release date: April 13, 2023 \n' +
+          '© ℗ 2023 Peeleh • https://peeleh.com\n' +
+          '\n' +
+          '\n' +
+          'چی ام؟ کجام؟\n' +
+          'چی میخوام از کی؟\n' +
+          'واسه زخمام کیو بکنم تنبیه؟\n' +
+          'بین خودا کیه خود اصلی که نمیشه حل تو خرد جمعی؟\n' +
+          'بقیه از دم تهی و فرعی\n' +
+          'همه چی تقلبی و کمّی\n' +
+          'همه تفننی و سطحی\n' +
+          'هر چی که هستی رو می کنی مخفی\n' +
+          'یه کم از اون، یه کمی از این \n' +
+          'یه کم از مارکس، یه کم از تختی\n' +
+          'یه کم هم اینترنتی تحقیق\n' +
+          'تو از اساس خودتو بستی\n' +
+          'یه کم هم اعتماد به نفس قرضی\n' +
+          'که بگی توام می تونی می فهمی \n' +
+          'که نه خیلی تنها بشی بترسی\n' +
+          'نه خیلی احساس کنی تو جمعی\n' +
+          'فهمیدم خواسته هام ساده ان و کم\n' +
+          'به هر چی نمی خوام هم می رسم \n' +
+          'می کنم بذرمو تو سرت سبز\n' +
+          'می برم زرنگارو زیر ضرب\n' +
+          'همه تو کاسه ت می ذارن تهش\n' +
+          'ببین کی میاره از دلت در\n' +
+          'میشه تو بغلت گرم\n' +
+          'ببین کی بت میده راه حل بهتر\n' +
+          'شکسته آینه ها رو گردنبند\n' +
+          'همه سایه ها گم ان محون\n' +
+          'باید نیمه را کشف کرد\n' +
+          'بعد گذاشت تیکه ها رو بقل هم\n' +
+          'بدون حدس و فرض و سرنخ \n' +
+          'نمی شه این معما رو حل کرد، نه!\n' +
+          'باید بشی به خود مسلط\n' +
+          'باید برسی یه جوری به صلح تو کله ت\n' +
+          'پس \n' +
+          'خودت\n' +
+          'خودتو\n' +
+          'خودتو\n' +
+          'خودتو خودتو پیدا کن\n' +
+          '\n' +
+          'نور از دل عالم رفت\n' +
+          'انگار که شرابم از جامم رفت\n' +
+          'خرناسه ی خوک زمانو کشیدم و رنگ اَ نگاهم رفت\n' +
+          'همه پیدا شدن از ترس\n' +
+          'ولی گم شدن تلخه و لذت بخش\n' +
+          'همه اش قصه ست تش\n' +
+          'همه گیجن و می پیچن به پروپات\n' +
+          'میخوان از نصفه ت سهم\n' +
+          'خورد موج امیدم به سنگای ساحل جهل عموم\n' +
+          'رفته افق فکرم تو حلق غروب \n' +
+          'هجرت کرد شعرم از شهر حروف\n' +
+          'حس رفته از تنم و قلمم\n' +
+          'تاج طلا رو کله مو شاهم تو شهر دروغ\n' +
+          'همه قلب و عروقم پر مکر زمانه و\n' +
+          'نبضم طبل جنگ درون و برون\n' +
+          'اما آهم میگیره ماهو\n' +
+          'راه میرم رو خوکهای زیر پامو\n' +
+          'پا نگیرمم پا میشم میرم راهو\n' +
+          'کافیه خوردم همه زمینامو\n' +
+          'پشیمون کردم بالاسریامو \n' +
+          'می بخشم نقصامو بدیامو\n' +
+          'می بخشم همه ناتنی هامو\n' +
+          'منو نگاه کن خود و پیدا کن\n' +
+          'منو نگاه\n' +
+          'منو نگاه کن خود و پیدا کن',
+        caption: null
+      },
+      dates: {
+        created: '2023-04-13T17:45:56Z',
+        released: '2023-04-13T00:00:00Z',
+        modified: '2023-07-21T14:00:21Z',
+        display: '2023-04-13T17:45:56Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 1841,
+        likesCount: 12366,
+        repostsCount: 221
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 467182, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745138/79f420a1-f554-497e-a19b-ac5da7894992/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 168046,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745138/79f420a1-f554-497e-a19b-ac5da7894992/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 168046,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745138/3f05df45-dee7-444f-ae86-7612b40b271a/stream/hls',
+            preset: 'opus_0_0',
+            duration: 168007,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: '08-peyda-prod-by-peymandegar',
+        full: 'https://soundcloud.com/bahramnouraei/08-peyda-prod-by-peymandegar'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1491745138',
+        urn: 'soundcloud:tracks:1491745138'
+      },
+      purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1491745138,
+        artist: 'Bahram',
+        albumTitle: 'KHODHA',
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: 'SE6HN2398556',
+        isExplicit: false,
+        releaseTitle: 'PEYDA',
+        copyrightText: {
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1491745138' }
+      },
+      durations: { full: 168046, playback: 168046 },
+      genre: 'Hip-hop & Rap',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Experimental "Hip Hop"',
+      label: 'Peeleh',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/Zl9l81WdduVo_m.json',
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1491745102,
+      texts: {
+        title: 'BIROKH [Prod. by Peymandegar]',
+        description: 'Lyrics & Vocals: Bahram\n' +
+          'Music Producer: @Peymandegar\n' +
+          'Mixing & Mastering Engineer: @Ashkanmousavi\n' +
+          'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg \n' +
+          'Art Director: Setareh Malekzadeh • https://ghogha.me \n' +
+          'Release date: April 13, 2023 \n' +
+          '© ℗ 2023 Peeleh • https://peeleh.com\n' +
+          '\n' +
+          '\n' +
+          'ببین پوچه \n' +
+          'خنده داره\n' +
+          'تهشم می میری میری ردّ کارت\n' +
+          'مبهمه، معمائه\n' +
+          'پیچیدگیش می کنه لت و پارت\n' +
+          'سرسخته\n' +
+          'بی رحمه\n' +
+          'فریبنده ست\n' +
+          'خوش خط و خاله\n' +
+          'اما وسیع و بی سقفه\n' +
+          'اگه بیرون بیای از حصارت\n' +
+          'چه تو فقر مطلق\n' +
+          'چه شهرو مالک\n' +
+          'چه بی خدا\n' +
+          'چه معتقد به خالق\n' +
+          'چه شبیه عامه تو فهم غالب\n' +
+          'چه منحصر به فرد و جالب\n' +
+          'چه بالغ چه نادون چه عالم\n' +
+          'می میری\n' +
+          'هم خودت هم بستگانت\n' +
+          'مامانت بابات\n' +
+          'هرکی که باهاته\n' +
+          'عشقت، دوستت، کس و کارت\n' +
+          ' ای وای\n' +
+          'از جلو از دور\n' +
+          'یکی باش حرف بزن پر منظور\n' +
+          'با ما باش یاغی و قد\n' +
+          'راوی خود\n' +
+          'پر و محکم و مغرور\n' +
+          'از زیر ریشه بده اگه می برن تورو از رو\n' +
+          'خارج از مد مرسوم و زندگی معمول\n' +
+          'خیره شو توی خورشید بگیر تاریکیو از نور\n' +
+          'بشنو از من بی رخ\n' +
+          'بشنو از من مهجور\n' +
+          'یک مجنون آزاد بهتره از صد عاقل مجبور\n' +
+          'آزادیتو نفروش\n' +
+          'آزادیتو نفروش\n' +
+          'آزادیتو نفروش\n' +
+          'نه به قیمت چهره\n' +
+          'نه قیمت خون\n' +
+          'نگیر از کسی دیگه دستور\n' +
+          'خب؟\n' +
+          '\n' +
+          'ببین\n' +
+          'می میری می میری می میری می میری می میری زود\n' +
+          'خب؟\n' +
+          '(خب)\n' +
+          'یه جوری زندگی کن انگار قرار نی ببینی طلوع بعدو\n' +
+          'ببین چی میکنه حالتو خوب؟ ها؟\n' +
+          'بکن اون کارو\n' +
+          '(زود زود)\n' +
+          'می میری می میری زود\n' +
+          '\n' +
+          'خسته ام از بس که دورو ورو جلوترو دیدم\n' +
+          'تصویر بزرگترو دیدم\n' +
+          'نمای رو قله رو دیدم\n' +
+          'فقط می خوام حل شم\n' +
+          'همین جایی که هستم بی درد سر و بی غم\n' +
+          'همه می خوان جمع شن\n' +
+          'زیر نماد و پرچم\n' +
+          'دور همو بی مغز \n' +
+          'اما من تکم و تک رنگ\n' +
+          'فرو می رم تا گردن تو سیاهی شهرم\n' +
+          'آینه م هم تو دستم\n' +
+          'تا خودمو بفهمم\n' +
+          'ترجیح میدم تو انزوا بمیرم تش\n' +
+          'تا بیخود و معلق\n' +
+          'نمی خوام و نمی تونم بذارم یه صورت دیگه جا خوش کنه رو کله م\n' +
+          '\n' +
+          'پس\n' +
+          'ببین\n' +
+          'می میری می میری می میری می میری می میری زود\n' +
+          'خب؟\n' +
+          '(خب)\n' +
+          'یه جوری زندگی کن انگار قرار نی ببینی طلوع بعدو\n' +
+          'ببین چی میکنه حالتو خوب؟ ها؟\n' +
+          'بکن اون کارو\n' +
+          '(زود زود)\n' +
+          'می میری می میری زود',
+        caption: null
+      },
+      dates: {
+        created: '2023-04-13T17:45:54Z',
+        released: '2023-04-13T00:00:00Z',
+        modified: '2023-07-21T14:07:08Z',
+        display: '2023-04-13T17:45:54Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 2135,
+        likesCount: 15732,
+        repostsCount: 295
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 579293, policy: 'ALLOW' },
+      isBlocked: false,
+      isSnipped: false,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745102/62a54a4a-3eaf-4299-b486-59576fcc3ae0/stream/hls',
+            preset: 'mp3_1_0',
+            duration: 180036,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745102/62a54a4a-3eaf-4299-b486-59576fcc3ae0/stream/progressive',
+            preset: 'mp3_1_0',
+            duration: 180036,
+            isSnipped: false,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745102/78de9696-65b5-4d48-bf90-ff6c7f008cbe/stream/hls',
+            preset: 'opus_0_0',
+            duration: 180007,
+            isSnipped: false,
+            protocol: 'hls',
+            mimeType: 'audio/ogg; codecs="opus"',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: '09-birokh-prod-by-peymandegar',
+        full: 'https://soundcloud.com/bahramnouraei/09-birokh-prod-by-peymandegar'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1491745102',
+        urn: 'soundcloud:tracks:1491745102'
+      },
+      purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1491745102,
+        artist: 'Bahram',
+        albumTitle: 'KHODHA',
+        containsMusic: true,
+        UPCOrEAN: undefined,
+        ISRC: 'SE6HN2398557',
+        isExplicit: false,
+        releaseTitle: 'BIROKH',
+        copyrightText: {
+          general: { p: '2023 Peeleh', c: undefined },
+          display: { p: '℗ 2023 Peeleh', c: undefined }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1491745102' }
+      },
+      durations: { full: 180036, playback: 180036 },
+      genre: 'Hip-hop & Rap',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: 'Experimental "Hip Hop"',
+      label: 'Peeleh',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-CdCzpkPiG3RE5cxk-pD8j8g-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/lnpczJYalpry_m.json',
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2023-08-08T13:26:04Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    }
+  ],
+  nextUri: 'https://api-v2.soundcloud.com/users/9723380/tracks?offset=2023-04-13T17%3A45%3A54.000Z%2Ctracks%2C01491745102&limit=10&representation=full',
+  continuation: CollectionContinuation {
+    uri: 'https://api-v2.soundcloud.com/users/9723380/tracks?offset=2023-04-13T17%3A45%3A54.000Z%2Ctracks%2C01491745102&limit=10&representation=full',
+    opts: { requireTypes: [class Track extends Entity] { type: 'Track' } }
+  }
+}

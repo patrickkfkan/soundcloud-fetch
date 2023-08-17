@@ -1,0 +1,33 @@
+User {
+  type: 'User',
+  id: 9723380,
+  names: {
+    full: 'Bahram Nouraei',
+    first: 'Bahram',
+    last: 'Nouraei',
+    username: 'Bahram'
+  },
+  lastModified: '2023-08-08T13:26:04Z',
+  permalink: {
+    basic: 'bahramnouraei',
+    full: 'https://soundcloud.com/bahramnouraei'
+  },
+  apiInfo: {
+    uri: 'https://api.soundcloud.com/users/9723380',
+    urn: 'soundcloud:users:9723380'
+  },
+  location: { city: 'Stockholm', country: 'SE' },
+  isVerified: true,
+  avatar: {
+    default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+    t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
+    crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
+    t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
+    large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
+    badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
+    small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
+    tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
+    mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+  },
+  badges: { pro: false, proUnlimited: true, verified: true }
+}
