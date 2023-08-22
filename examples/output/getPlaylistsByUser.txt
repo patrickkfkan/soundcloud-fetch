@@ -67,8 +67,8 @@ Collection {
         title: 'Wildhearts',
         description: 'Carefree country music to uplift and let loose. Updates every Wednesday.'
       },
-      trackCount: 40,
-      socialInfo: { likesCount: 518, repostsCount: 30, managedByFeeds: false }
+      trackCount: 39,
+      socialInfo: { likesCount: 559, repostsCount: 30, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -125,7 +125,7 @@ Collection {
         mini: 'https://i1.sndcdn.com/artworks-HVkG0uLLmF5n5yLV-wOyMQg-mini.jpg'
       },
       setType: '',
-      duration: 10267744,
+      duration: 9862115,
       dates: {
         created: '2023-05-02T12:28:25Z',
         published: '2023-05-22T11:34:21Z',
@@ -134,8 +134,8 @@ Collection {
       },
       sharingInfo: { shareability: 'public', secretToken: null },
       texts: { title: 'Synth City', description: '' },
-      trackCount: 40,
-      socialInfo: { likesCount: 1238, repostsCount: 58, managedByFeeds: false }
+      trackCount: 39,
+      socialInfo: { likesCount: 1348, repostsCount: 62, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -205,7 +205,7 @@ Collection {
         description: 'Freshly uploaded disco beats and funky rhythms to transport you back to the golden age. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialInfo: { likesCount: 2639, repostsCount: 62, managedByFeeds: false }
+      socialInfo: { likesCount: 2820, repostsCount: 65, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -262,7 +262,7 @@ Collection {
         mini: 'https://i1.sndcdn.com/artworks-1nP29sYE7iojZRCi-fcKyTg-mini.jpg'
       },
       setType: '',
-      duration: 7678643,
+      duration: 7678669,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
@@ -275,7 +275,7 @@ Collection {
         description: 'Pop songs fit for the thrill of the open road. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialInfo: { likesCount: 528, repostsCount: 20, managedByFeeds: false }
+      socialInfo: { likesCount: 575, repostsCount: 21, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -332,7 +332,7 @@ Collection {
         mini: 'https://i1.sndcdn.com/artworks-yCO8LiyWDpmwP3n0-StGZLA-mini.jpg'
       },
       setType: '',
-      duration: 9366437,
+      duration: 9366359,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
@@ -345,7 +345,7 @@ Collection {
         description: 'Freshly uplaoded feel good Funk tunes. Updates every Wednesday.'
       },
       trackCount: 39,
-      socialInfo: { likesCount: 489, repostsCount: 16, managedByFeeds: false }
+      socialInfo: { likesCount: 539, repostsCount: 16, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -402,7 +402,7 @@ Collection {
         mini: 'https://i1.sndcdn.com/artworks-8IoQJV0M0pw3JMB3-BvwUKg-mini.jpg'
       },
       setType: '',
-      duration: 8228649,
+      duration: 8017867,
       dates: {
         created: '2023-05-02T12:28:24Z',
         published: '2023-05-22T11:34:20Z',
@@ -414,8 +414,8 @@ Collection {
         title: 'Fruit Loops',
         description: 'Get a burst of flavour from these feel-good downtempo and lofi rhythms. Updates every. Wednesday.'
       },
-      trackCount: 40,
-      socialInfo: { likesCount: 201, repostsCount: 8, managedByFeeds: false }
+      trackCount: 39,
+      socialInfo: { likesCount: 215, repostsCount: 10, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -485,7 +485,7 @@ Collection {
         description: 'Quirky rap and trap to boost your mood. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialInfo: { likesCount: 288, repostsCount: 8, managedByFeeds: false }
+      socialInfo: { likesCount: 306, repostsCount: 8, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -555,7 +555,7 @@ Collection {
         description: 'Find your frequency with this selection of euphoric pop songs. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialInfo: { likesCount: 746, repostsCount: 12, managedByFeeds: false }
+      socialInfo: { likesCount: 821, repostsCount: 15, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -624,8 +624,8 @@ Collection {
         title: 'Electric Energy',
         description: 'Electrifying selection of Pop music to get charged up. Updates every Wednesday.'
       },
-      trackCount: 40,
-      socialInfo: { likesCount: 369, repostsCount: 15, managedByFeeds: false }
+      trackCount: 39,
+      socialInfo: { likesCount: 400, repostsCount: 16, managedByFeeds: false }
     },
     Playlist {
       type: 'Playlist',
@@ -695,10 +695,9 @@ Collection {
         description: 'Elevate your day with this high energy EDM playlist. Updates every Wednesday.'
       },
       trackCount: 40,
-      socialInfo: { likesCount: 728, repostsCount: 16, managedByFeeds: false }
+      socialInfo: { likesCount: 762, repostsCount: 16, managedByFeeds: false }
     }
   ],
-  nextUri: 'https://api-v2.soundcloud.com/users/1179174835/playlists_without_albums?offset=10&limit=10',
   continuation: CollectionContinuation {
     uri: 'https://api-v2.soundcloud.com/users/1179174835/playlists_without_albums?offset=10&limit=10',
     opts: { requireTypes: [class Playlist extends Set] { type: 'Playlist' } }

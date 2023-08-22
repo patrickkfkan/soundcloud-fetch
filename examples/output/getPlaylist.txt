@@ -61,7 +61,7 @@ Playlist {
     description: 'Huge EDM tunes to flood you with endorphins and smash your PB. Updates every Wednesday.'
   },
   trackCount: 40,
-  socialInfo: { likesCount: 7108, repostsCount: 114, managedByFeeds: false }
+  socialInfo: { likesCount: 7377, repostsCount: 117, managedByFeeds: false }
 }
 --- TRACKS ---
 [
@@ -78,12 +78,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 2,
-      likesCount: 210,
+      commentCount: 3,
+      likesCount: 257,
       repostsCount: 14
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 17867, policy: 'SNIP' },
+    playbackInfo: { playbackCount: 22374, policy: 'SNIP' },
     isBlocked: false,
     isSnipped: true,
     mediaInfo: {
@@ -196,18 +196,18 @@ Playlist {
     dates: {
       created: '2023-08-14T08:43:59Z',
       released: null,
-      modified: '2023-08-14T08:44:03Z',
+      modified: '2023-08-18T16:25:36Z',
       display: '2023-08-14T08:43:59Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1,
-      likesCount: 48,
-      repostsCount: 5
+      commentCount: 14,
+      likesCount: 310,
+      repostsCount: 16
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 798, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 17382, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -255,7 +255,10 @@ Playlist {
       uri: 'https://api.soundcloud.com/tracks/1592692235',
       urn: 'soundcloud:tracks:1592692235'
     },
-    purchaseInfo: { title: null, url: null },
+    purchaseInfo: {
+      title: 'Free Download',
+      url: 'https://hypeddit.com/tomermaizner/tomermaiznerluvstruckextendedmix'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1592692235,
@@ -342,12 +345,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 39,
-      likesCount: 866,
-      repostsCount: 37
+      commentCount: 55,
+      likesCount: 1003,
+      repostsCount: 49
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 62829, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 73204, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -472,18 +475,18 @@ Playlist {
     dates: {
       created: '2023-06-21T14:17:46Z',
       released: null,
-      modified: '2023-06-22T14:39:41Z',
+      modified: '2023-08-21T15:11:08Z',
       display: '2023-06-22T14:39:41Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 23,
-      likesCount: 845,
+      commentCount: 27,
+      likesCount: 920,
       repostsCount: 17
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 64815, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 72067, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -549,22 +552,22 @@ Playlist {
       apiInfo: { urn: 'soundcloud:tracks:1546222702' }
     },
     durations: { full: 351138, playback: 351138 },
-    genre: '',
+    genre: 'House',
     license: 'all-rights-reserved',
     isPublic: true,
     tags: '',
     label: null,
     artwork: {
-      default: 'https://i1.sndcdn.com/artworks-gsuScCBuI6jSG9ZF-YsFMeQ-large.jpg',
-      t500x500: 'https://i1.sndcdn.com/artworks-gsuScCBuI6jSG9ZF-YsFMeQ-t500x500.jpg',
-      t300x300: 'https://i1.sndcdn.com/artworks-gsuScCBuI6jSG9ZF-YsFMeQ-t300x300.jpg',
-      t67x67: 'https://i1.sndcdn.com/artworks-gsuScCBuI6jSG9ZF-YsFMeQ-t67x67.jpg',
-      crop: 'https://i1.sndcdn.com/artworks-gsuScCBuI6jSG9ZF-YsFMeQ-crop.jpg',
-      large: 'https://i1.sndcdn.com/artworks-gsuScCBuI6jSG9ZF-YsFMeQ-large.jpg',
-      badge: 'https://i1.sndcdn.com/artworks-gsuScCBuI6jSG9ZF-YsFMeQ-badge.jpg',
-      small: 'https://i1.sndcdn.com/artworks-gsuScCBuI6jSG9ZF-YsFMeQ-small.jpg',
-      tiny: 'https://i1.sndcdn.com/artworks-gsuScCBuI6jSG9ZF-YsFMeQ-tiny.jpg',
-      mini: 'https://i1.sndcdn.com/artworks-gsuScCBuI6jSG9ZF-YsFMeQ-mini.jpg'
+      default: 'https://i1.sndcdn.com/artworks-eWjm9wyQ4ZtTj1pW-QvOjSw-large.jpg',
+      t500x500: 'https://i1.sndcdn.com/artworks-eWjm9wyQ4ZtTj1pW-QvOjSw-t500x500.jpg',
+      t300x300: 'https://i1.sndcdn.com/artworks-eWjm9wyQ4ZtTj1pW-QvOjSw-t300x300.jpg',
+      t67x67: 'https://i1.sndcdn.com/artworks-eWjm9wyQ4ZtTj1pW-QvOjSw-t67x67.jpg',
+      crop: 'https://i1.sndcdn.com/artworks-eWjm9wyQ4ZtTj1pW-QvOjSw-crop.jpg',
+      large: 'https://i1.sndcdn.com/artworks-eWjm9wyQ4ZtTj1pW-QvOjSw-large.jpg',
+      badge: 'https://i1.sndcdn.com/artworks-eWjm9wyQ4ZtTj1pW-QvOjSw-badge.jpg',
+      small: 'https://i1.sndcdn.com/artworks-eWjm9wyQ4ZtTj1pW-QvOjSw-small.jpg',
+      tiny: 'https://i1.sndcdn.com/artworks-eWjm9wyQ4ZtTj1pW-QvOjSw-tiny.jpg',
+      mini: 'https://i1.sndcdn.com/artworks-eWjm9wyQ4ZtTj1pW-QvOjSw-mini.jpg'
     },
     waveform: 'https://wave.sndcdn.com/0Bcy3sw0tWe5_m.json',
     user: User {
@@ -615,15 +618,15 @@ Playlist {
       modified: '2023-07-27T22:58:44Z',
       display: '2023-07-27T16:21:09Z'
     },
-    downloadInfo: { downloadable: true, downloadCount: 63, hasDownloadsLeft: true },
+    downloadInfo: { downloadable: true, downloadCount: 70, hasDownloadsLeft: true },
     socialInfo: {
       commentable: true,
       commentCount: 6,
-      likesCount: 359,
-      repostsCount: 17
+      likesCount: 408,
+      repostsCount: 18
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 17339, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 22282, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -759,11 +762,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 1,
-      likesCount: 11,
-      repostsCount: 0
+      likesCount: 76,
+      repostsCount: 1
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 512, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 4031, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -851,7 +854,7 @@ Playlist {
       type: 'User',
       id: 1097003617,
       names: { full: '', first: '', last: '', username: 'HXI' },
-      lastModified: '2023-07-07T02:19:56Z',
+      lastModified: '2023-08-22T13:53:14Z',
       permalink: { basic: 'hximusic', full: 'https://soundcloud.com/hximusic' },
       apiInfo: {
         uri: 'https://api.soundcloud.com/users/1097003617',
@@ -890,12 +893,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 21,
-      likesCount: 816,
-      repostsCount: 28
+      commentCount: 23,
+      likesCount: 879,
+      repostsCount: 29
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 34946, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 39045, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1048,11 +1051,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 0,
-      likesCount: 137,
+      likesCount: 163,
       repostsCount: 92
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 3972, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 6401, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1195,7 +1198,7 @@ Playlist {
       repostsCount: 0
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 55, policy: 'BLOCK' },
+    playbackInfo: { playbackCount: 86, policy: 'BLOCK' },
     isBlocked: true,
     isSnipped: false,
     mediaInfo: {
@@ -1305,12 +1308,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 19,
-      likesCount: 301,
+      commentCount: 21,
+      likesCount: 320,
       repostsCount: 11
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 34851, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 37983, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1392,7 +1395,7 @@ Playlist {
         last: 'Escalante',
         username: 'Isaac Escalante'
       },
-      lastModified: '2022-01-25T09:59:37Z',
+      lastModified: '2023-08-20T10:37:00Z',
       permalink: {
         basic: 'isaacescalante',
         full: 'https://soundcloud.com/isaacescalante'
@@ -1414,7 +1417,7 @@ Playlist {
         tiny: 'https://i1.sndcdn.com/avatars-000041206431-c4vrxj-tiny.jpg',
         mini: 'https://i1.sndcdn.com/avatars-000041206431-c4vrxj-mini.jpg'
       },
-      badges: { pro: false, proUnlimited: true, verified: true }
+      badges: { pro: false, proUnlimited: false, verified: true }
     }
   },
   Track {
@@ -1431,11 +1434,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 0,
-      likesCount: 57,
+      likesCount: 83,
       repostsCount: 3
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 1425, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 3459, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1570,12 +1573,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 5,
-      likesCount: 203,
-      repostsCount: 11
+      commentCount: 8,
+      likesCount: 222,
+      repostsCount: 12
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 11740, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 13558, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1698,12 +1701,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 7,
-      likesCount: 371,
-      repostsCount: 14
+      commentCount: 9,
+      likesCount: 385,
+      repostsCount: 15
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 28373, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 30236, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1831,11 +1834,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 1,
-      likesCount: 34,
+      likesCount: 58,
       repostsCount: 0
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 3101, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 4641, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1973,12 +1976,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 8,
-      likesCount: 467,
+      commentCount: 9,
+      likesCount: 552,
       repostsCount: 7
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 14644, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 17625, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2071,7 +2074,7 @@ Playlist {
         last: 'Sterbinszky',
         username: 'Sterbinszky'
       },
-      lastModified: '2023-08-14T02:27:36Z',
+      lastModified: '2023-08-18T14:26:42Z',
       permalink: {
         basic: 'sterbinszky',
         full: 'https://soundcloud.com/sterbinszky'
@@ -2113,12 +2116,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 97,
-      likesCount: 215,
-      repostsCount: 76
+      commentCount: 114,
+      likesCount: 250,
+      repostsCount: 90
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 6714, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 8283, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2262,12 +2265,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 17,
-      likesCount: 203,
-      repostsCount: 120
+      commentCount: 53,
+      likesCount: 389,
+      repostsCount: 133
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 3907, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 5815, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2409,11 +2412,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 7,
-      likesCount: 279,
+      likesCount: 310,
       repostsCount: 13
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 9541, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 11115, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2549,11 +2552,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 0,
-      likesCount: 33,
+      likesCount: 41,
       repostsCount: 5
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 1842, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 2720, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2700,11 +2703,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 5,
-      likesCount: 210,
+      likesCount: 220,
       repostsCount: 16
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 7234, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 8124, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2834,12 +2837,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 62,
-      likesCount: 446,
-      repostsCount: 37
+      commentCount: 65,
+      likesCount: 465,
+      repostsCount: 39
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 28819, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 29953, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2992,12 +2995,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 50,
-      likesCount: 123,
+      commentCount: 52,
+      likesCount: 132,
       repostsCount: 16
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 2776, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 3506, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -3090,7 +3093,7 @@ Playlist {
         last: '',
         username: 'Neoluminum'
       },
-      lastModified: '2023-08-15T05:19:09Z',
+      lastModified: '2023-08-18T19:27:38Z',
       permalink: {
         basic: 'neoluminum',
         full: 'https://soundcloud.com/neoluminum'
@@ -3129,11 +3132,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 0,
-      likesCount: 10,
+      likesCount: 14,
       repostsCount: 0
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 730, policy: 'SNIP' },
+    playbackInfo: { playbackCount: 899, policy: 'SNIP' },
     isBlocked: false,
     isSnipped: true,
     mediaInfo: {
@@ -3259,11 +3262,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 1,
-      likesCount: 74,
+      likesCount: 78,
       repostsCount: 8
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 4460, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 5095, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -3316,8 +3319,8 @@ Playlist {
       albumTitle: undefined,
       containsMusic: true,
       UPCOrEAN: undefined,
-      ISRC: 'QM8DG2314158',
-      isExplicit: undefined,
+      ISRC: 'QM42K2361757',
+      isExplicit: false,
       releaseTitle: undefined,
       copyrightText: {
         general: { p: undefined, c: undefined },
@@ -3353,7 +3356,7 @@ Playlist {
         last: 'ＨＥＬＬ',
         username: 'Red Death Grave'
       },
-      lastModified: '2023-08-11T05:35:26Z',
+      lastModified: '2023-08-18T21:22:20Z',
       permalink: { basic: 'itsrdg', full: 'https://soundcloud.com/itsrdg' },
       apiInfo: {
         uri: 'https://api.soundcloud.com/users/74835904',
@@ -3402,11 +3405,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 2,
-      likesCount: 85,
+      likesCount: 95,
       repostsCount: 9
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 4586, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 5514, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -3499,7 +3502,7 @@ Playlist {
         last: '',
         username: 'Fonk Recordings'
       },
-      lastModified: '2023-06-30T18:35:30Z',
+      lastModified: '2023-08-18T11:21:33Z',
       permalink: {
         basic: 'fonkrecordings',
         full: 'https://soundcloud.com/fonkrecordings'
@@ -3546,11 +3549,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 14,
-      likesCount: 136,
+      likesCount: 144,
       repostsCount: 14
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 8542, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 9375, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -3722,11 +3725,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 0,
-      likesCount: 62,
+      likesCount: 67,
       repostsCount: 0
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 5346, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 6050, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -3863,11 +3866,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 2,
-      likesCount: 61,
+      likesCount: 67,
       repostsCount: 16
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 2000, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 2525, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -4002,12 +4005,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1,
-      likesCount: 288,
-      repostsCount: 23
+      commentCount: 5,
+      likesCount: 333,
+      repostsCount: 33
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 21997, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 24490, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -4135,12 +4138,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 144,
-      likesCount: 200,
-      repostsCount: 119
+      commentCount: 170,
+      likesCount: 226,
+      repostsCount: 136
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 4558, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 5090, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -4278,12 +4281,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 138,
-      likesCount: 466,
-      repostsCount: 126
+      commentCount: 146,
+      likesCount: 493,
+      repostsCount: 132
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 16357, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 17929, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -4443,12 +4446,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 60,
-      likesCount: 130,
-      repostsCount: 44
+      commentCount: 66,
+      likesCount: 142,
+      repostsCount: 52
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 4625, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 5228, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -4541,7 +4544,7 @@ Playlist {
         last: 'Label',
         username: 'PZYCCO'
       },
-      lastModified: '2023-07-31T07:34:51Z',
+      lastModified: '2023-08-17T14:04:50Z',
       permalink: { basic: 'pzycco', full: 'https://soundcloud.com/pzycco' },
       apiInfo: {
         uri: 'https://api.soundcloud.com/users/556076442',
@@ -4591,12 +4594,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 197,
-      likesCount: 1798,
-      repostsCount: 227
+      commentCount: 225,
+      likesCount: 1933,
+      repostsCount: 257
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 16553, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 20500, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -4729,12 +4732,12 @@ Playlist {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 0,
-      likesCount: 125,
+      commentCount: 1,
+      likesCount: 140,
       repostsCount: 3
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 9968, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 11109, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -4866,11 +4869,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 6,
-      likesCount: 174,
+      likesCount: 178,
       repostsCount: 6
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 14837, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 15766, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -5009,11 +5012,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 1,
-      likesCount: 23,
-      repostsCount: 5
+      likesCount: 30,
+      repostsCount: 7
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 1378, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 1869, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -5109,7 +5112,7 @@ Playlist {
         last: 'Fragoso',
         username: 'Paulo Fragoso'
       },
-      lastModified: '2023-08-05T15:59:19Z',
+      lastModified: '2023-08-22T16:07:00Z',
       permalink: {
         basic: 'paulofragoso',
         full: 'https://soundcloud.com/paulofragoso'
@@ -5131,7 +5134,7 @@ Playlist {
         tiny: 'https://i1.sndcdn.com/avatars-68qYa0DSfyuFgJfD-deobQA-tiny.jpg',
         mini: 'https://i1.sndcdn.com/avatars-68qYa0DSfyuFgJfD-deobQA-mini.jpg'
       },
-      badges: { pro: false, proUnlimited: true, verified: false }
+      badges: { pro: false, proUnlimited: false, verified: false }
     }
   },
   Track {
@@ -5152,11 +5155,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 0,
-      likesCount: 1,
-      repostsCount: 1
+      likesCount: 7,
+      repostsCount: 2
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 281, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 641, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -5288,11 +5291,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 0,
-      likesCount: 27,
+      likesCount: 37,
       repostsCount: 0
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 1757, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 2286, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -5438,11 +5441,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 0,
-      likesCount: 31,
+      likesCount: 39,
       repostsCount: 0
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 3693, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 4253, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -5538,7 +5541,7 @@ Playlist {
         last: 'Record Label',
         username: 'Soundrive'
       },
-      lastModified: '2023-07-28T09:24:13Z',
+      lastModified: '2023-08-17T14:42:00Z',
       permalink: {
         basic: 'soundrivehq',
         full: 'https://soundcloud.com/soundrivehq'
@@ -5560,7 +5563,7 @@ Playlist {
         tiny: 'https://i1.sndcdn.com/avatars-gmlIAiuHonRR1rLL-X84hgA-tiny.jpg',
         mini: 'https://i1.sndcdn.com/avatars-gmlIAiuHonRR1rLL-X84hgA-mini.jpg'
       },
-      badges: { pro: false, proUnlimited: true, verified: true }
+      badges: { pro: false, proUnlimited: false, verified: true }
     }
   },
   Track {
@@ -5581,11 +5584,11 @@ Playlist {
     socialInfo: {
       commentable: true,
       commentCount: 2,
-      likesCount: 103,
+      likesCount: 107,
       repostsCount: 11
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 3915, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 4339, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {

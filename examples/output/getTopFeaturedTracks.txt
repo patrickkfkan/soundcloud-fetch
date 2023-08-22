@@ -17,16 +17,16 @@ Collection {
       },
       socialInfo: {
         commentable: true,
-        commentCount: 5243,
-        likesCount: 271782,
-        repostsCount: 3046
+        commentCount: 5598,
+        likesCount: 289455,
+        repostsCount: 3345
       },
       sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackInfo: { playbackCount: 12699115, policy: 'ALLOW' },
+      playbackInfo: { playbackCount: 13874539, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
@@ -157,16 +157,16 @@ Collection {
       },
       socialInfo: {
         commentable: true,
-        commentCount: 3660,
-        likesCount: 509005,
-        repostsCount: 3385
+        commentCount: 4074,
+        likesCount: 544074,
+        repostsCount: 3780
       },
       sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackInfo: { playbackCount: 9636323, policy: 'ALLOW' },
+      playbackInfo: { playbackCount: 10793142, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
@@ -286,244 +286,17 @@ Collection {
     },
     Track {
       type: 'Track',
-      id: 1512758497,
+      id: 1589979079,
       texts: {
-        title: 'Prada - Cassö x Raye x D Block Europe',
-        description: 'cassö x RAYE x D-Block Europe - Prada - out now! \n' +
-          'Listen here: https://Casso.lnk.to/Pradasd',
+        title: 'Supposed To Be Loved Feat Lil Baby, Future, Lil Uzi Vert',
+        description: '',
         caption: null
       },
       dates: {
-        created: '2023-05-12T14:50:00Z',
+        created: '2023-08-11T00:11:40Z',
         released: null,
-        modified: '2023-08-11T14:39:40Z',
-        display: '2023-05-12T14:50:00Z'
-      },
-      downloadInfo: {
-        downloadable: false,
-        downloadCount: 143,
-        hasDownloadsLeft: false
-      },
-      socialInfo: {
-        commentable: true,
-        commentCount: 2387,
-        likesCount: 409375,
-        repostsCount: 4613
-      },
-      sharingInfo: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      playbackInfo: { playbackCount: 11695042, policy: 'ALLOW' },
-      isBlocked: false,
-      isSnipped: false,
-      mediaInfo: {
-        trackFormat: 'single-track',
-        encodingState: 'finished',
-        transcodings: [
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1512758497/67738f03-456e-4815-b2a6-c289eecd3c19/stream/hls',
-            preset: 'mp3_1_0',
-            duration: 135262,
-            isSnipped: false,
-            protocol: 'hls',
-            mimeType: 'audio/mpeg',
-            quality: 'sq'
-          },
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1512758497/67738f03-456e-4815-b2a6-c289eecd3c19/stream/progressive',
-            preset: 'mp3_1_0',
-            duration: 135262,
-            isSnipped: false,
-            protocol: 'progressive',
-            mimeType: 'audio/mpeg',
-            quality: 'sq'
-          },
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1512758497/5077f97a-8ad8-454c-8f6e-dac148ab5c2c/stream/hls',
-            preset: 'opus_0_0',
-            duration: 135218,
-            isSnipped: false,
-            protocol: 'hls',
-            mimeType: 'audio/ogg; codecs="opus"',
-            quality: 'sq'
-          }
-        ]
-      },
-      permalink: {
-        basic: 'prada',
-        full: 'https://soundcloud.com/casso-wav/prada'
-      },
-      apiInfo: {
-        streamable: true,
-        uri: 'https://api.soundcloud.com/tracks/1512758497',
-        urn: 'soundcloud:tracks:1512758497'
-      },
-      purchaseInfo: { title: 'Out Now', url: 'https://Casso.lnk.to/Prada' },
-      publisher: Publisher {
-        type: 'Publisher',
-        id: 1512758497,
-        artist: 'Cassö x RAYE x D-Block Europe',
-        albumTitle: undefined,
-        containsMusic: true,
-        UPCOrEAN: undefined,
-        ISRC: 'GBCEN2300147',
-        isExplicit: true,
-        releaseTitle: undefined,
-        copyrightText: {
-          general: { p: undefined, c: undefined },
-          display: { p: undefined, c: undefined }
-        },
-        apiInfo: { urn: 'soundcloud:tracks:1512758497' }
-      },
-      durations: { full: 135262, playback: 135262 },
-      genre: 'Dance & EDM',
-      license: 'all-rights-reserved',
-      isPublic: true,
-      tags: 'trance technoremix edm techhouse dblockeurope casso raye',
-      label: null,
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-OwkI9maTTkoZYDUD-mWgSzQ-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-OwkI9maTTkoZYDUD-mWgSzQ-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-OwkI9maTTkoZYDUD-mWgSzQ-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-OwkI9maTTkoZYDUD-mWgSzQ-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-OwkI9maTTkoZYDUD-mWgSzQ-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-OwkI9maTTkoZYDUD-mWgSzQ-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-OwkI9maTTkoZYDUD-mWgSzQ-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-OwkI9maTTkoZYDUD-mWgSzQ-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-OwkI9maTTkoZYDUD-mWgSzQ-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-OwkI9maTTkoZYDUD-mWgSzQ-mini.jpg'
-      },
-      waveform: 'https://wave.sndcdn.com/lXsfBc2qsadD_m.json',
-      user: User {
-        type: 'User',
-        id: 250380671,
-        names: { full: '', first: '', last: '', username: 'cassö' },
-        lastModified: '2023-08-11T20:51:52Z',
-        permalink: {
-          basic: 'casso-wav',
-          full: 'https://soundcloud.com/casso-wav'
-        },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/250380671',
-          urn: 'soundcloud:users:250380671'
-        },
-        location: { city: 'London', country: 'GB' },
-        isVerified: true,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-9yiMOJs5M3WNZdkm-lI7gvw-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-9yiMOJs5M3WNZdkm-lI7gvw-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-9yiMOJs5M3WNZdkm-lI7gvw-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-9yiMOJs5M3WNZdkm-lI7gvw-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-9yiMOJs5M3WNZdkm-lI7gvw-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-9yiMOJs5M3WNZdkm-lI7gvw-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-9yiMOJs5M3WNZdkm-lI7gvw-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-9yiMOJs5M3WNZdkm-lI7gvw-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-9yiMOJs5M3WNZdkm-lI7gvw-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: true, verified: true }
-      }
-    },
-    Track {
-      type: 'Track',
-      id: 1585665223,
-      texts: {
-        title: 'Dorcci x Kagan - Damn Things',
-        description: 'Dorcci x Kagan - Damn Things | Official Audio\n' +
-          '\n' +
-          'Watch Music Video on YouTube:\n' +
-          'https://youtu.be/xuuvA0QbGH8\n' +
-          '\n' +
-          'Available everywhere:\n' +
-          'streamlink.to/DT\n' +
-          '\n' +
-          'Executive Producer: Putak\n' +
-          'Production: Ashkan Kagan\n' +
-          'Beat Producer: Ashkan Kagan, Mani FP\n' +
-          'Director: ExtraDreamz\n' +
-          'Color Grading: Mteen\n' +
-          'Project Manager: Arda\n' +
-          'Artwork: Saintrahmani\n' +
-          'Special Thanks: Arman Jabari, Teo\n' +
-          '\n' +
-          'Available everywhere:\n' +
-          'streamlink.to/DT\n' +
-          '\n' +
-          'Spotify: https://bit.ly/3KC446O\n' +
-          'Apple Music: https://bit.ly/47upkVZ\n' +
-          'Tidal: https://bit.ly/3Qz4Y82\n' +
-          'Deezer: https://bit.ly/3OOfwPe\n' +
-          '\n' +
-          '"Damn Things" Lyrics:\n' +
-          'Un ke dad enghad hers mano gaidam\n' +
-          'Un ke gaid hame ghesam o gaidam\n' +
-          'Un ke tahe ghesamoonam boride\n' +
-          'Ghesmat o gaidam\n' +
-          'Un ke khast enghad badshi o giadam\n' +
-          'Adam lashi o gaidam\n' +
-          'Dige dar hadi begaie\n' +
-          'Khare masti o gaidam\n' +
-          '\n' +
-          'Un ke khast enghad badshi o gaidam\n' +
-          'Un ke khast tahesh enghad sakht beshe gaidam\n' +
-          'Un ke razam o midune\n' +
-          'Un ke gharar nabud kone razit o gaidam\n' +
-          'Un ke khast tahesh adi she bara to\n' +
-          'Un ke karde razit o gaidam\n' +
-          'Didi daashitam nabude\n' +
-          'Hamun lashi o gaidam\n' +
-          'Un ke dad dastam base aro gaidam\n' +
-          '\n' +
-          'Un ke khast enghad besham fess alan gaidamesh\n' +
-          'Un ke donbale forsate gaidam\n' +
-          'Nasakhe ghodrat o gaidam\n' +
-          'Un ke khast noghte zaafam o bedune\n' +
-          'Un ke keshid baram naghsharo gaidam\n' +
-          'Un ke gof nabakhshi sho gaidam\n' +
-          '\n' +
-          'Refigh baram eshtiagh namund\n' +
-          'Heyf ke eshtebah baram moond\n' +
-          'Heyfe fekr o khiala\n' +
-          'Beja eshghe to baram moond\n' +
-          'Heyfe kheyli eshtebah kardim\n' +
-          'Alan joda shodim a hamo \n' +
-          '\n' +
-          'Abram sangine hessaro baridam\n' +
-          'Akhare ghesaro gaidam\n' +
-          'Un ke khast alan joda bashim a hamo\n' +
-          'Hamun koskesh o gaidam\n' +
-          'Un ke khast ghabl o bade to bemune\n' +
-          'Ghabl o badesho gaidam\n' +
-          'Rahe nesfe nimaro gaidam\n' +
-          '\n' +
-          'Un ke dahan lagharo gaidam\n' +
-          'Un mikhast too dele man bemune\n' +
-          'Un lashi gamunam bedunam\n' +
-          'Behet chio goftaro gaidam\n' +
-          'Un ke khast tahesh joda bashim a hamo\n' +
-          'Hamun koskesh o gaidam\n' +
-          'Un ke bashi o gaidam\n' +
-          '\n' +
-          'Un ke dad dastam base aro gaidam\n' +
-          'Un ke khast enghad besham fess alan gaidamesh\n' +
-          '\n' +
-          'Un ke khast ghabl o badeto bemune\n' +
-          'Ghabl o badesho gaidam\n' +
-          '\n' +
-          'Alan joda shodim a hamo\n' +
-          '\n' +
-          'Un ke dad enghad hers mano gaidam',
-        caption: null
-      },
-      dates: {
-        created: '2023-08-07T11:01:44Z',
-        released: null,
-        modified: '2023-08-10T11:14:53Z',
-        display: '2023-08-07T17:32:25Z'
+        modified: '2023-08-11T04:01:56Z',
+        display: '2023-08-11T04:01:56Z'
       },
       downloadInfo: {
         downloadable: false,
@@ -532,16 +305,16 @@ Collection {
       },
       socialInfo: {
         commentable: true,
-        commentCount: 5270,
-        likesCount: 44005,
-        repostsCount: 1023
+        commentCount: 1418,
+        likesCount: 32362,
+        repostsCount: 2848
       },
       sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackInfo: { playbackCount: 1262631, policy: 'ALLOW' },
+      playbackInfo: { playbackCount: 1235993, policy: 'ALLOW' },
       isBlocked: false,
       isSnipped: false,
       mediaInfo: {
@@ -550,9 +323,9 @@ Collection {
         transcodings: [
           MediaTranscoding {
             type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1585665223/b483ee5f-e1e0-4b2d-b99d-e6ccdc7ae8a1/stream/hls',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1589979079/e264070e-bb8f-476c-a470-4dd0466cabf2/stream/hls',
             preset: 'mp3_1_0',
-            duration: 228389,
+            duration: 207020,
             isSnipped: false,
             protocol: 'hls',
             mimeType: 'audio/mpeg',
@@ -560,19 +333,9 @@ Collection {
           },
           MediaTranscoding {
             type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1585665223/b483ee5f-e1e0-4b2d-b99d-e6ccdc7ae8a1/stream/progressive',
-            preset: 'mp3_1_0',
-            duration: 228389,
-            isSnipped: false,
-            protocol: 'progressive',
-            mimeType: 'audio/mpeg',
-            quality: 'sq'
-          },
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1585665223/91a597e3-8749-45a2-bc45-cf65f655bf6d/stream/hls',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1589979079/681c3a4f-0b51-4908-82bc-25e78fdd7b26/stream/hls',
             preset: 'opus_0_0',
-            duration: 228347,
+            duration: 206979,
             isSnipped: false,
             protocol: 'hls',
             mimeType: 'audio/ogg; codecs="opus"',
@@ -581,701 +344,88 @@ Collection {
         ]
       },
       permalink: {
-        basic: 'damn-things',
-        full: 'https://soundcloud.com/dorcci/damn-things'
+        basic: 'supposed-to-be-loved',
+        full: 'https://soundcloud.com/dj-khaled/supposed-to-be-loved'
       },
       apiInfo: {
         streamable: true,
-        uri: 'https://api.soundcloud.com/tracks/1585665223',
-        urn: 'soundcloud:tracks:1585665223'
+        uri: 'https://api.soundcloud.com/tracks/1589979079',
+        urn: 'soundcloud:tracks:1589979079'
       },
       purchaseInfo: { title: null, url: null },
       publisher: Publisher {
         type: 'Publisher',
-        id: 1585665223,
-        artist: 'Dorcci, Ashkan Kagan',
+        id: 1589979079,
+        artist: 'DJ Khaled',
         albumTitle: undefined,
         containsMusic: true,
         UPCOrEAN: undefined,
-        ISRC: 'QZS652309476',
-        isExplicit: true,
-        releaseTitle: undefined,
-        copyrightText: {
-          general: { p: undefined, c: undefined },
-          display: { p: undefined, c: undefined }
-        },
-        apiInfo: { urn: 'soundcloud:tracks:1585665223' }
-      },
-      durations: { full: 228389, playback: 228389 },
-      genre: 'Hip-hop & Rap',
-      license: 'all-rights-reserved',
-      isPublic: true,
-      tags: '',
-      label: null,
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-MhBX8k6Nl86P4uri-Aan0Eg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-MhBX8k6Nl86P4uri-Aan0Eg-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-MhBX8k6Nl86P4uri-Aan0Eg-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-MhBX8k6Nl86P4uri-Aan0Eg-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-MhBX8k6Nl86P4uri-Aan0Eg-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-MhBX8k6Nl86P4uri-Aan0Eg-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-MhBX8k6Nl86P4uri-Aan0Eg-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-MhBX8k6Nl86P4uri-Aan0Eg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-MhBX8k6Nl86P4uri-Aan0Eg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-MhBX8k6Nl86P4uri-Aan0Eg-mini.jpg'
-      },
-      waveform: 'https://wave.sndcdn.com/EDiwals953Mp_m.json',
-      user: User {
-        type: 'User',
-        id: 1045241779,
-        names: {
-          full: 'Rich Dorcci',
-          first: 'Rich',
-          last: 'Dorcci',
-          username: 'Dorcci'
-        },
-        lastModified: '2023-08-10T10:01:17Z',
-        permalink: { basic: 'dorcci', full: 'https://soundcloud.com/dorcci' },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/1045241779',
-          urn: 'soundcloud:users:1045241779'
-        },
-        location: { city: '', country: null },
-        isVerified: true,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-XikiTKDjcUX7K5XL-Na4IDQ-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-XikiTKDjcUX7K5XL-Na4IDQ-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-XikiTKDjcUX7K5XL-Na4IDQ-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-XikiTKDjcUX7K5XL-Na4IDQ-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-XikiTKDjcUX7K5XL-Na4IDQ-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-XikiTKDjcUX7K5XL-Na4IDQ-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-XikiTKDjcUX7K5XL-Na4IDQ-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-XikiTKDjcUX7K5XL-Na4IDQ-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-XikiTKDjcUX7K5XL-Na4IDQ-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: true, verified: true }
-      }
-    },
-    Track {
-      type: 'Track',
-      id: 1518331798,
-      texts: {
-        title: 'قراميط والهلافيت عاملين مظابيط - صحبي الي اداك يدينا كريم كريستيانو',
-        description: 'قراميط والهلافيت عاملين مظابيط - صحبي الي اداك يدينا كريم كريستيانو\n' +
-          '\n' +
-          '\n' +
-          '*الكلمات*\n' +
-          'قراميط قراميط و الهلافيت عاملين مظابيط\n' +
-          'لاء دانتو تروحو تتعالجو شوفلكوا مصحة لمرض السيط\n' +
-          '\n' +
-          'اللي اداك يدينا اللة يرحم باباة\n' +
-          'ماتعش اللحظة علينا يابني احنا معانا\n' +
-          'البير وغطاة خد في الوش اللي جنابك لابسة\n' +
-          'ماتنساش اصلك ياة دا الهلفوت سدا نفسة\n' +
-          'عشان ماشي كام كلب وراة\n' +
-          '\n' +
-          'قراميط قراميط و الهلافيت عاملين مظابيط\n' +
-          'لاء دانتو تروحو تتعالجو شوفلكوا مصحة لمرض السيط\n' +
-          'جعانين جعانين جعانين عندي تاريخكوا لو ناسيين\n' +
-          'كنتوا بتحلموا تيجوا تسلموا هتعيشوا الدور علي مين\n' +
-          '\n' +
-          'عن نفسي عملت الخير رميتة في البحر انا مش مستني\n' +
-          'داهية اللي يغور يغور قال يعني منعتوا المصروف عني\n' +
-          '\n' +
-          'علي دهري بربي كبير ودراعي في الشدة يابا اللي يشلني\n' +
-          'دانا لو هسال هسال في كتير ومفيش مخلوق يسالني\n' +
-          'ميتنات ميتنات ميتنات بدوسو علي بعض عشان جنيهات\n' +
-          'علي كدة لو شفتوا الاخضر مع بعض علي كدة هتعملوا جنايات\n' +
-          '\n' +
-          'حرمان حرمان حرمان مافيكومش واحد من بيتة شبعان\n' +
-          'عند الرجالة يركبكوا الفقر وتصرفوا علي النسوان\n' +
-          'حسن العمدة يا عمنا علي حسة شناب ماشيين يا عبيط\n' +
-          'الحلو ياطاطي زميلي ارضنا بنسيط ام السيط\n' +
-          'حسين العمدة دة باب دة كينج مدينتة يابا وحملة رجلية ماترح\n' +
-          'ما تدب في ارض تشرف يابا رملتها\n' +
-          '\n' +
-          'فكك من اخويا وحبيبي وخش علي المصلحة علطول\n' +
-          'انا كاشحك وانت كاشحني ولسة في اشعار هتقول\n' +
-          'من امتي بشوف رناتك انت في يوم رن المحمول\n' +
-          'وفر يا زميلي ميكساتك بطل رغي وخف تامول\n' +
-          '\n' +
-          'مقاطيع مقاطيع مقاطيع واللة بنعامل ناس جرابيع\n' +
-          'داحنا في زمن اللي تجيلة الفرصة اوام يغدر ويبيع\n' +
-          'حوارات حوارات حوارات في الناس عايشين ناخد صدمات\n' +
-          'مبقاش فيها عيش ولا ملح كلة مصدر فيها الاستعباط\n' +
-          '\n' +
-          'عربية وفيلا وكيف وفلوس وهدوم وكمان سهرات\n' +
-          'مش انا الشاب اللي في بالك انا مش جاي من الامارات\n' +
-          '\n' +
-          'دوري علي واحد بكت انا مابضيعش علي الستات\n' +
-          'شوفي اي خروف يقطعلك تكت الفتحة علي الشنبات\n' +
-          'مشقوطة مشقوطة مشقوطة وماما حلوة عارفة ومبسوطة\n' +
-          'والحاج دة ولا محتك طالما الدنيا فري ومظبوطة\n' +
-          '\n' +
-          'يارخيصة يارخيصة يارخيصة انتي الاتنين منك ببريزة\n' +
-          'نفسين جروا الحجرين وبقيتي مدمنة ضريبة بيسة\n' +
-          'انا عندي اللي مكفيني مابحبش اخد من حد بواقي\n' +
-          'مش ممكن اي حريم تغويني ومرازي مش عشوائي\n' +
-          '\n' +
-          'روح قلبي اللي بحبها اخلاقها نضيفة تشبة اخلاقي\n' +
-          'مقدرش ابعد عنها انا لا زيها مش ممكن الاقي\n' +
-          'سكرة سكرة سكرة دي حبيبتي معسلة ومسكرة\n' +
-          'واللة امروة وجمالها طبيعي من غير روج ولا مسكرة\n' +
-          '\n' +
-          'عشقاني عشقاني عشقاني بحبها موت وكمان عشقاني\n' +
-          'طول ما هي حواليا هعوز انا اية بس من الدنيا دي تاني',
-        caption: 'قراميط والهلافيت عاملين مظابيط - صحبي الي اداك يدينا كريم كريستيانو'
-      },
-      dates: {
-        created: '2023-05-20T10:12:31Z',
-        released: null,
-        modified: '2023-07-11T09:07:24Z',
-        display: '2023-06-09T07:10:15Z'
-      },
-      downloadInfo: {
-        downloadable: false,
-        downloadCount: 0,
-        hasDownloadsLeft: false
-      },
-      socialInfo: {
-        commentable: true,
-        commentCount: 1790,
-        likesCount: 380771,
-        repostsCount: 2699
-      },
-      sharingInfo: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      playbackInfo: { playbackCount: 10068098, policy: 'ALLOW' },
-      isBlocked: false,
-      isSnipped: false,
-      mediaInfo: {
-        trackFormat: 'single-track',
-        encodingState: 'finished',
-        transcodings: [
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1518331798/7d8124fd-64fd-42ac-9f30-91fd767cf800/stream/hls',
-            preset: 'mp3_1_0',
-            duration: 216503,
-            isSnipped: false,
-            protocol: 'hls',
-            mimeType: 'audio/mpeg',
-            quality: 'sq'
-          },
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1518331798/7d8124fd-64fd-42ac-9f30-91fd767cf800/stream/progressive',
-            preset: 'mp3_1_0',
-            duration: 216503,
-            isSnipped: false,
-            protocol: 'progressive',
-            mimeType: 'audio/mpeg',
-            quality: 'sq'
-          },
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1518331798/df3ca3db-f543-4c96-8d90-c32a45261199/stream/hls',
-            preset: 'opus_0_0',
-            duration: 216483,
-            isSnipped: false,
-            protocol: 'hls',
-            mimeType: 'audio/ogg; codecs="opus"',
-            quality: 'sq'
-          }
-        ]
-      },
-      permalink: {
-        basic: 'lxdurkyzdz69',
-        full: 'https://soundcloud.com/t-h2020/lxdurkyzdz69'
-      },
-      apiInfo: {
-        streamable: true,
-        uri: 'https://api.soundcloud.com/tracks/1518331798',
-        urn: 'soundcloud:tracks:1518331798'
-      },
-      purchaseInfo: {
-        title: 'لتحميل الأغنيه',
-        url: 'https://hypeddit.com/44-music1'
-      },
-      publisher: Publisher {
-        type: 'Publisher',
-        id: 1518331798,
-        artist: 'محمد رمضان',
-        albumTitle: undefined,
-        containsMusic: true,
-        UPCOrEAN: undefined,
-        ISRC: 'QM42K2365519',
-        isExplicit: false,
-        releaseTitle: undefined,
-        copyrightText: {
-          general: { p: undefined, c: undefined },
-          display: { p: undefined, c: undefined }
-        },
-        apiInfo: { urn: 'soundcloud:tracks:1518331798' }
-      },
-      durations: { full: 216503, playback: 216503 },
-      genre: 'World',
-      license: 'all-rights-reserved',
-      isPublic: true,
-      tags: 'قراميط والهلافيت عاملين مظابيط - صحبي الي اداك يدينا كريم كريستيانو',
-      label: null,
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-wlzmYOESKBKUWJKS-p3wMUg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-wlzmYOESKBKUWJKS-p3wMUg-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-wlzmYOESKBKUWJKS-p3wMUg-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-wlzmYOESKBKUWJKS-p3wMUg-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-wlzmYOESKBKUWJKS-p3wMUg-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-wlzmYOESKBKUWJKS-p3wMUg-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-wlzmYOESKBKUWJKS-p3wMUg-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-wlzmYOESKBKUWJKS-p3wMUg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-wlzmYOESKBKUWJKS-p3wMUg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-wlzmYOESKBKUWJKS-p3wMUg-mini.jpg'
-      },
-      waveform: 'https://wave.sndcdn.com/gdYZjId14Rzp_m.json',
-      user: User {
-        type: 'User',
-        id: 1009918417,
-        names: {
-          full: 'بطولة محمد رمضان انا قادر - من مسلسل جعفر العمدة',
-          first: 'بطولة محمد رمضان',
-          last: 'انا قادر - من مسلسل جعفر العمدة',
-          username: 'انا قادر - من مسلسل جعفر العمدة بطولة محمد رمضان'
-        },
-        lastModified: '2023-04-07T15:14:09Z',
-        permalink: { basic: 't-h2020', full: 'https://soundcloud.com/t-h2020' },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/1009918417',
-          urn: 'soundcloud:users:1009918417'
-        },
-        location: { city: 'انا قادر - من مسلسل جعفر العمدة', country: 'FR' },
-        isVerified: false,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-UUCB8PBEybTx0YWI-N09ynw-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-UUCB8PBEybTx0YWI-N09ynw-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-UUCB8PBEybTx0YWI-N09ynw-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-UUCB8PBEybTx0YWI-N09ynw-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-UUCB8PBEybTx0YWI-N09ynw-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-UUCB8PBEybTx0YWI-N09ynw-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-UUCB8PBEybTx0YWI-N09ynw-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-UUCB8PBEybTx0YWI-N09ynw-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-UUCB8PBEybTx0YWI-N09ynw-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: true, verified: false }
-      }
-    },
-    Track {
-      type: 'Track',
-      id: 1497689122,
-      texts: { title: 'مخصماك', description: null, caption: null },
-      dates: {
-        created: '2023-04-21T16:25:42Z',
-        released: '2022-02-14T00:00:00Z',
-        modified: '2023-04-21T16:33:40Z',
-        display: '2022-02-14T00:00:00Z'
-      },
-      downloadInfo: {
-        downloadable: false,
-        downloadCount: 0,
-        hasDownloadsLeft: false
-      },
-      socialInfo: {
-        commentable: true,
-        commentCount: 981,
-        likesCount: 248212,
-        repostsCount: 1479
-      },
-      sharingInfo: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      playbackInfo: { playbackCount: 4425560, policy: 'ALLOW' },
-      isBlocked: false,
-      isSnipped: false,
-      mediaInfo: {
-        trackFormat: 'single-track',
-        encodingState: 'finished',
-        transcodings: [
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1497689122/2e647634-0c53-4d0c-9672-2fa3d77db6f2/stream/hls',
-            preset: 'mp3_1_0',
-            duration: 198060,
-            isSnipped: false,
-            protocol: 'hls',
-            mimeType: 'audio/mpeg',
-            quality: 'sq'
-          },
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1497689122/2e647634-0c53-4d0c-9672-2fa3d77db6f2/stream/progressive',
-            preset: 'mp3_1_0',
-            duration: 198060,
-            isSnipped: false,
-            protocol: 'progressive',
-            mimeType: 'audio/mpeg',
-            quality: 'sq'
-          },
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1497689122/ea4fdd30-f967-4b80-8636-81ef264d8883/stream/hls',
-            preset: 'opus_0_0',
-            duration: 198026,
-            isSnipped: false,
-            protocol: 'hls',
-            mimeType: 'audio/ogg; codecs="opus"',
-            quality: 'sq'
-          }
-        ]
-      },
-      permalink: {
-        basic: 'gauzsmhdz7yx',
-        full: 'https://soundcloud.com/nawal-official/gauzsmhdz7yx'
-      },
-      apiInfo: {
-        streamable: true,
-        uri: 'https://api.soundcloud.com/tracks/1497689122',
-        urn: 'soundcloud:tracks:1497689122'
-      },
-      purchaseInfo: { title: null, url: null },
-      publisher: Publisher {
-        type: 'Publisher',
-        id: 1497689122,
-        artist: 'Nawal',
-        albumTitle: 'مخصماك',
-        containsMusic: true,
-        UPCOrEAN: '6221117103154',
-        ISRC: 'EGA010551905',
-        isExplicit: false,
-        releaseTitle: 'مخصماك',
-        copyrightText: {
-          general: { p: '2022 Nawal Abdechaffi', c: '2022 Digisay Music' },
-          display: { p: '℗ 2022 Nawal Abdechaffi', c: '© 2022 Digisay Music' }
-        },
-        apiInfo: { urn: 'soundcloud:tracks:1497689122' }
-      },
-      durations: { full: 198060, playback: 198060 },
-      genre: 'Folk',
-      license: 'all-rights-reserved',
-      isPublic: true,
-      tags: 'Mahraganat',
-      label: 'Nawal Abdechaffi',
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-WRePrKAzZ2IY-0-large.png'
-      },
-      waveform: 'https://wave.sndcdn.com/xPUexnH94ftK_m.json',
-      user: User {
-        type: 'User',
-        id: 203416051,
-        names: { full: '', first: '', last: '', username: 'Nawal' },
-        lastModified: '2016-03-25T19:08:36Z',
-        permalink: {
-          basic: 'nawal-official',
-          full: 'https://soundcloud.com/nawal-official'
-        },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/203416051',
-          urn: 'soundcloud:users:203416051'
-        },
-        location: { city: null, country: null },
-        isVerified: false,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-000212889952-v7ob6o-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: true, verified: false }
-      }
-    },
-    Track {
-      type: 'Track',
-      id: 1570556857,
-      texts: {
-        title: 'NANANA x COLA - Ian Asher Edit (Montner Flip)',
-        description: 'Ian asher mashup remade by me Montner, hope you enjoy!\n' +
-          'OBS - You can only use this mashup for private use, this is not meant to be distributed or released in any commercial way!!!',
-        caption: null
-      },
-      dates: {
-        created: '2023-07-20T21:45:43Z',
-        released: null,
-        modified: '2023-08-02T16:24:56Z',
-        display: '2023-07-20T21:45:43Z'
-      },
-      downloadInfo: {
-        downloadable: false,
-        downloadCount: 0,
-        hasDownloadsLeft: false
-      },
-      socialInfo: {
-        commentable: true,
-        commentCount: 662,
-        likesCount: 113332,
-        repostsCount: 804
-      },
-      sharingInfo: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      playbackInfo: { playbackCount: 2182526, policy: 'ALLOW' },
-      isBlocked: false,
-      isSnipped: false,
-      mediaInfo: {
-        trackFormat: 'single-track',
-        encodingState: 'finished',
-        transcodings: [
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1570556857/d9f934e5-1409-44a1-b63b-33ecc1a8feec/stream/hls',
-            preset: 'mp3_1_0',
-            duration: 224836,
-            isSnipped: false,
-            protocol: 'hls',
-            mimeType: 'audio/mpeg',
-            quality: 'sq'
-          },
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1570556857/d9f934e5-1409-44a1-b63b-33ecc1a8feec/stream/progressive',
-            preset: 'mp3_1_0',
-            duration: 224836,
-            isSnipped: false,
-            protocol: 'progressive',
-            mimeType: 'audio/mpeg',
-            quality: 'sq'
-          },
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1570556857/3add5eec-0d26-4d72-8216-0745b69d83ff/stream/hls',
-            preset: 'opus_0_0',
-            duration: 224795,
-            isSnipped: false,
-            protocol: 'hls',
-            mimeType: 'audio/ogg; codecs="opus"',
-            quality: 'sq'
-          }
-        ]
-      },
-      permalink: {
-        basic: 'cola-x-nanana',
-        full: 'https://soundcloud.com/montner/cola-x-nanana'
-      },
-      apiInfo: {
-        streamable: true,
-        uri: 'https://api.soundcloud.com/tracks/1570556857',
-        urn: 'soundcloud:tracks:1570556857'
-      },
-      purchaseInfo: {
-        title: 'Free Download',
-        url: 'https://hypeddit.com/montner/colaxnanana'
-      },
-      publisher: Publisher {
-        type: 'Publisher',
-        id: 1570556857,
-        artist: undefined,
-        albumTitle: undefined,
-        containsMusic: true,
-        UPCOrEAN: undefined,
-        ISRC: undefined,
+        ISRC: 'USUG12306984',
         isExplicit: undefined,
         releaseTitle: undefined,
         copyrightText: {
           general: { p: undefined, c: undefined },
           display: { p: undefined, c: undefined }
         },
-        apiInfo: { urn: 'soundcloud:tracks:1570556857' }
+        apiInfo: { urn: 'soundcloud:tracks:1589979079' }
       },
-      durations: { full: 224836, playback: 224836 },
-      genre: 'House',
-      license: 'all-rights-reserved',
-      isPublic: true,
-      tags: 'cola camelphat Remix Mashup nanana "peggy gou" "camelphat cola nanana peggy gou" "cola nanana" mix House trend tiktok "tiktok remix" "tiktok mashup" 2023',
-      label: null,
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-y6mu6Rgd4gkseHfE-VdzCGQ-mini.jpg'
-      },
-      waveform: 'https://wave.sndcdn.com/6x3szbCvIdr4_m.json',
-      user: User {
-        type: 'User',
-        id: 83101689,
-        names: {
-          full: 'DJ & Producer',
-          first: 'DJ &',
-          last: 'Producer',
-          username: 'MONTNER'
-        },
-        lastModified: '2023-08-14T13:51:06Z',
-        permalink: { basic: 'montner', full: 'https://soundcloud.com/montner' },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/83101689',
-          urn: 'soundcloud:users:83101689'
-        },
-        location: { city: 'Stockholm', country: 'SE' },
-        isVerified: false,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-W9s0hJeasLKLWaHz-z3dBRQ-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: true, verified: false }
-      }
-    },
-    Track {
-      type: 'Track',
-      id: 1576316053,
-      texts: {
-        title: 'Travis Scott feat. Playboi Carti - FE!N',
-        description: null,
-        caption: null
-      },
-      dates: {
-        created: '2023-07-28T05:43:54Z',
-        released: '2023-07-28T00:00:00Z',
-        modified: '2023-08-10T18:02:44Z',
-        display: '2023-07-28T04:00:00Z'
-      },
-      downloadInfo: {
-        downloadable: false,
-        downloadCount: 0,
-        hasDownloadsLeft: false
-      },
-      socialInfo: {
-        commentable: true,
-        commentCount: 3550,
-        likesCount: 76775,
-        repostsCount: 2407
-      },
-      sharingInfo: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      playbackInfo: { playbackCount: 2874560, policy: 'BLOCK' },
-      isBlocked: true,
-      isSnipped: false,
-      mediaInfo: {
-        trackFormat: 'single-track',
-        encodingState: 'finished',
-        transcodings: []
-      },
-      permalink: {
-        basic: 'travis-scott-fe-n',
-        full: 'https://soundcloud.com/travisscott-2/travis-scott-fe-n'
-      },
-      apiInfo: {
-        streamable: true,
-        uri: 'https://api.soundcloud.com/tracks/1576316053',
-        urn: 'soundcloud:tracks:1576316053'
-      },
-      purchaseInfo: { title: null, url: null },
-      publisher: Publisher {
-        type: 'Publisher',
-        id: 1576316053,
-        artist: 'Travis Scott feat. Playboi Carti',
-        albumTitle: 'UTOPIA',
-        containsMusic: true,
-        UPCOrEAN: '196871341882',
-        ISRC: 'USSM12305010',
-        isExplicit: true,
-        releaseTitle: 'Travis Scott feat. Playboi Carti - FE!N',
-        copyrightText: {
-          general: {
-            p: '(P) 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
-            c: undefined
-          },
-          display: {
-            p: '℗ 2023 Cactus Jack Records under exclusive license to Epic Records, a division of Sony Music Entertainment',
-            c: undefined
-          }
-        },
-        apiInfo: { urn: 'soundcloud:tracks:1576316053' }
-      },
-      durations: { full: 191739, playback: 191739 },
-      genre: 'Hip Hop',
+      durations: { full: 207020, playback: 207020 },
+      genre: 'Hip-hop & Rap',
       license: 'all-rights-reserved',
       isPublic: true,
       tags: '',
-      label: 'Cactus Jack/Epic',
+      label: null,
       artwork: {
-        default: 'https://i1.sndcdn.com/artworks-tV6G7aPuqLrO-0-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-tV6G7aPuqLrO-0-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-tV6G7aPuqLrO-0-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-tV6G7aPuqLrO-0-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-tV6G7aPuqLrO-0-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-tV6G7aPuqLrO-0-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-tV6G7aPuqLrO-0-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-tV6G7aPuqLrO-0-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-tV6G7aPuqLrO-0-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-tV6G7aPuqLrO-0-mini.jpg'
+        default: 'https://i1.sndcdn.com/artworks-uf3UzE0Sz4u37lmz-AwmbXA-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-uf3UzE0Sz4u37lmz-AwmbXA-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-uf3UzE0Sz4u37lmz-AwmbXA-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-uf3UzE0Sz4u37lmz-AwmbXA-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-uf3UzE0Sz4u37lmz-AwmbXA-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-uf3UzE0Sz4u37lmz-AwmbXA-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-uf3UzE0Sz4u37lmz-AwmbXA-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-uf3UzE0Sz4u37lmz-AwmbXA-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-uf3UzE0Sz4u37lmz-AwmbXA-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-uf3UzE0Sz4u37lmz-AwmbXA-mini.jpg'
       },
-      waveform: 'https://wave.sndcdn.com/XyESWmSwUggD_m.json',
+      waveform: 'https://wave.sndcdn.com/z2hBcAEaxMyX_m.json',
       user: User {
         type: 'User',
-        id: 40174345,
-        names: { full: '', first: '', last: '', username: 'Travis Scott' },
-        lastModified: '2021-11-04T19:36:26Z',
+        id: 206908846,
+        names: { full: '', first: '', last: '', username: 'DJ Khaled' },
+        lastModified: '2023-08-11T04:02:31Z',
         permalink: {
-          basic: 'travisscott-2',
-          full: 'https://soundcloud.com/travisscott-2'
+          basic: 'dj-khaled',
+          full: 'https://soundcloud.com/dj-khaled'
         },
         apiInfo: {
-          uri: 'https://api.soundcloud.com/users/40174345',
-          urn: 'soundcloud:users:40174345'
+          uri: 'https://api.soundcloud.com/users/206908846',
+          urn: 'soundcloud:users:206908846'
         },
-        location: { city: 'Houston, TX', country: 'US' },
+        location: { city: null, country: null },
         isVerified: true,
         avatar: {
-          default: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-000701366305-hu9f0i-mini.jpg'
+          default: 'https://i1.sndcdn.com/avatars-PZgtcX3YDkNj7qEt-U4QYyA-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-PZgtcX3YDkNj7qEt-U4QYyA-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-PZgtcX3YDkNj7qEt-U4QYyA-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-PZgtcX3YDkNj7qEt-U4QYyA-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-PZgtcX3YDkNj7qEt-U4QYyA-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-PZgtcX3YDkNj7qEt-U4QYyA-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-PZgtcX3YDkNj7qEt-U4QYyA-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-PZgtcX3YDkNj7qEt-U4QYyA-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-PZgtcX3YDkNj7qEt-U4QYyA-mini.jpg'
         },
         badges: { pro: false, proUnlimited: true, verified: true }
       }
     },
     Track {
       type: 'Track',
-      id: 1568642614,
-      texts: {
-        title: 'مهرجان قـلبي يالـي كلامي عندك 💔😔 ( حوده بندق ) ~ لسه منزلٓش / افشه A18',
-        description: '',
-        caption: null
-      },
+      id: 1568853658,
+      texts: { title: 'Last Days', description: null, caption: null },
       dates: {
-        created: '2023-07-19T00:18:03Z',
-        released: null,
-        modified: '2023-07-19T00:19:48Z',
-        display: '2023-07-19T00:18:03Z'
+        created: '2023-07-19T05:38:03Z',
+        released: '2023-07-25T00:00:00Z',
+        modified: '2023-08-21T18:59:06Z',
+        display: '2023-07-25T00:00:00Z'
       },
       downloadInfo: {
         downloadable: false,
@@ -1284,130 +434,138 @@ Collection {
       },
       socialInfo: {
         commentable: true,
-        commentCount: 423,
-        likesCount: 123105,
-        repostsCount: 708
+        commentCount: 1424,
+        likesCount: 44204,
+        repostsCount: 2284
       },
       sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackInfo: { playbackCount: 2666135, policy: 'ALLOW' },
+      playbackInfo: { playbackCount: 1598177, policy: 'SNIP' },
       isBlocked: false,
-      isSnipped: false,
+      isSnipped: true,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
           MediaTranscoding {
             type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1568642614/07578f6e-21a7-4936-a1ca-3237dc17ec9f/stream/hls',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1568853658/3ae778c2-0b9b-4d2b-8b66-258a23b7e375/preview/hls',
             preset: 'mp3_1_0',
-            duration: 201378,
-            isSnipped: false,
+            duration: 30000,
+            isSnipped: true,
             protocol: 'hls',
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
           MediaTranscoding {
             type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1568642614/07578f6e-21a7-4936-a1ca-3237dc17ec9f/stream/progressive',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1568853658/3ae778c2-0b9b-4d2b-8b66-258a23b7e375/preview/progressive',
             preset: 'mp3_1_0',
-            duration: 201378,
-            isSnipped: false,
+            duration: 30000,
+            isSnipped: true,
             protocol: 'progressive',
             mimeType: 'audio/mpeg',
-            quality: 'sq'
-          },
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1568642614/56565259-3109-42f6-a6ea-4c95b3996b8e/stream/hls',
-            preset: 'opus_0_0',
-            duration: 201358,
-            isSnipped: false,
-            protocol: 'hls',
-            mimeType: 'audio/ogg; codecs="opus"',
             quality: 'sq'
           }
         ]
       },
       permalink: {
-        basic: 'farkgdhq2j5o',
-        full: 'https://soundcloud.com/abdalla-tarek-5/farkgdhq2j5o'
+        basic: 'last-days',
+        full: 'https://soundcloud.com/trippie-hippie-2/last-days'
       },
       apiInfo: {
         streamable: true,
-        uri: 'https://api.soundcloud.com/tracks/1568642614',
-        urn: 'soundcloud:tracks:1568642614'
+        uri: 'https://api.soundcloud.com/tracks/1568853658',
+        urn: 'soundcloud:tracks:1568853658'
       },
       purchaseInfo: { title: null, url: null },
-      durations: { full: 201378, playback: 201378 },
-      genre: '',
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1568853658,
+        artist: 'Trippie Redd',
+        albumTitle: 'Last Days',
+        containsMusic: true,
+        UPCOrEAN: '00810130441617',
+        ISRC: 'QZJ842003241',
+        isExplicit: false,
+        releaseTitle: 'Last Days',
+        copyrightText: {
+          general: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          },
+          display: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1568853658' }
+      },
+      durations: { full: 154070, playback: 30000 },
+      genre: 'Hip Hop',
       license: 'all-rights-reserved',
       isPublic: true,
       tags: '',
-      label: null,
+      label: '1400 Entertainment, Inc. / 10K Projects',
       artwork: {
-        default: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-WztAepByp9G32jyT-pk0gFQ-mini.jpg'
+        default: 'https://i1.sndcdn.com/artworks-MMhgcbc21NLn-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-MMhgcbc21NLn-0-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-MMhgcbc21NLn-0-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-MMhgcbc21NLn-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-MMhgcbc21NLn-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-MMhgcbc21NLn-0-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-MMhgcbc21NLn-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-MMhgcbc21NLn-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-MMhgcbc21NLn-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-MMhgcbc21NLn-0-mini.jpg'
       },
-      waveform: 'https://wave.sndcdn.com/Mn72rQkgirQh_m.json',
+      waveform: 'https://wave.sndcdn.com/UXJ9cwI9LTHv_m.json',
       user: User {
         type: 'User',
-        id: 123562926,
+        id: 106902584,
         names: {
-          full: 'Abdalla Tarek',
-          first: 'Abdalla',
-          last: 'Tarek',
-          username: 'ᗩ.ᗩfshāā18🚂..!'
+          full: 'lil-14 the Savage',
+          first: 'lil-14 the Savage',
+          last: '',
+          username: 'Trippie Redd\x7F'
         },
-        lastModified: '2023-07-23T00:58:46Z',
+        lastModified: '2023-08-11T04:03:44Z',
         permalink: {
-          basic: 'abdalla-tarek-5',
-          full: 'https://soundcloud.com/abdalla-tarek-5'
+          basic: 'trippie-hippie-2',
+          full: 'https://soundcloud.com/trippie-hippie-2'
         },
         apiInfo: {
-          uri: 'https://api.soundcloud.com/users/123562926',
-          urn: 'soundcloud:users:123562926'
+          uri: 'https://api.soundcloud.com/users/106902584',
+          urn: 'soundcloud:users:106902584'
         },
-        location: { city: 'Giza', country: 'EG' },
-        isVerified: false,
+        location: { city: '1400 1400 1400', country: null },
+        isVerified: true,
         avatar: {
-          default: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-QPqKQ1OSyQTX43Bf-3uY1Gw-mini.jpg'
+          default: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-mini.jpg'
         },
-        badges: { pro: false, proUnlimited: false, verified: false }
+        badges: { pro: false, proUnlimited: true, verified: true }
       }
     },
     Track {
       type: 'Track',
-      id: 1451935549,
-      texts: {
-        title: 'Maha Ftouni   El Sabr Gamil  مها فتوني  الصبر جميل',
-        description: '',
-        caption: null
-      },
+      id: 1588630687,
+      texts: { title: 'Take Me Away', description: null, caption: null },
       dates: {
-        created: '2023-02-21T10:53:33Z',
-        released: null,
-        modified: '2023-02-21T10:53:43Z',
-        display: '2023-02-21T10:53:33Z'
+        created: '2023-08-09T17:58:58Z',
+        released: '2023-08-11T00:00:00Z',
+        modified: '2023-08-21T18:55:52Z',
+        display: '2023-08-11T00:00:00Z'
       },
       downloadInfo: {
         downloadable: false,
@@ -1416,114 +574,834 @@ Collection {
       },
       socialInfo: {
         commentable: true,
-        commentCount: 3549,
-        likesCount: 454071,
-        repostsCount: 3928
+        commentCount: 970,
+        likesCount: 29649,
+        repostsCount: 1831
       },
       sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      playbackInfo: { playbackCount: 13889009, policy: 'ALLOW' },
+      playbackInfo: { playbackCount: 1178614, policy: 'SNIP' },
       isBlocked: false,
-      isSnipped: false,
+      isSnipped: true,
       mediaInfo: {
         trackFormat: 'single-track',
         encodingState: 'finished',
         transcodings: [
           MediaTranscoding {
             type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1451935549/b46a83a4-2e11-4f44-9d64-774157c9c754/stream/hls',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1588630687/74299818-ce61-4705-b1ea-382330ef9b25/preview/hls',
             preset: 'mp3_1_0',
-            duration: 299520,
-            isSnipped: false,
+            duration: 30000,
+            isSnipped: true,
             protocol: 'hls',
             mimeType: 'audio/mpeg',
             quality: 'sq'
           },
           MediaTranscoding {
             type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1451935549/b46a83a4-2e11-4f44-9d64-774157c9c754/stream/progressive',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1588630687/74299818-ce61-4705-b1ea-382330ef9b25/preview/progressive',
             preset: 'mp3_1_0',
-            duration: 299520,
-            isSnipped: false,
+            duration: 30000,
+            isSnipped: true,
             protocol: 'progressive',
             mimeType: 'audio/mpeg',
-            quality: 'sq'
-          },
-          MediaTranscoding {
-            type: 'MediaTranscoding',
-            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1451935549/08124374-c94a-4488-93c9-7bee57fd147a/stream/hls',
-            preset: 'opus_0_0',
-            duration: 299497,
-            isSnipped: false,
-            protocol: 'hls',
-            mimeType: 'audio/ogg; codecs="opus"',
             quality: 'sq'
           }
         ]
       },
       permalink: {
-        basic: 'maha-ftouni-el-sabr-gamil',
-        full: 'https://soundcloud.com/tera-byte-man/maha-ftouni-el-sabr-gamil'
+        basic: 'take-me-away',
+        full: 'https://soundcloud.com/trippie-hippie-2/take-me-away'
       },
       apiInfo: {
         streamable: true,
-        uri: 'https://api.soundcloud.com/tracks/1451935549',
-        urn: 'soundcloud:tracks:1451935549'
+        uri: 'https://api.soundcloud.com/tracks/1588630687',
+        urn: 'soundcloud:tracks:1588630687'
       },
       purchaseInfo: { title: null, url: null },
-      durations: { full: 299520, playback: 299520 },
-      genre: '',
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1588630687,
+        artist: 'Trippie Redd, Corbin',
+        albumTitle: 'A Love Letter To You 5',
+        containsMusic: true,
+        UPCOrEAN: '00810129802948',
+        ISRC: 'QZJ842003238',
+        isExplicit: true,
+        releaseTitle: 'Take Me Away',
+        copyrightText: {
+          general: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          },
+          display: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1588630687' }
+      },
+      durations: { full: 201169, playback: 30000 },
+      genre: 'Hip Hop',
       license: 'all-rights-reserved',
       isPublic: true,
       tags: '',
-      label: null,
+      label: '1400 Entertainment, Inc. / 10K Projects',
       artwork: {
-        default: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-o2GfZAFqgeitF6jj-mTdypA-mini.jpg'
+        default: 'https://i1.sndcdn.com/artworks-Gxtcnc6xmilU-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-Gxtcnc6xmilU-0-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-Gxtcnc6xmilU-0-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-Gxtcnc6xmilU-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-Gxtcnc6xmilU-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-Gxtcnc6xmilU-0-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-Gxtcnc6xmilU-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-Gxtcnc6xmilU-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-Gxtcnc6xmilU-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-Gxtcnc6xmilU-0-mini.jpg'
       },
-      waveform: 'https://wave.sndcdn.com/dXSrzCY8P2Yg_m.json',
+      waveform: 'https://wave.sndcdn.com/yWeMegSByON0_m.json',
       user: User {
         type: 'User',
-        id: 365939600,
-        names: { full: '', first: '', last: '', username: 'ɤ -A- ɤ' },
-        lastModified: '2023-08-12T04:48:10Z',
+        id: 106902584,
+        names: {
+          full: 'lil-14 the Savage',
+          first: 'lil-14 the Savage',
+          last: '',
+          username: 'Trippie Redd\x7F'
+        },
+        lastModified: '2023-08-11T04:03:44Z',
         permalink: {
-          basic: 'tera-byte-man',
-          full: 'https://soundcloud.com/tera-byte-man'
+          basic: 'trippie-hippie-2',
+          full: 'https://soundcloud.com/trippie-hippie-2'
         },
         apiInfo: {
-          uri: 'https://api.soundcloud.com/users/365939600',
-          urn: 'soundcloud:users:365939600'
+          uri: 'https://api.soundcloud.com/users/106902584',
+          urn: 'soundcloud:users:106902584'
         },
-        location: { city: '', country: 'EG' },
-        isVerified: false,
+        location: { city: '1400 1400 1400', country: null },
+        isVerified: true,
         avatar: {
-          default: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-3w32aXZMnVUiuIbS-1U7VeA-mini.jpg'
+          default: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-mini.jpg'
         },
-        badges: { pro: false, proUnlimited: false, verified: false }
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1588632243,
+      texts: { title: 'Wind', description: null, caption: null },
+      dates: {
+        created: '2023-08-09T18:00:06Z',
+        released: '2023-08-11T00:00:00Z',
+        modified: '2023-08-21T19:00:55Z',
+        display: '2023-08-11T00:00:00Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 876,
+        likesCount: 30018,
+        repostsCount: 1881
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 1167244, policy: 'SNIP' },
+      isBlocked: false,
+      isSnipped: true,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1588632243/e8389bb4-3345-453f-81e4-5969bd37cca1/preview/hls',
+            preset: 'mp3_1_0',
+            duration: 30000,
+            isSnipped: true,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1588632243/e8389bb4-3345-453f-81e4-5969bd37cca1/preview/progressive',
+            preset: 'mp3_1_0',
+            duration: 30000,
+            isSnipped: true,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'wind',
+        full: 'https://soundcloud.com/trippie-hippie-2/wind'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1588632243',
+        urn: 'soundcloud:tracks:1588632243'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1588632243,
+        artist: 'Trippie Redd, The Kid LAROI',
+        albumTitle: 'A Love Letter To You 5',
+        containsMusic: true,
+        UPCOrEAN: '00810129802948',
+        ISRC: 'QZJ842003242',
+        isExplicit: true,
+        releaseTitle: 'Wind',
+        copyrightText: {
+          general: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          },
+          display: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1588632243' }
+      },
+      durations: { full: 170083, playback: 30000 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: '1400 Entertainment, Inc. / 10K Projects',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-NfBKpsIidoDW-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-NfBKpsIidoDW-0-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-NfBKpsIidoDW-0-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-NfBKpsIidoDW-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-NfBKpsIidoDW-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-NfBKpsIidoDW-0-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-NfBKpsIidoDW-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-NfBKpsIidoDW-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-NfBKpsIidoDW-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-NfBKpsIidoDW-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/13ZZwGfImf1l_m.json',
+      user: User {
+        type: 'User',
+        id: 106902584,
+        names: {
+          full: 'lil-14 the Savage',
+          first: 'lil-14 the Savage',
+          last: '',
+          username: 'Trippie Redd\x7F'
+        },
+        lastModified: '2023-08-11T04:03:44Z',
+        permalink: {
+          basic: 'trippie-hippie-2',
+          full: 'https://soundcloud.com/trippie-hippie-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/106902584',
+          urn: 'soundcloud:users:106902584'
+        },
+        location: { city: '1400 1400 1400', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1580421994,
+      texts: {
+        title: 'Trippie Redd - Left 4 Dead',
+        description: null,
+        caption: null
+      },
+      dates: {
+        created: '2023-08-02T04:00:04Z',
+        released: '2023-08-04T00:00:00Z',
+        modified: '2023-08-21T18:59:28Z',
+        display: '2023-08-04T00:00:00Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 1033,
+        likesCount: 33926,
+        repostsCount: 2078
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 1269965, policy: 'SNIP' },
+      isBlocked: false,
+      isSnipped: true,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1580421994/5af469f7-85be-4b4b-ac7f-0db8be1b0584/preview/hls',
+            preset: 'mp3_1_0',
+            duration: 30000,
+            isSnipped: true,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1580421994/5af469f7-85be-4b4b-ac7f-0db8be1b0584/preview/progressive',
+            preset: 'mp3_1_0',
+            duration: 30000,
+            isSnipped: true,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'left-4-dead',
+        full: 'https://soundcloud.com/trippie-hippie-2/left-4-dead'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1580421994',
+        urn: 'soundcloud:tracks:1580421994'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1580421994,
+        artist: 'Trippie Redd',
+        albumTitle: 'Left 4 Dead',
+        containsMusic: true,
+        UPCOrEAN: '00810130441990',
+        ISRC: 'QZJ842003231',
+        isExplicit: true,
+        releaseTitle: 'Trippie Redd - Left 4 Dead',
+        copyrightText: {
+          general: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          },
+          display: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1580421994' }
+      },
+      durations: { full: 118674, playback: 30000 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: '1400 Entertainment, Inc. / 10K Projects',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-dzDgjTi0oJxc-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-dzDgjTi0oJxc-0-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-dzDgjTi0oJxc-0-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-dzDgjTi0oJxc-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-dzDgjTi0oJxc-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-dzDgjTi0oJxc-0-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-dzDgjTi0oJxc-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-dzDgjTi0oJxc-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-dzDgjTi0oJxc-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-dzDgjTi0oJxc-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/4nMTiKz2YWdM_m.json',
+      user: User {
+        type: 'User',
+        id: 106902584,
+        names: {
+          full: 'lil-14 the Savage',
+          first: 'lil-14 the Savage',
+          last: '',
+          username: 'Trippie Redd\x7F'
+        },
+        lastModified: '2023-08-11T04:03:44Z',
+        permalink: {
+          basic: 'trippie-hippie-2',
+          full: 'https://soundcloud.com/trippie-hippie-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/106902584',
+          urn: 'soundcloud:users:106902584'
+        },
+        location: { city: '1400 1400 1400', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1582587711,
+      texts: { title: 'Thinking Bout You', description: null, caption: null },
+      dates: {
+        created: '2023-08-04T02:46:33Z',
+        released: '2023-08-11T00:00:00Z',
+        modified: '2023-08-21T18:59:00Z',
+        display: '2023-08-11T00:00:00Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 840,
+        likesCount: 30474,
+        repostsCount: 1874
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 1135816, policy: 'SNIP' },
+      isBlocked: false,
+      isSnipped: true,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1582587711/8131e230-8e0e-4d9b-9c2d-803aeb91660f/preview/hls',
+            preset: 'mp3_1_0',
+            duration: 30000,
+            isSnipped: true,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1582587711/8131e230-8e0e-4d9b-9c2d-803aeb91660f/preview/progressive',
+            preset: 'mp3_1_0',
+            duration: 30000,
+            isSnipped: true,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'thinking-bout-you',
+        full: 'https://soundcloud.com/trippie-hippie-2/thinking-bout-you'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1582587711',
+        urn: 'soundcloud:tracks:1582587711'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1582587711,
+        artist: 'Trippie Redd',
+        albumTitle: 'A Love Letter To You 5',
+        containsMusic: true,
+        UPCOrEAN: '00810129802948',
+        ISRC: 'QZJ842003239',
+        isExplicit: true,
+        releaseTitle: 'Thinking Bout You',
+        copyrightText: {
+          general: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          },
+          display: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1582587711' }
+      },
+      durations: { full: 166583, playback: 30000 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: '1400 Entertainment, Inc. / 10K Projects',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-Tvz5fGUaVTLU-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-Tvz5fGUaVTLU-0-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-Tvz5fGUaVTLU-0-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-Tvz5fGUaVTLU-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-Tvz5fGUaVTLU-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-Tvz5fGUaVTLU-0-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-Tvz5fGUaVTLU-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-Tvz5fGUaVTLU-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-Tvz5fGUaVTLU-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-Tvz5fGUaVTLU-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/MjDhQ4nh47bk_m.json',
+      user: User {
+        type: 'User',
+        id: 106902584,
+        names: {
+          full: 'lil-14 the Savage',
+          first: 'lil-14 the Savage',
+          last: '',
+          username: 'Trippie Redd\x7F'
+        },
+        lastModified: '2023-08-11T04:03:44Z',
+        permalink: {
+          basic: 'trippie-hippie-2',
+          full: 'https://soundcloud.com/trippie-hippie-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/106902584',
+          urn: 'soundcloud:users:106902584'
+        },
+        location: { city: '1400 1400 1400', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1582583115,
+      texts: { title: 'Praying 4 Love', description: null, caption: null },
+      dates: {
+        created: '2023-08-04T02:43:39Z',
+        released: '2023-08-11T00:00:00Z',
+        modified: '2023-08-21T19:02:28Z',
+        display: '2023-08-11T00:00:00Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 757,
+        likesCount: 27786,
+        repostsCount: 1811
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 1101652, policy: 'SNIP' },
+      isBlocked: false,
+      isSnipped: true,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1582583115/8f8a6050-7634-4bb7-b7dc-ba1d538b0e77/preview/hls',
+            preset: 'mp3_1_0',
+            duration: 30000,
+            isSnipped: true,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1582583115/8f8a6050-7634-4bb7-b7dc-ba1d538b0e77/preview/progressive',
+            preset: 'mp3_1_0',
+            duration: 30000,
+            isSnipped: true,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'praying-4-love',
+        full: 'https://soundcloud.com/trippie-hippie-2/praying-4-love'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1582583115',
+        urn: 'soundcloud:tracks:1582583115'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1582583115,
+        artist: 'Trippie Redd',
+        albumTitle: 'A Love Letter To You 5',
+        containsMusic: true,
+        UPCOrEAN: '00810129802948',
+        ISRC: 'QZJ842003247',
+        isExplicit: true,
+        releaseTitle: 'Praying 4 Love',
+        copyrightText: {
+          general: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          },
+          display: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1582583115' }
+      },
+      durations: { full: 156160, playback: 30000 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: '1400 Entertainment, Inc. / 10K Projects',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-ltFXZnXNspLN-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-ltFXZnXNspLN-0-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-ltFXZnXNspLN-0-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-ltFXZnXNspLN-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-ltFXZnXNspLN-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-ltFXZnXNspLN-0-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-ltFXZnXNspLN-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-ltFXZnXNspLN-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-ltFXZnXNspLN-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-ltFXZnXNspLN-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/eLEBbM3nCsPY_m.json',
+      user: User {
+        type: 'User',
+        id: 106902584,
+        names: {
+          full: 'lil-14 the Savage',
+          first: 'lil-14 the Savage',
+          last: '',
+          username: 'Trippie Redd\x7F'
+        },
+        lastModified: '2023-08-11T04:03:44Z',
+        permalink: {
+          basic: 'trippie-hippie-2',
+          full: 'https://soundcloud.com/trippie-hippie-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/106902584',
+          urn: 'soundcloud:users:106902584'
+        },
+        location: { city: '1400 1400 1400', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      }
+    },
+    Track {
+      type: 'Track',
+      id: 1582581247,
+      texts: { title: 'Trip McKnight', description: null, caption: null },
+      dates: {
+        created: '2023-08-04T02:42:32Z',
+        released: '2023-08-11T00:00:00Z',
+        modified: '2023-08-21T18:56:20Z',
+        display: '2023-08-11T00:00:00Z'
+      },
+      downloadInfo: {
+        downloadable: false,
+        downloadCount: 0,
+        hasDownloadsLeft: false
+      },
+      socialInfo: {
+        commentable: true,
+        commentCount: 935,
+        likesCount: 29962,
+        repostsCount: 1859
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      playbackInfo: { playbackCount: 1090717, policy: 'SNIP' },
+      isBlocked: false,
+      isSnipped: true,
+      mediaInfo: {
+        trackFormat: 'single-track',
+        encodingState: 'finished',
+        transcodings: [
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1582581247/b9129482-2cd8-4c1e-8eb4-eff5b601bb85/preview/hls',
+            preset: 'mp3_1_0',
+            duration: 30000,
+            isSnipped: true,
+            protocol: 'hls',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          },
+          MediaTranscoding {
+            type: 'MediaTranscoding',
+            url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1582581247/b9129482-2cd8-4c1e-8eb4-eff5b601bb85/preview/progressive',
+            preset: 'mp3_1_0',
+            duration: 30000,
+            isSnipped: true,
+            protocol: 'progressive',
+            mimeType: 'audio/mpeg',
+            quality: 'sq'
+          }
+        ]
+      },
+      permalink: {
+        basic: 'trip-mcknight',
+        full: 'https://soundcloud.com/trippie-hippie-2/trip-mcknight'
+      },
+      apiInfo: {
+        streamable: true,
+        uri: 'https://api.soundcloud.com/tracks/1582581247',
+        urn: 'soundcloud:tracks:1582581247'
+      },
+      purchaseInfo: { title: null, url: null },
+      publisher: Publisher {
+        type: 'Publisher',
+        id: 1582581247,
+        artist: 'Trippie Redd',
+        albumTitle: 'A Love Letter To You 5',
+        containsMusic: true,
+        UPCOrEAN: '00810129802948',
+        ISRC: 'QZJ842003249',
+        isExplicit: true,
+        releaseTitle: 'Trip McKnight',
+        copyrightText: {
+          general: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          },
+          display: {
+            p: '℗ 2023 1400 Entertainment, Inc. / 10K Projects',
+            c: '© 2023 1400 Entertainment, Inc. / 10K Projects'
+          }
+        },
+        apiInfo: { urn: 'soundcloud:tracks:1582581247' }
+      },
+      durations: { full: 157440, playback: 30000 },
+      genre: 'Hip Hop',
+      license: 'all-rights-reserved',
+      isPublic: true,
+      tags: '',
+      label: '1400 Entertainment, Inc. / 10K Projects',
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-xWcDIdw9f5tT-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-xWcDIdw9f5tT-0-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-xWcDIdw9f5tT-0-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-xWcDIdw9f5tT-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-xWcDIdw9f5tT-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-xWcDIdw9f5tT-0-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-xWcDIdw9f5tT-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-xWcDIdw9f5tT-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-xWcDIdw9f5tT-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-xWcDIdw9f5tT-0-mini.jpg'
+      },
+      waveform: 'https://wave.sndcdn.com/9olASq78jpj1_m.json',
+      user: User {
+        type: 'User',
+        id: 106902584,
+        names: {
+          full: 'lil-14 the Savage',
+          first: 'lil-14 the Savage',
+          last: '',
+          username: 'Trippie Redd\x7F'
+        },
+        lastModified: '2023-08-11T04:03:44Z',
+        permalink: {
+          basic: 'trippie-hippie-2',
+          full: 'https://soundcloud.com/trippie-hippie-2'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/106902584',
+          urn: 'soundcloud:users:106902584'
+        },
+        location: { city: '1400 1400 1400', country: null },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000452119941-gi041q-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
       }
     }
   ],
-  nextUri: 'https://api-v2.soundcloud.com/featured_tracks/top/all-music?offset=10&limit=10',
   continuation: CollectionContinuation {
     uri: 'https://api-v2.soundcloud.com/featured_tracks/top/all-music?offset=10&limit=10',
     opts: { requireTypes: [class Track extends Entity] { type: 'Track' } }

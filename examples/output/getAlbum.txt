@@ -74,7 +74,7 @@ Album {
       '© ℗ 2023 Peeleh • https://peeleh.com'
   },
   trackCount: 12,
-  socialInfo: { likesCount: 24261, repostsCount: 1184, managedByFeeds: false },
+  socialInfo: { likesCount: 24316, repostsCount: 1186, managedByFeeds: false },
   genre: 'Hip-hop & Rap',
   label: 'Peeleh',
   license: 'all-rights-reserved',
@@ -128,18 +128,18 @@ Album {
     dates: {
       created: '2023-04-13T17:46:03Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:00:20Z',
+      modified: '2023-08-18T14:12:33Z',
       display: '2023-04-13T17:46:03Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 3023,
-      likesCount: 19917,
-      repostsCount: 408
+      commentCount: 3032,
+      likesCount: 19998,
+      repostsCount: 411
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 873158, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 882655, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -209,7 +209,7 @@ Album {
     license: 'all-rights-reserved',
     isPublic: true,
     tags: 'Experimental "Hip Hop"',
-    label: 'PEELEH',
+    label: 'Peeleh',
     artwork: {
       default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
       t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
@@ -303,7 +303,7 @@ Album {
         'زنده بمونی بسه\n' +
         'یه روزی باز میشه میله ها\n' +
         'شاخک و بال می زنه بیرون از پیله ها\n' +
-        'هرچند که دست نیافتیه رویا\n' +
+        'هرچند که دست نیافتنیه رویا\n' +
         'اما حرکت جهت می خواد و ایده آل\n' +
         'ولی کم کم عوض میشه مسیر رات\n' +
         'می زنی پرسه تو شب رها به زیر ماه\n' +
@@ -334,18 +334,18 @@ Album {
     dates: {
       created: '2023-04-13T17:46:01Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:00:20Z',
+      modified: '2023-08-19T08:37:19Z',
       display: '2023-04-13T17:46:01Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 3402,
-      likesCount: 18071,
+      commentCount: 3411,
+      likesCount: 18141,
       repostsCount: 327
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 650783, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 657274, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -541,12 +541,12 @@ Album {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 2238,
-      likesCount: 15770,
+      commentCount: 2241,
+      likesCount: 15819,
       repostsCount: 266
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 594462, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 600314, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -704,7 +704,7 @@ Album {
         'ول و بی ملت و علت و معلول\n' +
         '\n' +
         'خون \n' +
-        'می پاشه رو صورت هر روز \n' +
+        'می پاشه تو صورت هر روز \n' +
         'می چکه پایین از ابروم\n' +
         'زمین خون می کنه گریه\n' +
         'خون\n' +
@@ -737,7 +737,7 @@ Album {
         'خودمو می کشم بیرون از\n' +
         '\n' +
         'خون\n' +
-        'می پاشه رو صورت هر روز \n' +
+        'می پاشه تو صورت هر روز \n' +
         'می چکه پایین از ابروم\n' +
         'زمین خون می کنه گریه\n' +
         'خون\n' +
@@ -748,18 +748,18 @@ Album {
     dates: {
       created: '2023-04-13T17:45:59Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:00:20Z',
+      modified: '2023-08-18T14:54:59Z',
       display: '2023-04-13T17:45:59Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1834,
-      likesCount: 12906,
-      repostsCount: 197
+      commentCount: 1839,
+      likesCount: 12940,
+      repostsCount: 198
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 466949, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 471295, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -963,12 +963,12 @@ Album {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1832,
-      likesCount: 13230,
-      repostsCount: 232
+      commentCount: 1836,
+      likesCount: 13270,
+      repostsCount: 231
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 508832, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 513478, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1171,12 +1171,12 @@ Album {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 2135,
-      likesCount: 11867,
+      commentCount: 2137,
+      likesCount: 11916,
       repostsCount: 181
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 431357, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 435310, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1382,12 +1382,12 @@ Album {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 2074,
-      likesCount: 14690,
+      commentCount: 2079,
+      likesCount: 14745,
       repostsCount: 269
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 525761, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 530736, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1593,12 +1593,12 @@ Album {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1841,
-      likesCount: 12366,
-      repostsCount: 221
+      commentCount: 1842,
+      likesCount: 12425,
+      repostsCount: 223
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 467182, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 471765, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -1820,12 +1820,12 @@ Album {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 2135,
-      likesCount: 15732,
-      repostsCount: 295
+      commentCount: 2140,
+      likesCount: 15814,
+      repostsCount: 297
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 579293, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 586568, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2022,12 +2022,12 @@ Album {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1306,
-      likesCount: 10117,
+      commentCount: 1304,
+      likesCount: 10149,
       repostsCount: 165
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 393821, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 396942, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2181,6 +2181,7 @@ Album {
         '\n' +
         'من و تو هم شاید فکر کردیم خالق این قصه هاییم\n' +
         'ولی تش ما هم میریم از بین یه جایی زیر پای یکی وسط این ازدحامیم\n' +
+        'غیر اینه مگه؟\n' +
         'بعضی وقتا باید نجنگید\n' +
         'اینجا کسی به فکر ما نی\n' +
         'بعضی وقتا باید کنار کشید\n' +
@@ -2209,6 +2210,7 @@ Album {
         '\n' +
         'من و تو هم شاید فکر کردیم خالق این قصه هاییم\n' +
         'ولی تش ما هم میریم از بین یه جایی زیر پای یکی وسط این ازدحامیم\n' +
+        'غیر اینه مگه؟\n' +
         'بعضی وقتا باید نجنگید\n' +
         'اینجا کسی به فکر ما نی\n' +
         'بعضی وقتا باید کنار کشید\n' +
@@ -2219,18 +2221,18 @@ Album {
     dates: {
       created: '2023-04-13T17:45:52Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:00:21Z',
+      modified: '2023-08-20T08:42:05Z',
       display: '2023-04-13T17:45:52Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1623,
-      likesCount: 12927,
-      repostsCount: 273
+      commentCount: 1624,
+      likesCount: 12958,
+      repostsCount: 274
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 454382, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 458497, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
@@ -2439,12 +2441,12 @@ Album {
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1720,
-      likesCount: 11757,
+      commentCount: 1722,
+      likesCount: 11786,
       repostsCount: 239
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 401847, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 405390, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {

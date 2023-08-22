@@ -57,7 +57,7 @@ Collection {
         description: ''
       },
       trackCount: 9,
-      socialInfo: { likesCount: 3511, repostsCount: 156, managedByFeeds: false },
+      socialInfo: { likesCount: 3520, repostsCount: 156, managedByFeeds: false },
       genre: 'Extra Funky',
       label: null,
       license: 'cc-',
@@ -118,7 +118,7 @@ Collection {
       },
       texts: { title: 'Hello Together', description: null },
       trackCount: 10,
-      socialInfo: { likesCount: 10, repostsCount: 0, managedByFeeds: true },
+      socialInfo: { likesCount: 11, repostsCount: 0, managedByFeeds: true },
       genre: 'Pop',
       label: null,
       license: 'all-rights-reserved',
@@ -201,6 +201,81 @@ Collection {
     },
     Album {
       type: 'Album',
+      id: 1675033338,
+      user: User {
+        type: 'User',
+        id: 200355803,
+        names: { full: '', first: '', last: '', username: 'hello euphoria' },
+        lastModified: '2023-07-17T09:09:07Z',
+        permalink: {
+          basic: 'hello-euphoria',
+          full: 'https://soundcloud.com/hello-euphoria'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/200355803',
+          urn: 'soundcloud:users:200355803'
+        },
+        location: { city: 'Lisbon', country: 'PT' },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      },
+      permalink: {
+        basic: 'wash-away',
+        full: 'https://soundcloud.com/hello-euphoria/sets/wash-away'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1675033338' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-mini.jpg'
+      },
+      setType: 'album',
+      duration: 1910726,
+      dates: {
+        created: '2023-08-20T01:10:37Z',
+        published: '2023-08-20T01:10:37Z',
+        modified: '2023-08-20T01:10:38Z',
+        display: '2023-08-20T01:10:37Z',
+        release: '2023-08-20T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: {
+        title: 'wash away',
+        description: 'just some stuff I made during the summer to keep me busy.'
+      },
+      trackCount: 12,
+      socialInfo: { likesCount: 2, repostsCount: 0, managedByFeeds: false },
+      genre: 'Ambient',
+      label: '',
+      license: 'all-rights-reserved',
+      purchaseInfo: { title: null, url: null },
+      tags: 'Ambient Alternative Noise Shoegaze lofi lofiambient'
+    },
+    Album {
+      type: 'Album',
       id: 19531434,
       user: User {
         type: 'User',
@@ -269,7 +344,7 @@ Collection {
           'Executive Produced by: Chris Luu, Andrew Kelly, and Sefo "Bigg Seff" Latu'
       },
       trackCount: 16,
-      socialInfo: { likesCount: 2074, repostsCount: 708, managedByFeeds: false },
+      socialInfo: { likesCount: 2073, repostsCount: 708, managedByFeeds: false },
       genre: '454',
       label: '',
       license: 'all-rights-reserved',
@@ -344,12 +419,81 @@ Collection {
           'download at https://osno1.bandcamp.com/releases'
       },
       trackCount: 5,
-      socialInfo: { likesCount: 3502, repostsCount: 229, managedByFeeds: false },
+      socialInfo: { likesCount: 3510, repostsCount: 229, managedByFeeds: false },
       genre: 'Alternative Rock',
       label: null,
       license: 'all-rights-reserved',
       purchaseInfo: { title: null, url: null },
       tags: 'emo trans garbage'
+    },
+    Album {
+      type: 'Album',
+      id: 1337406172,
+      user: User {
+        type: 'User',
+        id: 1026153838,
+        names: { full: '', first: '', last: '', username: 'ㅤ' },
+        lastModified: '2023-08-22T07:11:25Z',
+        permalink: { basic: 'qotoq', full: 'https://soundcloud.com/qotoq' },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/1026153838',
+          urn: 'soundcloud:users:1026153838'
+        },
+        location: { city: 'Tashkent', country: null },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      },
+      permalink: {
+        basic: 'hello',
+        full: 'https://soundcloud.com/qotoq/sets/hello'
+      },
+      isPublic: true,
+      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1337406172' },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-mini.jpg'
+      },
+      setType: 'album',
+      duration: 1116759,
+      dates: {
+        created: '2021-10-26T22:16:42Z',
+        published: '2021-10-26T22:16:42Z',
+        modified: '2022-05-18T14:12:33Z',
+        display: '2021-10-26T22:16:42Z',
+        release: '2021-10-27T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: { title: 'HELLO', description: '' },
+      trackCount: 9,
+      socialInfo: { likesCount: 162, repostsCount: 3, managedByFeeds: false },
+      genre: 'CODE10HELLO',
+      label: '',
+      license: 'cc-by-nc-sa',
+      purchaseInfo: { title: null, url: null },
+      tags: 'CODE10 "Hip Hop" code10hello hello'
     },
     Album {
       type: 'Album',
@@ -416,7 +560,7 @@ Collection {
       },
       texts: { title: 'HELLO MY NAME', description: '' },
       trackCount: 9,
-      socialInfo: { likesCount: 1447, repostsCount: 109, managedByFeeds: false },
+      socialInfo: { likesCount: 1448, repostsCount: 109, managedByFeeds: false },
       genre: 'Trap',
       label: null,
       license: 'all-rights-reserved',
@@ -502,151 +646,10 @@ Collection {
       license: 'all-rights-reserved',
       purchaseInfo: { title: null, url: null },
       tags: ''
-    },
-    Album {
-      type: 'Album',
-      id: 1669925975,
-      user: User {
-        type: 'User',
-        id: 327669468,
-        names: {
-          full: '54 Swagga',
-          first: '54',
-          last: 'Swagga',
-          username: '54 Swagga'
-        },
-        lastModified: '2023-04-06T06:58:09Z',
-        permalink: {
-          basic: 'vivswagga',
-          full: 'https://soundcloud.com/vivswagga'
-        },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/327669468',
-          urn: 'soundcloud:users:327669468'
-        },
-        location: { city: 'Durban', country: 'ZA' },
-        isVerified: false,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-fDwE7YaKhHDxPzew-oz8bmg-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: false, verified: false }
-      },
-      permalink: {
-        basic: 'hellowin-1',
-        full: 'https://soundcloud.com/vivswagga/sets/hellowin-1'
-      },
-      isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1669925975' },
-      artwork: undefined,
-      setType: 'ep',
-      duration: 1638139,
-      dates: {
-        created: '2023-08-11T19:32:15Z',
-        published: '2023-08-11T19:36:37Z',
-        modified: '2023-08-11T19:36:37Z',
-        display: '2023-08-11T19:36:37Z',
-        release: '2023-08-12T00:00:00Z'
-      },
-      sharingInfo: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      texts: { title: "HELL'O'WIN", description: '' },
-      trackCount: 10,
-      socialInfo: { likesCount: 12, repostsCount: 2, managedByFeeds: false },
-      genre: 'Hip-hop & Rap',
-      label: '',
-      license: 'all-rights-reserved',
-      purchaseInfo: { title: null, url: null },
-      tags: ''
-    },
-    Album {
-      type: 'Album',
-      id: 1446935461,
-      user: User {
-        type: 'User',
-        id: 14138477,
-        names: {
-          full: 'Arin Ray',
-          first: 'Arin',
-          last: 'Ray',
-          username: 'Arin Ray'
-        },
-        lastModified: '2022-05-05T16:53:17Z',
-        permalink: { basic: 'arin-ray', full: 'https://soundcloud.com/arin-ray' },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/14138477',
-          urn: 'soundcloud:users:14138477'
-        },
-        location: { city: 'Los Angeles', country: 'US' },
-        isVerified: true,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-v0YnpotqQtn6PaXI-6zifnA-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-v0YnpotqQtn6PaXI-6zifnA-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-v0YnpotqQtn6PaXI-6zifnA-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-v0YnpotqQtn6PaXI-6zifnA-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-v0YnpotqQtn6PaXI-6zifnA-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-v0YnpotqQtn6PaXI-6zifnA-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-v0YnpotqQtn6PaXI-6zifnA-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-v0YnpotqQtn6PaXI-6zifnA-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-v0YnpotqQtn6PaXI-6zifnA-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: true, verified: true }
-      },
-      permalink: {
-        basic: 'hello-poison',
-        full: 'https://soundcloud.com/arin-ray/sets/hello-poison'
-      },
-      isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1446935461' },
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-e7156d8a-cd97-4830-b17f-67e9d4c42e06-0-mini.jpg'
-      },
-      setType: 'album',
-      duration: 2785465,
-      dates: {
-        created: '2022-06-01T03:10:26Z',
-        published: '2022-06-03T00:00:00Z',
-        modified: '2022-06-03T03:42:46Z',
-        display: '2022-06-03T00:00:00Z',
-        release: '2022-06-03T00:00:00Z'
-      },
-      sharingInfo: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      texts: { title: 'Hello Poison', description: null },
-      trackCount: 15,
-      socialInfo: { likesCount: 436, repostsCount: 34, managedByFeeds: true },
-      genre: 'R & B',
-      label: null,
-      license: 'all-rights-reserved',
-      purchaseInfo: { title: null, url: null },
-      tags: ''
     }
   ],
-  nextUri: 'https://api-v2.soundcloud.com/search/albums?query_urn=soundcloud%3Asearch%3Afacac1902dcc42c59d3891cd456d1b26&limit=10&offset=10&q=Hello',
   continuation: CollectionContinuation {
-    uri: 'https://api-v2.soundcloud.com/search/albums?query_urn=soundcloud%3Asearch%3Afacac1902dcc42c59d3891cd456d1b26&limit=10&offset=10&q=Hello',
+    uri: 'https://api-v2.soundcloud.com/search/albums?query_urn=soundcloud%3Asearch%3A4ce85c91e0424a40bcb866106cd62793&limit=10&offset=10&q=Hello',
     opts: { requireTypes: [class Album extends Playlist] { type: 'Album' } }
   }
 }

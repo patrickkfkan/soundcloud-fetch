@@ -219,6 +219,5 @@ Collection {
       badges: { pro: false, proUnlimited: true, verified: true }
     }
   ],
-  nextUri: null,
   continuation: null
 }

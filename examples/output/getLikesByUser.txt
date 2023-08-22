@@ -67,7 +67,7 @@ Collection {
         },
         texts: { title: 'Elham • Raghse Khakestar', description: undefined },
         trackCount: 5,
-        socialInfo: { likesCount: 1234, repostsCount: 54, managedByFeeds: false },
+        socialInfo: { likesCount: 1235, repostsCount: 54, managedByFeeds: false },
         genre: undefined,
         label: undefined,
         license: undefined,
@@ -144,7 +144,7 @@ Collection {
         },
         texts: { title: 'Beyond', description: undefined },
         trackCount: 5,
-        socialInfo: { likesCount: 1067, repostsCount: 47, managedByFeeds: false },
+        socialInfo: { likesCount: 1066, repostsCount: 46, managedByFeeds: false },
         genre: undefined,
         label: undefined,
         license: undefined,
@@ -295,7 +295,7 @@ Collection {
         },
         texts: { title: 'Cellul', description: undefined },
         trackCount: 7,
-        socialInfo: { likesCount: 960, repostsCount: 83, managedByFeeds: false },
+        socialInfo: { likesCount: 961, repostsCount: 83, managedByFeeds: false },
         genre: undefined,
         label: undefined,
         license: undefined,
@@ -304,7 +304,6 @@ Collection {
       }
     }
   ],
-  nextUri: 'https://api-v2.soundcloud.com/users/9723380/playlist_likes?offset=2020-01-13T22%3A34%3A37.820Z%2Cuser-playlist-likes%2C838-00000000000009723380-00000000000965646478&limit=10',
   continuation: CollectionContinuation {
     uri: 'https://api-v2.soundcloud.com/users/9723380/playlist_likes?offset=2020-01-13T22%3A34%3A37.820Z%2Cuser-playlist-likes%2C838-00000000000009723380-00000000000965646478&limit=10',
     opts: { requireTypes: [class Like extends Entity] { type: 'Like' } }
@@ -423,8 +422,8 @@ Collection {
         },
         socialInfo: {
           commentable: true,
-          commentCount: 764,
-          likesCount: 4157,
+          commentCount: 768,
+          likesCount: 4168,
           repostsCount: 133
         },
         sharingInfo: {
@@ -432,7 +431,7 @@ Collection {
           embeddableBy: 'me',
           secretToken: null
         },
-        playbackInfo: { playbackCount: 219513, policy: 'ALLOW' },
+        playbackInfo: { playbackCount: 220324, policy: 'ALLOW' },
         isBlocked: false,
         isSnipped: false,
         mediaInfo: {
@@ -630,16 +629,16 @@ Collection {
         },
         socialInfo: {
           commentable: true,
-          commentCount: 781,
-          likesCount: 3349,
-          repostsCount: 106
+          commentCount: 783,
+          likesCount: 3350,
+          repostsCount: 105
         },
         sharingInfo: {
           shareability: 'public',
           embeddableBy: 'all',
           secretToken: null
         },
-        playbackInfo: { playbackCount: 120378, policy: 'ALLOW' },
+        playbackInfo: { playbackCount: 120798, policy: 'ALLOW' },
         isBlocked: false,
         isSnipped: false,
         mediaInfo: {
@@ -804,7 +803,7 @@ Collection {
         socialInfo: {
           commentable: true,
           commentCount: 178,
-          likesCount: 2267,
+          likesCount: 2268,
           repostsCount: 66
         },
         sharingInfo: {
@@ -812,7 +811,7 @@ Collection {
           embeddableBy: 'all',
           secretToken: null
         },
-        playbackInfo: { playbackCount: 97438, policy: 'ALLOW' },
+        playbackInfo: { playbackCount: 97536, policy: 'ALLOW' },
         isBlocked: false,
         isSnipped: false,
         mediaInfo: {
@@ -992,15 +991,15 @@ Collection {
         socialInfo: {
           commentable: true,
           commentCount: 574,
-          likesCount: 5338,
-          repostsCount: 170
+          likesCount: 5347,
+          repostsCount: 169
         },
         sharingInfo: {
           shareability: 'public',
           embeddableBy: 'all',
           secretToken: null
         },
-        playbackInfo: { playbackCount: 235505, policy: 'ALLOW' },
+        playbackInfo: { playbackCount: 236203, policy: 'ALLOW' },
         isBlocked: false,
         isSnipped: false,
         mediaInfo: {
@@ -1203,8 +1202,8 @@ Collection {
         },
         socialInfo: {
           commentable: true,
-          commentCount: 538,
-          likesCount: 2587,
+          commentCount: 540,
+          likesCount: 2588,
           repostsCount: 69
         },
         sharingInfo: {
@@ -1212,7 +1211,7 @@ Collection {
           embeddableBy: 'all',
           secretToken: null
         },
-        playbackInfo: { playbackCount: 108013, policy: 'ALLOW' },
+        playbackInfo: { playbackCount: 108065, policy: 'ALLOW' },
         isBlocked: false,
         isSnipped: false,
         mediaInfo: {
@@ -1424,7 +1423,7 @@ Collection {
         socialInfo: {
           commentable: true,
           commentCount: 1129,
-          likesCount: 2793,
+          likesCount: 2792,
           repostsCount: 108
         },
         sharingInfo: {
@@ -1432,7 +1431,7 @@ Collection {
           embeddableBy: 'all',
           secretToken: null
         },
-        playbackInfo: { playbackCount: 104412, policy: 'ALLOW' },
+        playbackInfo: { playbackCount: 104490, policy: 'ALLOW' },
         isBlocked: false,
         isSnipped: false,
         mediaInfo: {
@@ -1584,7 +1583,7 @@ Collection {
           embeddableBy: 'all',
           secretToken: null
         },
-        playbackInfo: { playbackCount: 61714, policy: 'ALLOW' },
+        playbackInfo: { playbackCount: 61757, policy: 'ALLOW' },
         isBlocked: false,
         isSnipped: false,
         mediaInfo: {
@@ -1759,7 +1758,7 @@ Collection {
         socialInfo: {
           commentable: true,
           commentCount: 176,
-          likesCount: 1080,
+          likesCount: 1082,
           repostsCount: 41
         },
         sharingInfo: {
@@ -1767,7 +1766,7 @@ Collection {
           embeddableBy: 'all',
           secretToken: null
         },
-        playbackInfo: { playbackCount: 23673, policy: 'SNIP' },
+        playbackInfo: { playbackCount: 23693, policy: 'SNIP' },
         isBlocked: false,
         isSnipped: true,
         mediaInfo: {
@@ -1896,7 +1895,7 @@ Collection {
         socialInfo: {
           commentable: true,
           commentCount: 47,
-          likesCount: 850,
+          likesCount: 849,
           repostsCount: 28
         },
         sharingInfo: {
@@ -1904,7 +1903,7 @@ Collection {
           embeddableBy: 'all',
           secretToken: null
         },
-        playbackInfo: { playbackCount: 25125, policy: 'ALLOW' },
+        playbackInfo: { playbackCount: 25132, policy: 'ALLOW' },
         isBlocked: false,
         isSnipped: false,
         mediaInfo: {
@@ -2074,7 +2073,7 @@ Collection {
           embeddableBy: 'all',
           secretToken: null
         },
-        playbackInfo: { playbackCount: 92328, policy: 'ALLOW' },
+        playbackInfo: { playbackCount: 92384, policy: 'ALLOW' },
         isBlocked: false,
         isSnipped: false,
         mediaInfo: {
@@ -2159,7 +2158,6 @@ Collection {
       }
     }
   ],
-  nextUri: 'https://api-v2.soundcloud.com/users/9723380/track_likes?offset=2020-04-08T17%3A50%3A44.215Z%2Cuser-track-likes%2C468-00000000000009723380-00000000000793878565&limit=10',
   continuation: CollectionContinuation {
     uri: 'https://api-v2.soundcloud.com/users/9723380/track_likes?offset=2020-04-08T17%3A50%3A44.215Z%2Cuser-track-likes%2C468-00000000000009723380-00000000000793878565&limit=10',
     opts: { requireTypes: [class Like extends Entity] { type: 'Like' } }
