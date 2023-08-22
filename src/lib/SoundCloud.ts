@@ -197,13 +197,7 @@ export default class SoundCloud {
 
   async getStreamingUrl(transcodingUrl: string): Promise<string | null> {
     const params = await this.#getCommonParams();
-    const url = new URL(transcodingUrl);
-    for (const [ key, value ] of Object.entries(params)) {
-      url.searchParams.set(key, value);
-    }
-    const res = await fetch(url);
-    this.#validateFetchResponse(res);
-    const json = await res.json();
+    const json = await this.#fetchEndpoint(transcodingUrl, params);
     if (json && Reflect.has(json, 'url') && typeof json.url === 'string') {
       return json.url;
     }
