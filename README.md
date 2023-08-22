@@ -560,6 +560,9 @@ In the above example, `getContinuation()` returns another instance of `Collectio
 
 # Changelog
 
+1.0.1:
+- Apply access token in `getStreamingUrl()`
+
 1.0.0:
 - Initial release
 
