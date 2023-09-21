@@ -1,7 +1,4 @@
 import fetch, { Headers, Response } from 'node-fetch';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import sckey from 'soundcloud-key-fetch';
 import { API_BASE_URL, LOCALES, QUERY_MAX_LIMIT } from './utils/Constants.js';
 import Playlist from './entities/Playlist.js';
 import Track from './entities/Track.js';
@@ -18,6 +15,7 @@ import PlayHistoryItem from './entities/PlayHistoryItem.js';
 import FetchError from './utils/FetchError.js';
 import Like from './entities/Like.js';
 import CollectionContinuation from './collections/CollectionContinuation.js';
+import { getSoundCloudClientId } from './utils/SoundCloudKey.js';
 
 export interface SoundCloudInitArgs {
   clientId?: string;
@@ -69,7 +67,7 @@ export default class SoundCloud {
   }
 
   static async generateClientId(): Promise<string> {
-    return sckey.fetchKey();
+    return getSoundCloudClientId();
   }
 
   getLocale() {
