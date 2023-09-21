@@ -53,8 +53,6 @@ The Client ID used by the API.
 
 Fetches the Client ID from SoundCloud website. Normally, you don't have to call this method as it is automatically called during initialization of the API (unless you provided one yourself in constructor args).
 
-> Actual fetching of the Client ID is performed by [soundcloud-key-fetch](https://www.npmjs.com/package/soundcloud-key-fetch).
-
 **Returns**
 
 Client ID from SoundCloud website.
@@ -559,6 +557,9 @@ if (tracks.continuation) { // More items available
 In the above example, `getContinuation()` returns another instance of `Collection` containing the next set of `Track` objects.
 
 # Changelog
+
+1.0.2:
+- Fix connection error in `getClientId()`
 
 1.0.1:
 - Apply access token in `getStreamingUrl()`
