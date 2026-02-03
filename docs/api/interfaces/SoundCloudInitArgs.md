@@ -1,41 +1,33 @@
+[**soundcloud-fetch**](../README.md)
+
+***
+
 [soundcloud-fetch](../README.md) / SoundCloudInitArgs
 
 # Interface: SoundCloudInitArgs
 
-## Table of contents
-
-### Properties
-
-- [accessToken](SoundCloudInitArgs.md#accesstoken)
-- [clientId](SoundCloudInitArgs.md#clientid)
-- [locale](SoundCloudInitArgs.md#locale)
+Defined in: [SoundCloud.ts:19](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L19)
 
 ## Properties
 
-### accessToken
+### accessToken?
 
-• `Optional` **accessToken**: `string`
+> `optional` **accessToken**: `string`
 
-#### Defined in
+Defined in: [SoundCloud.ts:21](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L21)
 
-[lib/SoundCloud.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L24)
+***
 
-___
+### clientId?
 
-### clientId
+> `optional` **clientId**: `string`
 
-• `Optional` **clientId**: `string`
+Defined in: [SoundCloud.ts:20](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L20)
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L23)
+### locale?
 
-___
+> `optional` **locale**: `"de"` \| `"en"` \| `"es"` \| `"fr"` \| `"it"` \| `"nl"` \| `"pt_BR"` \| `"pl"` \| `"sv"`
 
-### locale
-
-• `Optional` **locale**: ``"de"`` \| ``"en"`` \| ``"es"`` \| ``"fr"`` \| ``"it"`` \| ``"nl"`` \| ``"pt_BR"`` \| ``"pl"`` \| ``"sv"``
-
-#### Defined in
-
-[lib/SoundCloud.ts:25](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L25)
+Defined in: [SoundCloud.ts:22](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L22)

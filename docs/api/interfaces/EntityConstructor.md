@@ -1,45 +1,41 @@
+[**soundcloud-fetch**](../README.md)
+
+***
+
 [soundcloud-fetch](../README.md) / EntityConstructor
 
-# Interface: EntityConstructor<T\>
+# Interface: EntityConstructor\<T\>
 
-## Type parameters
+Defined in: [utils/EntityTypes.ts:22](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/utils/EntityTypes.ts#L22)
 
-| Name | Type |
-| :------ | :------ |
-| `T` | extends [`EntityType`](../README.md#entitytype) |
+## Type Parameters
 
-## Table of contents
+### T
 
-### Constructors
-
-- [constructor](EntityConstructor.md#constructor)
-
-### Properties
-
-- [type](EntityConstructor.md#type)
+`T` *extends* [`EntityType`](../type-aliases/EntityType.md)
 
 ## Constructors
 
-### constructor
+### Constructor
 
-• **new EntityConstructor**(`...args`)
+> **new EntityConstructor**(...`args`): `T`
+
+Defined in: [utils/EntityTypes.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/utils/EntityTypes.ts#L23)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `...args` | `any` |
+##### args
 
-#### Defined in
+...`any`
 
-[lib/utils/EntityTypes.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/utils/EntityTypes.ts#L23)
+#### Returns
+
+`T`
 
 ## Properties
 
 ### type
 
-• **type**: `string`
+> **type**: `string`
 
-#### Defined in
-
-[lib/utils/EntityTypes.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/utils/EntityTypes.ts#L24)
+Defined in: [utils/EntityTypes.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/utils/EntityTypes.ts#L24)

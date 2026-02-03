@@ -1,19 +1,17 @@
+[**soundcloud-fetch**](../README.md)
+
+***
+
 [soundcloud-fetch](../README.md) / GetCollectionOptions
 
 # Interface: GetCollectionOptions
 
-## Table of contents
-
-### Properties
-
-- [limit](GetCollectionOptions.md#limit)
+Defined in: [SoundCloud.ts:25](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L25)
 
 ## Properties
 
-### limit
+### limit?
 
-• `Optional` **limit**: `number`
+> `optional` **limit**: `number`
 
-#### Defined in
-
-[lib/SoundCloud.ts:29](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L29)
+Defined in: [SoundCloud.ts:26](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L26)

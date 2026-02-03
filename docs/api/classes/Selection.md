@@ -1,128 +1,106 @@
+[**soundcloud-fetch**](../README.md)
+
+***
+
 [soundcloud-fetch](../README.md) / Selection
 
 # Class: Selection
 
-## Hierarchy
+Defined in: [entities/Selection.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Selection.ts#L6)
+
+## Extends
 
 - [`Entity`](Entity.md)
 
-  ↳ **`Selection`**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](Selection.md#constructor)
-
-### Properties
-
-- [id](Selection.md#id)
-- [items](Selection.md#items)
-- [nextUri](Selection.md#nexturi)
-- [title](Selection.md#title)
-- [type](Selection.md#type)
-- [type](Selection.md#type-1)
-
-### Methods
-
-- [getClient](Selection.md#getclient)
-- [getImageUrls](Selection.md#getimageurls)
-- [getJSON](Selection.md#getjson)
-
 ## Constructors
 
-### constructor
+### Constructor
 
-• **new Selection**(`json`, `client`)
+> **new Selection**(`json`, `client`): `Selection`
+
+Defined in: [entities/Selection.ts:15](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Selection.ts#L15)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `json` | `any` |
-| `client` | [`SoundCloud`](SoundCloud.md) |
+##### json
+
+`any`
+
+##### client
+
+[`SoundCloud`](SoundCloud.md)
+
+#### Returns
+
+`Selection`
 
 #### Overrides
 
-[Entity](Entity.md).[constructor](Entity.md#constructor)
-
-#### Defined in
-
-[lib/entities/Selection.ts:15](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L15)
+[`Entity`](Entity.md).[`constructor`](Entity.md#constructor)
 
 ## Properties
 
-### id
+### id?
 
-• `Optional` **id**: ``null`` \| `string`
+> `optional` **id**: `string` \| `null`
 
-#### Defined in
+Defined in: [entities/Selection.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Selection.ts#L10)
 
-[lib/entities/Selection.ts:10](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L10)
-
-___
+***
 
 ### items
 
-• **items**: [`EntityType`](../README.md#entitytype)[]
+> **items**: [`EntityType`](../type-aliases/EntityType.md)[]
 
-#### Defined in
+Defined in: [entities/Selection.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Selection.ts#L13)
 
-[lib/entities/Selection.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L13)
+***
 
-___
+### nextUri?
 
-### nextUri
+> `optional` **nextUri**: `string` \| `null`
 
-• `Optional` **nextUri**: ``null`` \| `string`
+Defined in: [entities/Selection.ts:12](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Selection.ts#L12)
 
-#### Defined in
+***
 
-[lib/entities/Selection.ts:12](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L12)
+### title?
 
-___
+> `optional` **title**: `string` \| `null`
 
-### title
+Defined in: [entities/Selection.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Selection.ts#L11)
 
-• `Optional` **title**: ``null`` \| `string`
-
-#### Defined in
-
-[lib/entities/Selection.ts:11](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L11)
-
-___
+***
 
 ### type
 
-• `Readonly` **type**: `string`
+> `readonly` **type**: `string`
+
+Defined in: [entities/Entity.ts:35](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Entity.ts#L35)
 
 #### Inherited from
 
-[Entity](Entity.md).[type](Entity.md#type)
+[`Entity`](Entity.md).[`type`](Entity.md#type)
 
-#### Defined in
-
-[lib/entities/Entity.ts:35](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L35)
-
-___
+***
 
 ### type
 
-▪ `Static` **type**: `string` = `'Selection'`
+> `static` **type**: `string` = `'Selection'`
+
+Defined in: [entities/Selection.ts:8](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Selection.ts#L8)
 
 #### Overrides
 
-[Entity](Entity.md).[type](Entity.md#type-1)
-
-#### Defined in
-
-[lib/entities/Selection.ts:8](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Selection.ts#L8)
+[`Entity`](Entity.md).[`type`](Entity.md#type-1)
 
 ## Methods
 
-### getClient
+### getClient()
 
-▸ `Protected` **getClient**(): [`SoundCloud`](SoundCloud.md)
+> `protected` **getClient**(): [`SoundCloud`](SoundCloud.md)
+
+Defined in: [entities/Entity.ts:57](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Entity.ts#L57)
 
 #### Returns
 
@@ -130,130 +108,132 @@ ___
 
 #### Inherited from
 
-[Entity](Entity.md).[getClient](Entity.md#getclient)
+[`Entity`](Entity.md).[`getClient`](Entity.md#getclient)
 
-#### Defined in
+***
 
-[lib/entities/Entity.ts:57](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L57)
+### getImageUrls()
 
-___
+#### Call Signature
 
-### getImageUrls
+> `protected` **getImageUrls**(`defaultImageUrl`, `type`): [`AvatarImageUrls`](../type-aliases/AvatarImageUrls.md) \| `undefined`
 
-▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type`): `undefined` \| [`AvatarImageUrls`](../README.md#avatarimageurls)
+Defined in: [entities/Entity.ts:61](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Entity.ts#L61)
 
-#### Parameters
+##### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `defaultImageUrl` | `undefined` \| ``null`` \| `string` |
-| `type` | ``"avatar"`` |
+###### defaultImageUrl
 
-#### Returns
+`string` | `null` | `undefined`
 
-`undefined` \| [`AvatarImageUrls`](../README.md#avatarimageurls)
+###### type
 
-#### Inherited from
+`"avatar"`
 
-[Entity](Entity.md).[getImageUrls](Entity.md#getimageurls)
+##### Returns
 
-#### Defined in
+[`AvatarImageUrls`](../type-aliases/AvatarImageUrls.md) \| `undefined`
 
-[lib/entities/Entity.ts:61](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L61)
+##### Inherited from
 
-▸ `Protected` **getImageUrls**(`defaultImageUrl`, `type?`): `undefined` \| [`ArtworkImageUrls`](../README.md#artworkimageurls)
+[`Entity`](Entity.md).[`getImageUrls`](Entity.md#getimageurls)
 
-#### Parameters
+#### Call Signature
 
-| Name | Type |
-| :------ | :------ |
-| `defaultImageUrl` | `undefined` \| ``null`` \| `string` |
-| `type?` | ``"artwork"`` \| ``"artistStation"`` |
+> `protected` **getImageUrls**(`defaultImageUrl`, `type?`): [`ArtworkImageUrls`](../type-aliases/ArtworkImageUrls.md) \| `undefined`
 
-#### Returns
+Defined in: [entities/Entity.ts:62](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Entity.ts#L62)
 
-`undefined` \| [`ArtworkImageUrls`](../README.md#artworkimageurls)
+##### Parameters
 
-#### Inherited from
+###### defaultImageUrl
 
-[Entity](Entity.md).[getImageUrls](Entity.md#getimageurls)
+`string` | `null` | `undefined`
 
-#### Defined in
+###### type?
 
-[lib/entities/Entity.ts:62](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L62)
+`"artwork"` | `"artistStation"`
 
-___
+##### Returns
 
-### getJSON
+[`ArtworkImageUrls`](../type-aliases/ArtworkImageUrls.md) \| `undefined`
 
-▸ **getJSON**(`prop?`): `any`
+##### Inherited from
 
-#### Parameters
+[`Entity`](Entity.md).[`getImageUrls`](Entity.md#getimageurls)
 
-| Name | Type |
-| :------ | :------ |
-| `prop?` | `undefined` |
+***
 
-#### Returns
+### getJSON()
+
+#### Call Signature
+
+> **getJSON**(`prop?`): `any`
+
+Defined in: [entities/Entity.ts:47](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Entity.ts#L47)
+
+##### Parameters
+
+###### prop?
+
+`undefined`
+
+##### Returns
 
 `any`
 
-#### Inherited from
+##### Inherited from
 
-[Entity](Entity.md).[getJSON](Entity.md#getjson)
+[`Entity`](Entity.md).[`getJSON`](Entity.md#getjson)
 
-#### Defined in
+#### Call Signature
 
-[lib/entities/Entity.ts:47](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L47)
+> **getJSON**\<`T`\>(`prop`): `T` \| `null` \| `undefined`
 
-▸ **getJSON**<`T`\>(`prop`): `undefined` \| ``null`` \| `T`
+Defined in: [entities/Entity.ts:48](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Entity.ts#L48)
 
-#### Type parameters
+##### Type Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `T` | extends `string` |
+###### T
 
-#### Parameters
+`T` *extends* `string`
 
-| Name | Type |
-| :------ | :------ |
-| `prop` | `string` |
+##### Parameters
 
-#### Returns
+###### prop
 
-`undefined` \| ``null`` \| `T`
+`string`
 
-#### Inherited from
+##### Returns
 
-[Entity](Entity.md).[getJSON](Entity.md#getjson)
+`T` \| `null` \| `undefined`
 
-#### Defined in
+##### Inherited from
 
-[lib/entities/Entity.ts:48](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L48)
+[`Entity`](Entity.md).[`getJSON`](Entity.md#getjson)
 
-▸ **getJSON**<`T`\>(`prop`): `undefined` \| `T`
+#### Call Signature
 
-#### Type parameters
+> **getJSON**\<`T`\>(`prop`): `T` \| `undefined`
 
-| Name |
-| :------ |
-| `T` |
+Defined in: [entities/Entity.ts:49](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/entities/Entity.ts#L49)
 
-#### Parameters
+##### Type Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `prop` | `string` |
+###### T
 
-#### Returns
+`T`
 
-`undefined` \| `T`
+##### Parameters
 
-#### Inherited from
+###### prop
 
-[Entity](Entity.md).[getJSON](Entity.md#getjson)
+`string`
 
-#### Defined in
+##### Returns
 
-[lib/entities/Entity.ts:49](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/entities/Entity.ts#L49)
+`T` \| `undefined`
+
+##### Inherited from
+
+[`Entity`](Entity.md).[`getJSON`](Entity.md#getjson)

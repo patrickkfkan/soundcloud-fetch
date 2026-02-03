@@ -1,675 +1,721 @@
+[**soundcloud-fetch**](../README.md)
+
+***
+
 [soundcloud-fetch](../README.md) / SoundCloud
 
 # Class: SoundCloud
 
-## Table of contents
-
-### Constructors
-
-- [constructor](SoundCloud.md#constructor)
-
-### Properties
-
-- [me](SoundCloud.md#me)
-
-### Methods
-
-- [addToPlayHistory](SoundCloud.md#addtoplayhistory)
-- [getAlbumsByUser](SoundCloud.md#getalbumsbyuser)
-- [getClientId](SoundCloud.md#getclientid)
-- [getContinuation](SoundCloud.md#getcontinuation)
-- [getFollowing](SoundCloud.md#getfollowing)
-- [getLibraryItems](SoundCloud.md#getlibraryitems)
-- [getLikesByUser](SoundCloud.md#getlikesbyuser)
-- [getLocale](SoundCloud.md#getlocale)
-- [getMixedSelections](SoundCloud.md#getmixedselections)
-- [getMyFollowing](SoundCloud.md#getmyfollowing)
-- [getMyLikes](SoundCloud.md#getmylikes)
-- [getMyProfile](SoundCloud.md#getmyprofile)
-- [getMyStations](SoundCloud.md#getmystations)
-- [getPlayHistory](SoundCloud.md#getplayhistory)
-- [getPlaylistOrAlbum](SoundCloud.md#getplaylistoralbum)
-- [getPlaylistsByUser](SoundCloud.md#getplaylistsbyuser)
-- [getStreamingUrl](SoundCloud.md#getstreamingurl)
-- [getSystemPlaylist](SoundCloud.md#getsystemplaylist)
-- [getTopFeaturedTracks](SoundCloud.md#gettopfeaturedtracks)
-- [getTrack](SoundCloud.md#gettrack)
-- [getTracks](SoundCloud.md#gettracks)
-- [getTracksByUser](SoundCloud.md#gettracksbyuser)
-- [getUser](SoundCloud.md#getuser)
-- [search](SoundCloud.md#search)
-- [setAccessToken](SoundCloud.md#setaccesstoken)
-- [setLocale](SoundCloud.md#setlocale)
-- [generateClientId](SoundCloud.md#generateclientid)
+Defined in: [SoundCloud.ts:29](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L29)
 
 ## Constructors
 
-### constructor
+### Constructor
 
-• **new SoundCloud**(`args?`)
+> **new SoundCloud**(`args?`): `SoundCloud`
+
+Defined in: [SoundCloud.ts:45](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L45)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `args?` | [`SoundCloudInitArgs`](../interfaces/SoundCloudInitArgs.md) |
+##### args?
 
-#### Defined in
+[`SoundCloudInitArgs`](../interfaces/SoundCloudInitArgs.md)
 
-[lib/SoundCloud.ts:48](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L48)
+#### Returns
+
+`SoundCloud`
 
 ## Properties
 
 ### me
 
-• **me**: `Object`
+> **me**: `object`
 
-#### Type declaration
+Defined in: [SoundCloud.ts:31](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L31)
 
-| Name | Type |
-| :------ | :------ |
-| `addToPlayHistory` | (`trackOrUrn`: `string` \| [`Track`](Track.md), `setOrUrn?`: `string` \| [`Album`](Album.md) \| [`Playlist`](Playlist.md) \| [`SystemPlaylist`](SystemPlaylist.md)) => `Promise`<`any`\> |
-| `getFollowing` | (`options?`: [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)) => `Promise`<[`Collection`](Collection.md)<[`User`](User.md)\>\> |
-| `getLibraryItems` | (`options?`: [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)) => `Promise`<[`Collection`](Collection.md)<[`LibraryItem`](LibraryItem.md)\>\> |
-| `getLikes` | (`options`: [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & { `type`: ``"track"`` \| ``"playlistAndAlbum"``  }) => `Promise`<[`Collection`](Collection.md)<[`Like`](Like.md)\>\> |
-| `getPlayHistory` | (`options`: [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & { `type`: ``"set"`` \| ``"track"``  }) => `Promise`<[`Collection`](Collection.md)<[`PlayHistoryItem`](PlayHistoryItem.md)\>\> |
-| `getProfile` | () => `Promise`<``null`` \| [`User`](User.md)\> |
-| `getStations` | (`options?`: [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)) => `Promise`<[`Collection`](Collection.md)<[`LibraryItem`](LibraryItem.md)\>\> |
+#### addToPlayHistory()
 
-#### Defined in
+> **addToPlayHistory**: (`trackOrUrn`, `setOrUrn?`) => `Promise`\<`any`\>
 
-[lib/SoundCloud.ts:34](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L34)
+##### Parameters
+
+###### trackOrUrn
+
+`string` | [`Track`](Track.md)
+
+###### setOrUrn?
+
+`string` | [`Album`](Album.md) | [`Playlist`](Playlist.md) | [`SystemPlaylist`](SystemPlaylist.md)
+
+##### Returns
+
+`Promise`\<`any`\>
+
+#### getFollowing()
+
+> **getFollowing**: (`options?`) => `Promise`\<[`Collection`](Collection.md)\<[`User`](User.md)\>\>
+
+##### Parameters
+
+###### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)
+
+##### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`User`](User.md)\>\>
+
+#### getLibraryItems()
+
+> **getLibraryItems**: (`options?`) => `Promise`\<[`Collection`](Collection.md)\<[`LibraryItem`](LibraryItem.md)\>\>
+
+##### Parameters
+
+###### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)
+
+##### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`LibraryItem`](LibraryItem.md)\>\>
+
+#### getLikes()
+
+> **getLikes**: (`options`) => `Promise`\<[`Collection`](Collection.md)\<[`Like`](Like.md)\>\>
+
+##### Parameters
+
+###### options
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
+
+##### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`Like`](Like.md)\>\>
+
+#### getPlayHistory()
+
+> **getPlayHistory**: (`options`) => `Promise`\<[`Collection`](Collection.md)\<[`PlayHistoryItem`](PlayHistoryItem.md)\>\>
+
+##### Parameters
+
+###### options
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
+
+##### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`PlayHistoryItem`](PlayHistoryItem.md)\>\>
+
+#### getProfile()
+
+> **getProfile**: () => `Promise`\<[`User`](User.md) \| `null`\>
+
+##### Returns
+
+`Promise`\<[`User`](User.md) \| `null`\>
+
+#### getStations()
+
+> **getStations**: (`options?`) => `Promise`\<[`Collection`](Collection.md)\<[`LibraryItem`](LibraryItem.md)\>\>
+
+##### Parameters
+
+###### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)
+
+##### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`LibraryItem`](LibraryItem.md)\>\>
 
 ## Methods
 
-### addToPlayHistory
+### addToPlayHistory()
 
-▸ `Protected` **addToPlayHistory**(`trackOrUrn`, `setOrUrn?`): `Promise`<`any`\>
+> `protected` **addToPlayHistory**(`trackOrUrn`, `setOrUrn?`): `Promise`\<`any`\>
 
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `trackOrUrn` | `string` \| [`Track`](Track.md) |
-| `setOrUrn?` | `string` \| [`Album`](Album.md) \| [`Playlist`](Playlist.md) \| [`SystemPlaylist`](SystemPlaylist.md) |
-
-#### Returns
-
-`Promise`<`any`\>
-
-#### Defined in
-
-[lib/SoundCloud.ts:355](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L355)
-
-___
-
-### getAlbumsByUser
-
-▸ **getAlbumsByUser**(`userId`, `options?`): `Promise`<[`Collection`](Collection.md)<[`Album`](Album.md)\>\>
+Defined in: [SoundCloud.ts:352](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L352)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `userId` | `number` |
-| `options?` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) |
+##### trackOrUrn
+
+`string` | [`Track`](Track.md)
+
+##### setOrUrn?
+
+`string` | [`Album`](Album.md) | [`Playlist`](Playlist.md) | [`SystemPlaylist`](SystemPlaylist.md)
 
 #### Returns
 
-`Promise`<[`Collection`](Collection.md)<[`Album`](Album.md)\>\>
+`Promise`\<`any`\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:140](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L140)
+### getAlbumsByUser()
 
-___
+> **getAlbumsByUser**(`userId`, `options?`): `Promise`\<[`Collection`](Collection.md)\<[`Album`](Album.md)\>\>
 
-### getClientId
+Defined in: [SoundCloud.ts:143](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L143)
 
-▸ **getClientId**(): `Promise`<`string`\>
+#### Parameters
+
+##### userId
+
+`number`
+
+##### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)
 
 #### Returns
 
-`Promise`<`string`\>
+`Promise`\<[`Collection`](Collection.md)\<[`Album`](Album.md)\>\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:64](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L64)
+### getCharts()
 
-___
+> **getCharts**(): `Promise`\<[`Collection`](Collection.md)\<[`Selection`](Selection.md)\>\>
 
-### getContinuation
+Defined in: [SoundCloud.ts:114](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L114)
 
-▸ **getContinuation**<`T`\>(`continuation`): `Promise`<[`Collection`](Collection.md)<`T`\>\>
+#### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`Selection`](Selection.md)\>\>
+
+***
+
+### getClientId()
+
+> **getClientId**(): `Promise`\<`string`\>
+
+Defined in: [SoundCloud.ts:61](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L61)
+
+#### Returns
+
+`Promise`\<`string`\>
+
+***
+
+### getContinuation()
+
+> **getContinuation**\<`T`\>(`continuation`): `Promise`\<[`Collection`](Collection.md)\<`T`\>\>
+
+Defined in: [SoundCloud.ts:384](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L384)
 
 *********************************************************
 
-#### Type parameters
+#### Type Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `T` | extends [`EntityType`](../README.md#entitytype) |
+##### T
 
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `continuation` | [`CollectionContinuation`](CollectionContinuation.md)<`T`\> |
-
-#### Returns
-
-`Promise`<[`Collection`](Collection.md)<`T`\>\>
-
-#### Defined in
-
-[lib/SoundCloud.ts:387](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L387)
-
-___
-
-### getFollowing
-
-▸ **getFollowing**(`userId`, `options?`): `Promise`<[`Collection`](Collection.md)<[`User`](User.md)\>\>
+`T` *extends* [`EntityType`](../type-aliases/EntityType.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `userId` | `number` |
-| `options?` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) |
+##### continuation
+
+[`CollectionContinuation`](CollectionContinuation.md)\<`T`\>
 
 #### Returns
 
-`Promise`<[`Collection`](Collection.md)<[`User`](User.md)\>\>
+`Promise`\<[`Collection`](Collection.md)\<`T`\>\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:223](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L223)
+### getFollowing()
 
-___
+> **getFollowing**(`userId`, `options?`): `Promise`\<[`Collection`](Collection.md)\<[`User`](User.md)\>\>
 
-### getLibraryItems
-
-▸ `Protected` **getLibraryItems**(`options?`): `Promise`<[`Collection`](Collection.md)<[`LibraryItem`](LibraryItem.md)\>\>
+Defined in: [SoundCloud.ts:220](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L220)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `options?` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) |
+##### userId
+
+`number`
+
+##### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)
 
 #### Returns
 
-`Promise`<[`Collection`](Collection.md)<[`LibraryItem`](LibraryItem.md)\>\>
+`Promise`\<[`Collection`](Collection.md)\<[`User`](User.md)\>\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:321](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L321)
+### getLibraryItems()
 
-___
+> `protected` **getLibraryItems**(`options?`): `Promise`\<[`Collection`](Collection.md)\<[`LibraryItem`](LibraryItem.md)\>\>
 
-### getLikesByUser
-
-▸ **getLikesByUser**(`userId`, `options`): `Promise`<[`Collection`](Collection.md)<[`Like`](Like.md)\>\>
-
-*********************************************************
+Defined in: [SoundCloud.ts:318](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L318)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `userId` | `number` |
-| `options` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & { `type`: ``"track"`` \| ``"playlistAndAlbum"``  } |
+##### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)
 
 #### Returns
 
-`Promise`<[`Collection`](Collection.md)<[`Like`](Like.md)\>\>
+`Promise`\<[`Collection`](Collection.md)\<[`LibraryItem`](LibraryItem.md)\>\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:267](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L267)
+### getLikesByUser()
 
-___
+> **getLikesByUser**(`userId`, `options`): `Promise`\<[`Collection`](Collection.md)\<[`Like`](Like.md)\>\>
 
-### getLocale
-
-▸ **getLocale**(): `undefined` \| `string`
-
-#### Returns
-
-`undefined` \| `string`
-
-#### Defined in
-
-[lib/SoundCloud.ts:75](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L75)
-
-___
-
-### getMixedSelections
-
-▸ **getMixedSelections**(`options?`): `Promise`<[`Collection`](Collection.md)<[`Selection`](Selection.md)\>\>
+Defined in: [SoundCloud.ts:264](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L264)
 
 *********************************************************
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `options?` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) |
+##### userId
+
+`number`
+
+##### options
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
 
 #### Returns
 
-`Promise`<[`Collection`](Collection.md)<[`Selection`](Selection.md)\>\>
+`Promise`\<[`Collection`](Collection.md)\<[`Like`](Like.md)\>\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:111](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L111)
+### getLocale()
 
-___
+> **getLocale**(): `string` \| `undefined`
 
-### getMyFollowing
-
-▸ `Protected` **getMyFollowing**(`options?`): `Promise`<[`Collection`](Collection.md)<[`User`](User.md)\>\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `options?` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) |
+Defined in: [SoundCloud.ts:72](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L72)
 
 #### Returns
 
-`Promise`<[`Collection`](Collection.md)<[`User`](User.md)\>\>
+`string` \| `undefined`
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:347](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L347)
+### getMixedSelections()
 
-___
+> **getMixedSelections**(`options?`): `Promise`\<[`Collection`](Collection.md)\<[`Selection`](Selection.md)\>\>
 
-### getMyLikes
-
-▸ `Protected` **getMyLikes**(`options`): `Promise`<[`Collection`](Collection.md)<[`Like`](Like.md)\>\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `options` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & { `type`: ``"track"`` \| ``"playlistAndAlbum"``  } |
-
-#### Returns
-
-`Promise`<[`Collection`](Collection.md)<[`Like`](Like.md)\>\>
-
-#### Defined in
-
-[lib/SoundCloud.ts:335](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L335)
-
-___
-
-### getMyProfile
-
-▸ `Protected` **getMyProfile**(): `Promise`<``null`` \| [`User`](User.md)\>
-
-#### Returns
-
-`Promise`<``null`` \| [`User`](User.md)\>
-
-#### Defined in
-
-[lib/SoundCloud.ts:314](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L314)
-
-___
-
-### getMyStations
-
-▸ `Protected` **getMyStations**(`options?`): `Promise`<[`Collection`](Collection.md)<[`LibraryItem`](LibraryItem.md)\>\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `options?` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) |
-
-#### Returns
-
-`Promise`<[`Collection`](Collection.md)<[`LibraryItem`](LibraryItem.md)\>\>
-
-#### Defined in
-
-[lib/SoundCloud.ts:328](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L328)
-
-___
-
-### getPlayHistory
-
-▸ `Protected` **getPlayHistory**(`options`): `Promise`<[`Collection`](Collection.md)<[`PlayHistoryItem`](PlayHistoryItem.md)\>\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `options` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & { `type`: ``"set"`` \| ``"track"``  } |
-
-#### Returns
-
-`Promise`<[`Collection`](Collection.md)<[`PlayHistoryItem`](PlayHistoryItem.md)\>\>
-
-#### Defined in
-
-[lib/SoundCloud.ts:295](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L295)
-
-___
-
-### getPlaylistOrAlbum
-
-▸ **getPlaylistOrAlbum**(`id`): `Promise`<``null`` \| [`Album`](Album.md) \| [`Playlist`](Playlist.md)\>
+Defined in: [SoundCloud.ts:108](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L108)
 
 *********************************************************
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `id` | `number` |
+##### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)
 
 #### Returns
 
-`Promise`<``null`` \| [`Album`](Album.md) \| [`Playlist`](Playlist.md)\>
+`Promise`\<[`Collection`](Collection.md)\<[`Selection`](Selection.md)\>\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:121](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L121)
+### getMyFollowing()
 
-___
+> `protected` **getMyFollowing**(`options?`): `Promise`\<[`Collection`](Collection.md)\<[`User`](User.md)\>\>
 
-### getPlaylistsByUser
-
-▸ **getPlaylistsByUser**(`userId`, `options?`): `Promise`<[`Collection`](Collection.md)<[`Playlist`](Playlist.md)\>\>
+Defined in: [SoundCloud.ts:344](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L344)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `userId` | `number` |
-| `options?` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) |
+##### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)
 
 #### Returns
 
-`Promise`<[`Collection`](Collection.md)<[`Playlist`](Playlist.md)\>\>
+`Promise`\<[`Collection`](Collection.md)\<[`User`](User.md)\>\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:134](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L134)
+### getMyLikes()
 
-___
+> `protected` **getMyLikes**(`options`): `Promise`\<[`Collection`](Collection.md)\<[`Like`](Like.md)\>\>
 
-### getStreamingUrl
-
-▸ **getStreamingUrl**(`transcodingUrl`): `Promise`<``null`` \| `string`\>
+Defined in: [SoundCloud.ts:332](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L332)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `transcodingUrl` | `string` |
+##### options
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
 
 #### Returns
 
-`Promise`<``null`` \| `string`\>
+`Promise`\<[`Collection`](Collection.md)\<[`Like`](Like.md)\>\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:198](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L198)
+### getMyProfile()
 
-___
+> `protected` **getMyProfile**(): `Promise`\<[`User`](User.md) \| `null`\>
 
-### getSystemPlaylist
+Defined in: [SoundCloud.ts:311](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L311)
 
-▸ **getSystemPlaylist**(`id`): `Promise`<``null`` \| [`SystemPlaylist`](SystemPlaylist.md)\>
+#### Returns
+
+`Promise`\<[`User`](User.md) \| `null`\>
+
+***
+
+### getMyStations()
+
+> `protected` **getMyStations**(`options?`): `Promise`\<[`Collection`](Collection.md)\<[`LibraryItem`](LibraryItem.md)\>\>
+
+Defined in: [SoundCloud.ts:325](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L325)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `id` | `string` |
+##### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)
 
 #### Returns
 
-`Promise`<``null`` \| [`SystemPlaylist`](SystemPlaylist.md)\>
+`Promise`\<[`Collection`](Collection.md)\<[`LibraryItem`](LibraryItem.md)\>\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:128](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L128)
+### getPlayHistory()
 
-___
+> `protected` **getPlayHistory**(`options`): `Promise`\<[`Collection`](Collection.md)\<[`PlayHistoryItem`](PlayHistoryItem.md)\>\>
 
-### getTopFeaturedTracks
+Defined in: [SoundCloud.ts:292](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L292)
 
-▸ **getTopFeaturedTracks**(`options?`): `Promise`<[`Collection`](Collection.md)<[`Track`](Track.md)\>\>
+#### Parameters
+
+##### options
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
+
+#### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`PlayHistoryItem`](PlayHistoryItem.md)\>\>
+
+***
+
+### getPlaylistOrAlbum()
+
+> **getPlaylistOrAlbum**(`id`): `Promise`\<[`Album`](Album.md) \| [`Playlist`](Playlist.md) \| `null`\>
+
+Defined in: [SoundCloud.ts:124](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L124)
 
 *********************************************************
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `options?` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & { `genre?`: `string`  } |
+##### id
+
+`number`
 
 #### Returns
 
-`Promise`<[`Collection`](Collection.md)<[`Track`](Track.md)\>\>
+`Promise`\<[`Album`](Album.md) \| [`Playlist`](Playlist.md) \| `null`\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:150](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L150)
+### getPlaylistsByUser()
 
-___
+> **getPlaylistsByUser**(`userId`, `options?`): `Promise`\<[`Collection`](Collection.md)\<[`Playlist`](Playlist.md)\>\>
 
-### getTrack
-
-▸ **getTrack**(`id`): `Promise`<``null`` \| [`Track`](Track.md)\>
+Defined in: [SoundCloud.ts:137](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L137)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `id` | `number` |
+##### userId
+
+`number`
+
+##### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)
 
 #### Returns
 
-`Promise`<``null`` \| [`Track`](Track.md)\>
+`Promise`\<[`Collection`](Collection.md)\<[`Playlist`](Playlist.md)\>\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:193](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L193)
+### getStreamingUrl()
 
-___
+> **getStreamingUrl**(`transcodingUrl`): `Promise`\<`string` \| `null`\>
 
-### getTracks
-
-▸ **getTracks**(`ids`): `Promise`<[`Track`](Track.md)[]\>
+Defined in: [SoundCloud.ts:201](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L201)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `ids` | `number` \| `number`[] |
+##### transcodingUrl
+
+`string`
 
 #### Returns
 
-`Promise`<[`Track`](Track.md)[]\>
+`Promise`\<`string` \| `null`\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:157](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L157)
+### getSystemPlaylist()
 
-___
+> **getSystemPlaylist**(`id`): `Promise`\<[`SystemPlaylist`](SystemPlaylist.md) \| `null`\>
 
-### getTracksByUser
-
-▸ **getTracksByUser**(`userId`, `options?`): `Promise`<[`Collection`](Collection.md)<[`Track`](Track.md)\>\>
+Defined in: [SoundCloud.ts:131](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L131)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `userId` | `number` |
-| `options?` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) |
+##### id
+
+`string`
 
 #### Returns
 
-`Promise`<[`Collection`](Collection.md)<[`Track`](Track.md)\>\>
+`Promise`\<[`SystemPlaylist`](SystemPlaylist.md) \| `null`\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:186](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L186)
+### getTopFeaturedTracks()
 
-___
+> **getTopFeaturedTracks**(`options?`): `Promise`\<[`Collection`](Collection.md)\<[`Track`](Track.md)\>\>
 
-### getUser
-
-▸ **getUser**(`id`): `Promise`<``null`` \| [`User`](User.md)\>
+Defined in: [SoundCloud.ts:153](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L153)
 
 *********************************************************
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `id` | `number` |
+##### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
 
 #### Returns
 
-`Promise`<``null`` \| [`User`](User.md)\>
+`Promise`\<[`Collection`](Collection.md)\<[`Track`](Track.md)\>\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:217](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L217)
+### getTrack()
 
-___
+> **getTrack**(`id`): `Promise`\<[`Track`](Track.md) \| `null`\>
 
-### search
+Defined in: [SoundCloud.ts:196](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L196)
 
-▸ **search**(`q`, `options`): `Promise`<[`Collection`](Collection.md)<[`Playlist`](Playlist.md)\>\>
+#### Parameters
+
+##### id
+
+`number`
+
+#### Returns
+
+`Promise`\<[`Track`](Track.md) \| `null`\>
+
+***
+
+### getTracks()
+
+> **getTracks**(`ids`): `Promise`\<[`Track`](Track.md)[]\>
+
+Defined in: [SoundCloud.ts:160](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L160)
+
+#### Parameters
+
+##### ids
+
+`number` | `number`[]
+
+#### Returns
+
+`Promise`\<[`Track`](Track.md)[]\>
+
+***
+
+### getTracksByUser()
+
+> **getTracksByUser**(`userId`, `options?`): `Promise`\<[`Collection`](Collection.md)\<[`Track`](Track.md)\>\>
+
+Defined in: [SoundCloud.ts:189](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L189)
+
+#### Parameters
+
+##### userId
+
+`number`
+
+##### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md)
+
+#### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`Track`](Track.md)\>\>
+
+***
+
+### getUser()
+
+> **getUser**(`id`): `Promise`\<[`User`](User.md) \| `null`\>
+
+Defined in: [SoundCloud.ts:214](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L214)
 
 *********************************************************
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `q` | `string` |
-| `options` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & { `type`: ``"playlist"``  } |
+##### id
+
+`number`
 
 #### Returns
 
-`Promise`<[`Collection`](Collection.md)<[`Playlist`](Playlist.md)\>\>
+`Promise`\<[`User`](User.md) \| `null`\>
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:233](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L233)
+### search()
 
-▸ **search**(`q`, `options`): `Promise`<[`Collection`](Collection.md)<[`Album`](Album.md)\>\>
+#### Call Signature
+
+> **search**(`q`, `options`): `Promise`\<[`Collection`](Collection.md)\<[`Playlist`](Playlist.md)\>\>
+
+Defined in: [SoundCloud.ts:230](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L230)
+
+*********************************************************
+
+##### Parameters
+
+###### q
+
+`string`
+
+###### options
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
+
+##### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`Playlist`](Playlist.md)\>\>
+
+#### Call Signature
+
+> **search**(`q`, `options`): `Promise`\<[`Collection`](Collection.md)\<[`Album`](Album.md)\>\>
+
+Defined in: [SoundCloud.ts:231](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L231)
+
+*********************************************************
+
+##### Parameters
+
+###### q
+
+`string`
+
+###### options
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
+
+##### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`Album`](Album.md)\>\>
+
+#### Call Signature
+
+> **search**(`q`, `options`): `Promise`\<[`Collection`](Collection.md)\<[`Track`](Track.md)\>\>
+
+Defined in: [SoundCloud.ts:232](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L232)
+
+*********************************************************
+
+##### Parameters
+
+###### q
+
+`string`
+
+###### options
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
+
+##### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`Track`](Track.md)\>\>
+
+#### Call Signature
+
+> **search**(`q`, `options`): `Promise`\<[`Collection`](Collection.md)\<[`User`](User.md)\>\>
+
+Defined in: [SoundCloud.ts:233](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L233)
+
+*********************************************************
+
+##### Parameters
+
+###### q
+
+`string`
+
+###### options
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
+
+##### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`User`](User.md)\>\>
+
+***
+
+### setAccessToken()
+
+> **setAccessToken**(`value?`): `void`
+
+Defined in: [SoundCloud.ts:80](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L80)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `q` | `string` |
-| `options` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & { `type`: ``"album"``  } |
+##### value?
 
-#### Returns
-
-`Promise`<[`Collection`](Collection.md)<[`Album`](Album.md)\>\>
-
-#### Defined in
-
-[lib/SoundCloud.ts:234](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L234)
-
-▸ **search**(`q`, `options`): `Promise`<[`Collection`](Collection.md)<[`Track`](Track.md)\>\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `q` | `string` |
-| `options` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & { `type`: ``"track"``  } |
-
-#### Returns
-
-`Promise`<[`Collection`](Collection.md)<[`Track`](Track.md)\>\>
-
-#### Defined in
-
-[lib/SoundCloud.ts:235](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L235)
-
-▸ **search**(`q`, `options`): `Promise`<[`Collection`](Collection.md)<[`User`](User.md)\>\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `q` | `string` |
-| `options` | [`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & { `type`: ``"user"``  } |
-
-#### Returns
-
-`Promise`<[`Collection`](Collection.md)<[`User`](User.md)\>\>
-
-#### Defined in
-
-[lib/SoundCloud.ts:236](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L236)
-
-___
-
-### setAccessToken
-
-▸ **setAccessToken**(`value?`): `void`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `value?` | `string` |
+`string`
 
 #### Returns
 
 `void`
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:83](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L83)
+### setLocale()
 
-___
+> **setLocale**(`locale?`): `void`
 
-### setLocale
-
-▸ **setLocale**(`locale?`): `void`
+Defined in: [SoundCloud.ts:76](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L76)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `locale?` | `string` |
+##### locale?
+
+`string`
 
 #### Returns
 
 `void`
 
-#### Defined in
+***
 
-[lib/SoundCloud.ts:79](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L79)
+### generateClientId()
 
-___
+> `static` **generateClientId**(): `Promise`\<`string`\>
 
-### generateClientId
-
-▸ `Static` **generateClientId**(): `Promise`<`string`\>
+Defined in: [SoundCloud.ts:68](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/SoundCloud.ts#L68)
 
 #### Returns
 
-`Promise`<`string`\>
-
-#### Defined in
-
-[lib/SoundCloud.ts:71](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/SoundCloud.ts#L71)
+`Promise`\<`string`\>

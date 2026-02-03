@@ -1,114 +1,95 @@
+[**soundcloud-fetch**](../README.md)
+
+***
+
 [soundcloud-fetch](../README.md) / CollectionContinuation
 
-# Class: CollectionContinuation<T\>
+# Class: CollectionContinuation\<T\>
 
-## Type parameters
+Defined in: [collections/CollectionContinuation.ts:4](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/CollectionContinuation.ts#L4)
 
-| Name | Type |
-| :------ | :------ |
-| `T` | extends [`EntityType`](../README.md#entitytype) |
+## Type Parameters
 
-## Table of contents
+### T
 
-### Constructors
-
-- [constructor](CollectionContinuation.md#constructor)
-
-### Properties
-
-- [opts](CollectionContinuation.md#opts)
-- [uri](CollectionContinuation.md#uri)
-
-### Methods
-
-- [parse](CollectionContinuation.md#parse)
-- [stringify](CollectionContinuation.md#stringify)
+`T` *extends* [`EntityType`](../type-aliases/EntityType.md)
 
 ## Constructors
 
-### constructor
+### Constructor
 
-• **new CollectionContinuation**<`T`\>(`uri`, `opts?`)
+> **new CollectionContinuation**\<`T`\>(`uri`, `opts`): `CollectionContinuation`\<`T`\>
 
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `T` | extends [`EntityType`](../README.md#entitytype) |
+Defined in: [collections/CollectionContinuation.ts:8](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/CollectionContinuation.ts#L8)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `uri` | `string` |
-| `opts` | [`CollectionOptions`](../README.md#collectionoptions)<`T`\> |
+##### uri
 
-#### Defined in
+`string`
 
-[lib/collections/CollectionContinuation.ts:8](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/CollectionContinuation.ts#L8)
+##### opts
+
+[`CollectionOptions`](../type-aliases/CollectionOptions.md)\<`T`\> = `{}`
+
+#### Returns
+
+`CollectionContinuation`\<`T`\>
 
 ## Properties
 
 ### opts
 
-• `Readonly` **opts**: [`CollectionOptions`](../README.md#collectionoptions)<`T`\>
+> `readonly` **opts**: [`CollectionOptions`](../type-aliases/CollectionOptions.md)\<`T`\>
 
-#### Defined in
+Defined in: [collections/CollectionContinuation.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/CollectionContinuation.ts#L6)
 
-[lib/collections/CollectionContinuation.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/CollectionContinuation.ts#L6)
-
-___
+***
 
 ### uri
 
-• `Readonly` **uri**: `string`
+> `readonly` **uri**: `string`
 
-#### Defined in
-
-[lib/collections/CollectionContinuation.ts:5](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/CollectionContinuation.ts#L5)
+Defined in: [collections/CollectionContinuation.ts:5](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/CollectionContinuation.ts#L5)
 
 ## Methods
 
-### parse
+### parse()
 
-▸ `Static` **parse**(`data`): ``null`` \| [`CollectionContinuation`](CollectionContinuation.md)<[`EntityType`](../README.md#entitytype)\>
+> `static` **parse**(`data`): `CollectionContinuation`\<[`EntityType`](../type-aliases/EntityType.md)\> \| `null`
+
+Defined in: [collections/CollectionContinuation.ts:46](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/CollectionContinuation.ts#L46)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `string` |
+##### data
+
+`string`
 
 #### Returns
 
-``null`` \| [`CollectionContinuation`](CollectionContinuation.md)<[`EntityType`](../README.md#entitytype)\>
+`CollectionContinuation`\<[`EntityType`](../type-aliases/EntityType.md)\> \| `null`
 
-#### Defined in
+***
 
-[lib/collections/CollectionContinuation.ts:46](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/CollectionContinuation.ts#L46)
+### stringify()
 
-___
+> `static` **stringify**\<`T`\>(`data`): `string`
 
-### stringify
+Defined in: [collections/CollectionContinuation.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/CollectionContinuation.ts#L13)
 
-▸ `Static` **stringify**<`T`\>(`data`): `string`
+#### Type Parameters
 
-#### Type parameters
+##### T
 
-| Name | Type |
-| :------ | :------ |
-| `T` | extends [`EntityType`](../README.md#entitytype) |
+`T` *extends* [`EntityType`](../type-aliases/EntityType.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | [`CollectionContinuation`](CollectionContinuation.md)<`T`\> |
+##### data
+
+`CollectionContinuation`\<`T`\>
 
 #### Returns
 
 `string`
-
-#### Defined in
-
-[lib/collections/CollectionContinuation.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/CollectionContinuation.ts#L13)

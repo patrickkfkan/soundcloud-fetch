@@ -1,184 +1,161 @@
+[**soundcloud-fetch**](../README.md)
+
+***
+
 [soundcloud-fetch](../README.md) / Collection
 
-# Class: Collection<T\>
+# Class: Collection\<T\>
 
-## Type parameters
+Defined in: [collections/Collection.ts:14](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/Collection.ts#L14)
 
-| Name | Type |
-| :------ | :------ |
-| `T` | extends [`EntityType`](../README.md#entitytype) |
+## Type Parameters
 
-## Table of contents
+### T
 
-### Constructors
-
-- [constructor](Collection.md#constructor)
-
-### Properties
-
-- [continuation](Collection.md#continuation)
-- [items](Collection.md#items)
-- [type](Collection.md#type)
-- [type](Collection.md#type-1)
-
-### Methods
-
-- [getClient](Collection.md#getclient)
-- [getItems](Collection.md#getitems)
-- [getJSON](Collection.md#getjson)
+`T` *extends* [`EntityType`](../type-aliases/EntityType.md)
 
 ## Constructors
 
-### constructor
+### Constructor
 
-• **new Collection**<`T`\>(`json`, `client`, `opts`)
+> **new Collection**\<`T`\>(`json`, `client`, `opts`): `Collection`\<`T`\>
 
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `T` | extends [`EntityType`](../README.md#entitytype) |
+Defined in: [collections/Collection.ts:26](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/Collection.ts#L26)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `json` | `any` |
-| `client` | [`SoundCloud`](SoundCloud.md) |
-| `opts` | [`CollectionOptions`](../README.md#collectionoptions)<`T`\> |
+##### json
 
-#### Defined in
+`any`
 
-[lib/collections/Collection.ts:26](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/Collection.ts#L26)
+##### client
+
+[`SoundCloud`](SoundCloud.md)
+
+##### opts
+
+[`CollectionOptions`](../type-aliases/CollectionOptions.md)\<`T`\>
+
+#### Returns
+
+`Collection`\<`T`\>
 
 ## Properties
 
 ### continuation
 
-• **continuation**: ``null`` \| [`CollectionContinuation`](CollectionContinuation.md)<`T`\>
+> **continuation**: [`CollectionContinuation`](CollectionContinuation.md)\<`T`\> \| `null`
 
-#### Defined in
+Defined in: [collections/Collection.ts:20](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/Collection.ts#L20)
 
-[lib/collections/Collection.ts:20](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/Collection.ts#L20)
-
-___
+***
 
 ### items
 
-• **items**: `T`[]
+> **items**: `T`[]
 
-#### Defined in
+Defined in: [collections/Collection.ts:19](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/Collection.ts#L19)
 
-[lib/collections/Collection.ts:19](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/Collection.ts#L19)
-
-___
+***
 
 ### type
 
-• `Readonly` **type**: `string`
+> `readonly` **type**: `string`
 
-#### Defined in
+Defined in: [collections/Collection.ts:17](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/Collection.ts#L17)
 
-[lib/collections/Collection.ts:17](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/Collection.ts#L17)
-
-___
+***
 
 ### type
 
-▪ `Static` `Readonly` **type**: `string` = `'Collection'`
+> `readonly` `static` **type**: `string` = `'Collection'`
 
-#### Defined in
-
-[lib/collections/Collection.ts:16](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/Collection.ts#L16)
+Defined in: [collections/Collection.ts:16](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/Collection.ts#L16)
 
 ## Methods
 
-### getClient
+### getClient()
 
-▸ `Protected` **getClient**(): [`SoundCloud`](SoundCloud.md)
+> `protected` **getClient**(): [`SoundCloud`](SoundCloud.md)
+
+Defined in: [collections/Collection.ts:81](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/Collection.ts#L81)
 
 #### Returns
 
 [`SoundCloud`](SoundCloud.md)
 
-#### Defined in
+***
 
-[lib/collections/Collection.ts:81](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/Collection.ts#L81)
+### getItems()
 
-___
+> `protected` **getItems**(): `T`[]
 
-### getItems
-
-▸ `Protected` **getItems**(): `T`[]
+Defined in: [collections/Collection.ts:42](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/Collection.ts#L42)
 
 #### Returns
 
 `T`[]
 
-#### Defined in
+***
 
-[lib/collections/Collection.ts:42](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/Collection.ts#L42)
+### getJSON()
 
-___
+#### Call Signature
 
-### getJSON
+> **getJSON**(`prop?`): `any`
 
-▸ **getJSON**(`prop?`): `any`
+Defined in: [collections/Collection.ts:71](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/Collection.ts#L71)
 
-#### Parameters
+##### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `prop?` | `undefined` |
+###### prop?
 
-#### Returns
+`undefined`
+
+##### Returns
 
 `any`
 
-#### Defined in
+#### Call Signature
 
-[lib/collections/Collection.ts:71](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/Collection.ts#L71)
+> **getJSON**\<`T`\>(`prop`): `T` \| `null` \| `undefined`
 
-▸ **getJSON**<`T`\>(`prop`): `undefined` \| ``null`` \| `T`
+Defined in: [collections/Collection.ts:72](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/Collection.ts#L72)
 
-#### Type parameters
+##### Type Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `T` | extends `string` |
+###### T
 
-#### Parameters
+`T` *extends* `string`
 
-| Name | Type |
-| :------ | :------ |
-| `prop` | `string` |
+##### Parameters
 
-#### Returns
+###### prop
 
-`undefined` \| ``null`` \| `T`
+`string`
 
-#### Defined in
+##### Returns
 
-[lib/collections/Collection.ts:72](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/Collection.ts#L72)
+`T` \| `null` \| `undefined`
 
-▸ **getJSON**<`T`\>(`prop`): `undefined` \| `T`
+#### Call Signature
 
-#### Type parameters
+> **getJSON**\<`T`\>(`prop`): `T` \| `undefined`
 
-| Name |
-| :------ |
-| `T` |
+Defined in: [collections/Collection.ts:73](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/collections/Collection.ts#L73)
 
-#### Parameters
+##### Type Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `prop` | `string` |
+###### T
 
-#### Returns
+`T`
 
-`undefined` \| `T`
+##### Parameters
 
-#### Defined in
+###### prop
 
-[lib/collections/Collection.ts:73](https://github.com/patrickkfkan/soundcloud-fetch/blob/b88c7ef/src/lib/collections/Collection.ts#L73)
+`string`
+
+##### Returns
+
+`T` \| `undefined`
