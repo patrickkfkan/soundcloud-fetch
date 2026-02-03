@@ -1,24 +1,228 @@
---- Liked playlists / albums ---
+--- Liked tracks ---
 Collection {
   items: [
     Like {
       type: 'Like',
-      createdAt: '2022-06-14T06:11:17Z',
-      itemType: 'Album',
-      item: Album {
-        type: 'Album',
-        id: 1452453025,
+      createdAt: '2024-12-26T18:49:14Z',
+      itemType: 'Track',
+      item: Track {
+        type: 'Track',
+        id: 1986655311,
+        texts: {
+          title: 'NA [Prod. Ashkan Mousavi]',
+          description: 'Lyrics & Vocals: https://Ghogha.me X @BahramNouraei X @3lhamam\n' +
+            'Music Producer, Mixing & Mastering Engineer: @AshkanMousavi\n' +
+            'Cover Artwork: Setareh Malekzadeh • https://ghogha.me\n' +
+            '℗ 2024 @Peeleh • https://peeleh.com\n' +
+            '\n' +
+            '(غوغا)\n' +
+            'میخواستن بشکننم از دلم روییده\n' +
+            'آزادی مال منه وقت من رسیده \n' +
+            'میخواستن بشکننم اما من باد بودم \n' +
+            'وزیدم از کنارتو بازم باهات طوفان شدم\n' +
+            '\n' +
+            'از بالا تا پایینت \n' +
+            'از فرهنگ و تاریخت \n' +
+            'از سنت و آیینت\n' +
+            'از بی دین و با دینت\n' +
+            '\n' +
+            'درگیر سلسله موی منی تو\n' +
+            ' لابد گیر کرده لا چرخه \n' +
+            'ازهم پاشیده اقتصادت \n' +
+            '\n' +
+            'خدات برسه به دادت \n' +
+            'ریدم به مرید و مرادت \n' +
+            'به رهبرت و شاهت \n' +
+            'به کاخت و مقامت \n' +
+            '...خدات برسه\n' +
+            '\n' +
+            'اخر شب رسید به ته\n' +
+            'روشن رشنو‌ سپیده زد \n' +
+            'قلیان از رو نمیره \n' +
+            'تن به زور ضحاک نمیده زن\n' +
+            'هی سرباز بچین بزن \n' +
+            'هی هر بار بگیر ببر \n' +
+            'دیگه هیچ چیزی نجاتت نمیده\n' +
+            'به زیر خاک کشید ضحاکو سپیده تش\n' +
+            '\n' +
+            'من به هر جوری کلاه رو کله ها میگم\n' +
+            'نه نه نه نه\n' +
+            'نمی دم باج به روسری، عمامه، تاج\n' +
+            'نه نه نه نه\n' +
+            'من به هر دوی ارباب و بنده هاش میگم نه\n' +
+            'تو صورت نوچه هاش میگم نه\n' +
+            'همه بگن آره من به جاش میگم\n' +
+            'نه نه نه نه\n' +
+            '\n' +
+            '(بهرام)\n' +
+            'زیر سایه سبز قصه ها\n' +
+            'شعر شبه که میده بهم صدا\n' +
+            'رنگ از رخم می پره از فرط ظلم\n' +
+            'سیاه می پوشم واسه زنده ها\n' +
+            'وای به حالت اگه جمع شه اجتماع\n' +
+            'که شروع ما میشه واسه تو انتها\n' +
+            'سفید می پوشیم یه دست همه به صف\n' +
+            'سایه صبح میشیم رو بدن برکه ها\n' +
+            'پیر و جوون زن و مرد باهامه\n' +
+            'هرکی هرجا شده طرد باهامه\n' +
+            'شاید زیر فشاره ادا درمیاره\n' +
+            'ولی میری تو می بینی دروناً باهامه\n' +
+            'شاید دادخواهه پی انتقامه\n' +
+            'شهروند پی حق انتخابه\n' +
+            'شاید نوجوونه پر اضطرابه\n' +
+            'اونه که ازم می خواد که بدم ادامه\n' +
+            'می خونه طوطی ما متفاوت\n' +
+            'کی میذاره سکه رو صورت حسابت؟\n' +
+            'با کمال احترام متقابل\n' +
+            'این آخر راهه خدافظ لوطیای متظاهر\n' +
+            'مامور و معذورای تو رکاب لاشخورای با حجاب لب ساحل\n' +
+            'جز همین اسلحه که زیر عباشه\n' +
+            'من ندیدم تو راه امامتون مسافر\n' +
+            '\n' +
+            'من به هر جوری کلاه رو کله ها میگم\n' +
+            'نه نه نه نه\n' +
+            'نمی دم باج به روسری، عمامه، تاج\n' +
+            'نه نه نه نه\n' +
+            'می پوشم هر چی می خوام\n' +
+            'ناراحتی بذا دست رو چشات\n' +
+            'نه به ارشاد\n' +
+            'نه به ارشاد و اجبار\n' +
+            'نه نه نه نه نه\n' +
+            '\n' +
+            'من به هر جوری کلاه رو کله ها میگم\n' +
+            'نه نه نه نه\n' +
+            'نمی دم باج به روسری، عمامه، تاج\n' +
+            'نه نه نه نه\n' +
+            'من به هر دوی ارباب و بنده هاش میگم نه\n' +
+            'تو صورت نوچه هاش میگم نه\n' +
+            'همه بگن آره من به جاش میگم\n' +
+            'نه نه نه نه\n' +
+            '\n' +
+            '(الهام)\n' +
+            'از سردی مرده‌وار پیکر خاکی خودت رنج بکش\n' +
+            'ستاره تو اشک شکت افتاد درد بکش\n' +
+            'عیبی نداره تو انحنای شلاق هست یه شعر\n' +
+            'فریادتوتصورکن توی ذهنت تا رسم بشه\n' +
+            'لحظه‌ی اول اتفاق هولناک پشت همین پنجره\n' +
+            'تن لختشو توی خیابون انداخت از دست بره\n' +
+            'توپشت پرده‌ی امنت وایستاده‌ بودی\n' +
+            'خفه میکردی حنجره‌تو\n' +
+            'اون داد میکشید عربده میزد تا شاید درد از شهر بره\n' +
+            'واسه شماست این نقش باد کرده مثل اسب نر\n' +
+            'واسه شماست که گیرافتادین توی باتلاق نشر زرد\n' +
+            'واسه شماست این جسم باندپیچی از چسب‌زخم\n' +
+            'واسه شماست\n' +
+            'با شمام چه نابغه باشم چه نه\n' +
+            'اگه سر لبریز از شعرمو بلندکنم\n' +
+            'خنده‌رو از چشمت میگیرم محو میکنم بودنتو\n' +
+            'جای گلوله به پیشونیت بیشتر میاد هدف میگیرم صورتتو\n' +
+            'قیل و قال کن چک‌وچونه بزن واسه به دست اوردن آزادیت\n' +
+            'نقاب سادگیتو بردار\n' +
+            'پس میزنه خودخواهیت\n' +
+            'تورو از عقده‌ی درد پری سرشار از ناگفته‌ها\n' +
+            'از ابتذال انتظارو سکوت ترسناک ناله ها\n' +
+            'از بی بها بودن انسانیت از سقوط لحظه ها\n' +
+            'منم قاتل روحت شهروند ناخلف شهر مرده ها\n' +
+            '\n' +
+            'من به هر جوری کلاه رو کله ها میگم\n' +
+            'نه نه نه نه\n' +
+            'نمی دم باج به روسری، عمامه، تاج\n' +
+            'نه نه نه نه\n' +
+            'من به هر دوی ارباب و بنده هاش میگم نه\n' +
+            'تو صورت نوچه هاش میگم نه\n' +
+            'همه بگن آره من به جاش میگم\n' +
+            'نه نه نه نه',
+          caption: null
+        },
+        dates: {
+          created: '2024-12-16T14:39:15Z',
+          released: '2024-12-26T00:00:00Z',
+          modified: '2025-04-23T11:21:49Z',
+          display: '2024-12-26T17:48:18Z'
+        },
+        downloadInfo: {
+          downloadable: false,
+          downloadCount: 0,
+          hasDownloadsLeft: false
+        },
+        socialInfo: {
+          commentable: true,
+          commentCount: 963,
+          likesCount: 5098,
+          repostsCount: 57
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: 'all',
+          secretToken: null
+        },
+        playbackInfo: { playbackCount: 205221, policy: 'ALLOW' },
+        isBlocked: false,
+        isSnipped: false,
+        mediaInfo: {
+          trackFormat: undefined,
+          encodingState: 'finished',
+          transcodings: [
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding]
+          ]
+        },
+        permalink: { basic: 'nah', full: 'https://soundcloud.com/peeleh/nah' },
+        apiInfo: {
+          streamable: true,
+          uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1986655311',
+          urn: 'soundcloud:tracks:1986655311'
+        },
+        purchaseInfo: {
+          title: 'Download',
+          url: 'https://peeleh.bandcamp.com/track/na'
+        },
+        publisher: Publisher {
+          type: 'Publisher',
+          id: 1986655311,
+          artist: 'Ghogha X Bahram X Elham',
+          albumTitle: undefined,
+          containsMusic: true,
+          UPCOrEAN: undefined,
+          ISRC: 'QZMHL2566890',
+          isExplicit: true,
+          releaseTitle: 'NA',
+          copyrightText: { general: [Object], display: [Object] },
+          apiInfo: { urn: 'soundcloud:tracks:1986655311' }
+        },
+        durations: { full: 276036, playback: 276023 },
+        genre: 'Hip-hop & Rap',
+        license: 'all-rights-reserved',
+        isPublic: true,
+        tags: '"Hip Hop" Iran underground',
+        label: 'Peeleh',
+        artwork: {
+          default: 'https://i1.sndcdn.com/artworks-zfRkEJwzL4q8V2pu-Xh1Rlg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/artworks-zfRkEJwzL4q8V2pu-Xh1Rlg-t500x500.jpg',
+          t300x300: 'https://i1.sndcdn.com/artworks-zfRkEJwzL4q8V2pu-Xh1Rlg-t300x300.jpg',
+          t67x67: 'https://i1.sndcdn.com/artworks-zfRkEJwzL4q8V2pu-Xh1Rlg-t67x67.jpg',
+          crop: 'https://i1.sndcdn.com/artworks-zfRkEJwzL4q8V2pu-Xh1Rlg-crop.jpg',
+          large: 'https://i1.sndcdn.com/artworks-zfRkEJwzL4q8V2pu-Xh1Rlg-large.jpg',
+          badge: 'https://i1.sndcdn.com/artworks-zfRkEJwzL4q8V2pu-Xh1Rlg-badge.jpg',
+          small: 'https://i1.sndcdn.com/artworks-zfRkEJwzL4q8V2pu-Xh1Rlg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/artworks-zfRkEJwzL4q8V2pu-Xh1Rlg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/artworks-zfRkEJwzL4q8V2pu-Xh1Rlg-mini.jpg'
+        },
+        waveform: 'https://wave.sndcdn.com/48cyNaS8x37w_m.json',
         user: User {
           type: 'User',
           id: 620997126,
           names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
-          lastModified: '2021-08-08T14:23:38Z',
+          lastModified: '2025-12-20T18:32:55Z',
           permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
           apiInfo: {
-            uri: 'https://api.soundcloud.com/users/620997126',
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
             urn: 'soundcloud:users:620997126'
           },
-          location: { city: 'Stockholm', country: 'SE' },
+          location: { city: '', country: null },
           isVerified: true,
           avatar: {
             default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
@@ -31,14 +235,2253 @@ Collection {
             tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
             mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
           },
-          badges: { pro: false, proUnlimited: false, verified: true }
+          badges: { pro: false, proUnlimited: true, verified: true }
+        }
+      }
+    },
+    Like {
+      type: 'Like',
+      createdAt: '2024-11-11T16:04:56Z',
+      itemType: 'Track',
+      item: Track {
+        type: 'Track',
+        id: 1937402450,
+        texts: {
+          title: 'Sangsar [Prod. Ashkan Mousavi]',
+          description: 'Lyrics & Vocals: @AliSorena X @BahramNouraei\n' +
+            'Music Producer: @AshkanMousavi\n' +
+            'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+            'Visual Artist: Erfan Ashourioun\n' +
+            'Art Director: Setareh Malekzadeh • https://ghogha.me\n' +
+            '℗ 2024 Peeleh • https://peeleh.com\n' +
+            '\n' +
+            '(سورنا)\n' +
+            'تو روز مرگ زندگی تو صحرای خشک  \n' +
+            'تن‌ بیابون زیر شلاق خورشید  \n' +
+            'روز مرگ حرکت و ‌باد امید  \n' +
+            'جمعیتی منتظر به فرمان مرگ  \n' +
+            'زنی رو کشیدن با زوزه بلند  \n' +
+            'از خط خونش رو‌ خاک خسته  \n' +
+            'یه کلاغ نشست رو‌ بوته های گز  \n' +
+            'یه سوار ایستاد با مویه های اسبش  \n' +
+            'سنگ ها دست ها رو‌ سرزنش می کردن  \n' +
+            'زمین گشنه خندید به خندقش  \n' +
+            'زنو ‌کشیدن به مسلخ  \n' +
+            'و زمین اونو بلعید تا گردنش  \n' +
+            'همین که فرو شد  \n' +
+            'یه لحظه سکوت شد \n' +
+            'یکی گفت بکشید این فاحشه رو  \n' +
+            'پرتاب شروع شد \n' +
+            'سنگ اول نفرتو زد به گونه ش \n' +
+            'آه کشید کلاغ از بوته ها بلند شد  \n' +
+            'سنگ دوم شونه شو شکست  \n' +
+            'کلاغ چرخید دور بوته های گز  \n' +
+            'سنگ سوم شکست دندون های زن رو  \n' +
+            'سوار افتاد از زین با مویه های اسبش  \n' +
+            'یه بچه تو جمع منجمد شد قلبش  \n' +
+            'یه نظامی رفت سمتش یه دندون داد دستش  \n' +
+            'صداش زد بزن حصار جمع رفت کنار  \n' +
+            'پرتاب کرد دندونو ‌با فشار  \n' +
+            'تاب خورد و ایستاد  \n' +
+            'دقیقا مماس گونه های زن\n' +
+            'همه چی آروم بود تا یک‌سنگ محکم  \n' +
+            'از جمعیت خورد توی چشای زن \n' +
+            'زانوی کودک شکست روی خاک  \n' +
+            'و سر زن به روی شونه ها شکست  \n' +
+            'میاد سرمای زوزه به صدات  \n' +
+            'گرگ زخمی بزن دوباره پوزه به شکار  \n' +
+            'شرح حال ما نبرد بود با پوچی  \n' +
+            'می رقصیم با هم فردای روز اتفاق  \n' +
+            'دوباره کشتن جاده رو  \n' +
+            'تموم کردن یه مراسم ساده رو  \n' +
+            'تا شنیدن صدای گریه های نوزاد  \n' +
+            'جمع گفت چال کنید نوزاد و مادر رو  \n' +
+            'پیشوا گفت که می سپاریم به دنیا  \n' +
+            'شب درازه و تیزه دندون گرگ ها\n' +
+            'جمع قبول کرد این پیشنهادو  \n' +
+            'و ‌کم کم پیش گرفت راه دهاتو \n' +
+            'میاد سرمای زوزه به صدات  \n' +
+            'گرگ زخمی بزن دوباره پوزه به شکار  \n' +
+            'شرح حال ما نبرد بود با پوچی  \n' +
+            'می رقصیم با هم فردای روز اتفاق \n' +
+            'غروب ‌پخش شد رو ظهر تابنده  \n' +
+            'انگار که اتفاقی نیفتاده بود  \n' +
+            'یه تصویر مبهم پشت کوره راه از ده \n' +
+            'یه سوار و کلاغ و نوزاد و آینده\n' +
+            '\n' +
+            '(بهرام)\n' +
+            'وسط کویر تنهاییاشون \n' +
+            'خون زن چسبیده کف دمپاییاشون \n' +
+            'با پاهای خونی میرن سمت ده \n' +
+            'و خیالشون راحته که شب می خوابن آروم \n' +
+            'دست میندازن روی شونه های هم \n' +
+            'به هم میگن عاقبت زن چه سیاه بود \n' +
+            'غافل از اینکه یه جسد کافی نیست  \n' +
+            'واسه این همه گرگ وسط این همه بیابون \n' +
+            'گرگا رد پاهارو می بینن \n' +
+            'جری می شن رد خونو میگیرن \n' +
+            'توله هاشون هنوز کوچیکن گشنه ان \n' +
+            'گله گنده ست وحشی و درشتن \n' +
+            'همه باهم راه می افتن آخر \n' +
+            'تصمیم مشخصه مسیرم که راحت \n' +
+            'ده معلومه همونجائه ته جاده ست \n' +
+            'و راه خیلی دور نی می رسن زیر یه ساعت\n' +
+            'بو میاد بوی گل و آهن \n' +
+            'همه خوابن پنجره ها بازن \n' +
+            'خونه ها کوچیکن همه تو اتاقن \n' +
+            'این واسه گرگا یه شکار ساده ست \n' +
+            'دور چراغا می چرخن پروانه ها \n' +
+            'جیرجیرکا می خونن آواز بیچاره ها \n' +
+            'گوشت نرم نوزاد قبلی مزه کرده \n' +
+            'گرگا میرن یه راست به سمت گهواره ها \n' +
+            'می پرن از خواب مادرا پریشون \n' +
+            'جیغ میکشن که گرگا زدن شبیخون \n' +
+            'مردای ده با سنگ کف دستشون  \n' +
+            'که باقی مونده از مراسم همین امروز \n' +
+            'ولی این سنگا این دفعه چقدر ضعیفن \n' +
+            'با سنگ نمیشه این گرگارو بکنن بیرون \n' +
+            'برق می زنه تو شب چشم سرخشون \n' +
+            'می افته تیکه های گوشت نوزاد از لب دندون  \n' +
+            'وقتی وحشت میگیره همه جارو \n' +
+            'همه قبول می کنن اولین ایده ها رو \n' +
+            'یکی سر چوبشو آتیش زد و اورد  \n' +
+            'گفت فقط با آتیش میشه ترسوند گرگارو \n' +
+            'دستاش از ترس یخ کرده بود و لرزید \n' +
+            'چوب از دستش افتاد تو همهمه زوزه ها \n' +
+            'چقدر این شعله ها وحشی و سریعن \n' +
+            'آخ چقدر خشک و پوشالین دیوار این خونه ها \n' +
+            'من ازون دور دیدم رقص بدنارو \n' +
+            'دیدم آتیش عدالت گرفته فضارو \n' +
+            'اشک شوقم چکید رو یال اسبم \n' +
+            'وقتی بوی گوشت سوخته پر کرد هوارو \n' +
+            'دیدم منقار لاشه خوار کلاغارو \n' +
+            'دلم واسه مردم این ده که نسوخت هیچ \n' +
+            'یه آتیش کوچیک روشن کردم  \n' +
+            'و تماشا کردم زیبایی انتهارو',
+          caption: null
+        },
+        dates: {
+          created: '2024-10-18T17:46:21Z',
+          released: '2024-11-09T00:00:00Z',
+          modified: '2025-04-23T11:21:02Z',
+          display: '2024-11-09T15:48:15Z'
+        },
+        downloadInfo: {
+          downloadable: false,
+          downloadCount: 0,
+          hasDownloadsLeft: false
+        },
+        socialInfo: {
+          commentable: true,
+          commentCount: 4633,
+          likesCount: 34089,
+          repostsCount: 406
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: 'all',
+          secretToken: null
+        },
+        playbackInfo: { playbackCount: 1269409, policy: 'ALLOW' },
+        isBlocked: false,
+        isSnipped: false,
+        mediaInfo: {
+          trackFormat: undefined,
+          encodingState: 'finished',
+          transcodings: [
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding]
+          ]
+        },
+        permalink: {
+          basic: 'sangsar',
+          full: 'https://soundcloud.com/peeleh/sangsar'
+        },
+        apiInfo: {
+          streamable: true,
+          uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1937402450',
+          urn: 'soundcloud:tracks:1937402450'
+        },
+        purchaseInfo: {
+          title: null,
+          url: 'https://peeleh.bandcamp.com/album/khoone-khorshid'
+        },
+        publisher: Publisher {
+          type: 'Publisher',
+          id: 1937402450,
+          artist: 'Ali Sorena X Bahram',
+          albumTitle: 'Khoone Khorshid',
+          containsMusic: true,
+          UPCOrEAN: undefined,
+          ISRC: 'QZMHN2463187',
+          isExplicit: false,
+          releaseTitle: 'Sangsar',
+          copyrightText: { general: [Object], display: [Object] },
+          apiInfo: { urn: 'soundcloud:tracks:1937402450' }
+        },
+        durations: { full: 320052, playback: 320046 },
+        genre: 'Hip-hop & Rap',
+        license: 'all-rights-reserved',
+        isPublic: true,
+        tags: '"Hip Hop" Iran',
+        label: 'Peeleh',
+        artwork: {
+          default: 'https://i1.sndcdn.com/artworks-OU4tmsgFPOy9FOio-QCDFvw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/artworks-OU4tmsgFPOy9FOio-QCDFvw-t500x500.jpg',
+          t300x300: 'https://i1.sndcdn.com/artworks-OU4tmsgFPOy9FOio-QCDFvw-t300x300.jpg',
+          t67x67: 'https://i1.sndcdn.com/artworks-OU4tmsgFPOy9FOio-QCDFvw-t67x67.jpg',
+          crop: 'https://i1.sndcdn.com/artworks-OU4tmsgFPOy9FOio-QCDFvw-crop.jpg',
+          large: 'https://i1.sndcdn.com/artworks-OU4tmsgFPOy9FOio-QCDFvw-large.jpg',
+          badge: 'https://i1.sndcdn.com/artworks-OU4tmsgFPOy9FOio-QCDFvw-badge.jpg',
+          small: 'https://i1.sndcdn.com/artworks-OU4tmsgFPOy9FOio-QCDFvw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/artworks-OU4tmsgFPOy9FOio-QCDFvw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/artworks-OU4tmsgFPOy9FOio-QCDFvw-mini.jpg'
+        },
+        waveform: 'https://wave.sndcdn.com/wXd0mSUDaIVv_m.json',
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
+        }
+      }
+    },
+    Like {
+      type: 'Like',
+      createdAt: '2024-11-11T16:04:50Z',
+      itemType: 'Track',
+      item: Track {
+        type: 'Track',
+        id: 1937400938,
+        texts: {
+          title: 'Shere Bidari [Prod. Ashkan Mousavi]',
+          description: 'Lyrics & Vocals: @AliSorena X @BahramNouraei\n' +
+            'Music Producer: @AshkanMousavi\n' +
+            'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+            'Visual Artist: Erfan Ashourioun\n' +
+            'Art Director: Setareh Malekzadeh • https://ghogha.me\n' +
+            '℗ 2024 Peeleh • https://peeleh.com\n' +
+            '\n' +
+            '(سورنا)\n' +
+            'این آسمون سال هاست ستاره دریده  \n' +
+            'پس بذار رعدش رو صدا بزنیم ها؟  \n' +
+            'که زندگی رو واسه اجاره ندید  \n' +
+            'پرنده ای که پروازو بی اجازه پرید  \n' +
+            'به دار کشیده شد تن غمین ما بارها  \n' +
+            'و تماشا بود نصیب کفتار ها  \n' +
+            'تو هزار زن تو هزاره غریب  \n' +
+            'کنار هزار مرد فرزند اعدام زمین  \n' +
+            'خسته از جسارت  \n' +
+            'یه شهر بعد غارت  \n' +
+            'تلاش می کنم انتخابو  \n' +
+            'اما یه کوه غم توم دفنه از شرارت \n' +
+            'هنوزم در به در میرم  \n' +
+            'جر خورده قلبم از بس که جنگیدم  \n' +
+            'سرد و زخمی می رسه بهار  \n' +
+            'من هر بار از ته لحظه ترسیدم  \n' +
+            'رقصیدم تو سایه شیطان  \n' +
+            'در حال فرار از دست نه میلیارد انسان \n' +
+            'تو این خلاء بیگانگی  \n' +
+            'مواجهه زخم های روحه زیر سیلان  \n' +
+            'هر بار گلوله کرد امیدو‌ رنگ خون  \n' +
+            'می خورم به پوچ  \n' +
+            'پا میشم که بدونم که زنده م  \n' +
+            'می خونم بدونی چی گذشت بمون  \n' +
+            'یه سرزمین حاشیه نطفه دارم \n' +
+            'یه باغ از خلاء میون حفره ها دفن  \n' +
+            'تو این خاک انسان کش جویبار خون  \n' +
+            'من هر‌کی رو شناختم مرد کنارم  \n' +
+            'هر سوار آزاد رو به میله می بستن  \n' +
+            'شبانه کش هایی که از سپیده می ترسن \n' +
+            'درنده ها رو باید درید  \n' +
+            'من اگه درنده نبودم بهم نمی رسید فرهنگ  \n' +
+            'میون کفتار ها  \n' +
+            'لا بزدلا گذشتم من از نقاب ها  \n' +
+            'رازمو توی گوش فاحشه ها خوندم  \n' +
+            'شعر‌ بیداریم می چرخه تو تخت خواب ها ولی...\n' +
+            '\n' +
+            'مبارزه از یادمون نمیره  \n' +
+            'تو ‌این خاک مرده هر روز می رویه میله  \n' +
+            'سوز از بانگ انسان می شکنه استخون زندان رو  \n' +
+            'بخیه های سر پاره میشه  \n' +
+            'و ‌خون احساس های مرده تازه میشه\n' +
+            'توم یه زندانی می کشه داد  \n' +
+            'تا بکاره بذرمو برابر و آزاد\n' +
+            '\n' +
+            '(بهرام)\n' +
+            'میدمه تو وجودم صبح و \n' +
+            'میشکونم من این قبحو \n' +
+            'که آدما به زبون بیارن سیاه و سرخو \n' +
+            'خوب گوشاتو پر کن فکرتو بکن کنترل \n' +
+            'که یاد بگیری فرق تخیل و توهمو \n' +
+            'بریده روزگار کلی زبون تندو \n' +
+            'کلی غول سیاه موند تو کمد \n' +
+            'کی نشنیده که تو باغ حسرت صدای بلبل؟ \n' +
+            'هرکاری خواستی بکن \n' +
+            'که اگه نکردی تنگ کردی کلی خلقو \n' +
+            'دنبال این نیستم که بدم سمت و سو بهت \n' +
+            'من همین پشت جام خوبه \n' +
+            'یه کمی گنده میشی می بینی که جامعه  \n' +
+            'الگو بودنو چه زود میکنه فرو بهت \n' +
+            'بعدم میخنده به سقوطت \n' +
+            'همه یه سرگرمی ساده ایم واسه توده \n' +
+            'و زندان یه فکره \n' +
+            'پشت نگاه خشک و محدود و فرسوده \n' +
+            'وقتی گم بشی تو خودت  \n' +
+            'دیگه مهم نیست کدوم ور دره خونه\n' +
+            'من خودمو رو دوشم میکشم و توی کوچم \n' +
+            'من از دنیا فارغم \n' +
+            'من هم پرم و پوچم \n' +
+            'موسیقی می شم تو گوشم \n' +
+            'من مخلوق و خالقم \n' +
+            'من هم تنهام و هم تو جمع \n' +
+            'هم بیرونشم هم توشم \n' +
+            'کلا متناقضم \n' +
+            'ولی صاف و صادقم \n' +
+            'میخوای بازم از این قصه ها بگم؟ \n' +
+            'دنبال سایه های توتم  \n' +
+            'بهشون فضا بده تا بهشون صدا بدم \n' +
+            'بهار پایان حیاته واسه ما تکه های یخ \n' +
+            'غوطه ور رو دریای قصه های مرگ \n' +
+            '\n' +
+            'مبارزه از یادمون نمیره  \n' +
+            'تو این خاک مرده هر روز میرویه میله \n' +
+            'سوز از بانگ انسان میشکنه استخون زندان رو \n' +
+            'بخیه های سر پاره میشه \n' +
+            'و خون احساس های مرده تازه میشه\n' +
+            'توم یه زندانی می کشه داد \n' +
+            'تا بکاره بذرمو برابر و آزاد',
+          caption: null
+        },
+        dates: {
+          created: '2024-10-18T17:42:56Z',
+          released: '2024-11-09T00:00:00Z',
+          modified: '2025-04-23T11:21:00Z',
+          display: '2024-11-09T15:48:03Z'
+        },
+        downloadInfo: {
+          downloadable: false,
+          downloadCount: 0,
+          hasDownloadsLeft: false
+        },
+        socialInfo: {
+          commentable: true,
+          commentCount: 3147,
+          likesCount: 26298,
+          repostsCount: 229
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: 'all',
+          secretToken: null
+        },
+        playbackInfo: { playbackCount: 1087753, policy: 'ALLOW' },
+        isBlocked: false,
+        isSnipped: false,
+        mediaInfo: {
+          trackFormat: undefined,
+          encodingState: 'finished',
+          transcodings: [
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding]
+          ]
+        },
+        permalink: {
+          basic: 'sherebidari',
+          full: 'https://soundcloud.com/peeleh/sherebidari'
+        },
+        apiInfo: {
+          streamable: true,
+          uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1937400938',
+          urn: 'soundcloud:tracks:1937400938'
+        },
+        purchaseInfo: {
+          title: null,
+          url: 'https://peeleh.bandcamp.com/album/khoone-khorshid'
+        },
+        publisher: Publisher {
+          type: 'Publisher',
+          id: 1937400938,
+          artist: 'Ali Sorena X Bahram',
+          albumTitle: 'Khoone Khorshid',
+          containsMusic: true,
+          UPCOrEAN: undefined,
+          ISRC: 'QZS652423807',
+          isExplicit: false,
+          releaseTitle: 'Shere Bidari',
+          copyrightText: { general: [Object], display: [Object] },
+          apiInfo: { urn: 'soundcloud:tracks:1937400938' }
+        },
+        durations: { full: 280033, playback: 280046 },
+        genre: 'Hip-hop & Rap',
+        license: 'all-rights-reserved',
+        isPublic: true,
+        tags: '"Hip Hop" Iran',
+        label: 'Peeleh',
+        artwork: {
+          default: 'https://i1.sndcdn.com/artworks-B0moF2lyHKazlaqS-kiVYlQ-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/artworks-B0moF2lyHKazlaqS-kiVYlQ-t500x500.jpg',
+          t300x300: 'https://i1.sndcdn.com/artworks-B0moF2lyHKazlaqS-kiVYlQ-t300x300.jpg',
+          t67x67: 'https://i1.sndcdn.com/artworks-B0moF2lyHKazlaqS-kiVYlQ-t67x67.jpg',
+          crop: 'https://i1.sndcdn.com/artworks-B0moF2lyHKazlaqS-kiVYlQ-crop.jpg',
+          large: 'https://i1.sndcdn.com/artworks-B0moF2lyHKazlaqS-kiVYlQ-large.jpg',
+          badge: 'https://i1.sndcdn.com/artworks-B0moF2lyHKazlaqS-kiVYlQ-badge.jpg',
+          small: 'https://i1.sndcdn.com/artworks-B0moF2lyHKazlaqS-kiVYlQ-small.jpg',
+          tiny: 'https://i1.sndcdn.com/artworks-B0moF2lyHKazlaqS-kiVYlQ-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/artworks-B0moF2lyHKazlaqS-kiVYlQ-mini.jpg'
+        },
+        waveform: 'https://wave.sndcdn.com/OUHqlayebjBn_m.json',
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
+        }
+      }
+    },
+    Like {
+      type: 'Like',
+      createdAt: '2024-11-11T16:04:42Z',
+      itemType: 'Track',
+      item: Track {
+        type: 'Track',
+        id: 1937395565,
+        texts: {
+          title: 'Gorgo Mish [Prod. Peymandegar]',
+          description: 'Lyrics & Vocals: @BahramNouraei X @AliSorena  \n' +
+            'Music Producer: @Peymandegar\n' +
+            'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+            'Visual Artist: Erfan Ashourioun\n' +
+            'Art Director: Setareh Malekzadeh • https://ghogha.me\n' +
+            '℗ 2024 Peeleh • https://peeleh.com\n' +
+            '\n' +
+            '(بهرام)\n' +
+            'عقل و احساس و همه حواس \n' +
+            'همه به کار ای امان از این روزگار  \n' +
+            'که تو چنگش اسیرم \n' +
+            'اسیرم، اسیرم هی اسیرم  \n' +
+            'خواب به چشامون حرومه  \n' +
+            'بس که زیبا شده زشت \n' +
+            'شب تو وجودمه تومه  \n' +
+            'دلم سیاهه به عشق \n' +
+            'بذر ما خوب و گرونه  \n' +
+            'ذهنتون قابل کشت \n' +
+            'دست ما داس زمونه  \n' +
+            'وقتشه یه فصل تازه نوشت\n' +
+            'انگا داشتنم زوره \n' +
+            'نمیخواستنم خوبه \n' +
+            'هلی کوپترم تو مه پی ریش سوخته شیخ \n' +
+            'هنوز میچکه خون از دندون خفاشای غار بهشت \n' +
+            'ولی ماییم حقیقت شورش \n' +
+            'جوری که ندیده کسی به چشم    \n' +
+            'ریگی ببینیم به کفشی که پاته \n' +
+            'یه چیزی میگیم بهت نمیره یادت \n' +
+            'جوابش هرچی که میخوادم باشه \n' +
+            'سوالا بدجوری می کننت ساکت \n' +
+            'نه میخوام تهدید کنم نه خواهش \n' +
+            'نه میخوام تغییر کنه نگاهت \n' +
+            'ببینیم کسی رو تو راه مانع  \n' +
+            'رسیدگی میشه سری به حسابش \n' +
+            'منم و تیغ صدام \n' +
+            'کسی نمی شینه جام \n' +
+            'فرقی نمی کنه رویی یا زیر نقاب \n' +
+            'یاغیا یار ما تاریک تریم از سمت تیره ماه \n' +
+            'می گیره پشتتو کی؟ می بینیم کلشو ریز  \n' +
+            'با سورنا سر قرار تو عمق فاجعه  \n' +
+            'ساعت گرگ و میش \n' +
+            '\n' +
+            'عقل و احساس و همه حواس همه به کار \n' +
+            'ای امان از این روزگار \n' +
+            'ما هنوز تو جنگیم  \n' +
+            'تا بهار کلی مونده راه \n' +
+            'کلی نهال تو سرمای این شب تار تو خاک کردیم \n' +
+            'نه قیل و قال کردیم  \n' +
+            'نه کسی رو خار کردیم \n' +
+            'فقط گذار کردیم \n' +
+            'همه رو دچار کردیم \n' +
+            'تو ما رو نمی شناسی \n' +
+            'تو ما رو نمی فهمی \n' +
+            'ما یا جایی نمیریم  \n' +
+            'یا بریم برنمیگردیم نه \n' +
+            '\n' +
+            '(سورنا)\n' +
+            'نه پشت کسی زدیم به راه  \n' +
+            'نه کسیه پشتمون بذار \n' +
+            'ببینیم کیه طرف ما؟  \n' +
+            'نباشیم می ره این طرف به گا  \n' +
+            'تنهایی جفت کردی با تاج  \n' +
+            'لای دیوارهای ریخته وسط خاک  \n' +
+            'پنجره رو نگه داشتی به زور  \n' +
+            'به اربابت میگی درم بذار  \n' +
+            'من خار دارم قد لب دار پاره م  \n' +
+            'مرگ زیر چهار پایم زد  \n' +
+            'میکنم لای آرواره م دفنت  \n' +
+            'به لی کشیدیم طی کردیم راهو  \n' +
+            'میلی نموند بی رقیب  \n' +
+            'انگار زد بهتون ت ت ت تریلی\n' +
+            'از رو خون ما نرو  \n' +
+            'سره تو لونت باش همون  \n' +
+            'تو خون و ماتم و غروب و دار  \n' +
+            'دفن شدن همه خونه ها  \n' +
+            'سرو تو خم کردی رو‌به مزدورا  \n' +
+            'عرت رو بزن با پالون جدید  \n' +
+            'د بگو نرخ فروش آدمو  \n' +
+            'جمعتون کردن خونواده تون از کف خیابونا \n' +
+            'از کف خیابونا کشیدیم حق خونواده رو  \n' +
+            'غرور ما برا فروش آدما تو سوز راه نبود  \n' +
+            'نبوغو کوبیدیم به جای همه \n' +
+            'ولی کسی بهرام و سورنا نشد \n' +
+            'ساعت زوزه ست و نیش \n' +
+            'منتظریم تا که میش برسه\n' +
+            'شعر .. جرم .. جنگ .. جنگ \n' +
+            'می خونیم بعد مرگ حتی نا میرا تا ابد  \n' +
+            'سلطه .. نرم .. سقف .. مرز  \n' +
+            'معنی نداره واسه اونی که مرگو معامله کرد \n' +
+            '\n' +
+            '(بهرام)\n' +
+            'عقل و احساس و همه حواس همه به کار \n' +
+            'ای امان از این روزگار ما هنوز تو جنگیم \n' +
+            'تا بهار کلی مونده راه \n' +
+            'کلی نهال تو سرمای این شب تار  \n' +
+            'تو خاک کردیم \n' +
+            'نه قیل و قال کردیم \n' +
+            'نه کسی رو خار کردیم \n' +
+            'فقط گذار کردیم \n' +
+            'همه رو دچار کردیم \n' +
+            'تو ما رو نمی شناسی  \n' +
+            'تو ما رو نمی فهمی \n' +
+            'ما یا جایی نمیریم یا بریم برنمیگردیم نه  \n' +
+            '\n' +
+            '(سورنا)\n' +
+            'تو ساعت گرگ و میش  \n' +
+            'رد میشم از خونه سرخم  \n' +
+            'رو خون پامالم  \n' +
+            'خونه خراب آوارم \n' +
+            'خونه طوفان زده ها  \n' +
+            'خونه چوپان زده ها  \n' +
+            'از هر دیوار که باقی شد  \n' +
+            'هر خشت سلاخی شد\n' +
+            '\n' +
+            '(بهرام)\n' +
+            'تو ساعت گرگ و میش \n' +
+            'زدم بیرون از لونه مار \n' +
+            'از خونه فقر و دروغ و شعار \n' +
+            'از داغ دل ما تا بوسه دار  \n' +
+            'هر کسی راهی شد \n' +
+            'کلی نقشه طراحی شد \n' +
+            'چه جاها که به جای ما خالی شد \n' +
+            'و فرهنگ ما سهم سپاهی شد حیف!\n' +
+            '\n' +
+            '(سورنا)\n' +
+            'منم بی راهه رویا \n' +
+            'یه بداهه عریان \n' +
+            'میون این کویر \n' +
+            'زخمی ترین واحه دنیام \n' +
+            'چادر سوگم از طاقه ترکان \n' +
+            'عطر یه زوزه م از نافه گرگا \n' +
+            '\n' +
+            '(بهرام)\n' +
+            'تنم خرابه پرراز \n' +
+            'پر زوزه و خرناس\n' +
+            'من یه جنگل متروکم\n' +
+            'تو یه گم شدگی خودخواست\n' +
+            'حس میشه رو دوشم سنگینی فردا\n' +
+            'تا روز خروشم هم نشین تنهام\n' +
+            '\n' +
+            '(سورنا)\n' +
+            'دالان جرمم من \n' +
+            'تالار سرخم \n' +
+            'نه خار زیر پالانم \n' +
+            'آزاده گرگم من \n' +
+            'سرخم مثل مادر شب \n' +
+            'سرخم‌ مثل آذر و رعد \n' +
+            'سرخم مثل تاول و درد \n' +
+            'سرخم مثل آخر خط \n' +
+            '\n' +
+            '(بهرام)\n' +
+            'حق تو کفرم من\n' +
+            'زخم سرد و خشکم من\n' +
+            'بلعیدم یه طوفانو اما توی آرامش صبحم من\n' +
+            'تیره م مثل دامن مرگ\n' +
+            'تیره م مثل خاکم و سنگ\n' +
+            'تیره م\n' +
+            'چشماتو ببند\n' +
+            'یا بیا تو باغ یا در باغو ببند\n' +
+            '\n' +
+            '(سورنا)\n' +
+            'من زنده م آبو بند \n' +
+            'طعم ناب رو ببند \n' +
+            'آفتاب رو ببند \n' +
+            'از رو صورت پاره و زخمی ما \n' +
+            'با جراحت و جریده قاب رو ببند \n' +
+            'بعد ولوله تو بیابون ستم \n' +
+            'بعد زلزله ستون و طاقو ‌ببند \n' +
+            'آخرین پنجره های رهای بی تاب دیوار خراب رو ببند \n' +
+            '\n' +
+            '(بهرام)\n' +
+            'دست و پامو ببند\n' +
+            'جاده ها رو ببند\n' +
+            'اگه می تونی دهن ما رو ببند\n' +
+            'آخر بازی همینجاست\n' +
+            'در بیت و میت دربارو ببند\n' +
+            'تا آخرین سربازو بزن\n' +
+            'تا آخرین رگبارو ببند\n' +
+            '\n' +
+            '(بهرام و سورنا)\n' +
+            'همین درده و همین دغدغه ست که نزدیک کرد ما رو به هم',
+          caption: null
+        },
+        dates: {
+          created: '2024-10-18T17:29:31Z',
+          released: '2024-11-09T00:00:00Z',
+          modified: '2025-04-23T11:20:58Z',
+          display: '2024-11-09T15:47:53Z'
+        },
+        downloadInfo: {
+          downloadable: false,
+          downloadCount: 0,
+          hasDownloadsLeft: false
+        },
+        socialInfo: {
+          commentable: true,
+          commentCount: 4450,
+          likesCount: 27739,
+          repostsCount: 217
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: 'all',
+          secretToken: null
+        },
+        playbackInfo: { playbackCount: 1130588, policy: 'ALLOW' },
+        isBlocked: false,
+        isSnipped: false,
+        mediaInfo: {
+          trackFormat: undefined,
+          encodingState: 'finished',
+          transcodings: [
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding]
+          ]
+        },
+        permalink: {
+          basic: 'gorgomish',
+          full: 'https://soundcloud.com/peeleh/gorgomish'
+        },
+        apiInfo: {
+          streamable: true,
+          uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1937395565',
+          urn: 'soundcloud:tracks:1937395565'
+        },
+        purchaseInfo: {
+          title: null,
+          url: 'https://peeleh.bandcamp.com/album/khoone-khorshid'
+        },
+        publisher: Publisher {
+          type: 'Publisher',
+          id: 1937395565,
+          artist: 'Bahram X Ali Sorena',
+          albumTitle: 'Khoone Khorshid',
+          containsMusic: true,
+          UPCOrEAN: undefined,
+          ISRC: 'QZMHK2432816',
+          isExplicit: true,
+          releaseTitle: 'Gorgo Mish',
+          copyrightText: { general: [Object], display: [Object] },
+          apiInfo: { urn: 'soundcloud:tracks:1937395565' }
+        },
+        durations: { full: 340036, playback: 340046 },
+        genre: 'Hip-hop & Rap',
+        license: 'all-rights-reserved',
+        isPublic: true,
+        tags: '"Hip Hop" Iran',
+        label: 'Peeleh',
+        artwork: {
+          default: 'https://i1.sndcdn.com/artworks-7Czwbndb97aadzvA-pIbBzg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/artworks-7Czwbndb97aadzvA-pIbBzg-t500x500.jpg',
+          t300x300: 'https://i1.sndcdn.com/artworks-7Czwbndb97aadzvA-pIbBzg-t300x300.jpg',
+          t67x67: 'https://i1.sndcdn.com/artworks-7Czwbndb97aadzvA-pIbBzg-t67x67.jpg',
+          crop: 'https://i1.sndcdn.com/artworks-7Czwbndb97aadzvA-pIbBzg-crop.jpg',
+          large: 'https://i1.sndcdn.com/artworks-7Czwbndb97aadzvA-pIbBzg-large.jpg',
+          badge: 'https://i1.sndcdn.com/artworks-7Czwbndb97aadzvA-pIbBzg-badge.jpg',
+          small: 'https://i1.sndcdn.com/artworks-7Czwbndb97aadzvA-pIbBzg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/artworks-7Czwbndb97aadzvA-pIbBzg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/artworks-7Czwbndb97aadzvA-pIbBzg-mini.jpg'
+        },
+        waveform: 'https://wave.sndcdn.com/7M0rqDdtTsBQ_m.json',
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
+        }
+      }
+    },
+    Like {
+      type: 'Like',
+      createdAt: '2024-11-11T16:04:35Z',
+      itemType: 'Track',
+      item: Track {
+        type: 'Track',
+        id: 1937393453,
+        texts: {
+          title: 'Mahlake [Prod. Ashkan Mousavi]',
+          description: 'Lyrics & Vocals: @BahramNouraei X @AliSorena  \n' +
+            'Music Producer: @AshkanMousavi\n' +
+            'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+            'Visual Artist: Erfan Ashourioun\n' +
+            'Art Director: Setareh Malekzadeh • https://ghogha.me\n' +
+            '℗ 2024 Peeleh • https://peeleh.com\n' +
+            '\n' +
+            '(بهرام)\n' +
+            '\n' +
+            'شنیدم انقدر سخن زور\n' +
+            'تهدید و خط و نشون\n' +
+            'که داره میاد از گوشم خون\n' +
+            'بزرگ نشدم تو پر قو\n' +
+            'حریفم نشد بدون کسی\n' +
+            'اگه شده بگو کو؟ کو؟\n' +
+            'پازلتون نمیشه جور\n' +
+            'تیکه هات نمی ره تو\n' +
+            'خمی نمیاد رو ابروم\n' +
+            'بازی سر چیه؟ بپیچید بهش\n' +
+            'جدیاشون پیش ما ان نمیاید به چشم\n' +
+            'نمیاید به گوش\n' +
+            'قلمم تک و تیز و تنده\n' +
+            'بیست ساله می چرخه هنوزم غلاف نشده\n' +
+            'ابراهیمتون تبرش کنده\n' +
+            'بگو من تنها بتی ام که خراب نشده\n' +
+            'تلمبه ی کی کرده کله تو گنده؟\n' +
+            'بگو هنوز قدر غبغب من باد نشده\n' +
+            'هرکی می خواد بفهمه بره دوراشو بزنه\n' +
+            'ولی آینده شو پیش ما خراب نکنه\n' +
+            'قلمم کلاشه جای گلوله ها واژه\n' +
+            'بچکونم ماشه خون بدخواهام می پاچه\n' +
+            'بگو هرکی دلش می خواد با ما آشنا شه\n' +
+            'جای ما تو کتابائه نه پشت ویترین تاجر\n' +
+            'خاطرات مائه که هنوزم تو خیابونائه\n' +
+            'بلیط ماها رو نمی فروشن پشت باجه\n' +
+            'میگیم هرچی بخوایم راجع بهت نمیشیم ساکت\n' +
+            'برام فرقی نداره رو سرت عمامه یا تاجه\n' +
+            '\n' +
+            'زندگی چیه جز دو تا دوست، غذا و سفر خوب؟\n' +
+            'که اونم گرفتن ازمون\n' +
+            'رفیقامونم زدن از پشت\n' +
+            'روم گذاشت اثر سو\n' +
+            'نشون میدم به همه دندون\n' +
+            'دستام می برن بالا از کوه\n' +
+            'پام مال راهای دور\n' +
+            'مقصدم همیشه نامعلوم\n' +
+            'عمرمون رفت با غر و لند\n' +
+            'گذشت به جستجو\n' +
+            'ولی نکشیدیم زیر و رو\n' +
+            'نکشیدیم زیر و رو\n' +
+            'زندگیمو تف می کنم تو روی رفیقای خائن، دشمنای بی وجود\n' +
+            'حکومت فاسد جامعه بی شعور\n' +
+            'متنفرم از همه تون که یه کشوری ساختین که مظهر ظلمه\n' +
+            'روزی نیست که زندگیمونو حراج نکنه\n' +
+            'هر گهی می خوریم همه ش جرمه\n' +
+            'زنده نمی مونه کسی که خلاف نکنه\n' +
+            'دم حجله ها پر از جسد گربه \n' +
+            'حکمی نمونده که قاضیتون برامون نبره\n' +
+            'توی بدنامون پر شد از ترکش سربت\n' +
+            'انگور خشممون هنوز شراب نشده\n' +
+            'ما موندیم و کلی دروغ و غرور کاذب\n' +
+            'کلی دست پشت پرده\n' +
+            'کاسه زیر نیم کاسه\n' +
+            'من فرزند فرهنگ مسمومتون نیستم\n' +
+            'من مادرم قصه ست پدرم آوازه\n' +
+            'این یه جنگه بین من و عقاید مردمم\n' +
+            'من که از اولم گفتم \n' +
+            'بگو باورم کنن\n' +
+            'اینا نمی خوان بفهمن من چی میگم\n' +
+            'میگن پیچیده م\n' +
+            'هل نشو پاتو بردا از رو دمم\n' +
+            'جایی که ما باشیم میاد بوی خون تازه\n' +
+            'قلندر بیداره هنوز شبمون درازه\n' +
+            'آدمایی مثل ما تو جامعه زیاده\n' +
+            'که شعرمون هنوز واسشون هویت می سازه\n' +
+            'خاطرات مائه که هنوزم تو خیابونائه\n' +
+            'قلم ماهارو نمیشکونه زور ظالم\n' +
+            'ورقمون نمیشه تو دستتون مچاله\n' +
+            'تا نیومدم سر وقتت خودت برو پی کارت\n' +
+            '\n' +
+            '(سورنا)\n' +
+            '\n' +
+            'یه خشم کهنه زیر پوست زمان \n' +
+            'یه هروئین لخته تو مغز همه\n' +
+            'من هنوز قلبم میزنه\n' +
+            'چیزی نمونده که از دست بدمش \n' +
+            'میگم ..\n' +
+            'هنوز هست کسی بخواد پی من بگرده \n' +
+            'سفت و محکم رو ‌به جریان مرگ \n' +
+            'ترافیک لاشخورا دونه دونه کم میشه \n' +
+            'این جریان تازه همه رو رنده کرده \n' +
+            'پس از تاریخ بپرسید \n' +
+            'نه از بردگان برده دار ترسوی صحنه \n' +
+            'ما زنده بودیم و همین بس بود\n' +
+            'که دلیل محکم مرگه \n' +
+            'راه نرو رو‌ پنجه لا جسد های خواب \n' +
+            'بکن تو مغزت مبارزه سخته \n' +
+            'به این جمع کسی دعوتت نکرده \n' +
+            'بجنگ با جنگش …برقص با رقصش \n' +
+            'من کفرم که نمی ماله زهد \n' +
+            'بده منو به توبه نامه لو\n' +
+            'زوزه میدم به گرگهای لخت \n' +
+            'باشعر…\n' +
+            'قلّاده ت رو تف کن مونده اگه هنوز واست راه نو\n' +
+            'سگ سازمانی بیا بگیر پاچمو \n' +
+            'جوری بیتو می کوبم \n' +
+            'که چرک بزنه از تو سوراخ دماغتون با فلو\n' +
+            'سیرک صلح با طعم شیک جرم \n' +
+            'که توی ایدئولوژی ها میده فرم بهت \n' +
+            'هیپ هاپ تا ابد جرمه \n' +
+            'تو دنیایی که کلی پلیس ریخته پشتش \n' +
+            'بده بره سینه به سرخی \n' +
+            'ما که خلافکاریم بذار گیر بده عرف \n' +
+            'این ارشاد یه گرگ تو میشه جلوت \n' +
+            'من هنوز یه شیر تومه می ده تلوت \n' +
+            'پس ...\n' +
+            'هم قبله ام به جرمم \n' +
+            'هنوزم زنده ام به تخمم \n' +
+            'باده پشتم وغریبم به کشورم \n' +
+            'من اصلا قانونتونو ندیدم که بشکنم \n' +
+            'و زندگیم یه ارکستر و سازم این هراسش  \n' +
+            'کشتن پدر بالاترین فرازش \n' +
+            'فالش زدم گام عشقو گمراه تر از پیش \n' +
+            'نبضو گم کردم \n' +
+            'افتادم از ریتم \n' +
+            'وسط این زمین تار و شرارت بی انتهای قلب منطقه \n' +
+            'و توی خایه مال تو اوج حل درد و مسئله \n' +
+            'چه می فهمی از قانون و جرم حمل حنجره \n' +
+            'این نرم اوله تو اوج درد طبقه \n' +
+            'بکش تا کشته نشی توی قلب مهلکه \n' +
+            'به جرم درد .. به جرم رقص.. به جرم فقر ..\n' +
+            'بالاخره یه گوشه کنج بند بشین و زل بزن به پنجره \n' +
+            'دکوره رعد عربده شیر مرده بعد حلقه \n' +
+            'رقص ما جا خالی تیر توی سنگره \n' +
+            'رندگی سخته اما بعد هر دفعه \n' +
+            'به خودم میگم باید بجنگی وسط جنگل..هی..\n' +
+            'تو سلول دفن زیر خبر پر از رعشه \n' +
+            'ادبیات ماها توقف لحظه ست \n' +
+            'تا میله ها زنده باشه ما به عکسش \n' +
+            'درخت می کشیم از قلب دفتر شکسته \n' +
+            'مهم نیست قلب هامون زخمه \n' +
+            'مهم‌ بودنه این انتخاب جبره \n' +
+            'پر کن هر ساغر رو به زخمت \n' +
+            'که حضور ما ترکیب آهن و‌درخته….',
+          caption: null
+        },
+        dates: {
+          created: '2024-10-18T17:23:58Z',
+          released: '2024-11-09T00:00:00Z',
+          modified: '2025-04-23T11:20:56Z',
+          display: '2024-11-09T15:47:42Z'
+        },
+        downloadInfo: {
+          downloadable: false,
+          downloadCount: 0,
+          hasDownloadsLeft: false
+        },
+        socialInfo: {
+          commentable: true,
+          commentCount: 4939,
+          likesCount: 33587,
+          repostsCount: 276
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: 'all',
+          secretToken: null
+        },
+        playbackInfo: { playbackCount: 1448172, policy: 'ALLOW' },
+        isBlocked: false,
+        isSnipped: false,
+        mediaInfo: {
+          trackFormat: undefined,
+          encodingState: 'finished',
+          transcodings: [
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding]
+          ]
+        },
+        permalink: {
+          basic: 'mahlake',
+          full: 'https://soundcloud.com/peeleh/mahlake'
+        },
+        apiInfo: {
+          streamable: true,
+          uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1937393453',
+          urn: 'soundcloud:tracks:1937393453'
+        },
+        purchaseInfo: {
+          title: null,
+          url: 'https://peeleh.bandcamp.com/album/khoone-khorshid'
+        },
+        publisher: Publisher {
+          type: 'Publisher',
+          id: 1937393453,
+          artist: 'Bahram X Ali Sorena',
+          albumTitle: 'Khoone Khorshid',
+          containsMusic: true,
+          UPCOrEAN: undefined,
+          ISRC: 'QM42K2468539',
+          isExplicit: true,
+          releaseTitle: 'Mahlake',
+          copyrightText: { general: [Object], display: [Object] },
+          apiInfo: { urn: 'soundcloud:tracks:1937393453' }
+        },
+        durations: { full: 308036, playback: 308046 },
+        genre: 'Hip-hop & Rap',
+        license: 'all-rights-reserved',
+        isPublic: true,
+        tags: 'HipHop Iran',
+        label: 'Peeleh',
+        artwork: {
+          default: 'https://i1.sndcdn.com/artworks-PHwpNrEctP1tTKry-zGxjHg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/artworks-PHwpNrEctP1tTKry-zGxjHg-t500x500.jpg',
+          t300x300: 'https://i1.sndcdn.com/artworks-PHwpNrEctP1tTKry-zGxjHg-t300x300.jpg',
+          t67x67: 'https://i1.sndcdn.com/artworks-PHwpNrEctP1tTKry-zGxjHg-t67x67.jpg',
+          crop: 'https://i1.sndcdn.com/artworks-PHwpNrEctP1tTKry-zGxjHg-crop.jpg',
+          large: 'https://i1.sndcdn.com/artworks-PHwpNrEctP1tTKry-zGxjHg-large.jpg',
+          badge: 'https://i1.sndcdn.com/artworks-PHwpNrEctP1tTKry-zGxjHg-badge.jpg',
+          small: 'https://i1.sndcdn.com/artworks-PHwpNrEctP1tTKry-zGxjHg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/artworks-PHwpNrEctP1tTKry-zGxjHg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/artworks-PHwpNrEctP1tTKry-zGxjHg-mini.jpg'
+        },
+        waveform: 'https://wave.sndcdn.com/0ToLwMkesO9D_m.json',
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
+        }
+      }
+    },
+    Like {
+      type: 'Like',
+      createdAt: '2024-11-11T16:04:25Z',
+      itemType: 'Track',
+      item: Track {
+        type: 'Track',
+        id: 1937388743,
+        texts: {
+          title: 'Khoone Khorshid [Prod. Peymandegar]',
+          description: 'Lyrics & Vocals: @AliSorena X @BahramNouraei\n' +
+            'Music Producer: @Peymandegar\n' +
+            'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+            'Visual Artist: Erfan Ashourioun\n' +
+            'Art Director: Setareh Malekzadeh • https://ghogha.me\n' +
+            '℗ 2024 Peeleh • https://peeleh.com\n' +
+            '\n' +
+            '(سورنا)\n' +
+            'چکید یه قطره از سقف نگات  \n' +
+            'تو انعکاس زندان تو چشات  \n' +
+            'باد زد تو پنجره ها  \n' +
+            'یه جمع بزرگ انسان تو چشات  \n' +
+            'حرکت کرد با خیزش خشم  \n' +
+            'یه تظاهرات امکان تو چشات  \n' +
+            'ارتش سرما اشکتو کشت  \n' +
+            'مرد یه کردستان تو چشات  \n' +
+            'تا طلوع صبح بعد به اعتراف تابید \n' +
+            'که خون خورشیدو ریختن غروب قبل \n' +
+            'از زمین زرد شد نهال یخ \n' +
+            'ولی تو خاکو می خواستی  واسه کشت آزادی \n' +
+            'واسه فریاد برهنه مادر تو روی درهای فولادی  \n' +
+            'مین خشممون ترکید چکید رو‌ی سر یه جمع تو انفرادی \n' +
+            'ما فریاد زدیم خفگی مرزو  \n' +
+            'آزادی زندگی یه تنگی زن رو \n' +
+            'زمستون و تن بی درخت بود  \n' +
+            'ننوشتیم خفگی بذر رو  \n' +
+            'تو کف آسفالتی که داده و سنگ                \n' +
+            'آغوش آوازه و جنگ  \n' +
+            'با بوسه عشق تولد جنین آزادی تو قنداق تفنگ \n' +
+            'بازاره و جنگ سر گوشتای تیکه تو سفره  \n' +
+            'برا زندگی امن با چکش سود  \n' +
+            'از جنازه ها ساختن قفل طلا  \n' +
+            'می فروشن به قیمت باج  \n' +
+            'به قدرت و امنیت  \n' +
+            'میل به پدر از ترس نبود حماقت فقط \n' +
+            'احمق اونه که رو کله شه هیبت تاج  \n' +
+            'به جاکشان دربار  \n' +
+            'استبداد مرزها \n' +
+            'از موج خروشان طغیان سرما  \n' +
+            'ما رو از زخم جنازه هامون  تشخیص بدید فردا  \n' +
+            'واسه تغییر از مبنا   \n' +
+            'ضد تبعیض و بی پروا      \n' +
+            'طی کن راهو بده صداتو  \n' +
+            'زنده کن نگاه‌تو وسط شکست \n' +
+            'نفس بکش و مست طی کن حصار تار رو  \n' +
+            'تن لت و پار و این زخم رو برقص  \n' +
+            'بده به ترس  \n' +
+            'تن بده به ترک هر منطقه امن  \n' +
+            'تن بده خطر \n' +
+            'بده به دره \n' +
+            'بده به رنگ  \n' +
+            'تن بده به صحنه شکنجه نفس \n' +
+            'تن بده به عرصه ای که جنگه\n' +
+            '\n' +
+            '(بهرام)\n' +
+            'می خونه سرود خون \n' +
+            'وسط جبر و جنون زور \n' +
+            'سپاه ماره رو شونه ضحاک زمون \n' +
+            'می کنه ترس و شک از دلش دور \n' +
+            'وسط یه مشت گیج و کر و کور \n' +
+            'محدود به دغدغه نون \n' +
+            'سوا نمیشه کرد دشمن از دوست \n' +
+            'ظلمت از نور \n' +
+            'زده به زخمش نمک تلویزیون \n' +
+            'از چهارتا فصل سهمش فقط زمستونه \n' +
+            'حذف شده تنش از صحنه شهر \n' +
+            'واسه وجود می زنه پارچه سر چوب \n' +
+            'میریزه تو، میزنه بیرون \n' +
+            'از هر چی بند و بار گریزون \n' +
+            'میسازه از بدنش پلاکارد \n' +
+            'میسازه از موهاش تریبون \n' +
+            'اون کابوس عرفه \n' +
+            'پایان سلطه خطبه تو نماز جمعه \n' +
+            'دختر آبی شعله ظلمه \n' +
+            'روشن شده فضا از سوختن جرمش \n' +
+            'اونه یه تنه با قلب بزرگش \n' +
+            'می گیره کل قدرت رو به سخره \n' +
+            'رخ میده به این شطرنج بی مهره\n' +
+            'که تو هر خونه موهای شب رو می بره \n' +
+            'خون مهتاب سر سفره \n' +
+            'پخش میشه بین اشراف سر قله \n' +
+            'همه چی فرو می ره از سر گنده \n' +
+            'بازی ساده ست هرکی زودتر بگه بله برده \n' +
+            'شده پر خون پر عقده \n' +
+            'توی این دهنای اسلحه خورده \n' +
+            'ایمان زنجیره گردن مؤمن \n' +
+            'نقطه! سر خطی یا ته جمله ها؟ \n' +
+            'رسانه ها همه زردن \n' +
+            'تیترا میگن کلیکم کلیکم کن کلیک \n' +
+            'واسه مبارزه مون می فروختن بلیط \n' +
+            'توده ها شو می خوان تو این درگیری \n' +
+            'به نظر شما اینا داره تاثیری؟ \n' +
+            'یا سیاست یه سرگرمیه سر پیری؟ \n' +
+            'بچه ها خوشحالن با خبر تعطیلی \n' +
+            'زنده هام شلاق و چند سالی تعزیری \n' +
+            'هی آبادی مسموم برج بلند تو اوج تباهی بود \n' +
+            'پوچی هر چه بخواهی بود \n' +
+            'حیفه این همه ماهی معصوم که تو رود تو مرد\n' +
+            'تا که سرخ بشه آبی تون \n' +
+            'حیفه شعری که کردم از پرده پاره گوشهای شهرتون آویزون \n' +
+            '!حیف\n' +
+            '\n' +
+            'اما ما نمی ریم از بین اینو قول میدم بهت\n' +
+            'عذامونو می کنیم عید اینو قول میدم بهت\n' +
+            'نمی دونم کجا و کی\n' +
+            'با کیا و چطوری \n' +
+            'اما تهش نمیگیم حیف\n' +
+            'اینو قول میدم بهت',
+          caption: null
+        },
+        dates: {
+          created: '2024-10-18T17:11:58Z',
+          released: '2024-11-09T00:00:00Z',
+          modified: '2025-04-23T11:19:23Z',
+          display: '2024-11-09T15:47:31Z'
+        },
+        downloadInfo: {
+          downloadable: false,
+          downloadCount: 0,
+          hasDownloadsLeft: false
+        },
+        socialInfo: {
+          commentable: true,
+          commentCount: 8096,
+          likesCount: 44565,
+          repostsCount: 438
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: 'all',
+          secretToken: null
+        },
+        playbackInfo: { playbackCount: 1681792, policy: 'ALLOW' },
+        isBlocked: false,
+        isSnipped: false,
+        mediaInfo: {
+          trackFormat: undefined,
+          encodingState: 'finished',
+          transcodings: [
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding]
+          ]
+        },
+        permalink: {
+          basic: 'khoonekhorshid',
+          full: 'https://soundcloud.com/peeleh/khoonekhorshid'
+        },
+        apiInfo: {
+          streamable: true,
+          uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1937388743',
+          urn: 'soundcloud:tracks:1937388743'
+        },
+        purchaseInfo: {
+          title: null,
+          url: 'https://peeleh.bandcamp.com/album/khoone-khorshid'
+        },
+        publisher: Publisher {
+          type: 'Publisher',
+          id: 1937388743,
+          artist: 'Ali Sorena X Bahram',
+          albumTitle: 'Khoone Khorshid',
+          containsMusic: true,
+          UPCOrEAN: undefined,
+          ISRC: 'QZMHP2421211',
+          isExplicit: true,
+          releaseTitle: 'Khoone Khorshid',
+          copyrightText: { general: [Object], display: [Object] },
+          apiInfo: { urn: 'soundcloud:tracks:1937388743' }
+        },
+        durations: { full: 264046, playback: 264046 },
+        genre: 'Hip-hop & Rap',
+        license: 'all-rights-reserved',
+        isPublic: true,
+        tags: 'HipHop Iran',
+        label: 'Peeleh',
+        artwork: {
+          default: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-t500x500.jpg',
+          t300x300: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-t300x300.jpg',
+          t67x67: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-t67x67.jpg',
+          crop: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-crop.jpg',
+          large: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-large.jpg',
+          badge: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-badge.jpg',
+          small: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-small.jpg',
+          tiny: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-mini.jpg'
+        },
+        waveform: 'https://wave.sndcdn.com/MR5eM3sGIA3F_m.json',
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
+        }
+      }
+    },
+    Like {
+      type: 'Like',
+      createdAt: '2024-09-05T19:21:28Z',
+      itemType: 'Track',
+      item: Track {
+        type: 'Track',
+        id: 1742105217,
+        texts: {
+          title: 'Gomrah [Prod. Bahram]',
+          description: 'Lyrics & Vocals: Ghogha • https://ghogha.me\n' +
+            'Music Producer: @BahramNouraei\n' +
+            'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+            'Cover Artwork: Setareh Malekzadeh\n' +
+            '© ℗ 2024 Peeleh • https://peeleh.com\n' +
+            '\n' +
+            'تو خودم گیر کردم \n' +
+            'دفن شدم تو‌ خودم بیشتر من \n' +
+            'تا رفتم تو تخت شب سراومد شب سراومد\n' +
+            '\n' +
+            'اگه روزنه ای باشه\n' +
+            'اگه خورشید تو بغل من جا شه \n' +
+            'می خونم از دلم از زمونه م از زمونه م\n' +
+            '\n' +
+            'من تا ته دنیا یه آدم گمراهم \n' +
+            'شورش می جوشه از درونم \n' +
+            'مطرود دو عالم از بند آزادم \n' +
+            'غریبن آوازای شبونه م \n' +
+            '\n' +
+            'من تا ته دنیا یه آدم گمراهم \n' +
+            'شورش میجوشه از درونم \n' +
+            'از درونم \n' +
+            'از درونم \n' +
+            'از درونم\n' +
+            '\n' +
+            'ای کاش میشد مغزمو درآرم\n' +
+            'وسط جنگل قلبمو بکارم \n' +
+            'اومدم حس کنم دردم اومد دردم اومد\n' +
+            'بگو کجاست اون پناهگاه ابدی \n' +
+            'بهم بگو اگه راه و چاهو بلدی \n' +
+            'میخواستم در برم ترسم اومد ترسم اومد\n' +
+            '\n' +
+            'من تا ته دنیا یه آدم گمراهم \n' +
+            'شورش می جوشه از درونم \n' +
+            'مطرود دو عالم از بند آزادم \n' +
+            'غریبن آوازای شبونه م \n' +
+            '\n' +
+            'من تا ته دنیا یه آدم گمراهم \n' +
+            'شورش می جوشه از درونم \n' +
+            'از درونم',
+          caption: null
+        },
+        dates: {
+          created: '2024-02-09T14:37:35Z',
+          released: '2024-09-05T00:00:00Z',
+          modified: '2025-04-22T13:10:41Z',
+          display: '2024-09-05T18:52:28Z'
+        },
+        downloadInfo: {
+          downloadable: false,
+          downloadCount: 0,
+          hasDownloadsLeft: false
+        },
+        socialInfo: {
+          commentable: true,
+          commentCount: 135,
+          likesCount: 1396,
+          repostsCount: 26
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: 'all',
+          secretToken: null
+        },
+        playbackInfo: { playbackCount: 77949, policy: 'ALLOW' },
+        isBlocked: false,
+        isSnipped: false,
+        mediaInfo: {
+          trackFormat: undefined,
+          encodingState: 'finished',
+          transcodings: [
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding]
+          ]
+        },
+        permalink: {
+          basic: 'gomrah',
+          full: 'https://soundcloud.com/peeleh/gomrah'
+        },
+        apiInfo: {
+          streamable: true,
+          uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1742105217',
+          urn: 'soundcloud:tracks:1742105217'
+        },
+        purchaseInfo: { title: null, url: null },
+        publisher: Publisher {
+          type: 'Publisher',
+          id: 1742105217,
+          artist: 'Ghogha',
+          albumTitle: undefined,
+          containsMusic: true,
+          UPCOrEAN: undefined,
+          ISRC: 'QZS672415282',
+          isExplicit: false,
+          releaseTitle: 'Gomrah',
+          copyrightText: { general: [Object], display: [Object] },
+          apiInfo: { urn: 'soundcloud:tracks:1742105217' }
+        },
+        durations: { full: 184033, playback: 184046 },
+        genre: 'Triphop',
+        license: 'all-rights-reserved',
+        isPublic: true,
+        tags: 'Iran triphop',
+        label: 'Peeleh',
+        artwork: {
+          default: 'https://i1.sndcdn.com/artworks-nIiXSFMpJOyoqLbo-VBbkHw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/artworks-nIiXSFMpJOyoqLbo-VBbkHw-t500x500.jpg',
+          t300x300: 'https://i1.sndcdn.com/artworks-nIiXSFMpJOyoqLbo-VBbkHw-t300x300.jpg',
+          t67x67: 'https://i1.sndcdn.com/artworks-nIiXSFMpJOyoqLbo-VBbkHw-t67x67.jpg',
+          crop: 'https://i1.sndcdn.com/artworks-nIiXSFMpJOyoqLbo-VBbkHw-crop.jpg',
+          large: 'https://i1.sndcdn.com/artworks-nIiXSFMpJOyoqLbo-VBbkHw-large.jpg',
+          badge: 'https://i1.sndcdn.com/artworks-nIiXSFMpJOyoqLbo-VBbkHw-badge.jpg',
+          small: 'https://i1.sndcdn.com/artworks-nIiXSFMpJOyoqLbo-VBbkHw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/artworks-nIiXSFMpJOyoqLbo-VBbkHw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/artworks-nIiXSFMpJOyoqLbo-VBbkHw-mini.jpg'
+        },
+        waveform: 'https://wave.sndcdn.com/UNLLhTRDEah9_m.json',
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
+        }
+      }
+    },
+    Like {
+      type: 'Like',
+      createdAt: '2024-05-13T16:31:28Z',
+      itemType: 'Track',
+      item: Track {
+        type: 'Track',
+        id: 1820056659,
+        texts: {
+          title: 'Man Ya To [Prod. Ashkan Mousavi]',
+          description: 'Lyrics & Vocals: Elham • @3lhamam\n' +
+            'Music Producer: @AshkanMousavi\n' +
+            'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+            'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg\n' +
+            '© ℗ 2024 Peeleh • https://peeleh.com\n' +
+            '\n' +
+            'راه میری مثل یه نسیم بی صدا توی کوچه ها\n' +
+            'دنبال سرنوشت و سرنوشت فردات له میشه زیر پا\n' +
+            'گرفتار جنون فهمیدنی \n' +
+            'از هرجنگی که دیدم زخمی تری\n' +
+            'تو آرامش وجودت وحشیترین خودت باش \n' +
+            'با دنیا قدم میزدی\n' +
+            'منم دنبالتم راه میام پشت سرت همراهتم \n' +
+            'میخوام همه چیزو بسنجم بدهکارتم\n' +
+            'تو منو میترسونی \n' +
+            'چقدر سنگینه به تو عادت کردنم \n' +
+            'به دوش میکشمت \n' +
+            'روح منزوی وحشی تنها تو جنگل آدما\n' +
+            'توآخرین برگ درختی که افتاد \n' +
+            'جای بریده ی زخم تنمی \n' +
+            'یه رویایی بین خواب و بیداری \n' +
+            'تو با من یه راز مشترک داری\n' +
+            'سرگردونی بیقراری \n' +
+            'زخم خورده بودی تو کوچه های بن بست \n' +
+            'تو فریاد پشت دیواری \n' +
+            'منعکس میشدی توی خاطرات کهنه ام \n' +
+            'رد میشن از کنارت ادما بی تفاوت \n' +
+            'ولی من حواسم به تو هست \n' +
+            'تو از من جدا نشدی من شیشه عمر توام\n' +
+            'هم دست توام توی بازی زندگی \n' +
+            'شاید بشه درکت کنم \n' +
+            'من اون داسی ام که توی تنت گیر کرد \n' +
+            'دیگه نمیتونم ترکت کنم\n' +
+            'پرپر شدی روی شالم \n' +
+            'هنو میگردونی با خودت کابوس بودنتو \n' +
+            'تو تماشا میکنی تغییر نورو تو آسمون \n' +
+            'من چشمای تورو \n' +
+            'که یه اشک حلقه زد زیر پلکتو \n' +
+            'خشم لونه کرد توی حنجره \n' +
+            'شهامت داشته باش و دیوونگی کن \n' +
+            'بکن روزنامه های پوسیده رو از رو پنجره\n' +
+            'یهو دیوونه شد \n' +
+            'تو یه نیمه شب \n' +
+            'درارو شکست واسه همیشه رفت\n' +
+            '\n' +
+            'لعنت به من لعنت به تو لعنت به دیوارو آوارمون\n' +
+            'لعنت به موندگارترین زمان یعنی آغازمون\n' +
+            'لعنت به این خیال واهی که هر روز پررنگتر میشه\n' +
+            'لعنت به رنگ مردگی لعنت به افکارمون\n' +
+            '\n' +
+            'خسته از هوا و از زمین آه میکشی میگی لعنت\n' +
+            'چون باد صداتو محو کرده بود و خواب توروبلعیده بود\n' +
+            'گیرکرده بودی مثل یه شعر بلند توی گلوی من\n' +
+            'تو نفرت بودی که تو تولدت رخ دادن حادثه انگیزه بود\n' +
+            'تو طلوع پروهم و وحشت \n' +
+            'تو سکوت پر استرس\n' +
+            'مرگ رو به روی من نشسته ولی تو مردی و من زنده ام به جای تو\n' +
+            'مثل یه سایه باتم تو ترشح مغز ضایعاتم\n' +
+            'مرور کن بهونه هامو شکایت روح بیقرارم\n' +
+            'پنجه‌ی سرد باد میپیچه توی موهاتو هلت میده توی مسیری که هر روز رد میشه از پات \n' +
+            'ولی ایندفعه فرق داشت \n' +
+            'بوی خطر داشت \n' +
+            'من اگه جای تو بودم هشدارش حتما بیشتر اثر داشت \n' +
+            'ولی تو حبس میکنی با یه نفس آسمونو توی سینه \n' +
+            'غرق میشی توی دود\n' +
+            'عین ابر تیره میگذری زیر سایه‌ی ماه کبود\n' +
+            'یه دست زنجیر شده دور مچت میخکوبت میکنه و میبره تورو تو تاریکی خودت\n' +
+            'صدای افتادنت میرسه به گوشم\n' +
+            'رومو بر میگردونمو تو سکوت میکنی \n' +
+            'میزنم تو گوشت و خودمو میکشونم عقب \n' +
+            'به خودت میایی دویدنو شروع میکنی\n' +
+            'تو لجن مالی مقصدت همینجاست \n' +
+            'یه سعادت نزدیک به معصومیت رو به مرگ\n' +
+            'که نقش بست رو دیوار\n' +
+            'بهت میرسم ازت عبور میکنم میبینم خود منی\n' +
+            'فرو میریزم فرو میریزم فرو میریزم فرو میریزم\n' +
+            '\n' +
+            'لعنت به من لعنت به تو لعنت به دیوارو آوارمون\n' +
+            'لعنت به موندگارترین زمان یعنی آغازمون\n' +
+            'لعنت به این خیال واهی که هر روز پررنگتر میشه\n' +
+            'لعنت به رنگ مردگی لعنت به افکارمون\n' +
+            'لعنت به من لعنت به تو لعنت به دیوارو آوارمون\n' +
+            'لعنت به موندگارترین زمان یعنی آغازمون\n' +
+            'لعنت به این خیال واهی که هر روز پررنگتر میشه\n' +
+            'لعنت به رنگ مردگی \n' +
+            'لعنت به افکارمون',
+          caption: null
+        },
+        dates: {
+          created: '2024-05-12T08:11:23Z',
+          released: '2024-05-13T00:00:00Z',
+          modified: '2025-04-23T14:18:06Z',
+          display: '2024-05-13T16:05:47Z'
+        },
+        downloadInfo: {
+          downloadable: false,
+          downloadCount: 0,
+          hasDownloadsLeft: false
+        },
+        socialInfo: {
+          commentable: true,
+          commentCount: 114,
+          likesCount: 808,
+          repostsCount: 25
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: 'all',
+          secretToken: null
+        },
+        playbackInfo: { playbackCount: 47762, policy: 'ALLOW' },
+        isBlocked: false,
+        isSnipped: false,
+        mediaInfo: {
+          trackFormat: undefined,
+          encodingState: 'finished',
+          transcodings: [
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding]
+          ]
+        },
+        permalink: {
+          basic: 'manyato',
+          full: 'https://soundcloud.com/peeleh/manyato'
+        },
+        apiInfo: {
+          streamable: true,
+          uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1820056659',
+          urn: 'soundcloud:tracks:1820056659'
+        },
+        purchaseInfo: {
+          title: null,
+          url: 'https://peeleh.bandcamp.com/track/man-ya-to'
+        },
+        publisher: Publisher {
+          type: 'Publisher',
+          id: 1820056659,
+          artist: 'Elham',
+          albumTitle: undefined,
+          containsMusic: true,
+          UPCOrEAN: undefined,
+          ISRC: 'QZS662462478',
+          isExplicit: false,
+          releaseTitle: 'Man Ya To',
+          copyrightText: { general: [Object], display: [Object] },
+          apiInfo: { urn: 'soundcloud:tracks:1820056659' }
+        },
+        durations: { full: 244036, playback: 244046 },
+        genre: 'Hip-hop & Rap',
+        license: 'all-rights-reserved',
+        isPublic: true,
+        tags: '"Hip Hop" iran',
+        label: 'Peeleh',
+        artwork: {
+          default: 'https://i1.sndcdn.com/artworks-Usc9UAzdAXvGzkfu-MTKWyQ-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/artworks-Usc9UAzdAXvGzkfu-MTKWyQ-t500x500.jpg',
+          t300x300: 'https://i1.sndcdn.com/artworks-Usc9UAzdAXvGzkfu-MTKWyQ-t300x300.jpg',
+          t67x67: 'https://i1.sndcdn.com/artworks-Usc9UAzdAXvGzkfu-MTKWyQ-t67x67.jpg',
+          crop: 'https://i1.sndcdn.com/artworks-Usc9UAzdAXvGzkfu-MTKWyQ-crop.jpg',
+          large: 'https://i1.sndcdn.com/artworks-Usc9UAzdAXvGzkfu-MTKWyQ-large.jpg',
+          badge: 'https://i1.sndcdn.com/artworks-Usc9UAzdAXvGzkfu-MTKWyQ-badge.jpg',
+          small: 'https://i1.sndcdn.com/artworks-Usc9UAzdAXvGzkfu-MTKWyQ-small.jpg',
+          tiny: 'https://i1.sndcdn.com/artworks-Usc9UAzdAXvGzkfu-MTKWyQ-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/artworks-Usc9UAzdAXvGzkfu-MTKWyQ-mini.jpg'
+        },
+        waveform: 'https://wave.sndcdn.com/0YHQ0GtaANg2_m.json',
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
+        }
+      }
+    },
+    Like {
+      type: 'Like',
+      createdAt: '2024-02-11T18:24:07Z',
+      itemType: 'Track',
+      item: Track {
+        type: 'Track',
+        id: 1736775708,
+        texts: {
+          title: 'Harja Ke Nabashi [Prod. Ghodsea]',
+          description: 'Lyrics & Vocals: Ghogha • https://ghogha.me\n' +
+            'Music Producer: Ghodsea • @mohammadsahebzamani\n' +
+            'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+            'Cover Artwork: Erfan Ashourioun • https://bit.ly/3Ue8cxg\n' +
+            '© ℗ 2024 Peeleh • https://peeleh.com\n' +
+            '\n' +
+            'کو نور کو؟\n' +
+            'هر جا رو می بینی گور گور گور\n' +
+            'سیاهی بچه میزاد کور کور کور\n' +
+            'منم دلم خوشه کور سو نور داره میاد از اون دور \n' +
+            'داره میاد از اون دور \n' +
+            'داره میاد از اون دور \n' +
+            'داره میاد از اون دور \n' +
+            '\n' +
+            'مشت مشت مشت\n' +
+            'هرچی رو می بینی کشت\n' +
+            'فقط خار میکنه رشد\n' +
+            'فقط خار میکنه رشد \n' +
+            'رشد \n' +
+            '\n' +
+            'معلوم نیست دنبال چیم \n' +
+            'انگاری به ته دنیا رسیدم \n' +
+            'هرچی که بایدو دیدم \n' +
+            'هرچی که بایدو میگم \n' +
+            'نیلوفرای آبی لای لجنزار \n' +
+            'اعماق مردابو دیدم\n' +
+            'بریدم بند نافمو صد بار \n' +
+            'من ته جاده رو دیدم \n' +
+            'میخونه شغال زرد روضه واسه شفای درد \n' +
+            'راز گورکن توی شبای سرد\n' +
+            'بخواب تو قبر اما برای سقف \n' +
+            'سقف که نداره برای کف\n' +
+            'گورخواب ها و طلای زرد\n' +
+            'اشک تمساح \n' +
+            'خنده مرگ \n' +
+            'بی پایان پهنای درد\n' +
+            '\n' +
+            'نه میشه موند\n' +
+            'نه میشه رفت \n' +
+            '\n' +
+            'نه میشه موند \n' +
+            'نه میشه رفت \n' +
+            '\n' +
+            'از گورکن بپرس \n' +
+            'چه میشه کرد؟\n' +
+            'از گورکن بپرس \n' +
+            'چه میشه کرد؟\n' +
+            '\n' +
+            'کو نور کو؟\n' +
+            'هر جا رو می بینی گور گور گور\n' +
+            'سیاهی بچه میزاد کور کور کور\n' +
+            'منم دلم خوشه کور سو نور داره میاد از اون دور \n' +
+            'داره میاد از اون دور \n' +
+            'داره میاد از اون دور \n' +
+            'داره میاد از اون دور\n' +
+            '\n' +
+            'فرو رفتم تو مرداب هرچی دست و پا زدم\n' +
+            'کاش بازم بپرم از خواب \n' +
+            'ترسم افتاد از قلم \n' +
+            'هزار سال جنگو از برم \n' +
+            'از صد تا جنگجو سخت ترم  \n' +
+            'از هرچی گفتن و میگن\n' +
+            'از هرچی گفتن بدترم \n' +
+            '،از تنم، از هفت جد مادرم \n' +
+            'از چند قرن باورم میترسی \n' +
+            'هند* و کافرم\n' +
+            'به راهه سوز و سازمم \n' +
+            'به راهه سور و ساتمم  \n' +
+            'نگین دور گردنم برق چشم دشمنم \n' +
+            'گشنه و سیر \n' +
+            'به خونت تشنه ان جوون و پیر\n' +
+            'زهر مار دوسر \n' +
+            'گلوله تیر \n' +
+            'نامیرا عدالت \n' +
+            'ظلمو به زیر میکشیم \n' +
+            'همیشه عقبی دیر میرسی\n' +
+            'عقبی دیر میرسی \n' +
+            '\n' +
+            'شعار میدی که چی‌؟\n' +
+            'شعار میدی که چی؟\n' +
+            '\n' +
+            'میرقصیم روی گورت \n' +
+            'گورتم سوت و کوره\n' +
+            'میکنم خونتو‌ مزه \n' +
+            'خونتم شور شوره \n' +
+            'از هرجا که خوبه دوری \n' +
+            'هرجا که دوری خوبه\n' +
+            'هرجا که نباشی امنه \n' +
+            'هرجا که نباشی خوبه\n' +
+            '____________________________\n' +
+            '*هند بنت عتبه - ملقب به هند جگرخوار',
+          caption: null
+        },
+        dates: {
+          created: '2024-02-03T19:51:31Z',
+          released: '2024-02-11T00:00:00Z',
+          modified: '2025-04-23T14:17:30Z',
+          display: '2024-02-11T17:57:47Z'
+        },
+        downloadInfo: {
+          downloadable: false,
+          downloadCount: 0,
+          hasDownloadsLeft: false
+        },
+        socialInfo: {
+          commentable: true,
+          commentCount: 177,
+          likesCount: 1232,
+          repostsCount: 38
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: 'all',
+          secretToken: null
+        },
+        playbackInfo: { playbackCount: 76446, policy: 'ALLOW' },
+        isBlocked: false,
+        isSnipped: false,
+        mediaInfo: {
+          trackFormat: undefined,
+          encodingState: 'finished',
+          transcodings: [
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding]
+          ]
+        },
+        permalink: {
+          basic: 'harjakenabashi',
+          full: 'https://soundcloud.com/peeleh/harjakenabashi'
+        },
+        apiInfo: {
+          streamable: true,
+          uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1736775708',
+          urn: 'soundcloud:tracks:1736775708'
+        },
+        purchaseInfo: {
+          title: null,
+          url: 'https://peeleh.bandcamp.com/track/harja-ke-nabashi'
+        },
+        publisher: Publisher {
+          type: 'Publisher',
+          id: 1736775708,
+          artist: 'Ghogha',
+          albumTitle: undefined,
+          containsMusic: true,
+          UPCOrEAN: undefined,
+          ISRC: 'QZS662434240',
+          isExplicit: false,
+          releaseTitle: 'Harja Ke Nabashi',
+          copyrightText: { general: [Object], display: [Object] },
+          apiInfo: { urn: 'soundcloud:tracks:1736775708' }
+        },
+        durations: { full: 264046, playback: 264046 },
+        genre: 'Hip-hop & Rap',
+        license: 'all-rights-reserved',
+        isPublic: true,
+        tags: 'Experimental "Hip Hop" Iran Ghogha Underground',
+        label: 'Peeleh',
+        artwork: {
+          default: 'https://i1.sndcdn.com/artworks-pNLSegKnL3VkWmod-xpx9nA-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/artworks-pNLSegKnL3VkWmod-xpx9nA-t500x500.jpg',
+          t300x300: 'https://i1.sndcdn.com/artworks-pNLSegKnL3VkWmod-xpx9nA-t300x300.jpg',
+          t67x67: 'https://i1.sndcdn.com/artworks-pNLSegKnL3VkWmod-xpx9nA-t67x67.jpg',
+          crop: 'https://i1.sndcdn.com/artworks-pNLSegKnL3VkWmod-xpx9nA-crop.jpg',
+          large: 'https://i1.sndcdn.com/artworks-pNLSegKnL3VkWmod-xpx9nA-large.jpg',
+          badge: 'https://i1.sndcdn.com/artworks-pNLSegKnL3VkWmod-xpx9nA-badge.jpg',
+          small: 'https://i1.sndcdn.com/artworks-pNLSegKnL3VkWmod-xpx9nA-small.jpg',
+          tiny: 'https://i1.sndcdn.com/artworks-pNLSegKnL3VkWmod-xpx9nA-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/artworks-pNLSegKnL3VkWmod-xpx9nA-mini.jpg'
+        },
+        waveform: 'https://wave.sndcdn.com/KQVVSQBXAxim_m.json',
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
+        }
+      }
+    },
+    Like {
+      type: 'Like',
+      createdAt: '2024-01-27T09:48:00Z',
+      itemType: 'Track',
+      item: Track {
+        type: 'Track',
+        id: 1660513977,
+        texts: {
+          title: 'Begoosham [Prod. Peymandegar]',
+          description: 'Lyrics & Vocals: @Bamdadamman X @BahramNouraei\n' +
+            'Music Producer: @Peymandegar\n' +
+            'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+            'Cover Art: Pashna • https://linktr.ee/pashnas\n' +
+            'Release Date: 25 Jan 2024 \n' +
+            '© ℗ 2024 @Peeleh • https://peeleh.com\n' +
+            '\n' +
+            '(بامداد)\n' +
+            'تو جوابای گذشته پیدا نمیشه حال\n' +
+            'سوت میکشه تو گوشم قطارِ فردا و فال\n' +
+            'رمه رمه فرد فرد بدون توجه بهم\n' +
+            'بار بدوش سنگین \n' +
+            'باهم و تنها\n' +
+            'منتظر اتفاق که آماج آمال تیر بلند بال رو به آغوش نکشید\n' +
+            'گودال اشک شد چشم \n' +
+            'و جنازه‌ی وجدان دریای توی سینه‌هارو به آشوب نکشید\n' +
+            'ستون‌های جامعه بنا شد رو گل شل\n' +
+            'که رپکنی مثل من پس داد با دل پر\n' +
+            'تاریکیم قاتل صبح     \n' +
+            'نگاهم سارق خورشیدِ دروغای مفت گرونِ قابل شرب\n' +
+            'بدون شک و شرطِ باخت یا برد \n' +
+            'میبُرم شاهرگ‌های خشکیده بعد سال‌های عمر\n' +
+            'هنوز سرگردون تو تهرون میکنم طی\n' +
+            'تمام وجودم جزء به جزء پر از غیظ به کل\n' +
+            'میزنم نفس نفس وقت تحرک و تفکر\n' +
+            'با خیالم درجا زدم تو توهمِ تسلط\n' +
+            'دنبال مسیر خودم بودم بین این دو راه\n' +
+            'که زندگی یا مرگ فقط انتخاب دوپاست\n' +
+            'همش دروغ    فقط دروغ\n' +
+            'پژمرد و فِسُردَم از این کرور\n' +
+            'که برگ زرد میریزم به امید باد\n' +
+            'ولی ته دلم سبزه و عاشق و شاد\n' +
+            'از دست احدی ندیدم بچکه یه قطره\n' +
+            'یا یکی بهم بگه چیه با الگوها فرقت\n' +
+            'مارو با زنجیری پنهان به رکودمون دوختن\n' +
+            'خونه‌مون شد زندان     حیوون آدم‌تر از انسان\n' +
+            'گذشته قرن بعد قرن بعد قرن\n' +
+            'از اولین آجر کجه انتقام من\n' +
+            'واژه‌ها رو پس گرفتن    جا بریدن دست گرفتن\n' +
+            'اینه انقلاب خشم تپنده‌ی قلب من\n' +
+            '\n' +
+            '(بهرام)\n' +
+            'من به گوشم\n' +
+            'حرفات قشنگ و پوچن\n' +
+            'آه مردمم رو دوشم\n' +
+            'بجنب\n' +
+            'سهم خودتو بردار\n' +
+            '\n' +
+            '(بامداد)\n' +
+            'منو ببین یه مشت از خروار\n' +
+            'تو دهن ارباب بزن\n' +
+            'بمون محکم و سرپا\n' +
+            '\n' +
+            '(بهرام)\n' +
+            'من به گوشم\n' +
+            'حرفات قشنگ و پوچن\n' +
+            'آه مردمم رو دوشم\n' +
+            'بجنب\n' +
+            'سهم خودتو بردار\n' +
+            '\n' +
+            '(بامداد)\n' +
+            'منو ببین یه مشت از خروار\n' +
+            'تو دهن ارباب بزن\n' +
+            'ریشه شو بکن از جا\n' +
+            '\n' +
+            '(بهرام)\n' +
+            'خشم از صورت سردم بشور\n' +
+            'که من زندگی نکردم اگه کردم به زور\n' +
+            'خلقم، هدف از خلقم از عقلم به دور\n' +
+            'آینده تو از چروکای تو دستم بخون\n' +
+            'آرزوی یکی بودم باهاش رفتم به گور\n' +
+            'لعنت به اون که گفت تو این جنگل بمون\n' +
+            'که بشی درنده خو\n' +
+            'بچشنم بگو\n' +
+            'تا که بفهمن طعممو که چه تلخم چه شور\n' +
+            'انقدر هارم که چیزی نمی کنه اذیتم\n' +
+            'فرق دارم با هر کی تحمیل کرد بهم وضعیتم\n' +
+            'چه سخت بود ببینم خودمو بخشی از جمع\n' +
+            'و قایم کنم فرهنگمو پشت طبیعتم\n' +
+            'عددا غنیمتن همه پی کمیتن\n' +
+            'دنبال پر کردن سوراخای شخصیتن با عدد\n' +
+            'من هم تعیین کردم منطق این بازی نگیرتم\n' +
+            'بعدم دادم هزینه شم\n' +
+            'زدم زیر بقیه ش\n' +
+            'خاک برام هویت نساخت\n' +
+            'وقتی کسی باز بذری از جنس ما نکاشت\n' +
+            'وقتی کسی دیگه به عمق چیزی فکر نکرد\n' +
+            'وقتی کسی دیگه وضع متفاوتی نخواست\n' +
+            'نه تو مثل ما نباش ازین قصه ها نباف\n' +
+            'بذا قصه فقط واسه خواب بگن برات\n' +
+            'پناه بگیر زیر خیک چروک حضرات\n' +
+            'و سد بساز از دروغ جلو خروش نظرات خب؟\n' +
+            'خیلی واضح ست\n' +
+            'اینا به چی می نازن؟\n' +
+            'واقعیتو ندیدم من تو این فیلما که می سازن\n' +
+            'تو این خبرا که هر روز از شبکه پخش میشن\n' +
+            'تو این سریالا که زنا توش با روسری می خوابن\n' +
+            'ما باند کردیم باهم\n' +
+            'تریبون ساختیم از کاغذ\n' +
+            'ریشه هامون خشک نشد از ترس تازیانه ت\n' +
+            'ما می دونستیم ساده نیست این راه پر مانع ست\n' +
+            'این تویی که نمی دونی با کی طرفی شاید\n' +
+            '\n' +
+            '(بامداد)\n' +
+            'من به گوشم\n' +
+            'حرفات قشنگ و پوچن\n' +
+            'آه مردمم رو دوشم\n' +
+            'بجنب\n' +
+            'سهم خودتو بردار\n' +
+            '\n' +
+            '(بهرام)\n' +
+            'منو ببین یه مشت از خروار\n' +
+            'تو دهن ارباب بزن\n' +
+            'بمون محکم و سرپا\n' +
+            '\n' +
+            '(بامداد)\n' +
+            'من به گوشم\n' +
+            'حرفات قشنگ و پوچن\n' +
+            'آه مردمم رو دوشم\n' +
+            'بجنب\n' +
+            'سهم خودتو بردار\n' +
+            '\n' +
+            '(بهرام)\n' +
+            'منو ببین یه مشت از خروار\n' +
+            'تو دهن ارباب بزن\n' +
+            'ریشه شو بکن از جا',
+          caption: null
+        },
+        dates: {
+          created: '2023-11-09T08:45:18Z',
+          released: '2024-01-25T00:00:00Z',
+          modified: '2025-04-23T11:22:46Z',
+          display: '2024-01-25T17:30:24Z'
+        },
+        downloadInfo: {
+          downloadable: false,
+          downloadCount: 0,
+          hasDownloadsLeft: false
+        },
+        socialInfo: {
+          commentable: true,
+          commentCount: 3961,
+          likesCount: 31732,
+          repostsCount: 658
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: 'me',
+          secretToken: null
+        },
+        playbackInfo: { playbackCount: 1375934, policy: 'ALLOW' },
+        isBlocked: false,
+        isSnipped: false,
+        mediaInfo: {
+          trackFormat: undefined,
+          encodingState: 'finished',
+          transcodings: [
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding],
+            [MediaTranscoding]
+          ]
+        },
+        permalink: {
+          basic: 'begoosham',
+          full: 'https://soundcloud.com/peeleh/begoosham'
+        },
+        apiInfo: {
+          streamable: true,
+          uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1660513977',
+          urn: 'soundcloud:tracks:1660513977'
+        },
+        purchaseInfo: {
+          title: null,
+          url: 'https://peeleh.bandcamp.com/track/begoosham'
+        },
+        publisher: Publisher {
+          type: 'Publisher',
+          id: 1660513977,
+          artist: 'Bamdad X Bahram',
+          albumTitle: undefined,
+          containsMusic: true,
+          UPCOrEAN: '734167891224',
+          ISRC: 'QZMHN2437253',
+          isExplicit: false,
+          releaseTitle: 'Begoosham',
+          copyrightText: { general: [Object], display: [Object] },
+          apiInfo: { urn: 'soundcloud:tracks:1660513977' }
+        },
+        durations: { full: 238028, playback: 238046 },
+        genre: 'Hip-hop & Rap',
+        license: 'all-rights-reserved',
+        isPublic: true,
+        tags: 'Bahram Bamdad "Hip Hop" Iran',
+        label: 'Peeleh',
+        artwork: {
+          default: 'https://i1.sndcdn.com/artworks-zojNRLW0eOP4bdz1-yh13nw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/artworks-zojNRLW0eOP4bdz1-yh13nw-t500x500.jpg',
+          t300x300: 'https://i1.sndcdn.com/artworks-zojNRLW0eOP4bdz1-yh13nw-t300x300.jpg',
+          t67x67: 'https://i1.sndcdn.com/artworks-zojNRLW0eOP4bdz1-yh13nw-t67x67.jpg',
+          crop: 'https://i1.sndcdn.com/artworks-zojNRLW0eOP4bdz1-yh13nw-crop.jpg',
+          large: 'https://i1.sndcdn.com/artworks-zojNRLW0eOP4bdz1-yh13nw-large.jpg',
+          badge: 'https://i1.sndcdn.com/artworks-zojNRLW0eOP4bdz1-yh13nw-badge.jpg',
+          small: 'https://i1.sndcdn.com/artworks-zojNRLW0eOP4bdz1-yh13nw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/artworks-zojNRLW0eOP4bdz1-yh13nw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/artworks-zojNRLW0eOP4bdz1-yh13nw-mini.jpg'
+        },
+        waveform: 'https://wave.sndcdn.com/43WmhGSAqcCY_m.json',
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
+        }
+      }
+    }
+  ],
+  continuation: CollectionContinuation {
+    uri: 'https://api-v2.soundcloud.com/users/9723380/track_likes?offset=2024-01-27T09%3A48%3A00.315Z%2Cuser-track-likes%2C000-00000000000009723380-00000000001660513977&limit=10',
+    opts: { requireTypes: [class Like extends Entity] { type: 'Like' } }
+  }
+}
+--- Liked playlists / albums ---
+Collection {
+  items: [
+    Like {
+      type: 'Like',
+      createdAt: '2025-04-16T15:32:32Z',
+      itemType: 'Album',
+      item: Album {
+        type: 'Album',
+        id: 2006948607,
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
+        },
+        permalink: {
+          basic: 'broken',
+          full: 'https://soundcloud.com/peeleh/sets/broken'
+        },
+        isPublic: true,
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A2006948607'
+        },
+        artwork: undefined,
+        setType: 'ep',
+        duration: 1200118,
+        dates: {
+          created: '2025-04-16T15:29:41Z',
+          published: '2025-04-16T15:31:27Z',
+          modified: '2025-04-16T15:52:28Z',
+          display: '2025-04-16T15:31:27Z',
+          release: '2025-04-16T00:00:00Z'
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: undefined,
+          secretToken: null
+        },
+        texts: { title: 'PEYMANDEGAR • BROKEN', description: undefined },
+        trackCount: 5,
+        socialInfo: { likesCount: 277, repostsCount: 10, managedByFeeds: false },
+        genre: undefined,
+        label: undefined,
+        license: undefined,
+        purchaseInfo: { title: undefined, url: undefined },
+        tags: undefined
+      }
+    },
+    Like {
+      type: 'Like',
+      createdAt: '2024-11-09T15:56:17Z',
+      itemType: 'Album',
+      item: Album {
+        type: 'Album',
+        id: 1891972607,
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
+        },
+        permalink: {
+          basic: 'khoonekhorshid',
+          full: 'https://soundcloud.com/peeleh/sets/khoonekhorshid'
+        },
+        isPublic: true,
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1891972607'
+        },
+        artwork: {
+          default: 'https://i1.sndcdn.com/artworks-WyeEYp4MzF338T0Q-9WXjzw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/artworks-WyeEYp4MzF338T0Q-9WXjzw-t500x500.jpg',
+          t300x300: 'https://i1.sndcdn.com/artworks-WyeEYp4MzF338T0Q-9WXjzw-t300x300.jpg',
+          t67x67: 'https://i1.sndcdn.com/artworks-WyeEYp4MzF338T0Q-9WXjzw-t67x67.jpg',
+          crop: 'https://i1.sndcdn.com/artworks-WyeEYp4MzF338T0Q-9WXjzw-crop.jpg',
+          large: 'https://i1.sndcdn.com/artworks-WyeEYp4MzF338T0Q-9WXjzw-large.jpg',
+          badge: 'https://i1.sndcdn.com/artworks-WyeEYp4MzF338T0Q-9WXjzw-badge.jpg',
+          small: 'https://i1.sndcdn.com/artworks-WyeEYp4MzF338T0Q-9WXjzw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/artworks-WyeEYp4MzF338T0Q-9WXjzw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/artworks-WyeEYp4MzF338T0Q-9WXjzw-mini.jpg'
+        },
+        setType: 'ep',
+        duration: 1512203,
+        dates: {
+          created: '2024-10-18T17:47:32Z',
+          published: '2024-11-09T15:47:23Z',
+          modified: '2024-11-12T17:23:57Z',
+          display: '2024-11-09T15:47:23Z',
+          release: '2024-11-09T00:00:00Z'
+        },
+        sharingInfo: {
+          shareability: 'public',
+          embeddableBy: undefined,
+          secretToken: null
+        },
+        texts: {
+          title: 'BAHRAM X ALI SORENA • KHOONE KHORSHID',
+          description: undefined
+        },
+        trackCount: 5,
+        socialInfo: { likesCount: 23689, repostsCount: 717, managedByFeeds: false },
+        genre: undefined,
+        label: undefined,
+        license: undefined,
+        purchaseInfo: { title: undefined, url: undefined },
+        tags: undefined
+      }
+    },
+    Like {
+      type: 'Like',
+      createdAt: '2022-06-14T06:11:17Z',
+      itemType: 'Album',
+      item: Album {
+        type: 'Album',
+        id: 1452453025,
+        user: User {
+          type: 'User',
+          id: 620997126,
+          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
+          lastModified: '2025-12-20T18:32:55Z',
+          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
+            urn: 'soundcloud:users:620997126'
+          },
+          location: { city: '', country: null },
+          isVerified: true,
+          avatar: {
+            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
+          },
+          badges: { pro: false, proUnlimited: true, verified: true }
         },
         permalink: {
           basic: 'raghsekhakestar',
           full: 'https://soundcloud.com/peeleh/sets/raghsekhakestar'
         },
         isPublic: true,
-        apiInfo: { uri: 'https://api.soundcloud.com/playlists/1452453025' },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1452453025'
+        },
         artwork: {
           default: 'https://i1.sndcdn.com/artworks-n25EkFbJyRdZJE7X-4YDIFg-large.jpg',
           t500x500: 'https://i1.sndcdn.com/artworks-n25EkFbJyRdZJE7X-4YDIFg-t500x500.jpg',
@@ -67,7 +2510,7 @@ Collection {
         },
         texts: { title: 'Elham • Raghse Khakestar', description: undefined },
         trackCount: 5,
-        socialInfo: { likesCount: 1235, repostsCount: 54, managedByFeeds: false },
+        socialInfo: { likesCount: 1321, repostsCount: 55, managedByFeeds: false },
         genre: undefined,
         label: undefined,
         license: undefined,
@@ -92,7 +2535,7 @@ Collection {
             full: 'https://soundcloud.com/peymandegar'
           },
           apiInfo: {
-            uri: 'https://api.soundcloud.com/users/442810734',
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A442810734',
             urn: 'soundcloud:users:442810734'
           },
           location: { city: '', country: null },
@@ -115,7 +2558,9 @@ Collection {
           full: 'https://soundcloud.com/peymandegar/sets/beyond'
         },
         isPublic: true,
-        apiInfo: { uri: 'https://api.soundcloud.com/playlists/1365918793' },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1365918793'
+        },
         artwork: {
           default: 'https://i1.sndcdn.com/artworks-1ic2fAEwAxtKI1kK-bfq5Gw-large.jpg',
           t500x500: 'https://i1.sndcdn.com/artworks-1ic2fAEwAxtKI1kK-bfq5Gw-t500x500.jpg',
@@ -144,7 +2589,7 @@ Collection {
         },
         texts: { title: 'Beyond', description: undefined },
         trackCount: 5,
-        socialInfo: { likesCount: 1066, repostsCount: 46, managedByFeeds: false },
+        socialInfo: { likesCount: 1094, repostsCount: 50, managedByFeeds: false },
         genre: undefined,
         label: undefined,
         license: undefined,
@@ -163,13 +2608,13 @@ Collection {
           type: 'User',
           id: 620997126,
           names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
-          lastModified: '2021-08-08T14:23:38Z',
+          lastModified: '2025-12-20T18:32:55Z',
           permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
           apiInfo: {
-            uri: 'https://api.soundcloud.com/users/620997126',
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A620997126',
             urn: 'soundcloud:users:620997126'
           },
-          location: { city: 'Stockholm', country: 'SE' },
+          location: { city: '', country: null },
           isVerified: true,
           avatar: {
             default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
@@ -182,14 +2627,16 @@ Collection {
             tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
             mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
           },
-          badges: { pro: false, proUnlimited: false, verified: true }
+          badges: { pro: false, proUnlimited: true, verified: true }
         },
         permalink: {
           basic: 'saqync6mbgew',
           full: 'https://soundcloud.com/peeleh/sets/saqync6mbgew'
         },
         isPublic: true,
-        apiInfo: { uri: 'https://api.soundcloud.com/playlists/1186605028' },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1186605028'
+        },
         artwork: {
           default: 'https://i1.sndcdn.com/artworks-1cf2c178-2db8-4174-8ac2-611ba9f264bf-0-large.jpg',
           t500x500: 'https://i1.sndcdn.com/artworks-1cf2c178-2db8-4174-8ac2-611ba9f264bf-0-t500x500.jpg',
@@ -218,7 +2665,7 @@ Collection {
         },
         texts: { title: 'Gosast', description: undefined },
         trackCount: 8,
-        socialInfo: { likesCount: 714, repostsCount: 31, managedByFeeds: true },
+        socialInfo: { likesCount: 772, repostsCount: 30, managedByFeeds: true },
         genre: undefined,
         label: undefined,
         license: undefined,
@@ -237,36 +2684,35 @@ Collection {
           type: 'User',
           id: 628379244,
           names: { full: '', first: '', last: '', username: 'Roody' },
-          lastModified: '2023-07-17T15:03:54Z',
-          permalink: {
-            basic: 'roodyrapkone',
-            full: 'https://soundcloud.com/roodyrapkone'
-          },
+          lastModified: '2025-03-20T19:51:20Z',
+          permalink: { basic: 'rccdy', full: 'https://soundcloud.com/rccdy' },
           apiInfo: {
-            uri: 'https://api.soundcloud.com/users/628379244',
+            uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A628379244',
             urn: 'soundcloud:users:628379244'
           },
           location: { city: '', country: null },
           isVerified: true,
           avatar: {
-            default: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-large.jpg',
-            t500x500: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-t500x500.jpg',
-            crop: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-crop.jpg',
-            t300x300: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-t300x300.jpg',
-            large: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-large.jpg',
-            badge: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-badge.jpg',
-            small: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-small.jpg',
-            tiny: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-tiny.jpg',
-            mini: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-mini.jpg'
+            default: 'https://i1.sndcdn.com/avatars-mDlkcjFzRy8jNyGs-ybjgHQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/avatars-mDlkcjFzRy8jNyGs-ybjgHQ-t500x500.jpg',
+            crop: 'https://i1.sndcdn.com/avatars-mDlkcjFzRy8jNyGs-ybjgHQ-crop.jpg',
+            t300x300: 'https://i1.sndcdn.com/avatars-mDlkcjFzRy8jNyGs-ybjgHQ-t300x300.jpg',
+            large: 'https://i1.sndcdn.com/avatars-mDlkcjFzRy8jNyGs-ybjgHQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/avatars-mDlkcjFzRy8jNyGs-ybjgHQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/avatars-mDlkcjFzRy8jNyGs-ybjgHQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/avatars-mDlkcjFzRy8jNyGs-ybjgHQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/avatars-mDlkcjFzRy8jNyGs-ybjgHQ-mini.jpg'
           },
-          badges: { pro: false, proUnlimited: false, verified: true }
+          badges: { pro: false, proUnlimited: true, verified: true }
         },
         permalink: {
           basic: 'cellul',
-          full: 'https://soundcloud.com/roodyrapkone/sets/cellul'
+          full: 'https://soundcloud.com/rccdy/sets/cellul'
         },
         isPublic: true,
-        apiInfo: { uri: 'https://api.soundcloud.com/playlists/965646478' },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A965646478'
+        },
         artwork: {
           default: 'https://i1.sndcdn.com/artworks-000666927622-oll4hm-large.jpg',
           t500x500: 'https://i1.sndcdn.com/artworks-000666927622-oll4hm-t500x500.jpg',
@@ -284,7 +2730,7 @@ Collection {
         dates: {
           created: '2020-01-13T18:19:38Z',
           published: '2020-01-13T18:19:38Z',
-          modified: '2020-01-13T19:09:34Z',
+          modified: '2025-08-27T05:16:27Z',
           display: '2020-01-13T18:19:38Z',
           release: '2020-01-13T00:00:00Z'
         },
@@ -295,7 +2741,7 @@ Collection {
         },
         texts: { title: 'Cellul', description: undefined },
         trackCount: 7,
-        socialInfo: { likesCount: 961, repostsCount: 83, managedByFeeds: false },
+        socialInfo: { likesCount: 988, repostsCount: 82, managedByFeeds: false },
         genre: undefined,
         label: undefined,
         license: undefined,
@@ -306,1860 +2752,6 @@ Collection {
   ],
   continuation: CollectionContinuation {
     uri: 'https://api-v2.soundcloud.com/users/9723380/playlist_likes?offset=2020-01-13T22%3A34%3A37.820Z%2Cuser-playlist-likes%2C838-00000000000009723380-00000000000965646478&limit=10',
-    opts: { requireTypes: [class Like extends Entity] { type: 'Like' } }
-  }
-}
---- Liked tracks ---
-Collection {
-  items: [
-    Like {
-      type: 'Like',
-      createdAt: '2022-09-18T19:25:30Z',
-      itemType: 'Track',
-      item: Track {
-        type: 'Track',
-        id: 1245228280,
-        texts: {
-          title: 'Ghogha • Shahrzad (Prod. Ashkan Mousavi & Bahram)',
-          description: 'Lyrics & Vocals: Ghogha • https://ghogha.me\n' +
-            'Music Producers: @AshkanMousavi & @BahramNouraei\n' +
-            'Mixing & Mastering: @AshkanMousavi\n' +
-            'Cover Artwork: Setareh Malekzadeh\n' +
-            '© ℗ 2022 Peeleh • https://peeleh.com\n' +
-            '\n' +
-            'یکی بود یکی نبود\n' +
-            'یکی پشت میله ها تو غل و زنجیر یکی تو هپروت\n' +
-            'یکی زیر خاک بود و یکی زیر چشاش کبود\n' +
-            'یکی بود یکی نبود \n' +
-            'یکی بود یکی نبود \n' +
-            'یکی بود یکی نبود \n' +
-            '\n' +
-            'یکی تو بهشت برین اون یکی تو برهوت \n' +
-            'یکی بالای جهان ایستاده... اون یکی برده نبود\n' +
-            '\n' +
-            'اون یکی برده نبود \n' +
-            'اون یکی برده نبود \n' +
-            'اون یکی... برده نبود\n' +
-            '\n' +
-            'از هفت دریا گذشتم و \n' +
-            'گسستم از همه من تنها \n' +
-            'معلق و پر از درد خسته از سردردا \n' +
-            'بُرنده ام و بلندتر از همه سر فصلات\n' +
-            'بگو به کرکس هات\n' +
-            ' \n' +
-            'سر رسیده دیگه وقتت \n' +
-            'میدونم دیگه خیلی شده سختت \n' +
-            'به زودی میریزه تاج و تختت \n' +
-            'تاریخ سقوطتو شدم از حفظ\n' +
-            '\n' +
-            'خفه نشدم من هرگز\n' +
-            'آزادم, نمی رسه بهم دستت\n' +
-            'شروع شده روزشمار شکستت\n' +
-            'باید کمک بگیری از غیب \n' +
-            '\n' +
-            'با تیر میزنی سایه امو\n' +
-            'داری میبینی که من ایستاده امو \n' +
-            'دارم میگذرم از مرز و فرضات\n' +
-            'موهامو به باد دادم و\n' +
-            'میخوام خودم بگم داستانمو\n' +
-            'میخوام خودم باشم قهرمانمو\n' +
-            'تو هم بخون وصیّت آخرو\n' +
-            'که وجودت بهم میزنه حالمو\n' +
-            '\n' +
-            'جون بکن \n' +
-            'جون بکن \n' +
-            'جون بکن هی \n' +
-            '\n' +
-            'یکی گفت یکی نگفت \n' +
-            'یکی گفت یکی نگفت \n' +
-            'شهرزاد این بار واسه شاه دیگه قصه نگفت \n' +
-            '\n' +
-            'یکی گفت یکی نگفت \n' +
-            'یکی گفت یکی نگفت \n' +
-            'شهرزاد دست به قلم شد...\n' +
-            '\n' +
-            'یکی گفت یکی نگفت \n' +
-            'شهرزاد این بار واسه شاه دیگه قصه نگفت \n' +
-            'شب سمّو ریخت توی جام \n' +
-            'دیگه غصه نخورد\n' +
-            'شاه جامو سرکشید \n' +
-            'شهرزاد افسانه نشد\n' +
-            '\n' +
-            'دور دنیارو زدم \n' +
-            'من اگه حرف بزنم نمیشه سنگ رو سنگ بند\n' +
-            'صدام میزنه نظمو برهم\n' +
-            'همه دیوارای شهر ساخته شده رو سکوت من\n' +
-            'فرو می پاشه هرچی که بگم \n' +
-            'طرفم با یه مشت بربر \n' +
-            'لعنت به قانون جنگل\n' +
-            ' منطق زور و زر و زرگر\n' +
-            ' بدون که خشم من بزرگ تره از دبدبه کبکبه ی توی ابله\n' +
-            '\n' +
-            '‌میریزم سمّو تو جام \n' +
-            'مینویسم قصه رو تا ته \n' +
-            'دستمه قلم و ساز\n' +
-            'می کنم می کنم گورتو تا شب \n' +
-            'ازم میپرسی چرا \n' +
-            'دلیلش خیلی ساده است \n' +
-            'من دنبال انتقامم \n' +
-            'نمیخوام افسانه باشم \n' +
-            '\n' +
-            'جون بکن \n' +
-            'جون بکن \n' +
-            'جون بکن هی',
-          caption: null
-        },
-        dates: {
-          created: '2022-04-06T11:21:41Z',
-          released: '2022-09-18T00:00:00Z',
-          modified: '2023-04-24T07:46:17Z',
-          display: '2022-09-18T19:06:39Z'
-        },
-        downloadInfo: {
-          downloadable: false,
-          downloadCount: 0,
-          hasDownloadsLeft: false
-        },
-        socialInfo: {
-          commentable: true,
-          commentCount: 768,
-          likesCount: 4168,
-          repostsCount: 133
-        },
-        sharingInfo: {
-          shareability: 'public',
-          embeddableBy: 'me',
-          secretToken: null
-        },
-        playbackInfo: { playbackCount: 220324, policy: 'ALLOW' },
-        isBlocked: false,
-        isSnipped: false,
-        mediaInfo: {
-          trackFormat: 'single-track',
-          encodingState: 'finished',
-          transcodings: [
-            [MediaTranscoding],
-            [MediaTranscoding],
-            [MediaTranscoding]
-          ]
-        },
-        permalink: {
-          basic: 'shahrzad',
-          full: 'https://soundcloud.com/peeleh/shahrzad'
-        },
-        apiInfo: {
-          streamable: true,
-          uri: 'https://api.soundcloud.com/tracks/1245228280',
-          urn: 'soundcloud:tracks:1245228280'
-        },
-        purchaseInfo: {
-          title: null,
-          url: 'https://peeleh.bandcamp.com/track/shahrzad'
-        },
-        publisher: Publisher {
-          type: 'Publisher',
-          id: 1245228280,
-          artist: 'Ghogha',
-          albumTitle: undefined,
-          containsMusic: true,
-          UPCOrEAN: undefined,
-          ISRC: 'SE6XY2236853',
-          isExplicit: false,
-          releaseTitle: 'Shahrzad',
-          copyrightText: { general: [Object], display: [Object] },
-          apiInfo: { urn: 'soundcloud:tracks:1245228280' }
-        },
-        durations: { full: 250044, playback: 250044 },
-        genre: 'Hip-hop & Rap',
-        license: 'all-rights-reserved',
-        isPublic: true,
-        tags: '"Hip Hop" Iran Experimental',
-        label: 'Peeleh',
-        artwork: {
-          default: 'https://i1.sndcdn.com/artworks-8NsORx4WNuCzXSUQ-bJEfZg-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/artworks-8NsORx4WNuCzXSUQ-bJEfZg-t500x500.jpg',
-          t300x300: 'https://i1.sndcdn.com/artworks-8NsORx4WNuCzXSUQ-bJEfZg-t300x300.jpg',
-          t67x67: 'https://i1.sndcdn.com/artworks-8NsORx4WNuCzXSUQ-bJEfZg-t67x67.jpg',
-          crop: 'https://i1.sndcdn.com/artworks-8NsORx4WNuCzXSUQ-bJEfZg-crop.jpg',
-          large: 'https://i1.sndcdn.com/artworks-8NsORx4WNuCzXSUQ-bJEfZg-large.jpg',
-          badge: 'https://i1.sndcdn.com/artworks-8NsORx4WNuCzXSUQ-bJEfZg-badge.jpg',
-          small: 'https://i1.sndcdn.com/artworks-8NsORx4WNuCzXSUQ-bJEfZg-small.jpg',
-          tiny: 'https://i1.sndcdn.com/artworks-8NsORx4WNuCzXSUQ-bJEfZg-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/artworks-8NsORx4WNuCzXSUQ-bJEfZg-mini.jpg'
-        },
-        waveform: 'https://wave.sndcdn.com/mFuaaWVviRBx_m.json',
-        user: User {
-          type: 'User',
-          id: 620997126,
-          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
-          lastModified: '2021-08-08T14:23:38Z',
-          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
-          apiInfo: {
-            uri: 'https://api.soundcloud.com/users/620997126',
-            urn: 'soundcloud:users:620997126'
-          },
-          location: { city: 'Stockholm', country: 'SE' },
-          isVerified: true,
-          avatar: {
-            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
-            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
-            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
-            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
-            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
-            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
-            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
-            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
-            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
-          },
-          badges: { pro: false, proUnlimited: false, verified: true }
-        }
-      }
-    },
-    Like {
-      type: 'Like',
-      createdAt: '2022-05-26T17:26:23Z',
-      itemType: 'Track',
-      item: Track {
-        type: 'Track',
-        id: 1273453432,
-        texts: {
-          title: 'Vatani feat. Maat • Ye Rooze Dige (Prod. Peymandegar)',
-          description: 'Lyrics & Vocals: @Vatanii & @maaat021\n' +
-            'Music Producer, Mix & Mastering: @Peymandegar\n' +
-            'Graphic Designer: Setareh Malekzadeh https://setarehmalekzadeh.com\n' +
-            'Photographer: Saeid Elyasi\n' +
-            '©℗ 2022 - @Peeleh\n' +
-            '\n' +
-            '(وطنی، مات)\n' +
-            'یه روز دیگه شروع شد عالیه \n' +
-            'یه جورایی واسه هممون اسرارآمیزه \n' +
-            'پام میکنم کتونیمو، من تو فکر نابودی\n' +
-            'تو چشای مامانم پر از ذوق میبینم عروسیمو \n' +
-            'شناوره سطح دغدغه تو کف منطقه \n' +
-            'نزدیک به ذهن عوام، منزوی دور از همه \n' +
-            'تو یه دستم سیگار، تو یه دستم اسلحه \n' +
-            'سیبلم دفترمه ترکشش مستقیم‌تو قلبمه \n' +
-            '\n' +
-            '(وطنی)\n' +
-            'سکانس بعد سکانس من از لنز تار دوربین\n' +
-            'دست به قلم، سینه سپر، پا به پوتین\n' +
-            'شما تو انقضاء، ما فکر انقراضتونیم \n' +
-            'تو بازیگر این بازی\n' +
-            'یه بازیگر زوری\n' +
-            'من همون دختر کوچولوی بابام \n' +
-            'که تنها چیزی که ازم نگرفتنش پاهامه \n' +
-            'کوله پشتیم باهامو یه صدای باحالو \n' +
-            'چیز زیادی ندارم جز چند خط ناقابل \n' +
-            'تهوع میگیره حالتمو\n' +
-            'وقتی چشام اتفاقی می بینه ساعتمو\n' +
-            'قرارم با خدا به هم ریخت و\n' +
-            'حالا ببین چه آتیشا به این فیتیله ها زدمو\n' +
-            'مارو پیدا کن ته تاریخ \n' +
-            'تو حکومت گرگا بازی با گله سازی \n' +
-            'بزن‌ بکش ببر ولی \n' +
-            'مارو نمیتونی بسوزونیمون با جعل آتیش\n' +
-            'درست بهت نشون میدیم خلاف جهتو \n' +
-            'هستی شما پیوند خورده با فراز عدم\n' +
-            'خودتو سیر کن با شیکم خالی از کثافت \n' +
-            'که خطر حقیقت میگیره وبال عطشو \n' +
-            'واقعیتارو چیدن توی کاتالوگ \n' +
-            'خشابتون پره نظامتون پارادوکس \n' +
-            'شوره زخممون خودتون نمکشو زدین \n' +
-            'بمک! میشه زندگی به کامتون حالا ترش\n' +
-            '\n' +
-            'رنگ رخسار زمین زرد\n' +
-            'خبر از اتفاقای شوم قرن \n' +
-            'مداد رنگیامو پرت نکردم\n' +
-            'نگه‌شون داشتم تو کوله پشتیم \n' +
-            'تا یه روز با رنگ بکشم خطارو کج\n' +
-            '\n' +
-            '(مات)\n' +
-            'تهران یه زخم کهنه ی عمیق شد رو تنم \n' +
-            'آرزومه از آسمونش یه شب نریزه روش نمک\n' +
-            'اوایل فکر میکردم ساده‌ست \n' +
-            'زندگی کردن عادته فقط دم و بازدم \n' +
-            'ولی جایی که ما بودیم از صبح میزدن خاموشی تا بوق سگ \n' +
-            'تو خونه هاش صدای داد دلی که بابای صاحابش اونو کرایه داد \n' +
-            'نوای ظلم شد نه سازو صدای ما\n' +
-            'نه سازو صدای ما\n' +
-            'واقعیت اصلیمون تو مانیتور ناساست\n' +
-            'تلخه مزه‌ش نمیره حتی با گالیلابلانکا \n' +
-            'انقضامون نزدیک؛ استنادش سقط اولین بچه‌ش که صلحه \n' +
-            'مادر جهان نازاست\n' +
-            'دغدغه ها مشترکه فرقی نمیکنه \n' +
-            'از هامبورگ تا خانی آباد \n' +
-            'چارچوب اعتقاد لقّه\n' +
-            'میشکنه با یه تقّه \n' +
-            'ما تو خونه‌مون، تو مربع درگیر ذوزنقه \n' +
-            'پول \n' +
-            'طراحش پشت میزه\n' +
-            'رأسه مثلثه اون \n' +
-            'بعد این، این بعد اون \n' +
-            'همیشگی نمیمونه تکرار مکررتون\n' +
-            'سیستم معلم ابتدایی مدرسه امه\n' +
-            'بابامه وقتی گفت داشتنت واسم کسر شأنه \n' +
-            'تو گره مشت لاتای سر کوچه‌ست\n' +
-            'دیکتاتورو بکن رعایت تا نره سمت فکت مشت\n' +
-            'حالا مزه مزه کن \n' +
-            'که کارگاه تولیدی آقا عرضه کرده گه \n' +
-            'تلخه برا ما؛ شیرینه برا تو\n' +
-            'سیستم بقال سر کوچه‌ست\n' +
-            'شبکه‌ست که داره برنامه برا کودک\n' +
-            'منم، تویی\n' +
-            'جفتمونیم\n' +
-            '\n' +
-            '(وطنی)\n' +
-            'رنگ رخسار زمین زرد\n' +
-            'خبر از اتفاقای شوم قرن \n' +
-            'مداد رنگیامو پرت نکردم\n' +
-            'نگه‌شون داشتم تو کوله پشتیم \n' +
-            'تا یه روز با رنگ بکشم خطارو کج',
-          caption: null
-        },
-        dates: {
-          created: '2022-05-23T06:30:53Z',
-          released: '2022-05-26T00:00:00Z',
-          modified: '2022-08-01T07:52:00Z',
-          display: '2022-05-26T16:22:06Z'
-        },
-        downloadInfo: {
-          downloadable: false,
-          downloadCount: 0,
-          hasDownloadsLeft: false
-        },
-        socialInfo: {
-          commentable: true,
-          commentCount: 783,
-          likesCount: 3350,
-          repostsCount: 105
-        },
-        sharingInfo: {
-          shareability: 'public',
-          embeddableBy: 'all',
-          secretToken: null
-        },
-        playbackInfo: { playbackCount: 120798, policy: 'ALLOW' },
-        isBlocked: false,
-        isSnipped: false,
-        mediaInfo: {
-          trackFormat: 'single-track',
-          encodingState: 'finished',
-          transcodings: [
-            [MediaTranscoding],
-            [MediaTranscoding],
-            [MediaTranscoding]
-          ]
-        },
-        permalink: {
-          basic: 'yeroozedige',
-          full: 'https://soundcloud.com/peeleh/yeroozedige'
-        },
-        apiInfo: {
-          streamable: true,
-          uri: 'https://api.soundcloud.com/tracks/1273453432',
-          urn: 'soundcloud:tracks:1273453432'
-        },
-        purchaseInfo: { title: null, url: 'https://peeleh.com/yeroozedige' },
-        publisher: Publisher {
-          type: 'Publisher',
-          id: 1273453432,
-          artist: 'Vatani feat. Maat',
-          albumTitle: undefined,
-          containsMusic: true,
-          UPCOrEAN: '7316215369713',
-          ISRC: 'SE6QE2257047',
-          isExplicit: false,
-          releaseTitle: 'یه روز دیگه',
-          copyrightText: { general: [Object], display: [Object] },
-          apiInfo: { urn: 'soundcloud:tracks:1273453432' }
-        },
-        durations: { full: 216738, playback: 216738 },
-        genre: 'Hip-hop & Rap',
-        license: 'all-rights-reserved',
-        isPublic: true,
-        tags: '"Hip Hop" Iran',
-        label: 'Peeleh',
-        artwork: {
-          default: 'https://i1.sndcdn.com/artworks-FBDlmF1LH2WWbchu-XezUyw-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/artworks-FBDlmF1LH2WWbchu-XezUyw-t500x500.jpg',
-          t300x300: 'https://i1.sndcdn.com/artworks-FBDlmF1LH2WWbchu-XezUyw-t300x300.jpg',
-          t67x67: 'https://i1.sndcdn.com/artworks-FBDlmF1LH2WWbchu-XezUyw-t67x67.jpg',
-          crop: 'https://i1.sndcdn.com/artworks-FBDlmF1LH2WWbchu-XezUyw-crop.jpg',
-          large: 'https://i1.sndcdn.com/artworks-FBDlmF1LH2WWbchu-XezUyw-large.jpg',
-          badge: 'https://i1.sndcdn.com/artworks-FBDlmF1LH2WWbchu-XezUyw-badge.jpg',
-          small: 'https://i1.sndcdn.com/artworks-FBDlmF1LH2WWbchu-XezUyw-small.jpg',
-          tiny: 'https://i1.sndcdn.com/artworks-FBDlmF1LH2WWbchu-XezUyw-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/artworks-FBDlmF1LH2WWbchu-XezUyw-mini.jpg'
-        },
-        waveform: 'https://wave.sndcdn.com/cOk9Kpijmjp6_m.json',
-        user: User {
-          type: 'User',
-          id: 620997126,
-          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
-          lastModified: '2021-08-08T14:23:38Z',
-          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
-          apiInfo: {
-            uri: 'https://api.soundcloud.com/users/620997126',
-            urn: 'soundcloud:users:620997126'
-          },
-          location: { city: 'Stockholm', country: 'SE' },
-          isVerified: true,
-          avatar: {
-            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
-            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
-            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
-            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
-            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
-            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
-            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
-            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
-            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
-          },
-          badges: { pro: false, proUnlimited: false, verified: true }
-        }
-      }
-    },
-    Like {
-      type: 'Like',
-      createdAt: '2021-10-28T13:55:22Z',
-      itemType: 'Track',
-      item: Track {
-        type: 'Track',
-        id: 1148846701,
-        texts: {
-          title: 'Mafogh - Fard (Ft Pishva)',
-          description: '۵. فرد\n' +
-            'شعر و اجرا: پیشوا\n' +
-            'آهنگ: مافوق\n' +
-            'مهندسی صدا: ثَث\n' +
-            'جلد: جاوید، راوی\n' +
-            'تاریخ انتشار: ۳ آبان ۱۴۰۰\n' +
-            '\n' +
-            '\n' +
-            'من خوده شرم \n' +
-            'جايي ديدي من و برگرد \n' +
-            'يوو يو يوو\n' +
-            'تو رپ نميخوني ازش  بيزاري داش \n' +
-            'بهتره پاپ بخوني توي كليسا جاته \n' +
-            'همش زور ميزنه كه حاجي يجوري باشه \n' +
-            ' به خودت فشار نيار دهنت بيخودي باز شه \n' +
-            'بهم ميگن ديگه وقت تلاس پسر پ\n' +
-            'بيكار نيستي مثل قلبنا يه سره \n' +
-            'دنيا وايساده نبض تو ميزنه \n' +
-            'با تجربه \n' +
-            'قدماي بزرگ تر ميخره \n' +
-            'نكنيد خودتونو وارد بازي \n' +
-            'شما پولياي لاشي كه به فكر سوده جايين \n' +
-            'شما تهش جايي نميريسين بازم زيره مايين \n' +
-            'حاجي نمره بيست دادن بم رو كره خاكي \n' +
-            'بايد بدوني چطوري پيش ميره کار \n' +
-            'اره نوبته ماست اره خورشيد ماست \n' +
-            'كه ميتابه رو شهرت تو تاريكي نور ميده \n' +
-            'هر كي با ما باشه واسش باز ميشه راه \n' +
-            '\n' +
-            'من فردم نميشم با كثافتا جمع \n' +
-            'پس سر درد ميگيرم بكن اون صدات قطع \n' +
-            '\n' +
-            'من فردم نميشم با كثافتا جمع \n' +
-            'پس سر درد ميگيرم بكن اون صدات قطع \n' +
-            '\n' +
-            '\n' +
-            'واسه لاشخورا ندارم رويه خوش \n' +
-            'ميگامشون رسما بهم بكنن پشت \n' +
-            'حتي اگه ساقه بشكنه ريشم نميشه خشك\n' +
-            'انگشتام ميچسبه به هم تا بسازه مشت \n' +
-            'هر چي رسانه زرد جوجه ها كنن تخم \n' +
-            'ما تو اوج خفقان و سركوب ميكنيم رشد \n' +
-            'انقد كثيف وجودتون  كه \n' +
-            'نميشه شست \n' +
-            'همه فراري به واقعيت ميكنيد پشت \n' +
-            'خوب گوش كن نميگم من واستون داستان\n' +
-            'اعتماد به پاهامه كه راه ميرم راس راس \n' +
-            'فاكُ ميدم به لاشخور  مخبرُ پاسگاش\n' +
-            'همون دزدايي  كه ميخوان مارو بكنن بازخواست \n' +
-            'بشه هنرم حبس قلمم بازداشت \n' +
-            'جمله ها سادس كلمه ها جنس اسفالت \n' +
-            '٠٢١ پي رو بيت مافوق \n' +
-            'مارو جايي ديدي پسر كج بكن راتو\n' +
-            '\n' +
-            'من فردم نميشم با كثافتا جمع \n' +
-            'پس سر درد ميگيرم بكن اون صدات قطع \n' +
-            '\n' +
-            'من فردم نميشم با كثافتا جمع \n' +
-            'پس سر درد ميگيرم بكن اون صدات قطع',
-          caption: null
-        },
-        dates: {
-          created: '2021-10-27T07:34:19Z',
-          released: null,
-          modified: '2022-04-08T11:22:29Z',
-          display: '2021-10-27T07:34:19Z'
-        },
-        downloadInfo: {
-          downloadable: false,
-          downloadCount: 0,
-          hasDownloadsLeft: false
-        },
-        socialInfo: {
-          commentable: true,
-          commentCount: 178,
-          likesCount: 2268,
-          repostsCount: 66
-        },
-        sharingInfo: {
-          shareability: 'public',
-          embeddableBy: 'all',
-          secretToken: null
-        },
-        playbackInfo: { playbackCount: 97536, policy: 'ALLOW' },
-        isBlocked: false,
-        isSnipped: false,
-        mediaInfo: {
-          trackFormat: 'single-track',
-          encodingState: 'finished',
-          transcodings: [
-            [MediaTranscoding],
-            [MediaTranscoding],
-            [MediaTranscoding]
-          ]
-        },
-        permalink: {
-          basic: '6mafogh-fard-ft-pishva',
-          full: 'https://soundcloud.com/wordgamefamily/6mafogh-fard-ft-pishva'
-        },
-        apiInfo: {
-          streamable: true,
-          uri: 'https://api.soundcloud.com/tracks/1148846701',
-          urn: 'soundcloud:tracks:1148846701'
-        },
-        purchaseInfo: { title: null, url: null },
-        publisher: Publisher {
-          type: 'Publisher',
-          id: 1148846701,
-          artist: 'Pishva',
-          albumTitle: undefined,
-          containsMusic: true,
-          UPCOrEAN: undefined,
-          ISRC: 'QZTH82158960',
-          isExplicit: undefined,
-          releaseTitle: undefined,
-          copyrightText: { general: [Object], display: [Object] },
-          apiInfo: { urn: 'soundcloud:tracks:1148846701' }
-        },
-        durations: { full: 183562, playback: 183562 },
-        genre: 'Hip-hop & Rap',
-        license: 'all-rights-reserved',
-        isPublic: true,
-        tags: '',
-        label: null,
-        artwork: {
-          default: 'https://i1.sndcdn.com/artworks-r1vgyicuZzUyyq0U-l14fBg-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/artworks-r1vgyicuZzUyyq0U-l14fBg-t500x500.jpg',
-          t300x300: 'https://i1.sndcdn.com/artworks-r1vgyicuZzUyyq0U-l14fBg-t300x300.jpg',
-          t67x67: 'https://i1.sndcdn.com/artworks-r1vgyicuZzUyyq0U-l14fBg-t67x67.jpg',
-          crop: 'https://i1.sndcdn.com/artworks-r1vgyicuZzUyyq0U-l14fBg-crop.jpg',
-          large: 'https://i1.sndcdn.com/artworks-r1vgyicuZzUyyq0U-l14fBg-large.jpg',
-          badge: 'https://i1.sndcdn.com/artworks-r1vgyicuZzUyyq0U-l14fBg-badge.jpg',
-          small: 'https://i1.sndcdn.com/artworks-r1vgyicuZzUyyq0U-l14fBg-small.jpg',
-          tiny: 'https://i1.sndcdn.com/artworks-r1vgyicuZzUyyq0U-l14fBg-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/artworks-r1vgyicuZzUyyq0U-l14fBg-mini.jpg'
-        },
-        waveform: 'https://wave.sndcdn.com/DK5MgdyqMHT1_m.json',
-        user: User {
-          type: 'User',
-          id: 299768364,
-          names: {
-            full: 'WG',
-            first: 'WG',
-            last: '',
-            username: 'WordGameFamily'
-          },
-          lastModified: '2022-11-28T17:30:01Z',
-          permalink: {
-            basic: 'wordgamefamily',
-            full: 'https://soundcloud.com/wordgamefamily'
-          },
-          apiInfo: {
-            uri: 'https://api.soundcloud.com/users/299768364',
-            urn: 'soundcloud:users:299768364'
-          },
-          location: { city: 'Tehran', country: 'IR' },
-          isVerified: false,
-          avatar: {
-            default: 'https://i1.sndcdn.com/avatars-bUdbOZm85xGc9w4k-kUWnKw-large.jpg',
-            t500x500: 'https://i1.sndcdn.com/avatars-bUdbOZm85xGc9w4k-kUWnKw-t500x500.jpg',
-            crop: 'https://i1.sndcdn.com/avatars-bUdbOZm85xGc9w4k-kUWnKw-crop.jpg',
-            t300x300: 'https://i1.sndcdn.com/avatars-bUdbOZm85xGc9w4k-kUWnKw-t300x300.jpg',
-            large: 'https://i1.sndcdn.com/avatars-bUdbOZm85xGc9w4k-kUWnKw-large.jpg',
-            badge: 'https://i1.sndcdn.com/avatars-bUdbOZm85xGc9w4k-kUWnKw-badge.jpg',
-            small: 'https://i1.sndcdn.com/avatars-bUdbOZm85xGc9w4k-kUWnKw-small.jpg',
-            tiny: 'https://i1.sndcdn.com/avatars-bUdbOZm85xGc9w4k-kUWnKw-tiny.jpg',
-            mini: 'https://i1.sndcdn.com/avatars-bUdbOZm85xGc9w4k-kUWnKw-mini.jpg'
-          },
-          badges: { pro: false, proUnlimited: false, verified: false }
-        }
-      }
-    },
-    Like {
-      type: 'Like',
-      createdAt: '2021-09-12T10:39:05Z',
-      itemType: 'Track',
-      item: Track {
-        type: 'Track',
-        id: 1121197783,
-        texts: {
-          title: 'Abu Lajan [Prod. Tahrang]',
-          description: 'Vocalist: Bamdad\n' +
-            'Producer: @Tahrangrap\n' +
-            'Mix&Mastering: @Yarapelak\n' +
-            'Artwork: Sevad , Jey\n' +
-            'Publisher: Pelak Records\n' +
-            'Buy via https://pelakrecords.com/records/abu-lajan\n' +
-            'Lyrics https://pelakrecords.com/lyrics/abu-lajan-l\n' +
-            '.\n' +
-            'اسمش رو چی بذارم ؟\n' +
-            'دیره واسم راه نمیوفته کارم\n' +
-            'پنچره چرخ این کاروان شعر\n' +
-            'عصبانی از اینکه ایده دارم\n' +
-            'زیر تا رو پخت تا سوخت\n' +
-            'کف تا بوم صبح تا شوم گردش\n' +
-            'بوق سگ تا روز\n' +
-            'سوای آدمها یعنی سگها که با مرام ترن\n' +
-            'از دید من همه ی ماها کم و بیش رذلیم\n' +
-            'یا لااقل فرصتش پیدا نشده که عشقی\n' +
-            'عشق سازه ولی تنفر میگذره از تیغ\n' +
-            'میبره پوست و گوشت دوتا گوش یه زبون\n' +
-            'یه حلق میمونه برات که سیره از جیغ\n' +
-            'که یاد عقده ات میاره که پر حرفی\n' +
-            'یادت میاره خطت که نمی ارزی\n' +
-            'شکم گشنه شوخی صدای فقری\n' +
-            'جدی تر هاش جون میدن به جوب پایین تر بری\n' +
-            'تو تنگ کوچه سرنگ میکنه آدم سر به نیست\n' +
-            'سیاه صفحه نیست عفونت بعد قرن بیسته\n' +
-            'حواست نیست ؟ شاید باید فرو تر بری\n' +
-            'تا زانو تو اشک ولی سبک از کوره در بری\n' +
-            'تنور روزگار میپزه نون تخمی\n' +
-            'میده به خورد گشنه های دست و پا چلفتی\n' +
-            'ابو لجن سهمم رو نگه دار\n' +
-            'هی ابو لجن یار امانت دار\n' +
-            '\n' +
-            'ابو لجن ابو لجن\n' +
-            'اگه خون من بچکه از دستات\n' +
-            'ابو لجن ابو لجن ابو لجن\n' +
-            'دِ لعنتی دِ لعنتی حد نگه دار\n' +
-            'ابو لجن ابو لجن ابو لجن\n' +
-            'اگه خون من میچکه از دستات\n' +
-            'ابو لجن ابو لجن ابو لجن\n' +
-            '\n' +
-            'گمشده در زمان انسان و تکه تکه هاش\n' +
-            'دلیل حرفه ترک زبون فکر آب\n' +
-            'سبوی منو پر کن ز چشمه جوشیده باده\n' +
-            'کوه غرور رو دوشید درد فشانِ خونابه\n' +
-            'گرفته بوی جسد دست همه بچه ها که\n' +
-            'زخم سر زانوهاشون بود نوید زندگی\n' +
-            'چه سر زنده بین تبعیض و ننگ این تشنگی\n' +
-            'به دوش میکشن مرده هاشون رو با خستگی\n' +
-            'سلاح برده چیه ؟ دسته بیل\n' +
-            'این جوک لعنتی عجب معلمیه\n' +
-            'کمدی کارگری جنبش چک و تو سری\n' +
-            'یه چکش و اسم خدا شده آلت داوری\n' +
-            'همش تموم میشه یادت غبار میشه مرگ بهت بال میده\n' +
-            'شاید جای بهتری\n' +
-            'از اینجا که چاره ی کار یه هیچکاره ای مثل ما\n' +
-            'مرگ باشه به قصد فراغ بال بیشتری\n' +
-            'هفت جد ما به ابولجن باج داده بگو\n' +
-            'زمین و خونه و تفنگ پیر خانواده\n' +
-            'این حق ماست دِ ما که رعیت زاده ایم\n' +
-            'که شکم ما کارد خورده سیر پاره پاره\n' +
-            'وجدان پتیاره زبون بدکاره\n' +
-            'خرافه گوییت درآورد از آدمها دمار\n' +
-            'ابولجن تو جاهل ترینِ ویرانگرانی\n' +
-            'واسه قصر میراثت جسد الواره',
-          caption: null
-        },
-        dates: {
-          created: '2021-09-08T19:55:20Z',
-          released: '2021-09-11T00:00:00Z',
-          modified: '2022-07-12T10:21:01Z',
-          display: '2021-09-11T08:13:05Z'
-        },
-        downloadInfo: {
-          downloadable: false,
-          downloadCount: 0,
-          hasDownloadsLeft: false
-        },
-        socialInfo: {
-          commentable: true,
-          commentCount: 574,
-          likesCount: 5347,
-          repostsCount: 169
-        },
-        sharingInfo: {
-          shareability: 'public',
-          embeddableBy: 'all',
-          secretToken: null
-        },
-        playbackInfo: { playbackCount: 236203, policy: 'ALLOW' },
-        isBlocked: false,
-        isSnipped: false,
-        mediaInfo: {
-          trackFormat: 'single-track',
-          encodingState: 'finished',
-          transcodings: [
-            [MediaTranscoding],
-            [MediaTranscoding],
-            [MediaTranscoding]
-          ]
-        },
-        permalink: {
-          basic: 'abulajan',
-          full: 'https://soundcloud.com/bamdadamman/abulajan'
-        },
-        apiInfo: {
-          streamable: true,
-          uri: 'https://api.soundcloud.com/tracks/1121197783',
-          urn: 'soundcloud:tracks:1121197783'
-        },
-        purchaseInfo: { title: 'خرید این آهنگ', url: 'http://www.pelakrecords.com' },
-        publisher: Publisher {
-          type: 'Publisher',
-          id: 1121197783,
-          artist: 'Bamdad, Tahrang',
-          albumTitle: undefined,
-          containsMusic: true,
-          UPCOrEAN: undefined,
-          ISRC: 'QZJRB2125010',
-          isExplicit: true,
-          releaseTitle: 'Abu Lajan',
-          copyrightText: { general: [Object], display: [Object] },
-          apiInfo: { urn: 'soundcloud:tracks:1121197783' }
-        },
-        durations: { full: 216033, playback: 216033 },
-        genre: 'Hip-hop & Rap',
-        license: 'all-rights-reserved',
-        isPublic: true,
-        tags: 'Pelak Pelakrecords Bamdad Tahrang AbuLajan Yara',
-        label: 'Pelak Records',
-        artwork: {
-          default: 'https://i1.sndcdn.com/artworks-ywypniJyDhGk0G75-1YhOyQ-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/artworks-ywypniJyDhGk0G75-1YhOyQ-t500x500.jpg',
-          t300x300: 'https://i1.sndcdn.com/artworks-ywypniJyDhGk0G75-1YhOyQ-t300x300.jpg',
-          t67x67: 'https://i1.sndcdn.com/artworks-ywypniJyDhGk0G75-1YhOyQ-t67x67.jpg',
-          crop: 'https://i1.sndcdn.com/artworks-ywypniJyDhGk0G75-1YhOyQ-crop.jpg',
-          large: 'https://i1.sndcdn.com/artworks-ywypniJyDhGk0G75-1YhOyQ-large.jpg',
-          badge: 'https://i1.sndcdn.com/artworks-ywypniJyDhGk0G75-1YhOyQ-badge.jpg',
-          small: 'https://i1.sndcdn.com/artworks-ywypniJyDhGk0G75-1YhOyQ-small.jpg',
-          tiny: 'https://i1.sndcdn.com/artworks-ywypniJyDhGk0G75-1YhOyQ-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/artworks-ywypniJyDhGk0G75-1YhOyQ-mini.jpg'
-        },
-        waveform: 'https://wave.sndcdn.com/C80T4CDpxJJa_m.json',
-        user: User {
-          type: 'User',
-          id: 9565983,
-          names: {
-            full: 'Bamdad',
-            first: 'Bamdad',
-            last: '',
-            username: 'Bamdad'
-          },
-          lastModified: '2023-05-30T00:23:36Z',
-          permalink: {
-            basic: 'bamdadamman',
-            full: 'https://soundcloud.com/bamdadamman'
-          },
-          apiInfo: {
-            uri: 'https://api.soundcloud.com/users/9565983',
-            urn: 'soundcloud:users:9565983'
-          },
-          location: { city: '', country: null },
-          isVerified: true,
-          avatar: {
-            default: 'https://i1.sndcdn.com/avatars-XzWslSAvuMoziaBE-8R4bRw-large.jpg',
-            t500x500: 'https://i1.sndcdn.com/avatars-XzWslSAvuMoziaBE-8R4bRw-t500x500.jpg',
-            crop: 'https://i1.sndcdn.com/avatars-XzWslSAvuMoziaBE-8R4bRw-crop.jpg',
-            t300x300: 'https://i1.sndcdn.com/avatars-XzWslSAvuMoziaBE-8R4bRw-t300x300.jpg',
-            large: 'https://i1.sndcdn.com/avatars-XzWslSAvuMoziaBE-8R4bRw-large.jpg',
-            badge: 'https://i1.sndcdn.com/avatars-XzWslSAvuMoziaBE-8R4bRw-badge.jpg',
-            small: 'https://i1.sndcdn.com/avatars-XzWslSAvuMoziaBE-8R4bRw-small.jpg',
-            tiny: 'https://i1.sndcdn.com/avatars-XzWslSAvuMoziaBE-8R4bRw-tiny.jpg',
-            mini: 'https://i1.sndcdn.com/avatars-XzWslSAvuMoziaBE-8R4bRw-mini.jpg'
-          },
-          badges: { pro: false, proUnlimited: true, verified: true }
-        }
-      }
-    },
-    Like {
-      type: 'Like',
-      createdAt: '2021-08-05T17:18:41Z',
-      itemType: 'Track',
-      item: Track {
-        type: 'Track',
-        id: 1100610490,
-        texts: {
-          title: 'Alexie feat. Mehr • Tizi(Prod. Alexie)',
-          description: 'Lyrics & Vocals: @AlexieIvanovich feat. @Mehr_Official\n' +
-            'Music Producer: @AlexieIvanovich \n' +
-            'Mixing & Mastering Engineer: @AshkanMousavi\n' +
-            'Cover Artwork: Setareh Malekzadeh • https://setarehmalekzadeh.com\n' +
-            'Typography: Jey • https://instagram.com/jeyzaardastaan\n' +
-            '©℗ 2021 - @Peeleh\n' +
-            '\n' +
-            '(الکسی)\n' +
-            'بی اثره هرچقدر کنن دولت مردا سرکوب\n' +
-            'توی این سگدونی شدیم ما هنرمندا سگ جون\n' +
-            'نیش میخورن بازی کنن مرتب با کندو\n' +
-            'دستِ خالی خطرناکتریم از مسلح تا دندون\n' +
-            '\n' +
-            'یه هدفون تو گوشمه یه ضامن دارم تو جیبه\n' +
-            'مودچیله یالا بیاین چاقالا ببینم حرفتون چیه\n' +
-            'منترس ا درونم کوچیده فلسفم فقط پوچیه\n' +
-            'گذشتم از غلط و درست واسه ما دنیا کوچیکه\n' +
-            '\n' +
-            'از زیرزمین اومدیم اما میرسیم به قله ش\n' +
-            'واسه منصرف کردنمون دیره دیگه کلا\n' +
-            'همه میدونن به محض اینکه به پیله پیله کنن\n' +
-            'مثه جماهیر شوروی تیکه تیکه شدن\n' +
-            '\n' +
-            'ما برش داریم چونکه قد قداره ها تیزیم\n' +
-            'اینا سستن و میریزن عین برگای پاییزی\n' +
-            'نمیفهمن از ایستادگی این لکاته ها چیزی\n' +
-            'حریف قدرتم نمیشه حتی متافیزیک\n' +
-            '\n' +
-            'مست و پاتیل می تابیم تو کوچه های جلفا\n' +
-            'گاهی قمر در عقربه گاهی رو به راهه اوضاع\n' +
-            'اما میگذره بی منت هنوز روزگار گرگا\n' +
-            'هرچی فک کنی دارم تو کوله بار جرمام\n' +
-            '\n' +
-            'از آوارگی تا تجملات همه رو کردم تجربه ش\n' +
-            'کشیدم بیرون از اطاعت و درس و مشق\n' +
-            'بعد ضربه خوردن و زخم و ضعف و درد و اشک\n' +
-            'احساس امنیت میکنم فقط تو هرج و مرج\n' +
-            '\n' +
-            '(مهر)\n' +
-            '\n' +
-            'زیپ دهنمو نکشیدم\n' +
-            'چون کف خیابونا قدکشیدم\n' +
-            'ملت گرسنه کف میوه ن\n' +
-            'تو صف گوشتن و صف شیکر\n' +
-            'چیزایی که میگم همه دیدن \n' +
-            'ولی خفه میشن اینه درد این شهر\n' +
-            'کلمه میچینم لب تیغم \n' +
-            'حتی بمونه ازم یه تن بی سر\n' +
-            'میدونم ک میخوان ننویسم اینا\n' +
-            'بدجوری پایه ها کجه میلنگه\n' +
-            'دنبال خدا تا مکه میرن\n' +
-            'اما ندیدن بچه که زجه میزد \n' +
-            'تو این برده داری نوین\n' +
-            'میدونی بد بگاییه کویید\n' +
-            'و ما پای ضبط کاریمو تولید\n' +
-            'میکنیم شب ستاره شدیم\n' +
-            'رو زمین پی رد پامه پلیس\n' +
-            'بیخیاله پند حاجی شدیم\n' +
-            'دیگه نمیشه حل با حرف\n' +
-            ' پ وقته جنگه چکمه پا میکنیم\n' +
-            'با یه چک شر بپا میکنیم\n' +
-            'تو غلط کردی که  واسه کاری که میکنی\n' +
-            'قد ما میدویی اومدیم واسه\n' +
-            'گندزدایی محیط\n' +
-            'غریبه ها میشن اعمال قانون \n' +
-            'تا حاج آقا حقتو بماله لا نون\n' +
-            'بازاره خودشون کساده ناجور\n' +
-            'اداره ها جای فساده باپول\n' +
-            'همه چیو کنه رسانه سانسور\n' +
-            'بازم نمیرقصم به ساز یارو\n' +
-            'اگرچه دورمون حصاره یا تور\n' +
-            'برش داریم هنوز مثال ساتور\n' +
-            'تو گوشم نمیره زرای نادونا\n' +
-            'روسرمون شاید بباره باروت\n' +
-            'و پیدابشه یه جا جنازه هامون\n' +
-            'و میدونم میمونه صدای ما خوب\n' +
-            'قلمم مثه کلاشه تو دست\n' +
-            'واسه کسایی که تو کلاپ و تو رقص\n' +
-            ' پی داف و پولن فقط \n' +
-            'میخونن کنن جنساشونو رد\n' +
-            'میزنن  از تهران و توش حرف \n' +
-            'زدن نقابو خوب\n' +
-            ' ببین بپا که رونشه حقیقت\n' +
-            ' یه دفعه بپاچه روت \n' +
-            'تو این تیرگی که پی شکافه نورم\n' +
-            'این  مایه دارای گدای توجه\n' +
-            'ادای خوبان و قلک پول ازش\n' +
-            'میپرسم حقمو چرا لگد شد؟\n' +
-            'زیر پایه های نظامتون\n' +
-            'وقتشه بپری از خواب خوب',
-          caption: null
-        },
-        dates: {
-          created: '2021-08-05T14:15:42Z',
-          released: '2021-08-05T00:00:00Z',
-          modified: '2022-08-01T07:51:42Z',
-          display: '2021-08-05T16:29:33Z'
-        },
-        downloadInfo: {
-          downloadable: false,
-          downloadCount: 0,
-          hasDownloadsLeft: false
-        },
-        socialInfo: {
-          commentable: true,
-          commentCount: 540,
-          likesCount: 2588,
-          repostsCount: 69
-        },
-        sharingInfo: {
-          shareability: 'public',
-          embeddableBy: 'all',
-          secretToken: null
-        },
-        playbackInfo: { playbackCount: 108065, policy: 'ALLOW' },
-        isBlocked: false,
-        isSnipped: false,
-        mediaInfo: {
-          trackFormat: 'single-track',
-          encodingState: 'finished',
-          transcodings: [
-            [MediaTranscoding],
-            [MediaTranscoding],
-            [MediaTranscoding]
-          ]
-        },
-        permalink: { basic: 'tizi', full: 'https://soundcloud.com/peeleh/tizi' },
-        apiInfo: {
-          streamable: true,
-          uri: 'https://api.soundcloud.com/tracks/1100610490',
-          urn: 'soundcloud:tracks:1100610490'
-        },
-        purchaseInfo: { title: null, url: 'https://peeleh.com/tizi' },
-        publisher: Publisher {
-          type: 'Publisher',
-          id: 1100610490,
-          artist: 'Alexie feat. Mehr',
-          albumTitle: undefined,
-          containsMusic: true,
-          UPCOrEAN: undefined,
-          ISRC: 'SE6TI2163614',
-          isExplicit: true,
-          releaseTitle: 'تیزی',
-          copyrightText: { general: [Object], display: [Object] },
-          apiInfo: { urn: 'soundcloud:tracks:1100610490' }
-        },
-        durations: { full: 205035, playback: 205035 },
-        genre: 'Hip-hop & Rap',
-        license: 'all-rights-reserved',
-        isPublic: true,
-        tags: 'رپ ایران الکسی مهر پیله "هیپ هاپ" "رپ فارسی" peeleh alexieivanovich mehr iran rapfarsi "Hip Hop"',
-        label: 'Peeleh',
-        artwork: {
-          default: 'https://i1.sndcdn.com/artworks-A9T8IlqPWPSji5Qe-Y0Mvxw-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/artworks-A9T8IlqPWPSji5Qe-Y0Mvxw-t500x500.jpg',
-          t300x300: 'https://i1.sndcdn.com/artworks-A9T8IlqPWPSji5Qe-Y0Mvxw-t300x300.jpg',
-          t67x67: 'https://i1.sndcdn.com/artworks-A9T8IlqPWPSji5Qe-Y0Mvxw-t67x67.jpg',
-          crop: 'https://i1.sndcdn.com/artworks-A9T8IlqPWPSji5Qe-Y0Mvxw-crop.jpg',
-          large: 'https://i1.sndcdn.com/artworks-A9T8IlqPWPSji5Qe-Y0Mvxw-large.jpg',
-          badge: 'https://i1.sndcdn.com/artworks-A9T8IlqPWPSji5Qe-Y0Mvxw-badge.jpg',
-          small: 'https://i1.sndcdn.com/artworks-A9T8IlqPWPSji5Qe-Y0Mvxw-small.jpg',
-          tiny: 'https://i1.sndcdn.com/artworks-A9T8IlqPWPSji5Qe-Y0Mvxw-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/artworks-A9T8IlqPWPSji5Qe-Y0Mvxw-mini.jpg'
-        },
-        waveform: 'https://wave.sndcdn.com/6s3KpIwaLmG8_m.json',
-        user: User {
-          type: 'User',
-          id: 620997126,
-          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
-          lastModified: '2021-08-08T14:23:38Z',
-          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
-          apiInfo: {
-            uri: 'https://api.soundcloud.com/users/620997126',
-            urn: 'soundcloud:users:620997126'
-          },
-          location: { city: 'Stockholm', country: 'SE' },
-          isVerified: true,
-          avatar: {
-            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
-            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
-            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
-            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
-            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
-            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
-            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
-            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
-            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
-          },
-          badges: { pro: false, proUnlimited: false, verified: true }
-        }
-      }
-    },
-    Like {
-      type: 'Like',
-      createdAt: '2021-04-05T16:39:07Z',
-      itemType: 'Track',
-      item: Track {
-        type: 'Track',
-        id: 1022584489,
-        texts: {
-          title: 'Ghogha feat. Alexie • Hichi Jolodaram Nist (Prod. Bahram)',
-          description: 'Lyrics & Vocals: Ghogha & @AlexieIvanovich\n' +
-            'Music Producer: @BahramNouraei\n' +
-            'Mixing & Mastering Engineer: @AshkanMousavi\n' +
-            'Cover Artwork: Setareh Malekzadeh • https://setarehmalekzadeh.com\n' +
-            '©℗ 2021 - @Peeleh\n' +
-            '\n' +
-            '(غوغا)\n' +
-            'هیچی جلودارم نیست\n' +
-            'باشه هم می شکنم \n' +
-            'دشمن زیاده آرزشونه که پیش نرم \n' +
-            'قلدرا زیر همن، نوچه ها بی دهن\n' +
-            'نه فراموش میکنم نه ازشون می‌گذرم \n' +
-            'حرفاتو قورت نده، می مونه رو دلت \n' +
-            'عادت کردی یکی بگه همیشه زور بهت\n' +
-            'دنبال مدرکی که تئوری توطئه‌ت جور بشه \n' +
-            'زوده که کسی بشی که سمت و سو بده به جریان \n' +
-            'یه دوروی شیاد\n' +
-            'وجودم کافیه واسه نقض حرفات \n' +
-            'موهات سفید شده ولی مغزت در جا زده و زنگ زده طبل و سنتورت تو انبار \n' +
-            '\n' +
-            'هرکاری کنم ازم عقبی ده سال \n' +
-            'کاراتون فقط شنیده میشه با جنجال\n' +
-            'طبل شادانه‌تو بزن واسه دربار\n' +
-            'شبا دلّال روزا موج سوار قهار \n' +
-            '\n' +
-            'هیچی جلودارم نیست\n' +
-            'نه تفنگ نه باتوم \n' +
-            'نه ساختار نه سرکوب نه قانون \n' +
-            'هیچی جلودارم نیست\n' +
-            'نه با حذف و سانسور\n' +
-            'کنار نمیکشم نه با زر نه با زور\n' +
-            'هیچی جلودارم نیست\n' +
-            '\n' +
-            '(الکسی)\n' +
-            'تا برسم به مقصد\n' +
-            'دنبال من ندو که میاری نفس کم\n' +
-            'میرن کنار از ترسم\n' +
-            'چون دیگه برمیاد هر کاری از دستم\n' +
-            '\n' +
-            'تا وایسادم رو پاهای خودم برای به زانو دراوردنم آماده شدن\n' +
-            'خوابشو دیدن\n' +
-            'الکسی نزده داد واسه کمک\n' +
-            'از همون ابتدا با گامهای بلند راهشو می رفت\n' +
-            'اهمیتی نداشته برام سرخ و آبی\n' +
-            'دووم اوردم این وسط نه با رژ و ماتیک\n' +
-            'علیه آدمای بی سواد و خرافی\n' +
-            'این قلم بودش یه سلاح تمام اتوماتیک\n' +
-            'ادامه بدی می بینی آسیب بیشتر\n' +
-            'تازه واردا اینجا اکثراً بازیچه میشن\n' +
-            'گفتن اینا یکی مثل تورو بازی نمی دن\n' +
-            'ولی من اصلا با همچین کسایی قاطی نمی شم\n' +
-            'مستقل و غُد\n' +
-            'روشنه جلوم\n' +
-            'مطمئن و تند\n' +
-            'صدام کرده مضطرب تورو\n' +
-            'کمتر از اونی که کنم حمله به طرفت\n' +
-            'اینم یکی دیگه واسه اینکه بسته شه دهنت\n' +
-            '\n' +
-            '(غوغا)\n' +
-            'هیچی جلودارم نیست\n' +
-            'نه تفنگ نه باتوم \n' +
-            'نه ساختار نه سرکوب نه قانون \n' +
-            'هیچی جلودارم نیست\n' +
-            'نه با حذف و سانسور\n' +
-            'کنار نمیکشم نه با زر نه با زور\n' +
-            'هیچی جلودارم نیست\n' +
-            '\n' +
-            '(الکسی)\n' +
-            'تا برسم به مقصد\n' +
-            'دنبال من ندو که میاری نفس کم\n' +
-            'میرن کنار از ترسم\n' +
-            'چون دیگه برمیاد هر کاری از دستم\n' +
-            '\n' +
-            '(غوغا)\n' +
-            'شبا با گرگا میخوری دنبه \n' +
-            'روزا با چوپونا میکنی گریه\n' +
-            'بالا منبری میخونی خطبه\n' +
-            'با نخبه ها چپی با چپا نخبه  \n' +
-            'منتظر سهمی پا سفره\n' +
-            'مارو خشم میبره جلو تورو عقده\n' +
-            'بذار بهت بگم شُسته رُفته\n' +
-            'پره تناقضی از عمل تا گفته\n' +
-            '\n' +
-            '(الکسی)\n' +
-            'بهتره گزینه های غلطو تیک نزنی\n' +
-            'زیادین اما واسه ما نیستین هیچ عددی\n' +
-            'من شاهد مرگ بودم تو شیش قدمی\n' +
-            'ذوق نمی کنم حتی با چک بیست رقمی\n' +
-            'باز آتیش به پا می کنیم با برگه های کاغذ\n' +
-            'عکس العمل هیترا هم هجمه های تازه ست\n' +
-            'من و غوغا می نویسیم جرم امشبو\n' +
-            'یه بار دیگه می ریزیم به هم کل کشورو\n' +
-            '\n' +
-            '(غوغا)\n' +
-            'هیچی جلودارم نیست\n' +
-            'نه تفنگ نه باتوم \n' +
-            'نه ساختار نه سرکوب نه قانون \n' +
-            'هیچی جلودارم نیست\n' +
-            'نه با حذف و سانسور\n' +
-            'کنار نمیکشم نه با زر نه با زور\n' +
-            'هیچی جلودارم نیست\n' +
-            '\n' +
-            '(الکسی)\n' +
-            'تا برسم به مقصد\n' +
-            'دنبال من ندو که میاری نفس کم\n' +
-            'میرن کنار از ترسم\n' +
-            'چون دیگه برمیاد هر کاری از دستم\n' +
-            '\n' +
-            'Ghogha ft. Alexie - Hichi Jolodaram Nist',
-          caption: 'تک آهنگ «هیچی جلودارم نیست» از غوغا و الکسی با آهنگسازی بهرام منتشر شد'
-        },
-        dates: {
-          created: '2021-04-05T11:27:09Z',
-          released: '2021-04-05T00:00:00Z',
-          modified: '2022-08-01T07:52:26Z',
-          display: '2021-04-05T16:25:32Z'
-        },
-        downloadInfo: {
-          downloadable: false,
-          downloadCount: 0,
-          hasDownloadsLeft: false
-        },
-        socialInfo: {
-          commentable: true,
-          commentCount: 1129,
-          likesCount: 2792,
-          repostsCount: 108
-        },
-        sharingInfo: {
-          shareability: 'public',
-          embeddableBy: 'all',
-          secretToken: null
-        },
-        playbackInfo: { playbackCount: 104490, policy: 'ALLOW' },
-        isBlocked: false,
-        isSnipped: false,
-        mediaInfo: {
-          trackFormat: 'single-track',
-          encodingState: 'finished',
-          transcodings: [
-            [MediaTranscoding],
-            [MediaTranscoding],
-            [MediaTranscoding]
-          ]
-        },
-        permalink: { basic: 'hjdn', full: 'https://soundcloud.com/peeleh/hjdn' },
-        apiInfo: {
-          streamable: true,
-          uri: 'https://api.soundcloud.com/tracks/1022584489',
-          urn: 'soundcloud:tracks:1022584489'
-        },
-        purchaseInfo: { title: null, url: 'https://peeleh.com/hjdn' },
-        publisher: Publisher {
-          type: 'Publisher',
-          id: 1022584489,
-          artist: 'Ghogha ft. Alexie',
-          albumTitle: undefined,
-          containsMusic: true,
-          UPCOrEAN: '7316211399554',
-          ISRC: 'SE6HN2157924',
-          isExplicit: false,
-          releaseTitle: 'هیچی جلودارم نیست',
-          copyrightText: { general: [Object], display: [Object] },
-          apiInfo: { urn: 'soundcloud:tracks:1022584489' }
-        },
-        durations: { full: 255086, playback: 255086 },
-        genre: 'Hip-hop & Rap',
-        license: 'all-rights-reserved',
-        isPublic: true,
-        tags: '"iran " "Hip Hop" ghogha alexie rapfarsi bahram nouraei',
-        label: 'Peeleh',
-        artwork: {
-          default: 'https://i1.sndcdn.com/artworks-NH3fGOrHDAtridVD-15XkdQ-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/artworks-NH3fGOrHDAtridVD-15XkdQ-t500x500.jpg',
-          t300x300: 'https://i1.sndcdn.com/artworks-NH3fGOrHDAtridVD-15XkdQ-t300x300.jpg',
-          t67x67: 'https://i1.sndcdn.com/artworks-NH3fGOrHDAtridVD-15XkdQ-t67x67.jpg',
-          crop: 'https://i1.sndcdn.com/artworks-NH3fGOrHDAtridVD-15XkdQ-crop.jpg',
-          large: 'https://i1.sndcdn.com/artworks-NH3fGOrHDAtridVD-15XkdQ-large.jpg',
-          badge: 'https://i1.sndcdn.com/artworks-NH3fGOrHDAtridVD-15XkdQ-badge.jpg',
-          small: 'https://i1.sndcdn.com/artworks-NH3fGOrHDAtridVD-15XkdQ-small.jpg',
-          tiny: 'https://i1.sndcdn.com/artworks-NH3fGOrHDAtridVD-15XkdQ-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/artworks-NH3fGOrHDAtridVD-15XkdQ-mini.jpg'
-        },
-        waveform: 'https://wave.sndcdn.com/wqLLE4a9Eo8M_m.json',
-        user: User {
-          type: 'User',
-          id: 620997126,
-          names: { full: '', first: '', last: '', username: 'Peeleh • پیله' },
-          lastModified: '2021-08-08T14:23:38Z',
-          permalink: { basic: 'peeleh', full: 'https://soundcloud.com/peeleh' },
-          apiInfo: {
-            uri: 'https://api.soundcloud.com/users/620997126',
-            urn: 'soundcloud:users:620997126'
-          },
-          location: { city: 'Stockholm', country: 'SE' },
-          isVerified: true,
-          avatar: {
-            default: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
-            t500x500: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t500x500.jpg',
-            crop: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-crop.jpg',
-            t300x300: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-t300x300.jpg',
-            large: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-large.jpg',
-            badge: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-badge.jpg',
-            small: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-small.jpg',
-            tiny: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-tiny.jpg',
-            mini: 'https://i1.sndcdn.com/avatars-yPzdOmDkmAbEOwZP-hqkqEQ-mini.jpg'
-          },
-          badges: { pro: false, proUnlimited: false, verified: true }
-        }
-      }
-    },
-    Like {
-      type: 'Like',
-      createdAt: '2021-03-13T18:44:30Z',
-      itemType: 'Track',
-      item: Track {
-        type: 'Track',
-        id: 1006150180,
-        texts: {
-          title: 'Maat X Vatani - GooshTalkh [Prod. Mafogh]',
-          description: 'وطنی/مات:\n' +
-            '\n' +
-            '\n' +
-            'کم میارید طناب،این دفعه واسه دار/زدنه گردنا تعداده ما زیاد/ تر از روزه قبله وشما میخواید زمینو خون بگیره/نمیدونید این خطِ قرمز تا کجا رفته/ انبوهه ما کناره هم اهرمه واسه/جابه جاییه مختصاته لا به لایه این رازه/ اندوهه وقتی واقعیته ما فاشه/همین که شدیم زاده/اثره اتفاقه/ انبوهه ما کجاس؟تو شهر تو دسته دولت/افساره دوره گردنه توسفت میشه به موقش/ اندوهه رشده تو این مدینه بی صاحب/وقتی مذهبت با رنگه روشن شکل میده به مردن/ سیاست سیاست نیس اگه رو شه دستش/ اگه شد که بدون جنگه نرم ن/برده سخته/صادراته گوشته انسان تخته تخته/ از شیکمای گشنه تو دله تهران/ خوردنی نیس،ولی متحرکه انگار/برده برده بحثه من نه بحثه قرنه/برده برده برده برده/تو لباسه مبدله ادما کردین جا خوش این/هویت پسه گلوتونه شما فقط آآآ کنید/ وقتی گذشتین از استخونای ما تو تاریخ/ باید اندازه ی چهل سال صفحه ی این کتابو تا کنین/ولی کاکا میزنه دار /گردنتونو با صداش/میتونید بعده این مارو* صدار* صدا کنید/\n' +
-            '\n' +
-            'وطنی:\n' +
-            'ماسکارو بردارین ماسکارو بردارین\n' +
-            '\n' +
-            'دولَتا امنیت واسه ما میکنن دلالی\n' +
-            '\n' +
-            'مات:\n' +
-            'بزار لاشخورا تقاضای جون کنن\n' +
-            '\n' +
-            'ما گوشته کیرمونم‌ نمیدیم به سگایه درباری..\n' +
-            '\n' +
-            '** \n' +
-            '\n' +
-            'مات:\n' +
-            '\n' +
-            'این اِنقِلابِ گرگاست/توشهره شیرای شاه نما لاشخورای خودمختار/پسِ کَلِه ی تک تکتون یه بارکده نامرئیه/من خوندمش/یه تاریخِ مُعَیَن واسه انقضای دنیاتون/خوارکسه ها همینه بازیشون/ وقتی چارچوبه دولتا با تفِ ما چسبیده به هم دیگه/من مشکوک شدم وقتی فهمیدم یه سیستمه فکری تو غذایِ نذریه/بخور مقویه/هوووم/\n' +
-            '\n' +
-            'النن تو ام یه برده ای بی اختیار/حقِت نیست برده باشی پس پردرو بکش کنار/تاقتم پسه گلومه تو این چرخو فلک/هرچی بیشتر میرم پایین میارم بالا/فهمیدم چه خبره پشته سرم/قدرت تامِ اگه بگیری کا/کاماتو برعکس\n' +
-            '\n' +
-            'وطنی: \n' +
-            'قدم میزنم شهره خاموشیو/قدم/میزنم کلِ ناامیدیمو/تو،زدی خط رو کله آرزوهام/من،شهرو حس کردم نابودیشو...\n' +
-            '\n' +
-            'وطنی:\n' +
-            'ماسکارو بردارین ماسکارو بردارین\n' +
-            '\n' +
-            'دولَتا امنیت واسه ما میکنن دلالی\n' +
-            '\n' +
-            'مات:\n' +
-            'بزار لاشخورا تقاضای جون کنن\n' +
-            '\n' +
-            'ما گوشته کیرمونم‌ نمیدیم به سگایه درباری..\n' +
-            '\n' +
-            '\n' +
-            'مات:نه زیره خاک نمیره باد/دروغای مسخرتون نظیره لاته بی لباس وسطه خیابونه/بدطلبه هیپ هاپیم ما تو این بازی که هرجهتش یه بینامسه/کا*کا نساخته اینجا لونه/از اولش اینجا بود تا آخرش اینجا میمونه/\n' +
-            '\n' +
-            'وطنی:\n' +
-            'ثباتو بریز تو سطلِ آشغال/چارچوب صاف بود؛تو بدجا وایسا/ثباتو بریز تو سطلِ آشغال/چارچوب صاف بود؛تو بدجا وایسا..',
-          caption: null
-        },
-        dates: {
-          created: '2021-03-13T17:00:43Z',
-          released: '2021-03-13T00:00:00Z',
-          modified: '2022-04-01T01:50:12Z',
-          display: '2021-03-13T17:00:43Z'
-        },
-        downloadInfo: {
-          downloadable: false,
-          downloadCount: 0,
-          hasDownloadsLeft: false
-        },
-        socialInfo: {
-          commentable: true,
-          commentCount: 180,
-          likesCount: 1455,
-          repostsCount: 46
-        },
-        sharingInfo: {
-          shareability: 'public',
-          embeddableBy: 'all',
-          secretToken: null
-        },
-        playbackInfo: { playbackCount: 61757, policy: 'ALLOW' },
-        isBlocked: false,
-        isSnipped: false,
-        mediaInfo: {
-          trackFormat: 'single-track',
-          encodingState: 'finished',
-          transcodings: [
-            [MediaTranscoding],
-            [MediaTranscoding],
-            [MediaTranscoding]
-          ]
-        },
-        permalink: {
-          basic: 'maat-x-vatani-gooshtalkh',
-          full: 'https://soundcloud.com/kakacrew/maat-x-vatani-gooshtalkh'
-        },
-        apiInfo: {
-          streamable: true,
-          uri: 'https://api.soundcloud.com/tracks/1006150180',
-          urn: 'soundcloud:tracks:1006150180'
-        },
-        purchaseInfo: { title: null, url: null },
-        publisher: Publisher {
-          type: 'Publisher',
-          id: 1006150180,
-          artist: 'Maat x Vatani',
-          albumTitle: 'Shahre Kaka',
-          containsMusic: true,
-          UPCOrEAN: undefined,
-          ISRC: undefined,
-          isExplicit: undefined,
-          releaseTitle: 'Gooshtalkh',
-          copyrightText: { general: [Object], display: [Object] },
-          apiInfo: { urn: 'soundcloud:tracks:1006150180' }
-        },
-        durations: { full: 200202, playback: 200202 },
-        genre: 'Hip-hop & Rap',
-        license: 'all-rights-reserved',
-        isPublic: true,
-        tags: '',
-        label: 'KakaCrew',
-        artwork: {
-          default: 'https://i1.sndcdn.com/artworks-4dPYS4RqFpCL2ocH-ivdEJg-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/artworks-4dPYS4RqFpCL2ocH-ivdEJg-t500x500.jpg',
-          t300x300: 'https://i1.sndcdn.com/artworks-4dPYS4RqFpCL2ocH-ivdEJg-t300x300.jpg',
-          t67x67: 'https://i1.sndcdn.com/artworks-4dPYS4RqFpCL2ocH-ivdEJg-t67x67.jpg',
-          crop: 'https://i1.sndcdn.com/artworks-4dPYS4RqFpCL2ocH-ivdEJg-crop.jpg',
-          large: 'https://i1.sndcdn.com/artworks-4dPYS4RqFpCL2ocH-ivdEJg-large.jpg',
-          badge: 'https://i1.sndcdn.com/artworks-4dPYS4RqFpCL2ocH-ivdEJg-badge.jpg',
-          small: 'https://i1.sndcdn.com/artworks-4dPYS4RqFpCL2ocH-ivdEJg-small.jpg',
-          tiny: 'https://i1.sndcdn.com/artworks-4dPYS4RqFpCL2ocH-ivdEJg-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/artworks-4dPYS4RqFpCL2ocH-ivdEJg-mini.jpg'
-        },
-        waveform: 'https://wave.sndcdn.com/lxrRXv6UlwDH_m.json',
-        user: User {
-          type: 'User',
-          id: 692172005,
-          names: {
-            full: 'KAKA',
-            first: 'KAKA',
-            last: '',
-            username: 'Kaka Crew'
-          },
-          lastModified: '2022-09-16T18:23:34Z',
-          permalink: {
-            basic: 'kakacrew',
-            full: 'https://soundcloud.com/kakacrew'
-          },
-          apiInfo: {
-            uri: 'https://api.soundcloud.com/users/692172005',
-            urn: 'soundcloud:users:692172005'
-          },
-          location: { city: '', country: 'IR' },
-          isVerified: false,
-          avatar: {
-            default: 'https://i1.sndcdn.com/avatars-HOy7iJIZezQVkIdA-T9UitA-large.jpg',
-            t500x500: 'https://i1.sndcdn.com/avatars-HOy7iJIZezQVkIdA-T9UitA-t500x500.jpg',
-            crop: 'https://i1.sndcdn.com/avatars-HOy7iJIZezQVkIdA-T9UitA-crop.jpg',
-            t300x300: 'https://i1.sndcdn.com/avatars-HOy7iJIZezQVkIdA-T9UitA-t300x300.jpg',
-            large: 'https://i1.sndcdn.com/avatars-HOy7iJIZezQVkIdA-T9UitA-large.jpg',
-            badge: 'https://i1.sndcdn.com/avatars-HOy7iJIZezQVkIdA-T9UitA-badge.jpg',
-            small: 'https://i1.sndcdn.com/avatars-HOy7iJIZezQVkIdA-T9UitA-small.jpg',
-            tiny: 'https://i1.sndcdn.com/avatars-HOy7iJIZezQVkIdA-T9UitA-tiny.jpg',
-            mini: 'https://i1.sndcdn.com/avatars-HOy7iJIZezQVkIdA-T9UitA-mini.jpg'
-          },
-          badges: { pro: false, proUnlimited: false, verified: false }
-        }
-      }
-    },
-    Like {
-      type: 'Like',
-      createdAt: '2020-11-13T09:58:23Z',
-      itemType: 'Track',
-      item: Track {
-        type: 'Track',
-        id: 927849145,
-        texts: {
-          title: 'Bihoviat',
-          description: 'Music Producer: @AshkanMousavi\n' +
-            'Graphic Designer: Setareh Malekzadeh [https://setarehmalekzadeh.com]\n' +
-            '©℗ 2020 - @Peeleh\n' +
-            '\n' +
-            'بحث داغه داغون نشی\n' +
-            'تو کل فاجعه آلوده شی\n' +
-            'از اتفاق باید افتاد\n' +
-            'مرگ تنها خط پایانه\n' +
-            'ابر آرزوش به باد میره\n' +
-            'زندگی تکرار شده یه بار دیگه\n' +
-            'پرنده شد قرنطینه\n' +
-            'ناشنوا شده دهن بینه\n' +
-            'حقیقت تو زمان آشکار شد\n' +
-            'جرائم بیشتر از آدما شد\n' +
-            'دونه تو خاک نرفت ما چگونه\n' +
-            'پاییز بهار واژگونه\n' +
-            'تو جنگ دست و پاتو گم نکنی\n' +
-            'فایده اش چیه ببری و برد نکنی\n' +
-            'مرداب کابوس زنده روده\n' +
-            'زد لگد به بختم بیدار نشد\n' +
-            'رفت تو چشم دودش بدتر\n' +
-            'از بی نمکی شورش کردن\n' +
-            'شیر باغ وحش چکه میکنه\n' +
-            'دیده‌بانو کورش کردن\n' +
-            'قلم شکست زیر دست خطاط\n' +
-            'جوش شیرین از دست فرهاد\n' +
-            'سیر نمیشی با نون بازو\n' +
-            'راه بسته ست به سمت فردا\n' +
-            '\n' +
-            'میگیرن میگیرن دست و پاتو میچینن اینا\n' +
-            'بی دینن میگی نه ترسو هاشون میرینن روهم\n' +
-            'چی میدن چی میگن حرف مفت به کی میدن\n' +
-            'بی رحمو بی رگ زیر پاشون میرن و میمیرن\n' +
-            '\n' +
-            'طوری ترسوندنت که زیرآبی نری\n' +
-            'سراب از آفتاب سیرابه ولی\n' +
-            'هوا پس بود به ما نمیخورد\n' +
-            'آدمه خامو به سادگی پخت\n' +
-            'فرسنگها راهو فیصله داده\n' +
-            'گذشته رفت بازم میگذره ثابت\n' +
-            'کاسه‌ی صبر تو مشکلات شکست\n' +
-            'شکار پشت فاجعه است\n' +
-            'نپخته از کوره در میره\n' +
-            'میگیره میده یه چی دیگه تحویلت\n' +
-            'منظره دیدنی نیست\n' +
-            'تو جواب درست پی دلیلی\n' +
-            'بی اعتقاد به رژیم گرسنگی رو تحمل کرد\n' +
-            'آب راکد پشت سد دلخوش که دل به دریا زده\n' +
-            'احتیاج مادر دزدیه\n' +
-            'بی اعتنا بیماری مسریه\n' +
-            'نقطه مشترک همه نقطه ضعفه\n' +
-            'بی هویت پشت پرده\n' +
-            'وقتی که مرد دست کشیدن\n' +
-            'از بچه‌ی چند ماهه حرف کشیدن\n' +
-            'افتاده درس اخلاق \n' +
-            'بالاشو کندنو پر کشیدن\n' +
-            '\n' +
-            'میگیرن میگیرن دست و پاتو میچینن اینا\n' +
-            'بی دینن میگی نه ترسوهاشون میرینن رو هم\n' +
-            'چی میدن چی میگن حرف مفت به کی میدن\n' +
-            'بی رحمو بی رگ زیر پاشون میرنو میمیرن...',
-          caption: null
-        },
-        dates: {
-          created: '2020-11-12T11:14:53Z',
-          released: '2020-11-13T00:00:00Z',
-          modified: '2022-08-02T03:06:00Z',
-          display: '2020-11-13T00:00:00Z'
-        },
-        downloadInfo: {
-          downloadable: false,
-          downloadCount: 0,
-          hasDownloadsLeft: false
-        },
-        socialInfo: {
-          commentable: true,
-          commentCount: 176,
-          likesCount: 1082,
-          repostsCount: 41
-        },
-        sharingInfo: {
-          shareability: 'public',
-          embeddableBy: 'all',
-          secretToken: null
-        },
-        playbackInfo: { playbackCount: 23693, policy: 'SNIP' },
-        isBlocked: false,
-        isSnipped: true,
-        mediaInfo: {
-          trackFormat: 'single-track',
-          encodingState: 'finished',
-          transcodings: [ [MediaTranscoding], [MediaTranscoding] ]
-        },
-        permalink: {
-          basic: '46jmpldtpeur',
-          full: 'https://soundcloud.com/elhamrap/46jmpldtpeur'
-        },
-        apiInfo: {
-          streamable: true,
-          uri: 'https://api.soundcloud.com/tracks/927849145',
-          urn: 'soundcloud:tracks:927849145'
-        },
-        purchaseInfo: { title: null, url: 'https://peeleh.com/bihoviat' },
-        publisher: Publisher {
-          type: 'Publisher',
-          id: 927849145,
-          artist: 'Elham',
-          albumTitle: 'Bihoviat',
-          containsMusic: true,
-          UPCOrEAN: '0616293839489',
-          ISRC: 'SE6SA2029548',
-          isExplicit: false,
-          releaseTitle: 'Bihoviat',
-          copyrightText: { general: [Object], display: [Object] },
-          apiInfo: { urn: 'soundcloud:tracks:927849145' }
-        },
-        durations: { full: 165016, playback: 30000 },
-        genre: 'Hip Hop/Rap',
-        license: 'all-rights-reserved',
-        isPublic: true,
-        tags: '',
-        label: 'Peeleh',
-        artwork: {
-          default: 'https://i1.sndcdn.com/artworks-e1XyXmZTIywv-0-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/artworks-e1XyXmZTIywv-0-t500x500.jpg',
-          t300x300: 'https://i1.sndcdn.com/artworks-e1XyXmZTIywv-0-t300x300.jpg',
-          t67x67: 'https://i1.sndcdn.com/artworks-e1XyXmZTIywv-0-t67x67.jpg',
-          crop: 'https://i1.sndcdn.com/artworks-e1XyXmZTIywv-0-crop.jpg',
-          large: 'https://i1.sndcdn.com/artworks-e1XyXmZTIywv-0-large.jpg',
-          badge: 'https://i1.sndcdn.com/artworks-e1XyXmZTIywv-0-badge.jpg',
-          small: 'https://i1.sndcdn.com/artworks-e1XyXmZTIywv-0-small.jpg',
-          tiny: 'https://i1.sndcdn.com/artworks-e1XyXmZTIywv-0-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/artworks-e1XyXmZTIywv-0-mini.jpg'
-        },
-        waveform: 'https://wave.sndcdn.com/GK2zjGC2erAF_m.json',
-        user: User {
-          type: 'User',
-          id: 752459149,
-          names: { full: '', first: '', last: '', username: 'Elham' },
-          lastModified: '2022-06-15T07:09:48Z',
-          permalink: {
-            basic: 'elhamrap',
-            full: 'https://soundcloud.com/elhamrap'
-          },
-          apiInfo: {
-            uri: 'https://api.soundcloud.com/users/752459149',
-            urn: 'soundcloud:users:752459149'
-          },
-          location: { city: '', country: 'IR' },
-          isVerified: false,
-          avatar: {
-            default: 'https://i1.sndcdn.com/avatars-H6mu81KzJcApjySV-44BqfA-large.jpg',
-            t500x500: 'https://i1.sndcdn.com/avatars-H6mu81KzJcApjySV-44BqfA-t500x500.jpg',
-            crop: 'https://i1.sndcdn.com/avatars-H6mu81KzJcApjySV-44BqfA-crop.jpg',
-            t300x300: 'https://i1.sndcdn.com/avatars-H6mu81KzJcApjySV-44BqfA-t300x300.jpg',
-            large: 'https://i1.sndcdn.com/avatars-H6mu81KzJcApjySV-44BqfA-large.jpg',
-            badge: 'https://i1.sndcdn.com/avatars-H6mu81KzJcApjySV-44BqfA-badge.jpg',
-            small: 'https://i1.sndcdn.com/avatars-H6mu81KzJcApjySV-44BqfA-small.jpg',
-            tiny: 'https://i1.sndcdn.com/avatars-H6mu81KzJcApjySV-44BqfA-tiny.jpg',
-            mini: 'https://i1.sndcdn.com/avatars-H6mu81KzJcApjySV-44BqfA-mini.jpg'
-          },
-          badges: { pro: false, proUnlimited: false, verified: false }
-        }
-      }
-    },
-    Like {
-      type: 'Like',
-      createdAt: '2020-05-07T11:55:15Z',
-      itemType: 'Track',
-      item: Track {
-        type: 'Track',
-        id: 815053660,
-        texts: {
-          title: 'Medium rare Radio show 6 may 2020',
-          description: 'Mixed by Peymandegar\n' +
-            'For Friskyradio\n' +
-            '\n' +
-            'Aotea - The upbeats 00:00\n' +
-            'Cald - Angry Beats 03:00\n' +
-            'Stomp - Medusa 04:28\n' +
-            'Kung - Feral 05:46\n' +
-            'The Vanguard Project - Smash 08:53\n' +
-            'Sublimit - Against the music 10:42\n' +
-            'Chaser - Darkslide 12:54\n' +
-            'Ewol - Diverge 14:45\n' +
-            'Rockwell - Isolation Ritual 16:15\n' +
-            'Radicall - allure 21:42\n' +
-            'Synth Ethics - Ego 25:01\n' +
-            'Chee - Pipsqueak 26:53\n' +
-            'Craze - KOS 29:19\n' +
-            'Phase - A different space 30:49\n' +
-            'FD - Blue Sky Research 34:51\n' +
-            'Survey & QZB - Hotline 37:17\n' +
-            'KarmasynK - Disturbed Motion 39:51\n' +
-            'Allied - Dream State 43:55\n' +
-            'Jon1st & Shield - Scatter 45:48\n' +
-            'TMSV - Ending One 51:20\n' +
-            'Deft - Rollon 55:34',
-          caption: null
-        },
-        dates: {
-          created: '2020-05-06T20:55:16Z',
-          released: null,
-          modified: '2022-04-01T01:50:12Z',
-          display: '2020-05-06T20:55:16Z'
-        },
-        downloadInfo: {
-          downloadable: false,
-          downloadCount: 0,
-          hasDownloadsLeft: false
-        },
-        socialInfo: {
-          commentable: true,
-          commentCount: 47,
-          likesCount: 849,
-          repostsCount: 28
-        },
-        sharingInfo: {
-          shareability: 'public',
-          embeddableBy: 'all',
-          secretToken: null
-        },
-        playbackInfo: { playbackCount: 25132, policy: 'ALLOW' },
-        isBlocked: false,
-        isSnipped: false,
-        mediaInfo: {
-          trackFormat: 'single-track',
-          encodingState: 'finished',
-          transcodings: [
-            [MediaTranscoding],
-            [MediaTranscoding],
-            [MediaTranscoding]
-          ]
-        },
-        permalink: {
-          basic: 'medium-rare-radio-show-6-may-2020',
-          full: 'https://soundcloud.com/peymandegar/medium-rare-radio-show-6-may-2020'
-        },
-        apiInfo: {
-          streamable: true,
-          uri: 'https://api.soundcloud.com/tracks/815053660',
-          urn: 'soundcloud:tracks:815053660'
-        },
-        purchaseInfo: { title: null, url: null },
-        publisher: Publisher {
-          type: 'Publisher',
-          id: 815053660,
-          artist: undefined,
-          albumTitle: undefined,
-          containsMusic: true,
-          UPCOrEAN: undefined,
-          ISRC: undefined,
-          isExplicit: undefined,
-          releaseTitle: undefined,
-          copyrightText: { general: [Object], display: [Object] },
-          apiInfo: { urn: 'soundcloud:tracks:815053660' }
-        },
-        durations: { full: 3530998, playback: 3530998 },
-        genre: 'Drum & Bass',
-        license: 'all-rights-reserved',
-        isPublic: true,
-        tags: 'drumandbass DnB drum&bass Futurebeat',
-        label: null,
-        artwork: {
-          default: 'https://i1.sndcdn.com/artworks-39DVLNM3Fuir3kmP-gLZXKA-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/artworks-39DVLNM3Fuir3kmP-gLZXKA-t500x500.jpg',
-          t300x300: 'https://i1.sndcdn.com/artworks-39DVLNM3Fuir3kmP-gLZXKA-t300x300.jpg',
-          t67x67: 'https://i1.sndcdn.com/artworks-39DVLNM3Fuir3kmP-gLZXKA-t67x67.jpg',
-          crop: 'https://i1.sndcdn.com/artworks-39DVLNM3Fuir3kmP-gLZXKA-crop.jpg',
-          large: 'https://i1.sndcdn.com/artworks-39DVLNM3Fuir3kmP-gLZXKA-large.jpg',
-          badge: 'https://i1.sndcdn.com/artworks-39DVLNM3Fuir3kmP-gLZXKA-badge.jpg',
-          small: 'https://i1.sndcdn.com/artworks-39DVLNM3Fuir3kmP-gLZXKA-small.jpg',
-          tiny: 'https://i1.sndcdn.com/artworks-39DVLNM3Fuir3kmP-gLZXKA-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/artworks-39DVLNM3Fuir3kmP-gLZXKA-mini.jpg'
-        },
-        waveform: 'https://wave.sndcdn.com/vFQCvtwcHNBv_m.json',
-        user: User {
-          type: 'User',
-          id: 442810734,
-          names: { full: '', first: '', last: '', username: 'Peymandegar' },
-          lastModified: '2022-10-11T12:29:48Z',
-          permalink: {
-            basic: 'peymandegar',
-            full: 'https://soundcloud.com/peymandegar'
-          },
-          apiInfo: {
-            uri: 'https://api.soundcloud.com/users/442810734',
-            urn: 'soundcloud:users:442810734'
-          },
-          location: { city: '', country: null },
-          isVerified: true,
-          avatar: {
-            default: 'https://i1.sndcdn.com/avatars-Vo2Tg5bLTYyGQnde-lcoUPQ-large.jpg',
-            t500x500: 'https://i1.sndcdn.com/avatars-Vo2Tg5bLTYyGQnde-lcoUPQ-t500x500.jpg',
-            crop: 'https://i1.sndcdn.com/avatars-Vo2Tg5bLTYyGQnde-lcoUPQ-crop.jpg',
-            t300x300: 'https://i1.sndcdn.com/avatars-Vo2Tg5bLTYyGQnde-lcoUPQ-t300x300.jpg',
-            large: 'https://i1.sndcdn.com/avatars-Vo2Tg5bLTYyGQnde-lcoUPQ-large.jpg',
-            badge: 'https://i1.sndcdn.com/avatars-Vo2Tg5bLTYyGQnde-lcoUPQ-badge.jpg',
-            small: 'https://i1.sndcdn.com/avatars-Vo2Tg5bLTYyGQnde-lcoUPQ-small.jpg',
-            tiny: 'https://i1.sndcdn.com/avatars-Vo2Tg5bLTYyGQnde-lcoUPQ-tiny.jpg',
-            mini: 'https://i1.sndcdn.com/avatars-Vo2Tg5bLTYyGQnde-lcoUPQ-mini.jpg'
-          },
-          badges: { pro: false, proUnlimited: false, verified: true }
-        }
-      }
-    },
-    Like {
-      type: 'Like',
-      createdAt: '2020-04-08T17:50:44Z',
-      itemType: 'Track',
-      item: Track {
-        type: 'Track',
-        id: 793878565,
-        texts: {
-          title: 'Kel',
-          description: 'رودی - کِل \n' +
-            'شعر و اجرا : رودی\n' +
-            'آهنگساز : ماهور\n' +
-            'میکس و مسترینگ:فرشاد\n' +
-            'طراح جلد: بم بم \n' +
-            'تاریخ انتشار : بیستم فروردین نود و نه  \n' +
-            '.\n' +
-            '(قسمت اول)\n' +
-            '\n' +
-            'گذشت کل زندگی تو شب\n' +
-            'به دیده منت همه چی به گوشم\n' +
-            'خودمو دخترام تو شهر\n' +
-            'بریزین رو سرم موشک\n' +
-            'مهم نی علی ، اسد یا که هوشنگ\n' +
-            'باس می زدم یه چک بهت تو جمع\n' +
-            'تمام دروغات تمام دروغات\n' +
-            'زیر سر آمریکاست یا زیر سر اروپاست\n' +
-            'نداری دستی ملخ دو سه بار جستی\n' +
-            'تو تو شبکه ی مجازی من لا به لای بلوکام\n' +
-            'رات نمی دن مفتی مفتی \n' +
-            'میخوای بیای ؟ خودتو شستی؟\n' +
-            'رفاقت تعطیله فروختم با سرقفلی\n' +
-            'بچینم کلمات گلچین/ ما یعنی شما نه پس خودم چی؟\n' +
-            'ساده بگم رُک ، مستقیم/ تو خامی واسه ی پختنی\n' +
-            'موندم آتیش صدام بگیره بنای مصنوعی ظاهرتونو\n' +
-            'حفظم از بر داستانای تخت خوابتونو\n' +
-            'بالشت پر ، ریخت پرو بالتونو\n' +
-            'من جا کردم تو اتاقم آسمونو \n' +
-            '(همخوان)\n' +
-            'روزی که خاک نتونست و نپذیرفت\n' +
-            'هیچ دستی نگرفت دست هیچ کسیو\n' +
-            'تهران و موشای موذی کنار حلبی و\n' +
-            'بوی گند جسد میگیره همه چی رو\n' +
-            '"می کشم کِل می رقصم لخت رو گِل" X4\n' +
-            '(قسمت دوم)\n' +
-            'کوش از زمزمه بارداره بچش کشید سر زا کِل\n' +
-            'بازار خاله توران گرمه مام نداریم بشه راکد\n' +
-            'می ریزم بنزین تو باکت/چون غم شد عصیان و نمیمونم ساکت\n' +
-            'عوام فریبی تا کی؟\n' +
-            'عور و بی سروپا/خاطراتم عین کبودی رو تنه جاش\n' +
-            'زمان میمیره با تیک تاک دقیقه/ساعت یه اسلحه کشتار جمعیه یه وسیله\n' +
-            'گذر عمر کنار جوی و طویله / دادم تغییرت\n' +
-            '(اینم سند و منگوله ضمیمه) X2\n' +
-            'تو رزم واژه خمتو گرفتم نیستی حریف حیف\n' +
-            'آینده یه دالون وصله به دری تو تاریکی که سفت و محکم بسته قرص\n' +
-            'پشت قرص بنداز بالا لعنتی/حرفایی که بت میزنم درد داره بعد از این\n' +
-            'بالا بیار بالا معده ی عصبی/صفحه ی سفیدی تو من تو اتاق رنگرزی\n' +
-            'تو خود طرحمی/با تیغ روی مغزمی\n' +
-            'الان توی معدنی/اونجا که ریشه زدم و بلدی\n' +
-            'قدم رسید واسه منکه فهمیدم دنیا چقدره/دنیا زمینه ، زمین یه کوچه ی تنگه\n' +
-            'به چپ که اونکه همه چیو باهم میخواد زرنگه\n' +
-            'همه چی چیه؟ \n' +
-            'اونکه مرده دیده آخر جنگه.',
-          caption: null
-        },
-        dates: {
-          created: '2020-04-08T16:46:38Z',
-          released: null,
-          modified: '2022-02-03T11:41:08Z',
-          display: '2020-04-08T16:46:38Z'
-        },
-        downloadInfo: {
-          downloadable: true,
-          downloadCount: 125,
-          hasDownloadsLeft: false
-        },
-        socialInfo: {
-          commentable: true,
-          commentCount: 196,
-          likesCount: 2165,
-          repostsCount: 73
-        },
-        sharingInfo: {
-          shareability: 'public',
-          embeddableBy: 'all',
-          secretToken: null
-        },
-        playbackInfo: { playbackCount: 92384, policy: 'ALLOW' },
-        isBlocked: false,
-        isSnipped: false,
-        mediaInfo: {
-          trackFormat: 'single-track',
-          encodingState: 'finished',
-          transcodings: [
-            [MediaTranscoding],
-            [MediaTranscoding],
-            [MediaTranscoding]
-          ]
-        },
-        permalink: {
-          basic: 'kel',
-          full: 'https://soundcloud.com/roodyrapkone/kel'
-        },
-        apiInfo: {
-          streamable: true,
-          uri: 'https://api.soundcloud.com/tracks/793878565',
-          urn: 'soundcloud:tracks:793878565'
-        },
-        purchaseInfo: { title: null, url: null },
-        publisher: Publisher {
-          type: 'Publisher',
-          id: 793878565,
-          artist: 'Roody',
-          albumTitle: undefined,
-          containsMusic: true,
-          UPCOrEAN: undefined,
-          ISRC: 'QZS642195046',
-          isExplicit: undefined,
-          releaseTitle: undefined,
-          copyrightText: { general: [Object], display: [Object] },
-          apiInfo: { urn: 'soundcloud:tracks:793878565' }
-        },
-        durations: { full: 137091, playback: 137091 },
-        genre: 'Hip-hop & Rap',
-        license: 'all-rights-reserved',
-        isPublic: true,
-        tags: 'Hip-Hop',
-        label: null,
-        artwork: {
-          default: 'https://i1.sndcdn.com/artworks-BNK3haWSyOKYrAQg-IZ2X8w-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/artworks-BNK3haWSyOKYrAQg-IZ2X8w-t500x500.jpg',
-          t300x300: 'https://i1.sndcdn.com/artworks-BNK3haWSyOKYrAQg-IZ2X8w-t300x300.jpg',
-          t67x67: 'https://i1.sndcdn.com/artworks-BNK3haWSyOKYrAQg-IZ2X8w-t67x67.jpg',
-          crop: 'https://i1.sndcdn.com/artworks-BNK3haWSyOKYrAQg-IZ2X8w-crop.jpg',
-          large: 'https://i1.sndcdn.com/artworks-BNK3haWSyOKYrAQg-IZ2X8w-large.jpg',
-          badge: 'https://i1.sndcdn.com/artworks-BNK3haWSyOKYrAQg-IZ2X8w-badge.jpg',
-          small: 'https://i1.sndcdn.com/artworks-BNK3haWSyOKYrAQg-IZ2X8w-small.jpg',
-          tiny: 'https://i1.sndcdn.com/artworks-BNK3haWSyOKYrAQg-IZ2X8w-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/artworks-BNK3haWSyOKYrAQg-IZ2X8w-mini.jpg'
-        },
-        waveform: 'https://wave.sndcdn.com/cgmIC8gR4e4n_m.json',
-        user: User {
-          type: 'User',
-          id: 628379244,
-          names: { full: '', first: '', last: '', username: 'Roody' },
-          lastModified: '2023-07-17T15:03:54Z',
-          permalink: {
-            basic: 'roodyrapkone',
-            full: 'https://soundcloud.com/roodyrapkone'
-          },
-          apiInfo: {
-            uri: 'https://api.soundcloud.com/users/628379244',
-            urn: 'soundcloud:users:628379244'
-          },
-          location: { city: '', country: null },
-          isVerified: true,
-          avatar: {
-            default: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-large.jpg',
-            t500x500: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-t500x500.jpg',
-            crop: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-crop.jpg',
-            t300x300: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-t300x300.jpg',
-            large: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-large.jpg',
-            badge: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-badge.jpg',
-            small: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-small.jpg',
-            tiny: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-tiny.jpg',
-            mini: 'https://i1.sndcdn.com/avatars-9gqrmRSAi6YBoX8d-VCiyyg-mini.jpg'
-          },
-          badges: { pro: false, proUnlimited: false, verified: true }
-        }
-      }
-    }
-  ],
-  continuation: CollectionContinuation {
-    uri: 'https://api-v2.soundcloud.com/users/9723380/track_likes?offset=2020-04-08T17%3A50%3A44.215Z%2Cuser-track-likes%2C468-00000000000009723380-00000000000793878565&limit=10',
     opts: { requireTypes: [class Like extends Entity] { type: 'Like' } }
   }
 }

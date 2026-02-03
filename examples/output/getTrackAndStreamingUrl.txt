@@ -20,7 +20,7 @@ Track {
   isBlocked: false,
   isSnipped: false,
   mediaInfo: {
-    trackFormat: 'single-track',
+    trackFormat: undefined,
     encodingState: 'finished',
     transcodings: [
       MediaTranscoding {
@@ -51,7 +51,7 @@ Track {
   },
   apiInfo: {
     streamable: true,
-    uri: 'https://api.soundcloud.com/tracks/9723380',
+    uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A9723380',
     urn: 'soundcloud:tracks:9723380'
   },
   purchaseInfo: { title: null, url: null },
@@ -78,7 +78,7 @@ Track {
       full: 'https://soundcloud.com/grimfictionrlk'
     },
     apiInfo: {
-      uri: 'https://api.soundcloud.com/users/2910865',
+      uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A2910865',
       urn: 'soundcloud:users:2910865'
     },
     location: { city: 'Pasadena', country: 'US' },
@@ -98,4 +98,4 @@ Track {
   }
 }
 --------------
-Streaming URL: https://cf-hls-media.sndcdn.com/playlist/bKfXNLtfMM09.128.mp3/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLWhscy1tZWRpYS5zbmRjZG4uY29tL3BsYXlsaXN0L2JLZlhOTHRmTU0wOS4xMjgubXAzL3BsYXlsaXN0Lm0zdTgqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkyNzMyNDcxfX19XX0_&Signature=b8DvbWIBJcSMxUeiW7PgWkcDSLQuUG~1A1X6KUQrWuBICzNY3QGaTNLUkS6Mr2tbAsp3wBWNU1CYni2NI7VGKtgABE9AVw0JGubRLT76d0UJk9g3~G24dJw~DXg5tkK5Or-dqB9o9DHqScJi2i8~XhbiPmhNjVXW5geTaFlcK~CRY-EnS-NiAzxtx6aIrZhB55ZKpLWcgcOTsWn6JzMEGZ2ilx2rfpG5pwS~s1GzKJsBfsMLDLgKA4TAWuE5JSHERMqdL0iojP3ASHRtQQ49VW6VXNpm42s8VbZVVSGjzlViDjiQj8KG9gS7I1QojTPv8IORPZwwzLJ6y7zQHuxAJA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ
+Streaming URL: https://cf-hls-media.sndcdn.com/playlist/bKfXNLtfMM09.128.mp3/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLWhscy1tZWRpYS5zbmRjZG4uY29tL3BsYXlsaXN0L2JLZlhOTHRmTU0wOS4xMjgubXAzL3BsYXlsaXN0Lm0zdTgqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzcwMDk5MzIwfX19XX0_&Signature=c7GluMXEZMbFuhuDkonCXRDJOp5xqgrNLbnqtvLE4FZDY2xGC0697oYhswetYWhzp6VJVrvEe44~F0je3btVaukZ9FYQPFsstVbVrsnHZxHdCdWBsMudzjhA-jCR0pQrZoK4wLA86V6dbmfWo344ycgZxlnaU6wQOkDlctwRTR98qOuJwv3hlfFpdO8UZ51mwU~bCfEWql3maGRTT~vuXDRNtlxaqmXhdGrAHhIC0IQHtElIaPdEV2XgmZL7G4ZSL3SWYEEXUdAKndLOtxuoV32KkBADy51dQ~G8eD1aIXFOezbzP~o~478qGU-ifVTku257ARvWF5fzo59A~RONTw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ

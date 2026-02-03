@@ -3,7 +3,7 @@ import { print } from './utils/output.mjs';
 
 const scfetch = new SoundCloud();
 
-scfetch.getSystemPlaylist('soundcloud:system-playlists:charts-top:all-music').then(async (playlist) => {
+scfetch.getSystemPlaylist('soundcloud:system-playlists:artist-stations:225107240').then(async (playlist) => {
   if (playlist) {
     print(playlist);
     const tracks = await playlist.getTracks();

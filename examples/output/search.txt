@@ -2,50 +2,57 @@ Collection {
   items: [
     Album {
       type: 'Album',
-      id: 787169598,
+      id: 258619386,
       user: User {
         type: 'User',
-        id: 75050710,
-        names: { full: '', first: '', last: '', username: 'kevinoliveiraa' },
-        lastModified: '2019-05-23T15:36:56Z',
+        id: 254076746,
+        names: {
+          full: 'Marion H',
+          first: 'Marion',
+          last: 'H',
+          username: 'XXIVK'
+        },
+        lastModified: '2018-05-10T16:31:23Z',
         permalink: {
-          basic: 'kevinoliveiraa',
-          full: 'https://soundcloud.com/kevinoliveiraa'
+          basic: '4801784139',
+          full: 'https://soundcloud.com/4801784139'
         },
         apiInfo: {
-          uri: 'https://api.soundcloud.com/users/75050710',
-          urn: 'soundcloud:users:75050710'
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A254076746',
+          urn: 'soundcloud:users:254076746'
         },
-        location: { city: null, country: null },
+        location: { city: '', country: null },
         isVerified: false,
         avatar: {
-          default: 'https://i1.sndcdn.com/avatars-000066102190-z4fsie-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-000066102190-z4fsie-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-000066102190-z4fsie-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-000066102190-z4fsie-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-000066102190-z4fsie-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-000066102190-z4fsie-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-000066102190-z4fsie-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-000066102190-z4fsie-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-000066102190-z4fsie-mini.jpg'
+          default: 'https://i1.sndcdn.com/avatars-000291068396-5d0d6h-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000291068396-5d0d6h-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000291068396-5d0d6h-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000291068396-5d0d6h-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000291068396-5d0d6h-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000291068396-5d0d6h-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000291068396-5d0d6h-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000291068396-5d0d6h-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000291068396-5d0d6h-mini.jpg'
         },
         badges: { pro: false, proUnlimited: false, verified: false }
       },
       permalink: {
-        basic: 'black-alien-abaixo-de-zero-hello-hell',
-        full: 'https://soundcloud.com/kevinoliveiraa/sets/black-alien-abaixo-de-zero-hello-hell'
+        basic: 'hello',
+        full: 'https://soundcloud.com/4801784139/sets/hello'
       },
       isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/787169598' },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A258619386'
+      },
       artwork: undefined,
       setType: 'album',
-      duration: 1614481,
+      duration: 4125247,
       dates: {
-        created: '2019-05-23T15:48:31Z',
-        published: '2019-05-23T15:48:31Z',
-        modified: '2019-05-23T15:48:31Z',
-        display: '2019-05-23T15:48:31Z',
-        release: '2019-04-14T00:00:00Z'
+        created: '2016-09-12T15:24:30Z',
+        published: '2016-09-12T15:24:30Z',
+        modified: '2017-05-09T15:59:58Z',
+        display: '2016-09-12T15:24:30Z',
+        release: '2016-09-02T00:00:00Z'
       },
       sharingInfo: {
         shareability: 'public',
@@ -53,29 +60,270 @@ Collection {
         secretToken: null
       },
       texts: {
-        title: 'Black Alien - Abaixo de Zero: Hello Hell',
-        description: ''
+        title: 'hello:)',
+        description: 'My play list is to express the way you feel when you cant describe it in words.So you use music.'
       },
-      trackCount: 9,
-      socialInfo: { likesCount: 3520, repostsCount: 156, managedByFeeds: false },
-      genre: 'Extra Funky',
+      trackCount: 15,
+      socialInfo: { likesCount: 91, repostsCount: 3, managedByFeeds: false },
+      genre: 'Hellomusic',
       label: null,
-      license: 'cc-',
+      license: 'all-rights-reserved',
       purchaseInfo: { title: null, url: null },
       tags: ''
     },
     Album {
       type: 'Album',
-      id: 1606407340,
+      id: 754480386,
       user: User {
         type: 'User',
-        id: 1243664368,
-        names: { full: '', first: '', last: '', username: 'Malibka' },
-        lastModified: '2023-04-20T10:32:00Z',
-        permalink: { basic: 'malibka', full: 'https://soundcloud.com/malibka' },
+        id: 7028881,
+        names: {
+          full: 'Book Talk',
+          first: 'Book',
+          last: 'Talk',
+          username: 'Scottish Book Trust'
+        },
+        lastModified: '2019-07-08T12:55:55Z',
+        permalink: {
+          basic: 'scottishbooktrust',
+          full: 'https://soundcloud.com/scottishbooktrust'
+        },
         apiInfo: {
-          uri: 'https://api.soundcloud.com/users/1243664368',
-          urn: 'soundcloud:users:1243664368'
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A7028881',
+          urn: 'soundcloud:users:7028881'
+        },
+        location: { city: 'Edinburgh', country: null },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000112702648-idpyl6-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: false }
+      },
+      permalink: {
+        basic: 'hello-baby',
+        full: 'https://soundcloud.com/scottishbooktrust/sets/hello-baby'
+      },
+      isPublic: true,
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A754480386'
+      },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-000520390206-ebjide-mini.jpg'
+      },
+      setType: 'album',
+      duration: 2128215,
+      dates: {
+        created: '2019-04-15T15:57:31Z',
+        published: '2019-04-15T15:57:31Z',
+        modified: '2019-04-15T15:57:32Z',
+        display: '2019-04-15T15:57:31Z',
+        release: '2019-04-16T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: {
+        title: 'Hello Baby!',
+        description: "Bookbug's songs, rhymes and music for singing, dancing and playing with little ones."
+      },
+      trackCount: 27,
+      socialInfo: { likesCount: 200, repostsCount: 3, managedByFeeds: false },
+      genre: 'World',
+      label: null,
+      license: 'all-rights-reserved',
+      purchaseInfo: { title: null, url: null },
+      tags: '"Nursery Rhyme" Baby Rhymes Bookbug Scotland Scottish Family'
+    },
+    Album {
+      type: 'Album',
+      id: 1929567979,
+      user: User {
+        type: 'User',
+        id: 383073245,
+        names: { full: '', first: '', last: '', username: 'Sweet Dove' },
+        lastModified: '2025-05-31T12:11:19Z',
+        permalink: {
+          basic: 'sweetdove',
+          full: 'https://soundcloud.com/sweetdove'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A383073245',
+          urn: 'soundcloud:users:383073245'
+        },
+        location: { city: null, country: null },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-hx9usTnb6FKaJVYv-Bq6OLg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-hx9usTnb6FKaJVYv-Bq6OLg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-hx9usTnb6FKaJVYv-Bq6OLg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-hx9usTnb6FKaJVYv-Bq6OLg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-hx9usTnb6FKaJVYv-Bq6OLg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-hx9usTnb6FKaJVYv-Bq6OLg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-hx9usTnb6FKaJVYv-Bq6OLg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-hx9usTnb6FKaJVYv-Bq6OLg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-hx9usTnb6FKaJVYv-Bq6OLg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: false }
+      },
+      permalink: {
+        basic: 'why-hello-it-has-been-a-while-hasnt-it',
+        full: 'https://soundcloud.com/sweetdove/sets/why-hello-it-has-been-a-while-hasnt-it'
+      },
+      isPublic: true,
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1929567979'
+      },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-W3jMMvncRGg9KgkW-EiKSow-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-W3jMMvncRGg9KgkW-EiKSow-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-W3jMMvncRGg9KgkW-EiKSow-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-W3jMMvncRGg9KgkW-EiKSow-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-W3jMMvncRGg9KgkW-EiKSow-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-W3jMMvncRGg9KgkW-EiKSow-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-W3jMMvncRGg9KgkW-EiKSow-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-W3jMMvncRGg9KgkW-EiKSow-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-W3jMMvncRGg9KgkW-EiKSow-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-W3jMMvncRGg9KgkW-EiKSow-mini.jpg'
+      },
+      setType: 'ep',
+      duration: 1224960,
+      dates: {
+        created: '2024-12-22T12:21:51Z',
+        published: '2024-12-24T12:37:09Z',
+        modified: '2024-12-24T12:37:26Z',
+        display: '2024-12-24T12:37:09Z',
+        release: '2024-12-24T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: {
+        title: "Why hello. It has been a while hasn't it?",
+        description: ''
+      },
+      trackCount: 8,
+      socialInfo: { likesCount: 25, repostsCount: 6, managedByFeeds: false },
+      genre: 'Hello',
+      label: '',
+      license: 'all-rights-reserved',
+      purchaseInfo: { title: 'Download/Stream', url: 'https://fanlink.tv/WhyHello' },
+      tags: ''
+    },
+    Album {
+      type: 'Album',
+      id: 1778658816,
+      user: User {
+        type: 'User',
+        id: 1162058560,
+        names: {
+          full: 'Moodster',
+          first: 'Moodster',
+          last: '',
+          username: 'Milk In The Microwave'
+        },
+        lastModified: '2024-12-05T20:08:53Z',
+        permalink: {
+          basic: 'milkinthemicrowave',
+          full: 'https://soundcloud.com/milkinthemicrowave'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A1162058560',
+          urn: 'soundcloud:users:1162058560'
+        },
+        location: { city: '', country: 'US' },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-gMTAfFswdvD1LBy5-3BZ0qw-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-gMTAfFswdvD1LBy5-3BZ0qw-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-gMTAfFswdvD1LBy5-3BZ0qw-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-gMTAfFswdvD1LBy5-3BZ0qw-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-gMTAfFswdvD1LBy5-3BZ0qw-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-gMTAfFswdvD1LBy5-3BZ0qw-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-gMTAfFswdvD1LBy5-3BZ0qw-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-gMTAfFswdvD1LBy5-3BZ0qw-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-gMTAfFswdvD1LBy5-3BZ0qw-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: false, verified: false }
+      },
+      permalink: {
+        basic: 'hello-kitty-scrapbook',
+        full: 'https://soundcloud.com/milkinthemicrowave/sets/hello-kitty-scrapbook'
+      },
+      isPublic: true,
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1778658816'
+      },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-fEgy5Qew6p2ThbOe-P0EaeQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-fEgy5Qew6p2ThbOe-P0EaeQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-fEgy5Qew6p2ThbOe-P0EaeQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-fEgy5Qew6p2ThbOe-P0EaeQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-fEgy5Qew6p2ThbOe-P0EaeQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-fEgy5Qew6p2ThbOe-P0EaeQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-fEgy5Qew6p2ThbOe-P0EaeQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-fEgy5Qew6p2ThbOe-P0EaeQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-fEgy5Qew6p2ThbOe-P0EaeQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-fEgy5Qew6p2ThbOe-P0EaeQ-mini.jpg'
+      },
+      setType: 'album',
+      duration: 843730,
+      dates: {
+        created: '2024-02-20T02:18:05Z',
+        published: '2024-02-20T02:18:05Z',
+        modified: '2024-02-20T02:18:06Z',
+        display: '2024-02-20T02:18:05Z',
+        release: '2023-09-15T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: {
+        title: 'Hello Kitty Scrapbook',
+        description: 'oops. I never uploaded Hello Kitty Scrapbook here.'
+      },
+      trackCount: 9,
+      socialInfo: { likesCount: 311, repostsCount: 20, managedByFeeds: false },
+      genre: 'Indie',
+      label: '',
+      license: 'all-rights-reserved',
+      purchaseInfo: { title: null, url: null },
+      tags: 'Acoustic Indie ukulele jazz'
+    },
+    Album {
+      type: 'Album',
+      id: 2011447203,
+      user: User {
+        type: 'User',
+        id: 1528263956,
+        names: { full: '', first: '', last: '', username: 'NextSo' },
+        lastModified: '2025-03-20T12:38:23Z',
+        permalink: { basic: 'nextso', full: 'https://soundcloud.com/nextso' },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A1528263956',
+          urn: 'soundcloud:users:1528263956'
         },
         location: { city: null, country: null },
         isVerified: false,
@@ -85,41 +333,43 @@ Collection {
         badges: { pro: false, proUnlimited: false, verified: false }
       },
       permalink: {
-        basic: 'hello-together',
-        full: 'https://soundcloud.com/malibka/sets/hello-together'
+        basic: 'hello-world-731430236',
+        full: 'https://soundcloud.com/nextso/sets/hello-world-731430236'
       },
       isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1606407340' },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A2011447203'
+      },
       artwork: {
-        default: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-c61cecb1-d0d8-4796-8d19-1ed47053bf62-0-mini.jpg'
+        default: 'https://i1.sndcdn.com/artworks-37c87ad3-5f2e-4a4c-82b6-9ba288bd88b3-0-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-37c87ad3-5f2e-4a4c-82b6-9ba288bd88b3-0-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-37c87ad3-5f2e-4a4c-82b6-9ba288bd88b3-0-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-37c87ad3-5f2e-4a4c-82b6-9ba288bd88b3-0-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-37c87ad3-5f2e-4a4c-82b6-9ba288bd88b3-0-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-37c87ad3-5f2e-4a4c-82b6-9ba288bd88b3-0-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-37c87ad3-5f2e-4a4c-82b6-9ba288bd88b3-0-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-37c87ad3-5f2e-4a4c-82b6-9ba288bd88b3-0-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-37c87ad3-5f2e-4a4c-82b6-9ba288bd88b3-0-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-37c87ad3-5f2e-4a4c-82b6-9ba288bd88b3-0-mini.jpg'
       },
       setType: 'album',
-      duration: 816300,
+      duration: 1634534,
       dates: {
-        created: '2023-04-20T16:15:54Z',
-        published: '2021-02-08T00:00:00Z',
-        modified: '2023-04-20T16:15:54Z',
-        display: '2021-02-08T00:00:00Z',
-        release: '2021-02-08T00:00:00Z'
+        created: '2025-04-26T02:09:23Z',
+        published: '2025-05-01T00:00:00Z',
+        modified: '2025-04-26T02:09:23Z',
+        display: '2025-05-01T00:00:00Z',
+        release: '2025-05-01T00:00:00Z'
       },
       sharingInfo: {
         shareability: 'public',
         embeddableBy: 'all',
         secretToken: null
       },
-      texts: { title: 'Hello Together', description: null },
+      texts: { title: 'Hello World', description: null },
       trackCount: 10,
-      socialInfo: { likesCount: 11, repostsCount: 0, managedByFeeds: true },
-      genre: 'Pop',
+      socialInfo: { likesCount: 4, repostsCount: 1, managedByFeeds: true },
+      genre: 'Electronic',
       label: null,
       license: 'all-rights-reserved',
       purchaseInfo: { title: null, url: null },
@@ -127,135 +377,131 @@ Collection {
     },
     Album {
       type: 'Album',
-      id: 1411981309,
+      id: 2184064916,
       user: User {
         type: 'User',
-        id: 15118561,
-        names: {
-          full: 'LAYA | ORA',
-          first: 'LAYA |',
-          last: 'ORA',
-          username: 'LΛYΛ'
-        },
-        lastModified: '2023-07-25T13:45:24Z',
-        permalink: { basic: 'layaora', full: 'https://soundcloud.com/layaora' },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/15118561',
-          urn: 'soundcloud:users:15118561'
-        },
-        location: { city: 'New York', country: 'US' },
-        isVerified: true,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-rAAr5HRAeFADc8TK-3DsKfg-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-rAAr5HRAeFADc8TK-3DsKfg-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-rAAr5HRAeFADc8TK-3DsKfg-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-rAAr5HRAeFADc8TK-3DsKfg-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-rAAr5HRAeFADc8TK-3DsKfg-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-rAAr5HRAeFADc8TK-3DsKfg-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-rAAr5HRAeFADc8TK-3DsKfg-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-rAAr5HRAeFADc8TK-3DsKfg-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-rAAr5HRAeFADc8TK-3DsKfg-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: true, verified: true }
-      },
-      permalink: {
-        basic: 'um-hello-1',
-        full: 'https://soundcloud.com/layaora/sets/um-hello-1'
-      },
-      isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1411981309' },
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-cf2ca8c1-156a-4603-952a-836553ebf0a6-0-mini.jpg'
-      },
-      setType: 'ep',
-      duration: 1849286,
-      dates: {
-        created: '2022-03-19T06:37:15Z',
-        published: '2022-04-08T00:00:00Z',
-        modified: '2022-04-02T04:41:15Z',
-        display: '2022-04-08T00:00:00Z',
-        release: '2022-04-08T00:00:00Z'
-      },
-      sharingInfo: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      texts: { title: 'Um, Hello', description: null },
-      trackCount: 11,
-      socialInfo: { likesCount: 328, repostsCount: 20, managedByFeeds: true },
-      genre: 'R&B',
-      label: null,
-      license: 'all-rights-reserved',
-      purchaseInfo: { title: null, url: null },
-      tags: ''
-    },
-    Album {
-      type: 'Album',
-      id: 1675033338,
-      user: User {
-        type: 'User',
-        id: 200355803,
-        names: { full: '', first: '', last: '', username: 'hello euphoria' },
-        lastModified: '2023-07-17T09:09:07Z',
+        id: 1613232055,
+        names: { full: '', first: '', last: '', username: 'SILVER CINEMA' },
+        lastModified: '2026-02-03T01:43:09Z',
         permalink: {
-          basic: 'hello-euphoria',
-          full: 'https://soundcloud.com/hello-euphoria'
+          basic: 'silvercinema',
+          full: 'https://soundcloud.com/silvercinema'
         },
         apiInfo: {
-          uri: 'https://api.soundcloud.com/users/200355803',
-          urn: 'soundcloud:users:200355803'
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A1613232055',
+          urn: 'soundcloud:users:1613232055'
         },
-        location: { city: 'Lisbon', country: 'PT' },
+        location: { city: '', country: 'US' },
         isVerified: false,
         avatar: {
-          default: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-DzIj6UMmncyfpzbl-zz0cDg-mini.jpg'
+          default: 'https://i1.sndcdn.com/avatars-BV4Nt8xyIuzPdBD3-e1J2GQ-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-BV4Nt8xyIuzPdBD3-e1J2GQ-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-BV4Nt8xyIuzPdBD3-e1J2GQ-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-BV4Nt8xyIuzPdBD3-e1J2GQ-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-BV4Nt8xyIuzPdBD3-e1J2GQ-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-BV4Nt8xyIuzPdBD3-e1J2GQ-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-BV4Nt8xyIuzPdBD3-e1J2GQ-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-BV4Nt8xyIuzPdBD3-e1J2GQ-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-BV4Nt8xyIuzPdBD3-e1J2GQ-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: false }
+      },
+      permalink: {
+        basic: 'hello-world-ep',
+        full: 'https://soundcloud.com/silvercinema/sets/hello-world-ep'
+      },
+      isPublic: true,
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A2184064916'
+      },
+      artwork: undefined,
+      setType: 'ep',
+      duration: 954304,
+      dates: {
+        created: '2026-02-01T00:12:34Z',
+        published: '2026-02-01T00:12:34Z',
+        modified: '2026-02-01T07:23:02Z',
+        display: '2026-02-01T00:12:34Z',
+        release: '2026-01-28T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: { title: 'HELLO WORLD', description: '' },
+      trackCount: 6,
+      socialInfo: { likesCount: 0, repostsCount: 0, managedByFeeds: false },
+      genre: '',
+      label: '',
+      license: 'all-rights-reserved',
+      purchaseInfo: { title: null, url: null },
+      tags: 'Electronic'
+    },
+    Album {
+      type: 'Album',
+      id: 1831511154,
+      user: User {
+        type: 'User',
+        id: 460005849,
+        names: {
+          full: 'coldest winter',
+          first: 'coldest',
+          last: 'winter',
+          username: 'inthcoldestwinter'
+        },
+        lastModified: '2024-09-18T15:05:08Z',
+        permalink: {
+          basic: 'inthecoldestwitner',
+          full: 'https://soundcloud.com/inthecoldestwitner'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A460005849',
+          urn: 'soundcloud:users:460005849'
+        },
+        location: { city: 'Donetsk', country: 'UA' },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-kabM0qVTmZYeA7Ur-x4qa7g-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-kabM0qVTmZYeA7Ur-x4qa7g-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-kabM0qVTmZYeA7Ur-x4qa7g-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-kabM0qVTmZYeA7Ur-x4qa7g-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-kabM0qVTmZYeA7Ur-x4qa7g-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-kabM0qVTmZYeA7Ur-x4qa7g-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-kabM0qVTmZYeA7Ur-x4qa7g-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-kabM0qVTmZYeA7Ur-x4qa7g-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-kabM0qVTmZYeA7Ur-x4qa7g-mini.jpg'
         },
         badges: { pro: false, proUnlimited: false, verified: false }
       },
       permalink: {
-        basic: 'wash-away',
-        full: 'https://soundcloud.com/hello-euphoria/sets/wash-away'
+        basic: 'code10-hello',
+        full: 'https://soundcloud.com/inthecoldestwitner/sets/code10-hello'
       },
       isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1675033338' },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1831511154'
+      },
       artwork: {
-        default: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-1CpaBe0y3vymdXdG-nDH5zQ-mini.jpg'
+        default: 'https://i1.sndcdn.com/artworks-EhH9sVRqjPN8g2SW-Iju0JQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-EhH9sVRqjPN8g2SW-Iju0JQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-EhH9sVRqjPN8g2SW-Iju0JQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-EhH9sVRqjPN8g2SW-Iju0JQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-EhH9sVRqjPN8g2SW-Iju0JQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-EhH9sVRqjPN8g2SW-Iju0JQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-EhH9sVRqjPN8g2SW-Iju0JQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-EhH9sVRqjPN8g2SW-Iju0JQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-EhH9sVRqjPN8g2SW-Iju0JQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-EhH9sVRqjPN8g2SW-Iju0JQ-mini.jpg'
       },
       setType: 'album',
-      duration: 1910726,
+      duration: 1128071,
       dates: {
-        created: '2023-08-20T01:10:37Z',
-        published: '2023-08-20T01:10:37Z',
-        modified: '2023-08-20T01:10:38Z',
-        display: '2023-08-20T01:10:37Z',
-        release: '2023-08-20T00:00:00Z'
+        created: '2024-06-02T00:24:14Z',
+        published: '2024-06-02T00:24:14Z',
+        modified: '2024-06-02T00:24:15Z',
+        display: '2024-06-02T00:24:14Z',
+        release: '2024-06-02T00:00:00Z'
       },
       sharingInfo: {
         shareability: 'public',
@@ -263,16 +509,18 @@ Collection {
         secretToken: null
       },
       texts: {
-        title: 'wash away',
-        description: 'just some stuff I made during the summer to keep me busy.'
+        title: 'CODE10 HELLo',
+        description: 'альбом хеллоу от юриякод10 код10 \n' +
+          'размещал все перки с дымом вижу больше чем другие\n' +
+          'tg// t.me/kingdomshitpost'
       },
-      trackCount: 12,
-      socialInfo: { likesCount: 2, repostsCount: 0, managedByFeeds: false },
-      genre: 'Ambient',
+      trackCount: 9,
+      socialInfo: { likesCount: 967, repostsCount: 15, managedByFeeds: false },
+      genre: 'Trap',
       label: '',
       license: 'all-rights-reserved',
       purchaseInfo: { title: null, url: null },
-      tags: 'Ambient Alternative Noise Shoegaze lofi lofiambient'
+      tags: 'code10 code80 code juice igrok код10 код80'
     },
     Album {
       type: 'Album',
@@ -287,7 +535,7 @@ Collection {
           full: 'https://soundcloud.com/454lifeent'
         },
         apiInfo: {
-          uri: 'https://api.soundcloud.com/users/56069430',
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A56069430',
           urn: 'soundcloud:users:56069430'
         },
         location: { city: null, country: null },
@@ -310,7 +558,9 @@ Collection {
         full: 'https://soundcloud.com/454lifeent/sets/a-dough-hello'
       },
       isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/19531434' },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A19531434'
+      },
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-000067447645-xgy511-t500x500.jpg',
@@ -344,7 +594,7 @@ Collection {
           'Executive Produced by: Chris Luu, Andrew Kelly, and Sefo "Bigg Seff" Latu'
       },
       trackCount: 16,
-      socialInfo: { likesCount: 2073, repostsCount: 708, managedByFeeds: false },
+      socialInfo: { likesCount: 2186, repostsCount: 711, managedByFeeds: false },
       genre: '454',
       label: '',
       license: 'all-rights-reserved',
@@ -353,58 +603,142 @@ Collection {
     },
     Album {
       type: 'Album',
-      id: 264012989,
+      id: 2180469077,
       user: User {
         type: 'User',
-        id: 155526231,
-        names: { full: '', first: '', last: '', username: 'laura les' },
-        lastModified: '2023-04-14T06:17:00Z',
-        permalink: { basic: 'osno1', full: 'https://soundcloud.com/osno1' },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/155526231',
-          urn: 'soundcloud:users:155526231'
+        id: 901742140,
+        names: { full: '', first: '', last: '', username: 'BuruhtaN' },
+        lastModified: '2026-01-25T15:21:04Z',
+        permalink: {
+          basic: 'user-752975845',
+          full: 'https://soundcloud.com/user-752975845'
         },
-        location: { city: 'la // chicago // saint louis', country: null },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A901742140',
+          urn: 'soundcloud:users:901742140'
+        },
+        location: { city: null, country: 'UA' },
         isVerified: false,
         avatar: {
-          default: 'https://i1.sndcdn.com/avatars-000590951940-4cmd88-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-000590951940-4cmd88-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-000590951940-4cmd88-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-000590951940-4cmd88-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-000590951940-4cmd88-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-000590951940-4cmd88-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-000590951940-4cmd88-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-000590951940-4cmd88-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-000590951940-4cmd88-mini.jpg'
+          default: 'https://i1.sndcdn.com/avatars-r21GMTC5033qhBUL-TUnTdQ-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-r21GMTC5033qhBUL-TUnTdQ-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-r21GMTC5033qhBUL-TUnTdQ-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-r21GMTC5033qhBUL-TUnTdQ-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-r21GMTC5033qhBUL-TUnTdQ-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-r21GMTC5033qhBUL-TUnTdQ-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-r21GMTC5033qhBUL-TUnTdQ-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-r21GMTC5033qhBUL-TUnTdQ-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-r21GMTC5033qhBUL-TUnTdQ-mini.jpg'
         },
         badges: { pro: false, proUnlimited: false, verified: false }
       },
       permalink: {
-        basic: 'hello-kitty-skates-to-the-fuckin-cemetary',
-        full: 'https://soundcloud.com/osno1/sets/hello-kitty-skates-to-the-fuckin-cemetary'
+        basic: 'hello-world',
+        full: 'https://soundcloud.com/user-752975845/sets/hello-world'
       },
       isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/264012989' },
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-000186252146-0r7m3p-mini.jpg'
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A2180469077'
       },
-      setType: 'ep',
-      duration: 919068,
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-7zHlHBCy91oULAWH-1SY0jA-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-7zHlHBCy91oULAWH-1SY0jA-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-7zHlHBCy91oULAWH-1SY0jA-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-7zHlHBCy91oULAWH-1SY0jA-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-7zHlHBCy91oULAWH-1SY0jA-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-7zHlHBCy91oULAWH-1SY0jA-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-7zHlHBCy91oULAWH-1SY0jA-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-7zHlHBCy91oULAWH-1SY0jA-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-7zHlHBCy91oULAWH-1SY0jA-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-7zHlHBCy91oULAWH-1SY0jA-mini.jpg'
+      },
+      setType: 'album',
+      duration: 1497941,
       dates: {
-        created: '2016-10-02T09:12:34Z',
-        published: '2016-10-02T09:12:34Z',
-        modified: '2017-07-27T17:08:35Z',
-        display: '2016-10-02T09:12:34Z',
-        release: '2016-10-01T00:00:00Z'
+        created: '2026-01-25T15:21:46Z',
+        published: '2026-01-29T22:00:15Z',
+        modified: '2026-01-29T22:00:15Z',
+        display: '2026-01-29T22:00:15Z',
+        release: '2026-01-30T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: { title: 'Hello, World! :)', description: '' },
+      trackCount: 13,
+      socialInfo: { likesCount: 3, repostsCount: 0, managedByFeeds: false },
+      genre: 'Hip-hop & Rap',
+      label: '',
+      license: 'all-rights-reserved',
+      purchaseInfo: { title: null, url: null },
+      tags: ''
+    },
+    Album {
+      type: 'Album',
+      id: 2174896688,
+      user: User {
+        type: 'User',
+        id: 187281,
+        names: {
+          full: "i don't know who do u think i am.. а strange person maybe *",
+          first: "i don't know who do u think i am..",
+          last: 'а strange person maybe *',
+          username: 'hello▼strange | secret domain | sedubtive | 20:21'
+        },
+        lastModified: '2026-02-02T12:58:15Z',
+        permalink: {
+          basic: 'hello_strange',
+          full: 'https://soundcloud.com/hello_strange'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A187281',
+          urn: 'soundcloud:users:187281'
+        },
+        location: { city: '', country: null },
+        isVerified: false,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-000320885838-6x2rhy-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-000320885838-6x2rhy-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-000320885838-6x2rhy-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-000320885838-6x2rhy-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-000320885838-6x2rhy-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-000320885838-6x2rhy-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-000320885838-6x2rhy-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-000320885838-6x2rhy-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-000320885838-6x2rhy-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: false }
+      },
+      permalink: {
+        basic: 'hello-strange-story-15',
+        full: 'https://soundcloud.com/hello_strange/sets/hello-strange-story-15'
+      },
+      isPublic: true,
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A2174896688'
+      },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-OyuvlesoRnLsuADB-1EQiZg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-OyuvlesoRnLsuADB-1EQiZg-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-OyuvlesoRnLsuADB-1EQiZg-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-OyuvlesoRnLsuADB-1EQiZg-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-OyuvlesoRnLsuADB-1EQiZg-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-OyuvlesoRnLsuADB-1EQiZg-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-OyuvlesoRnLsuADB-1EQiZg-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-OyuvlesoRnLsuADB-1EQiZg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-OyuvlesoRnLsuADB-1EQiZg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-OyuvlesoRnLsuADB-1EQiZg-mini.jpg'
+      },
+      setType: 'album',
+      duration: 6138646,
+      dates: {
+        created: '2026-01-15T09:52:28Z',
+        published: '2026-01-15T09:52:28Z',
+        modified: '2026-01-15T09:52:28Z',
+        display: '2026-01-15T09:52:28Z',
+        release: null
       },
       sharingInfo: {
         shareability: 'public',
@@ -412,244 +746,58 @@ Collection {
         secretToken: null
       },
       texts: {
-        title: 'hello kitty skates to the fuckin CEMETARY',
-        description: 'a bunch of songs about dead bodies\n' +
-          'cover image by Noah Wingren ( @noah-wingren )\n' +
+        title: 'hello strange story #15',
+        description: 'hello strangers !\n' +
           '\n' +
-          'download at https://osno1.bandcamp.com/releases'
+          'We are glad to present our Story #15 ! Story about dub electronic music, from around the world.\n' +
+          'Buy & Support - https://hellostrange.bandcamp.com/album/hello-strange-story-15\n' +
+          '\n' +
+          'Also our FREE DL stuff:\n' +
+          '- hellostrange.bandcamp.com/album/heavenchord-smack-my-dub-up\n' +
+          '- hellostrange.bandcamp.com/album/heavenchord-infinity-dots-alien-earth\n' +
+          '- hellostrange.bandcamp.com/album/substak-axis-ep\n' +
+          '- hellostrange.bandcamp.com/album/deemkeyne-lights-in-the-far-away-ep\n' +
+          '- hellostrange.bandcamp.com/album/shebuzzz-heavenchord-raw-dub\n' +
+          '- hellostrange.bandcamp.com/album/hello-strange-gift-1\n' +
+          '- hellostrange.bandcamp.com/album/hello-strange-gift-2\n' +
+          '- hellostrange.bandcamp.com/album/tribute-to-mark-ward-helly-larson-compilation-free-dl\n' +
+          '\n' +
+          'thanks to all artists and you for support.\n' +
+          '\n' +
+          'Mastering - mmcm.ru\n' +
+          '\n' +
+          'hello ▼ strange\n' +
+          '- t.me/hellostrange ( all podcasts )\n' +
+          '- https://hellostrange.bandcamp.com\n' +
+          '\n' +
+          'also our projects :\n' +
+          '\n' +
+          '► slow dub techno label - soundcloud.com/sedubtive\n' +
+          '- t.me/sedubtive\n' +
+          '- https://sedubtive.bandcamp.com\n' +
+          '\n' +
+          '► ambient field recordings label - soundcloud.com/secretdomainlabel\n' +
+          '- t.me/secretdomain\n' +
+          '- https://secretdomainlabel.bandcamp.com\n' +
+          '\n' +
+          '► nature dub glitch label - soundcloud.com/20label21\n' +
+          '- t.me/label20_21\n' +
+          '- https://2021.bandcamp.com'
       },
-      trackCount: 5,
-      socialInfo: { likesCount: 3510, repostsCount: 229, managedByFeeds: false },
-      genre: 'Alternative Rock',
+      trackCount: 15,
+      socialInfo: { likesCount: 17, repostsCount: 7, managedByFeeds: false },
+      genre: 'Dub / Electronic',
       label: null,
       license: 'all-rights-reserved',
-      purchaseInfo: { title: null, url: null },
-      tags: 'emo trans garbage'
-    },
-    Album {
-      type: 'Album',
-      id: 1337406172,
-      user: User {
-        type: 'User',
-        id: 1026153838,
-        names: { full: '', first: '', last: '', username: 'ㅤ' },
-        lastModified: '2023-08-22T07:11:25Z',
-        permalink: { basic: 'qotoq', full: 'https://soundcloud.com/qotoq' },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/1026153838',
-          urn: 'soundcloud:users:1026153838'
-        },
-        location: { city: 'Tashkent', country: null },
-        isVerified: false,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-tBlCuGOVyL3Oqjze-xy2wWQ-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: false, verified: false }
+      purchaseInfo: {
+        title: null,
+        url: 'https://hellostrange.bandcamp.com/album/hello-strange-story-15'
       },
-      permalink: {
-        basic: 'hello',
-        full: 'https://soundcloud.com/qotoq/sets/hello'
-      },
-      isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1337406172' },
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-zND8yWoRu8oWD1it-aQdZfg-mini.jpg'
-      },
-      setType: 'album',
-      duration: 1116759,
-      dates: {
-        created: '2021-10-26T22:16:42Z',
-        published: '2021-10-26T22:16:42Z',
-        modified: '2022-05-18T14:12:33Z',
-        display: '2021-10-26T22:16:42Z',
-        release: '2021-10-27T00:00:00Z'
-      },
-      sharingInfo: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      texts: { title: 'HELLO', description: '' },
-      trackCount: 9,
-      socialInfo: { likesCount: 162, repostsCount: 3, managedByFeeds: false },
-      genre: 'CODE10HELLO',
-      label: '',
-      license: 'cc-by-nc-sa',
-      purchaseInfo: { title: null, url: null },
-      tags: 'CODE10 "Hip Hop" code10hello hello'
-    },
-    Album {
-      type: 'Album',
-      id: 579182871,
-      user: User {
-        type: 'User',
-        id: 279013358,
-        names: { full: '', first: '', last: '', username: 'PLOHOYPAREN' },
-        lastModified: '2019-12-14T01:22:08Z',
-        permalink: {
-          basic: 'horoshiiparen',
-          full: 'https://soundcloud.com/horoshiiparen'
-        },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/279013358',
-          urn: 'soundcloud:users:279013358'
-        },
-        location: { city: 'MOSCOW', country: null },
-        isVerified: false,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-000374583440-vamzwf-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-000374583440-vamzwf-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-000374583440-vamzwf-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-000374583440-vamzwf-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-000374583440-vamzwf-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-000374583440-vamzwf-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-000374583440-vamzwf-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-000374583440-vamzwf-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-000374583440-vamzwf-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: false, verified: false }
-      },
-      permalink: {
-        basic: 'hello-my-name',
-        full: 'https://soundcloud.com/horoshiiparen/sets/hello-my-name'
-      },
-      isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/579182871' },
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-000386623302-3242s0-mini.jpg'
-      },
-      setType: 'album',
-      duration: 1238859,
-      dates: {
-        created: '2018-08-09T18:39:33Z',
-        published: '2018-08-09T19:01:45Z',
-        modified: '2018-08-09T19:05:05Z',
-        display: '2018-08-09T19:01:45Z',
-        release: '2018-08-09T00:00:00Z'
-      },
-      sharingInfo: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      texts: { title: 'HELLO MY NAME', description: '' },
-      trackCount: 9,
-      socialInfo: { likesCount: 1448, repostsCount: 109, managedByFeeds: false },
-      genre: 'Trap',
-      label: null,
-      license: 'all-rights-reserved',
-      purchaseInfo: { title: null, url: null },
-      tags: ''
-    },
-    Album {
-      type: 'Album',
-      id: 1647845899,
-      user: User {
-        type: 'User',
-        id: 228231713,
-        names: { full: '', first: '', last: '', username: 'why hello' },
-        lastModified: '2023-05-31T13:33:01Z',
-        permalink: {
-          basic: 'whyhellonation',
-          full: 'https://soundcloud.com/whyhellonation'
-        },
-        apiInfo: {
-          uri: 'https://api.soundcloud.com/users/228231713',
-          urn: 'soundcloud:users:228231713'
-        },
-        location: { city: 'Milford', country: null },
-        isVerified: false,
-        avatar: {
-          default: 'https://i1.sndcdn.com/avatars-03gktomS1iqB7ZO0-zs7qrw-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-03gktomS1iqB7ZO0-zs7qrw-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-03gktomS1iqB7ZO0-zs7qrw-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-03gktomS1iqB7ZO0-zs7qrw-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-03gktomS1iqB7ZO0-zs7qrw-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-03gktomS1iqB7ZO0-zs7qrw-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-03gktomS1iqB7ZO0-zs7qrw-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-03gktomS1iqB7ZO0-zs7qrw-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-03gktomS1iqB7ZO0-zs7qrw-mini.jpg'
-        },
-        badges: { pro: false, proUnlimited: false, verified: false }
-      },
-      permalink: {
-        basic: 'camp-hello-2k23',
-        full: 'https://soundcloud.com/whyhellonation/sets/camp-hello-2k23'
-      },
-      isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1647845899' },
-      artwork: {
-        default: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-KxQV9qhfzByDCXdD-4LPzyQ-mini.jpg'
-      },
-      setType: 'ep',
-      duration: 648959,
-      dates: {
-        created: '2023-07-06T20:18:44Z',
-        published: '2023-07-10T19:02:42Z',
-        modified: '2023-07-10T19:02:42Z',
-        display: '2023-07-10T19:02:42Z',
-        release: '2023-07-10T00:00:00Z'
-      },
-      sharingInfo: {
-        shareability: 'public',
-        embeddableBy: 'all',
-        secretToken: null
-      },
-      texts: {
-        title: 'Camp Hello 🏕️ #2k23',
-        description: 'Yes bro @abstrektt, @blxty\n' +
-          '\n' +
-          '@hi_j, @friendly, @kyuuuro, @daxdaxdax_dax, @finny\n' +
-          '\n' +
-          '\n' +
-          'New album, this summer'
-      },
-      trackCount: 5,
-      socialInfo: { likesCount: 31, repostsCount: 7, managedByFeeds: false },
-      genre: '',
-      label: '',
-      license: 'all-rights-reserved',
-      purchaseInfo: { title: null, url: null },
-      tags: ''
+      tags: '"Dub / Deep / Electronic" "dub techno" "deep techno" Electronic techno "hello strange release"'
     }
   ],
   continuation: CollectionContinuation {
-    uri: 'https://api-v2.soundcloud.com/search/albums?query_urn=soundcloud%3Asearch%3A4ce85c91e0424a40bcb866106cd62793&limit=10&offset=10&q=Hello',
+    uri: 'https://api-v2.soundcloud.com/search/albums?query_urn=soundcloud%3Asearch%3Ac81290298c904aa489c6d9abee9b7f3f&limit=10&offset=10&q=Hello',
     opts: { requireTypes: [class Album extends Playlist] { type: 'Album' } }
   }
 }

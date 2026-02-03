@@ -2,6 +2,183 @@ Collection {
   items: [
     Album {
       type: 'Album',
+      id: 2158791197,
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2025-12-20T18:03:24Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'heech',
+        full: 'https://soundcloud.com/bahramnouraei/sets/heech'
+      },
+      isPublic: true,
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A2158791197'
+      },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-G0pFlPgSIzEDbw5y-sacW8Q-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-G0pFlPgSIzEDbw5y-sacW8Q-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-G0pFlPgSIzEDbw5y-sacW8Q-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-G0pFlPgSIzEDbw5y-sacW8Q-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-G0pFlPgSIzEDbw5y-sacW8Q-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-G0pFlPgSIzEDbw5y-sacW8Q-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-G0pFlPgSIzEDbw5y-sacW8Q-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-G0pFlPgSIzEDbw5y-sacW8Q-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-G0pFlPgSIzEDbw5y-sacW8Q-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-G0pFlPgSIzEDbw5y-sacW8Q-mini.jpg'
+      },
+      setType: 'album',
+      duration: 2169862,
+      dates: {
+        created: '2025-12-15T10:56:38Z',
+        published: '2025-12-20T18:01:03Z',
+        modified: '2025-12-20T18:01:03Z',
+        display: '2025-12-20T18:01:03Z',
+        release: '2025-12-20T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: {
+        title: 'HEECH',
+        description: 'Lyrics & Vocals: Bahram Nouraei\n' +
+          'Music Producers: @Peymandegar, @NesaAzadikhah, @hollyhollys, @Tegh, Ghodsea @mohammadsahebzamani\n' +
+          'Mixing & Mastering Engineer: Shahin Entezami • @Tegh\n' +
+          'Cover Artwok & Art Director: Setareh Malekzadeh • https://ghogha.me\n' +
+          '℗ 2025 @Peeleh • https://peeleh.com'
+      },
+      trackCount: 11,
+      socialInfo: { likesCount: 5728, repostsCount: 151, managedByFeeds: false },
+      genre: 'Hip-hop & Rap',
+      label: 'Peeleh',
+      license: 'all-rights-reserved',
+      purchaseInfo: { title: 'BUY CD & VINYL', url: 'https://merch.peeleh.com' },
+      tags: '"Hip-hop & Rap"'
+    },
+    Album {
+      type: 'Album',
+      id: 1904996755,
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2025-12-20T18:03:24Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'khoonekhorshidep',
+        full: 'https://soundcloud.com/bahramnouraei/sets/khoonekhorshidep'
+      },
+      isPublic: true,
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1904996755'
+      },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-a5sK4KyTsuPqlrZV-VsASVQ-mini.jpg'
+      },
+      setType: 'ep',
+      duration: 1512203,
+      dates: {
+        created: '2024-11-11T16:07:41Z',
+        published: '2024-11-11T16:07:41Z',
+        modified: '2024-11-12T15:23:02Z',
+        display: '2024-11-11T16:07:41Z',
+        release: '2024-11-09T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: {
+        title: 'BAHRAM X ALI SORENA • KHOONE KHORSHID',
+        description: 'Lyrics & Vocals: @BahramNouraei X @AliSorena\n' +
+          'Music Producers: @AshkanMousavi, @Peymandegar\n' +
+          'Mixing & Mastering Engineer: @AshkanMousavi\n' +
+          'Visual Artist: Erfan Ashourioun • https://bit.ly/3Ue8cxg\n' +
+          'Art Director: Setareh Malekzadeh • https://ghogha.me\n' +
+          'Executive Producer: Setareh Malekzadeh\n' +
+          '℗ 2024 @Peeleh • https://peeleh.com'
+      },
+      trackCount: 5,
+      socialInfo: { likesCount: 3486, repostsCount: 75, managedByFeeds: false },
+      genre: '',
+      label: 'Peeleh',
+      license: 'all-rights-reserved',
+      purchaseInfo: {
+        title: 'Download',
+        url: 'https://peeleh.bandcamp.com/album/khoone-khorshid'
+      },
+      tags: '"Hip Hop" Rap'
+    },
+    Album {
+      type: 'Album',
       id: 1602102004,
       user: User {
         type: 'User',
@@ -12,27 +189,27 @@ Collection {
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-08T13:26:04Z',
+        lastModified: '2025-12-20T18:03:24Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
         },
         apiInfo: {
-          uri: 'https://api.soundcloud.com/users/9723380',
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
           urn: 'soundcloud:users:9723380'
         },
         location: { city: 'Stockholm', country: 'SE' },
         isVerified: true,
         avatar: {
-          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+          default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
         },
         badges: { pro: false, proUnlimited: true, verified: true }
       },
@@ -41,7 +218,9 @@ Collection {
         full: 'https://soundcloud.com/bahramnouraei/sets/khodha'
       },
       isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1602102004' },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1602102004'
+      },
       artwork: {
         default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
         t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
@@ -59,7 +238,7 @@ Collection {
       dates: {
         created: '2023-04-13T17:46:04Z',
         published: '2023-04-13T17:46:04Z',
-        modified: '2023-07-21T13:58:35Z',
+        modified: '2025-03-17T07:35:44Z',
         display: '2023-04-13T17:46:04Z',
         release: '2023-04-13T00:00:00Z'
       },
@@ -80,12 +259,15 @@ Collection {
           '© ℗ 2023 Peeleh • https://peeleh.com'
       },
       trackCount: 12,
-      socialInfo: { likesCount: 24316, repostsCount: 1186, managedByFeeds: false },
+      socialInfo: { likesCount: 27131, repostsCount: 1149, managedByFeeds: false },
       genre: 'Hip-hop & Rap',
       label: 'Peeleh',
       license: 'all-rights-reserved',
-      purchaseInfo: { title: 'دریافت از ایران', url: 'https://peeleh.com/khodha' },
-      tags: 'Experimental "Hip Hop"'
+      purchaseInfo: {
+        title: 'BUY CD + BOOKLET',
+        url: 'https://merch.peeleh.com/products/khodha-cd-booklet'
+      },
+      tags: 'Experimental "Hip Hop" Iran'
     },
     Album {
       type: 'Album',
@@ -99,27 +281,27 @@ Collection {
           last: 'Nouraei',
           username: 'Bahram'
         },
-        lastModified: '2023-08-08T13:26:04Z',
+        lastModified: '2025-12-20T18:03:24Z',
         permalink: {
           basic: 'bahramnouraei',
           full: 'https://soundcloud.com/bahramnouraei'
         },
         apiInfo: {
-          uri: 'https://api.soundcloud.com/users/9723380',
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
           urn: 'soundcloud:users:9723380'
         },
         location: { city: 'Stockholm', country: 'SE' },
         isVerified: true,
         avatar: {
-          default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-          t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-          crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-          t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-          large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-          badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-          small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-          tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-          mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+          default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
         },
         badges: { pro: false, proUnlimited: true, verified: true }
       },
@@ -128,25 +310,27 @@ Collection {
         full: 'https://soundcloud.com/bahramnouraei/sets/eiz8ykd6t6rk'
       },
       isPublic: true,
-      apiInfo: { uri: 'https://api.soundcloud.com/playlists/1018563193' },
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1018563193'
+      },
       artwork: {
-        default: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-t500x500.jpg',
-        t300x300: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-t300x300.jpg',
-        t67x67: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-t67x67.jpg',
-        crop: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-crop.jpg',
-        large: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-large.jpg',
-        badge: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-badge.jpg',
-        small: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-small.jpg',
-        tiny: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/artworks-9058c877-f689-44fc-85bc-ba0105a6588a-0-mini.jpg'
+        default: 'https://i1.sndcdn.com/artworks-6ROTTModesHK8MNG-iTdytQ-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-6ROTTModesHK8MNG-iTdytQ-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-6ROTTModesHK8MNG-iTdytQ-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-6ROTTModesHK8MNG-iTdytQ-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-6ROTTModesHK8MNG-iTdytQ-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-6ROTTModesHK8MNG-iTdytQ-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-6ROTTModesHK8MNG-iTdytQ-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-6ROTTModesHK8MNG-iTdytQ-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-6ROTTModesHK8MNG-iTdytQ-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-6ROTTModesHK8MNG-iTdytQ-mini.jpg'
       },
       setType: 'ep',
       duration: 1344836,
       dates: {
         created: '2020-03-25T14:49:10Z',
         published: '2020-03-22T00:00:00Z',
-        modified: '2023-08-10T10:12:30Z',
+        modified: '2025-03-17T07:36:04Z',
         display: '2020-03-22T00:00:00Z',
         release: '2020-03-22T00:00:00Z'
       },
@@ -165,12 +349,112 @@ Collection {
           '#alternative #hiphop #Iran #Bahram'
       },
       trackCount: 5,
-      socialInfo: { likesCount: 4241, repostsCount: 205, managedByFeeds: true },
+      socialInfo: { likesCount: 5799, repostsCount: 230, managedByFeeds: true },
       genre: 'Hip Hop/Rap',
       label: null,
       license: 'all-rights-reserved',
-      purchaseInfo: { title: 'Buy', url: 'http://www.peeleh.com/gozaar' },
+      purchaseInfo: {
+        title: 'BUY CD + BOOKLET',
+        url: 'https://merch.peeleh.com/products/gozaar-cd-booklet'
+      },
       tags: ''
+    },
+    Album {
+      type: 'Album',
+      id: 121907374,
+      user: User {
+        type: 'User',
+        id: 9723380,
+        names: {
+          full: 'Bahram Nouraei',
+          first: 'Bahram',
+          last: 'Nouraei',
+          username: 'Bahram'
+        },
+        lastModified: '2025-12-20T18:03:24Z',
+        permalink: {
+          basic: 'bahramnouraei',
+          full: 'https://soundcloud.com/bahramnouraei'
+        },
+        apiInfo: {
+          uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
+          urn: 'soundcloud:users:9723380'
+        },
+        location: { city: 'Stockholm', country: 'SE' },
+        isVerified: true,
+        avatar: {
+          default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+          t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+          crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+          t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+          large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+          badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+          small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+          tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+          mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
+        },
+        badges: { pro: false, proUnlimited: true, verified: true }
+      },
+      permalink: {
+        basic: 'eshtebahe-khoob',
+        full: 'https://soundcloud.com/bahramnouraei/sets/eshtebahe-khoob'
+      },
+      isPublic: true,
+      apiInfo: {
+        uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A121907374'
+      },
+      artwork: {
+        default: 'https://i1.sndcdn.com/artworks-nmfqCUJsH6V82gOd-rZRn6w-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/artworks-nmfqCUJsH6V82gOd-rZRn6w-t500x500.jpg',
+        t300x300: 'https://i1.sndcdn.com/artworks-nmfqCUJsH6V82gOd-rZRn6w-t300x300.jpg',
+        t67x67: 'https://i1.sndcdn.com/artworks-nmfqCUJsH6V82gOd-rZRn6w-t67x67.jpg',
+        crop: 'https://i1.sndcdn.com/artworks-nmfqCUJsH6V82gOd-rZRn6w-crop.jpg',
+        large: 'https://i1.sndcdn.com/artworks-nmfqCUJsH6V82gOd-rZRn6w-large.jpg',
+        badge: 'https://i1.sndcdn.com/artworks-nmfqCUJsH6V82gOd-rZRn6w-badge.jpg',
+        small: 'https://i1.sndcdn.com/artworks-nmfqCUJsH6V82gOd-rZRn6w-small.jpg',
+        tiny: 'https://i1.sndcdn.com/artworks-nmfqCUJsH6V82gOd-rZRn6w-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/artworks-nmfqCUJsH6V82gOd-rZRn6w-mini.jpg'
+      },
+      setType: 'album',
+      duration: 2761273,
+      dates: {
+        created: '2015-07-03T17:35:24Z',
+        published: '2023-09-28T17:24:47Z',
+        modified: '2025-03-25T21:29:45Z',
+        display: '2023-09-28T17:24:47Z',
+        release: '2015-07-04T00:00:00Z'
+      },
+      sharingInfo: {
+        shareability: 'public',
+        embeddableBy: 'all',
+        secretToken: null
+      },
+      texts: {
+        title: 'ESHTEBAHE KHOOB',
+        description: 'Lyrics and Vocals: Bahram Nouraei\n' +
+          'Music Producers: @Mahdyar Aghajani & Bahram Nouraei\n' +
+          'Sound Designer, Mixing & Mastering Engineer: @Mahdyar Aghajani\n' +
+          'Graphic Designer: Setareh Malekzadeh - https://ghogha.me\n' +
+          '\n' +
+          '◈ Exclusive Artwork Collection by Setareh Malekzadeh: \n' +
+          'https://flickr.com/photos/setareh-malekzadeh/sets/72157656651586531\n' +
+          '◈ Thanks to the Cultures of Resistance Network for their kind support. https://culturesofresistance.org\n' +
+          "◈ Watch the album's trailer on YouTube:\n" +
+          'https://youtube.com/watch?v=4mDIKKywIa8\n' +
+          '\n' +
+          'Release Date: 4th of July 2015\n' +
+          '℗ © 2015 Bahram Nouraei'
+      },
+      trackCount: 16,
+      socialInfo: { likesCount: 11142, repostsCount: 671, managedByFeeds: false },
+      genre: 'Hip-hop & Rap',
+      label: 'Bahram Nouraei',
+      license: 'all-rights-reserved',
+      purchaseInfo: {
+        title: 'BUY CD + BOOKLET',
+        url: 'https://merch.peeleh.com/products/eshtebahe-khoob-cd-booklet-digipack-4p'
+      },
+      tags: 'بهرام "هیپ هاپ" مهدیار آقاجانی GoodMistake Bahram "Hip Hop" Nouraei Aghajani Alternative AbstractHipHop اشتباهخوب Experimental Rap'
     }
   ],
   continuation: null

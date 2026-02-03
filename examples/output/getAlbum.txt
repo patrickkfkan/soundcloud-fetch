@@ -10,27 +10,27 @@ Album {
       last: 'Nouraei',
       username: 'Bahram'
     },
-    lastModified: '2023-08-08T13:26:04Z',
+    lastModified: '2025-12-20T18:03:24Z',
     permalink: {
       basic: 'bahramnouraei',
       full: 'https://soundcloud.com/bahramnouraei'
     },
     apiInfo: {
-      uri: 'https://api.soundcloud.com/users/9723380',
+      uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
       urn: 'soundcloud:users:9723380'
     },
     location: { city: 'Stockholm', country: 'SE' },
     isVerified: true,
     avatar: {
-      default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-      t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-      crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-      t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-      large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-      badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-      small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-      tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-      mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+      default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+      t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+      crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+      t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+      large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+      badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+      small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+      tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+      mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
     },
     badges: { pro: false, proUnlimited: true, verified: true }
   },
@@ -39,7 +39,9 @@ Album {
     full: 'https://soundcloud.com/bahramnouraei/sets/khodha'
   },
   isPublic: true,
-  apiInfo: { uri: 'https://api.soundcloud.com/playlists/1602102004' },
+  apiInfo: {
+    uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1602102004'
+  },
   artwork: {
     default: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-large.jpg',
     t500x500: 'https://i1.sndcdn.com/artworks-LhbcrJ1yhaLs6Xt5-ZnkxBQ-t500x500.jpg',
@@ -57,7 +59,7 @@ Album {
   dates: {
     created: '2023-04-13T17:46:04Z',
     published: '2023-04-13T17:46:04Z',
-    modified: '2023-07-21T13:58:35Z',
+    modified: '2025-03-17T07:35:44Z',
     display: '2023-04-13T17:46:04Z',
     release: '2023-04-13T00:00:00Z'
   },
@@ -74,12 +76,15 @@ Album {
       '© ℗ 2023 Peeleh • https://peeleh.com'
   },
   trackCount: 12,
-  socialInfo: { likesCount: 24316, repostsCount: 1186, managedByFeeds: false },
+  socialInfo: { likesCount: 27131, repostsCount: 1149, managedByFeeds: false },
   genre: 'Hip-hop & Rap',
   label: 'Peeleh',
   license: 'all-rights-reserved',
-  purchaseInfo: { title: 'دریافت از ایران', url: 'https://peeleh.com/khodha' },
-  tags: 'Experimental "Hip Hop"'
+  purchaseInfo: {
+    title: 'BUY CD + BOOKLET',
+    url: 'https://merch.peeleh.com/products/khodha-cd-booklet'
+  },
+  tags: 'Experimental "Hip Hop" Iran'
 }
 --- TRACKS ---
 [
@@ -128,24 +133,44 @@ Album {
     dates: {
       created: '2023-04-13T17:46:03Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-08-18T14:12:33Z',
+      modified: '2025-02-23T09:05:16Z',
       display: '2023-04-13T17:46:03Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 3032,
-      likesCount: 19998,
-      repostsCount: 411
+      commentCount: 2822,
+      likesCount: 23257,
+      repostsCount: 424
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 882655, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 1239830, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745327/9ed89332-9a70-4e40-9861-ab1496eb88b7/stream/hls',
+          preset: 'aac_160k',
+          duration: 102046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745327/14f50fff-dba4-461e-b6b0-746033911ffb/stream/hls',
+          preset: 'abr_sq',
+          duration: 102046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745327/392eaa82-4202-407d-8a9c-2875f8670f85/stream/hls',
@@ -184,10 +209,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745327',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745327',
       urn: 'soundcloud:tracks:1491745327'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745327,
@@ -204,7 +232,7 @@ Album {
       },
       apiInfo: { urn: 'soundcloud:tracks:1491745327' }
     },
-    durations: { full: 102034, playback: 102034 },
+    durations: { full: 102034, playback: 102046 },
     genre: 'Hip-hop & Rap',
     license: 'all-rights-reserved',
     isPublic: true,
@@ -232,27 +260,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
@@ -334,24 +362,44 @@ Album {
     dates: {
       created: '2023-04-13T17:46:01Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-08-19T08:37:19Z',
+      modified: '2025-02-23T09:05:35Z',
       display: '2023-04-13T17:46:01Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 3411,
-      likesCount: 18141,
-      repostsCount: 327
+      commentCount: 3198,
+      likesCount: 21055,
+      repostsCount: 323
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 657274, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 986055, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745306/275ac0aa-d7b6-40b1-a159-45de86cee3f1/stream/hls',
+          preset: 'aac_160k',
+          duration: 236046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745306/e4e6b9e1-edcb-423a-aa32-01f92f8d30ae/stream/hls',
+          preset: 'abr_sq',
+          duration: 236046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745306/e2ff87c0-ed15-4442-90e3-8c0105556f33/stream/hls',
@@ -390,10 +438,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745306',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745306',
       urn: 'soundcloud:tracks:1491745306'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745306,
@@ -410,7 +461,7 @@ Album {
       },
       apiInfo: { urn: 'soundcloud:tracks:1491745306' }
     },
-    durations: { full: 236042, playback: 236042 },
+    durations: { full: 236042, playback: 236046 },
     genre: 'Hip-hop & Rap',
     license: 'all-rights-reserved',
     isPublic: true,
@@ -438,27 +489,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
@@ -535,24 +586,44 @@ Album {
     dates: {
       created: '2023-04-13T17:46:00Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:00:21Z',
+      modified: '2025-02-23T09:05:50Z',
       display: '2023-04-13T17:46:00Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 2241,
-      likesCount: 15819,
-      repostsCount: 266
+      commentCount: 2182,
+      likesCount: 19291,
+      repostsCount: 267
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 600314, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 959404, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745270/7a8f9255-574a-449e-977e-de670ca5cf47/stream/hls',
+          preset: 'aac_160k',
+          duration: 208046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745270/82a2640f-ae3d-4ad5-9cb2-e42e9e691c98/stream/hls',
+          preset: 'abr_sq',
+          duration: 208046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745270/f4cc5779-fda6-4246-83d3-be6ec8cc39ee/stream/hls',
@@ -591,10 +662,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745270',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745270',
       urn: 'soundcloud:tracks:1491745270'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745270,
@@ -611,7 +685,7 @@ Album {
       },
       apiInfo: { urn: 'soundcloud:tracks:1491745270' }
     },
-    durations: { full: 208039, playback: 208039 },
+    durations: { full: 208039, playback: 208046 },
     genre: 'Hip-hop & Rap',
     license: 'all-rights-reserved',
     isPublic: true,
@@ -639,27 +713,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
@@ -679,7 +753,7 @@ Album {
         '\n' +
         '\n' +
         'ما با کل بنا مشکل داشتیم زدیم به بن\n' +
-        'نه با بره ها چریدیم نخوردیم فریب گرگ\n' +
+        'نه با بره ها چریدیم نه خوردیم فریب گرگ\n' +
         'نوشتیم واسه روشنایی و نسیم صلح \n' +
         'واسه هرکی خودی بود و به مرور غریبه شد\n' +
         'دهنامون بسته نموند با نرم و با زور و قفل\n' +
@@ -748,24 +822,44 @@ Album {
     dates: {
       created: '2023-04-13T17:45:59Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-08-18T14:54:59Z',
+      modified: '2025-02-23T09:06:04Z',
       display: '2023-04-13T17:45:59Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1839,
-      likesCount: 12940,
-      repostsCount: 198
+      commentCount: 1738,
+      likesCount: 14631,
+      repostsCount: 194
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 471295, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 720258, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745243/aa9a1366-57ec-4260-bb58-698993b88519/stream/hls',
+          preset: 'aac_160k',
+          duration: 202046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745243/8efd2613-83d5-47c5-890d-16b412d9cd2a/stream/hls',
+          preset: 'abr_sq',
+          duration: 202046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745243/8139308e-0e0e-4015-986d-0e7ecbf3f22d/stream/hls',
@@ -804,10 +898,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745243',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745243',
       urn: 'soundcloud:tracks:1491745243'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745243,
@@ -824,7 +921,7 @@ Album {
       },
       apiInfo: { urn: 'soundcloud:tracks:1491745243' }
     },
-    durations: { full: 202031, playback: 202031 },
+    durations: { full: 202031, playback: 202046 },
     genre: 'Hip-hop & Rap',
     license: 'all-rights-reserved',
     isPublic: true,
@@ -852,27 +949,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
@@ -957,24 +1054,44 @@ Album {
     dates: {
       created: '2023-04-13T17:45:58Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:00:21Z',
+      modified: '2025-02-23T09:06:20Z',
       display: '2023-04-13T17:45:58Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1836,
-      likesCount: 13270,
-      repostsCount: 231
+      commentCount: 1817,
+      likesCount: 15283,
+      repostsCount: 225
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 513478, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 785929, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745210/3e28ee3a-85a4-4bf2-a270-7f3e53e5fd6a/stream/hls',
+          preset: 'aac_160k',
+          duration: 190046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745210/93ddf332-fe33-4067-a2a3-55af65068893/stream/hls',
+          preset: 'abr_sq',
+          duration: 190046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745210/23e4f061-c688-40fd-a180-e464532bdcf4/stream/hls',
@@ -1013,10 +1130,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745210',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745210',
       urn: 'soundcloud:tracks:1491745210'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745210,
@@ -1033,7 +1153,7 @@ Album {
       },
       apiInfo: { urn: 'soundcloud:tracks:1491745210' }
     },
-    durations: { full: 190041, playback: 190041 },
+    durations: { full: 190041, playback: 190046 },
     genre: 'Hip-hop & Rap',
     license: 'all-rights-reserved',
     isPublic: true,
@@ -1061,27 +1181,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
@@ -1165,24 +1285,44 @@ Album {
     dates: {
       created: '2023-04-13T17:45:58Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:00:21Z',
+      modified: '2025-02-23T09:06:39Z',
       display: '2023-04-13T17:45:58Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 2137,
-      likesCount: 11916,
-      repostsCount: 181
+      commentCount: 2083,
+      likesCount: 13574,
+      repostsCount: 186
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 435310, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 663984, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745195/c506c0d6-0056-4efb-99b8-4b9976f24563/stream/hls',
+          preset: 'aac_160k',
+          duration: 351546,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745195/2d1f4c48-c806-4c87-9a01-c61fb418384b/stream/hls',
+          preset: 'abr_sq',
+          duration: 351546,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745195/36c8c10c-c381-41bd-a5b6-8a15df41f9ef/stream/hls',
@@ -1221,10 +1361,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745195',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745195',
       urn: 'soundcloud:tracks:1491745195'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745195,
@@ -1241,7 +1384,7 @@ Album {
       },
       apiInfo: { urn: 'soundcloud:tracks:1491745195' }
     },
-    durations: { full: 351530, playback: 351530 },
+    durations: { full: 351530, playback: 351546 },
     genre: 'Hip-hop & Rap',
     license: 'all-rights-reserved',
     isPublic: true,
@@ -1269,27 +1412,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
@@ -1376,24 +1519,44 @@ Album {
     dates: {
       created: '2023-04-13T17:45:57Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:00:21Z',
+      modified: '2025-02-23T09:06:53Z',
       display: '2023-04-13T17:45:57Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 2079,
-      likesCount: 14745,
-      repostsCount: 269
+      commentCount: 2010,
+      likesCount: 17646,
+      repostsCount: 270
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 530736, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 853408, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745162/8cf1ef66-10f8-4f71-8fab-803d3cf1333f/stream/hls',
+          preset: 'aac_160k',
+          duration: 196046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745162/c0e2f1e5-8b5d-482c-bb3c-31dcb89bc44d/stream/hls',
+          preset: 'abr_sq',
+          duration: 196046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745162/26ee60c9-0533-48bd-9a99-e316bbafc126/stream/hls',
@@ -1432,10 +1595,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745162',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745162',
       urn: 'soundcloud:tracks:1491745162'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745162,
@@ -1452,7 +1618,7 @@ Album {
       },
       apiInfo: { urn: 'soundcloud:tracks:1491745162' }
     },
-    durations: { full: 196049, playback: 196049 },
+    durations: { full: 196049, playback: 196046 },
     genre: 'Hip-hop & Rap',
     license: 'all-rights-reserved',
     isPublic: true,
@@ -1480,27 +1646,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
@@ -1587,24 +1753,44 @@ Album {
     dates: {
       created: '2023-04-13T17:45:56Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:00:21Z',
+      modified: '2025-02-23T09:07:08Z',
       display: '2023-04-13T17:45:56Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1842,
-      likesCount: 12425,
-      repostsCount: 223
+      commentCount: 1674,
+      likesCount: 14975,
+      repostsCount: 221
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 471765, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 770223, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745138/f7064f04-0ad5-409a-8b2e-77a1155c22f0/stream/hls',
+          preset: 'aac_160k',
+          duration: 168046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745138/337a5766-5ea0-440a-9264-d79be4086c9d/stream/hls',
+          preset: 'abr_sq',
+          duration: 168046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745138/79f420a1-f554-497e-a19b-ac5da7894992/stream/hls',
@@ -1643,10 +1829,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745138',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745138',
       urn: 'soundcloud:tracks:1491745138'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745138,
@@ -1691,27 +1880,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
@@ -1814,24 +2003,44 @@ Album {
     dates: {
       created: '2023-04-13T17:45:54Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:07:08Z',
+      modified: '2025-02-23T09:07:21Z',
       display: '2023-04-13T17:45:54Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 2140,
-      likesCount: 15814,
-      repostsCount: 297
+      commentCount: 2114,
+      likesCount: 20194,
+      repostsCount: 301
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 586568, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 1001678, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745102/b81cbcde-c9e7-455c-85ed-55cfaafb2956/stream/hls',
+          preset: 'aac_160k',
+          duration: 180046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745102/996e103a-a18c-4146-9d11-471bee4913f9/stream/hls',
+          preset: 'abr_sq',
+          duration: 180046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745102/62a54a4a-3eaf-4299-b486-59576fcc3ae0/stream/hls',
@@ -1870,10 +2079,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745102',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745102',
       urn: 'soundcloud:tracks:1491745102'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745102,
@@ -1890,7 +2102,7 @@ Album {
       },
       apiInfo: { urn: 'soundcloud:tracks:1491745102' }
     },
-    durations: { full: 180036, playback: 180036 },
+    durations: { full: 180036, playback: 180046 },
     genre: 'Hip-hop & Rap',
     license: 'all-rights-reserved',
     isPublic: true,
@@ -1918,27 +2130,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
@@ -2016,24 +2228,44 @@ Album {
     dates: {
       created: '2023-04-13T17:45:53Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:00:21Z',
+      modified: '2025-02-23T09:07:34Z',
       display: '2023-04-13T17:45:53Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1304,
-      likesCount: 10149,
-      repostsCount: 165
+      commentCount: 1225,
+      likesCount: 11223,
+      repostsCount: 151
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 396942, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 586568, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745078/7ed3be8b-cca4-448c-a09e-9a158fb4b5f9/stream/hls',
+          preset: 'aac_160k',
+          duration: 182046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745078/f877f767-b34d-4661-8de0-0b053b2afac9/stream/hls',
+          preset: 'abr_sq',
+          duration: 182046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745078/4a12f5d6-c104-44f8-b553-edf8d8404a35/stream/hls',
@@ -2072,10 +2304,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745078',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745078',
       urn: 'soundcloud:tracks:1491745078'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745078,
@@ -2092,7 +2327,7 @@ Album {
       },
       apiInfo: { urn: 'soundcloud:tracks:1491745078' }
     },
-    durations: { full: 182047, playback: 182047 },
+    durations: { full: 182047, playback: 182046 },
     genre: 'Hip-hop & Rap',
     license: 'all-rights-reserved',
     isPublic: true,
@@ -2120,27 +2355,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
@@ -2221,24 +2456,44 @@ Album {
     dates: {
       created: '2023-04-13T17:45:52Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-08-20T08:42:05Z',
+      modified: '2025-02-23T09:07:47Z',
       display: '2023-04-13T17:45:52Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1624,
-      likesCount: 12958,
-      repostsCount: 274
+      commentCount: 1439,
+      likesCount: 15154,
+      repostsCount: 279
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 458497, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 720027, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745048/4e29c432-9c6f-4ace-9729-65e4bf559840/stream/hls',
+          preset: 'aac_160k',
+          duration: 178046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745048/e06a22de-cf02-4ad2-ab1a-8c0ee0ce73e6/stream/hls',
+          preset: 'abr_sq',
+          duration: 178046,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745048/8a13d0ea-eab7-4591-96cf-4e8198f7db7a/stream/hls',
@@ -2277,10 +2532,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745048',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745048',
       urn: 'soundcloud:tracks:1491745048'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com/khodha' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745048,
@@ -2297,7 +2555,7 @@ Album {
       },
       apiInfo: { urn: 'soundcloud:tracks:1491745048' }
     },
-    durations: { full: 178051, playback: 178051 },
+    durations: { full: 178051, playback: 178046 },
     genre: 'Hip-hop & Rap',
     license: 'all-rights-reserved',
     isPublic: true,
@@ -2325,27 +2583,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
@@ -2365,7 +2623,7 @@ Album {
         '\n' +
         '\n' +
         'کف دستمو وا می کنم می بینم آینه مو هزار دفعه\n' +
-        'میگه بهم روم سیاه ست، لبه هام تیزه توی مشتت فشار نده\n' +
+        'میگه بهم روم سیاه ست، لبه هام تیزه تو مشتت فشار نده\n' +
         'تو امیدت به سایه ته\n' +
         'همه داراییت جسارته\n' +
         'پشتتم تا نورت کافیه\n' +
@@ -2435,24 +2693,44 @@ Album {
     dates: {
       created: '2023-04-13T17:45:51Z',
       released: '2023-04-13T00:00:00Z',
-      modified: '2023-07-21T14:00:21Z',
+      modified: '2025-02-23T09:08:01Z',
       display: '2023-04-13T17:45:51Z'
     },
     downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
     socialInfo: {
       commentable: true,
-      commentCount: 1722,
-      likesCount: 11786,
-      repostsCount: 239
+      commentCount: 1594,
+      likesCount: 13213,
+      repostsCount: 225
     },
     sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
-    playbackInfo: { playbackCount: 405390, policy: 'ALLOW' },
+    playbackInfo: { playbackCount: 596404, policy: 'ALLOW' },
     isBlocked: false,
     isSnipped: false,
     mediaInfo: {
-      trackFormat: 'single-track',
+      trackFormat: undefined,
       encodingState: 'finished',
       transcodings: [
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745006/bbe53209-9dbf-426b-81f4-0ac5948bc7ce/stream/hls',
+          preset: 'aac_160k',
+          duration: 181546,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+          quality: 'sq'
+        },
+        MediaTranscoding {
+          type: 'MediaTranscoding',
+          url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745006/ec494310-0b55-4a9c-8c29-c455ef461517/stream/hls',
+          preset: 'abr_sq',
+          duration: 181546,
+          isSnipped: false,
+          protocol: 'hls',
+          mimeType: 'audio/mpegurl',
+          quality: 'sq'
+        },
         MediaTranscoding {
           type: 'MediaTranscoding',
           url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1491745006/9fdae9a5-65cb-4e14-bd95-8ecd9991ddcb/stream/hls',
@@ -2491,10 +2769,13 @@ Album {
     },
     apiInfo: {
       streamable: true,
-      uri: 'https://api.soundcloud.com/tracks/1491745006',
+      uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1491745006',
       urn: 'soundcloud:tracks:1491745006'
     },
-    purchaseInfo: { title: null, url: 'https://peeleh.com' },
+    purchaseInfo: {
+      title: 'MERCH',
+      url: 'https://merch.peeleh.com/products/khodha-unisex-sweatshirt-dtg-print'
+    },
     publisher: Publisher {
       type: 'Publisher',
       id: 1491745006,
@@ -2511,7 +2792,7 @@ Album {
       },
       apiInfo: { urn: 'soundcloud:tracks:1491745006' }
     },
-    durations: { full: 181551, playback: 181551 },
+    durations: { full: 181551, playback: 181546 },
     genre: 'Hip-hop & Rap',
     license: 'all-rights-reserved',
     isPublic: true,
@@ -2539,27 +2820,27 @@ Album {
         last: 'Nouraei',
         username: 'Bahram'
       },
-      lastModified: '2023-08-08T13:26:04Z',
+      lastModified: '2025-12-20T18:03:24Z',
       permalink: {
         basic: 'bahramnouraei',
         full: 'https://soundcloud.com/bahramnouraei'
       },
       apiInfo: {
-        uri: 'https://api.soundcloud.com/users/9723380',
+        uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A9723380',
         urn: 'soundcloud:users:9723380'
       },
       location: { city: 'Stockholm', country: 'SE' },
       isVerified: true,
       avatar: {
-        default: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        t500x500: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t500x500.jpg',
-        crop: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-crop.jpg',
-        t300x300: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-t300x300.jpg',
-        large: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-large.jpg',
-        badge: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-badge.jpg',
-        small: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-small.jpg',
-        tiny: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-tiny.jpg',
-        mini: 'https://i1.sndcdn.com/avatars-r9HeUcsDYF5OZsVv-nZBqgg-mini.jpg'
+        default: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        t500x500: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t500x500.jpg',
+        crop: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-crop.jpg',
+        t300x300: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-t300x300.jpg',
+        large: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-large.jpg',
+        badge: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-badge.jpg',
+        small: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-small.jpg',
+        tiny: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-tiny.jpg',
+        mini: 'https://i1.sndcdn.com/avatars-jhGySZPToPZ6BbjG-2bsRxg-mini.jpg'
       },
       badges: { pro: false, proUnlimited: true, verified: true }
     }
