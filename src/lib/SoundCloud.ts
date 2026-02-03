@@ -111,6 +111,12 @@ export default class SoundCloud {
     return this.#fetchCollection(endpoint, params, { requireTypes: Selection });
   }
 
+  async getCharts() {
+    const params = await this.#getCommonParams();
+    const endpoint = '/charts/selections';
+    return this.#fetchCollection(endpoint, params, { requireTypes: Selection });
+  }
+
   /************************************************************/
   /* Playlist / Album                                         */
   /************************************************************/

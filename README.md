@@ -106,6 +106,19 @@ Promise that resolves to a [Collection](#collections) of [Selection](./docs/api/
 ---
 </details>
 
+<details>
+<summary><code>getCharts()</code></summary>
+<br />
+
+Fetches music charts.
+
+**Returns**
+
+Promise that resolves to a [Collection](#collections) of [Selection](./docs/api/classes/Selection.md) objects.
+
+---
+</details>
+
 ### Playlists / Albums / Tracks
 
 <details>

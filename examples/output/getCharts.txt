@@ -1,0 +1,997 @@
+Collection {
+  items: [
+    Selection {
+      type: 'Selection',
+      id: 'soundcloud:selections:music-charts-us',
+      title: 'Music Charts US',
+      nextUri: null,
+      items: [
+        Playlist {
+          type: 'Playlist',
+          id: 1714689261,
+          user: User {
+            type: 'User',
+            id: 1319568996,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'all-music-genres',
+            full: 'https://soundcloud.com/music-charts-us/sets/all-music-genres'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1714689261'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-qOPIb9crvQyKIK8m-oO5SrA-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-qOPIb9crvQyKIK8m-oO5SrA-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-qOPIb9crvQyKIK8m-oO5SrA-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-qOPIb9crvQyKIK8m-oO5SrA-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-qOPIb9crvQyKIK8m-oO5SrA-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-qOPIb9crvQyKIK8m-oO5SrA-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-qOPIb9crvQyKIK8m-oO5SrA-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-qOPIb9crvQyKIK8m-oO5SrA-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-qOPIb9crvQyKIK8m-oO5SrA-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-qOPIb9crvQyKIK8m-oO5SrA-mini.jpg'
+          },
+          setType: '',
+          duration: 8547894,
+          dates: {
+            created: '2023-11-01T08:43:25Z',
+            published: '2023-11-01T08:43:25Z',
+            modified: '2026-01-29T14:07:46Z',
+            display: '2023-11-01T08:43:25Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'All music genres', description: undefined },
+          trackCount: 50,
+          socialInfo: { likesCount: 2865, repostsCount: 76, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1712717571,
+          user: User {
+            type: 'User',
+            id: 1319568996,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'new-hot',
+            full: 'https://soundcloud.com/music-charts-us/sets/new-hot'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1712717571'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-TgBGJs1FYpYtjvMb-Mo05Ew-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-TgBGJs1FYpYtjvMb-Mo05Ew-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-TgBGJs1FYpYtjvMb-Mo05Ew-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-TgBGJs1FYpYtjvMb-Mo05Ew-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-TgBGJs1FYpYtjvMb-Mo05Ew-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-TgBGJs1FYpYtjvMb-Mo05Ew-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-TgBGJs1FYpYtjvMb-Mo05Ew-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-TgBGJs1FYpYtjvMb-Mo05Ew-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-TgBGJs1FYpYtjvMb-Mo05Ew-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-TgBGJs1FYpYtjvMb-Mo05Ew-mini.jpg'
+          },
+          setType: '',
+          duration: 8725417,
+          dates: {
+            created: '2023-10-28T13:35:11Z',
+            published: '2023-10-28T13:35:11Z',
+            modified: '2026-02-02T21:03:08Z',
+            display: '2023-10-28T13:35:11Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'New & Hot', description: undefined },
+          trackCount: 50,
+          socialInfo: {
+            likesCount: 11372,
+            repostsCount: 289,
+            managedByFeeds: false
+          }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1712717550,
+          user: User {
+            type: 'User',
+            id: 1319568996,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'artist-pro',
+            full: 'https://soundcloud.com/music-charts-us/sets/artist-pro'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1712717550'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-4AyyEt6Plx9YPa58-YzxFOw-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-4AyyEt6Plx9YPa58-YzxFOw-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-4AyyEt6Plx9YPa58-YzxFOw-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-4AyyEt6Plx9YPa58-YzxFOw-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-4AyyEt6Plx9YPa58-YzxFOw-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-4AyyEt6Plx9YPa58-YzxFOw-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-4AyyEt6Plx9YPa58-YzxFOw-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-4AyyEt6Plx9YPa58-YzxFOw-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-4AyyEt6Plx9YPa58-YzxFOw-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-4AyyEt6Plx9YPa58-YzxFOw-mini.jpg'
+          },
+          setType: '',
+          duration: 8877373,
+          dates: {
+            created: '2023-10-28T13:35:09Z',
+            published: '2023-10-28T13:35:09Z',
+            modified: '2025-08-12T09:34:13Z',
+            display: '2023-10-28T13:35:09Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Artist Pro', description: undefined },
+          trackCount: 48,
+          socialInfo: { likesCount: 808, repostsCount: 25, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1714689219,
+          user: User {
+            type: 'User',
+            id: 1319568996,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'hip-hop',
+            full: 'https://soundcloud.com/music-charts-us/sets/hip-hop'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1714689219'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-dB4B7jait7TWD3nM-z9yg9Q-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-dB4B7jait7TWD3nM-z9yg9Q-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-dB4B7jait7TWD3nM-z9yg9Q-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-dB4B7jait7TWD3nM-z9yg9Q-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-dB4B7jait7TWD3nM-z9yg9Q-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-dB4B7jait7TWD3nM-z9yg9Q-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-dB4B7jait7TWD3nM-z9yg9Q-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-dB4B7jait7TWD3nM-z9yg9Q-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-dB4B7jait7TWD3nM-z9yg9Q-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-dB4B7jait7TWD3nM-z9yg9Q-mini.jpg'
+          },
+          setType: '',
+          duration: 8516599,
+          dates: {
+            created: '2023-11-01T08:43:20Z',
+            published: '2023-11-01T08:43:20Z',
+            modified: '2026-01-29T14:07:42Z',
+            display: '2023-11-01T08:43:20Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Hip Hop', description: undefined },
+          trackCount: 50,
+          socialInfo: {
+            likesCount: 19172,
+            repostsCount: 517,
+            managedByFeeds: false
+          }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1714689240,
+          user: User {
+            type: 'User',
+            id: 1319568996,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'electronic',
+            full: 'https://soundcloud.com/music-charts-us/sets/electronic'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1714689240'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-kOkyCOqQlCjWLX4q-rqiwkA-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-kOkyCOqQlCjWLX4q-rqiwkA-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-kOkyCOqQlCjWLX4q-rqiwkA-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-kOkyCOqQlCjWLX4q-rqiwkA-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-kOkyCOqQlCjWLX4q-rqiwkA-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-kOkyCOqQlCjWLX4q-rqiwkA-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-kOkyCOqQlCjWLX4q-rqiwkA-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-kOkyCOqQlCjWLX4q-rqiwkA-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-kOkyCOqQlCjWLX4q-rqiwkA-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-kOkyCOqQlCjWLX4q-rqiwkA-mini.jpg'
+          },
+          setType: '',
+          duration: 8862929,
+          dates: {
+            created: '2023-11-01T08:43:23Z',
+            published: '2023-11-01T08:43:23Z',
+            modified: '2026-01-29T14:07:45Z',
+            display: '2023-11-01T08:43:23Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Electronic', description: undefined },
+          trackCount: 50,
+          socialInfo: { likesCount: 3337, repostsCount: 63, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1714689168,
+          user: User {
+            type: 'User',
+            id: 1319568996,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'pop',
+            full: 'https://soundcloud.com/music-charts-us/sets/pop'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1714689168'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-vs2RG7OAyLmNNxY3-6D33iQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-vs2RG7OAyLmNNxY3-6D33iQ-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-vs2RG7OAyLmNNxY3-6D33iQ-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-vs2RG7OAyLmNNxY3-6D33iQ-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-vs2RG7OAyLmNNxY3-6D33iQ-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-vs2RG7OAyLmNNxY3-6D33iQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-vs2RG7OAyLmNNxY3-6D33iQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-vs2RG7OAyLmNNxY3-6D33iQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-vs2RG7OAyLmNNxY3-6D33iQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-vs2RG7OAyLmNNxY3-6D33iQ-mini.jpg'
+          },
+          setType: '',
+          duration: 10245013,
+          dates: {
+            created: '2023-11-01T08:43:10Z',
+            published: '2023-11-01T08:43:10Z',
+            modified: '2026-01-29T14:07:39Z',
+            display: '2023-11-01T08:43:10Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Pop', description: undefined },
+          trackCount: 50,
+          socialInfo: {
+            likesCount: 5370,
+            repostsCount: 118,
+            managedByFeeds: false
+          }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1814722854,
+          user: User {
+            type: 'User',
+            id: 1319568996,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'rock',
+            full: 'https://soundcloud.com/music-charts-us/sets/rock'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1814722854'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-mxW2vPRf5Dzoqesx-Lz1BzA-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-mxW2vPRf5Dzoqesx-Lz1BzA-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-mxW2vPRf5Dzoqesx-Lz1BzA-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-mxW2vPRf5Dzoqesx-Lz1BzA-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-mxW2vPRf5Dzoqesx-Lz1BzA-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-mxW2vPRf5Dzoqesx-Lz1BzA-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-mxW2vPRf5Dzoqesx-Lz1BzA-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-mxW2vPRf5Dzoqesx-Lz1BzA-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-mxW2vPRf5Dzoqesx-Lz1BzA-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-mxW2vPRf5Dzoqesx-Lz1BzA-mini.jpg'
+          },
+          setType: '',
+          duration: 10209906,
+          dates: {
+            created: '2024-04-25T12:54:57Z',
+            published: '2024-06-06T10:09:10Z',
+            modified: '2026-01-29T14:07:37Z',
+            display: '2024-06-06T10:09:10Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Rock', description: undefined },
+          trackCount: 50,
+          socialInfo: { likesCount: 843, repostsCount: 28, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1814722872,
+          user: User {
+            type: 'User',
+            id: 1319568996,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'folk',
+            full: 'https://soundcloud.com/music-charts-us/sets/folk'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1814722872'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-vLE4P6NEUvr2w7XU-DncxfQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-vLE4P6NEUvr2w7XU-DncxfQ-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-vLE4P6NEUvr2w7XU-DncxfQ-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-vLE4P6NEUvr2w7XU-DncxfQ-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-vLE4P6NEUvr2w7XU-DncxfQ-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-vLE4P6NEUvr2w7XU-DncxfQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-vLE4P6NEUvr2w7XU-DncxfQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-vLE4P6NEUvr2w7XU-DncxfQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-vLE4P6NEUvr2w7XU-DncxfQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-vLE4P6NEUvr2w7XU-DncxfQ-mini.jpg'
+          },
+          setType: '',
+          duration: 10944496,
+          dates: {
+            created: '2024-04-25T12:54:59Z',
+            published: '2024-06-06T10:09:02Z',
+            modified: '2026-01-29T14:07:43Z',
+            display: '2024-06-06T10:09:02Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Folk', description: undefined },
+          trackCount: 50,
+          socialInfo: { likesCount: 434, repostsCount: 13, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1714689204,
+          user: User {
+            type: 'User',
+            id: 1319568996,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'latin',
+            full: 'https://soundcloud.com/music-charts-us/sets/latin'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1714689204'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-YPqp1l6512arJlK5-JR5B9A-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-YPqp1l6512arJlK5-JR5B9A-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-YPqp1l6512arJlK5-JR5B9A-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-YPqp1l6512arJlK5-JR5B9A-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-YPqp1l6512arJlK5-JR5B9A-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-YPqp1l6512arJlK5-JR5B9A-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-YPqp1l6512arJlK5-JR5B9A-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-YPqp1l6512arJlK5-JR5B9A-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-YPqp1l6512arJlK5-JR5B9A-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-YPqp1l6512arJlK5-JR5B9A-mini.jpg'
+          },
+          setType: '',
+          duration: 8599303,
+          dates: {
+            created: '2023-11-01T08:43:18Z',
+            published: '2023-11-01T08:43:18Z',
+            modified: '2026-01-29T14:07:41Z',
+            display: '2023-11-01T08:43:18Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Latin', description: undefined },
+          trackCount: 49,
+          socialInfo: { likesCount: 2624, repostsCount: 73, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1814722893,
+          user: User {
+            type: 'User',
+            id: 1319568996,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'country',
+            full: 'https://soundcloud.com/music-charts-us/sets/country'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1814722893'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-Mh6UJTn46eiLGALP-01I47w-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-Mh6UJTn46eiLGALP-01I47w-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-Mh6UJTn46eiLGALP-01I47w-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-Mh6UJTn46eiLGALP-01I47w-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-Mh6UJTn46eiLGALP-01I47w-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-Mh6UJTn46eiLGALP-01I47w-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-Mh6UJTn46eiLGALP-01I47w-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-Mh6UJTn46eiLGALP-01I47w-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-Mh6UJTn46eiLGALP-01I47w-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-Mh6UJTn46eiLGALP-01I47w-mini.jpg'
+          },
+          setType: '',
+          duration: 10018693,
+          dates: {
+            created: '2024-04-25T12:55:02Z',
+            published: '2024-06-06T10:08:56Z',
+            modified: '2026-01-29T14:07:46Z',
+            display: '2024-06-06T10:08:56Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Country', description: undefined },
+          trackCount: 50,
+          socialInfo: { likesCount: 3721, repostsCount: 76, managedByFeeds: false }
+        }
+      ]
+    },
+    Selection {
+      type: 'Selection',
+      id: 'soundcloud:selections:music-charts-uk',
+      title: 'Music Charts UK',
+      nextUri: null,
+      items: [
+        Playlist {
+          type: 'Playlist',
+          id: 1714689459,
+          user: User {
+            type: 'User',
+            id: 1319569413,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'all-music-genres',
+            full: 'https://soundcloud.com/music-charts-uk/sets/all-music-genres'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1714689459'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-q8aVWXQDm5wid1wq-Kmsnug-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-q8aVWXQDm5wid1wq-Kmsnug-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-q8aVWXQDm5wid1wq-Kmsnug-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-q8aVWXQDm5wid1wq-Kmsnug-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-q8aVWXQDm5wid1wq-Kmsnug-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-q8aVWXQDm5wid1wq-Kmsnug-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-q8aVWXQDm5wid1wq-Kmsnug-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-q8aVWXQDm5wid1wq-Kmsnug-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-q8aVWXQDm5wid1wq-Kmsnug-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-q8aVWXQDm5wid1wq-Kmsnug-mini.jpg'
+          },
+          setType: '',
+          duration: 9797299,
+          dates: {
+            created: '2023-11-01T08:44:11Z',
+            published: '2023-11-01T08:44:11Z',
+            modified: '2026-01-29T14:07:17Z',
+            display: '2023-11-01T08:44:11Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'All music genres', description: undefined },
+          trackCount: 49,
+          socialInfo: { likesCount: 1481, repostsCount: 27, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1712718282,
+          user: User {
+            type: 'User',
+            id: 1319569413,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'new-hot',
+            full: 'https://soundcloud.com/music-charts-uk/sets/new-hot'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1712718282'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-bVzvdiZE5nvf0hdQ-Q7INNg-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-bVzvdiZE5nvf0hdQ-Q7INNg-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-bVzvdiZE5nvf0hdQ-Q7INNg-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-bVzvdiZE5nvf0hdQ-Q7INNg-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-bVzvdiZE5nvf0hdQ-Q7INNg-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-bVzvdiZE5nvf0hdQ-Q7INNg-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-bVzvdiZE5nvf0hdQ-Q7INNg-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-bVzvdiZE5nvf0hdQ-Q7INNg-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-bVzvdiZE5nvf0hdQ-Q7INNg-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-bVzvdiZE5nvf0hdQ-Q7INNg-mini.jpg'
+          },
+          setType: '',
+          duration: 9419151,
+          dates: {
+            created: '2023-10-28T13:36:54Z',
+            published: '2023-10-28T13:36:54Z',
+            modified: '2026-02-02T21:03:08Z',
+            display: '2023-10-28T13:36:54Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'New & Hot', description: undefined },
+          trackCount: 49,
+          socialInfo: { likesCount: 4915, repostsCount: 66, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1712718252,
+          user: User {
+            type: 'User',
+            id: 1319569413,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'artist-pro',
+            full: 'https://soundcloud.com/music-charts-uk/sets/artist-pro'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1712718252'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-nirHmEVKGbh1dL3z-EheFhQ-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-nirHmEVKGbh1dL3z-EheFhQ-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-nirHmEVKGbh1dL3z-EheFhQ-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-nirHmEVKGbh1dL3z-EheFhQ-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-nirHmEVKGbh1dL3z-EheFhQ-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-nirHmEVKGbh1dL3z-EheFhQ-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-nirHmEVKGbh1dL3z-EheFhQ-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-nirHmEVKGbh1dL3z-EheFhQ-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-nirHmEVKGbh1dL3z-EheFhQ-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-nirHmEVKGbh1dL3z-EheFhQ-mini.jpg'
+          },
+          setType: '',
+          duration: 10619685,
+          dates: {
+            created: '2023-10-28T13:36:52Z',
+            published: '2023-10-28T13:36:52Z',
+            modified: '2025-08-12T10:11:03Z',
+            display: '2023-10-28T13:36:52Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Artist Pro', description: undefined },
+          trackCount: 45,
+          socialInfo: { likesCount: 395, repostsCount: 9, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1814722950,
+          user: User {
+            type: 'User',
+            id: 1319569413,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'rock',
+            full: 'https://soundcloud.com/music-charts-uk/sets/rock'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1814722950'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-tKPXzHgznOw6AQE6-phrVag-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-tKPXzHgznOw6AQE6-phrVag-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-tKPXzHgznOw6AQE6-phrVag-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-tKPXzHgznOw6AQE6-phrVag-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-tKPXzHgznOw6AQE6-phrVag-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-tKPXzHgznOw6AQE6-phrVag-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-tKPXzHgznOw6AQE6-phrVag-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-tKPXzHgznOw6AQE6-phrVag-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-tKPXzHgznOw6AQE6-phrVag-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-tKPXzHgznOw6AQE6-phrVag-mini.jpg'
+          },
+          setType: '',
+          duration: 10804585,
+          dates: {
+            created: '2024-04-25T12:55:08Z',
+            published: '2024-06-06T10:05:35Z',
+            modified: '2026-01-29T14:07:09Z',
+            display: '2024-06-06T10:05:35Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Rock', description: undefined },
+          trackCount: 49,
+          socialInfo: { likesCount: 208, repostsCount: 5, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1714689441,
+          user: User {
+            type: 'User',
+            id: 1319569413,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'dance',
+            full: 'https://soundcloud.com/music-charts-uk/sets/dance'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1714689441'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-z6lq2EaVo7yCtYS8-D4VEjw-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-z6lq2EaVo7yCtYS8-D4VEjw-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-z6lq2EaVo7yCtYS8-D4VEjw-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-z6lq2EaVo7yCtYS8-D4VEjw-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-z6lq2EaVo7yCtYS8-D4VEjw-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-z6lq2EaVo7yCtYS8-D4VEjw-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-z6lq2EaVo7yCtYS8-D4VEjw-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-z6lq2EaVo7yCtYS8-D4VEjw-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-z6lq2EaVo7yCtYS8-D4VEjw-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-z6lq2EaVo7yCtYS8-D4VEjw-mini.jpg'
+          },
+          setType: '',
+          duration: 10560547,
+          dates: {
+            created: '2023-11-01T08:44:08Z',
+            published: '2023-11-01T08:44:08Z',
+            modified: '2026-01-29T14:07:16Z',
+            display: '2023-11-01T08:44:08Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Dance', description: undefined },
+          trackCount: 48,
+          socialInfo: {
+            likesCount: 7527,
+            repostsCount: 117,
+            managedByFeeds: false
+          }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1714689438,
+          user: User {
+            type: 'User',
+            id: 1319569413,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'hip-hop',
+            full: 'https://soundcloud.com/music-charts-uk/sets/hip-hop'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1714689438'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-KllCrSNivKsjF9RE-cqLmqw-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-KllCrSNivKsjF9RE-cqLmqw-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-KllCrSNivKsjF9RE-cqLmqw-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-KllCrSNivKsjF9RE-cqLmqw-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-KllCrSNivKsjF9RE-cqLmqw-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-KllCrSNivKsjF9RE-cqLmqw-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-KllCrSNivKsjF9RE-cqLmqw-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-KllCrSNivKsjF9RE-cqLmqw-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-KllCrSNivKsjF9RE-cqLmqw-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-KllCrSNivKsjF9RE-cqLmqw-mini.jpg'
+          },
+          setType: '',
+          duration: 9045211,
+          dates: {
+            created: '2023-11-01T08:44:05Z',
+            published: '2023-11-01T08:44:05Z',
+            modified: '2026-01-29T14:07:13Z',
+            display: '2023-11-01T08:44:05Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Hip Hop', description: undefined },
+          trackCount: 50,
+          socialInfo: { likesCount: 3607, repostsCount: 62, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1712718225,
+          user: User {
+            type: 'User',
+            id: 1319569413,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'r-b',
+            full: 'https://soundcloud.com/music-charts-uk/sets/r-b'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1712718225'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-qYqh1CKcGkQaA3BH-LGSz9g-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-qYqh1CKcGkQaA3BH-LGSz9g-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-qYqh1CKcGkQaA3BH-LGSz9g-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-qYqh1CKcGkQaA3BH-LGSz9g-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-qYqh1CKcGkQaA3BH-LGSz9g-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-qYqh1CKcGkQaA3BH-LGSz9g-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-qYqh1CKcGkQaA3BH-LGSz9g-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-qYqh1CKcGkQaA3BH-LGSz9g-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-qYqh1CKcGkQaA3BH-LGSz9g-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-qYqh1CKcGkQaA3BH-LGSz9g-mini.jpg'
+          },
+          setType: '',
+          duration: 9438744,
+          dates: {
+            created: '2023-10-28T13:36:49Z',
+            published: '2023-10-28T13:36:49Z',
+            modified: '2026-01-29T14:07:10Z',
+            display: '2023-10-28T13:36:49Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'R&B', description: undefined },
+          trackCount: 50,
+          socialInfo: { likesCount: 1300, repostsCount: 20, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1714689405,
+          user: User {
+            type: 'User',
+            id: 1319569413,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'pop',
+            full: 'https://soundcloud.com/music-charts-uk/sets/pop'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1714689405'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-GgjCsp1yZnP6HBZ5-XNoVaw-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-GgjCsp1yZnP6HBZ5-XNoVaw-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-GgjCsp1yZnP6HBZ5-XNoVaw-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-GgjCsp1yZnP6HBZ5-XNoVaw-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-GgjCsp1yZnP6HBZ5-XNoVaw-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-GgjCsp1yZnP6HBZ5-XNoVaw-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-GgjCsp1yZnP6HBZ5-XNoVaw-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-GgjCsp1yZnP6HBZ5-XNoVaw-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-GgjCsp1yZnP6HBZ5-XNoVaw-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-GgjCsp1yZnP6HBZ5-XNoVaw-mini.jpg'
+          },
+          setType: '',
+          duration: 9236032,
+          dates: {
+            created: '2023-11-01T08:43:58Z',
+            published: '2023-11-01T08:43:58Z',
+            modified: '2026-01-29T14:07:11Z',
+            display: '2023-11-01T08:43:58Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Pop', description: undefined },
+          trackCount: 50,
+          socialInfo: { likesCount: 1745, repostsCount: 27, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1814722974,
+          user: User {
+            type: 'User',
+            id: 1319569413,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'indie',
+            full: 'https://soundcloud.com/music-charts-uk/sets/indie'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1814722974'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-WJUya24jzGTVTKny-0WMgUg-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-WJUya24jzGTVTKny-0WMgUg-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-WJUya24jzGTVTKny-0WMgUg-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-WJUya24jzGTVTKny-0WMgUg-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-WJUya24jzGTVTKny-0WMgUg-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-WJUya24jzGTVTKny-0WMgUg-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-WJUya24jzGTVTKny-0WMgUg-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-WJUya24jzGTVTKny-0WMgUg-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-WJUya24jzGTVTKny-0WMgUg-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-WJUya24jzGTVTKny-0WMgUg-mini.jpg'
+          },
+          setType: '',
+          duration: 9188098,
+          dates: {
+            created: '2024-04-25T12:55:11Z',
+            published: '2024-06-06T10:05:29Z',
+            modified: '2026-01-29T14:07:12Z',
+            display: '2024-06-06T10:05:29Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Indie', description: undefined },
+          trackCount: 50,
+          socialInfo: { likesCount: 186, repostsCount: 3, managedByFeeds: false }
+        },
+        Playlist {
+          type: 'Playlist',
+          id: 1814722992,
+          user: User {
+            type: 'User',
+            id: 1319569413,
+            names: [Object],
+            lastModified: '2024-11-04T00:00:05Z',
+            permalink: [Object],
+            apiInfo: [Object],
+            location: [Object],
+            isVerified: true,
+            avatar: [Object],
+            badges: [Object]
+          },
+          permalink: {
+            basic: 'folk',
+            full: 'https://soundcloud.com/music-charts-uk/sets/folk'
+          },
+          isPublic: true,
+          apiInfo: {
+            uri: 'https://api.soundcloud.com/playlists/soundcloud%3Aplaylists%3A1814722992'
+          },
+          artwork: {
+            default: 'https://i1.sndcdn.com/artworks-VCl0cZZPTDMjWjyl-VK7FXg-large.jpg',
+            t500x500: 'https://i1.sndcdn.com/artworks-VCl0cZZPTDMjWjyl-VK7FXg-t500x500.jpg',
+            t300x300: 'https://i1.sndcdn.com/artworks-VCl0cZZPTDMjWjyl-VK7FXg-t300x300.jpg',
+            t67x67: 'https://i1.sndcdn.com/artworks-VCl0cZZPTDMjWjyl-VK7FXg-t67x67.jpg',
+            crop: 'https://i1.sndcdn.com/artworks-VCl0cZZPTDMjWjyl-VK7FXg-crop.jpg',
+            large: 'https://i1.sndcdn.com/artworks-VCl0cZZPTDMjWjyl-VK7FXg-large.jpg',
+            badge: 'https://i1.sndcdn.com/artworks-VCl0cZZPTDMjWjyl-VK7FXg-badge.jpg',
+            small: 'https://i1.sndcdn.com/artworks-VCl0cZZPTDMjWjyl-VK7FXg-small.jpg',
+            tiny: 'https://i1.sndcdn.com/artworks-VCl0cZZPTDMjWjyl-VK7FXg-tiny.jpg',
+            mini: 'https://i1.sndcdn.com/artworks-VCl0cZZPTDMjWjyl-VK7FXg-mini.jpg'
+          },
+          setType: '',
+          duration: 10607699,
+          dates: {
+            created: '2024-04-25T12:55:13Z',
+            published: '2024-06-06T10:05:23Z',
+            modified: '2026-01-29T14:07:14Z',
+            display: '2024-06-06T10:05:23Z'
+          },
+          sharingInfo: { shareability: 'public', secretToken: null },
+          texts: { title: 'Folk', description: undefined },
+          trackCount: 50,
+          socialInfo: { likesCount: 106, repostsCount: 2, managedByFeeds: false }
+        }
+      ]
+    }
+  ],
+  continuation: null
+}
