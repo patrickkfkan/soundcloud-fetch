@@ -1,6 +1,6 @@
 {
   "name": "soundcloud-fetch",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "type": "module",
   "description": "Fetch SoundCloud resources through API v2",
   "scripts": {
@@ -8,8 +8,8 @@
     "build:esm": "npx tsc -p tsconfig-esm.json",
     "build:cjs": "npx tsc -p tsconfig.json",
     "prepare": "rm -rf dist && npm run build:esm && npm run build:cjs && bash fixup.sh",
-    "lint": "npx eslint ./src && npx eslint ./examples",
-    "lint:fix": "npx eslint ./src --fix && npx eslint ./examples --fix",
+    "lint": "npx eslint ./src",
+    "lint:fix": "npx eslint ./src --fix ",
     "doc": "npx typedoc",
     "example": "func() { node ./examples/${1}.mjs; }; func"
   },

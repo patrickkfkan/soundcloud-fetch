@@ -571,6 +571,10 @@ In the above example, `getContinuation()` returns another instance of `Collectio
 
 # Changelog
 
+1.1.0:
+- Add `getCharts()`
+- Require Node.js >=20
+
 1.0.2:
 - Fix connection error in `getClientId()`
 
