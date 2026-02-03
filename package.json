@@ -11,7 +11,7 @@
     "lint": "npx eslint ./src && npx eslint ./examples",
     "lint:fix": "npx eslint ./src --fix && npx eslint ./examples --fix",
     "doc": "npx typedoc",
-    "example": "func() { npx ts-node -P ./tsconfig-esm.json --esm ./examples/${1}.ts; }; func"
+    "example": "func() { node ./examples/${1}.mjs; }; func"
   },
   "main": "./dist/cjs/index-cjs.js",
   "module": "./dist/mjs/index.js",
