@@ -1,5 +1,5 @@
-import SoundCloud from '../SoundCloud.js';
-import Entity, { ArtworkImageUrls } from './Entity.js';
+import type SoundCloud from '../SoundCloud.js';
+import Entity, { type ArtworkImageUrls } from './Entity.js';
 import MediaTranscoding from './MediaTranscoding.js';
 import Publisher from './Publisher.js';
 import User from './User.js';

@@ -1,4 +1,4 @@
-import SoundCloud from '../SoundCloud.js';
+import type SoundCloud from '../SoundCloud.js';
 import Album from '../entities/Album.js';
 import Like from '../entities/Like.js';
 import Playlist from '../entities/Playlist.js';
@@ -6,7 +6,7 @@ import Selection from '../entities/Selection.js';
 import SystemPlaylist from '../entities/SystemPlaylist.js';
 import Track from '../entities/Track.js';
 import User from '../entities/User.js';
-import { EntityClasses, EntityClassesToTypes, EntityConstructor, EntityType } from './EntityTypes.js';
+import { type EntityClasses, type EntityClassesToTypes, type EntityConstructor, type EntityType } from './EntityTypes.js';
 
 export default class EntityBuilder {
 

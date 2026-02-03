@@ -1,5 +1,5 @@
-import SoundCloud from '../SoundCloud.js';
-import { ArtworkImageUrls } from './Entity.js';
+import type SoundCloud from '../SoundCloud.js';
+import { type ArtworkImageUrls } from './Entity.js';
 import Set from './Set.js';
 import User from './User.js';
 
@@ -8,7 +8,7 @@ export default class SystemPlaylist extends Set<string> {
   static type = 'SystemPlaylist';
 
   isPublic?: boolean;
-  playlistType?: 'artistStation' | 'playlist' | String | null;
+  playlistType?: 'artistStation' | 'playlist' | string | null;
   apiInfo: {
     urn?: string | null;
     queryUrn?: string | null;

@@ -1,4 +1,4 @@
-import SoundCloud from '../SoundCloud.js';
+import type SoundCloud from '../SoundCloud.js';
 import Playlist from './Playlist.js';
 
 export default class Album extends Playlist {

@@ -1,5 +1,5 @@
-import { EntityType, getEntityClassByName, getEntityClassName } from '../utils/EntityTypes.js';
-import { CollectionOptions } from './Collection.js';
+import { type EntityType, getEntityClassByName, getEntityClassName } from '../utils/EntityTypes.js';
+import { type CollectionOptions } from './Collection.js';
 
 export default class CollectionContinuation<T extends EntityType> {
   readonly uri: string;

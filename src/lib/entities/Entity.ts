@@ -1,5 +1,5 @@
-import SoundCloud from '../SoundCloud.js';
-import { EntityConstructor, EntityType } from '../utils/EntityTypes.js';
+import type SoundCloud from '../SoundCloud.js';
+import { type EntityConstructor, type EntityType } from '../utils/EntityTypes.js';
 
 const ARTWORK_FORMATS = [ 't500x500', 't300x300', 't67x67' ] as const;
 const ARTWORK_EXTENDED_FORMATS = [ ...ARTWORK_FORMATS, 'crop', 'large', 'badge', 'small', 'tiny', 'mini' ] as const;
@@ -45,7 +45,9 @@ export default abstract class Entity {
   }
 
   getJSON(prop?: undefined): any;
+  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
   getJSON<T extends string>(prop: string): T | null | undefined;
+  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
   getJSON<T>(prop: string): T | undefined;
   getJSON(prop?: string): any {
     if (!prop) {
@@ -59,7 +61,7 @@ export default abstract class Entity {
   }
 
   protected getImageUrls(defaultImageUrl: string | null | undefined, type: 'avatar'): AvatarImageUrls | undefined;
-  protected getImageUrls(defaultImageUrl: string | null | undefined, type?: 'artwork' | 'artistStation' | undefined): ArtworkImageUrls | undefined;
+  protected getImageUrls(defaultImageUrl: string | null | undefined, type?: 'artwork' | 'artistStation'  ): ArtworkImageUrls | undefined;
   protected getImageUrls(defaultImageUrl: string | null | undefined, type: 'artwork' | 'artistStation' | 'avatar' = 'artwork') {
 
     if (!defaultImageUrl) {

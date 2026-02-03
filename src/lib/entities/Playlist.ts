@@ -1,5 +1,5 @@
-import SoundCloud from '../SoundCloud.js';
-import { ArtworkImageUrls } from './Entity.js';
+import type SoundCloud from '../SoundCloud.js';
+import { type ArtworkImageUrls } from './Entity.js';
 import Set from './Set.js';
 
 export default class Playlist extends Set<number> {

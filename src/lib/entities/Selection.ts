@@ -1,6 +1,6 @@
-import SoundCloud from '../SoundCloud.js';
+import type SoundCloud from '../SoundCloud.js';
 import CollectionBuilder from '../utils/CollectionBuilder.js';
-import { EntityType } from '../utils/EntityTypes.js';
+import { type EntityType } from '../utils/EntityTypes.js';
 import Entity from './Entity.js';
 
 export default class Selection extends Entity {

@@ -1,4 +1,4 @@
-import SoundCloud from '../SoundCloud.js';
+import type SoundCloud from '../SoundCloud.js';
 import EntityBuilder from '../utils/EntityBuilder.js';
 import Album from './Album.js';
 import Entity from './Entity.js';

@@ -1,5 +1,5 @@
-import SoundCloud from '../SoundCloud.js';
-import Entity, { AvatarImageUrls } from './Entity.js';
+import type SoundCloud from '../SoundCloud.js';
+import Entity, { type AvatarImageUrls } from './Entity.js';
 
 export default class User extends Entity {
 

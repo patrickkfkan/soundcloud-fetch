@@ -1,4 +1,4 @@
-import SoundCloud from '../SoundCloud.js';
+import type SoundCloud from '../SoundCloud.js';
 import Entity from './Entity.js';
 
 export default class MediaTranscoding extends Entity {

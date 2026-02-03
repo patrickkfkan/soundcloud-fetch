@@ -1,6 +1,6 @@
-import SoundCloud from '../SoundCloud.js';
+import type SoundCloud from '../SoundCloud.js';
 import Entity from './Entity.js';
-import Track from './Track.js';
+import type Track from './Track.js';
 import User from './User.js';
 
 type TracksCacheKey = `tracks.${number}` | `tracks.${number}.${number}`;

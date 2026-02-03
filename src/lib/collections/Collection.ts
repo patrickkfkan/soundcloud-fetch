@@ -1,6 +1,6 @@
-import SoundCloud from '../SoundCloud.js';
+import type SoundCloud from '../SoundCloud.js';
 import EntityBuilder from '../utils/EntityBuilder.js';
-import { EntityClasses, EntityClassesToTypes, EntityConstructor, EntityType } from '../utils/EntityTypes.js';
+import { type EntityClasses, type EntityClassesToTypes, type EntityConstructor, type EntityType } from '../utils/EntityTypes.js';
 import CollectionContinuation from './CollectionContinuation.js';
 
 export type CollectionOptions<T extends EntityType> = {
@@ -69,7 +69,9 @@ export default class Collection<T extends EntityType> {
   }
 
   getJSON(prop?: undefined): any;
+  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
   getJSON<T extends string>(prop: string): T | null | undefined;
+  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
   getJSON<T>(prop: string): T | undefined;
   getJSON(prop?: string): any {
     if (!prop) {

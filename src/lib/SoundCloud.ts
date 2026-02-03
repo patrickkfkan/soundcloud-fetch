@@ -1,19 +1,20 @@
-import { API_BASE_URL, LOCALES, QUERY_MAX_LIMIT } from './utils/Constants.js';
+import { API_BASE_URL, type LOCALES, QUERY_MAX_LIMIT } from './utils/Constants.js';
 import Playlist from './entities/Playlist.js';
 import Track from './entities/Track.js';
 import SystemPlaylist from './entities/SystemPlaylist.js';
 import User from './entities/User.js';
 import Album from './entities/Album.js';
-import Collection, { CollectionOptions } from './collections/Collection.js';
+import {type CollectionOptions} from './collections/Collection.js';
+import type Collection from './collections/Collection.js';
 import Selection from './entities/Selection.js';
-import { EntityClasses, EntityClassesToTypes, EntityType } from './utils/EntityTypes.js';
+import { type EntityClasses, type EntityClassesToTypes, type EntityType } from './utils/EntityTypes.js';
 import CollectionBuilder from './utils/CollectionBuilder.js';
 import EntityBuilder from './utils/EntityBuilder.js';
 import LibraryItem from './entities/LibraryItem.js';
 import PlayHistoryItem from './entities/PlayHistoryItem.js';
 import FetchError from './utils/FetchError.js';
 import Like from './entities/Like.js';
-import CollectionContinuation from './collections/CollectionContinuation.js';
+import type CollectionContinuation from './collections/CollectionContinuation.js';
 import { getSoundCloudClientId } from './utils/SoundCloudKey.js';
 
 export interface SoundCloudInitArgs {
@@ -272,8 +273,6 @@ export default class SoundCloud {
       case 'playlistAndAlbum':
         endpoint = `/users/${userId}/playlist_likes`;
         break;
-      default:
-        throw new TypeError(`Invalid type '${type}'`);
     }
 
     return this.#fetchCollection(endpoint, params, { requireTypes: Like });
@@ -301,8 +300,6 @@ export default class SoundCloud {
       case 'set':
         endpoint = '/me/play-history/contexts';
         break;
-      default:
-        throw new TypeError(`Invalid type '${type}'`);
     }
 
     return this.#fetchCollection(endpoint, params, {asType: PlayHistoryItem});
@@ -331,14 +328,11 @@ export default class SoundCloud {
 
   protected async getMyLikes(options: GetCollectionOptions & {type: 'track' | 'playlistAndAlbum'}) {
     const { type } = options;
-    if (type === 'track' || type === 'playlistAndAlbum') {
-      const myProfile = await this.getMyProfile();
-      if (myProfile?.id !== undefined) {
-        return this.getLikesByUser(myProfile.id, { ...options, type });
-      }
-      throw Error('Profile or ID not found');
+    const myProfile = await this.getMyProfile();
+    if (myProfile?.id !== undefined) {
+      return this.getLikesByUser(myProfile.id, { ...options, type });
     }
-    throw new TypeError(`Invalid type '${type}'`);
+    throw Error('Profile or ID not found');
   }
 
   protected async getMyFollowing(options?: GetCollectionOptions) {
