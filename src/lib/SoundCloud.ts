@@ -1,4 +1,3 @@
-import fetch, { Headers, Response } from 'node-fetch';
 import { API_BASE_URL, LOCALES, QUERY_MAX_LIMIT } from './utils/Constants.js';
 import Playlist from './entities/Playlist.js';
 import Track from './entities/Track.js';
@@ -88,7 +87,7 @@ export default class SoundCloud {
       Origin: 'https://soundcloud.com',
       Referer: 'https://soundcloud.com/',
       'User-Agent':
-          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67'
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.3'
     });
 
     if (method === 'POST') {
@@ -390,7 +389,7 @@ export default class SoundCloud {
     const clientId = await this.getClientId();
     const params: Record<string, any> = {
       client_id: clientId,
-      app_version: '1692105952'
+      app_version: '1770022942'
     };
     if (options.limit) {
       params.limit = options.limit;

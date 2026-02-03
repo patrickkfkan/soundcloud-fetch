@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 import { MOBILE_URL, WEB_URL } from './Constants.js';
 
 export async function getSoundCloudClientId() {
