@@ -1,3 +1,4 @@
+import path from 'path';
 import type SoundCloud from '../SoundCloud.js';
 import { type EntityConstructor, type EntityType } from '../utils/EntityTypes.js';
 
@@ -84,14 +85,34 @@ export default abstract class Entity {
       default: defaultImageUrl
     };
 
-    const replaceFormat = formats.find((format) => defaultImageUrl.includes(`${format}.jpg`));
+    let parsedUrl;
+    try {
+      parsedUrl = new URL(defaultImageUrl);
+    }
+    catch (_) {
+      return formatUrls;
+    }
+
+    const pathname = parsedUrl.pathname;
+    let dirname = path.dirname(pathname);
+    if (dirname.endsWith('/')) {
+      dirname = dirname.substring(0, dirname.length - 1);
+    }
+    const ext = path.extname(pathname);
+    const nameWithoutExt = path.basename(pathname, ext);
+
+    const replaceFormat = formats.find((format) => nameWithoutExt.endsWith(`-${format}`));
     if (!replaceFormat) {
       return formatUrls;
     }
 
-    formats.forEach((format) => {
-      formatUrls[format] = defaultImageUrl.replace(`${replaceFormat}.jpg`, `${format}.jpg`);
-    });
-    return formatUrls;
+    const artworkNameBase = nameWithoutExt.substring(0, nameWithoutExt.length - (replaceFormat.length + 1));
+
+    return formats.reduce((result, format) => {
+      const filename = `${artworkNameBase}-${format}${ext}`;
+      parsedUrl.pathname = `${dirname}/${filename}`;
+      result[format] = parsedUrl.toString();
+      return result;
+    }, formatUrls);
   }
 }
