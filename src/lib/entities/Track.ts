@@ -46,6 +46,7 @@ export default class Track extends Entity {
     trackFormat?: string | null;
     encodingState?: string | null;
     transcodings: MediaTranscoding[];
+    trackAuthorization?: string | null;
   };
   permalink: {
     basic?: string | null;
@@ -123,7 +124,8 @@ export default class Track extends Entity {
     this.mediaInfo = {
       trackFormat: this.getJSON<string>('track_format'),
       encodingState: this.getJSON<string>('state'),
-      transcodings: this.#parseTranscodings(transcodingData)
+      transcodings: this.#parseTranscodings(transcodingData),
+      trackAuthorization: this.getJSON<string>('track_authorization')
     };
 
     this.permalink = {

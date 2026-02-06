@@ -1,0 +1,197 @@
+Track {
+  type: 'Track',
+  id: 1807959264,
+  texts: { title: 'Monkey Drop', description: '', caption: null },
+  dates: {
+    created: '2024-04-25T17:47:50Z',
+    released: '2024-05-22T00:00:00Z',
+    modified: '2024-05-21T13:44:21Z',
+    display: '2024-05-22T00:00:00Z'
+  },
+  downloadInfo: { downloadable: false, downloadCount: 0, hasDownloadsLeft: false },
+  socialInfo: {
+    commentable: true,
+    commentCount: 9,
+    likesCount: 238,
+    repostsCount: 5
+  },
+  sharingInfo: { shareability: 'public', embeddableBy: 'all', secretToken: null },
+  playbackInfo: { playbackCount: 6315, policy: 'ALLOW' },
+  isBlocked: false,
+  isSnipped: false,
+  mediaInfo: {
+    trackFormat: undefined,
+    encodingState: 'finished',
+    transcodings: [
+      MediaTranscoding {
+        type: 'MediaTranscoding',
+        url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1807959264/80f2d88f-1333-48ef-a2b5-364d6e886b92/stream/ctr-encrypted-hls',
+        preset: 'aac_160k',
+        duration: 196223,
+        isSnipped: false,
+        protocol: 'ctr-encrypted-hls',
+        mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+        quality: 'sq'
+      },
+      MediaTranscoding {
+        type: 'MediaTranscoding',
+        url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1807959264/80f2d88f-1333-48ef-a2b5-364d6e886b92/stream/cbc-encrypted-hls',
+        preset: 'aac_160k',
+        duration: 196223,
+        isSnipped: false,
+        protocol: 'cbc-encrypted-hls',
+        mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+        quality: 'sq'
+      },
+      MediaTranscoding {
+        type: 'MediaTranscoding',
+        url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1807959264/cd7bee8d-f141-416f-94b3-e44dee151a26/stream/ctr-encrypted-hls',
+        preset: 'abr_sq',
+        duration: 196223,
+        isSnipped: false,
+        protocol: 'ctr-encrypted-hls',
+        mimeType: 'audio/mpegurl',
+        quality: 'sq'
+      },
+      MediaTranscoding {
+        type: 'MediaTranscoding',
+        url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1807959264/cd7bee8d-f141-416f-94b3-e44dee151a26/stream/cbc-encrypted-hls',
+        preset: 'abr_sq',
+        duration: 196223,
+        isSnipped: false,
+        protocol: 'cbc-encrypted-hls',
+        mimeType: 'audio/mpegurl',
+        quality: 'sq'
+      },
+      MediaTranscoding {
+        type: 'MediaTranscoding',
+        url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1807959264/c80bcf45-cc99-4b99-865c-4d7442fc99e0/stream/hls',
+        preset: 'mp3_1_0',
+        duration: 196232,
+        isSnipped: false,
+        protocol: 'hls',
+        mimeType: 'audio/mpeg',
+        quality: 'sq'
+      },
+      MediaTranscoding {
+        type: 'MediaTranscoding',
+        url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1807959264/c80bcf45-cc99-4b99-865c-4d7442fc99e0/stream/progressive',
+        preset: 'mp3_1_0',
+        duration: 196232,
+        isSnipped: false,
+        protocol: 'progressive',
+        mimeType: 'audio/mpeg',
+        quality: 'sq'
+      },
+      MediaTranscoding {
+        type: 'MediaTranscoding',
+        url: 'https://api-v2.soundcloud.com/media/soundcloud:tracks:1807959264/4ed13d70-97fd-45e2-a7cf-e3a46c66e770/stream/hls',
+        preset: 'opus_0_0',
+        duration: 196207,
+        isSnipped: false,
+        protocol: 'hls',
+        mimeType: 'audio/ogg; codecs="opus"',
+        quality: 'sq'
+      }
+    ],
+    trackAuthorization: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJISyIsInN1YiI6IiIsInJpZCI6IjRjNzNkOTI4LTQzODAtNDkxOS1hNWQ2LWRkZDBkZGE3YjYzNSIsImlhdCI6MTc3MDM4NTIyNH0.NKQ7--DaUd6WZI7J9NXWMZ-BDhdFfKOUfeIJAHfnpCI'
+  },
+  permalink: {
+    basic: 'monkey-drop',
+    full: 'https://soundcloud.com/lobsta-b/monkey-drop'
+  },
+  apiInfo: {
+    streamable: true,
+    uri: 'https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1807959264',
+    urn: 'soundcloud:tracks:1807959264'
+  },
+  purchaseInfo: { title: 'BUY / STREAM', url: 'https://courage.ffm.to/cdd031s2' },
+  publisher: Publisher {
+    type: 'Publisher',
+    id: 1807959264,
+    artist: 'Lobsta B',
+    albumTitle: 'Monkey Drop',
+    containsMusic: true,
+    UPCOrEAN: '810072048912',
+    ISRC: 'CBAUX2403103',
+    isExplicit: false,
+    releaseTitle: 'Monkey Drop',
+    copyrightText: {
+      general: {
+        p: '2024 Collection Disques Durs distributed by Decent Distribution',
+        c: '2024 Collection Disques Durs distributed by Decent Distribution'
+      },
+      display: {
+        p: '℗ 2024 Collection Disques Durs distributed by Decent Distribution',
+        c: '© 2024 Collection Disques Durs distributed by Decent Distribution'
+      }
+    },
+    apiInfo: { urn: 'soundcloud:tracks:1807959264' }
+  },
+  durations: { full: 196232, playback: 196223 },
+  genre: 'Electronic',
+  license: 'all-rights-reserved',
+  isPublic: true,
+  tags: '"Dance & EDM"',
+  label: 'Collection Disques Durs',
+  artwork: {
+    default: 'https://i1.sndcdn.com/artworks-ihheBJf3iVGx-0-large.jpg',
+    t500x500: 'https://i1.sndcdn.com/artworks-ihheBJf3iVGx-0-t500x500.jpg',
+    t300x300: 'https://i1.sndcdn.com/artworks-ihheBJf3iVGx-0-t300x300.jpg',
+    t67x67: 'https://i1.sndcdn.com/artworks-ihheBJf3iVGx-0-t67x67.jpg',
+    crop: 'https://i1.sndcdn.com/artworks-ihheBJf3iVGx-0-crop.jpg',
+    large: 'https://i1.sndcdn.com/artworks-ihheBJf3iVGx-0-large.jpg',
+    badge: 'https://i1.sndcdn.com/artworks-ihheBJf3iVGx-0-badge.jpg',
+    small: 'https://i1.sndcdn.com/artworks-ihheBJf3iVGx-0-small.jpg',
+    tiny: 'https://i1.sndcdn.com/artworks-ihheBJf3iVGx-0-tiny.jpg',
+    mini: 'https://i1.sndcdn.com/artworks-ihheBJf3iVGx-0-mini.jpg'
+  },
+  waveform: 'https://wave.sndcdn.com/a35qgAD2jeQP_m.json',
+  user: User {
+    type: 'User',
+    id: 16475961,
+    names: { full: '', first: '', last: '', username: 'LOBSTA B' },
+    lastModified: '2026-01-14T10:47:38Z',
+    permalink: { basic: 'lobsta-b', full: 'https://soundcloud.com/lobsta-b' },
+    apiInfo: {
+      uri: 'https://api.soundcloud.com/users/soundcloud%3Ausers%3A16475961',
+      urn: 'soundcloud:users:16475961'
+    },
+    location: { city: '', country: 'GB' },
+    isVerified: true,
+    avatar: {
+      default: 'https://i1.sndcdn.com/avatars-xKRJed3ww0ms6YRw-tv6pWg-large.jpg',
+      t500x500: 'https://i1.sndcdn.com/avatars-xKRJed3ww0ms6YRw-tv6pWg-t500x500.jpg',
+      crop: 'https://i1.sndcdn.com/avatars-xKRJed3ww0ms6YRw-tv6pWg-crop.jpg',
+      t300x300: 'https://i1.sndcdn.com/avatars-xKRJed3ww0ms6YRw-tv6pWg-t300x300.jpg',
+      large: 'https://i1.sndcdn.com/avatars-xKRJed3ww0ms6YRw-tv6pWg-large.jpg',
+      badge: 'https://i1.sndcdn.com/avatars-xKRJed3ww0ms6YRw-tv6pWg-badge.jpg',
+      small: 'https://i1.sndcdn.com/avatars-xKRJed3ww0ms6YRw-tv6pWg-small.jpg',
+      tiny: 'https://i1.sndcdn.com/avatars-xKRJed3ww0ms6YRw-tv6pWg-tiny.jpg',
+      mini: 'https://i1.sndcdn.com/avatars-xKRJed3ww0ms6YRw-tv6pWg-mini.jpg'
+    },
+    badges: { pro: false, proUnlimited: true, verified: true }
+  }
+}
+
+Streaming data:
+
+aac_160k ctr-encrypted-hls: https://playback.media-streaming.soundcloud.cloud/cenc/a35qgAD2jeQP/aac_160k/80f2d88f-1333-48ef-a2b5-364d6e886b92/playlist.m3u8?expires=1770385541&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wbGF5YmFjay5tZWRpYS1zdHJlYW1pbmcuc291bmRjbG91ZC5jbG91ZC9jZW5jL2EzNXFnQUQyamVRUC9hYWNfMTYway84MGYyZDg4Zi0xMzMzLTQ4ZWYtYTJiNS0zNjRkNmU4ODZiOTIvcGxheWxpc3QubTN1OD9leHBpcmVzPTE3NzAzODU1NDEiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NzAzODU1NDF9fX1dfQ__&Signature=qd-D6zSg4H8QzZJm8cuGWpmnU0E1GqYW9Hqa78NvkTaUwAkFDDOEupd-pPyg72PH2ZVQekMllXWJNKTjUR3TcQ5xB9KZmkiC9Jq874doHA9mYHdPyels9xa727e08gUWrcMlXdXQqzGRW6-MEoXG7nugISNuaqqFjV7pIGsvExYHKA3RFISeH2-NZd7LmWqKf8Fa0ywelNQHDPBdihysI7ccjbcaRen7sKpxZELhphryrIZdPSy-6~R0kzIcMygwkntrF2qWUWWbY6mXwtK~tB4KlUanteynhDTyM7EgAGca~uyuk8iToU0COb67XstfRb1Fq45P9PdgVzofHz~S2w__&Key-Pair-Id=K34606QXLEIRF3
+------
+licenseAuthToken: eyJhbGciOiJkaXIiLCJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwidHlwIjoiSldUIn0..1svrVhGOidJYFWDu.yTaL5hidcUwLdXdFuud7TJ2QhYkJ-ZzB5Gk4LZpaI9mpTmHMRBDK71o0wHjavLF4oBRQRb6-URe_sHxbwjV4nKpfVrOZp5sWhNSPbG3a1YfxeBdqZnFNm7V0T_5L-prAcbH_I3xIDzNcEw7MU6tb4ff7TBh1aPeWjcYm38uHmISFtTKULaC8zEJ4n59mMMbj5_CksT0GEYIoAH6mXhKd18hwsEw4wIvfvV00ZR6CiZv0zqXTnQ9f7Al8WT52pH3LmUcAJvCsnONCv8EHT_kdTASzKiHNPZTkdVf3nsSUJtcs4SfRILmN4TvepthXY2JflpbKVBEmGlPClqgBrw6n2vLjPYFHk10xw1KL826oqAp16q3R5yTYq3d6-h_E_Ese4RORSpn4mFS5XBWEa-JnBXe1j-w.3M9IGdIcwXanxIm4KukPlQ
+
+
+aac_160k cbc-encrypted-hls: https://playback.media-streaming.soundcloud.cloud/cbcs/a35qgAD2jeQP/aac_160k/80f2d88f-1333-48ef-a2b5-364d6e886b92/playlist.m3u8?expires=1770385541&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wbGF5YmFjay5tZWRpYS1zdHJlYW1pbmcuc291bmRjbG91ZC5jbG91ZC9jYmNzL2EzNXFnQUQyamVRUC9hYWNfMTYway84MGYyZDg4Zi0xMzMzLTQ4ZWYtYTJiNS0zNjRkNmU4ODZiOTIvcGxheWxpc3QubTN1OD9leHBpcmVzPTE3NzAzODU1NDEiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NzAzODU1NDF9fX1dfQ__&Signature=Wgg04cczpE5cmax3HjxxlotveXLyc4cIcdUebD8ZcTLTfWQktBObtXRxenHLD4WG0rzTU0MTRJA3JtIYu5eJGysGY8-4ZoFgKvvqei1KVTcSVhxz-VM0Y9pCyoySYA0T22G2NYkfjxT7391wKeSCxaNN-134FOfD~TH8USmxaNAbeyZBwqoOnw1nIJ~e~yPZJNpgnWgSn~dF-b8yY~4cN7s9Pd0Q6x-CQ3WrTm23HAHQbgZP4bhM7uXcDKfLd3YVHmeq-EVE7WO0LOObZFNP96n79ZAEpEJTnSTWTgVf5-kc~h8dXtMKlfKl3-QLlSl0f8UoQh3SbGfzmzYACVUfoQ__&Key-Pair-Id=K34606QXLEIRF3
+------
+licenseAuthToken: eyJhbGciOiJkaXIiLCJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwidHlwIjoiSldUIn0..iorU53xzu3EKNVjb.vaacRjBX4N3owrMqHGpCHQ8JV6LwEoheQ2Hclm_luEccj_tJZdtuB2yg7gonTTHND0kbmkhg4kbaxdhqpKmK46bX1jb9kDcbwZz9xnJ3WKblQbYpxl1u7Pseubui-ZHVkX0YznyswWU4Pd1_kTrGCxEjggcz7_Bzcnklk9Nx41vaYspB8iqv_0Ftm-j4CjjXUI3ZZC2XbVl_g8BxVSUHZjOLPCv5UWR2hgT_LLFO4fTgMT8LzpctbkvrB3jvM2Ymajk2Oo0XutoTcyMc2a_HlK8qXBw50Dvp1mNrD9SuUvbXTwNSJLyabJlgpPhhbgEa58IciVdE3AVproVTSMhYEqfy39-1iDDIrYJJfYab0QyrLktrzBx_7p8ZJyqeejuGD280ZVEKMttR1mygGt8myk809AA.YClnq0iAJVxv18g59F_NHw
+
+
+mp3_1_0 hls: https://cf-hls-media.sndcdn.com/playlist/a35qgAD2jeQP.128.mp3/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLWhscy1tZWRpYS5zbmRjZG4uY29tL3BsYXlsaXN0L2EzNXFnQUQyamVRUC4xMjgubXAzL3BsYXlsaXN0Lm0zdTgqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzcwMzg1NTQxfX19XX0_&Signature=UeZc3JXogtWwOZZAlt7TU4dlMyPqwX2QRh8rqOVeYydBIrJRyFGLxdzz1ofPzypeSNTzXjL52gfiVyFmOrE7D4z5U3VwBh2pQEq9Yuecpl~visxU5bQ4EFffpazY4w9KwTg3jR3sQ9Sn7IfpBCrRlIHcNiKPHAC~FC3pGkY83nZ3JWYUxTl7fRzDAmDg2eN6p1mL8dO2q7X8i7vzioloweApnBMkeuHvKx8gvOzYRHA~QH67L25b0fr5rYzJMLWwWnw1DWkIKRxsGYcoETc1mbO4eBYQcmoirTsjTlv6xFUQsNUh-BaSxBRxga5Fd8oa9L6ns9sk-CUQKLy9ITlbkw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ
+
+
+mp3_1_0 progressive: https://cf-media.sndcdn.com/a35qgAD2jeQP.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vYTM1cWdBRDJqZVFQLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzcwMzg1NTQxfX19XX0_&Signature=GkoDLG~rnOPlohu6Vb~6rBFfmgarHuaMPqHcIVhVMxBgTEzqRZE3vlslyvDPUSThDUcAnjqON-CeGfwTBSIQ-SOboYx3YUqKspSCekr0Ye3WtrgNxlSOtl8bCRpt9jkxbyfKEjekS3gBvJJlMTmSKn8oOHTkZrzgvSjM7zZFHsZQzkMEYYYb1DrqP68txUSFkfLcmas6KOurCNAVfZgIHt2xwB80hYaNzLmc7jl2i7Qr-YAz6i1tuLVbUlfUooUWsWYG0xMFYdzwPFcWgLldOXPs5Dun1gPiWaLgUMS~zegspo-2OSNvfCUkL9NAu1V9RsIneOH3HHHfKBzqrWjRGQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ
+
+
+opus_0_0 hls: https://cf-hls-opus-media.sndcdn.com/playlist/4ed13d70-97fd-45e2-a7cf-e3a46c66e770.64.opus/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLWhscy1vcHVzLW1lZGlhLnNuZGNkbi5jb20vcGxheWxpc3QvNGVkMTNkNzAtOTdmZC00NWUyLWE3Y2YtZTNhNDZjNjZlNzcwLjY0Lm9wdXMvcGxheWxpc3QubTN1OCoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NzAzODU1NDJ9fX1dfQ__&Signature=KDu5rAVe~uE8DioooCuJv7uGJ0l-IJ30u~C6Oi0Fu-aH~cAnQxOmmbdLipY9ziEs6vfCqBW86Qzx6inBJQjyYsbg99OBlRaoIN7izVm4NTOVdSZsN0bOgknjzKR9S5AbYal1t8il9jmBo8ljxX8L1R0DIeC97upkcifdk6p7gBswSviZiVADdHMt4Uk4wLJdmjQ6kUifoUPM5fih4qYTyoSHWlVHdUrScfXHoPzvlDttYWvlmvb0f1kPURl0L9cWjbIrZ7rx0jHR99MPRC82fR5urb07LqtXQJ6dBDbcrRsPD65spBwukMgJZpT55RNqVwflqjazukzxkB4f5JNhyg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ
+
+

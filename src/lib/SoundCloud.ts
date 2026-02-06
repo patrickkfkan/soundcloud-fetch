@@ -28,6 +28,11 @@ export interface GetCollectionOptions {
   limit?: number;
 }
 
+export interface StreamingData {
+  url: string;
+  licenseAuthToken?: string;
+}
+
 export default class SoundCloud {
 
   me: {
@@ -200,6 +205,11 @@ export default class SoundCloud {
     return tracks[0] || null;
   }
 
+  /**
+   * @deprecated Use getStreamingData() instead.
+   * @param transcodingUrl 
+   * @returns 
+   */
   async getStreamingUrl(transcodingUrl: string): Promise<string | null> {
     const params = await this.#getCommonParams();
     const json = await this.#fetchEndpoint(transcodingUrl, params);
@@ -207,6 +217,31 @@ export default class SoundCloud {
       return json.url;
     }
     return null;
+  }
+
+  async getStreamingData(
+    options: {
+      transcodingUrl: string;
+      trackAuthorization?: string
+    }
+  ): Promise<StreamingData | null> {
+    const params = await this.#getCommonParams();
+    if (options.trackAuthorization) {
+      params.track_authorization = options.trackAuthorization;
+    }
+    const json = await this.#fetchEndpoint(options.transcodingUrl, params);
+    let url: string | undefined = undefined;
+    let token:string | undefined = undefined;
+    if (json && Reflect.has(json, 'url') && typeof json.url === 'string') {
+      url = json.url as string;
+    }
+    if (json && Reflect.has(json, 'licenseAuthToken') && typeof json.licenseAuthToken	 === 'string') {
+      token = json.licenseAuthToken as string;
+    }
+    return url ? {
+      url,
+      licenseAuthToken: token
+    } : null;
   }
 
   /************************************************************/
