@@ -1,3 +1,4 @@
+import { fetch, Response } from 'undici';
 import { API_BASE_URL, type LOCALES, QUERY_MAX_LIMIT } from './utils/Constants.js';
 import Playlist from './entities/Playlist.js';
 import Track from './entities/Track.js';
@@ -431,7 +432,7 @@ export default class SoundCloud {
       headers: this.#getFetchHeaders()
     });
     this.#validateFetchResponse(res);
-    return res.json();
+    return await res.json() as any;
   }
 
   async #postToEndpoint(endpoint: string, params: Record<string, any>, payload: Record<string, any>) {

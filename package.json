@@ -57,5 +57,8 @@
     "scrape",
     "scraper",
     "api"
-  ]
+  ],
+  "dependencies": {
+    "undici": "^7.20.0"
+  }
 }
