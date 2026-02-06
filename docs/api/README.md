@@ -32,6 +32,7 @@
 - [EntityConstructor](interfaces/EntityConstructor.md)
 - [GetCollectionOptions](interfaces/GetCollectionOptions.md)
 - [SoundCloudInitArgs](interfaces/SoundCloudInitArgs.md)
+- [StreamingData](interfaces/StreamingData.md)
 
 ## Type Aliases
 

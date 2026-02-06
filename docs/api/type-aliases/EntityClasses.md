@@ -8,7 +8,7 @@
 
 > **EntityClasses**\<`T`\> = [`EntityConstructor`](../interfaces/EntityConstructor.md)\<`T`\> \| [`EntityConstructor`](../interfaces/EntityConstructor.md)\<`T`\>[]
 
-Defined in: [utils/EntityTypes.ts:27](https://github.com/patrickkfkan/soundcloud-fetch/blob/1f00242d69817ec3dc56a919cf481307c1078bbf/src/lib/utils/EntityTypes.ts#L27)
+Defined in: [utils/EntityTypes.ts:27](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/utils/EntityTypes.ts#L27)
 
 ## Type Parameters
 

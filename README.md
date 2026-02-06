@@ -311,9 +311,11 @@ Note that `Like.item` can also be `null` if the item could not be parsed.
 <summary><code>getStreamingUrl(transcodingUrl)</code></summary>
 <br />
 
+**Deprecated** Use `getStreamingData()` instead.
+
 Fetches the streaming URL from `transcodingUrl`.
 
-Transcoding URLs are embedded in the `mediaInfo.transcodings` property of a `Track` object. See [example](./examples/getTrackAndStreamingUrl.ts).
+Transcoding URLs are embedded in the `mediaInfo.transcodings` property of a `Track` object. See [example](./examples/getTrackAndStreamingUrl.mjs).
 
 **Params**
 
@@ -322,6 +324,28 @@ Transcoding URLs are embedded in the `mediaInfo.transcodings` property of a `Tra
 **Returns**
 
 Promise that resolves to the streaming URL, or `null` if no result.
+
+---
+</details>
+
+<details>
+<summary><code>getStreamingData(options)</code></summary>
+<br />
+
+Fetches the streaming URL and license authentication token (if available) for `transcodingUrl` and `trackAuthorization` provided in `options`.
+
+Transcoding URLs are embedded in the `mediaInfo.transcodings` property of a `Track` object. The track authorization token can be found in `mediaInfo`.
+See [example](./examples/getStreamingData.mjs).
+
+**Params**
+
+- `options`:
+  - `transcodingUrl`: (string) The transcoding URL for a `Track`.
+  - `trackAuthorization`: (string) (*optional*) The track authorization token.
+
+**Returns**
+
+Promise that resolves to [StreamingData](./docs/api/interfaces/StreamingData.md), or `null` if no result.
 
 ---
 </details>
