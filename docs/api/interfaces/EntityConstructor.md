@@ -6,7 +6,7 @@
 
 # Interface: EntityConstructor\<T\>
 
-Defined in: [utils/EntityTypes.ts:22](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/utils/EntityTypes.ts#L22)
+Defined in: [utils/EntityTypes.ts:22](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/utils/EntityTypes.ts#L22)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [utils/EntityTypes.ts:22](https://github.com/patrickkfkan/soundcloud
 
 > **new EntityConstructor**(...`args`): `T`
 
-Defined in: [utils/EntityTypes.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/utils/EntityTypes.ts#L23)
+Defined in: [utils/EntityTypes.ts:23](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/utils/EntityTypes.ts#L23)
 
 #### Parameters
 
@@ -38,4 +38,4 @@ Defined in: [utils/EntityTypes.ts:23](https://github.com/patrickkfkan/soundcloud
 
 > **type**: `string`
 
-Defined in: [utils/EntityTypes.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/utils/EntityTypes.ts#L24)
+Defined in: [utils/EntityTypes.ts:24](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/utils/EntityTypes.ts#L24)

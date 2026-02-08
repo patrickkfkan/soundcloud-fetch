@@ -6,7 +6,7 @@
 
 # Class: Collection\<T\>
 
-Defined in: [collections/Collection.ts:14](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/Collection.ts#L14)
+Defined in: [collections/Collection.ts:14](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L14)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [collections/Collection.ts:14](https://github.com/patrickkfkan/sound
 
 > **new Collection**\<`T`\>(`json`, `client`, `opts`): `Collection`\<`T`\>
 
-Defined in: [collections/Collection.ts:26](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/Collection.ts#L26)
+Defined in: [collections/Collection.ts:26](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L26)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [collections/Collection.ts:26](https://github.com/patrickkfkan/sound
 
 > **continuation**: [`CollectionContinuation`](CollectionContinuation.md)\<`T`\> \| `null`
 
-Defined in: [collections/Collection.ts:20](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/Collection.ts#L20)
+Defined in: [collections/Collection.ts:20](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L20)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [collections/Collection.ts:20](https://github.com/patrickkfkan/sound
 
 > **items**: `T`[]
 
-Defined in: [collections/Collection.ts:19](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/Collection.ts#L19)
+Defined in: [collections/Collection.ts:19](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L19)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [collections/Collection.ts:19](https://github.com/patrickkfkan/sound
 
 > `readonly` **type**: `string`
 
-Defined in: [collections/Collection.ts:17](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/Collection.ts#L17)
+Defined in: [collections/Collection.ts:17](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L17)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [collections/Collection.ts:17](https://github.com/patrickkfkan/sound
 
 > `readonly` `static` **type**: `string` = `'Collection'`
 
-Defined in: [collections/Collection.ts:16](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/Collection.ts#L16)
+Defined in: [collections/Collection.ts:16](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L16)
 
 ## Methods
 
@@ -78,7 +78,7 @@ Defined in: [collections/Collection.ts:16](https://github.com/patrickkfkan/sound
 
 > `protected` **getClient**(): [`SoundCloud`](SoundCloud.md)
 
-Defined in: [collections/Collection.ts:83](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/Collection.ts#L83)
+Defined in: [collections/Collection.ts:83](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L83)
 
 #### Returns
 
@@ -90,7 +90,7 @@ Defined in: [collections/Collection.ts:83](https://github.com/patrickkfkan/sound
 
 > `protected` **getItems**(): `T`[]
 
-Defined in: [collections/Collection.ts:42](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/Collection.ts#L42)
+Defined in: [collections/Collection.ts:42](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L42)
 
 #### Returns
 
@@ -104,7 +104,7 @@ Defined in: [collections/Collection.ts:42](https://github.com/patrickkfkan/sound
 
 > **getJSON**(`prop?`): `any`
 
-Defined in: [collections/Collection.ts:71](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/Collection.ts#L71)
+Defined in: [collections/Collection.ts:71](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L71)
 
 ##### Parameters
 
@@ -120,7 +120,7 @@ Defined in: [collections/Collection.ts:71](https://github.com/patrickkfkan/sound
 
 > **getJSON**\<`T`\>(`prop`): `T` \| `null` \| `undefined`
 
-Defined in: [collections/Collection.ts:73](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/Collection.ts#L73)
+Defined in: [collections/Collection.ts:73](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L73)
 
 ##### Type Parameters
 
@@ -142,7 +142,7 @@ Defined in: [collections/Collection.ts:73](https://github.com/patrickkfkan/sound
 
 > **getJSON**\<`T`\>(`prop`): `T` \| `undefined`
 
-Defined in: [collections/Collection.ts:75](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/Collection.ts#L75)
+Defined in: [collections/Collection.ts:75](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L75)
 
 ##### Type Parameters
 

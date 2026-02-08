@@ -8,4 +8,4 @@
 
 > `const` **QUERY\_MAX\_LIMIT**: `50` = `50`
 
-Defined in: [utils/Constants.ts:4](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/utils/Constants.ts#L4)
+Defined in: [utils/Constants.ts:4](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/utils/Constants.ts#L4)

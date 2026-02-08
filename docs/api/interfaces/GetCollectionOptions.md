@@ -6,7 +6,7 @@
 
 # Interface: GetCollectionOptions
 
-Defined in: [SoundCloud.ts:27](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/SoundCloud.ts#L27)
+Defined in: [SoundCloud.ts:38](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L38)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [SoundCloud.ts:27](https://github.com/patrickkfkan/soundcloud-fetch/
 
 > `optional` **limit**: `number`
 
-Defined in: [SoundCloud.ts:28](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/SoundCloud.ts#L28)
+Defined in: [SoundCloud.ts:39](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L39)

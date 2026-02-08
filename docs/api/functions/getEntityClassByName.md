@@ -8,7 +8,7 @@
 
 > **getEntityClassByName**(`name`): *typeof* [`Playlist`](../classes/Playlist.md) \| *typeof* [`User`](../classes/User.md) \| *typeof* [`Track`](../classes/Track.md) \| *typeof* [`Like`](../classes/Like.md) \| *typeof* [`SystemPlaylist`](../classes/SystemPlaylist.md) \| *typeof* [`Selection`](../classes/Selection.md) \| *typeof* [`PlayHistoryItem`](../classes/PlayHistoryItem.md) \| *typeof* [`LibraryItem`](../classes/LibraryItem.md) \| `null`
 
-Defined in: [utils/EntityTypes.ts:59](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/utils/EntityTypes.ts#L59)
+Defined in: [utils/EntityTypes.ts:59](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/utils/EntityTypes.ts#L59)
 
 ## Parameters
 

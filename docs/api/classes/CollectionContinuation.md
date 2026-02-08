@@ -6,7 +6,7 @@
 
 # Class: CollectionContinuation\<T\>
 
-Defined in: [collections/CollectionContinuation.ts:4](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/CollectionContinuation.ts#L4)
+Defined in: [collections/CollectionContinuation.ts:4](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/CollectionContinuation.ts#L4)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [collections/CollectionContinuation.ts:4](https://github.com/patrick
 
 > **new CollectionContinuation**\<`T`\>(`uri`, `opts`): `CollectionContinuation`\<`T`\>
 
-Defined in: [collections/CollectionContinuation.ts:8](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/CollectionContinuation.ts#L8)
+Defined in: [collections/CollectionContinuation.ts:8](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/CollectionContinuation.ts#L8)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [collections/CollectionContinuation.ts:8](https://github.com/patrick
 
 > `readonly` **opts**: [`CollectionOptions`](../type-aliases/CollectionOptions.md)\<`T`\>
 
-Defined in: [collections/CollectionContinuation.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/CollectionContinuation.ts#L6)
+Defined in: [collections/CollectionContinuation.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/CollectionContinuation.ts#L6)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [collections/CollectionContinuation.ts:6](https://github.com/patrick
 
 > `readonly` **uri**: `string`
 
-Defined in: [collections/CollectionContinuation.ts:5](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/CollectionContinuation.ts#L5)
+Defined in: [collections/CollectionContinuation.ts:5](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/CollectionContinuation.ts#L5)
 
 ## Methods
 
@@ -58,7 +58,7 @@ Defined in: [collections/CollectionContinuation.ts:5](https://github.com/patrick
 
 > `static` **parse**(`data`): `CollectionContinuation`\<[`EntityType`](../type-aliases/EntityType.md)\> \| `null`
 
-Defined in: [collections/CollectionContinuation.ts:46](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/CollectionContinuation.ts#L46)
+Defined in: [collections/CollectionContinuation.ts:46](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/CollectionContinuation.ts#L46)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [collections/CollectionContinuation.ts:46](https://github.com/patric
 
 > `static` **stringify**\<`T`\>(`data`): `string`
 
-Defined in: [collections/CollectionContinuation.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/475c06a4b70952cb608bf953a88229d960321e22/src/lib/collections/CollectionContinuation.ts#L13)
+Defined in: [collections/CollectionContinuation.ts:13](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/CollectionContinuation.ts#L13)
 
 #### Type Parameters
 
