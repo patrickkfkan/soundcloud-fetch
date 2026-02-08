@@ -31,8 +31,11 @@ Constructs an instance of the SoundCloud API.
 
 `args`: (*optional*)
 - `clientId`: (string) (*optional*) Client ID for making API requests. If not specified, value will be obtained from SoundCloud website.
-- `accessToken`: (string) (*optional*) Token for accessing your private resources. See [How to obtain an access token](https://github.com/patrickkfkan/soundcloud-fetch/wiki/How-to-obtain-an-access-token).
+- `accessToken`: (string) (*optional*) Token for accessing your private resources. See [How to obtain an access token](https://github.com/patrickkfkan/soundcloud-fetch/wiki/How-to-obtain-an-access-token). Note that `addToPlayHistory()` does **not** work with `accessToken`; you must provide `cookie` instead.
+- `cookie`: (string) (*optional*) Serves a similar purpose as `accessToken`, but additionally enables `addToPlayHistory()` to function.
 - `locale`: (string) (*optional*) Locale code as defined in [Constants](./docs/api/modules/Constants.md).
+
+> You can provide either `accessToken` or `cookie`, but not both at the same time. Doing so will throw an error.
 
 ### Config
 
@@ -79,9 +82,26 @@ Sets the locale.
 
 Sets the access token.
 
+If a cookie was previously set — either at construction time or via `setCookie()` — it will be cleared.
+
 **Params**
 
 - `value`: (string) (*optional*) The access token to be used by the API. If `undefined`, access to your private resources will trigger an error.
+
+---
+</details>
+
+<details>
+<summary><code>setCookie([value])</code></summary>
+<br />
+
+Sets the cookie.
+
+If an access token was previously set — either at construction time or via `setAccessToken()` — it will be cleared.
+
+**Params**
+
+- `value`: (string) (*optional*) The cookie to be used by the API. If `undefined`, access to your private resources will trigger an error.
 
 ---
 </details>
@@ -522,15 +542,42 @@ This is a convenience method that passes your User ID to `getFollowing(userId, [
 </details>
 
 <details>
-<summary><code>me.addToPlayHistory(trackOrUrn, [setOrUrn])</code></summary>
+<summary><code>me.addToPlayHistory(trackOrUrn, [setOrUrn], [callbacks])</code></summary>
 <br />
 
 Adds the track given by `trackOrUrn`, and optionally the album, playlist or system playlist given by `setOrUrn`, to your play history.
+
+The process involves sending two requests:
+- First to register a "play" event.
+- Second to add the track to play history.
+
+The default behavior is to skip the second request if the first one fails. You can catch the error by setting `onSendPlayTrackEventError` in `callbacks` and override the default behavior if you wish:
+
+```
+await scfetch.me.addToPlayHistory(track, album, {
+  onSendPlayTrackEventError: (err) => {
+    console.error('Error sending play track event: ', err);
+    console.info('Going to proceed anyway - this will only add the album to history!');
+    
+    // Override default behavior.
+    // If you don't want to override, return false.
+    return true;
+  }
+});
+```
+
+The effect of continuing with the second request despite having failed the first one, is that the album / playlist will be added to history, while the track itself will not.
+
+> **Important**: For full functionality, this method requires `cookie` to be provided (at construction time or via `setCookie()`). Without it, the first request *will* inevitably fail.
 
 **Params**
 
 - `trackOrUrn`: (`Track` | string) The track or URN of the track to add to play history. You can obtain the URN of a `Track` through its `apiInfo.urn` property.
 - `setOrUrn`: (`Album` | `Playlist` | `SystemPlaylist` | string) (*optional*) The album, playlist, system playlist or URN of system playlist to add to play history. You can obtain the URN of a `SystemPlaylist` through its `apiInfo.urn` property.
+- `callbacks`: (*optional*)
+  - `onSendPlayTrackEventError` (`(err) => boolean;`) Callback invoked if an error occurs while sending the request to register a play event.
+    - `err`: (`Error`) Object encapsulating the reason of failure.
+    - Returns: boolean indicating whether the function should continue execution (`true`) or return immediately (`false`).
 
 Note that albums and playlists do not have URNs, at least not from data returned by SoundCloud. If you must pass an URN for an album or playlist, you can provide a string in the following format (this is what the API generates internally):
 

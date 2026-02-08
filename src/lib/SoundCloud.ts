@@ -1,5 +1,5 @@
-import { fetch, Response } from 'undici';
-import { API_BASE_URL, type LOCALES, QUERY_MAX_LIMIT } from './utils/Constants.js';
+import { fetch, type Response } from 'undici';
+import { API_BASE_URL, type LOCALES, QUERY_MAX_LIMIT, SC_APP_VERSION, USER_AGENT } from './utils/Constants.js';
 import Playlist from './entities/Playlist.js';
 import Track from './entities/Track.js';
 import SystemPlaylist from './entities/SystemPlaylist.js';
@@ -17,12 +17,23 @@ import FetchError from './utils/FetchError.js';
 import Like from './entities/Like.js';
 import type CollectionContinuation from './collections/CollectionContinuation.js';
 import { getSoundCloudClientId } from './utils/SoundCloudKey.js';
+import { EventContext, sendPlayTrackEvent } from './utils/EventTracking.js';
+import { parseCookie } from 'cookie';
 
-export interface SoundCloudInitArgs {
+export type SoundCloudInitArgs = {
   clientId?: string;
-  accessToken?: string;
   locale?: typeof LOCALES[number];
-}
+} & ({
+    accessToken: string;
+    cookie?: never; 
+  } | {
+    accessToken?: never;
+    cookie: string;
+  } | {
+    accessToken?: never;
+    cookie?: never;
+  }
+);
 
 export interface GetCollectionOptions {
   limit?: number;
@@ -46,12 +57,23 @@ export default class SoundCloud {
   };
 
   #clientId?: string;
-  #accessToken?: string;
+  #accessToken: string | null = null;
+  #cookie: string | null = null;
   #locale?: string;
+  #eventContext: EventContext;
 
   constructor(args?: SoundCloudInitArgs) {
+    if (args?.accessToken && args?.cookie) {
+      throw Error(`Args cannot have both 'accessToken' and 'cookie'`);
+    }
+    this.#eventContext = new EventContext();
     if (args?.clientId) this.#clientId = args.clientId;
-    if (args?.accessToken) this.#accessToken = args.accessToken;
+    if (args?.cookie) {
+      this.setCookie(args.cookie);
+    }
+    if (args?.accessToken) {
+      this.setAccessToken(args.accessToken);
+    }
     if (args?.locale) this.#locale = args.locale;
 
     this.me = {
@@ -63,6 +85,11 @@ export default class SoundCloud {
       getFollowing: this.getMyFollowing.bind(this),
       addToPlayHistory: this.addToPlayHistory.bind(this)
     };
+  }
+
+  #getAccessTokenFromCookie(value: string) {
+    const cookieObj = parseCookie(value);
+    return typeof cookieObj['oauth_token'] === 'string' ? cookieObj['oauth_token'] : null;
   }
 
   async getClientId(): Promise<string> {
@@ -85,7 +112,21 @@ export default class SoundCloud {
   }
 
   setAccessToken(value?: string) {
-    this.#accessToken = value;
+    if (value === this.#accessToken) {
+      return;
+    }
+    this.#accessToken = value || null;
+    this.#cookie = null;
+    this.#eventContext.setCookie(null);
+  }
+
+  setCookie(value?: string) {
+    if (value === this.#cookie) {
+      return;
+    }
+    this.#cookie = value || null;
+    this.#accessToken = value ? this.#getAccessTokenFromCookie(value) : null;
+    this.#eventContext.setCookie(value);
   }
 
   #getFetchHeaders(method: 'POST' | 'GET' = 'GET'): Headers {
@@ -93,8 +134,7 @@ export default class SoundCloud {
     const headers = new Headers({
       Origin: 'https://soundcloud.com',
       Referer: 'https://soundcloud.com/',
-      'User-Agent':
-          'Mozilla/5.0 (X11; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0'
+      'User-Agent': USER_AGENT
     });
 
     if (method === 'POST') {
@@ -379,8 +419,58 @@ export default class SoundCloud {
     throw Error('Profile or ID not found');
   }
 
-  protected async addToPlayHistory(trackOrUrn: Track | string, setOrUrn?: Album | Playlist | SystemPlaylist | string) {
+  protected async addToPlayHistory(
+    trackOrUrn: Track | string,
+    setOrUrn?: Album | Playlist | SystemPlaylist | string,
+    callbacks?: {
+      onSendPlayTrackEventError: (err: Error) => boolean;
+    }
+  ) {
+    const cbSendPlayTrackEventError =
+      callbacks?.onSendPlayTrackEventError ?? ((_) => false);
+    
+    // Get track data so we can send "play" event to SC
+    let track;
+    if (trackOrUrn instanceof Track) {
+      track = trackOrUrn;
+    }
+    else {
+      const trackId = Number(trackOrUrn.split(':')[2]);
+      if (isNaN(trackId)) {
+        throw Error('Invalid track URN');
+      }
+      try {
+        track = await this.getTrack(trackId);
+      }
+      catch (error: unknown) {
+        const errMsg = error instanceof Error ? error.message : String(error);
+        throw Error(`Error fetching track data: ${errMsg}`, { cause: error })
+      }
+      if (!track) {
+        throw Error('Track not found');
+      }
+    }
+
+    // Send play track event
+    try {
+      await sendPlayTrackEvent(
+        await this.getClientId(),
+        this.#eventContext,
+        track
+      );
+    }
+    catch (error: unknown) {
+      const e = error instanceof Error ? error : Error(String(error));
+      if (!cbSendPlayTrackEventError(e)) {
+        return false;
+      }
+    }
+
+    // Send request to add to play history
     const trackUrn = trackOrUrn instanceof Track ? trackOrUrn.apiInfo.urn : trackOrUrn;
+    if (!trackUrn) {
+      throw Error('Track is missing URN');
+    }
     let contextUrn;
     if (typeof setOrUrn === 'string') {
       contextUrn = setOrUrn;
@@ -394,17 +484,16 @@ export default class SoundCloud {
     else {
       contextUrn = null;
     }
-    if (trackUrn) {
-      const params = this.#getCommonParams();
-      const endpoint = '/me/play-history';
-      const payload: Record<string, any> = {
-        track_urn: trackUrn
-      };
-      if (contextUrn) {
-        payload.context_urn = contextUrn;
-      }
-      return this.#postToEndpoint(endpoint, params, payload);
+    const params = this.#getCommonParams();
+    const endpoint = '/me/play-history';
+    const payload: Record<string, any> = {
+      track_urn: trackUrn
+    };
+    if (contextUrn) {
+      payload.context_urn = contextUrn;
     }
+    await this.#postToEndpoint(endpoint, params, payload);
+    return true;
   }
 
   /************************************************************/
@@ -425,7 +514,7 @@ export default class SoundCloud {
     const clientId = await this.getClientId();
     const params: Record<string, any> = {
       client_id: clientId,
-      app_version: '1770022942'
+      app_version: SC_APP_VERSION
     };
     if (options.limit) {
       params.limit = options.limit;
