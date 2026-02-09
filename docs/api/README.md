@@ -14,6 +14,7 @@
 - [Collection](classes/Collection.md)
 - [CollectionContinuation](classes/CollectionContinuation.md)
 - [Entity](classes/Entity.md)
+- [FeedItem](classes/FeedItem.md)
 - [LibraryItem](classes/LibraryItem.md)
 - [Like](classes/Like.md)
 - [MediaTranscoding](classes/MediaTranscoding.md)
@@ -41,6 +42,7 @@
 - [EntityClasses](type-aliases/EntityClasses.md)
 - [EntityClassesToTypes](type-aliases/EntityClassesToTypes.md)
 - [EntityType](type-aliases/EntityType.md)
+- [FeedActivityType](type-aliases/FeedActivityType.md)
 - [SoundCloudInitArgs](type-aliases/SoundCloudInitArgs.md)
 
 ## Functions

@@ -459,6 +459,29 @@ Promise that resolves to a [User](./docs/api/classes/User.md) object representin
 </details>
 
 <details>
+<summary><code>me.getFeed([options])</code></summary>
+<br />
+
+Fetches items from your feed.
+
+**Params**
+
+- `options`: (*optional*)
+  - `activityTypes`: (Array) (*optional*) The activity type of items to fetch. An array of one or more of the following values: `TrackPost` | `TrackRepost` | `PlaylistPost`. Default: all types.
+  - `limit`: (number) (*optional*) The number of items to return.
+
+**Returns**
+
+Promise that resolves to a [Collection](#collections) of [FeedItem](./docs/api/classes/FeedItem.md) objects. For each `FeedItem`:
+- if `activityType` is `TrackPost` or `TrackRepost`, `FeedItem.item` points to a [Track](./docs/api/classes/Track.md) object;
+- if `activityType` is `PlaylistPost`, `FeedItem.item` points to an [Album](./docs/api/classes/Album.md) or [Playlist](./docs/api/classes/Playlist.md) object.
+
+Note that `FeedItem.item` can also be `null` if the item could not be parsed.
+
+---
+</details>
+
+<details>
 <summary><code>me.getPlayHistory(options)</code></summary>
 <br />
 

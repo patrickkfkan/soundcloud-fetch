@@ -6,7 +6,7 @@
 
 # Class: SoundCloud
 
-Defined in: [SoundCloud.ts:47](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L47)
+Defined in: [SoundCloud.ts:48](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L48)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [SoundCloud.ts:47](https://github.com/patrickkfkan/soundcloud-fetch/
 
 > **new SoundCloud**(`args?`): `SoundCloud`
 
-Defined in: [SoundCloud.ts:65](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L65)
+Defined in: [SoundCloud.ts:67](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L67)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [SoundCloud.ts:65](https://github.com/patrickkfkan/soundcloud-fetch/
 
 > **me**: `object`
 
-Defined in: [SoundCloud.ts:49](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L49)
+Defined in: [SoundCloud.ts:50](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L50)
 
 #### addToPlayHistory()
 
@@ -57,6 +57,20 @@ Defined in: [SoundCloud.ts:49](https://github.com/patrickkfkan/soundcloud-fetch/
 ##### Returns
 
 `Promise`\<`boolean`\>
+
+#### getFeed()
+
+> **getFeed**: (`options?`) => `Promise`\<[`Collection`](Collection.md)\<[`FeedItem`](FeedItem.md)\>\>
+
+##### Parameters
+
+###### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
+
+##### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`FeedItem`](FeedItem.md)\>\>
 
 #### getFollowing()
 
@@ -142,7 +156,7 @@ Defined in: [SoundCloud.ts:49](https://github.com/patrickkfkan/soundcloud-fetch/
 
 > `protected` **addToPlayHistory**(`trackOrUrn`, `setOrUrn?`, `callbacks?`): `Promise`\<`boolean`\>
 
-Defined in: [SoundCloud.ts:422](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L422)
+Defined in: [SoundCloud.ts:436](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L436)
 
 #### Parameters
 
@@ -170,7 +184,7 @@ Defined in: [SoundCloud.ts:422](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getAlbumsByUser**(`userId`, `options?`): `Promise`\<[`Collection`](Collection.md)\<[`Album`](Album.md)\>\>
 
-Defined in: [SoundCloud.ts:190](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L190)
+Defined in: [SoundCloud.ts:193](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L193)
 
 #### Parameters
 
@@ -192,7 +206,7 @@ Defined in: [SoundCloud.ts:190](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getCharts**(): `Promise`\<[`Collection`](Collection.md)\<[`Selection`](Selection.md)\>\>
 
-Defined in: [SoundCloud.ts:161](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L161)
+Defined in: [SoundCloud.ts:164](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L164)
 
 #### Returns
 
@@ -204,7 +218,7 @@ Defined in: [SoundCloud.ts:161](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getClientId**(): `Promise`\<`string`\>
 
-Defined in: [SoundCloud.ts:95](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L95)
+Defined in: [SoundCloud.ts:98](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L98)
 
 #### Returns
 
@@ -216,7 +230,7 @@ Defined in: [SoundCloud.ts:95](https://github.com/patrickkfkan/soundcloud-fetch/
 
 > **getContinuation**\<`T`\>(`continuation`): `Promise`\<[`Collection`](Collection.md)\<`T`\>\>
 
-Defined in: [SoundCloud.ts:503](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L503)
+Defined in: [SoundCloud.ts:517](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L517)
 
 *********************************************************
 
@@ -238,11 +252,29 @@ Defined in: [SoundCloud.ts:503](https://github.com/patrickkfkan/soundcloud-fetch
 
 ***
 
+### getFeed()
+
+> `protected` **getFeed**(`options?`): `Promise`\<[`Collection`](Collection.md)\<[`FeedItem`](FeedItem.md)\>\>
+
+Defined in: [SoundCloud.ts:370](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L370)
+
+#### Parameters
+
+##### options?
+
+[`GetCollectionOptions`](../interfaces/GetCollectionOptions.md) & `object`
+
+#### Returns
+
+`Promise`\<[`Collection`](Collection.md)\<[`FeedItem`](FeedItem.md)\>\>
+
+***
+
 ### getFollowing()
 
 > **getFollowing**(`userId`, `options?`): `Promise`\<[`Collection`](Collection.md)\<[`User`](User.md)\>\>
 
-Defined in: [SoundCloud.ts:297](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L297)
+Defined in: [SoundCloud.ts:300](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L300)
 
 #### Parameters
 
@@ -264,7 +296,7 @@ Defined in: [SoundCloud.ts:297](https://github.com/patrickkfkan/soundcloud-fetch
 
 > `protected` **getLibraryItems**(`options?`): `Promise`\<[`Collection`](Collection.md)\<[`LibraryItem`](LibraryItem.md)\>\>
 
-Defined in: [SoundCloud.ts:391](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L391)
+Defined in: [SoundCloud.ts:405](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L405)
 
 #### Parameters
 
@@ -282,7 +314,7 @@ Defined in: [SoundCloud.ts:391](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getLikesByUser**(`userId`, `options`): `Promise`\<[`Collection`](Collection.md)\<[`Like`](Like.md)\>\>
 
-Defined in: [SoundCloud.ts:341](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L341)
+Defined in: [SoundCloud.ts:344](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L344)
 
 *********************************************************
 
@@ -306,7 +338,7 @@ Defined in: [SoundCloud.ts:341](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getLocale**(): `string` \| `undefined`
 
-Defined in: [SoundCloud.ts:106](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L106)
+Defined in: [SoundCloud.ts:109](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L109)
 
 #### Returns
 
@@ -318,7 +350,7 @@ Defined in: [SoundCloud.ts:106](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getMixedSelections**(`options?`): `Promise`\<[`Collection`](Collection.md)\<[`Selection`](Selection.md)\>\>
 
-Defined in: [SoundCloud.ts:155](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L155)
+Defined in: [SoundCloud.ts:158](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L158)
 
 *********************************************************
 
@@ -338,7 +370,7 @@ Defined in: [SoundCloud.ts:155](https://github.com/patrickkfkan/soundcloud-fetch
 
 > `protected` **getMyFollowing**(`options?`): `Promise`\<[`Collection`](Collection.md)\<[`User`](User.md)\>\>
 
-Defined in: [SoundCloud.ts:414](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L414)
+Defined in: [SoundCloud.ts:428](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L428)
 
 #### Parameters
 
@@ -356,7 +388,7 @@ Defined in: [SoundCloud.ts:414](https://github.com/patrickkfkan/soundcloud-fetch
 
 > `protected` **getMyLikes**(`options`): `Promise`\<[`Collection`](Collection.md)\<[`Like`](Like.md)\>\>
 
-Defined in: [SoundCloud.ts:405](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L405)
+Defined in: [SoundCloud.ts:419](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L419)
 
 #### Parameters
 
@@ -374,7 +406,7 @@ Defined in: [SoundCloud.ts:405](https://github.com/patrickkfkan/soundcloud-fetch
 
 > `protected` **getMyProfile**(): `Promise`\<[`User`](User.md) \| `null`\>
 
-Defined in: [SoundCloud.ts:384](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L384)
+Defined in: [SoundCloud.ts:398](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L398)
 
 #### Returns
 
@@ -386,7 +418,7 @@ Defined in: [SoundCloud.ts:384](https://github.com/patrickkfkan/soundcloud-fetch
 
 > `protected` **getMyStations**(`options?`): `Promise`\<[`Collection`](Collection.md)\<[`LibraryItem`](LibraryItem.md)\>\>
 
-Defined in: [SoundCloud.ts:398](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L398)
+Defined in: [SoundCloud.ts:412](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L412)
 
 #### Parameters
 
@@ -404,7 +436,7 @@ Defined in: [SoundCloud.ts:398](https://github.com/patrickkfkan/soundcloud-fetch
 
 > `protected` **getPlayHistory**(`options`): `Promise`\<[`Collection`](Collection.md)\<[`PlayHistoryItem`](PlayHistoryItem.md)\>\>
 
-Defined in: [SoundCloud.ts:367](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L367)
+Defined in: [SoundCloud.ts:381](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L381)
 
 #### Parameters
 
@@ -422,7 +454,7 @@ Defined in: [SoundCloud.ts:367](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getPlaylistOrAlbum**(`id`): `Promise`\<[`Album`](Album.md) \| [`Playlist`](Playlist.md) \| `null`\>
 
-Defined in: [SoundCloud.ts:171](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L171)
+Defined in: [SoundCloud.ts:174](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L174)
 
 *********************************************************
 
@@ -442,7 +474,7 @@ Defined in: [SoundCloud.ts:171](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getPlaylistsByUser**(`userId`, `options?`): `Promise`\<[`Collection`](Collection.md)\<[`Playlist`](Playlist.md)\>\>
 
-Defined in: [SoundCloud.ts:184](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L184)
+Defined in: [SoundCloud.ts:187](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L187)
 
 #### Parameters
 
@@ -464,7 +496,7 @@ Defined in: [SoundCloud.ts:184](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getStreamingData**(`options`): `Promise`\<[`StreamingData`](../interfaces/StreamingData.md) \| `null`\>
 
-Defined in: [SoundCloud.ts:262](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L262)
+Defined in: [SoundCloud.ts:265](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L265)
 
 #### Parameters
 
@@ -488,7 +520,7 @@ Defined in: [SoundCloud.ts:262](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getStreamingUrl**(`transcodingUrl`): `Promise`\<`string` \| `null`\>
 
-Defined in: [SoundCloud.ts:253](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L253)
+Defined in: [SoundCloud.ts:256](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L256)
 
 #### Parameters
 
@@ -510,7 +542,7 @@ Use getStreamingData() instead.
 
 > **getSystemPlaylist**(`id`): `Promise`\<[`SystemPlaylist`](SystemPlaylist.md) \| `null`\>
 
-Defined in: [SoundCloud.ts:178](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L178)
+Defined in: [SoundCloud.ts:181](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L181)
 
 #### Parameters
 
@@ -528,7 +560,7 @@ Defined in: [SoundCloud.ts:178](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getTopFeaturedTracks**(`options?`): `Promise`\<[`Collection`](Collection.md)\<[`Track`](Track.md)\>\>
 
-Defined in: [SoundCloud.ts:200](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L200)
+Defined in: [SoundCloud.ts:203](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L203)
 
 *********************************************************
 
@@ -548,7 +580,7 @@ Defined in: [SoundCloud.ts:200](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getTrack**(`id`): `Promise`\<[`Track`](Track.md) \| `null`\>
 
-Defined in: [SoundCloud.ts:243](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L243)
+Defined in: [SoundCloud.ts:246](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L246)
 
 #### Parameters
 
@@ -566,7 +598,7 @@ Defined in: [SoundCloud.ts:243](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getTracks**(`ids`): `Promise`\<[`Track`](Track.md)[]\>
 
-Defined in: [SoundCloud.ts:207](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L207)
+Defined in: [SoundCloud.ts:210](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L210)
 
 #### Parameters
 
@@ -584,7 +616,7 @@ Defined in: [SoundCloud.ts:207](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getTracksByUser**(`userId`, `options?`): `Promise`\<[`Collection`](Collection.md)\<[`Track`](Track.md)\>\>
 
-Defined in: [SoundCloud.ts:236](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L236)
+Defined in: [SoundCloud.ts:239](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L239)
 
 #### Parameters
 
@@ -606,7 +638,7 @@ Defined in: [SoundCloud.ts:236](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **getUser**(`id`): `Promise`\<[`User`](User.md) \| `null`\>
 
-Defined in: [SoundCloud.ts:291](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L291)
+Defined in: [SoundCloud.ts:294](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L294)
 
 *********************************************************
 
@@ -628,7 +660,7 @@ Defined in: [SoundCloud.ts:291](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **search**(`q`, `options`): `Promise`\<[`Collection`](Collection.md)\<[`Playlist`](Playlist.md)\>\>
 
-Defined in: [SoundCloud.ts:307](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L307)
+Defined in: [SoundCloud.ts:310](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L310)
 
 *********************************************************
 
@@ -650,7 +682,7 @@ Defined in: [SoundCloud.ts:307](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **search**(`q`, `options`): `Promise`\<[`Collection`](Collection.md)\<[`Album`](Album.md)\>\>
 
-Defined in: [SoundCloud.ts:308](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L308)
+Defined in: [SoundCloud.ts:311](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L311)
 
 *********************************************************
 
@@ -672,7 +704,7 @@ Defined in: [SoundCloud.ts:308](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **search**(`q`, `options`): `Promise`\<[`Collection`](Collection.md)\<[`Track`](Track.md)\>\>
 
-Defined in: [SoundCloud.ts:309](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L309)
+Defined in: [SoundCloud.ts:312](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L312)
 
 *********************************************************
 
@@ -694,7 +726,7 @@ Defined in: [SoundCloud.ts:309](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **search**(`q`, `options`): `Promise`\<[`Collection`](Collection.md)\<[`User`](User.md)\>\>
 
-Defined in: [SoundCloud.ts:310](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L310)
+Defined in: [SoundCloud.ts:313](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L313)
 
 *********************************************************
 
@@ -718,7 +750,7 @@ Defined in: [SoundCloud.ts:310](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **setAccessToken**(`value?`): `void`
 
-Defined in: [SoundCloud.ts:114](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L114)
+Defined in: [SoundCloud.ts:117](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L117)
 
 #### Parameters
 
@@ -736,7 +768,7 @@ Defined in: [SoundCloud.ts:114](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **setCookie**(`value?`): `void`
 
-Defined in: [SoundCloud.ts:123](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L123)
+Defined in: [SoundCloud.ts:126](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L126)
 
 #### Parameters
 
@@ -754,7 +786,7 @@ Defined in: [SoundCloud.ts:123](https://github.com/patrickkfkan/soundcloud-fetch
 
 > **setLocale**(`locale?`): `void`
 
-Defined in: [SoundCloud.ts:110](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L110)
+Defined in: [SoundCloud.ts:113](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L113)
 
 #### Parameters
 
@@ -772,7 +804,7 @@ Defined in: [SoundCloud.ts:110](https://github.com/patrickkfkan/soundcloud-fetch
 
 > `static` **generateClientId**(): `Promise`\<`string`\>
 
-Defined in: [SoundCloud.ts:102](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L102)
+Defined in: [SoundCloud.ts:105](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L105)
 
 #### Returns
 

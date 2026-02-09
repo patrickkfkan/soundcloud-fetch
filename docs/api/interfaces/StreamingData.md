@@ -6,7 +6,7 @@
 
 # Interface: StreamingData
 
-Defined in: [SoundCloud.ts:42](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L42)
+Defined in: [SoundCloud.ts:43](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L43)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [SoundCloud.ts:42](https://github.com/patrickkfkan/soundcloud-fetch/
 
 > `optional` **licenseAuthToken**: `string`
 
-Defined in: [SoundCloud.ts:44](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L44)
+Defined in: [SoundCloud.ts:45](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L45)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [SoundCloud.ts:44](https://github.com/patrickkfkan/soundcloud-fetch/
 
 > **url**: `string`
 
-Defined in: [SoundCloud.ts:43](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/SoundCloud.ts#L43)
+Defined in: [SoundCloud.ts:44](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/SoundCloud.ts#L44)

@@ -6,9 +6,9 @@
 
 # Function: getEntityClassByName()
 
-> **getEntityClassByName**(`name`): *typeof* [`Playlist`](../classes/Playlist.md) \| *typeof* [`User`](../classes/User.md) \| *typeof* [`Track`](../classes/Track.md) \| *typeof* [`Like`](../classes/Like.md) \| *typeof* [`SystemPlaylist`](../classes/SystemPlaylist.md) \| *typeof* [`Selection`](../classes/Selection.md) \| *typeof* [`PlayHistoryItem`](../classes/PlayHistoryItem.md) \| *typeof* [`LibraryItem`](../classes/LibraryItem.md) \| `null`
+> **getEntityClassByName**(`name`): *typeof* [`Playlist`](../classes/Playlist.md) \| *typeof* [`User`](../classes/User.md) \| *typeof* [`Track`](../classes/Track.md) \| *typeof* [`Like`](../classes/Like.md) \| *typeof* [`SystemPlaylist`](../classes/SystemPlaylist.md) \| *typeof* [`Selection`](../classes/Selection.md) \| *typeof* [`PlayHistoryItem`](../classes/PlayHistoryItem.md) \| *typeof* [`LibraryItem`](../classes/LibraryItem.md) \| *typeof* [`FeedItem`](../classes/FeedItem.md) \| `null`
 
-Defined in: [utils/EntityTypes.ts:59](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/utils/EntityTypes.ts#L59)
+Defined in: [utils/EntityTypes.ts:62](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/utils/EntityTypes.ts#L62)
 
 ## Parameters
 
@@ -18,4 +18,4 @@ Defined in: [utils/EntityTypes.ts:59](https://github.com/patrickkfkan/soundcloud
 
 ## Returns
 
-*typeof* [`Playlist`](../classes/Playlist.md) \| *typeof* [`User`](../classes/User.md) \| *typeof* [`Track`](../classes/Track.md) \| *typeof* [`Like`](../classes/Like.md) \| *typeof* [`SystemPlaylist`](../classes/SystemPlaylist.md) \| *typeof* [`Selection`](../classes/Selection.md) \| *typeof* [`PlayHistoryItem`](../classes/PlayHistoryItem.md) \| *typeof* [`LibraryItem`](../classes/LibraryItem.md) \| `null`
+*typeof* [`Playlist`](../classes/Playlist.md) \| *typeof* [`User`](../classes/User.md) \| *typeof* [`Track`](../classes/Track.md) \| *typeof* [`Like`](../classes/Like.md) \| *typeof* [`SystemPlaylist`](../classes/SystemPlaylist.md) \| *typeof* [`Selection`](../classes/Selection.md) \| *typeof* [`PlayHistoryItem`](../classes/PlayHistoryItem.md) \| *typeof* [`LibraryItem`](../classes/LibraryItem.md) \| *typeof* [`FeedItem`](../classes/FeedItem.md) \| `null`

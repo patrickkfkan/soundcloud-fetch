@@ -8,7 +8,7 @@
 
 > **CollectionOptions**\<`T`\> = \{ `asType?`: `undefined`; `requireTypes?`: [`EntityClasses`](EntityClasses.md)\<`T`\>; \} \| \{ `asType`: [`EntityConstructor`](../interfaces/EntityConstructor.md)\<`T`\>; `requireTypes?`: `undefined`; \}
 
-Defined in: [collections/Collection.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/4e0fd651895297cb1301f95b43b08cda5fccb4aa/src/lib/collections/Collection.ts#L6)
+Defined in: [collections/Collection.ts:6](https://github.com/patrickkfkan/soundcloud-fetch/blob/aa0eb85d9df194218c29c70f037e8435822f3287/src/lib/collections/Collection.ts#L6)
 
 ## Type Parameters
 
