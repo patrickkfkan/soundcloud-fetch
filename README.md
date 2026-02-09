@@ -665,6 +665,13 @@ In the above example, `getContinuation()` returns another instance of `Collectio
 
 # Changelog
 
+1.2.0:
+- Improve image URL generation.
+- Add `getStreamingData()`; deprecate `getStreamingUrl()`.
+- Add option to set `cookie` instead of access token — required for `addToPlayHistory()` to work fully.
+- Fix `addToPlayHistory()` failing to add tracks (requires setting `cookie`).
+- Add `getFeed()`
+
 1.1.0:
 - Add `getCharts()`
 - Require Node.js >=20
