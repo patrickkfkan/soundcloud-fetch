@@ -19,6 +19,7 @@ import type CollectionContinuation from './collections/CollectionContinuation.js
 import { getSoundCloudClientId } from './utils/SoundCloudKey.js';
 import { EventContext, sendPlayTrackEvent } from './utils/EventTracking.js';
 import { parseCookie } from 'cookie';
+import FeedItem, { type FeedActivityType } from './entities/FeedItem.js';
 
 export type SoundCloudInitArgs = {
   clientId?: string;
@@ -48,6 +49,7 @@ export default class SoundCloud {
 
   me: {
     getProfile: SoundCloud['getMyProfile'];
+    getFeed: SoundCloud['getFeed'];
     getPlayHistory: SoundCloud['getPlayHistory'];
     getLibraryItems: SoundCloud['getLibraryItems'];
     getLikes: SoundCloud['getMyLikes'];
@@ -78,6 +80,7 @@ export default class SoundCloud {
 
     this.me = {
       getProfile: this.getMyProfile.bind(this),
+      getFeed: this.getFeed.bind(this),
       getPlayHistory: this.getPlayHistory.bind(this),
       getLibraryItems: this.getLibraryItems.bind(this),
       getLikes: this.getMyLikes.bind(this),
@@ -362,6 +365,17 @@ export default class SoundCloud {
     if (!this.#accessToken) {
       throw new Error('Access token not provided');
     }
+  }
+
+  protected async getFeed(options?: GetCollectionOptions & { activityTypes?: FeedActivityType[] }) {
+    this.#ensureAccessToken();
+    const activityTypes = options?.activityTypes ?? ['TrackPost', 'TrackRepost', 'PlaylistPost'];
+    const params = await this.#getCommonParams(options);
+    params.activityTypes = activityTypes.join(',');
+    params.promoted_playlist = 'true';
+    const endpoint = '/stream';
+
+    return this.#fetchCollection(endpoint, params, {asType: FeedItem});
   }
 
   protected async getPlayHistory(options: GetCollectionOptions & {type: 'track' | 'set'}) {

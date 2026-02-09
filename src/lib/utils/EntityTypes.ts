@@ -7,6 +7,7 @@ import User from '../entities/User.js';
 import PlayHistoryItem from '../entities/PlayHistoryItem.js';
 import LibraryItem from '../entities/LibraryItem.js';
 import Like from '../entities/Like.js';
+import FeedItem from '../entities/FeedItem.js';
 
 export type EntityType =
     Album |
@@ -17,7 +18,8 @@ export type EntityType =
     User |
     Like |
     PlayHistoryItem |
-    LibraryItem;
+    LibraryItem |
+    FeedItem;
 
 export interface EntityConstructor<T extends EntityType> {
   new (...args: any): T;
@@ -42,7 +44,8 @@ function getEntityClassMap() {
     'User': User,
     'Like': Like,
     'PlayHistoryItem': PlayHistoryItem,
-    'LibraryItem': LibraryItem
+    'LibraryItem': LibraryItem,
+    'FeedItem': FeedItem
   };
 }
 
